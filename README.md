@@ -1,19 +1,14 @@
-# DL-G1-Grasp — humanoid whole-hand grasping in MuJoCo: experiments, data and how to reproduce the checks
+# DL-G1-Grasp — humanoid whole-hand grasping in MuJoCo
 
-Arm priors from motion generation (KIMODO / ARDY) are closed in simulation by the SONIC v1.1 policy
-with **every finger inside the physics**: a Unitree G1 with a 3-finger hand lifts free cubes of 35 mm
-and 80 mm off a table, and each attempt is recorded against an explicit gate set.
-This repo is a mirror of those runs on a shared research node - code, configs, MJCF, inputs, and
-machine-readable results - with **model weights and vendor SDKs deliberately left out**.
+This repository contains the code of grasping schemes that succeeded, together with everything needed
+to check and repeat them. An arm prior from motion generation (KIMODO / ARDY) is closed in simulation
+by the SONIC v1.1 policy with **every finger inside the physics**: a Unitree G1 with a 3-finger hand
+lifts free cubes of 35 mm and 80 mm off a table, and each attempt is recorded against an explicit gate
+set. For each scheme you get the simulation scenes (MJCF), the run inputs, the machine-readable results
+(`result.json` per cell), and step-by-step reproduction instructions in §3.
 
-Status: snapshot, not under active development. Two views of the same material exist:
-
-| Repo | What it is for |
-|---|---|
-| **DL-G1-Grasp** (this one) | readable layout, English docs, everything hash-verified |
-| `DL-G1` | the byte-for-byte mirror: top-level directories keep their source task-card names and internal paths, so artefacts still agree with the paths written inside `result.json` |
-
-`docs/RUN_MAP.md` maps one to the other.
+Model weights and vendor SDKs are not part of the repo; anything else a run needs is registered with
+its sha256 in [`ASSETS-MANIFEST.tsv`](ASSETS-MANIFEST.tsv) - see §5.
 
 ---
 
@@ -65,7 +60,7 @@ constraint without touching it, and those numbers are kept here only as history.
 │   ├── RUN_MAP.md                new path  <->  source task-card path
 │   ├── TROUBLESHOOTING.md        symptoms and minimal fixes
 │   ├── EXCLUSIONS.md             what is left out and why
-│   ├── ATTRIBUTION.md            who ran each experiment (read from the node's own claim cards)
+│   ├── ATTRIBUTION.md            who ran each experiment
 │   └── THIRD_PARTY.md            upstream repositories, pinned commits, licences
 ├── src/
 │   └── sonic_v11_runtime/        shared code imported by three runs (encoder wrapper, motion input,
@@ -185,7 +180,7 @@ sha256: 06bdefb69b1420cd0a42bb8eff2b09d30758df0c145e2810832c511490c467ea
 This repo's own code and data are released under the [MIT License](LICENSE).
 Third-party components (SONIC, KIMODO, ARDY, Unitree G1 assets, ...) keep their own terms and are
 pinned in [docs/THIRD_PARTY.md](docs/THIRD_PARTY.md); they are not redistributed here.
-Experiment ownership is copied verbatim from the run claim cards, with no inference or merging, in
+Experiment ownership is listed per run, with no inference or merging, in
 [docs/ATTRIBUTION.md](docs/ATTRIBUTION.md).
 
 ## 7. Questions
