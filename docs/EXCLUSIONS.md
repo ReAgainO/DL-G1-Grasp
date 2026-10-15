@@ -10,7 +10,7 @@ or raw per-run evidence too large or too sensitive to publish.
 | Class | Scale | Reason | Recovery route |
 |---|---|---|---|
 | Policy weights | `model_decoder.onnx` 149,778,638 B (recorded by sha 4,022 times across the batch cells) | weight class, and above GitHub's 100 MiB hard file limit | upstream `nvidia/GEAR-SONIC`, then verify sha |
-| Robot mesh assets | 60 STL, 33,319,908 B; 50 of them have recorded hashes in `experiments/batch_wholehand_360/model-assets.json` | upstream model assets; whether they may be redistributed with a reproduction package is an open group decision | copy from the internal node (the only byte-exact route) |
+| Robot mesh assets | 60 STL, 33,319,908 B; 50 of them have recorded hashes in `experiments/batch_wholehand_360/model-assets.json` | upstream model assets; not redistributed here | copy from the internal node (the only byte-exact route) |
 | Per-run arrays and video | `trajectory.npz`, `dense_trace.npz` (~14 MB each), replay mp4 per cell | size; raw evidence streams are not published | rsync by cell name; verify against `ASSETS-MANIFEST.tsv` |
 | Environments and vendored deps | shared venv, `pydeps/`, `uv-cache/`, site-packages | belong to other tasks; not repo content | `requirements.txt` |
 | Vendor SDK / MUSA stack | `musa_rootfs` (~23 GB), probe extracts | not redistributable | vendor channels |
@@ -25,10 +25,8 @@ files refer to it, and its status. `python tools/verify_repo.py` asserts this co
 ## Large evidence bundle
 
 `hand-jitter-evidence.tar.gz`, 635,107,405 B, sha256
-`06bdefb69b1420cd0a42bb8eff2b09d30758df0c145e2810832c511490c467ea`, is distributed as a GitHub Release
-asset rather than a tracked file. Release assets cannot be fetched with a deploy key (Git protocol only),
-so retrieval needs a token with `Contents: read` or the web UI. Verify the sha256 of whatever you download
-before using it.
+`06bdefb69b1420cd0a42bb8eff2b09d30758df0c145e2810832c511490c467ea`, is attached to a GitHub Release of
+this repository rather than tracked in git. Verify the sha256 of whatever you download before using it.
 
 ## Security posture
 

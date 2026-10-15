@@ -25,5 +25,5 @@ announced with a per-card notice describing exactly what was and was not taken a
 asking for removal should cite the path as listed in `EXPORT-MANIFEST.tsv`, and the response is an
 append-only note plus a re-export - published history is never rewritten.
 
-Licence for our own code is **pending a group decision**; until then no licence is granted. See
-`docs/THIRD_PARTY.md` for upstream terms.
+This repo is licensed under the MIT License (see `LICENSE` at the repository root). Third-party
+components keep their own terms - see `docs/THIRD_PARTY.md`.
