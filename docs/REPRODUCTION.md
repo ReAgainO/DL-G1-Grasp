@@ -81,8 +81,9 @@ Same shape for the other three headline cells; `tools/verify_repo.py` already as
 ## 6. What tier 3 needs, item by item
 
 1. `model_decoder.onnx` 149,778,638 B, sha `34bae857...`: `sonic_v11.py:84` constructs the model and
-   exits without it. Above GitHub's 100 MiB per-file limit and a weight, so fetch it from upstream
-   `nvidia/GEAR-SONIC` and verify the sha (registered in `ASSETS-MANIFEST.tsv`).
+   exits without it. It is a weight published by NVIDIA, so it is not hosted here (nor in a Release) -
+   download it from [https://huggingface.co/nvidia/GEAR-SONIC](https://huggingface.co/nvidia/GEAR-SONIC) (the GR00T-WholeBodyControl repo's `download_from_hf.py --sonic-v1-1`
+   does the same) and verify the sha256, which is registered in `ASSETS-MANIFEST.tsv`.
 2. G1 meshes: **included in this repo** - 60 STL, 33.3 MB at `src/sonic_v11_runtime/src/g1/meshes/`;
    50 of them match the hashes recorded in `model-assets.json` byte for byte. For reference, the public
    `mujoco_menagerie` copy matches only 29/50 (`tools/mesh_source_comparison.tsv`) - which is why the

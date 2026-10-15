@@ -138,7 +138,7 @@ Two things are not in the repo:
 
 | Missing | Size | Where to get it |
 |---|---|---|
-| `model_decoder.onnx` | 149,778,638 B | above GitHub's 100 MiB per-file limit; upstream `nvidia/GEAR-SONIC`, sha registered in `ASSETS-MANIFEST.tsv` |
+| `model_decoder.onnx` | 149,778,638 B | published upstream: [https://huggingface.co/nvidia/GEAR-SONIC](https://huggingface.co/nvidia/GEAR-SONIC) - fetch from there and verify sha256 `34bae857...` (registered in `ASSETS-MANIFEST.tsv`) |
 | the Python environment of the original runs | - | python 3.10 + mujoco 3.2.7 etc. via `requirements.txt`; the batch scheduler additionally asserts node-only conditions - use the per-cell entry instead |
 
 The Unitree G1 meshes (60 STL, 33.3 MB) **are included** at `src/sonic_v11_runtime/src/g1/meshes/`
