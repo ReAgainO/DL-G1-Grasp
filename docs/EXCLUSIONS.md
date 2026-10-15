@@ -9,7 +9,7 @@ or raw per-run evidence too large or too sensitive to publish.
 
 | Class | Scale | Reason | Recovery route |
 |---|---|---|---|
-| Policy weights | `model_decoder.onnx` 149,778,638 B (recorded by sha 4,022 times across the batch cells) | weight class, and above GitHub's 100 MiB hard file limit | upstream `nvidia/GEAR-SONIC`, then verify sha |
+| Policy weights | `model_decoder.onnx` 149,778,638 B (recorded by sha 4,022 times across the batch cells) | weight class, above GitHub's 100 MiB hard file limit, and published upstream - no need to mirror | [huggingface.co/nvidia/GEAR-SONIC](https://huggingface.co/nvidia/GEAR-SONIC), then verify sha |
 | Per-run arrays and video | `trajectory.npz`, `dense_trace.npz` (~14 MB each), replay mp4 per cell | size; raw evidence streams are not published | rsync by cell name; verify against `ASSETS-MANIFEST.tsv` |
 | Environments and vendored deps | shared venv, `pydeps/`, `uv-cache/`, site-packages | belong to other tasks; not repo content | `requirements.txt` |
 | Vendor SDK / MUSA stack | `musa_rootfs` (~23 GB), probe extracts | not redistributable | vendor channels |

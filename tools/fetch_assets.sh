@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# fetch_assets.sh — how to obtain the artefacts that a physics rerun requires but this repo does not carry,
-# and the mandatory byte check after you obtain them. This script itself only verifies; it never downloads.
+# fetch_assets.sh — how to obtain the artefacts a physics rerun needs but this repo does not carry,
+# and the mandatory byte check afterwards. This script only verifies; it never downloads.
 #
 # What is missing and why
-#   model_decoder.onnx   149,778,638 B   weight + above GitHub's 100 MiB per-file limit
+#   model_decoder.onnx   149,778,638 B   weight; published upstream (see Route 0) - do not mirror
 #   per-run arrays/video trajectory.npz, dense_trace.npz (~14 MB each), replay mp4
 #     (only needed to re-derive per-frame gate criteria of a recorded run; a rerun makes its own)
 # The Unitree G1 meshes are NOW IN THIS REPO (src/sonic_v11_runtime/src/g1/meshes).
@@ -13,19 +13,18 @@ set -uo pipefail
 cd "$(dirname "$0")/.."
 [ -f ASSETS-MANIFEST.tsv ] || { echo "ASSETS-MANIFEST.tsv missing - pull first"; exit 2; }
 
-# Route A (the only route that matches every byte): copy from the internal node, e.g.
-#   rsync -a --progress <NODE>:/<run-root>/src/sonic_v11_runtime/g1/meshes/ src/sonic_v11_runtime/g1/meshes/
+# Route 0 (preferred, for the decoder): it is published by NVIDIA - download from the official page
+#   https://huggingface.co/nvidia/GEAR-SONIC
+#   (the GR00T-WholeBodyControl repo's download_from_hf.py --sonic-v1-1 fetches the same files),
+#   place it at src/sonic_v11_runtime/sonic_v11/model_decoder.onnx, then verify sha256 34bae857...
+#
+# Route A (byte-exact fallback, from the internal node), e.g.
 #   rsync -a --progress <NODE>:/<run-root>/src/sonic_v11_runtime/sonic_v11/model_decoder.onnx \
 #           src/sonic_v11_runtime/sonic_v11/
 # Host names and credentials are intentionally not stored in this repo.
 #
-# Route B (public mirror, known to be partial): see tools/mesh_source_comparison.tsv
-#   measured against the 50 mesh hashes recorded in experiments/batch_wholehand_360/model-assets.json:
-#   MATCH 29 / DIFFER 17 / NOT PRESENT 4. The differing files are the hand and head collision meshes,
-#   i.e. exactly the geometry that carries contact - a substituted mesh changes the physics. Do not use them.
-#
-# Route C (GitHub Release assets, e.g. the 635 MB jitter bundle): a deploy key cannot fetch release
-#   assets (Git protocol only); use a token with Contents:read:
+# Route B (GitHub Release assets, e.g. the 635 MB jitter bundle): release assets are REST, not git -
+#   a token with Contents:read or the web UI:
 #   curl -sSL --fail --retry 3 -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/octet-stream" \
 #        "https://api.github.com/repos/<OWNER>/<REPO>/releases/assets/<ASSET_ID>" -o hand-jitter-evidence.tar.gz
 
@@ -53,4 +52,4 @@ for r in rows:
 PY
 echo
 echo "Mesh-specific check (recommended instead of eyeballing):"
-echo "  python tools/verify_repo.py --meshes src/sonic_v11_runtime/g1/meshes"
+echo "  python tools/verify_repo.py --meshes src/sonic_v11_runtime/src/g1/meshes"
