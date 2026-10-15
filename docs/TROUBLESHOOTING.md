@@ -67,8 +67,9 @@ This repo does not use Git LFS, so pointer files cannot occur here. Compare agai
 `EXPORT-MANIFEST.tsv` column 4 (sha256) rather than trusting size - and re-run `verify_repo.py --full`.
 
 **Release asset download returns 404/401**
-A deploy key authenticates the Git protocol only; release assets are REST. Use a token with
-`Contents: read`, or download in the web UI.
+Release assets are served over the REST API and need a token (fine-grained PAT with `Contents: read`,
+or a classic PAT with `repo`), or the web UI - a read-only SSH deploy key is not accepted for them.
+After downloading, compare sha256 against the value in `docs/EXCLUSIONS.md`.
 
 **Chinese-named files disappear from `git ls-files` output, or a tar list blows up**
 `git -c core.quotepath=off ls-files -z` and `tar --null --files-from` with a NUL-separated list. Feeding

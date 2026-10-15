@@ -168,20 +168,25 @@ Each gate count is a different standard (20, 21, 22 and the 12/13/16/17 `wholeha
 and MuJoCo 3.2.7 and 3.14.0 both appear - so these numbers are not one leaderboard. See
 `docs/EXPERIMENTS.md` for the reading rules.
 
-## 5. Deliberately not in this repo
+## 5. Not included, and where to get it
 
-Weights, vendor SDKs, virtual environments, upstream third-party sources and raw per-run evidence.
-They are registered with sha256 and location in `ASSETS-MANIFEST.tsv` / `docs/EXCLUSIONS.md`, never
-carried here. The 635 MB jitter bundle is distributed as a GitHub Release asset; a deploy key cannot
-download release assets, so that route needs a token with `Contents: read`.
+Model weights, vendor SDKs, virtual environments, upstream third-party sources and raw per-run
+evidence are not part of this repo. Every artefact that a run references by sha256 is registered in
+[`ASSETS-MANIFEST.tsv`](ASSETS-MANIFEST.tsv) with its hash, size and source location, and details are
+in [docs/EXCLUSIONS.md](docs/EXCLUSIONS.md). The large jitter-evidence bundle is attached to a GitHub
+Release of this repo as `hand-jitter-evidence.tar.gz` - after downloading, verify
+
+```
+sha256: 06bdefb69b1420cd0a42bb8eff2b09d30758df0c145e2810832c511490c467ea
+```
 
 ## 6. Licence and attribution
 
-Source licence is **not yet decided** by the group; until then this repository grants no licence
-("all rights reserved"). Upstream components are recorded with pinned commits only, in
-`docs/THIRD_PARTY.md` - including whether they may be redistributed with a reproduction package,
-which is an open group decision. Experiment ownership is copied verbatim from the node's own claim
-cards, with no inference or merging, in `docs/ATTRIBUTION.md`.
+This repo's own code and data are released under the [MIT License](LICENSE).
+Third-party components (SONIC, KIMODO, ARDY, Unitree G1 assets, ...) keep their own terms and are
+pinned in [docs/THIRD_PARTY.md](docs/THIRD_PARTY.md); they are not redistributed here.
+Experiment ownership is copied verbatim from the run claim cards, with no inference or merging, in
+[docs/ATTRIBUTION.md](docs/ATTRIBUTION.md).
 
 ## 7. Questions
 

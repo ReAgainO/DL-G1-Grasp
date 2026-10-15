@@ -13,6 +13,5 @@ official source. Where a licence's redistribution terms are unclear, the compone
 | `ARISE-Initiative/robosuite`, `google-deepmind/dm_control` | precedent only for contact parameters (friction, `solref`, `condim` values quoted in configs) | MIT / Apache-2.0 | dm_control asks for a prominent notice on modified files |
 | MUSA SDK / vLLM-MUSA images | not used by any run in this repo (everything recorded here is CPU MuJoCo) | not redistributable | only the load-stage manifest is mirrored, in `refs/from_shared_tree/images/` |
 
-If this repo ever becomes public, `LICENSE` must be added and every row above re-checked file by file -
-clauses such as "non-commercial" do not have an authoritative reading for whether a private mirror counts
-as distribution, which is why the conservative default here is "do not ship it".
+Our own code and data are MIT-licensed (see `LICENSE`). Every upstream component above stays out of
+this repository unless its licence clearly allows redistribution; the table records where each one lives.
