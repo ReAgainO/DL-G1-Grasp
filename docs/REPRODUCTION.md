@@ -78,29 +78,33 @@ PY
 
 Same shape for the other three headline cells; `tools/verify_repo.py` already asserts all 14 of them.
 
-## 6. What stops tier 3, item by item
+## 6. What tier 3 needs, item by item
 
-1. `model_decoder.onnx` 149,778,638 B, sha `34bae857...`: `sonic_v11.py:84` constructs the model and dies
-   without it. Over GitHub's 100 MiB file limit and a weight, so it is registered in `ASSETS-MANIFEST.tsv`.
-2. G1 meshes: 60 STL, 33,319,908 B. `model-assets.json` records 50 of them. Measured against the public
-   `mujoco_menagerie` copy: **29 match, 17 differ, 4 absent** (`tools/mesh_source_comparison.tsv`).
-   The differing files are the hand/head collision meshes, i.e. the geometry that carries contact.
-3. `meshdir=/…/g1/meshes` is absolute in 79 MJCF files. Fixing the path changes the file hash, and the
-   runs assert `runtime_stamp.model_sha` - so an edited scene is a different run, not a reproduction.
+1. `model_decoder.onnx` 149,778,638 B, sha `34bae857...`: `sonic_v11.py:84` constructs the model and
+   exits without it. Above GitHub's 100 MiB per-file limit and a weight, so fetch it from upstream
+   `nvidia/GEAR-SONIC` and verify the sha (registered in `ASSETS-MANIFEST.tsv`).
+2. G1 meshes: **included in this repo** - 60 STL, 33.3 MB at `src/sonic_v11_runtime/src/g1/meshes/`;
+   50 of them match the hashes recorded in `model-assets.json` byte for byte. For reference, the public
+   `mujoco_menagerie` copy matches only 29/50 (`tools/mesh_source_comparison.tsv`) - which is why the
+   original bytes are shipped.
+3. `meshdir=/…/g1/meshes` is absolute in the recorded MJCF files. Run `python tools/fix_meshdir.py
+   --write` once to repoint every affected scene at the in-repo copy; the tool prints each file's
+   before/after hash. A repointed scene is a rerun of the scheme, not a byte-identical replay of a
+   recorded run (`runtime_stamp.model_sha` refers to the original bytes).
 4. Node-only guards in `batch_runner.py`: rules-file hash assertion, `taskset` CPU pins 80-95,
    `>30 GiB` free space, `MUJOCO_GL=osmesa` plus an `LD_LIBRARY_PATH` into a task-specific OSMesa dir,
    `RLIMIT_AS` 4 GiB. On another machine, use the per-cell entry point instead of the scheduler.
-5. Per-cell arrays (`trajectory.npz`, `dense_trace.npz`, ~14 MB each) are absent, so the per-frame
-   evaluation of each gate cannot be recomputed here - only the recorded aggregates.
+5. Per-cell arrays (`trajectory.npz`, `dense_trace.npz`, ~14 MB each) are not shipped. They are only
+   needed to independently re-derive the per-frame gate criteria of a *recorded* run; a rerun produces
+   its own arrays, and the recorded aggregates in `result.json` are checkable without them.
 6. `cube35_wholehand_trial32` additionally needs a chain of `profile.npz` files, and its reader asserts
    the exact hash of those files; rebuilding them from the CSV sidecar would not satisfy the assertion.
 7. `kimodo_closed_loop_best`: `harness_s1000/` reached this repo as 2 files; the deliverable
    `scene.xml`, `raw/` cells and `.flags_flat` for that harness are absent. Its results are verifiable,
-   the harness is not re-runnable from here.
+   that particular harness is not re-runnable from here.
 
-**Therefore**: tier 3 means restoring the original layout on the original machine (or an identical
-one) using `tools/fetch_assets.sh` plus `docs/RUN_MAP.md`. Anyone claiming "clone and run" for these
-grasps is overstating it.
+**Therefore**: fetch the decoder, install `requirements.txt`, run `tools/fix_meshdir.py --write` once,
+use the per-cell entry points - then tier 3 runs on any machine meeting the resource conditions above.
 
 ## 7. Claims that are intentionally not restated as results
 

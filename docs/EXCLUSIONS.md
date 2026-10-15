@@ -1,6 +1,6 @@
 # What is not in this repo, and how to get it
 
-The rule behind the mirror: keep everything that *defines* an experiment (code, configs, MJCF,
+The rule behind this repo: keep everything that *defines* an experiment (code, configs, MJCF, meshes,
 recorded inputs, machine-readable results, method write-ups); leave out everything that is a
 *distributable product of someone else* (weights, vendor SDKs, virtual environments, upstream repos)
 or raw per-run evidence too large or too sensitive to publish.
@@ -10,7 +10,6 @@ or raw per-run evidence too large or too sensitive to publish.
 | Class | Scale | Reason | Recovery route |
 |---|---|---|---|
 | Policy weights | `model_decoder.onnx` 149,778,638 B (recorded by sha 4,022 times across the batch cells) | weight class, and above GitHub's 100 MiB hard file limit | upstream `nvidia/GEAR-SONIC`, then verify sha |
-| Robot mesh assets | 60 STL, 33,319,908 B; 50 of them have recorded hashes in `experiments/batch_wholehand_360/model-assets.json` | upstream model assets; not redistributed here | copy from the internal node (the only byte-exact route) |
 | Per-run arrays and video | `trajectory.npz`, `dense_trace.npz` (~14 MB each), replay mp4 per cell | size; raw evidence streams are not published | rsync by cell name; verify against `ASSETS-MANIFEST.tsv` |
 | Environments and vendored deps | shared venv, `pydeps/`, `uv-cache/`, site-packages | belong to other tasks; not repo content | `requirements.txt` |
 | Vendor SDK / MUSA stack | `musa_rootfs` (~23 GB), probe extracts | not redistributable | vendor channels |

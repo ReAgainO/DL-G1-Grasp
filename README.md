@@ -132,21 +132,21 @@ That difference is exactly the seven cells whose `result.json` no longer exists 
 other disagreement, and all 353 shared rows hash-match. The pool of 360 configurations can be
 regenerated bit-for-bit with `make_trials.py` plus seeds `20261009` / `20261010` and numpy 1.26.4.
 
-### Tier 3 - rerun the physics (this does **not** work from a clone alone)
+### Tier 3 - rerun the physics
 
-Three classes of artefacts are required and not shipped, each registered in `ASSETS-MANIFEST.tsv`:
+Two things are not in the repo:
 
-| Missing | Size | Why not here |
+| Missing | Size | Where to get it |
 |---|---|---|
-| `model_decoder.onnx` | 149,778,638 B | weight, and above GitHub's 100 MiB hard limit; upstream `nvidia/GEAR-SONIC` |
-| Unitree G1 meshes (60 STL) | 33,319,908 B | upstream model assets; the public mirror reproduces only 29 of the 50 recorded hashes |
-| per-cell `trajectory.npz`, `dense_trace.npz`, replay mp4 | ~14 MB each, GB in total | size and raw-evidence policy |
+| `model_decoder.onnx` | 149,778,638 B | above GitHub's 100 MiB per-file limit; upstream `nvidia/GEAR-SONIC`, sha registered in `ASSETS-MANIFEST.tsv` |
+| the Python environment of the original runs | - | python 3.10 + mujoco 3.2.7 etc. via `requirements.txt`; the batch scheduler additionally asserts node-only conditions - use the per-cell entry instead |
 
-On top of that, MJCF files reference the meshes by absolute source-node paths, and the batch scheduler
-asserts node conditions (rules-file hash, CPU pins 80-95, >30 GiB free, OSMesa library path).
-So a genuine rerun means restoring the original layout and paths - `tools/fetch_assets.sh` and
-`docs/REPRODUCTION.md` §6 give the exact route. **The honest claim of this repo is: the conclusions and
-the data can be verified here; the physics cannot be re-executed here.**
+The Unitree G1 meshes (60 STL, 33.3 MB) **are included** at `src/sonic_v11_runtime/src/g1/meshes/`
+(50 of them sha-verified against `experiments/batch_wholehand_360/model-assets.json`). MJCF files
+reference meshes by absolute source-machine paths; `python tools/fix_meshdir.py` repoints all affected
+scenes at the in-repo copy and prints the before/after hashes - a repointed scene is a rerun, not a
+byte-identical replay of the recorded one. With the decoder fetched and the environment installed,
+the physics runs; the recorded results can already be checked without any of this (tier 1-2).
 
 ## 4. Results worth quoting, with their source
 

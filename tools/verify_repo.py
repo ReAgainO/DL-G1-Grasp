@@ -214,8 +214,17 @@ if meshes:
     if hit != len(want):
         fails.append("assets: mesh bytes differ from those recorded at run time")
 else:
-    say("assets", "meshes/decoder are not in this repo (see ASSETS-MANIFEST.tsv). Public mujoco_menagerie reproduces"
-        " only 29 of the 50 recorded mesh bytes -> fetch the originals before claiming a physics rerun.")
+    mdir = os.path.join(ROOT, "src", "sonic_v11_runtime", "src", "g1", "meshes")
+    if os.path.isfile(mfile):
+        want = json.load(open(mfile, encoding="utf-8"))
+        hit = sum(1 for k, h in want.items()
+                  if os.path.isfile(os.path.join(mdir, os.path.basename(k)))
+                  and sha256(os.path.join(mdir, os.path.basename(k))) == h)
+        say("assets", "in-repo meshes: %d/%d recorded hashes match src/sonic_v11_runtime/src/g1/meshes" % (hit, len(want)))
+        if hit != len(want):
+            fails.append("assets: in-repo meshes do not match the recorded hashes")
+    else:
+        say("assets", "no model-assets.json found; meshes dir present=%s" % os.path.isdir(mdir))
 
 print()
 if fails:

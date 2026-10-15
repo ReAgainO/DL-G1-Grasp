@@ -3,11 +3,12 @@
 # and the mandatory byte check after you obtain them. This script itself only verifies; it never downloads.
 #
 # What is missing and why
-#   model_decoder.onnx   149,778,638 B   weight + above GitHub's 100 MiB hard limit
-#   Unitree G1 meshes    60 STL, 33,319,908 B   upstream model assets; redistribution needs a group decision
-#   per-run arrays/video trajectory.npz, dense_trace.npz (~14 MB each), replay mp4   size and privacy
-# Every one of them is listed row by row in ASSETS-MANIFEST.tsv (sha256 / bytes / source path / which field
-# recorded it / how many times).
+#   model_decoder.onnx   149,778,638 B   weight + above GitHub's 100 MiB per-file limit
+#   per-run arrays/video trajectory.npz, dense_trace.npz (~14 MB each), replay mp4
+#     (only needed to re-derive per-frame gate criteria of a recorded run; a rerun makes its own)
+# The Unitree G1 meshes are NOW IN THIS REPO (src/sonic_v11_runtime/src/g1/meshes).
+# Everything else is listed row by row in ASSETS-MANIFEST.tsv (sha256 / bytes / source path /
+# which field recorded it / how many times).
 set -uo pipefail
 cd "$(dirname "$0")/.."
 [ -f ASSETS-MANIFEST.tsv ] || { echo "ASSETS-MANIFEST.tsv missing - pull first"; exit 2; }
