@@ -46,6 +46,88 @@ A grasp counts as successful only if the cube is held by **friction on the finge
 is free and there is no pedestal - earlier weld-based rigs were shown to lift the cube by equality
 constraint without touching it, and those numbers are kept here only as history.
 
+### 1.1 ARDY whole-hand chain, 35 mm (`cube35_wholehand_trial32`)
+
+```
+ text prompt
+     v
+ ARDY motion generation (outputs 148-dim tokens)
+     v
+ decode to body29 reference -> geometric/safety repair -> wrist task IK -> C2 full29 filter
+     v
+ +-----------------------------------------------------------+
+ | SONIC v1.1 policy (encoder ONNX in repo)                  |
+ |   writes body only: ctrl[0:29] torso+arm torques @500 Hz  |
+ +-----------------------------------------------------------+
+ +-----------------------------------------------------------+
+ | independent hand controller (not via SONIC):              |
+ |   grasp geometry plan surface_exec25_plan.json            |
+ |     (wrist_target / wrist_R / open-hand pose)             |
+ |   -> MaterialHand22 solver + GripForce26 grip-force loop  |
+ |   + finger_control / stable_hand                          |
+ |   -> ctrl[36:43] right-hand 7 torques; left 7 = rest PD   |
+ +-----------------------------------------------------------+
+     v
+ MuJoCo 3.2.7 (nu=43, free base, free 35 mm cube, dt=2 ms)
+     v
+ gate set v6 (22 gates) -> result.json (trial32: success=true, all green)
+```
+Source: `rep/normal_runner32.py` (header: "All body targets from SONIC") and the runtime_stamp field
+`ardy_use`: "Raw ARDY token148 is decoded, not passed as SONIC token64".
+
+### 1.2 ARDY whole-hand chain, 80 mm and the 360-cell batch
+
+```
+ text prompt
+     v
+ ARDY motion generation -> right-arm frame prior (near_s42.npz, in repo)
+     v
+ +-----------------------------------------------------------+
+ | reference-frame wrist IK + bounded geometry search         |
+ | (wholehand_side.py: hull clearances / contact checks       |
+ |  + calibration npz -> plan.json, open-hand pose)           |
+ +-----------------------------------------------------------+
+     | arm/body reference            | finger target = closed fit of plan
+     v                               v
+ +---------------------------+  +------------------------------+
+ | SONIC v1.1 policy         |  | independent 7-joint finger PD|
+ | all29 decode              |  | kp=40 kd=2 armature=0.1      |
+ | -> ctrl[0:29] torso+arms  |  | -> ctrl[36:43] right hand    |
+ +---------------------------+  | -> ctrl[29:36] left = rest   |
+                                +------------------------------+
+     +------------------┴------------------+
+     v
+ MuJoCo 3.2.7 (free base, free cube) -> wholehand-v2 gates -> result.json
+```
+Source: `execute_side.py` header and stamp - "SONIC all29 decoded motor targets; independent
+seven-joint finger PD"; writes `d.ctrl[:29]=policy.torques(...)`, `d.ctrl[36:43]=...`.
+The 80 mm single cell and the 360-cell batch **share this skeleton** (the batch grids cube size /
+position / gains and changes seeds). It is **not** the same chain as 35 mm above: different reference
+path (decode-repair-IK-filter vs arm-prior+wrist-IK) and different hand controller (grip-force loop
+vs fixed-gain PD).
+
+### 1.3 KIMODO arm-prior closed loop (`kimodo_closed_loop_best`)
+
+```
+ text prompt
+     v
+ KIMODO motion generation (Kimodo-G1 weights; text-encoder preset injected at run time)
+     v
+ generated fragments -> converted to harness motion inputs (*_conv.npz, same family as ARDY priors)
+     v
+ +-----------------------------------------------------------+
+ | official SONIC S1000 grasp harness (sonic_grasp.py)       |
+ |   body: policy tracks the motion input -> torso+arm       |
+ |   fingers: geometric pinch re-location + IK -> finger PD  |
+ +-----------------------------------------------------------+
+     v
+ MuJoCo 3.2.7 (free base, no pedestal, free 35 mm cube)
+     v
+ gate set v5 (20 gates) -> result.json (wb_kimo_p6l1: 20/20 green)
+```
+Source: `harness_nat2/run_cell.sh` (`N1_MOTION_STEM` defaults to `near_s42`; cells pass
+`kimo_reach_s43`, `p1_conv`, ...).
+
 ## 2. Repository layout
 
 ```
