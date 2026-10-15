@@ -1,0 +1,4 @@
+kind,run_id,seed,prompt_id,cfg_text,vs,frames_used,dof_l2_mean_rad,dof_l2_max_rad,root_trans_l2_mean_m,root_trans_l2_max_m,root_quat_angle_mean_rad,root_quat_angle_max_rad
+prompt_effect,x01:m1_p2_s0_u,0,P2,2.0,x01:m1_p0_s0_u,100,0.222346,0.733722,0.00426,0.006683,0.04343,0.066711
+prompt_effect,x01:m1_p3_s0_u,0,P3,2.0,x01:m1_p0_s0_u,100,2.7584,3.777679,0.005709,0.009787,0.051235,0.081549
+prompt_effect,x01:m1_p5_s0_u,0,P5,2.0,x01:m1_p0_s0_u,100,3.702035,3.780384,0.333981,0.336225,0.098602,0.143001

@@ -1,0 +1,1 @@
+d50i_06|50|0.285000|-0.138000|0|-|env0|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4i/grips/grip_w1s_50_clamp.json|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4i/presets/preset_w1s_50_clamp.json|--freeze-close

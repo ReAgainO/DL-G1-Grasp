@@ -1,0 +1,275 @@
+{
+  "physical_steps": 0,
+  "official_source": "/home/group4/group4_dasc7606c/repos/sonic/GR00T-WholeBodyControl/gear_sonic/envs/manager_env/robots/g1.py",
+  "official_source_sha": "42f9b4394eb21512735da4b1ca78c2d0546c4221c7bdaf8b3a186d8dc5588ba9",
+  "official_source_url": "https://github.com/NVlabs/GR00T-WholeBodyControl/blob/main/gear_sonic/envs/manager_env/robots/g1.py",
+  "parse_method": "AST constants and arithmetic only, no executing official source",
+  "port_KP_matches_official_armatures": true,
+  "body_armatures": {
+    "left_hip_pitch_joint": 0.025101925,
+    "left_hip_roll_joint": 0.025101925,
+    "left_hip_yaw_joint": 0.01017752,
+    "left_knee_joint": 0.025101925,
+    "left_ankle_pitch_joint": 0.00721945,
+    "left_ankle_roll_joint": 0.00721945,
+    "right_hip_pitch_joint": 0.025101925,
+    "right_hip_roll_joint": 0.025101925,
+    "right_hip_yaw_joint": 0.01017752,
+    "right_knee_joint": 0.025101925,
+    "right_ankle_pitch_joint": 0.00721945,
+    "right_ankle_roll_joint": 0.00721945,
+    "waist_yaw_joint": 0.01017752,
+    "waist_roll_joint": 0.00721945,
+    "waist_pitch_joint": 0.00721945,
+    "left_shoulder_pitch_joint": 0.003609725,
+    "left_shoulder_roll_joint": 0.003609725,
+    "left_shoulder_yaw_joint": 0.003609725,
+    "left_elbow_joint": 0.003609725,
+    "left_wrist_roll_joint": 0.003609725,
+    "left_wrist_pitch_joint": 0.00425,
+    "left_wrist_yaw_joint": 0.00425,
+    "right_shoulder_pitch_joint": 0.003609725,
+    "right_shoulder_roll_joint": 0.003609725,
+    "right_shoulder_yaw_joint": 0.003609725,
+    "right_elbow_joint": 0.003609725,
+    "right_wrist_roll_joint": 0.003609725,
+    "right_wrist_pitch_joint": 0.00425,
+    "right_wrist_yaw_joint": 0.00425
+  },
+  "records": [
+    {
+      "joint": "left_hip_pitch_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.025101925,
+      "ratio": 0.3983758217746248,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_hip_roll_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.025101925,
+      "ratio": 0.3983758217746248,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_hip_yaw_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.01017752,
+      "ratio": 0.9825576368309764,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_knee_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.025101925,
+      "ratio": 0.3983758217746248,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_ankle_pitch_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.00721945,
+      "ratio": 1.385147067989944,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_ankle_roll_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.00721945,
+      "ratio": 1.385147067989944,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_hip_pitch_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.025101925,
+      "ratio": 0.3983758217746248,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_hip_roll_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.025101925,
+      "ratio": 0.3983758217746248,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_hip_yaw_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.01017752,
+      "ratio": 0.9825576368309764,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_knee_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.025101925,
+      "ratio": 0.3983758217746248,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_ankle_pitch_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.00721945,
+      "ratio": 1.385147067989944,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_ankle_roll_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.00721945,
+      "ratio": 1.385147067989944,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "waist_yaw_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.01017752,
+      "ratio": 0.9825576368309764,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "waist_roll_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.00721945,
+      "ratio": 1.385147067989944,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "waist_pitch_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.00721945,
+      "ratio": 1.385147067989944,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_shoulder_pitch_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.003609725,
+      "ratio": 2.770294135979888,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_shoulder_roll_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.003609725,
+      "ratio": 2.770294135979888,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_shoulder_yaw_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.003609725,
+      "ratio": 2.770294135979888,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_elbow_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.003609725,
+      "ratio": 2.770294135979888,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_wrist_roll_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.003609725,
+      "ratio": 2.770294135979888,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "left_wrist_pitch_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.00425,
+      "ratio": 2.3529411764705883,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.1
+    },
+    {
+      "joint": "left_wrist_yaw_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.00425,
+      "ratio": 2.3529411764705883,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.1
+    },
+    {
+      "joint": "right_shoulder_pitch_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.003609725,
+      "ratio": 2.770294135979888,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_shoulder_roll_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.003609725,
+      "ratio": 2.770294135979888,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_shoulder_yaw_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.003609725,
+      "ratio": 2.770294135979888,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_elbow_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.003609725,
+      "ratio": 2.770294135979888,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_wrist_roll_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.003609725,
+      "ratio": 2.770294135979888,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.2
+    },
+    {
+      "joint": "right_wrist_pitch_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.00425,
+      "ratio": 2.3529411764705883,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.1
+    },
+    {
+      "joint": "right_wrist_yaw_joint",
+      "xml_armature": 0.01,
+      "official_training_armature": 0.00425,
+      "ratio": 2.3529411764705883,
+      "xml_passive_damping": 0.05,
+      "xml_frictionloss": 0.1
+    }
+  ],
+  "source_sha": "cb2e3bdd7a864764399083e84824677c87d69b68c377761f7d6b4f9380bb135c",
+  "mujoco_version": "3.2.7"
+}

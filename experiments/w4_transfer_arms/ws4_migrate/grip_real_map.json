@@ -1,0 +1,16 @@
+{
+  "grip_target_rad": [-0.0151, -0.6207, -0.6749, 0.9594, 1.4810, 0.9738, 1.4879],
+  "joint_order": ["right_hand_thumb_0", "right_hand_thumb_1", "right_hand_thumb_2", "right_hand_index_0", "right_hand_index_1", "right_hand_middle_0", "right_hand_middle_1"],
+  "name": "grip_real_map (W4b arm1)",
+  "provenance": {
+    "source_finding": "/data/group4/20261008-221515-qoder-03c4673f/ws2_dataset/FINDING.md section 5",
+    "source_finding_sha256": "0022d2c111e69239e01a4491e9038154fe5366977fdf75921dd862683689344a",
+    "source_configs_sha256": "751d4e4f2ec613cd910c3fd407dc39e752683daff8be877b2777dcbda76f3e31",
+    "source_stats": "cfg_hold_final median (n=81 successful episodes 0-80), Modelscope mncai/G1_Dex3_Trash_LocoManipulation",
+    "dataset_hand": "LEFT hand, slot order [middle_0, middle_1, index_0, index_1, thumb_0, thumb_1, thumb_2]",
+    "dataset_median_rad_left": [-0.9738, -1.4879, -0.9594, -1.4810, 0.0151, 0.6207, 0.6749],
+    "mapping_rule": "q_right_sonicbridge = -q_left_dataset per joint NAME (thumb_0->thumb_0 ... middle_1->middle_1); mirror forced by the right-hand joint limits (unmirrored mid/index values fall outside [-0.192,1.833]/[0,2.094])",
+    "index_middle_note": "W2 marks index/middle identity as 'pending', values differ by <=0.015 rad so the swap is immaterial",
+    "units": "rad; sonic-bridge actuator 36..42 = right hand thumb0,1,2,index0,1,middle0,1"
+  }
+}

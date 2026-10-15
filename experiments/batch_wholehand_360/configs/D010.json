@@ -1,0 +1,19 @@
+{
+  "id": "D010",
+  "group": "D",
+  "xy_m": [
+    0.36039942120263535,
+    -0.18428694771937498
+  ],
+  "edge_m": 0.07890644471654559,
+  "mass_kg": 0.12,
+  "root_x_m": -0.02,
+  "sampling_seed": 20261010,
+  "source_baseline_trial": "C010",
+  "no_grip": false,
+  "wrist_servo": true,
+  "gravity_arm_scale": 1.0,
+  "native_mesh": true,
+  "time_scale": 2.0,
+  "retract_raise": true
+}

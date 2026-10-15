@@ -1,0 +1,540 @@
+{
+  "rows": [
+    {
+      "id": "A_base",
+      "rc": 0,
+      "pid": 700702,
+      "command": [
+        "timeout",
+        "--kill-after=5",
+        "580",
+        "taskset",
+        "-c",
+        "80,81",
+        "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "-B",
+        "/data/group4/20261009-170228-codex-fcd727b9/render_clip.py",
+        "A_base"
+      ],
+      "ended": "2026-10-09T17:50:17.150697+08:00",
+      "replay": {
+        "id": "A_base",
+        "success": true,
+        "source_dense_sha": "1abed39f8453b70b077c9d0cfc9535b2975035ba699a77ef262fdd5bbf28e112",
+        "source_result_sha": "63aeab1d05784b130c84dc35834d589b0c42ec7770c78c09172ef6555c58e645",
+        "replay_only": true,
+        "physical_steps": 0,
+        "interpolation": false,
+        "frames": 475,
+        "fps": 25,
+        "duration_s": 19.0,
+        "source_time_range_s": [
+          34.0,
+          52.96
+        ],
+        "video_sha": "83630e788fe5cf681dd4a4ae07cb8c02e62e589d3e953d7bee7499084047bf3c",
+        "video_bytes": 1655472,
+        "width": 960,
+        "height": 360,
+        "decode_verified": true,
+        "decoded_frames": 475,
+        "renderer_sha": "7fdd97c511fd8c70db5659d4770ae995c14887c6fcb077ffd61e9af9793fabb4",
+        "runtime_stamp": {
+          "mujoco_version": "3.2.7",
+          "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+          "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+          "model_sha": {
+            "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+            "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+          },
+          "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+          "library_sha": {
+            "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+            "sonic_models": {
+              "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+              "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+              "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+            },
+            "plan": "c186ec44b505f1588d4401f621bb8a2567cea66380c6d9bf5178c5eacacf8183"
+          },
+          "source_sha": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+          "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+          "model_xml_sha": {
+            "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+            "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+          },
+          "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+          "dt": 0.001,
+          "impratio": 10,
+          "margin_m": 0.001,
+          "solref": [
+            0.02,
+            1
+          ],
+          "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_A000",
+          "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+          "ardy_source": {
+            "source_npz": "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz",
+            "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "source_fps": 25.0,
+            "native_frames": 100,
+            "native_clip_duration_s": 4.0,
+            "last_sample_time_s": 3.96,
+            "expected50Hz_frames": 199,
+            "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+            "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+            "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+            "joint_names": [
+              "left_hip_pitch_joint",
+              "left_hip_roll_joint",
+              "left_hip_yaw_joint",
+              "left_knee_joint",
+              "left_ankle_pitch_joint",
+              "left_ankle_roll_joint",
+              "right_hip_pitch_joint",
+              "right_hip_roll_joint",
+              "right_hip_yaw_joint",
+              "right_knee_joint",
+              "right_ankle_pitch_joint",
+              "right_ankle_roll_joint",
+              "waist_yaw_joint",
+              "waist_roll_joint",
+              "waist_pitch_joint",
+              "left_shoulder_pitch_joint",
+              "left_shoulder_roll_joint",
+              "left_shoulder_yaw_joint",
+              "left_elbow_joint",
+              "left_wrist_roll_joint",
+              "left_wrist_pitch_joint",
+              "left_wrist_yaw_joint",
+              "right_shoulder_pitch_joint",
+              "right_shoulder_roll_joint",
+              "right_shoulder_yaw_joint",
+              "right_elbow_joint",
+              "right_wrist_roll_joint",
+              "right_wrist_pitch_joint",
+              "right_wrist_yaw_joint"
+            ],
+            "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+            "text": "A person reaches forward with their right hand to grab a small object on a table.",
+            "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+          },
+          "root_x_initial_m": 0.0,
+          "jitter_control_source_sha": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+          "jitter_configuration": {
+            "source_episode": "A000",
+            "change_start_s": 42.0,
+            "arm_target_tau_s": 0.0,
+            "arm_damping_scale": 2.0,
+            "servo_gain": 0.1,
+            "dense_sample_dt_s": 0.005,
+            "frozen_source_reference_sha": "4fc58b8515a274d570d6bc5e42e00edaa4a01f16ddf19b2b97db0cc3753ec130"
+          }
+        }
+      }
+    },
+    {
+      "id": "A_combo3",
+      "rc": 0,
+      "pid": 700705,
+      "command": [
+        "timeout",
+        "--kill-after=5",
+        "580",
+        "taskset",
+        "-c",
+        "82,83",
+        "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "-B",
+        "/data/group4/20261009-170228-codex-fcd727b9/render_clip.py",
+        "A_combo3"
+      ],
+      "ended": "2026-10-09T17:50:18.831359+08:00",
+      "replay": {
+        "id": "A_combo3",
+        "success": true,
+        "source_dense_sha": "6c91b0d1e621eacc8b3ba157007aeb725a1813ca6a98e4e54fce9089b2046ec7",
+        "source_result_sha": "6176989888c7cdba3683ec7361bd05bb5601aa9cbf005a60094d67ef9313dc77",
+        "replay_only": true,
+        "physical_steps": 0,
+        "interpolation": false,
+        "frames": 475,
+        "fps": 25,
+        "duration_s": 19.0,
+        "source_time_range_s": [
+          34.0,
+          52.96
+        ],
+        "video_sha": "cc0b91ecbe5837fa19ec1080d83a39eaaa4718489b10ccb783819d7767d15502",
+        "video_bytes": 1513269,
+        "width": 960,
+        "height": 360,
+        "decode_verified": true,
+        "decoded_frames": 475,
+        "renderer_sha": "7fdd97c511fd8c70db5659d4770ae995c14887c6fcb077ffd61e9af9793fabb4",
+        "runtime_stamp": {
+          "mujoco_version": "3.2.7",
+          "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+          "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+          "model_sha": {
+            "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+            "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+          },
+          "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+          "library_sha": {
+            "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+            "sonic_models": {
+              "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+              "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+              "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+            },
+            "plan": "c186ec44b505f1588d4401f621bb8a2567cea66380c6d9bf5178c5eacacf8183"
+          },
+          "source_sha": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+          "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+          "model_xml_sha": {
+            "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+            "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+          },
+          "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+          "dt": 0.001,
+          "impratio": 10,
+          "margin_m": 0.001,
+          "solref": [
+            0.02,
+            1
+          ],
+          "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_A000",
+          "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+          "ardy_source": {
+            "source_npz": "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz",
+            "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "source_fps": 25.0,
+            "native_frames": 100,
+            "native_clip_duration_s": 4.0,
+            "last_sample_time_s": 3.96,
+            "expected50Hz_frames": 199,
+            "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+            "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+            "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+            "joint_names": [
+              "left_hip_pitch_joint",
+              "left_hip_roll_joint",
+              "left_hip_yaw_joint",
+              "left_knee_joint",
+              "left_ankle_pitch_joint",
+              "left_ankle_roll_joint",
+              "right_hip_pitch_joint",
+              "right_hip_roll_joint",
+              "right_hip_yaw_joint",
+              "right_knee_joint",
+              "right_ankle_pitch_joint",
+              "right_ankle_roll_joint",
+              "waist_yaw_joint",
+              "waist_roll_joint",
+              "waist_pitch_joint",
+              "left_shoulder_pitch_joint",
+              "left_shoulder_roll_joint",
+              "left_shoulder_yaw_joint",
+              "left_elbow_joint",
+              "left_wrist_roll_joint",
+              "left_wrist_pitch_joint",
+              "left_wrist_yaw_joint",
+              "right_shoulder_pitch_joint",
+              "right_shoulder_roll_joint",
+              "right_shoulder_yaw_joint",
+              "right_elbow_joint",
+              "right_wrist_roll_joint",
+              "right_wrist_pitch_joint",
+              "right_wrist_yaw_joint"
+            ],
+            "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+            "text": "A person reaches forward with their right hand to grab a small object on a table.",
+            "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+          },
+          "root_x_initial_m": 0.0,
+          "jitter_control_source_sha": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+          "jitter_configuration": {
+            "source_episode": "A000",
+            "change_start_s": 42.0,
+            "arm_target_tau_s": 0.0,
+            "arm_damping_scale": 3.0,
+            "servo_gain": 0.03,
+            "dense_sample_dt_s": 0.005,
+            "frozen_source_reference_sha": "4fc58b8515a274d570d6bc5e42e00edaa4a01f16ddf19b2b97db0cc3753ec130"
+          }
+        }
+      }
+    },
+    {
+      "id": "C_base",
+      "rc": 0,
+      "pid": 700708,
+      "command": [
+        "timeout",
+        "--kill-after=5",
+        "580",
+        "taskset",
+        "-c",
+        "84,85",
+        "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "-B",
+        "/data/group4/20261009-170228-codex-fcd727b9/render_clip.py",
+        "C_base"
+      ],
+      "ended": "2026-10-09T17:50:16.493086+08:00",
+      "replay": {
+        "id": "C_base",
+        "success": true,
+        "source_dense_sha": "720637e97946165a8988046c5ada3f35bbec5dfb4867395d30b85eec8d4e9f84",
+        "source_result_sha": "010846dd152ddbafba82fa059a668368d3c3dbb61652eb14ae625de05bc5e524",
+        "replay_only": true,
+        "physical_steps": 0,
+        "interpolation": false,
+        "frames": 475,
+        "fps": 25,
+        "duration_s": 19.0,
+        "source_time_range_s": [
+          34.0,
+          52.96
+        ],
+        "video_sha": "c8149540cef68fe7fa45072685848582bf35e95ce38835b99b1a7b919463a842",
+        "video_bytes": 1502421,
+        "width": 960,
+        "height": 360,
+        "decode_verified": true,
+        "decoded_frames": 475,
+        "renderer_sha": "7fdd97c511fd8c70db5659d4770ae995c14887c6fcb077ffd61e9af9793fabb4",
+        "runtime_stamp": {
+          "mujoco_version": "3.2.7",
+          "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+          "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+          "model_sha": {
+            "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+            "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+          },
+          "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+          "library_sha": {
+            "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+            "sonic_models": {
+              "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+              "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+              "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+            },
+            "plan": "b9e6aff501a5d119041d409d1ab59a8737c8d112957b4a78c15efaf7c66dbb27"
+          },
+          "source_sha": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+          "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+          "model_xml_sha": {
+            "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+            "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+          },
+          "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+          "dt": 0.001,
+          "impratio": 10,
+          "margin_m": 0.001,
+          "solref": [
+            0.02,
+            1
+          ],
+          "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_C000",
+          "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+          "ardy_source": {
+            "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+            "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "source_fps": 25.0,
+            "native_frames": 100,
+            "native_clip_duration_s": 4.0,
+            "last_sample_time_s": 3.96,
+            "expected50Hz_frames": 199,
+            "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+            "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+            "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+            "joint_names": [
+              "left_hip_pitch_joint",
+              "left_hip_roll_joint",
+              "left_hip_yaw_joint",
+              "left_knee_joint",
+              "left_ankle_pitch_joint",
+              "left_ankle_roll_joint",
+              "right_hip_pitch_joint",
+              "right_hip_roll_joint",
+              "right_hip_yaw_joint",
+              "right_knee_joint",
+              "right_ankle_pitch_joint",
+              "right_ankle_roll_joint",
+              "waist_yaw_joint",
+              "waist_roll_joint",
+              "waist_pitch_joint",
+              "left_shoulder_pitch_joint",
+              "left_shoulder_roll_joint",
+              "left_shoulder_yaw_joint",
+              "left_elbow_joint",
+              "left_wrist_roll_joint",
+              "left_wrist_pitch_joint",
+              "left_wrist_yaw_joint",
+              "right_shoulder_pitch_joint",
+              "right_shoulder_roll_joint",
+              "right_shoulder_yaw_joint",
+              "right_elbow_joint",
+              "right_wrist_roll_joint",
+              "right_wrist_pitch_joint",
+              "right_wrist_yaw_joint"
+            ],
+            "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+            "text": "A person reaches forward with their right hand to grab a small object on a table.",
+            "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+          },
+          "root_x_initial_m": 0.0,
+          "jitter_control_source_sha": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+          "jitter_configuration": {
+            "source_episode": "C000",
+            "change_start_s": 42.0,
+            "arm_target_tau_s": 0.0,
+            "arm_damping_scale": 2.0,
+            "servo_gain": 0.1,
+            "dense_sample_dt_s": 0.005,
+            "frozen_source_reference_sha": "c3e1c47b60b0d37ca560217bd3cc82d61527ecd34881f035a0c69b0422ff26f2"
+          }
+        }
+      }
+    },
+    {
+      "id": "C_combo3",
+      "rc": 0,
+      "pid": 700709,
+      "command": [
+        "timeout",
+        "--kill-after=5",
+        "580",
+        "taskset",
+        "-c",
+        "86,87",
+        "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "-B",
+        "/data/group4/20261009-170228-codex-fcd727b9/render_clip.py",
+        "C_combo3"
+      ],
+      "ended": "2026-10-09T17:50:17.948255+08:00",
+      "replay": {
+        "id": "C_combo3",
+        "success": true,
+        "source_dense_sha": "f524be6374430e7a8d50cca5f165753860273479382e3a1f93b4a40de908e806",
+        "source_result_sha": "52f47db3913b42c2a34c4f37e288c2e671c359876d692c868a400aa9011f6c6d",
+        "replay_only": true,
+        "physical_steps": 0,
+        "interpolation": false,
+        "frames": 475,
+        "fps": 25,
+        "duration_s": 19.0,
+        "source_time_range_s": [
+          34.0,
+          52.96
+        ],
+        "video_sha": "fbb9af6d6dd85738e41702eee12e415aae313ae040c0ded1a96698e126d57be2",
+        "video_bytes": 1430582,
+        "width": 960,
+        "height": 360,
+        "decode_verified": true,
+        "decoded_frames": 475,
+        "renderer_sha": "7fdd97c511fd8c70db5659d4770ae995c14887c6fcb077ffd61e9af9793fabb4",
+        "runtime_stamp": {
+          "mujoco_version": "3.2.7",
+          "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+          "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+          "model_sha": {
+            "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+            "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+          },
+          "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+          "library_sha": {
+            "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+            "sonic_models": {
+              "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+              "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+              "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+            },
+            "plan": "b9e6aff501a5d119041d409d1ab59a8737c8d112957b4a78c15efaf7c66dbb27"
+          },
+          "source_sha": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+          "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+          "model_xml_sha": {
+            "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+            "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+          },
+          "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+          "dt": 0.001,
+          "impratio": 10,
+          "margin_m": 0.001,
+          "solref": [
+            0.02,
+            1
+          ],
+          "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_C000",
+          "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+          "ardy_source": {
+            "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+            "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "source_fps": 25.0,
+            "native_frames": 100,
+            "native_clip_duration_s": 4.0,
+            "last_sample_time_s": 3.96,
+            "expected50Hz_frames": 199,
+            "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+            "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+            "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+            "joint_names": [
+              "left_hip_pitch_joint",
+              "left_hip_roll_joint",
+              "left_hip_yaw_joint",
+              "left_knee_joint",
+              "left_ankle_pitch_joint",
+              "left_ankle_roll_joint",
+              "right_hip_pitch_joint",
+              "right_hip_roll_joint",
+              "right_hip_yaw_joint",
+              "right_knee_joint",
+              "right_ankle_pitch_joint",
+              "right_ankle_roll_joint",
+              "waist_yaw_joint",
+              "waist_roll_joint",
+              "waist_pitch_joint",
+              "left_shoulder_pitch_joint",
+              "left_shoulder_roll_joint",
+              "left_shoulder_yaw_joint",
+              "left_elbow_joint",
+              "left_wrist_roll_joint",
+              "left_wrist_pitch_joint",
+              "left_wrist_yaw_joint",
+              "right_shoulder_pitch_joint",
+              "right_shoulder_roll_joint",
+              "right_shoulder_yaw_joint",
+              "right_elbow_joint",
+              "right_wrist_roll_joint",
+              "right_wrist_pitch_joint",
+              "right_wrist_yaw_joint"
+            ],
+            "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+            "text": "A person reaches forward with their right hand to grab a small object on a table.",
+            "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+          },
+          "root_x_initial_m": 0.0,
+          "jitter_control_source_sha": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+          "jitter_configuration": {
+            "source_episode": "C000",
+            "change_start_s": 42.0,
+            "arm_target_tau_s": 0.0,
+            "arm_damping_scale": 3.0,
+            "servo_gain": 0.03,
+            "dense_sample_dt_s": 0.005,
+            "frozen_source_reference_sha": "c3e1c47b60b0d37ca560217bd3cc82d61527ecd34881f035a0c69b0422ff26f2"
+          }
+        }
+      }
+    }
+  ]
+}

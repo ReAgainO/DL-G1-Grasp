@@ -1,0 +1,4 @@
+# Byte fidelity: this repo mirrors run artefacts that are hash-verified field by field.
+# No end-of-line translation, no whitespace rewriting - a checkout must reproduce the exact bytes
+# recorded in EXPORT-MANIFEST.tsv.
+* -text -whitespace

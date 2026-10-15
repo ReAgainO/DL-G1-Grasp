@@ -1,0 +1,32 @@
+{
+  "trace": "/data/group4/20261006-055934-qoder-x05eval/runs/ARDY_m1_p3_s0_u_rep2/r01/trace.csv",
+  "samples": 200,
+  "episode_seconds": 4.0,
+  "phase_first_seen": {
+    "motion": 2.18,
+    "close": 2.78,
+    "lift": 3.78,
+    "hold": 3.98
+  },
+  "gap_min_m": 0.070383,
+  "gap_min_fingertip_m": -0.002481,
+  "gap_at_trigger_m": 0.070383,
+  "trigger_time_s": 2.46,
+  "lift_max_m": 0.008571,
+  "lift_sustained_tail1s_min_m": -0.032078,
+  "lift_sustained_ge5cm_trailing_seconds": 0.0,
+  "lift_sustained_ge5cm_trailing_min_m": null,
+  "n_contact_bodies": 1,
+  "force_normal_N": 8.125273,
+  "force_normal_in_grasp_phases_N": 8.125273,
+  "cube_weight_force_N": 0.1962,
+  "track_rms_rad": 0.66483,
+  "track_rms_tick_max": 0.902024,
+  "fell": false,
+  "root_z_min_m": 0.695284,
+  "root_z_max_m": 0.788709,
+  "root_z_range_m": 0.093425,
+  "up_z_min": 0.985164,
+  "final_lift_m": -0.032077,
+  "success_composite_protocol": false
+}

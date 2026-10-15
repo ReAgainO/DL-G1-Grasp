@@ -1,0 +1,14 @@
+qoder(20261009-132809-qoder-9b946d7f): 导出 trial32 成功抓取视频（零物理回放渲染）
+
+- 交付 normal_trial32 与 normal_trial32_repeat1 各一段 960x720 / 1420 帧 / 113.6 s / 12.5 fps mp4，
+  配 captions.vtt（11 段相位）与 manifest.json（源四件 sha + 视频 sha + physics_steps_in_this_render=0）；
+  产物在节点 /data/group4/20261009-132809-qoder-9b946d7f/videos，六件两端 sha 对拍一致
+- 该车道原本全盘 0 个 mp4；本次不重跑物理、不改任何门限/时钟/判据，只读已录位姿 mj_forward 重建
+- 两轮 mp4 同 sha 已复算到源数据层：sonic_actual_io.npz 同 sha 4ed1192c…、result.json 差异键恰好 1 个
+  （wall_s 276.90/284.55）、trajectory.npz 十个数值与相位数组 bitwise_equal 且 max_abs_diff=0，
+  唯一差异是末尾 scene 路径字符串（741 字节差异全在第 2291753 字节之后）
+- 前置自检抓到真实缺陷：渲染器 v1 假设 result.json 有 runtime_stamp.mujoco_version（w7 批写法），
+  trial32 实为 runtime.mujoco；修法是两处都认且 MuJoCo 版本不等即拒绝渲染，未放宽断言
+- 报告 reports/20261009-132809-qoder-9b946d7f-report.md（9916 B / sha 4377d0f1e89a2047…），
+  流水 logs/20261009-132809-qoder-9b946d7f/steps.md（105 行 / 8 条）；journal #2788 start / #2790 note
+- 未 push；未提交他人路径

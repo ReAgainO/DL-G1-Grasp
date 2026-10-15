@@ -1,0 +1,1 @@
+d80env_pinch|80|0.285000|-0.138000|0|-|env1|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env80pinch.json

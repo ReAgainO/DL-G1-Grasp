@@ -1,0 +1,207 @@
+{
+  "timestamp": "2026-10-09T01:48:02.351701+08:00",
+  "mirror_hashes": {
+    "work/20261009-003148-codex-363f6327/append_early_record.py": "fe50065d324b0830e42b31f39acd216d2ca0ff54f102749432693e25965ef1a9",
+    "work/20261009-003148-codex-363f6327/archive_task.py": "670ed20099db4bcb55aa0cf78a55ff42a41339e334d2410978dce1af2414d12f",
+    "work/20261009-003148-codex-363f6327/audit_episode.py": "9353aee3509d82231848e172dbfb752d8b497948e58e0a8555bdd102ce568de1",
+    "work/20261009-003148-codex-363f6327/audit_native_v1.py": "e19acd24a8d8dae0491e4f647ba2cc42a5f28f06d11e0f8313c922c7837c0489",
+    "work/20261009-003148-codex-363f6327/audit_native.py": "b38d9655a09e331e8a4fbfebe0182473c20d1a14529a607a3c052399e854d6af",
+    "work/20261009-003148-codex-363f6327/bootstrap_task.py": "691aa24bf95d151c1557e726aad02d3d335603c2f5b807d4f930efa486638d5b",
+    "work/20261009-003148-codex-363f6327/check_terminal.py": "95052a0ed493ffc2d091c65d7f5d0f4bb4ea786e33489b806bd8b00d95a8dcd1",
+    "work/20261009-003148-codex-363f6327/execute_side.py": "b88a7482df00ab111c52a43259ff022e3a31b666aee07712f04475c33c2b9f03",
+    "work/20261009-003148-codex-363f6327/GATES-v2.md": "3496bac6e39e7244af831dc401f1a74a21da907f6d14c792daa613485291c2f1",
+    "work/20261009-003148-codex-363f6327/geometry_probe.py": "5c1f3020f0fef6fc0fc33a7ed7cc45cc9a93d0a0657624e42e4f89e6d17a8a0f",
+    "work/20261009-003148-codex-363f6327/INDEPENDENT-CODE-REVIEW.md": "d53962a36ae04895c66cdd689ad8a5c9b27e352b326123e233b81a2246b136b7",
+    "work/20261009-003148-codex-363f6327/LUNA-PROGRESS-7D-D266.md": "1348bcc690297ddd799ae4501f9f81b5c04185ad97773e610a672d0b1f823d77",
+    "work/20261009-003148-codex-363f6327/LUNA-PROGRESS-AAC-CODEX.md": "020c9e43d7b68ad86e1a02fceb8178832ee11f3459bd2c4d268fdcafd17432c8",
+    "work/20261009-003148-codex-363f6327/LUNA-UNITREE-REFERENCES.md": "3a681c6304087125c34d6df133f68bc4f598102b9500448e925ad1a8793fab30",
+    "work/20261009-003148-codex-363f6327/prepare_library.py": "eeae18ffaf50a09e35f740a171cb60c920fd2d792d8f9506dcff95a7e675a8e6",
+    "work/20261009-003148-codex-363f6327/PROGRESS-OCT8-AFTERNOON.md": "b00be77d301a3edbdbe101245749febcbaf38f417c635104f2758d688c167ef3",
+    "work/20261009-003148-codex-363f6327/README.md": "3120e28bf1f15e7700ab21fe9a3fa3d1dd550d5776d3ce6641f1d3cddbf821ca",
+    "work/20261009-003148-codex-363f6327/render_replay_clean.py": "b8022d35481a02bfad1a1afcbe58af248a9f8f239da9d4fd692e9390c0ec2f57",
+    "work/20261009-003148-codex-363f6327/render_replay.py": "3a8045757e7200e65432c4095621cc2667d08fe7f2775bac4d900816334cf5ac",
+    "work/20261009-003148-codex-363f6327/run_record.py": "240e5969ba999979eb7ada50b982602eb1eceb86f3714a43b516b24d6ccfa915",
+    "work/20261009-003148-codex-363f6327/verify_and_record.py": "9f30a11e07d30a92a7fdce4c1c8b00851dac277f4bd28c77a1f54f9f8300d5a8",
+    "work/20261009-003148-codex-363f6327/wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+    "work/20261009-003148-codex-363f6327/verification.json": "0029362746b5f6d7e94b4d1d7587653a0ba9ff196b3104639deaf24e8b9fcaeb",
+    "work/20261009-003148-codex-363f6327/native_audit2.json": "2d1424d070b9e7c2644fd11cde49709f4f6f2bd380d8dc867f359fb06ae3b28d",
+    "work/20261009-003148-codex-363f6327/native3-result.json": "576a1cf6868ee593f738f74f73858253fae06e47de3a5bce3f3d3676ee7ce5f7",
+    "work/20261009-003148-codex-363f6327/native-negative3-result.json": "6e64dc519871191e4c28954f8ed8da25c474615db3e6ee1d34cd1d0e892edf67",
+    "reports/20261009-003148-codex-363f6327-report.md": "a80eace7572bf2bac4393faa6f0d05918149b4bc2bf1df4f1577fcd27b3f1137"
+  },
+  "data_hashes": {
+    "/data/group4/20261009-003148-codex-363f6327/audit_native_v1.py": "e19acd24a8d8dae0491e4f647ba2cc42a5f28f06d11e0f8313c922c7837c0489",
+    "/data/group4/20261009-003148-codex-363f6327/audit_native.py": "b38d9655a09e331e8a4fbfebe0182473c20d1a14529a607a3c052399e854d6af",
+    "/data/group4/20261009-003148-codex-363f6327/execute_side.py": "b88a7482df00ab111c52a43259ff022e3a31b666aee07712f04475c33c2b9f03",
+    "/data/group4/20261009-003148-codex-363f6327/GATES-v2.md": "3496bac6e39e7244af831dc401f1a74a21da907f6d14c792daa613485291c2f1",
+    "/data/group4/20261009-003148-codex-363f6327/render_replay_clean.py": "b8022d35481a02bfad1a1afcbe58af248a9f8f239da9d4fd692e9390c0ec2f57",
+    "/data/group4/20261009-003148-codex-363f6327/render_replay.py": "3a8045757e7200e65432c4095621cc2667d08fe7f2775bac4d900816334cf5ac",
+    "/data/group4/20261009-003148-codex-363f6327/run_record.py": "240e5969ba999979eb7ada50b982602eb1eceb86f3714a43b516b24d6ccfa915",
+    "/data/group4/20261009-003148-codex-363f6327/wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+    "/data/group4/20261009-003148-codex-363f6327/out/side80_native3/trajectory.npz": "5f0848001c35a04506b5d54f13886407e64287e0e18818e9ebde58b6c57f7d10",
+    "/data/group4/20261009-003148-codex-363f6327/out/side80_native3_repeat/trajectory.npz": "5f0848001c35a04506b5d54f13886407e64287e0e18818e9ebde58b6c57f7d10",
+    "/data/group4/20261009-003148-codex-363f6327/out/side80_native_negative3/trajectory.npz": "741b07f86c72e23eb4bf25503d58eb328cec339632b23e44b77e057c5ebe0ae5",
+    "/data/group4/20261009-003148-codex-363f6327/out/side80_native3/replay_clean/grasp.mp4": "0b4eb2ccd1b46c6ba8ed7dcd9853d20db88de1b1a84a5b072b5bd8af001adc0d"
+  },
+  "local_artifacts_expected_hashes": {
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\append_early_record.py": "fe50065d324b0830e42b31f39acd216d2ca0ff54f102749432693e25965ef1a9",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\archive_task.py": "670ed20099db4bcb55aa0cf78a55ff42a41339e334d2410978dce1af2414d12f",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\audit_episode.py": "9353aee3509d82231848e172dbfb752d8b497948e58e0a8555bdd102ce568de1",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\audit_native_v1.py": "e19acd24a8d8dae0491e4f647ba2cc42a5f28f06d11e0f8313c922c7837c0489",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\audit_native.py": "b38d9655a09e331e8a4fbfebe0182473c20d1a14529a607a3c052399e854d6af",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\bootstrap_task.py": "691aa24bf95d151c1557e726aad02d3d335603c2f5b807d4f930efa486638d5b",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\check_terminal.py": "95052a0ed493ffc2d091c65d7f5d0f4bb4ea786e33489b806bd8b00d95a8dcd1",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\execute_side.py": "b88a7482df00ab111c52a43259ff022e3a31b666aee07712f04475c33c2b9f03",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\GATES-v2.md": "3496bac6e39e7244af831dc401f1a74a21da907f6d14c792daa613485291c2f1",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\geometry_probe.py": "5c1f3020f0fef6fc0fc33a7ed7cc45cc9a93d0a0657624e42e4f89e6d17a8a0f",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\INDEPENDENT-CODE-REVIEW.md": "d53962a36ae04895c66cdd689ad8a5c9b27e352b326123e233b81a2246b136b7",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\LUNA-PROGRESS-7D-D266.md": "1348bcc690297ddd799ae4501f9f81b5c04185ad97773e610a672d0b1f823d77",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\LUNA-PROGRESS-AAC-CODEX.md": "020c9e43d7b68ad86e1a02fceb8178832ee11f3459bd2c4d268fdcafd17432c8",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\LUNA-UNITREE-REFERENCES.md": "3a681c6304087125c34d6df133f68bc4f598102b9500448e925ad1a8793fab30",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\prepare_library.py": "eeae18ffaf50a09e35f740a171cb60c920fd2d792d8f9506dcff95a7e675a8e6",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\PROGRESS-OCT8-AFTERNOON.md": "b00be77d301a3edbdbe101245749febcbaf38f417c635104f2758d688c167ef3",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\README.md": "3120e28bf1f15e7700ab21fe9a3fa3d1dd550d5776d3ce6641f1d3cddbf821ca",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\render_replay_clean.py": "b8022d35481a02bfad1a1afcbe58af248a9f8f239da9d4fd692e9390c0ec2f57",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\render_replay.py": "3a8045757e7200e65432c4095621cc2667d08fe7f2775bac4d900816334cf5ac",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\run_record.py": "240e5969ba999979eb7ada50b982602eb1eceb86f3714a43b516b24d6ccfa915",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\verify_and_record.py": "9f30a11e07d30a92a7fdce4c1c8b00851dac277f4bd28c77a1f54f9f8300d5a8",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\work\\wholehand-20261009\\wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\wholehand-20261009-results\\verification.json": "0029362746b5f6d7e94b4d1d7587653a0ba9ff196b3104639deaf24e8b9fcaeb",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\wholehand-20261009-results\\native_audit2.json": "2d1424d070b9e7c2644fd11cde49709f4f6f2bd380d8dc867f359fb06ae3b28d",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\wholehand-20261009-results\\native3-result.json": "576a1cf6868ee593f738f74f73858253fae06e47de3a5bce3f3d3676ee7ce5f7",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\wholehand-20261009-results\\native-negative3-result.json": "6e64dc519871191e4c28954f8ed8da25c474615db3e6ee1d34cd1d0e892edf67",
+    "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\wholehand-20261009-results\\20261009-003148-codex-363f6327-report.md": "a80eace7572bf2bac4393faa6f0d05918149b4bc2bf1df4f1577fcd27b3f1137",
+    "C:/Users/hp/Documents/Codex/2026-09-27/zo/server_reports/wholehand-20261009-results/grasp.mp4": "0b4eb2ccd1b46c6ba8ed7dcd9853d20db88de1b1a84a5b072b5bd8af001adc0d"
+  },
+  "processes_absent": true,
+  "receipts": [
+    {
+      "name": "plan8.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "negative1.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "negative3.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "plan5.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "plan6.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "plan7.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "physics1.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "plan4.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "physics2.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "preflight1.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "physics3_repeat.receipt.json",
+      "returncode": 0
+    },
+    {
+      "name": "physics3.receipt.json",
+      "returncode": 0
+    }
+  ],
+  "issue_verify_tail": "convention=include-newline\n   \u6570\u636e\u884c 961 | \u95ee\u9898 278 | JSON\u574f 0 | \u7a7a\u884c 0 | \u65ad\u94fe 0 | seq\u5f02\u5e38 0 | \u7f3a\u5b57\u6bb5 0 | state\u5f02\u5e38 0 | event\u5f02\u5e38 0 | \u951a\u70b9\u7f3a\u5931 0 | \u951a\u70b9\u5931\u914d 0 | \u951a\u70b9\u6761\u6570 0 | \u951a\u70b9\u683c\u5f0f 0 | \u89c6\u56fe\u95ee\u9898\u6570 0 | \u89c6\u56fe\u4e8b\u4ef6\u6570 0\n-- exit=0 (0=\u94fe/JSON/seq/\u5b57\u6bb5/state/\u951a\u70b9\u9010\u6761/\u89c6\u56fe \u5168\u90e8\u5b8c\u6574)\n",
+  "own_ledger_cutoff": 2753,
+  "initial_git": {
+    "timestamp": "2026-10-09T01:48:02.450722+08:00",
+    "previous_head": "71a0adad267d2942875b0ac14fdedcdf530418b3",
+    "commit": "e06a7500497b395c742c0ace284bbf1f4b322c83",
+    "explicit_paths": [
+      "claims/20261009-003148-codex-363f6327/card.txt",
+      "claims/20261009-003148-codex-363f6327/rules_seen",
+      "logs/20261009-003148-codex-363f6327/steps.md",
+      "reports/20261009-003148-codex-363f6327-report.md",
+      "work/20261009-003148-codex-363f6327/GATES-v2.md",
+      "work/20261009-003148-codex-363f6327/INDEPENDENT-CODE-REVIEW.md",
+      "work/20261009-003148-codex-363f6327/LUNA-PROGRESS-7D-D266.md",
+      "work/20261009-003148-codex-363f6327/LUNA-PROGRESS-AAC-CODEX.md",
+      "work/20261009-003148-codex-363f6327/LUNA-UNITREE-REFERENCES.md",
+      "work/20261009-003148-codex-363f6327/PROGRESS-OCT8-AFTERNOON.md",
+      "work/20261009-003148-codex-363f6327/README.md",
+      "work/20261009-003148-codex-363f6327/append_early_record.py",
+      "work/20261009-003148-codex-363f6327/archive-expectations.json",
+      "work/20261009-003148-codex-363f6327/archive-precheck.json",
+      "work/20261009-003148-codex-363f6327/archive_task.py",
+      "work/20261009-003148-codex-363f6327/audit_episode.py",
+      "work/20261009-003148-codex-363f6327/audit_native.py",
+      "work/20261009-003148-codex-363f6327/audit_native_v1.py",
+      "work/20261009-003148-codex-363f6327/bootstrap_task.py",
+      "work/20261009-003148-codex-363f6327/check_terminal.py",
+      "work/20261009-003148-codex-363f6327/execute_side.py",
+      "work/20261009-003148-codex-363f6327/geometry_probe.py",
+      "work/20261009-003148-codex-363f6327/native-negative3-result.json",
+      "work/20261009-003148-codex-363f6327/native3-result.json",
+      "work/20261009-003148-codex-363f6327/native_audit2.json",
+      "work/20261009-003148-codex-363f6327/own-ledger-preclose.json",
+      "work/20261009-003148-codex-363f6327/prepare_library.py",
+      "work/20261009-003148-codex-363f6327/render_replay.py",
+      "work/20261009-003148-codex-363f6327/render_replay_clean.py",
+      "work/20261009-003148-codex-363f6327/run_record.py",
+      "work/20261009-003148-codex-363f6327/verification.json",
+      "work/20261009-003148-codex-363f6327/verify_and_record.py",
+      "work/20261009-003148-codex-363f6327/wholehand_side.py"
+    ],
+    "changed_paths": [
+      "claims/20261009-003148-codex-363f6327/card.txt",
+      "claims/20261009-003148-codex-363f6327/rules_seen",
+      "logs/20261009-003148-codex-363f6327/steps.md",
+      "reports/20261009-003148-codex-363f6327-report.md",
+      "work/20261009-003148-codex-363f6327/GATES-v2.md",
+      "work/20261009-003148-codex-363f6327/INDEPENDENT-CODE-REVIEW.md",
+      "work/20261009-003148-codex-363f6327/LUNA-PROGRESS-7D-D266.md",
+      "work/20261009-003148-codex-363f6327/LUNA-PROGRESS-AAC-CODEX.md",
+      "work/20261009-003148-codex-363f6327/LUNA-UNITREE-REFERENCES.md",
+      "work/20261009-003148-codex-363f6327/PROGRESS-OCT8-AFTERNOON.md",
+      "work/20261009-003148-codex-363f6327/README.md",
+      "work/20261009-003148-codex-363f6327/append_early_record.py",
+      "work/20261009-003148-codex-363f6327/archive-expectations.json",
+      "work/20261009-003148-codex-363f6327/archive-precheck.json",
+      "work/20261009-003148-codex-363f6327/archive_task.py",
+      "work/20261009-003148-codex-363f6327/audit_episode.py",
+      "work/20261009-003148-codex-363f6327/audit_native.py",
+      "work/20261009-003148-codex-363f6327/audit_native_v1.py",
+      "work/20261009-003148-codex-363f6327/bootstrap_task.py",
+      "work/20261009-003148-codex-363f6327/check_terminal.py",
+      "work/20261009-003148-codex-363f6327/execute_side.py",
+      "work/20261009-003148-codex-363f6327/geometry_probe.py",
+      "work/20261009-003148-codex-363f6327/native-negative3-result.json",
+      "work/20261009-003148-codex-363f6327/native3-result.json",
+      "work/20261009-003148-codex-363f6327/native_audit2.json",
+      "work/20261009-003148-codex-363f6327/own-ledger-preclose.json",
+      "work/20261009-003148-codex-363f6327/prepare_library.py",
+      "work/20261009-003148-codex-363f6327/render_replay.py",
+      "work/20261009-003148-codex-363f6327/render_replay_clean.py",
+      "work/20261009-003148-codex-363f6327/run_record.py",
+      "work/20261009-003148-codex-363f6327/verification.json",
+      "work/20261009-003148-codex-363f6327/verify_and_record.py",
+      "work/20261009-003148-codex-363f6327/wholehand_side.py"
+    ],
+    "unrelated_staged_blobs_preserved": true,
+    "report_blob_sha": "a80eace7572bf2bac4393faa6f0d05918149b4bc2bf1df4f1577fcd27b3f1137",
+    "no_push": true
+  }
+}

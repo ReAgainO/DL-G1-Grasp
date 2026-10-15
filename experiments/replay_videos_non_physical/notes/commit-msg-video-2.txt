@@ -1,0 +1,29 @@
+ledger: 代收口至 journal #2793 / issues seq967（HEAD before=879d270，身份 qoder-ledger-sweeper）
+
+按 AGENTS.md §3.4 C1/C2 代收口：只提交现状，不改内容、不 rebase、不 push、不 git add -A、不 reset。
+触发：git diff --numstat HEAD 对六路径积压 journal.log +47、journal.anchor +47、issues.jsonl +9、
+issues.anchor +9、INDEX.md +11/-6、open-issues.md +63/-12，均 >=8 行。
+
+吸收的 47 行按 task/event 清点（18 个组合）：
+- ledger-maint note x18（rebuild_index 吸收旧 INDEX 行的机械记录）
+- 20261007-153018-qoder-aac49f94b note x11
+- 20261008-232029-workbuddy-34e89f61 note x2
+- 20261008-125638-qoder-d266d3a9 note x2
+- 20261009-005817-codex-e721937f start/done
+- 20261009-003148-codex-363f6327 note/done
+- 20261009-020500-codex-ardyside3 start/done
+- 20261009-021611-codex-415484ce start/done
+- 20261009-025512-codex-f4a8c746 start
+- 20261008-202654-codex-182c4568 done
+- journal-daily-check note
+- 本会话 20261009-132809-qoder-9b946d7f start/note/done x3（#2788 开工、#2790 视频导出与同 sha 根因复算、#2791 done）
+
+issues.jsonl +9 行 = seq 959–967（open x3、note x6，全部 state=OPEN）。
+
+删除行归属判定（C2 要求）：INDEX.md -6 与 open-issues.md -12 全部是派生视图重建差异
+——INDEX 行形态是「| task | state | owner | gpu | 摘要 |」表格行，open-issues 行是重建时间头、
+计数行（问题合计/事件合计/OPEN 215）与「### ISS-…」标题块；两者均无 seq/ts/prev 事实事件字段，
+故不是他人事实行被动。事实源本次零删除（journal.log 与 issues.jsonl 的 numstat 删除列均为 0）。
+
+快照截止：claims/journal.log 第 2791 行为本会话 done，其后 #2792/#2793 是 close_ledger 触发的
+ledger-maint 吸收行，一并包含在本次提交内。

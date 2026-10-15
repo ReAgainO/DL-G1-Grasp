@@ -1,0 +1,28 @@
+name,success,fail,lift_mm,slip_mm,red_n,red
+b25_00_00__base,False,,133.0,3.62,1,no_robot_table_contact_full_task
+b25_00_00__phys,True,,134.1,0.62,0,
+b25_00_00__phys2,True,,134.1,0.62,0,
+b25_00_00__soft,True,,136.8,0.83,0,
+b25_00_00__sub4,False,,-0.1,17.38,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+b25_00_10__base,False,two-finger contact timeout,-1000.0,1000000000000.0,13,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_robot_table_contact_full_task|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+b25_00_10__phys,False,,138.2,0.88,1,no_robot_table_contact_full_task
+b25_02_06__base,False,,121.5,3.69,1,no_robot_table_contact_full_task
+b25_02_06__phys,False,,129.9,0.97,1,final_table_supported
+b25_04_01__base,True,,123.8,3.78,0,
+b25_04_01__phys,True,,140.1,0.54,0,
+b25_10_17__base,False,,-6.3,150.31,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+b25_10_17__phys,False,,135.3,1.36,1,no_robot_table_contact_full_task
+b25_12_04__base,True,,121.3,4.24,0,
+b25_12_04__phys,True,,142.2,0.51,0,
+b25_12_04__soft,True,,126.8,0.98,0,
+b25_12_04__sub4,False,two-finger contact timeout,-1000.0,1000000000000.0,13,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_robot_table_contact_full_task|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+c20d_10_03__base,False,,-1.1,32.59,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+c20d_10_03__phys,False,,136.3,0.71,1,no_robot_table_contact_full_task
+c20d_10_03__soft,False,,0.9,31.76,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+c20d_10_03__sub4,False,,-0.1,36.06,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+c20d_12_03__base,False,,-5.2,148.99,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+c20d_12_03__phys,False,,143.9,0.76,1,final_table_supported
+c20f_06_19__base,False,,-0.1,38.44,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+c20f_06_19__phys,False,,1.0,32.9,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+c20f_09_01__base,False,,-5.5,147.02,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+c20f_09_01__phys,False,,144.1,0.7,1,no_robot_table_contact_full_task

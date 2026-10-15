@@ -1,0 +1,285 @@
+{
+  "task": "20261008-202654-codex-182c4568",
+  "native_generation": true,
+  "ardy_source": "/data/group4/20261005-222503-codex-a8d69b27/src/ardy",
+  "prompt": "A humanoid robot stands balanced, reaches its right hand down to a small cube on a table, grasps the cube, and raises its right hand while keeping both feet planted.",
+  "seed": 42,
+  "frames": 200,
+  "fps": 25,
+  "diffusion_steps": 10,
+  "torch": "2.6.0+cpu",
+  "model": "ARDY-G1-RP-25FPS-Horizon52",
+  "device": "cpu",
+  "threads": 2,
+  "text_encoder_mode": "stacked LLM2Vec MNTP merged + supervised adapter; original local probe method",
+  "keyframe_qpos_max_abs_error": [
+    0.6030339002609253,
+    1.448530673980713,
+    1.387943148612976,
+    0.7785980701446533
+  ],
+  "token_trace_meta": [
+    {
+      "window": 0,
+      "shape": [
+        1,
+        13,
+        148
+      ],
+      "dtype": "torch.float32",
+      "requantize": true,
+      "center_frame_index": [
+        51
+      ]
+    },
+    {
+      "window": 1,
+      "shape": [
+        1,
+        26,
+        148
+      ],
+      "dtype": "torch.float32",
+      "requantize": true,
+      "center_frame_index": [
+        103
+      ]
+    },
+    {
+      "window": 2,
+      "shape": [
+        1,
+        39,
+        148
+      ],
+      "dtype": "torch.float32",
+      "requantize": true,
+      "center_frame_index": [
+        155
+      ]
+    },
+    {
+      "window": 3,
+      "shape": [
+        1,
+        52,
+        148
+      ],
+      "dtype": "torch.float32",
+      "requantize": true,
+      "center_frame_index": [
+        207
+      ]
+    }
+  ],
+  "trace_definition": "Actual normalized hybrid root/body representation before and after native recenter(requantize=True), and exact native hybrid decoder input. Not SONIC token IDs.",
+  "file_sha": {
+    "planned_keyframes.json": "eb7a3dbce99692663014951984df5b2a5fce1c8f670acd7aea4dedb59ecc29e3",
+    "constraints.json": "0971cb8f0c5c4fd055d9db11d57c98b8267c570225829ae18158bd9473a046ae",
+    "generated_s42.npz": "6d3cae6bc899b2274299e3264f3edcb55050422851bb2ae334ab0aaa36971120",
+    "generated_s42.csv": "89d698e22eaae8cba7c0442138b5873ae068c762c6a18f287e68b347ee789f80",
+    "hybrid_trace_s42.npz": "19252b1acd931989f53acfa93e013311217dc12249484e0012257717af9a5236",
+    "ardy_native22.py": "dc93d6998b494a21025cc694bc5c2e425cb402f8f2c2d1d232cd7e7354b29e7b",
+    "ardy_encoder_local.py": "0c1709d46e0caafc1a439bcbb90df78ef1c0312ea5f7f847b7b3e7768a9fc26b"
+  },
+  "elapsed_s": 115.33999069291167,
+  "physical_grasp_success": false,
+  "active_in_controller": false,
+  "ardy_model_files": [
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/denoiser.safetensors",
+      "size": 631581872,
+      "sha256": "0c16ac26c1ab75e511cd24bb25bd9ad92078a2460b4ce78529788b5da22647a2"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/config.yaml",
+      "size": 1556,
+      "sha256": "d34bcd2a43e5bade030e2779bd11e0c3d8ce7eeea6b636e7504efe9a404ec757"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/LICENSE",
+      "size": 10229,
+      "sha256": "11ccdcb47db87ac30b63765b5e5154403026c4fbb52c19919d99d912ec454e19"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/tokenizer.safetensors",
+      "size": 143166728,
+      "sha256": "6f2f75f738b8d6fb1b196d3253c7accc90494b9c12669b35968425fef54c8896"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.gitattributes",
+      "size": 1519,
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/README.md",
+      "size": 13085,
+      "sha256": "e82149308c3f797631250eef6a104ec17b1d531bb671a5db57d1f5640a088e3b"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/stats/motion/mean.npy",
+      "size": 3472,
+      "sha256": "b6d2c72548475e9c82a80899429c955840796a06a82c88e646e7a0125f997407"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/stats/motion/std.npy",
+      "size": 3472,
+      "sha256": "ee6069988035de4339b44fd229f169456d4bd86671fc4dbcfd293c4d41caa1a8"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/stats/post_quantization/mean.npy",
+      "size": 640,
+      "sha256": "78d5bbd3d22ca1866770a370f0fb9da15663cbbc63a0b8851f124dae78a2f8c0"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/stats/post_quantization/std.npy",
+      "size": 640,
+      "sha256": "289d21ca46aa8300cd213993a64efbd03d35440178de19b38cc8ee76d69499a1"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/stats/pre_quantization/mean.npy",
+      "size": 640,
+      "sha256": "14bf165f6cf79276bc45ea24d6101f320b9007854b2ddb86babdd057af287a8c"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/stats/pre_quantization/std.npy",
+      "size": 640,
+      "sha256": "413dbb9b736a41d033a5c0dbd0a632970b0e23737f39dd8eb0e859fe7a7e9556"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/CACHEDIR.TAG",
+      "size": 191,
+      "sha256": "f6572428f6d5e1575e73a1502895a8731f10757dfbb634909c6e154b849af91d"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/.gitignore",
+      "size": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/trees/059b8007df0ba194a006a877b59a563955ac7b70.json",
+      "size": 2856,
+      "sha256": "81bab0ea389a255621ff618df741e44d92779f606ee1b5be56663c1a81642aed"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/.gitattributes.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/denoiser.safetensors.metadata",
+      "size": 125,
+      "sha256": "f2fc4f797c2d78f3f0e2655500f0f2c951554cd9fe74aceaa7745ae989743135"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/.gitattributes.metadata",
+      "size": 100,
+      "sha256": "bb53d2e154665d9995d72d1ba8689b4e3f27914717906c033819e811ca8de5c8"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/denoiser.safetensors.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/config.yaml.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/config.yaml.metadata",
+      "size": 101,
+      "sha256": "45198588406e659ebf48def58122fd34fda4efe801191bf1c604ba1fe19e2cff"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/README.md.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/README.md.metadata",
+      "size": 101,
+      "sha256": "be27da82cbeac4235e271c3bd174db286861d3d1b7ecead300ed0ec6cb5840a4"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/tokenizer.safetensors.metadata",
+      "size": 125,
+      "sha256": "6445344a3a5699bba028d5bee40e8150f13290e9be8865287acea69d5ab46e43"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/tokenizer.safetensors.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/LICENSE.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/LICENSE.metadata",
+      "size": 100,
+      "sha256": "70d96d48c3ffec7950419c7a44bd7d91ed2e41129397ee372b7c5f948b75bab6"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/motion/std.npy.metadata",
+      "size": 125,
+      "sha256": "ab24e49cf76489d505693ea58631d4ce70e3d714b50383d86ac5a11830553094"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/motion/mean.npy.metadata",
+      "size": 124,
+      "sha256": "d29601388a05bd30a02ba05f2075cd519e3aa58b025dda84cd1176993f47dcd6"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/motion/std.npy.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/motion/mean.npy.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/post_quantization/std.npy.metadata",
+      "size": 125,
+      "sha256": "22e8df2725bce8ae6cce9be12522809b18ab16dd762be7ebd9ef8bde2deb97f8"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/post_quantization/mean.npy.metadata",
+      "size": 125,
+      "sha256": "dcc83b7c42cfc90f98afec754437cf211bd1995c8186f0bb1fb0bc014493c251"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/post_quantization/std.npy.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/post_quantization/mean.npy.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/pre_quantization/std.npy.metadata",
+      "size": 125,
+      "sha256": "5bf1cb96d14e2af92b2de5e26888d0fa37599e0a9e9b0e5f8733fe9aad04e7ad"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/pre_quantization/mean.npy.metadata",
+      "size": 125,
+      "sha256": "994a56654e37d83f0c60293529526c9719ea648cea001f96bbe305308acc77f9"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/pre_quantization/std.npy.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/.cache/huggingface/download/stats/pre_quantization/mean.npy.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

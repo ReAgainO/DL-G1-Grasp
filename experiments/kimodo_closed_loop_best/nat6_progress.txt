@@ -1,0 +1,17 @@
+=== NAT6 sweep 2026-10-09T13:30:36Z ===
+delivered  0e0435b66da9b9b5
+frozen     0e0435b66da9b9b5
+working    9291e2cdfc78fec3
+### wb_nat6_n4_o005 (approach_orient_blend=0.05 grasp=0) 2026-10-09T13:30:36Z
+### wb_nat6_n4_o005 rc=0 120 s
+### wb_nat6_n4_o01 (approach_orient_blend=0.1 grasp=0) 2026-10-09T13:32:36Z
+### wb_nat6_n4_o01 rc=0 117 s
+### wb_nat6_n4_o015 (approach_orient_blend=0.15 grasp=0) 2026-10-09T13:34:33Z
+### wb_nat6_n4_o015 rc=0 120 s
+### wb_nat6_n4_o02 (approach_orient_blend=0.2 grasp=0) 2026-10-09T13:36:33Z
+### wb_nat6_n4_o02 rc=0 123 s
+### wb_nat6_n4_o025 (approach_orient_blend=0.25 grasp=0) 2026-10-09T13:38:36Z
+### wb_nat6_n4_o025 rc=0 123 s
+### wb_nat6_n4_o03 (approach_orient_blend=0.3 grasp=0) 2026-10-09T13:40:39Z
+### wb_nat6_n4_o03 rc=0 125 s
+=== NAT6 sweep done 2026-10-09T13:42:44Z ===

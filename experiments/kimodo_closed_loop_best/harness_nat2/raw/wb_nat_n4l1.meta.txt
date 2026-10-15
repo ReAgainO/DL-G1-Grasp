@@ -1,0 +1,10 @@
+name=wb_nat_n4l1
+utc_start=2026-10-09T09:08:41Z
+host=worker00039 uid=1004
+runner_sha256=6f9f44e2b19118b5c040b5d9107400231374d0cf44f43e2d243ce841698555da
+sonic_grasp_sha256=0e0435b66da9b9b5d56092246a0deda23c6b38fdac01f7d39e5a8496f14148b9
+motion_stem=n4_conv
+sonic_grasp_args=wb_nat_n4l1 --cube-edge-mm=35 --cube-x=0.267 --cube-y=-0.118
+utc_end=2026-10-09T09:10:40Z
+rc=0 wall_s=119
+result_json=/data/group4/20261008-232029-workbuddy-34e89f61/harness_s1000/rep/out/wb_nat_n4l1/result.json

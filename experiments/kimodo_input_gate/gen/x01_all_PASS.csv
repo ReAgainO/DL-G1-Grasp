@@ -1,0 +1,15 @@
+run_id,prompt_id,seed,cfg_text,csv_path,prompt_text,constraints_sha,baseline
+x01:m1_p0_s0_u,P0,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m1_p0_s0_u.csv,A person reaches forward with their right hand to grab a small object on a table.,,1
+x01:m1_p2_s0_u,P2,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m1_p2_s0_u.csv,A person extends their right arm toward a small object resting on a table and takes it.,,0
+x01:m1_p3_s0_u,P3,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m1_p3_s0_u.csv,A person waters the plants on the balcony with their right hand.,,0
+x01:m1_p5_s0_u,P5,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m1_p5_s0_u.csv,A person leans forward over a table and grabs a cup.,,0
+x01:mcpu_p0_s0_c_dur2,P0,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/mcpu_p0_s0_c_dur2.csv,A person reaches forward with their right hand to grab a small object on a table.,6b8c648f9aac11a9da6306f39c2140cc26ded66fcff49d984c8e77308e2a2c6d,1
+x01:m0_p0_s0_c,P0,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m0_p0_s0_c.csv,A person reaches forward with their right hand to grab a small object on a table.,6b8c648f9aac11a9da6306f39c2140cc26ded66fcff49d984c8e77308e2a2c6d,1
+x01:m0_p0_s1_c,P0,1,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m0_p0_s1_c.csv,A person reaches forward with their right hand to grab a small object on a table.,6b8c648f9aac11a9da6306f39c2140cc26ded66fcff49d984c8e77308e2a2c6d,1
+x01:m0_p2_s0_c,P2,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m0_p2_s0_c.csv,A person extends their right arm toward a small object resting on a table and takes it.,b272c5f881e76130d482f48f5605c688741f47fc687cd000b7894f6ad6bd252e,0
+x01:m0_p2_s1_c,P2,1,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m0_p2_s1_c.csv,A person extends their right arm toward a small object resting on a table and takes it.,b272c5f881e76130d482f48f5605c688741f47fc687cd000b7894f6ad6bd252e,0
+x01:m0_p5_s0_c,P5,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s0_c.csv,A person leans forward over a table and grabs a cup.,e0cd1d442c733985afc1f71b7c213337d028fcf86a129db5107c9d9a3fdaebe2,0
+x01:m0_p5_s1_c,P5,1,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv,A person leans forward over a table and grabs a cup.,e0cd1d442c733985afc1f71b7c213337d028fcf86a129db5107c9d9a3fdaebe2,0
+x01:mcfg_p0_s0_textoff_c,P0,0,0.0,/data/group4/20261006-042504-qoder-x01gen/gen/mcfg_p0_s0_textoff_c.csv,A person reaches forward with their right hand to grab a small object on a table.,6b8c648f9aac11a9da6306f39c2140cc26ded66fcff49d984c8e77308e2a2c6d,0
+x01:c1_p0_s0_c_rep2,P0,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/c1_p0_s0_c_rep2.csv,A person reaches forward with their right hand to grab a small object on a table.,6b8c648f9aac11a9da6306f39c2140cc26ded66fcff49d984c8e77308e2a2c6d,1
+x01:mdtype_p0_s0_c_fp32textenc,P0,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv,A person reaches forward with their right hand to grab a small object on a table.,6b8c648f9aac11a9da6306f39c2140cc26ded66fcff49d984c8e77308e2a2c6d,1

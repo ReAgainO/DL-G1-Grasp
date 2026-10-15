@@ -1,0 +1,22 @@
+[
+  {
+    "stem": "reach_s43",
+    "seed": 43,
+    "prompt": "A person reaches forward with their right hand to grab a small object on a table."
+  },
+  {
+    "stem": "lift_s42",
+    "seed": 42,
+    "prompt": "A standing person slowly lifts a small object upward with their right hand and keeps the left arm relaxed."
+  },
+  {
+    "stem": "hold_s42",
+    "seed": 42,
+    "prompt": "A standing person holds a small object steadily in their right hand in front of the chest."
+  },
+  {
+    "stem": "release_s42",
+    "seed": 42,
+    "prompt": "A standing person slowly lowers their right hand to place a small object back on a table."
+  }
+]

@@ -1,0 +1,3228 @@
+{
+  "results": [
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true
+      },
+      "legacy_success": null,
+      "gate_definition_version": null,
+      "duration_s": 14.140000000001391,
+      "wall_s": 20.931866117054597,
+      "model_load_s": 1.4323370290221646,
+      "max_lift_m": 0.0,
+      "hold_min_lift_m": -1.0,
+      "hold_slip_m": 1000000000.0,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0027210732873540187,
+      "min_up_z": 0.9999940765263237,
+      "actual_to_decoded_motor_target_rms_rad": 0.2195658050811632,
+      "actual_to_applied_motor_target_rms_rad": null,
+      "fail_reason": "reference feasibility stop: No C2 plan inside eight-second motion horizon; stop, do not clip",
+      "phase_clips_consumed": [],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 707,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 10.813551563636988,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": null,
+      "sonic_armature": null,
+      "passive_free_diagnostic": null,
+      "postcapture_arm_pd_gain_scale": null,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": null,
+      "actual_arm_limit_overshoot_per_joint_max_rad": null,
+      "balance_audit_summary": null,
+      "contact_audit_summary": null,
+      "policy_p95_ms": 15.068176377099007,
+      "name": "w4_baseline314",
+      "result_sha256": "a70a7ba3e067ef5d990d4868bd8223eeeee9a078842b08e5b14b6b42d27758ab",
+      "runtime_stamp": {
+        "mujoco_version": "3.14.0",
+        "sys_executable": "/home/group4/group4_dasc7606c/envs/render/bin/python",
+        "python_version": "3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "0beb2c5045ca54963679de82b708a62426af00610bc1131693581ad052ff1cb8",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "4de357d8abe1042e057e2d4e9a5e6d477e83fbb5a65a81d32473c4498b9c471c",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "e512e8d435de7f4bb3c815d9ea3d011062a75c503fd6f7855c274fa10e87bbed",
+      "final_phase": "PREGRASP"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": true,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": true,
+        "clearance_4cm": false,
+        "slip_1cm": true,
+        "release_drop_6cm": true,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true
+      },
+      "legacy_success": null,
+      "gate_definition_version": null,
+      "duration_s": 47.27200000001181,
+      "wall_s": 63.63167697901372,
+      "model_load_s": 1.6633176639443263,
+      "max_lift_m": 0.1216672988915134,
+      "hold_min_lift_m": 0.0467950713526073,
+      "hold_slip_m": 0.009534012724056075,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0030323116658901752,
+      "min_up_z": 0.9999926904483776,
+      "actual_to_decoded_motor_target_rms_rad": 0.14330515116879838,
+      "actual_to_applied_motor_target_rms_rad": null,
+      "fail_reason": null,
+      "phase_clips_consumed": [
+        "hold_s42",
+        "lift_s42",
+        "release_s42"
+      ],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2364,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.953760512071405,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": null,
+      "sonic_armature": null,
+      "passive_free_diagnostic": null,
+      "postcapture_arm_pd_gain_scale": null,
+      "lift_only_right_arm_damping_scale": 2.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": null,
+      "actual_arm_limit_overshoot_per_joint_max_rad": null,
+      "balance_audit_summary": null,
+      "contact_audit_summary": null,
+      "policy_p95_ms": 14.92289068410173,
+      "name": "w4_damping2",
+      "result_sha256": "597259deeedfc961609d12037231966b477d16180c57e22c15ab9495c3b09cfd",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "0beb2c5045ca54963679de82b708a62426af00610bc1131693581ad052ff1cb8",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "4de357d8abe1042e057e2d4e9a5e6d477e83fbb5a65a81d32473c4498b9c471c",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "57d97af60f4cb066195acca597fa52ee3f184bff4e170690f6f7ee3525977b2f",
+      "final_phase": "SETTLE_RELEASE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": true,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true
+      },
+      "legacy_success": null,
+      "gate_definition_version": null,
+      "duration_s": 47.27200000001181,
+      "wall_s": 63.284662122954614,
+      "model_load_s": 1.6452560150064528,
+      "max_lift_m": 0.07130725122037462,
+      "hold_min_lift_m": -9.212145817605322e-05,
+      "hold_slip_m": 0.0890083994326769,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0030323116658901752,
+      "min_up_z": 0.9999926904483776,
+      "actual_to_decoded_motor_target_rms_rad": 0.14329676060609461,
+      "actual_to_applied_motor_target_rms_rad": null,
+      "fail_reason": null,
+      "phase_clips_consumed": [
+        "hold_s42",
+        "lift_s42",
+        "release_s42"
+      ],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2364,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.956816459501283,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": null,
+      "sonic_armature": null,
+      "passive_free_diagnostic": null,
+      "postcapture_arm_pd_gain_scale": null,
+      "lift_only_right_arm_damping_scale": 3.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": null,
+      "actual_arm_limit_overshoot_per_joint_max_rad": null,
+      "balance_audit_summary": null,
+      "contact_audit_summary": null,
+      "policy_p95_ms": 15.055842365836725,
+      "name": "w4_damping3",
+      "result_sha256": "6e75117fa93f3dfaf8fcd872e49372f8f2d9f3d1c2978daa441889d5778e98f0",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "0beb2c5045ca54963679de82b708a62426af00610bc1131693581ad052ff1cb8",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "4de357d8abe1042e057e2d4e9a5e6d477e83fbb5a65a81d32473c4498b9c471c",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "310b58550efbaaaf74c35366c4623243eea7e073fe109fef0444d7f0fbfd2947",
+      "final_phase": "SETTLE_RELEASE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": true,
+        "hold_7cm": false,
+        "two_fingers": true,
+        "no_support": true,
+        "clearance_4cm": false,
+        "slip_1cm": true,
+        "release_drop_6cm": true,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 47.27200000001181,
+      "wall_s": 83.57887591794133,
+      "model_load_s": 1.7626507870154455,
+      "max_lift_m": 0.13273442516752088,
+      "hold_min_lift_m": 0.04294076227344035,
+      "hold_slip_m": 0.0030804673721377225,
+      "hold_min_contact_bodies": 2,
+      "max_drift_m": 0.0030323116658901752,
+      "min_up_z": 0.9999926904483776,
+      "actual_to_decoded_motor_target_rms_rad": 0.14280128005004225,
+      "actual_to_applied_motor_target_rms_rad": null,
+      "fail_reason": null,
+      "phase_clips_consumed": [
+        "hold_s42",
+        "lift_s42",
+        "release_s42"
+      ],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2364,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.960653175728863,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": null,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": null,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": null,
+      "actual_arm_limit_overshoot_per_joint_max_rad": null,
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 83681,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 15.866840668384498,
+            "loaded_steps": 5422,
+            "max_upward_force_N": 0.7189612276760927,
+            "min_vertical_force_N": -11.62656872743534
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 11.662087682474468,
+            "loaded_steps": 18803,
+            "max_upward_force_N": 11.662087682474468,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {
+          "pad": {
+            "max_normal_N": 0.44162656526752314,
+            "loaded_steps": 993,
+            "max_upward_force_N": 0.5111622962560809,
+            "min_vertical_force_N": 0.001892396134581486
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_sample_count": 993,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "policy_p95_ms": 16.808124008821324,
+      "name": "w4_contact_baseline327",
+      "result_sha256": "4416c257881d7bc323fc36f4360a8234b01c1039aecf2f2fa3108565af32036c",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "c0bc41ebc9555437566c74cf0aeda2f9fcfcd6cd7e2c047844b2e86b04ccc0cf",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "4de357d8abe1042e057e2d4e9a5e6d477e83fbb5a65a81d32473c4498b9c471c",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "76e8b1d91b40139fd0641e57a9d00d59028f4d6ce120a92389ec10937bea28b3",
+      "final_phase": "SETTLE_RELEASE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 37.12799999999941,
+      "wall_s": 70.79304757597856,
+      "model_load_s": 1.937967455945909,
+      "max_lift_m": 0.011189873013551566,
+      "hold_min_lift_m": -1.0,
+      "hold_slip_m": 1000000000.0,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0028707354366063996,
+      "min_up_z": 0.9999934083359525,
+      "actual_to_decoded_motor_target_rms_rad": 0.1459581943670088,
+      "actual_to_applied_motor_target_rms_rad": null,
+      "fail_reason": "two-finger contact timeout",
+      "phase_clips_consumed": [],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 1857,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.893658793808445,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": null,
+      "sonic_armature": true,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": null,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": null,
+      "actual_arm_limit_overshoot_per_joint_max_rad": null,
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 72194,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 16.814903032782354,
+            "loaded_steps": 599,
+            "max_upward_force_N": 0.28366393972289383,
+            "min_vertical_force_N": -14.0362803738722
+          },
+          "wrist": {
+            "max_normal_N": 3.1681245083544205,
+            "loaded_steps": 40,
+            "max_upward_force_N": 0.08671364706990671,
+            "min_vertical_force_N": -3.289311336684057
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 13.940649969764795,
+            "loaded_steps": 18510,
+            "max_upward_force_N": 13.940649969764795,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {},
+        "hold_sample_count": 0,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "policy_p95_ms": 18.064036988653243,
+      "name": "w4_armature327",
+      "result_sha256": "fe95c33df9309a2d8ddddbcfae66e1fa464c140c0c6d905c153b1401126c09d5",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "d6f3a26541b7e46fe4ae559f75aba8418ec08cf58a9c421d13b28c3bdb04a3c0"
+        },
+        "scene_generator_sha": "c0bc41ebc9555437566c74cf0aeda2f9fcfcd6cd7e2c047844b2e86b04ccc0cf",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "4de357d8abe1042e057e2d4e9a5e6d477e83fbb5a65a81d32473c4498b9c471c",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "official_dynamics_audit": "2d7f3cd9a0439d45c7eb2c0c7a08846a77abeb02d90a4f2aefb28566a0e981f7",
+          "official_training_g1": "42f9b4394eb21512735da4b1ca78c2d0546c4221c7bdaf8b3a186d8dc5588ba9",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "a9b21c000a0ac2cb1b58de1a5c7868b9af85d8dd83d99f721ea9afc064d7fd5e",
+      "final_phase": "CLOSE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 37.30999999999963,
+      "wall_s": 64.191952731926,
+      "model_load_s": 1.6183220719685778,
+      "max_lift_m": 0.011828664360047703,
+      "hold_min_lift_m": -1.0,
+      "hold_slip_m": 1000000000.0,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0027140676938824065,
+      "min_up_z": 0.99999416285584,
+      "actual_to_decoded_motor_target_rms_rad": 0.14862845605357822,
+      "actual_to_applied_motor_target_rms_rad": null,
+      "fail_reason": "two-finger contact timeout",
+      "phase_clips_consumed": [],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 1866,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.960536913560645,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": null,
+      "sonic_armature": true,
+      "passive_free_diagnostic": true,
+      "postcapture_arm_pd_gain_scale": null,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": null,
+      "actual_arm_limit_overshoot_per_joint_max_rad": null,
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 72513,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 14.651601378721514,
+            "loaded_steps": 736,
+            "max_upward_force_N": 0.5935240538314404,
+            "min_vertical_force_N": -14.189563646928292
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 14.100847576384554,
+            "loaded_steps": 18593,
+            "max_upward_force_N": 14.100847576384554,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {},
+        "hold_sample_count": 0,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "policy_p95_ms": 17.484933254309,
+      "name": "w4_passivefree327",
+      "result_sha256": "697715690e4ad7fb24ea84815ffee97b4ac026bc2b6e6d48c50ea2db7e89ebe5",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "e24076c822e2758e5bea2634c34919648d06171576167ac6d5081f924504b8e4"
+        },
+        "scene_generator_sha": "c0bc41ebc9555437566c74cf0aeda2f9fcfcd6cd7e2c047844b2e86b04ccc0cf",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "4de357d8abe1042e057e2d4e9a5e6d477e83fbb5a65a81d32473c4498b9c471c",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "official_dynamics_audit": "2d7f3cd9a0439d45c7eb2c0c7a08846a77abeb02d90a4f2aefb28566a0e981f7",
+          "official_training_g1": "42f9b4394eb21512735da4b1ca78c2d0546c4221c7bdaf8b3a186d8dc5588ba9",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "d9e3c12dfa0a11410c9c5b7728a8cd7c598eecf9a9085b87fdaa33a2c41b0c21",
+      "final_phase": "CLOSE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 40.012000000002935,
+      "wall_s": 66.9133382049622,
+      "model_load_s": 1.4567483239807189,
+      "max_lift_m": 0.07036062021659528,
+      "hold_min_lift_m": -1.0,
+      "hold_slip_m": 1000000000.0,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.00277286310430067,
+      "min_up_z": 0.9999938460224455,
+      "actual_to_decoded_motor_target_rms_rad": 0.14202518475925147,
+      "actual_to_applied_motor_target_rms_rad": null,
+      "fail_reason": "alignment timeout",
+      "phase_clips_consumed": [],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2001,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.938589913877568,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": null,
+      "sonic_armature": true,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": null,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": null,
+      "actual_arm_limit_overshoot_per_joint_max_rad": null,
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 77793,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 7.217591763930193,
+            "loaded_steps": 536,
+            "max_upward_force_N": 0.48394076949961706,
+            "min_vertical_force_N": -8.620208254926903
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 2.815297332810247,
+            "loaded_steps": 9,
+            "max_upward_force_N": 2.723956834339413,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 8.976446722115119,
+            "loaded_steps": 19454,
+            "max_upward_force_N": 8.976446722115119,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {},
+        "hold_sample_count": 0,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "policy_p95_ms": 16.736413934268057,
+      "name": "w4_armature314",
+      "result_sha256": "c8fced27aaca7f6f233fc11da85ebc1195f73514bfe9a89a28adb67879c2656f",
+      "runtime_stamp": {
+        "mujoco_version": "3.14.0",
+        "sys_executable": "/home/group4/group4_dasc7606c/envs/render/bin/python",
+        "python_version": "3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "d6f3a26541b7e46fe4ae559f75aba8418ec08cf58a9c421d13b28c3bdb04a3c0"
+        },
+        "scene_generator_sha": "c0bc41ebc9555437566c74cf0aeda2f9fcfcd6cd7e2c047844b2e86b04ccc0cf",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "4de357d8abe1042e057e2d4e9a5e6d477e83fbb5a65a81d32473c4498b9c471c",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "official_dynamics_audit": "2d7f3cd9a0439d45c7eb2c0c7a08846a77abeb02d90a4f2aefb28566a0e981f7",
+          "official_training_g1": "42f9b4394eb21512735da4b1ca78c2d0546c4221c7bdaf8b3a186d8dc5588ba9",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "ffc6a0cef48701748ec0ace502a739cf7b215cb79f2e5ed2bd68cddaad1abb2f",
+      "final_phase": "ALIGN"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": true,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 47.27200000001181,
+      "wall_s": 87.17353368899785,
+      "model_load_s": 1.8250181910116225,
+      "max_lift_m": 0.14290235857095213,
+      "hold_min_lift_m": -9.212145817616424e-05,
+      "hold_slip_m": 0.22778994861156812,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0031285380537305544,
+      "min_up_z": 0.9999921602449133,
+      "actual_to_decoded_motor_target_rms_rad": 0.19559489951816705,
+      "actual_to_applied_motor_target_rms_rad": 0.13650223751028037,
+      "fail_reason": null,
+      "phase_clips_consumed": [
+        "hold_s42",
+        "lift_s42",
+        "release_s42"
+      ],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2364,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.953760512071405,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": null,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": null,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": {
+        "kind": "causal decoded-target rate limiter followed by two convex exponential stages",
+        "calls": 7007,
+        "tau_s": 0.3,
+        "dt_s": 0.002,
+        "stage1_speed_limit_rad_s": 0.6,
+        "conservative_discrete_derivative_bounds": [
+          0.6,
+          3.9735099337748343,
+          26.314635323012148
+        ],
+        "measured_discrete_velocity_acceleration_jerk_max": [
+          0.2998282261658103,
+          1.0997638336951443,
+          14.19608791630722
+        ],
+        "max_raw_decoded_to_applied_offset_rad": 1.5175258802480514,
+        "raw_sonic_action_or_history_modified": false,
+        "manual_ik_body_targets": false,
+        "actual_joint_limits_certified": false,
+        "continuous_C2_certified": false
+      },
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.959305687143692,
+        4.053238177666831,
+        2.545587853912283,
+        5.957774187689716,
+        2.3813183204138295,
+        6.185091785927258,
+        2.1185739467746925
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0019101710039599595
+      ],
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 93188,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 15.866840668384498,
+            "loaded_steps": 562,
+            "max_upward_force_N": 0.47853132169828283,
+            "min_vertical_force_N": -11.439708189128522
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 11.543432190222408,
+            "loaded_steps": 23352,
+            "max_upward_force_N": 11.543432190222408,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {
+          "pad": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 0.1962000000000001,
+            "loaded_steps": 993,
+            "max_upward_force_N": 0.1962000000000001,
+            "min_vertical_force_N": 0.19619999999999993
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_sample_count": 993,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "policy_p95_ms": 17.899019428296015,
+      "name": "w4_decoded_filter327",
+      "result_sha256": "e70790555b6ead48f1e73cfed73dca1dd01d48f800a4167b2359735367e3c3e4",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "decbb06e2e50c61cd603a5731a58e43e64589236f9cef8e3376d70fd984dc5fc",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "08542792cf606e9dbde3e298d7fe9df920b60d6e441915c7b09c99e6d555ba53",
+      "final_phase": "SETTLE_RELEASE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": true,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 47.27200000001181,
+      "wall_s": 90.74022202508058,
+      "model_load_s": 1.863889069063589,
+      "max_lift_m": 0.1211154991940695,
+      "hold_min_lift_m": -0.7570460607290874,
+      "hold_slip_m": 1.2932516716390468,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0030323116658901752,
+      "min_up_z": 0.9999926904483776,
+      "actual_to_decoded_motor_target_rms_rad": 0.23359475454266518,
+      "actual_to_applied_motor_target_rms_rad": 0.14491047993941344,
+      "fail_reason": null,
+      "phase_clips_consumed": [
+        "hold_s42",
+        "lift_s42",
+        "release_s42"
+      ],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2364,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.953760512071405,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": null,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": {
+        "kind": "causal decoded-target rate limiter followed by two convex exponential stages",
+        "calls": 7007,
+        "tau_s": 0.1,
+        "dt_s": 0.002,
+        "stage1_speed_limit_rad_s": 1.5,
+        "conservative_discrete_derivative_bounds": [
+          1.5,
+          29.41176470588235,
+          576.7012687427913
+        ],
+        "measured_discrete_velocity_acceleration_jerk_max": [
+          1.3311394420050804,
+          10.294148371420286,
+          320.946795376309
+        ],
+        "max_raw_decoded_to_applied_offset_rad": 2.091152342025088,
+        "raw_sonic_action_or_history_modified": false,
+        "manual_ik_body_targets": false,
+        "actual_joint_limits_certified": false,
+        "continuous_C2_certified": false
+      },
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.959305687143692,
+        4.053238177666831,
+        2.568265412796026,
+        5.957774187689716,
+        2.3813183204138295,
+        6.185091785927258,
+        2.1185739467746925
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0019101710039599595
+      ],
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 89179,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 44.19044994437712,
+            "loaded_steps": 1048,
+            "max_upward_force_N": 0.47853132169828283,
+            "min_vertical_force_N": -50.587807537112994
+          },
+          "wrist": {
+            "max_normal_N": 27.566678626300597,
+            "loaded_steps": 173,
+            "max_upward_force_N": 0.027923260677955367,
+            "min_vertical_force_N": -27.036501965226133
+          },
+          "other_robot": {
+            "max_normal_N": 3.311267683747657,
+            "loaded_steps": 5,
+            "max_upward_force_N": 3.1123142907269337,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 50.04978177824125,
+            "loaded_steps": 22898,
+            "max_upward_force_N": 50.04978177824125,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {
+          "pad": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 0.19620000000000007,
+            "loaded_steps": 993,
+            "max_upward_force_N": 0.19620000000000007,
+            "min_vertical_force_N": 0.19619999999999993
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_sample_count": 993,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "policy_p95_ms": 17.951930535491556,
+      "name": "w4_decoded_light327",
+      "result_sha256": "524a8d03b362e20b17ec33a1a6d2ae2b72680b5819742c7f896b1bbc4706ff6e",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "f2b333db3e9bbf34e5c429b858e17d34bdcedace67177c094484f4ece1bf8c9a",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "1d57ac5272e6a934ca61ad6d7fb1a23d72e9604649261f606ec7bdc24faf8d32",
+      "final_phase": "SETTLE_RELEASE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": true,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 47.27200000001181,
+      "wall_s": 83.38299096492119,
+      "model_load_s": 1.6146503979107365,
+      "max_lift_m": 0.047102899443184576,
+      "hold_min_lift_m": -9.212145817605322e-05,
+      "hold_slip_m": 0.10178667276097572,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0030323116658901752,
+      "min_up_z": 0.9999926904483776,
+      "actual_to_decoded_motor_target_rms_rad": 0.14060116829435587,
+      "actual_to_applied_motor_target_rms_rad": 0.14060116829435587,
+      "fail_reason": null,
+      "phase_clips_consumed": [
+        "hold_s42",
+        "lift_s42",
+        "release_s42"
+      ],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2364,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.962703914941727,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": null,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 2.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.959305687143692,
+        4.053238177666831,
+        2.545587853912283,
+        6.272887256747224,
+        2.3813183204138295,
+        6.185091785927258,
+        2.1185739467746925
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0019101710039599595
+      ],
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 90557,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 15.866840668384498,
+            "loaded_steps": 2012,
+            "max_upward_force_N": 1.2433200272665605,
+            "min_vertical_force_N": -18.338407554059426
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 18.18679142552335,
+            "loaded_steps": 22670,
+            "max_upward_force_N": 18.18679142552335,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {
+          "pad": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 0.1962000000000001,
+            "loaded_steps": 993,
+            "max_upward_force_N": 0.1962000000000001,
+            "min_vertical_force_N": 0.19619999999999993
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_sample_count": 993,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "policy_p95_ms": 16.37426712550223,
+      "name": "w4_postgain2_327",
+      "result_sha256": "cb332f8e3f164108f0f6e5372097ab8d522767771f2e718a2ff53bd43ae4f580",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "f2b333db3e9bbf34e5c429b858e17d34bdcedace67177c094484f4ece1bf8c9a",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "300f7584adfc87351087ee8cbce275245af38f6832c02fce4e32ce3a694ac287",
+      "final_phase": "SETTLE_RELEASE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": true,
+        "hold_7cm": false,
+        "two_fingers": true,
+        "no_support": true,
+        "clearance_4cm": false,
+        "slip_1cm": true,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 47.27200000001181,
+      "wall_s": 85.76708781800698,
+      "model_load_s": 1.624092650017701,
+      "max_lift_m": 0.08070635212781485,
+      "hold_min_lift_m": 0.013957009728815084,
+      "hold_slip_m": 0.004754195074398018,
+      "hold_min_contact_bodies": 2,
+      "max_drift_m": 0.0030323116658901752,
+      "min_up_z": 0.9999926904483776,
+      "actual_to_decoded_motor_target_rms_rad": 0.14217311867522742,
+      "actual_to_applied_motor_target_rms_rad": 0.14217311867522742,
+      "fail_reason": null,
+      "phase_clips_consumed": [
+        "hold_s42",
+        "lift_s42",
+        "release_s42"
+      ],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2364,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.953760512071405,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": 0.1,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.959305687143692,
+        4.053238177666831,
+        2.545587853912283,
+        5.957774187689716,
+        2.3813183204138295,
+        6.185091785927258,
+        2.1185739467746925
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0019101710039599595
+      ],
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 85479,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 26.088509283723962,
+            "loaded_steps": 5377,
+            "max_upward_force_N": 0.967237197389439,
+            "min_vertical_force_N": -11.439708189128522
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 11.603703409747494,
+            "loaded_steps": 18935,
+            "max_upward_force_N": 11.603703409747494,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {
+          "pad": {
+            "max_normal_N": 0.46869786767231464,
+            "loaded_steps": 993,
+            "max_upward_force_N": 0.3811543095095429,
+            "min_vertical_force_N": 0.08399969252565763
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_sample_count": 993,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "policy_p95_ms": 16.19688619975932,
+      "name": "w4_servo_hold327",
+      "result_sha256": "1dc6acb2ed915519186545ba82a5e539b176c36b135b9353c17510433615122c",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "3178e1aa7e8a1d5f0bbbe01b74b94a744e84f110c846a61c9e1b50cb5a205e8b",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "423de1f412a4d43846097b8fdb95bfb269366176bc11c49eb9875f3b96bd0fb8",
+      "final_phase": "SETTLE_RELEASE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 13.040000000001024,
+      "wall_s": 25.66757794097066,
+      "model_load_s": 1.5027479209238663,
+      "max_lift_m": 0.0,
+      "hold_min_lift_m": -1.0,
+      "hold_slip_m": 1000000000.0,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0027210732873540187,
+      "min_up_z": 0.9999940765263237,
+      "actual_to_decoded_motor_target_rms_rad": 0.22718564802909685,
+      "actual_to_applied_motor_target_rms_rad": 0.22718564802909685,
+      "fail_reason": "reference feasibility stop: No C2 plan inside eight-second motion horizon; stop, do not clip",
+      "phase_clips_consumed": [],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 652,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 10.813551563636988,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": 0.1,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.479464509080275,
+        3.251729085348907,
+        2.02603391024848,
+        4.261905732516474,
+        2.3961175194452142,
+        6.21427393818371,
+        2.069503702989169
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 26080,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 0.19692598534071823,
+            "loaded_steps": 6520,
+            "max_upward_force_N": 0.19692598534071823,
+            "min_vertical_force_N": 0.1908972972972997
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {},
+        "hold_sample_count": 0,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "policy_p95_ms": 17.589136509923254,
+      "name": "w4_margin314",
+      "result_sha256": "1c7ecc4f00f9ffe53c15177c79a224dd829107eef931833d656b62087e267efb",
+      "runtime_stamp": {
+        "mujoco_version": "3.14.0",
+        "sys_executable": "/home/group4/group4_dasc7606c/envs/render/bin/python",
+        "python_version": "3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "3178e1aa7e8a1d5f0bbbe01b74b94a744e84f110c846a61c9e1b50cb5a205e8b",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "b27db2048698bc705b1a577d3ba6bc625df828e3357162a4cd4edb04ec1c2591",
+      "final_phase": "PREGRASP"
+    },
+    {
+      "success": true,
+      "gates": {
+        "completed": true,
+        "hold_7cm": true,
+        "two_fingers": true,
+        "no_support": true,
+        "clearance_4cm": true,
+        "slip_1cm": true,
+        "release_drop_6cm": true,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "legacy_success": true,
+      "gate_definition_version": 2,
+      "duration_s": 47.27200000001181,
+      "wall_s": 83.01514400797896,
+      "model_load_s": 1.616958903032355,
+      "max_lift_m": 0.16670024836084052,
+      "hold_min_lift_m": 0.09551895314718795,
+      "hold_slip_m": 0.0035667808656275105,
+      "hold_min_contact_bodies": 2,
+      "max_drift_m": 0.0030323116658901752,
+      "min_up_z": 0.9999926904483776,
+      "actual_to_decoded_motor_target_rms_rad": 0.14208386139978382,
+      "actual_to_applied_motor_target_rms_rad": 0.14208386139978382,
+      "fail_reason": null,
+      "phase_clips_consumed": [
+        "hold_s42",
+        "lift_s42",
+        "release_s42"
+      ],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2364,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.95376051207139,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": 0.15,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.959305687143692,
+        4.053238177666831,
+        2.545587853912283,
+        5.957774187689716,
+        2.3813183204138295,
+        6.185091785927258,
+        2.1185739467746925
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0019101710039599595
+      ],
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 83601,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 15.866840668384498,
+            "loaded_steps": 5447,
+            "max_upward_force_N": 0.7944112149973326,
+            "min_vertical_force_N": -11.62656872743534
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 11.662087682474468,
+            "loaded_steps": 18732,
+            "max_upward_force_N": 11.662087682474468,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {
+          "pad": {
+            "max_normal_N": 0.3821890664264175,
+            "loaded_steps": 993,
+            "max_upward_force_N": 0.3422984924023845,
+            "min_vertical_force_N": 0.0517507389267139
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_sample_count": 993,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "policy_p95_ms": 17.184390081092715,
+      "name": "w4_lift15_327",
+      "result_sha256": "7268b24f52341f6880b4f647b61a1c2403934d05bf3a77197b25726d1be145af",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "3178e1aa7e8a1d5f0bbbe01b74b94a744e84f110c846a61c9e1b50cb5a205e8b",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "80cc89a6adc71d04685dfdcc0f3a19a15fb3192a397ee0327691ecde81477608",
+      "final_phase": "SETTLE_RELEASE"
+    },
+    {
+      "success": true,
+      "gates": {
+        "completed": true,
+        "hold_7cm": true,
+        "two_fingers": true,
+        "no_support": true,
+        "clearance_4cm": true,
+        "slip_1cm": true,
+        "release_drop_6cm": true,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "legacy_success": true,
+      "gate_definition_version": 2,
+      "duration_s": 47.27200000001181,
+      "wall_s": 85.75760087906383,
+      "model_load_s": 1.636973923072219,
+      "max_lift_m": 0.16670024836084052,
+      "hold_min_lift_m": 0.09551895314718795,
+      "hold_slip_m": 0.0035667808656275105,
+      "hold_min_contact_bodies": 2,
+      "max_drift_m": 0.0030323116658901752,
+      "min_up_z": 0.9999926904483776,
+      "actual_to_decoded_motor_target_rms_rad": 0.14230063681682678,
+      "actual_to_applied_motor_target_rms_rad": 0.14230063681682678,
+      "fail_reason": null,
+      "phase_clips_consumed": [
+        "hold_s42",
+        "lift_s42",
+        "release_s42"
+      ],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2364,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.953760512071405,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": 0.15,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.959305687143692,
+        4.053238177666831,
+        2.545587853912283,
+        5.957774187689716,
+        2.3813183204138295,
+        6.185091785927258,
+        2.1185739467746925
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0019101710039599595
+      ],
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 83601,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 15.866840668384498,
+            "loaded_steps": 5447,
+            "max_upward_force_N": 0.7944112149973326,
+            "min_vertical_force_N": -11.62656872743534
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 11.662087682474468,
+            "loaded_steps": 18732,
+            "max_upward_force_N": 11.662087682474468,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {
+          "pad": {
+            "max_normal_N": 0.3821890664264175,
+            "loaded_steps": 993,
+            "max_upward_force_N": 0.3422984924023845,
+            "min_vertical_force_N": 0.0517507389267139
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_sample_count": 993,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "policy_p95_ms": 17.65046635409817,
+      "name": "w4_lift15_repeat327",
+      "result_sha256": "c16a2ebb8f55eaa794fc4d77ed543b69871fedbd943ee95c9ca166218ff43f60",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "3178e1aa7e8a1d5f0bbbe01b74b94a744e84f110c846a61c9e1b50cb5a205e8b",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "f4f88604e91409c1b6269cb0a1b634f9687b81d93b597082449bf0d35a44944d",
+      "final_phase": "SETTLE_RELEASE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 40.012000000002935,
+      "wall_s": 70.35639010404702,
+      "model_load_s": 1.702593972091563,
+      "max_lift_m": 0.011730422404326646,
+      "hold_min_lift_m": -1.0,
+      "hold_slip_m": 1000000000.0,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0030323116658901752,
+      "min_up_z": 0.9999926904483776,
+      "actual_to_decoded_motor_target_rms_rad": 0.1495256581000698,
+      "actual_to_applied_motor_target_rms_rad": 0.1495256581000698,
+      "fail_reason": "alignment timeout",
+      "phase_clips_consumed": [],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2001,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.953760512071405,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": false,
+      "pad_off": true,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": 0.15,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.959305687143692,
+        4.053238177666831,
+        2.545587853912283,
+        5.957774187689716,
+        2.3813183204138295,
+        6.185091785927258,
+        2.1185739467746925
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0019101710039599595
+      ],
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 78231,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "wrist": {
+            "max_normal_N": 31.50213015934059,
+            "loaded_steps": 424,
+            "max_upward_force_N": 0.38367965994996084,
+            "min_vertical_force_N": -30.666354381294774
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 30.688645976056037,
+            "loaded_steps": 19988,
+            "max_upward_force_N": 30.688645976056037,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {},
+        "hold_sample_count": 0,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "policy_p95_ms": 16.04446698911488,
+      "name": "w4_lift15_padoff327",
+      "result_sha256": "e552721efb2c460cf0352208d74eaf1eab646cd68826209d51e3e5d3f3c220c3",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "3178e1aa7e8a1d5f0bbbe01b74b94a744e84f110c846a61c9e1b50cb5a205e8b",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "f1b94b9197ce0bc219e0c320953818fcd9a09c86f8f4280b85e785c3aa41af0a",
+      "final_phase": "ALIGN"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 46.58000000001096,
+      "wall_s": 84.34274679096416,
+      "model_load_s": 1.6025519178947434,
+      "max_lift_m": 0.01024852457850356,
+      "hold_min_lift_m": -9.212145817605322e-05,
+      "hold_slip_m": 0.10881430703138076,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0030923281920578185,
+      "min_up_z": 0.9999923779338553,
+      "actual_to_decoded_motor_target_rms_rad": 0.14422552498497018,
+      "actual_to_applied_motor_target_rms_rad": 0.14422552498497018,
+      "fail_reason": "reference feasibility stop: No C2 plan inside eight-second motion horizon; stop, do not clip",
+      "phase_clips_consumed": [
+        "hold_s42",
+        "lift_s42",
+        "release_s42"
+      ],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2329,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.953760512071405,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12
+      },
+      "ardy_off": null,
+      "no_grip": true,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": 0.15,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.959305687143692,
+        4.063143573175034,
+        2.7289396972435043,
+        6.293736713188122,
+        2.3813183204138295,
+        6.185091785927258,
+        2.1185739467746925
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0019101710039599595
+      ],
+      "balance_audit_summary": null,
+      "contact_audit_summary": {
+        "raw_contact_rows": 91635,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 15.866840668384498,
+            "loaded_steps": 301,
+            "max_upward_force_N": 0.47853132169828283,
+            "min_vertical_force_N": -10.606234531448118
+          },
+          "wrist": {
+            "max_normal_N": 14.351235922178882,
+            "loaded_steps": 88,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": -15.789453651423063
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 15.909392721028132,
+            "loaded_steps": 23262,
+            "max_upward_force_N": 15.909392721028132,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {
+          "pad": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 0.1962000000000001,
+            "loaded_steps": 993,
+            "max_upward_force_N": 0.1962000000000001,
+            "min_vertical_force_N": 0.19619999999999996
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_sample_count": 993,
+        "fingertip_only_robot_contacts_in_hold": true
+      },
+      "policy_p95_ms": 16.642264975234866,
+      "name": "w4_lift15_nogrip327",
+      "result_sha256": "99c94a1606e2ee16570a0b31b0aa19422bf25e4114b2011fa285941a578ee176",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "3178e1aa7e8a1d5f0bbbe01b74b94a744e84f110c846a61c9e1b50cb5a205e8b",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "a6b90f625fd28ffcaafa5b7f1b389c450c671d6e29891fe228e4b67020ea0584",
+      "final_phase": "SETTLE_RELEASE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 39.90800000000281,
+      "wall_s": 69.38834010192659,
+      "model_load_s": 1.4971999879926443,
+      "max_lift_m": 0.01196299407536583,
+      "hold_min_lift_m": -1.0,
+      "hold_slip_m": 1000000000.0,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0028942228841358593,
+      "min_up_z": 0.9999933285173819,
+      "actual_to_decoded_motor_target_rms_rad": 0.15113510605297034,
+      "actual_to_applied_motor_target_rms_rad": 0.15113510605297034,
+      "fail_reason": "two-finger contact timeout",
+      "phase_clips_consumed": [],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 1996,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.875724522106971,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 6.687075336191998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12,
+        "continue_certified_enabled": true,
+        "certified_continuation_steps": 30,
+        "continuation_rule": "reject infeasible replacement; continue the remaining previously certified C2 segment; clamp future sampling time at its zero-velocity/acceleration endpoint; stop if no certified segment exists"
+      },
+      "ardy_off": false,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": 0.15,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.479464509080275,
+        3.933260150084289,
+        2.5974603850868445,
+        5.652332878560466,
+        2.3961175194452142,
+        6.21427393818371,
+        2.069503702989169
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.002536708361801532
+      ],
+      "balance_audit_summary": {
+        "physics_steps": 19954,
+        "hold_samples": 0,
+        "foot_body_whitelist": [
+          "left_ankle_roll_link",
+          "right_ankle_roll_link"
+        ],
+        "robot_table_hold_max_normal_N": null,
+        "nonfoot_floor_hold_max_normal_N": null,
+        "foot_floor_hold_min_normal_N": null,
+        "robot_table_all_max_normal_N": 87.42764607570773,
+        "nonfoot_floor_all_max_normal_N": 0.0,
+        "no_table_rest_in_hold": false,
+        "no_nonfoot_floor_support_in_hold": false,
+        "feet_supported_in_hold": false,
+        "state_mutations": false,
+        "scope": "support contacts only; not a COM/COP stability-margin certificate"
+      },
+      "contact_audit_summary": {
+        "raw_contact_rows": 76921,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 22.126402434352034,
+            "loaded_steps": 500,
+            "max_upward_force_N": 0.4070370400924781,
+            "min_vertical_force_N": -21.843090314601746
+          },
+          "wrist": {
+            "max_normal_N": 6.390872390240784,
+            "loaded_steps": 14,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": -12.177165642466456
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 21.450288543368174,
+            "loaded_steps": 19899,
+            "max_upward_force_N": 21.450288543368174,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {},
+        "hold_sample_count": 0,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "policy_p95_ms": 17.39136452670209,
+      "name": "w4_lift15_fallback314",
+      "result_sha256": "e87974366fbbd9ad98f7cd842aa84a5fb70c625e4df1c3919101d9feffb110eb",
+      "runtime_stamp": {
+        "mujoco_version": "3.14.0",
+        "sys_executable": "/home/group4/group4_dasc7606c/envs/render/bin/python",
+        "python_version": "3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "f5a86dc5925338c3d029fbb90f62164cc4d27effb660c53b8010dce2329bff91",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "balance_audit": "3a040f6838d7d2526aeb0e076d26cd2c25db88d5a906228acd25fa10035bf97a",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "57246b9c97d2fc4ef78eb7033f76fd45d833d7c4f832642aece216f45201801a",
+      "final_phase": "CLOSE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": false,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "no_table_rest_in_hold": false,
+        "no_nonfoot_floor_support_in_hold": false,
+        "feet_supported_in_hold": false,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "legacy_success": false,
+      "gate_definition_version": 3,
+      "duration_s": 37.20999999999951,
+      "wall_s": 67.06141871202271,
+      "model_load_s": 1.6898484700359404,
+      "max_lift_m": 0.0022752003085807493,
+      "hold_min_lift_m": -1.0,
+      "hold_slip_m": 1000000000.0,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.1272186395176092,
+      "min_up_z": 0.9934276046073615,
+      "actual_to_decoded_motor_target_rms_rad": 0.08901056085679776,
+      "actual_to_applied_motor_target_rms_rad": 0.08901056085679776,
+      "fail_reason": "two-finger contact timeout",
+      "phase_clips_consumed": [],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 1861,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 10.813551563636988,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12,
+        "continue_certified_enabled": true,
+        "certified_continuation_steps": 0,
+        "continuation_rule": "reject infeasible replacement; continue the remaining previously certified C2 segment; clamp future sampling time at its zero-velocity/acceleration endpoint; stop if no certified segment exists"
+      },
+      "ardy_off": false,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": false,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": 0.15,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        2.0420723770115607,
+        1.4301966583826922,
+        0.9795361102148463,
+        3.401236329559452,
+        1.0925755937241914,
+        4.94291373726071,
+        1.7176045656622838
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "balance_audit_summary": {
+        "physics_steps": 18605,
+        "hold_samples": 0,
+        "foot_body_whitelist": [
+          "left_ankle_roll_link",
+          "right_ankle_roll_link"
+        ],
+        "robot_table_hold_max_normal_N": null,
+        "nonfoot_floor_hold_max_normal_N": null,
+        "foot_floor_hold_min_normal_N": null,
+        "robot_table_all_max_normal_N": 48.49885465637527,
+        "nonfoot_floor_all_max_normal_N": 0.0,
+        "no_table_rest_in_hold": false,
+        "no_nonfoot_floor_support_in_hold": false,
+        "feet_supported_in_hold": false,
+        "state_mutations": false,
+        "scope": "support contacts only; not a COM/COP stability-margin certificate"
+      },
+      "contact_audit_summary": {
+        "raw_contact_rows": 74499,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 1.3908340198472775,
+            "loaded_steps": 1484,
+            "max_upward_force_N": 0.09151838468567552,
+            "min_vertical_force_N": -1.3753304956325605
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 1.5344136334186997,
+            "loaded_steps": 18596,
+            "max_upward_force_N": 1.5344136334186997,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {},
+        "hold_sample_count": 0,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "policy_p95_ms": 16.332522965967655,
+      "name": "w4_lift15_free327",
+      "result_sha256": "86739ae881bc115c73098bb9e84853afa7f8db8df21aa7cc8089370300cafb7b",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "5d8329e7a72786f12f2939462fe6f07696e4aed61de121b384801e64a8505511",
+          "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+        },
+        "scene_generator_sha": "f5a86dc5925338c3d029fbb90f62164cc4d27effb660c53b8010dce2329bff91",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "balance_audit": "3a040f6838d7d2526aeb0e076d26cd2c25db88d5a906228acd25fa10035bf97a",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "b555315becf2e8172713c92791716d11928226c878fdbba1a2a099e8e251eb41",
+      "final_phase": "CLOSE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": false,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "legacy_success": false,
+      "gate_definition_version": 2,
+      "duration_s": 37.56799999999995,
+      "wall_s": 66.38476058503147,
+      "model_load_s": 1.6496920780045912,
+      "max_lift_m": 0.011754718224677996,
+      "hold_min_lift_m": -1.0,
+      "hold_slip_m": 1000000000.0,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.0031940554566120397,
+      "min_up_z": 0.9999918264802146,
+      "actual_to_decoded_motor_target_rms_rad": 0.15172802599160665,
+      "actual_to_applied_motor_target_rms_rad": 0.15172802599160665,
+      "fail_reason": "two-finger contact timeout",
+      "phase_clips_consumed": [],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 1879,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 11.877229373613153,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 5.572562780159998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12,
+        "continue_certified_enabled": true,
+        "certified_continuation_steps": 0,
+        "continuation_rule": "reject infeasible replacement; continue the remaining previously certified C2 segment; clamp future sampling time at its zero-velocity/acceleration endpoint; stop if no certified segment exists"
+      },
+      "ardy_off": true,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": true,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": 0.15,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        4.959305687143692,
+        4.053238177666831,
+        2.3891967873572946,
+        5.957774187689716,
+        2.3813183204138295,
+        6.185091785927258,
+        2.1185739467746925
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0022585679076969623
+      ],
+      "balance_audit_summary": {
+        "physics_steps": 18784,
+        "hold_samples": 0,
+        "foot_body_whitelist": [
+          "left_ankle_roll_link",
+          "right_ankle_roll_link"
+        ],
+        "robot_table_hold_max_normal_N": null,
+        "nonfoot_floor_hold_max_normal_N": null,
+        "foot_floor_hold_min_normal_N": null,
+        "robot_table_all_max_normal_N": 59.846827287570854,
+        "nonfoot_floor_all_max_normal_N": 0.0,
+        "no_table_rest_in_hold": false,
+        "no_nonfoot_floor_support_in_hold": false,
+        "feet_supported_in_hold": false,
+        "state_mutations": false,
+        "scope": "support contacts only; not a COM/COP stability-margin certificate"
+      },
+      "contact_audit_summary": {
+        "raw_contact_rows": 72676,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 15.850548221736604,
+            "loaded_steps": 379,
+            "max_upward_force_N": 0.6419383717996091,
+            "min_vertical_force_N": -12.206615816075832
+          },
+          "wrist": {
+            "max_normal_N": 11.26998861179262,
+            "loaded_steps": 105,
+            "max_upward_force_N": 0.04340145942110751,
+            "min_vertical_force_N": -11.412525492571516
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 12.276616591854038,
+            "loaded_steps": 18680,
+            "max_upward_force_N": 12.276616591854038,
+            "min_vertical_force_N": 0.0
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {},
+        "hold_sample_count": 0,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "policy_p95_ms": 15.088302560616281,
+      "name": "w4_lift15_ardyoff327",
+      "result_sha256": "de593810207363d047e98112ce5ca8f5f9c0eb74ef6d69f69dde42827864f906",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+          "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+        },
+        "scene_generator_sha": "f5a86dc5925338c3d029fbb90f62164cc4d27effb660c53b8010dce2329bff91",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "balance_audit": "3a040f6838d7d2526aeb0e076d26cd2c25db88d5a906228acd25fa10035bf97a",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "3ab1d430bc929d1a4e439f4c4fbaffed5424afd8363745f089cc3dad038ce166",
+      "final_phase": "CLOSE"
+    },
+    {
+      "success": false,
+      "gates": {
+        "completed": false,
+        "hold_7cm": false,
+        "two_fingers": false,
+        "no_support": false,
+        "clearance_4cm": false,
+        "slip_1cm": false,
+        "release_drop_6cm": false,
+        "final_supported": true,
+        "final_fingers_off": true,
+        "no_external": true,
+        "no_warnings": true,
+        "upright": true,
+        "no_table_rest_in_hold": false,
+        "no_nonfoot_floor_support_in_hold": false,
+        "feet_supported_in_hold": false,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "legacy_success": false,
+      "gate_definition_version": 3,
+      "duration_s": 40.012000000002935,
+      "wall_s": 74.43379852501675,
+      "model_load_s": 1.5499157630838454,
+      "max_lift_m": 0.0,
+      "hold_min_lift_m": -1.0,
+      "hold_slip_m": 1000000000.0,
+      "hold_min_contact_bodies": 0,
+      "max_drift_m": 0.15233825146235905,
+      "min_up_z": 0.9674381964374282,
+      "actual_to_decoded_motor_target_rms_rad": 0.08519292267049008,
+      "actual_to_applied_motor_target_rms_rad": 0.08519292267049008,
+      "fail_reason": "alignment timeout",
+      "phase_clips_consumed": [],
+      "reference_filter": {
+        "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+        "calls": 2001,
+        "velocity_max_rad_s": 0.598971129735924,
+        "acceleration_max_rad_s2": 1.3082461503890965,
+        "jerk_max_rad_s3": 10.813551563636988,
+        "max_replan_C2_boundary_jump": 0.0,
+        "max_plan_horizon_s": 6.687075336191998,
+        "velocity_limit": 0.6,
+        "acceleration_limit": 1.5,
+        "jerk_limit": 12,
+        "continue_certified_enabled": true,
+        "certified_continuation_steps": 41,
+        "continuation_rule": "reject infeasible replacement; continue the remaining previously certified C2 segment; clamp future sampling time at its zero-velocity/acceleration endpoint; stop if no certified segment exists"
+      },
+      "ardy_off": false,
+      "no_grip": false,
+      "pad_off": false,
+      "base_fixture": false,
+      "whole_body_balance_validated": false,
+      "requested_postcapture_lift_height_m": 0.15,
+      "sonic_armature": false,
+      "passive_free_diagnostic": false,
+      "postcapture_arm_pd_gain_scale": 1.0,
+      "lift_only_right_arm_damping_scale": 1.0,
+      "decoded_motor_filter": null,
+      "actual_arm_velocity_per_joint_max_rad_s": [
+        2.1540107430532847,
+        1.2832443375562268,
+        1.433817716252196,
+        3.623251104294195,
+        1.115010932016619,
+        4.73907815021705,
+        1.8413049647518174
+      ],
+      "actual_arm_limit_overshoot_per_joint_max_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "balance_audit_summary": {
+        "physics_steps": 20006,
+        "hold_samples": 0,
+        "foot_body_whitelist": [
+          "left_ankle_roll_link",
+          "right_ankle_roll_link"
+        ],
+        "robot_table_hold_max_normal_N": null,
+        "nonfoot_floor_hold_max_normal_N": null,
+        "foot_floor_hold_min_normal_N": null,
+        "robot_table_all_max_normal_N": 58.836840014026095,
+        "nonfoot_floor_all_max_normal_N": 0.0,
+        "no_table_rest_in_hold": false,
+        "no_nonfoot_floor_support_in_hold": false,
+        "feet_supported_in_hold": false,
+        "state_mutations": false,
+        "scope": "support contacts only; not a COM/COP stability-margin certificate"
+      },
+      "contact_audit_summary": {
+        "raw_contact_rows": 80024,
+        "all_steps": {
+          "pad": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "wrist": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "other_robot": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          },
+          "support": {
+            "max_normal_N": 0.1969259853407182,
+            "loaded_steps": 20006,
+            "max_upward_force_N": 0.1969259853407182,
+            "min_vertical_force_N": 0.19089729729729915
+          },
+          "other": {
+            "max_normal_N": 0.0,
+            "loaded_steps": 0,
+            "max_upward_force_N": 0.0,
+            "min_vertical_force_N": 0.0
+          }
+        },
+        "hold_steps": {},
+        "hold_sample_count": 0,
+        "fingertip_only_robot_contacts_in_hold": false
+      },
+      "policy_p95_ms": 15.885817003436387,
+      "name": "w4_lift15_free314",
+      "result_sha256": "be66a36d167f70c458aa94610a28bbfee8e724eb68b927927e4e32130b838d30",
+      "runtime_stamp": {
+        "mujoco_version": "3.14.0",
+        "sys_executable": "/home/group4/group4_dasc7606c/envs/render/bin/python",
+        "python_version": "3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]",
+        "model_sha": {
+          "scene": "5d8329e7a72786f12f2939462fe6f07696e4aed61de121b384801e64a8505511",
+          "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+        },
+        "scene_generator_sha": "f5a86dc5925338c3d029fbb90f62164cc4d27effb660c53b8010dce2329bff91",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "balance_audit": "3a040f6838d7d2526aeb0e076d26cd2c25db88d5a906228acd25fa10035bf97a",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "trajectory_sha256": "9ba08db66c41d91ff2279dd88419f6b40bda26fd7f3ab40d8e3a7d69d441eb19",
+      "final_phase": "ALIGN"
+    }
+  ],
+  "missing_results": [],
+  "source_snapshot_missing": [],
+  "recorded_episodes": 20,
+  "successes": 2,
+  "task": "20261006-093203-codex-6385a841",
+  "wave": 4,
+  "task_active": true,
+  "physical_script_launches": 20,
+  "mixed_search_trials_are_not_a_success_rate_estimate": true,
+  "canonical_fixed_base_327_repetitions": {
+    "passes": 2,
+    "trials": 2,
+    "same_configuration_not_generalization": true
+  }
+}

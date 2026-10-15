@@ -1,0 +1,11 @@
+name,success,fail,lift_mm,slip_mm,red_n,red
+a35_00_06__comb,True,,144.1,0.67,0,
+a35_00_10__comb,True,,135.4,0.57,0,
+a35_00_15__comb,True,,137.4,0.66,0,
+b25_00_00__comb,True,,143.4,0.69,0,
+b25_00_10__comb,False,,133.5,0.52,1,no_robot_table_contact_full_task
+b25_00_14__comb,False,,139.4,0.55,1,no_robot_table_contact_full_task
+b25_02_06__comb,False,,134.4,0.63,1,final_table_supported
+b25_12_04__comb,True,,121.3,4.24,0,
+b25_12_04__comb2,False,two-finger contact timeout,-1000.0,1000000000000.0,14,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|final_table_supported|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_robot_table_contact_full_task|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+b25_12_04__comb3,False,two-finger contact timeout,-1000.0,1000000000000.0,14,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|final_table_supported|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_robot_table_contact_full_task|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers

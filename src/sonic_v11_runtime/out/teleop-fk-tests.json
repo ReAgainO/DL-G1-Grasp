@@ -1,0 +1,14 @@
+{
+  "physical_steps": 0,
+  "pass_count": 6,
+  "tests": [
+    "FK from original native ARDY frames",
+    "correct mode1",
+    "G1 joint slots unused/zero",
+    "official offset and root-local VR positions",
+    "unit wxyz wrist quaternions",
+    "native frame change consumed by encoder token"
+  ],
+  "max_token_difference": 0.25,
+  "motor_target_override": false
+}

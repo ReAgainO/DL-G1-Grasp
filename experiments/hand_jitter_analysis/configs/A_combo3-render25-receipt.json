@@ -1,0 +1,18 @@
+{
+  "id": "A_combo3",
+  "rc": -15,
+  "pid": 670388,
+  "command": [
+    "timeout",
+    "--kill-after=5",
+    "580",
+    "taskset",
+    "-c",
+    "82,83",
+    "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "-B",
+    "/data/group4/20261009-170228-codex-fcd727b9/render_dense.py",
+    "A_combo3"
+  ],
+  "ended": "2026-10-09T17:39:37.826612+08:00"
+}

@@ -1,0 +1,304 @@
+{
+  "status": "FAIL",
+  "model": "ARDY/G1 full-body reference + Dex3 three-finger hand; prescribed kinematic robot, dynamic free cube",
+  "source_scene": "/data/group4/20261009-020500-codex-ardyside3/source/baseline_d50_12_19/scene.xml",
+  "source_scene_sha256": "d8b8589905e9abaf89ab5918d23d59b6a102cf65c060cad4f75315c51a3cd350",
+  "source_trajectory": "/data/group4/20261009-020500-codex-ardyside3/source/baseline_d50_12_19/trajectory.npz",
+  "source_trajectory_sha256": "0ec6241914b15b6c2482669450b669450e7df1755b005dc356c09de8392244ab",
+  "user_reference_video_sha256": "66ffe387baff75715892d7590040a0263a6c0cfcd850e5d90f3123170032af4e",
+  "mujoco_version": "3.14.0",
+  "nq": 57,
+  "nv": 55,
+  "nu": 43,
+  "neq": 0,
+  "timestep_s": 0.002,
+  "source_fps": 25,
+  "frames": 1518,
+  "sim_duration_s": 60.680000000028194,
+  "cube_edge_m": 0.05,
+  "cube_mass_kg": 0.02,
+  "cube_initial_center_m": [
+    0.36,
+    -0.08,
+    0.782
+  ],
+  "table_top_z_m": 0.757,
+  "table_size_half_m": [
+    0.315,
+    0.45,
+    0.025
+  ],
+  "cube_yaw_deg": 38.4,
+  "handpad_radius_m": 0.01,
+  "tripod_face_normal_xy": [
+    0.7836934573258398,
+    0.6211477802783103
+  ],
+  "tripod_targets_world_m": [
+    [
+      0.3850781906344269,
+      -0.06012327103109407,
+      0.782
+    ],
+    [
+      0.34113328716835617,
+      -0.10771366354216433,
+      0.782
+    ],
+    [
+      0.32871033156279,
+      -0.09203979439564752,
+      0.782
+    ]
+  ],
+  "tripod_actual_pad_centers_world_m": [
+    [
+      0.38502675318806734,
+      -0.060211964641888084,
+      0.7822773155738473
+    ],
+    [
+      0.35147972093920105,
+      -0.12295567190041802,
+      0.7796732886021832
+    ],
+    [
+      0.31844772689458045,
+      -0.07663451380772995,
+      0.7840490174705734
+    ]
+  ],
+  "tripod_pad_distances_to_cube_m": [
+    -0.035,
+    -0.035,
+    -0.035
+  ],
+  "protected_wrist_distances_to_cube_m": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tripod_pad_center_signed_face_projection_m": [
+    0.03190459697035693,
+    -0.03335910720584652,
+    -0.030473780291847902
+  ],
+  "ik_success_flag": true,
+  "ik_nfev": 346,
+  "lift_ik_success_flag": true,
+  "lift_ik_nfev": 20,
+  "hover_ik_success_flag": true,
+  "hover_ik_nfev": 18,
+  "open_ik_success_flag": true,
+  "open_ik_nfev": 24,
+  "open_finger_joint_delta_rad": {
+    "right_hand_thumb_0_joint": 0.014674881537227846,
+    "right_hand_thumb_1_joint": 0.05854705712374497,
+    "right_hand_thumb_2_joint": 0.019065165812052975,
+    "right_hand_index_0_joint": 0.932596907068077,
+    "right_hand_index_1_joint": -2.094399905150716,
+    "right_hand_middle_0_joint": 0.9231344393794791,
+    "right_hand_middle_1_joint": -2.074734489124205
+  },
+  "open_targets_world_m": [
+    [
+      0.3913477382930336,
+      -0.055154088788867586,
+      0.782
+    ],
+    [
+      0.33486373950974946,
+      -0.1126828457843908,
+      0.782
+    ],
+    [
+      0.3224407839041833,
+      -0.097008976637874,
+      0.782
+    ]
+  ],
+  "open_actual_pad_centers_world_m": [
+    [
+      0.39063963131964574,
+      -0.05620821721648965,
+      0.7848594475851626
+    ],
+    [
+      0.3574890716392826,
+      -0.11252546321718301,
+      0.731457607471002
+    ],
+    [
+      0.32250406968069484,
+      -0.06755910374452379,
+      0.7362322876412397
+    ]
+  ],
+  "phase_schedule_s": {
+    "HOVER": 0.0,
+    "DESCEND": 37.37199999999971,
+    "ALIGN": 45.37400000000949,
+    "CLOSE": 45.37400000000949,
+    "CONTACT_CONFIRM": 48.37400000000949,
+    "LIFT": 48.87400000000949,
+    "HOLD": 54.676000000020856,
+    "RELEASE": 56.680000000023306
+  },
+  "three_finger_contact_latched_at_s": null,
+  "first_contact_descent_pause_at_s": 40.00200000000292,
+  "first_close_contact_dwell_at_s": null,
+  "per_finger_contact_latched_at_s": {
+    "thumb": 41.84200000000517,
+    "index": 41.16200000000434,
+    "middle": 40.00200000000292
+  },
+  "latched_hand_joint_values_rad": null,
+  "squeeze_mm": 3.0,
+  "open_gap_mm": 8.0,
+  "close_duration_s": 3.0,
+  "confirm_duration_s": 0.5,
+  "hover_targets_world_m": [
+    [
+      0.3913477382930336,
+      -0.055154088788867586,
+      0.857
+    ],
+    [
+      0.33486373950974946,
+      -0.1126828457843908,
+      0.857
+    ],
+    [
+      0.3224407839041833,
+      -0.097008976637874,
+      0.857
+    ]
+  ],
+  "descent_waypoint_heights_m": [
+    0.075,
+    0.071,
+    0.06705555555555555,
+    0.0631111111111111,
+    0.05916666666666666,
+    0.055222222222222214,
+    0.05127777777777777,
+    0.04733333333333333,
+    0.04338888888888889,
+    0.03944444444444444,
+    0.0355,
+    0.03155555555555555,
+    0.027611111111111107,
+    0.02366666666666667,
+    0.019722222222222224,
+    0.01577777777777778,
+    0.011833333333333335,
+    0.00788888888888889,
+    0.003944444444444445,
+    0.0
+  ],
+  "lift_waypoint_heights_m": [
+    0.0,
+    0.006,
+    0.012,
+    0.018,
+    0.024,
+    0.03,
+    0.036,
+    0.041999999999999996,
+    0.047999999999999994,
+    0.05399999999999999,
+    0.05999999999999999,
+    0.06599999999999999,
+    0.072,
+    0.078,
+    0.08399999999999999,
+    0.09,
+    0.09599999999999999,
+    0.102,
+    0.108,
+    0.11399999999999999,
+    0.12
+  ],
+  "lift_targets_world_m": [
+    [
+      0.3850781906344269,
+      -0.06012327103109407,
+      0.902
+    ],
+    [
+      0.34113328716835617,
+      -0.10771366354216433,
+      0.902
+    ],
+    [
+      0.32871033156279,
+      -0.09203979439564752,
+      0.902
+    ]
+  ],
+  "lift_joint_delta_from_grasp_rad": {
+    "right_shoulder_pitch_joint": -0.5528804080416563,
+    "right_shoulder_roll_joint": -0.2608445174314774,
+    "right_shoulder_yaw_joint": 0.0,
+    "right_elbow_joint": -0.5926773093484311,
+    "right_wrist_roll_joint": 0.0,
+    "right_wrist_pitch_joint": -0.1063223715821005,
+    "right_wrist_yaw_joint": -1.9984014443252818e-15,
+    "right_hand_thumb_0_joint": 0.0,
+    "right_hand_thumb_1_joint": 0.0,
+    "right_hand_thumb_2_joint": 0.0,
+    "right_hand_index_0_joint": 0.0,
+    "right_hand_index_1_joint": 0.0,
+    "right_hand_middle_0_joint": 0.0,
+    "right_hand_middle_1_joint": 0.0
+  },
+  "ik_joint_delta_rad": {
+    "right_shoulder_pitch_joint": -0.5510862405650309,
+    "right_shoulder_roll_joint": 0.32720434204850024,
+    "right_shoulder_yaw_joint": 1.6462446745713302,
+    "right_elbow_joint": 1.0096659390204192,
+    "right_wrist_roll_joint": -1.4795429095987418,
+    "right_wrist_pitch_joint": 0.5728208631079874,
+    "right_wrist_yaw_joint": -2.882891593834856,
+    "right_hand_thumb_0_joint": 0.07498081700751152,
+    "right_hand_thumb_1_joint": 0.11694661485436875,
+    "right_hand_thumb_2_joint": 1.8683292274282732,
+    "right_hand_index_0_joint": -1.4523838734755041,
+    "right_hand_index_1_joint": 2.0184052644206623,
+    "right_hand_middle_0_joint": -1.5344984207049377,
+    "right_hand_middle_1_joint": 1.9763116308736453
+  },
+  "hold_window_s": [
+    54.676000000020856,
+    56.676000000020856
+  ],
+  "hold_frames": 50,
+  "hold_contact_rate_each": {
+    "thumb": 0.0,
+    "index": 0.0,
+    "middle": 0.0
+  },
+  "hold_min_cube_bottom_clearance_m": -4.606073138246902e-05,
+  "max_cube_bottom_clearance_overall_m": 0.03346079037243188,
+  "max_xy_slip_from_initial_overall_m": 0.03461457457997928,
+  "hold_max_xy_slip_from_start_m": 1.35713441927398e-10,
+  "hold_table_support_frames": 50,
+  "gates": {
+    "three_finger_contact_rate_each_ge_90pct": false,
+    "hold_bottom_clearance_ge_70mm": false,
+    "hold_xy_slip_le_10mm": true,
+    "no_table_support_during_hold": false,
+    "static_2v1_pose_contact_and_face_sides": false
+  },
+  "physics_scope": "MuJoCo gravity/table/cube/finger contact; no weld; actuators disabled and robot qpos replayed kinematically",
+  "cube_xy_tracking_feedback_enabled": false,
+  "not_a_real_robot_test": true,
+  "video": "/data/group4/20261009-025512-codex-f4a8c746/iterations/iter16_coplanar_tripod_targets/ardy_table_tripod_2v1.mp4",
+  "video_sha256": "5ef998f4ab08f1b3a807319c033fcf619a0c7405ffec2905ad2b6c8deaed7e69",
+  "video_bytes": 220381,
+  "video_frames": 300,
+  "video_fps": 30
+}

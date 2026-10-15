@@ -1,0 +1,17 @@
+{
+  "wave": "wave1",
+  "pid": 608459,
+  "command": [
+    "taskset",
+    "-c",
+    "80-87",
+    "/usr/bin/python3",
+    "-B",
+    "/data/group4/20261009-170228-codex-fcd727b9/run_wave.py",
+    "run",
+    "wave1"
+  ],
+  "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+  "started": "2026-10-09T17:14:23.169606+08:00",
+  "proc_start_ticks": "88684869"
+}

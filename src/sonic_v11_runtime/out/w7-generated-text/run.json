@@ -1,0 +1,60 @@
+{
+  "command": [
+    "/data/group4/20261004-205543-qoder-f5a4a02a/env-gen/bin/python",
+    "-B",
+    "/data/group4/20261006-093203-codex-6385a841/phase_generate_entry.py",
+    "--checkpoints_dir",
+    "/home/group4/group4_dasc7606c/weights/ardy_ckpt",
+    "--out_dir",
+    "/data/group4/20261006-093203-codex-6385a841/out/w7-generated-text",
+    "--enc_mode",
+    "stacked",
+    "--duration",
+    "4",
+    "--diffusion_steps",
+    "10",
+    "--jobs",
+    "[{\"stem\": \"w7_control_s43\", \"seed\": 43, \"prompt\": \"A person reaches forward with their right hand to grab a small object on a table.\"}, {\"stem\": \"w7_upright_reach_s43\", \"seed\": 43, \"prompt\": \"A standing person slowly reaches down and forward with their right hand to grasp a small object on a table, keeping their torso upright and their left arm relaxed.\"}]",
+    "--summary",
+    "/data/group4/20261006-093203-codex-6385a841/out/w7-generated-text/summary.json"
+  ],
+  "exit_code": 0,
+  "wall_process_s": 81.1145377199864,
+  "peak_rss_MiB": 15025.43359375,
+  "stop_reason": null,
+  "scope": {
+    "time": "2026-10-07T04:06:48.175848+08:00",
+    "task": "20261006-093203-codex-6385a841",
+    "wave": 7,
+    "jobs": 2,
+    "frames_per_job": 100,
+    "fps": 25,
+    "cpu_cores": 4,
+    "AS_GiB": 40,
+    "RSS_GiB": 24,
+    "timeout_s": 285,
+    "physical_AS_GiB_unchanged": 16,
+    "physical_steps": 0,
+    "data_budget_GiB": 3,
+    "purpose": "Fresh cold process existing8B encoder+ARDY, same seed and genuinely different prompt; logs cold load and both warm jobs. No training, new weights, shared installation or GPU",
+    "generator_base_sha256": "0d879f6c0ec458ed7f9731d7927bb7ea577dc7b424a7bc640549536f73b5818d",
+    "source_manifest_sha256": "3dd0be7bc82d7cdbc090afc24b25bcf59cd16e25ce89c36a8a1943aab65bd201",
+    "source_bytes_before": 2363184357,
+    "interpretation": "Text variants are input evidence, not semantic/physical task success; wall trace includes imports, load, jobs and output serialization"
+  },
+  "gen_launcher_sha256": "a5b6fb81d2dbf0ca48e636a161854c81e6c9bb8efffec489d8435e2ac34e02de",
+  "generator_runtime_manifest_sha256": "3dd0be7bc82d7cdbc090afc24b25bcf59cd16e25ce89c36a8a1943aab65bd201",
+  "summary_sha256": "171c169041e272cb78b6acc58a5366c86360b10f30dd8f300c55f951a3542b65",
+  "cold_textencoder_load_s": 70.3,
+  "motion_model_load_s": 0.9,
+  "warm_jobs_s": [
+    2.75,
+    2.55
+  ],
+  "generated_files": {
+    "w7_upright_reach_s43.npz": "feaf256b8e97bb7c37a45149d624d277549519a8db1f522dbee431edcdaa21d4",
+    "w7_control_s43.csv": "1cd7616beb275c020720a94728c333d7145f41ae5e1e6ad1a9c916244bc0873c",
+    "w7_upright_reach_s43.csv": "13c8cb91ecfcdd1d037edc7c1a1bc1130dd3a85ad020012d1083388ef13dd00f",
+    "w7_control_s43.npz": "62607734726d37cba47ef2b0c1c1fc53d0c2cc9200e6181a1b281376b01dc5b3"
+  }
+}

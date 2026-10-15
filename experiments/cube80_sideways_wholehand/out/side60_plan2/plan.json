@@ -1,0 +1,381 @@
+{
+  "best": {
+    "axis": 0,
+    "seed": 2,
+    "pad_error_m": 0.15347351665646786,
+    "min_bone_cube_gap_m": 0.02446397138852907,
+    "min_bone_table_gap_m": 0.003560828957939799,
+    "q": [
+      -0.2474362098116809,
+      -0.7241462282956446,
+      0.2891293794754236,
+      0.16423251954347046,
+      -0.012754865546128123,
+      -0.10736847628381717,
+      0.3507468488253025,
+      -1.0361990925337838,
+      -0.013353443181073017,
+      -0.5646500084517484,
+      1.3359562929386504,
+      0.5294499498641889,
+      1.3626707095278023,
+      0.5298401478881721
+    ],
+    "nfev": 1920
+  },
+  "candidates": [
+    {
+      "axis": 0,
+      "seed": 0,
+      "pad_error_m": 0.09150646578818579,
+      "min_bone_cube_gap_m": -0.01986242171891811,
+      "min_bone_table_gap_m": -0.05460051357483875,
+      "q": [
+        -0.30152877230887537,
+        -0.5741824357286389,
+        0.3276335662862304,
+        0.21119710764013347,
+        -0.3690794140837288,
+        0.1686935993409375,
+        0.28655429730022325,
+        0.5575377233648532,
+        0.6299342274475448,
+        -1.614650389640255,
+        0.733367232719267,
+        1.6338788475855475,
+        0.7244538382048926,
+        1.6478370776464457
+      ],
+      "nfev": 791
+    },
+    {
+      "axis": 0,
+      "seed": 1,
+      "pad_error_m": 0.1108005312769653,
+      "min_bone_cube_gap_m": -0.0045343467669426984,
+      "min_bone_table_gap_m": -0.06722410389064665,
+      "q": [
+        -0.32177037611733433,
+        -0.521630018630976,
+        0.20611544465707884,
+        0.49224952232042823,
+        -0.24249139853556756,
+        -0.2788528879596062,
+        0.19456175081782565,
+        0.9130564321530829,
+        -0.34989255222631893,
+        -0.003,
+        1.132648611324264,
+        1.098052018274277,
+        1.1455108206123357,
+        1.0701897788984902
+      ],
+      "nfev": 1623
+    },
+    {
+      "axis": 0,
+      "seed": 2,
+      "pad_error_m": 0.15347351665646786,
+      "min_bone_cube_gap_m": 0.02446397138852907,
+      "min_bone_table_gap_m": 0.003560828957939799,
+      "q": [
+        -0.2474362098116809,
+        -0.7241462282956446,
+        0.2891293794754236,
+        0.16423251954347046,
+        -0.012754865546128123,
+        -0.10736847628381717,
+        0.3507468488253025,
+        -1.0361990925337838,
+        -0.013353443181073017,
+        -0.5646500084517484,
+        1.3359562929386504,
+        0.5294499498641889,
+        1.3626707095278023,
+        0.5298401478881721
+      ],
+      "nfev": 1920
+    },
+    {
+      "axis": 1,
+      "seed": 0,
+      "pad_error_m": 0.11032624133338337,
+      "min_bone_cube_gap_m": 0.0011899331225475596,
+      "min_bone_table_gap_m": -0.04599884643636365,
+      "q": [
+        -0.2851187864515307,
+        -0.7080482940985623,
+        0.2795179468585903,
+        0.020965675923704942,
+        -0.0052793267086507535,
+        0.4603497923358978,
+        0.561921431900833,
+        0.6669947287542365,
+        -0.06657035122979539,
+        -1.3481520743813573,
+        1.3091654834293387,
+        0.12065608053306753,
+        1.2987913184902542,
+        0.087666592571112
+      ],
+      "nfev": 1278
+    },
+    {
+      "axis": 1,
+      "seed": 1,
+      "pad_error_m": 0.12644055233775262,
+      "min_bone_cube_gap_m": 0.02358480997822396,
+      "min_bone_table_gap_m": -0.03975947570347965,
+      "q": [
+        -0.43411504611115426,
+        -0.5877299608752073,
+        0.35277936643408664,
+        0.45770100754261606,
+        0.09779181301577906,
+        -0.05063464170089971,
+        0.5090173949013697,
+        0.9581762540807829,
+        -0.442409241721849,
+        -0.3135739507592887,
+        1.2569729732821058,
+        0.6654980143903666,
+        1.2700759431480362,
+        0.6608659779529632
+      ],
+      "nfev": 1389
+    },
+    {
+      "axis": 1,
+      "seed": 2,
+      "pad_error_m": 0.18164609579467436,
+      "min_bone_cube_gap_m": 0.0320012715500662,
+      "min_bone_table_gap_m": -0.014384836738850465,
+      "q": [
+        0.07781289280212808,
+        -0.4974028880197655,
+        0.035852381902515315,
+        -0.2671752436659435,
+        -0.15885515848916476,
+        0.252292179247973,
+        0.4606695198805101,
+        -0.2708467464271036,
+        0.31631404191433854,
+        -1.6435387168845745,
+        1.283430493542388,
+        0.22590089809426836,
+        1.2566061756720874,
+        0.23209825394599204
+      ],
+      "nfev": 1929
+    }
+  ],
+  "open_hand": [
+    -1.0361990925337838,
+    -0.013353443181073017,
+    -0.8646500084517483,
+    0.9859562929386504,
+    0.17944994986418894,
+    1.0126707095278022,
+    0.17984014788817215
+  ],
+  "closed_hand": [
+    -1.0361990925337838,
+    -0.013353443181073017,
+    -0.5646500084517484,
+    1.3359562929386504,
+    0.5294499498641889,
+    1.3626707095278023,
+    0.5298401478881721
+  ],
+  "arm": [
+    -0.2474362098116809,
+    -0.7241462282956446,
+    0.2891293794754236,
+    0.16423251954347046,
+    -0.012754865546128123,
+    -0.10736847628381717,
+    0.3507468488253025
+  ],
+  "wrist_pos": [
+    0.2396644808988166,
+    -0.23484046652227936,
+    0.9332482244159566
+  ],
+  "wrist_R": [
+    [
+      0.850964398431064,
+      -0.4974585136302913,
+      -0.16850703195890632
+    ],
+    [
+      0.4661886008507444,
+      0.5676098731300896,
+      0.6785920868696231
+    ],
+    [
+      -0.24192515586371732,
+      -0.6560137644455231,
+      0.7149252826822752
+    ]
+  ],
+  "cube_pos": [
+    0.35,
+    -0.18,
+    0.755
+  ],
+  "edge_m": 0.06,
+  "mass_kg": 0.12,
+  "hand_geoms": [
+    {
+      "body": "left_hand_thumb_0_link",
+      "geom": "left_hand_thumb_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_thumb_1_link",
+      "geom": "left_hand_thumb_1_link_collision_1",
+      "type": "box"
+    },
+    {
+      "body": "left_hand_thumb_2_link",
+      "geom": "left_hand_thumb_2_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_middle_0_link",
+      "geom": "left_hand_middle_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_middle_1_link",
+      "geom": "left_hand_middle_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_index_0_link",
+      "geom": "left_hand_index_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_index_1_link",
+      "geom": "left_hand_index_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_0_link",
+      "geom": "right_hand_thumb_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_1_link",
+      "geom": "right_hand_thumb_1_link_collision_1",
+      "type": "box"
+    },
+    {
+      "body": "right_hand_thumb_2_link",
+      "geom": "right_hand_thumb_2_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_2_link",
+      "geom": "right_thumb_fingertip",
+      "type": "sphere"
+    },
+    {
+      "body": "right_hand_index_0_link",
+      "geom": "right_hand_index_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_index_1_link",
+      "geom": "right_hand_index_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_index_1_link",
+      "geom": "right_index_fingertip",
+      "type": "sphere"
+    },
+    {
+      "body": "right_hand_middle_0_link",
+      "geom": "right_hand_middle_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_middle_1_link",
+      "geom": "right_hand_middle_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_middle_1_link",
+      "geom": "right_middle_fingertip",
+      "type": "sphere"
+    }
+  ],
+  "ardy_source": {
+    "source_npz": "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz",
+    "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+    "source_fps": 25.0,
+    "native_frames": 100,
+    "native_clip_duration_s": 4.0,
+    "last_sample_time_s": 3.96,
+    "expected50Hz_frames": 199,
+    "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+    "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+    "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+    "text": "A person reaches forward with their right hand to grab a small object on a table.",
+    "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+  },
+  "ardy_frame": 99,
+  "scope": "ARDY seven-arm prior + bounded geometry correction, NOT native fullbody ARDY",
+  "geometry_pass": false,
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "robot": "e2911f97f3f578c193bcf039679c4f9afba8d2792ebb6a73a27369e352ea5e2a",
+      "scene": "769bbf36b9f0713e16bdc28517432941c0ab7ba1d5f880b589777369620ec7b6"
+    },
+    "scene_generator_sha": "67f74c108caa50e3021b5518b7c6b1785710753e88730c342028249e5741ff68",
+    "library_sha": {
+      "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+    },
+    "dt": 0.002
+  },
+  "hand_self_collision": "original hand-world masks; no added inter-finger self collision; all original nonvisual finger geometries active",
+  "synthetic_pads": "three inherited 10mm spherical pads retained and disclosed; finger bones NOT ghosts"
+}

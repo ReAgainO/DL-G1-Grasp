@@ -1,0 +1,1919 @@
+{
+  "analysis_kind": "20ms archived-sample descriptive diagnosis, no new dynamics",
+  "rows": [
+    {
+      "id": "A000",
+      "success": true,
+      "source_stamp": {
+        "ardy_source": {
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "expected50Hz_frames": 199,
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "last_sample_time_s": 3.96,
+          "native_clip_duration_s": 4.0,
+          "native_frames": 100,
+          "source_fps": 25.0,
+          "source_npz": "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5"
+        },
+        "dt": 0.001,
+        "impratio": 10,
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "plan": "c186ec44b505f1588d4401f621bb8a2567cea66380c6d9bf5178c5eacacf8183",
+          "sonic_models": {
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "margin_m": 0.001,
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "model_sha": {
+          "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+          "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+        },
+        "model_xml_sha": {
+          "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+          "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+        },
+        "mujoco_version": "3.2.7",
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_A000",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "root_x_initial_m": 0.0,
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "solref": [
+          0.02,
+          1
+        ],
+        "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python"
+      },
+      "trajectory_sha": "f775ddd5e5c27b1f3fdfc1cd335821fe5b4c31210242291fe9d57df6376e5595",
+      "source_result_sha": "77680f5c6b32e1ff261a9bee5e9773d078049bbecdcd164a7b7811a2086a23e8",
+      "stored_dt_s": 0.019999999999999574,
+      "phases": {
+        "AIR_APPROACH": {
+          "samples": 1000,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.12325040750727084,
+            "velocity_peak_rad_s": 1.1278903451969982,
+            "angle_detrended_rms_deg": 9.312264633316307,
+            "dominant_1_20Hz": 1.1,
+            "torque_step_rms_Nm": 0.30566247744928543,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.05166476492872588,
+            "velocity_peak_rad_s": 0.2688636539796981,
+            "angle_detrended_rms_deg": 6.743486734492844,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.0011586119710606537,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 12.643994848377265,
+          "wrist_range_mm": [
+            189.49575332018702,
+            97.65443700358811,
+            73.92547573267461
+          ],
+          "cube_range_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "decoded_arm_target_step_rms_deg": 0.36103923849484076,
+          "body_reference_arm_step_rms_deg": 0.11840519031643992,
+          "finger_reference_step_rms_deg": 0.05888176040129969
+        },
+        "LATE_APPROACH": {
+          "samples": 400,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.12723159233369133,
+            "velocity_peak_rad_s": 0.6093882084624976,
+            "angle_detrended_rms_deg": 1.634072870819932,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.6814519904589136,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0005168386786858513,
+            "velocity_peak_rad_s": 0.015071389154529742,
+            "angle_detrended_rms_deg": 0.00202268478536666,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.001173552311865541,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 3.3961956041546455,
+          "wrist_range_mm": [
+            9.001482136471422,
+            10.141772341040856,
+            45.461227216268
+          ],
+          "cube_range_mm": [
+            0.6010572780678625,
+            0.5094608405946943,
+            0.5427256716671325
+          ],
+          "decoded_arm_target_step_rms_deg": 0.8182711357786928,
+          "body_reference_arm_step_rms_deg": 0.07482553026002008,
+          "finger_reference_step_rms_deg": 1.763859467981678e-15
+        },
+        "CLOSE": {
+          "samples": 150,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.10364949326205555,
+            "velocity_peak_rad_s": 0.5777346912464326,
+            "angle_detrended_rms_deg": 0.36492163342437267,
+            "dominant_1_20Hz": 1.3333333333333333,
+            "torque_step_rms_Nm": 0.5775762172096169,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.07904306727223322,
+            "velocity_peak_rad_s": 0.18011204536770486,
+            "angle_detrended_rms_deg": 0.5161650922425804,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.008786808005097325,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 1.1675181965847774,
+          "wrist_range_mm": [
+            7.010487254284159,
+            4.531512438817997,
+            6.043953147617409
+          ],
+          "cube_range_mm": [
+            3.0988684557017865,
+            2.249285656637068,
+            1.630620866436172
+          ],
+          "decoded_arm_target_step_rms_deg": 0.6823885584991385,
+          "body_reference_arm_step_rms_deg": 0.034478176725062926,
+          "finger_reference_step_rms_deg": 0.09148165535044742
+        },
+        "LIFT": {
+          "samples": 225,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.2943901888388732,
+            "velocity_peak_rad_s": 1.4676937919851192,
+            "angle_detrended_rms_deg": 4.135469548516722,
+            "dominant_1_20Hz": 1.3333333333333333,
+            "torque_step_rms_Nm": 0.6371654156338574,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.018427999859872188,
+            "velocity_peak_rad_s": 0.2579981829212559,
+            "angle_detrended_rms_deg": 0.1628818594431171,
+            "dominant_1_20Hz": 1.1111111111111112,
+            "torque_step_rms_Nm": 0.014063016921286746,
+            "torque_saturation_fraction": 0.017142857142857144
+          },
+          "wrist_detrended_rms_mm": 6.036331718362255,
+          "wrist_range_mm": [
+            17.949946653230604,
+            24.972373694501226,
+            107.05100711912607
+          ],
+          "cube_range_mm": [
+            27.751178429121946,
+            23.372405961546217,
+            102.61944002886602
+          ],
+          "decoded_arm_target_step_rms_deg": 0.8225424660186248,
+          "body_reference_arm_step_rms_deg": 0.3176680149554393,
+          "finger_reference_step_rms_deg": 0.0
+        },
+        "HOLD": {
+          "samples": 125,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.19422941186579454,
+            "velocity_peak_rad_s": 0.677258919551313,
+            "angle_detrended_rms_deg": 0.8305697171679045,
+            "dominant_1_20Hz": 1.6,
+            "torque_step_rms_Nm": 0.747305252527161,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0010026461897134672,
+            "velocity_peak_rad_s": 0.004232686068843803,
+            "angle_detrended_rms_deg": 0.0028670060019459712,
+            "dominant_1_20Hz": 3.6,
+            "torque_step_rms_Nm": 0.0015354911498171762,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 2.439502609663561,
+          "wrist_range_mm": [
+            8.062463510816077,
+            5.874451971594974,
+            13.022453289850855
+          ],
+          "cube_range_mm": [
+            19.247622919287277,
+            13.74166653653483,
+            23.486364824372274
+          ],
+          "decoded_arm_target_step_rms_deg": 0.9186235613888111,
+          "body_reference_arm_step_rms_deg": 0.1528581872207996,
+          "finger_reference_step_rms_deg": 0.0
+        }
+      }
+    },
+    {
+      "id": "B000",
+      "success": true,
+      "source_stamp": {
+        "ardy_source": {
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "expected50Hz_frames": 199,
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "last_sample_time_s": 3.96,
+          "native_clip_duration_s": 4.0,
+          "native_frames": 100,
+          "source_fps": 25.0,
+          "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5"
+        },
+        "dt": 0.001,
+        "impratio": 10,
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "plan": "6b011d750de7c97461537c1d15666eca922b3d1adbd434c3abdc34c6c84d0175",
+          "sonic_models": {
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "margin_m": 0.001,
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "model_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+        },
+        "model_xml_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+        },
+        "mujoco_version": "3.2.7",
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_B000",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "root_x_initial_m": 0.0,
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "solref": [
+          0.02,
+          1
+        ],
+        "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python"
+      },
+      "trajectory_sha": "35b718e00db1b2c00d69f33c790989282a7b1515c5818233ac18e51bf24f6e88",
+      "source_result_sha": "888ed0edd17154b611ad55d9e5dcc7da6f0554dbc488fb171535a53b33c4e61b",
+      "stored_dt_s": 0.019999999999999574,
+      "phases": {
+        "AIR_APPROACH": {
+          "samples": 1000,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.11540585719655622,
+            "velocity_peak_rad_s": 1.045124462884659,
+            "angle_detrended_rms_deg": 8.720001748329679,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.2809234842882572,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.050295405061639015,
+            "velocity_peak_rad_s": 0.26888454474813056,
+            "angle_detrended_rms_deg": 6.564626813400994,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.0010923637203557783,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 10.800232881078918,
+          "wrist_range_mm": [
+            177.06695975855527,
+            86.57686091104073,
+            80.95238784183867
+          ],
+          "cube_range_mm": [
+            0.00018696936032736033,
+            0.0,
+            6.644906846986487e-09
+          ],
+          "decoded_arm_target_step_rms_deg": 0.33215004752193134,
+          "body_reference_arm_step_rms_deg": 0.11333259352876175,
+          "finger_reference_step_rms_deg": 0.057321199918988076
+        },
+        "LATE_APPROACH": {
+          "samples": 400,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.10073373767297962,
+            "velocity_peak_rad_s": 0.7503048750347591,
+            "angle_detrended_rms_deg": 1.8034406447203335,
+            "dominant_1_20Hz": 1.125,
+            "torque_step_rms_Nm": 0.36815164870205486,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0017560525198514008,
+            "velocity_peak_rad_s": 0.021045007226246838,
+            "angle_detrended_rms_deg": 0.03478366455227436,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.002348050438284527,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 3.384465695062303,
+          "wrist_range_mm": [
+            10.2082704215547,
+            11.055261607210959,
+            40.730269257591935
+          ],
+          "cube_range_mm": [
+            3.280339862790471,
+            2.999418875500176,
+            1.197461736856753
+          ],
+          "decoded_arm_target_step_rms_deg": 0.45923613132381036,
+          "body_reference_arm_step_rms_deg": 0.08439512870151557,
+          "finger_reference_step_rms_deg": 2.2437596018170114e-15
+        },
+        "CLOSE": {
+          "samples": 150,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.09328737018452435,
+            "velocity_peak_rad_s": 0.3637979849169922,
+            "angle_detrended_rms_deg": 0.7402035686109066,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.3632411498730483,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.10229966159137847,
+            "velocity_peak_rad_s": 0.24433723058663234,
+            "angle_detrended_rms_deg": 0.6638507335109335,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.015025081560885242,
+            "torque_saturation_fraction": 0.014285714285714285
+          },
+          "wrist_detrended_rms_mm": 1.2303434583550046,
+          "wrist_range_mm": [
+            6.095015925390912,
+            6.313952383672966,
+            4.274446535610821
+          ],
+          "cube_range_mm": [
+            8.217537833211885,
+            3.9993293020693654,
+            6.833805607380894
+          ],
+          "decoded_arm_target_step_rms_deg": 0.47354303312373525,
+          "body_reference_arm_step_rms_deg": 0.04424160585965142,
+          "finger_reference_step_rms_deg": 0.11790477035632461
+        },
+        "LIFT": {
+          "samples": 225,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.2507664313329385,
+            "velocity_peak_rad_s": 1.4358257951592717,
+            "angle_detrended_rms_deg": 2.9938777307936495,
+            "dominant_1_20Hz": 1.1111111111111112,
+            "torque_step_rms_Nm": 0.6019544437274913,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0090254995168249,
+            "velocity_peak_rad_s": 0.09152951686817185,
+            "angle_detrended_rms_deg": 0.07119820187374296,
+            "dominant_1_20Hz": 1.1111111111111112,
+            "torque_step_rms_Nm": 0.010635674035711458,
+            "torque_saturation_fraction": 0.12825396825396826
+          },
+          "wrist_detrended_rms_mm": 6.900489847576275,
+          "wrist_range_mm": [
+            20.661059735307823,
+            31.27064575980196,
+            107.72157479454914
+          ],
+          "cube_range_mm": [
+            21.665514457502034,
+            55.014610812629485,
+            111.54481530004557
+          ],
+          "decoded_arm_target_step_rms_deg": 0.7663013601014905,
+          "body_reference_arm_step_rms_deg": 0.26972254859757155,
+          "finger_reference_step_rms_deg": 0.0
+        },
+        "HOLD": {
+          "samples": 125,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.17578987575674493,
+            "velocity_peak_rad_s": 0.7178344201974906,
+            "angle_detrended_rms_deg": 0.9428624481725439,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.5905314482471882,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0012315579190555178,
+            "velocity_peak_rad_s": 0.0058482401410943265,
+            "angle_detrended_rms_deg": 0.011035900123662205,
+            "dominant_1_20Hz": 2.4000000000000004,
+            "torque_step_rms_Nm": 0.0015252484997433915,
+            "torque_saturation_fraction": 0.14285714285714285
+          },
+          "wrist_detrended_rms_mm": 2.2738275552909757,
+          "wrist_range_mm": [
+            5.770463844064821,
+            7.776935620259106,
+            18.186911682870786
+          ],
+          "cube_range_mm": [
+            10.72489327941517,
+            10.914110630944885,
+            27.02362329122232
+          ],
+          "decoded_arm_target_step_rms_deg": 0.7040678331813849,
+          "body_reference_arm_step_rms_deg": 0.14510560475186854,
+          "finger_reference_step_rms_deg": 0.0
+        }
+      }
+    },
+    {
+      "id": "C000",
+      "success": true,
+      "source_stamp": {
+        "ardy_source": {
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "expected50Hz_frames": 199,
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "last_sample_time_s": 3.96,
+          "native_clip_duration_s": 4.0,
+          "native_frames": 100,
+          "source_fps": 25.0,
+          "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5"
+        },
+        "dt": 0.001,
+        "impratio": 10,
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "plan": "b9e6aff501a5d119041d409d1ab59a8737c8d112957b4a78c15efaf7c66dbb27",
+          "sonic_models": {
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "margin_m": 0.001,
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "model_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+        },
+        "model_xml_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+        },
+        "mujoco_version": "3.2.7",
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_C000",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "root_x_initial_m": 0.0,
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "solref": [
+          0.02,
+          1
+        ],
+        "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python"
+      },
+      "trajectory_sha": "a9aff81c5601a1533f3fa86eae1cea4f32a222e36779562e4523487af88db722",
+      "source_result_sha": "5ac95b9fd3bc3283c36a19db039f24b70e617f289098b9ec8d691d3dd9cddbb8",
+      "stored_dt_s": 0.019999999999999574,
+      "phases": {
+        "AIR_APPROACH": {
+          "samples": 1000,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.1111495903033043,
+            "velocity_peak_rad_s": 1.1468877888627442,
+            "angle_detrended_rms_deg": 8.28471837228081,
+            "dominant_1_20Hz": 1.25,
+            "torque_step_rms_Nm": 0.29432940665819346,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.04935342059598543,
+            "velocity_peak_rad_s": 0.26057712665994176,
+            "angle_detrended_rms_deg": 6.4417509734503735,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.001066433250593695,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 10.582302029560138,
+          "wrist_range_mm": [
+            170.85085758992201,
+            75.91477663631532,
+            85.00335915619672
+          ],
+          "cube_range_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "decoded_arm_target_step_rms_deg": 0.3418987585753534,
+          "body_reference_arm_step_rms_deg": 0.10509404967106055,
+          "finger_reference_step_rms_deg": 0.05624222832844849
+        },
+        "LATE_APPROACH": {
+          "samples": 400,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.10346641890867482,
+            "velocity_peak_rad_s": 0.7749894413068705,
+            "angle_detrended_rms_deg": 1.2738009990597026,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.4243080715267249,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0018839258789352703,
+            "velocity_peak_rad_s": 0.02036002612042415,
+            "angle_detrended_rms_deg": 0.019502700225563146,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.003143797061901363,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 2.8318057539683545,
+          "wrist_range_mm": [
+            10.491103237476484,
+            10.027644881517556,
+            35.4753386886143
+          ],
+          "cube_range_mm": [
+            2.8459623166548487,
+            2.446314774591618,
+            3.2781523376776978
+          ],
+          "decoded_arm_target_step_rms_deg": 0.4997516739851399,
+          "body_reference_arm_step_rms_deg": 0.07536105136158938,
+          "finger_reference_step_rms_deg": 2.7172905070792724e-15
+        },
+        "CLOSE": {
+          "samples": 150,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.0908929048334273,
+            "velocity_peak_rad_s": 0.3528072804110582,
+            "angle_detrended_rms_deg": 0.4052102561849705,
+            "dominant_1_20Hz": 1.6666666666666665,
+            "torque_step_rms_Nm": 0.45980126081009437,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.12966119059820982,
+            "velocity_peak_rad_s": 0.30492131459829885,
+            "angle_detrended_rms_deg": 0.8751015443049329,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.01419880316943904,
+            "torque_saturation_fraction": 0.02666666666666667
+          },
+          "wrist_detrended_rms_mm": 1.0071805245547316,
+          "wrist_range_mm": [
+            4.999858779806549,
+            5.176703532927679,
+            5.36952358663878
+          ],
+          "cube_range_mm": [
+            8.878294492694005,
+            7.917004238609499,
+            10.850132995028684
+          ],
+          "decoded_arm_target_step_rms_deg": 0.5519477599272592,
+          "body_reference_arm_step_rms_deg": 0.02491246891547767,
+          "finger_reference_step_rms_deg": 0.1504574010822728
+        },
+        "LIFT": {
+          "samples": 225,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.1882835009272068,
+            "velocity_peak_rad_s": 0.9436006478857005,
+            "angle_detrended_rms_deg": 1.8287943530603998,
+            "dominant_1_20Hz": 1.1111111111111112,
+            "torque_step_rms_Nm": 0.5835224359708243,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0028547240011445665,
+            "velocity_peak_rad_s": 0.026518068083269574,
+            "angle_detrended_rms_deg": 0.02770368151112386,
+            "dominant_1_20Hz": 1.1111111111111112,
+            "torque_step_rms_Nm": 0.0033052022429047234,
+            "torque_saturation_fraction": 0.14285714285714285
+          },
+          "wrist_detrended_rms_mm": 5.86150188749521,
+          "wrist_range_mm": [
+            11.541610224223842,
+            15.431153426972044,
+            106.54561466275014
+          ],
+          "cube_range_mm": [
+            15.943125833849658,
+            22.61288961717836,
+            114.26085553120224
+          ],
+          "decoded_arm_target_step_rms_deg": 0.717653106478413,
+          "body_reference_arm_step_rms_deg": 0.18865456098231906,
+          "finger_reference_step_rms_deg": 0.0
+        },
+        "HOLD": {
+          "samples": 125,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.24918309863287344,
+            "velocity_peak_rad_s": 0.8536230069191751,
+            "angle_detrended_rms_deg": 0.7463070411570256,
+            "dominant_1_20Hz": 3.2,
+            "torque_step_rms_Nm": 0.8397705978858652,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.002158216252042394,
+            "velocity_peak_rad_s": 0.010717452666912666,
+            "angle_detrended_rms_deg": 0.019687318387133085,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.002632888426466237,
+            "torque_saturation_fraction": 0.14285714285714285
+          },
+          "wrist_detrended_rms_mm": 3.536184551779478,
+          "wrist_range_mm": [
+            8.095141245787667,
+            8.611673966850725,
+            19.110671258015355
+          ],
+          "cube_range_mm": [
+            14.707794778792028,
+            16.536757361723247,
+            29.99829151882516
+          ],
+          "decoded_arm_target_step_rms_deg": 1.0786498403351659,
+          "body_reference_arm_step_rms_deg": 0.2541064017537066,
+          "finger_reference_step_rms_deg": 0.0
+        }
+      }
+    },
+    {
+      "id": "D000",
+      "success": true,
+      "source_stamp": {
+        "ardy_source": {
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "expected50Hz_frames": 199,
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "last_sample_time_s": 3.96,
+          "native_clip_duration_s": 4.0,
+          "native_frames": 100,
+          "source_fps": 25.0,
+          "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5"
+        },
+        "dt": 0.001,
+        "impratio": 10,
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "plan": "f384b275168e23faf93d5c576fc739bb2181be20aec713efd97f7f08335c9170",
+          "sonic_models": {
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "margin_m": 0.001,
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "model_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+        },
+        "model_xml_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+        },
+        "mujoco_version": "3.2.7",
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_D000",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "root_x_initial_m": -0.02,
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "solref": [
+          0.02,
+          1
+        ],
+        "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python"
+      },
+      "trajectory_sha": "758247781d9d089af0be8a833ab80a39f83cc7060e8dd1d8c7ffe7d1a3bfd5b3",
+      "source_result_sha": "fd097650874ffa0754c20612cadd683ddcb06a361c58f81c31097c0b8be4e1d8",
+      "stored_dt_s": 0.019999999999999574,
+      "phases": {
+        "AIR_APPROACH": {
+          "samples": 1000,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.12209592830511788,
+            "velocity_peak_rad_s": 0.9453155582916181,
+            "angle_detrended_rms_deg": 8.818848718914913,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.30855677431855866,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.04524299200131862,
+            "velocity_peak_rad_s": 0.2358786201747144,
+            "angle_detrended_rms_deg": 5.9054169659290014,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.0010940813519918651,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 11.166077107833225,
+          "wrist_range_mm": [
+            191.83531042818632,
+            78.22587549300123,
+            78.0972793497986
+          ],
+          "cube_range_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "decoded_arm_target_step_rms_deg": 0.366498536297386,
+          "body_reference_arm_step_rms_deg": 0.11184640004384389,
+          "finger_reference_step_rms_deg": 0.0515646896660738
+        },
+        "LATE_APPROACH": {
+          "samples": 400,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.10401535445949484,
+            "velocity_peak_rad_s": 0.7749448502511729,
+            "angle_detrended_rms_deg": 1.5892349787381341,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.4130061409679617,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.001776667343189699,
+            "velocity_peak_rad_s": 0.029444299504824994,
+            "angle_detrended_rms_deg": 0.019548638742254806,
+            "dominant_1_20Hz": 1.25,
+            "torque_step_rms_Nm": 0.0033154528797451604,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 3.848703209450723,
+          "wrist_range_mm": [
+            8.223602582051765,
+            14.189071142473919,
+            44.39793182727303
+          ],
+          "cube_range_mm": [
+            1.9062475885511243,
+            1.7212229193211692,
+            1.543142896881955
+          ],
+          "decoded_arm_target_step_rms_deg": 0.5012475918739837,
+          "body_reference_arm_step_rms_deg": 0.08033451638072757,
+          "finger_reference_step_rms_deg": 2.6307954928458963e-15
+        },
+        "CLOSE": {
+          "samples": 150,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.08300127702844662,
+            "velocity_peak_rad_s": 0.5205500913280662,
+            "angle_detrended_rms_deg": 0.76266993229845,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.4030635346689197,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.12836510010337085,
+            "velocity_peak_rad_s": 0.3141803069342381,
+            "angle_detrended_rms_deg": 0.8399594067284035,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.014967651390969658,
+            "torque_saturation_fraction": 0.022857142857142857
+          },
+          "wrist_detrended_rms_mm": 1.0752827092247441,
+          "wrist_range_mm": [
+            5.369963677376188,
+            2.98424389522034,
+            4.407292754702641
+          ],
+          "cube_range_mm": [
+            6.9057560462477685,
+            2.8676970728714335,
+            6.99309967956363
+          ],
+          "decoded_arm_target_step_rms_deg": 0.4935657308989845,
+          "body_reference_arm_step_rms_deg": 0.043662566384160634,
+          "finger_reference_step_rms_deg": 0.1488659675042604
+        },
+        "LIFT": {
+          "samples": 225,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.2313754338398061,
+            "velocity_peak_rad_s": 1.2931527239292306,
+            "angle_detrended_rms_deg": 2.1171766171323663,
+            "dominant_1_20Hz": 1.1111111111111112,
+            "torque_step_rms_Nm": 0.7243778425996941,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.009456179060415014,
+            "velocity_peak_rad_s": 0.12125270443582054,
+            "angle_detrended_rms_deg": 0.04285028751575229,
+            "dominant_1_20Hz": 1.3333333333333333,
+            "torque_step_rms_Nm": 0.00949649400654426,
+            "torque_saturation_fraction": 0.14285714285714285
+          },
+          "wrist_detrended_rms_mm": 6.587539979420665,
+          "wrist_range_mm": [
+            16.25077178221884,
+            22.1217253415803,
+            102.11517305257655
+          ],
+          "cube_range_mm": [
+            22.770681678660864,
+            37.57748462151434,
+            106.16522458850797
+          ],
+          "decoded_arm_target_step_rms_deg": 0.914688616200124,
+          "body_reference_arm_step_rms_deg": 0.25974146881146576,
+          "finger_reference_step_rms_deg": 0.0
+        },
+        "HOLD": {
+          "samples": 125,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.19094546565136333,
+            "velocity_peak_rad_s": 0.8914686989366867,
+            "angle_detrended_rms_deg": 0.8670256535925464,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.62135282158207,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0020691634249689014,
+            "velocity_peak_rad_s": 0.007556493005419816,
+            "angle_detrended_rms_deg": 0.019701640692993183,
+            "dominant_1_20Hz": 2.0,
+            "torque_step_rms_Nm": 0.0022648813047029927,
+            "torque_saturation_fraction": 0.14285714285714285
+          },
+          "wrist_detrended_rms_mm": 2.465895072727235,
+          "wrist_range_mm": [
+            11.876805536017832,
+            10.192720925304377,
+            10.146882615173492
+          ],
+          "cube_range_mm": [
+            15.351533697924468,
+            23.216108581701423,
+            14.15957182405192
+          ],
+          "decoded_arm_target_step_rms_deg": 0.7589641293839473,
+          "body_reference_arm_step_rms_deg": 0.17739198750290283,
+          "finger_reference_step_rms_deg": 0.0
+        }
+      }
+    },
+    {
+      "id": "NWS000",
+      "success": true,
+      "source_stamp": {
+        "ardy_source": {
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "expected50Hz_frames": 199,
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "last_sample_time_s": 3.96,
+          "native_clip_duration_s": 4.0,
+          "native_frames": 100,
+          "source_fps": 25.0,
+          "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5"
+        },
+        "dt": 0.001,
+        "impratio": 10,
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "plan": "aa36f19e32b05fd2f3ecf87689b9a344b557b6938385bbb497e17a5898d4fbe8",
+          "sonic_models": {
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "margin_m": 0.001,
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "model_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+        },
+        "model_xml_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+        },
+        "mujoco_version": "3.2.7",
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_NWS000",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "root_x_initial_m": 0.0,
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "solref": [
+          0.02,
+          1
+        ],
+        "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python"
+      },
+      "trajectory_sha": "6b8fbc2ee9beb304a832077f40ec8f47c8f068c1f2f4c52b5d9e92581348225a",
+      "source_result_sha": "f8da092f9b7d22ae58ab2aa72e5263ed80a89d82e610c3b0acc4782ea4ea2a66",
+      "stored_dt_s": 0.019999999999999574,
+      "phases": {
+        "AIR_APPROACH": {
+          "samples": 1000,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.11540584518100049,
+            "velocity_peak_rad_s": 1.045123898593447,
+            "angle_detrended_rms_deg": 8.720001803390058,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.2809235067277368,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.050295404729686466,
+            "velocity_peak_rad_s": 0.2688845542398826,
+            "angle_detrended_rms_deg": 6.564626769841231,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.001092363884158071,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 10.80023329759484,
+          "wrist_range_mm": [
+            177.06694022718736,
+            86.5768519902782,
+            80.95240814821958
+          ],
+          "cube_range_mm": [
+            0.00018696936038287149,
+            0.0,
+            6.644906846986487e-09
+          ],
+          "decoded_arm_target_step_rms_deg": 0.33215000978265263,
+          "body_reference_arm_step_rms_deg": 0.11333259378136348,
+          "finger_reference_step_rms_deg": 0.05732119953948991
+        },
+        "LATE_APPROACH": {
+          "samples": 400,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.04591708298253679,
+            "velocity_peak_rad_s": 0.20680782069935444,
+            "angle_detrended_rms_deg": 0.7698302620093047,
+            "dominant_1_20Hz": 4.0,
+            "torque_step_rms_Nm": 0.271831722137385,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0002289767335026562,
+            "velocity_peak_rad_s": 0.0007962371646504978,
+            "angle_detrended_rms_deg": 0.0005162381837618351,
+            "dominant_1_20Hz": 4.0,
+            "torque_step_rms_Nm": 0.0003677050819842514,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 1.7857420219532336,
+          "wrist_range_mm": [
+            8.619347137606843,
+            9.740172557479443,
+            13.72981053362221
+          ],
+          "cube_range_mm": [
+            7.468735913063185e-05,
+            0.0,
+            2.654876318786137e-09
+          ],
+          "decoded_arm_target_step_rms_deg": 0.3438129112284162,
+          "body_reference_arm_step_rms_deg": 0.014397830262707485,
+          "finger_reference_step_rms_deg": 2.3471368880771534e-15
+        },
+        "CLOSE": {
+          "samples": 150,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.034672152832862325,
+            "velocity_peak_rad_s": 0.1542947253781202,
+            "angle_detrended_rms_deg": 0.07797724617433917,
+            "dominant_1_20Hz": 4.0,
+            "torque_step_rms_Nm": 0.28267118716820944,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.1017860980600927,
+            "velocity_peak_rad_s": 0.2444386226605702,
+            "angle_detrended_rms_deg": 0.6644478818695708,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.009627316511981551,
+            "torque_saturation_fraction": 0.009523809523809525
+          },
+          "wrist_detrended_rms_mm": 1.043180788226186,
+          "wrist_range_mm": [
+            9.443903668562264,
+            2.031748617444318,
+            3.618855227520923
+          ],
+          "cube_range_mm": [
+            5.734622347551454,
+            2.2333502770285616,
+            2.484734604755179
+          ],
+          "decoded_arm_target_step_rms_deg": 0.3628865631269748,
+          "body_reference_arm_step_rms_deg": 0.0,
+          "finger_reference_step_rms_deg": 0.11790477255996157
+        },
+        "LIFT": {
+          "samples": 225,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.17168765465089011,
+            "velocity_peak_rad_s": 1.2802473307867315,
+            "angle_detrended_rms_deg": 2.707446141005762,
+            "dominant_1_20Hz": 1.1111111111111112,
+            "torque_step_rms_Nm": 0.41578362245871875,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.004990281428700071,
+            "velocity_peak_rad_s": 0.06483284697943321,
+            "angle_detrended_rms_deg": 0.05022653585959128,
+            "dominant_1_20Hz": 1.5555555555555554,
+            "torque_step_rms_Nm": 0.006935021016345476,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 6.277166467499432,
+          "wrist_range_mm": [
+            14.265002024258177,
+            39.621443332547635,
+            104.88263421636479
+          ],
+          "cube_range_mm": [
+            21.98094841121612,
+            36.883792253559946,
+            90.77203372877862
+          ],
+          "decoded_arm_target_step_rms_deg": 0.48748976050702164,
+          "body_reference_arm_step_rms_deg": 0.12248006412147411,
+          "finger_reference_step_rms_deg": 0.0
+        },
+        "HOLD": {
+          "samples": 125,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.09705916644240137,
+            "velocity_peak_rad_s": 0.4737552643628054,
+            "angle_detrended_rms_deg": 0.37644800618553464,
+            "dominant_1_20Hz": 2.8000000000000003,
+            "torque_step_rms_Nm": 0.3907910299539791,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0015553772139765653,
+            "velocity_peak_rad_s": 0.008545343405091823,
+            "angle_detrended_rms_deg": 0.008423800213161683,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.0017879964874855387,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 1.7100329025756458,
+          "wrist_range_mm": [
+            3.737542362041213,
+            3.9093798750598485,
+            10.587705373345857
+          ],
+          "cube_range_mm": [
+            8.400168094971573,
+            10.6963086045975,
+            15.834272418215779
+          ],
+          "decoded_arm_target_step_rms_deg": 0.49354213792343327,
+          "body_reference_arm_step_rms_deg": 0.08045228441775062,
+          "finger_reference_step_rms_deg": 0.0
+        }
+      }
+    },
+    {
+      "id": "NGF000",
+      "success": true,
+      "source_stamp": {
+        "ardy_source": {
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "expected50Hz_frames": 199,
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "last_sample_time_s": 3.96,
+          "native_clip_duration_s": 4.0,
+          "native_frames": 100,
+          "source_fps": 25.0,
+          "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5"
+        },
+        "dt": 0.001,
+        "impratio": 10,
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "plan": "3d605f94b9d310fa07afe215d00a75d597a6a42d1bf0654b2a5d00e5dfc0931b",
+          "sonic_models": {
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "margin_m": 0.001,
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "model_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+        },
+        "model_xml_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+        },
+        "mujoco_version": "3.2.7",
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_NGF000",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "root_x_initial_m": 0.0,
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "solref": [
+          0.02,
+          1
+        ],
+        "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python"
+      },
+      "trajectory_sha": "baa9a12f13279122cf70e4f1fcd35933aba7c801aaa220ad05539345fcab64a5",
+      "source_result_sha": "c39bec2f2d9fe445d0c0d582241d775034dc69d6affc2a90842af7eea531065a",
+      "stored_dt_s": 0.019999999999999574,
+      "phases": {
+        "AIR_APPROACH": {
+          "samples": 1000,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.11504478835005466,
+            "velocity_peak_rad_s": 1.0462019507884779,
+            "angle_detrended_rms_deg": 8.738191599824118,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.3003522856378712,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.050296239531089935,
+            "velocity_peak_rad_s": 0.2689282370566882,
+            "angle_detrended_rms_deg": 6.5647371563875625,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.0010998471309355954,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 11.096509342727495,
+          "wrist_range_mm": [
+            179.43285844925504,
+            92.47544089011217,
+            85.8226721532862
+          ],
+          "cube_range_mm": [
+            0.00018696936032736033,
+            0.0,
+            6.644906846986487e-09
+          ],
+          "decoded_arm_target_step_rms_deg": 0.34881852365629257,
+          "body_reference_arm_step_rms_deg": 0.11333259352876175,
+          "finger_reference_step_rms_deg": 0.057321199918988076
+        },
+        "LATE_APPROACH": {
+          "samples": 400,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.07956868859015148,
+            "velocity_peak_rad_s": 0.7814307757534636,
+            "angle_detrended_rms_deg": 1.3534210853138666,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.37801698334772454,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.001924452859257803,
+            "velocity_peak_rad_s": 0.027020265352196735,
+            "angle_detrended_rms_deg": 0.02378779200115776,
+            "dominant_1_20Hz": 1.375,
+            "torque_step_rms_Nm": 0.0026668727494343894,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 2.3331139714507914,
+          "wrist_range_mm": [
+            8.908581949555849,
+            9.798610451192596,
+            26.188538883279655
+          ],
+          "cube_range_mm": [
+            3.848411412604502,
+            1.4874965011036356,
+            2.306082881880389
+          ],
+          "decoded_arm_target_step_rms_deg": 0.48511603868491077,
+          "body_reference_arm_step_rms_deg": 0.06222604525203116,
+          "finger_reference_step_rms_deg": 2.2437596018170114e-15
+        },
+        "CLOSE": {
+          "samples": 150,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.06038984399252962,
+            "velocity_peak_rad_s": 0.3610089552067528,
+            "angle_detrended_rms_deg": 0.6235680262863723,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.2568749514617988,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.10191973956362284,
+            "velocity_peak_rad_s": 0.24430492546222432,
+            "angle_detrended_rms_deg": 0.665948649990676,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.010462600386833255,
+            "torque_saturation_fraction": 0.008571428571428572
+          },
+          "wrist_detrended_rms_mm": 0.6298064714076607,
+          "wrist_range_mm": [
+            5.495480319391427,
+            5.923012406707395,
+            3.4057103656923715
+          ],
+          "cube_range_mm": [
+            1.7259053451301742,
+            1.5037985150222755,
+            2.1688147532230584
+          ],
+          "decoded_arm_target_step_rms_deg": 0.32948597346960096,
+          "body_reference_arm_step_rms_deg": 0.03585955275390126,
+          "finger_reference_step_rms_deg": 0.11790477035632461
+        },
+        "LIFT": {
+          "samples": 225,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.21252906973019098,
+            "velocity_peak_rad_s": 1.7431869952627357,
+            "angle_detrended_rms_deg": 2.657260298911178,
+            "dominant_1_20Hz": 1.1111111111111112,
+            "torque_step_rms_Nm": 0.5775711321199268,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.004705539460267364,
+            "velocity_peak_rad_s": 0.08173540443950492,
+            "angle_detrended_rms_deg": 0.053273577424884484,
+            "dominant_1_20Hz": 1.3333333333333333,
+            "torque_step_rms_Nm": 0.002808698430820966,
+            "torque_saturation_fraction": 0.07555555555555556
+          },
+          "wrist_detrended_rms_mm": 6.756660584647778,
+          "wrist_range_mm": [
+            9.075947231724946,
+            30.040747325070782,
+            96.64097971687802
+          ],
+          "cube_range_mm": [
+            16.267150847610324,
+            37.83290415147414,
+            96.58934662006513
+          ],
+          "decoded_arm_target_step_rms_deg": 0.6917144380237754,
+          "body_reference_arm_step_rms_deg": 0.190431449426334,
+          "finger_reference_step_rms_deg": 0.0
+        },
+        "HOLD": {
+          "samples": 125,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.15110154494828645,
+            "velocity_peak_rad_s": 0.6526752923714119,
+            "angle_detrended_rms_deg": 0.76240530632777,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.5766105371724615,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0014292921744662162,
+            "velocity_peak_rad_s": 0.010308585199204388,
+            "angle_detrended_rms_deg": 0.009945481179586817,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.001577639247858291,
+            "torque_saturation_fraction": 0.14285714285714285
+          },
+          "wrist_detrended_rms_mm": 2.1485347068055716,
+          "wrist_range_mm": [
+            9.227191168668714,
+            7.066842231987031,
+            11.183861179128062
+          ],
+          "cube_range_mm": [
+            14.327589810727792,
+            12.373580407965878,
+            19.494604794279113
+          ],
+          "decoded_arm_target_step_rms_deg": 0.7075087321209251,
+          "body_reference_arm_step_rms_deg": 0.15580676283891287,
+          "finger_reference_step_rms_deg": 0.0
+        }
+      }
+    },
+    {
+      "id": "B051",
+      "success": false,
+      "source_stamp": {
+        "ardy_source": {
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "expected50Hz_frames": 199,
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "last_sample_time_s": 3.96,
+          "native_clip_duration_s": 4.0,
+          "native_frames": 100,
+          "source_fps": 25.0,
+          "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5"
+        },
+        "dt": 0.001,
+        "impratio": 10,
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "plan": "33ccc955733d7297c3a490c95605018131f5a1527cd36d427320f178d901f673",
+          "sonic_models": {
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "margin_m": 0.001,
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "model_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "68b8eeaa0e50ffa418d60d42bb73117f85caa459945e40e7dbbcee8310c242b0"
+        },
+        "model_xml_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "68b8eeaa0e50ffa418d60d42bb73117f85caa459945e40e7dbbcee8310c242b0"
+        },
+        "mujoco_version": "3.2.7",
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_B051",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "root_x_initial_m": 0.0,
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "solref": [
+          0.02,
+          1
+        ],
+        "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python"
+      },
+      "trajectory_sha": "6086135f77ae64d3a4bad1d72baea0650cdf9a472fc0e16e0ce6cd0263ea4b43",
+      "source_result_sha": "abe8d98921eaed2475705e0c1f8ee13f99cdc95d31f02fb55b2b597c283aa519",
+      "stored_dt_s": 0.019999999999999574,
+      "phases": {
+        "AIR_APPROACH": {
+          "samples": 1000,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.11332359872779123,
+            "velocity_peak_rad_s": 1.044335427803426,
+            "angle_detrended_rms_deg": 8.535829045102219,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.29012710841120287,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.04963983015522965,
+            "velocity_peak_rad_s": 0.2689492442363282,
+            "angle_detrended_rms_deg": 6.478996850355498,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.0010790032177697422,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 11.123713787130095,
+          "wrist_range_mm": [
+            163.3702084277279,
+            89.99932848891481,
+            76.05803842443714
+          ],
+          "cube_range_mm": [
+            0.005244970003759342,
+            0.0,
+            6.6939486176309515e-06
+          ],
+          "decoded_arm_target_step_rms_deg": 0.33690900492090725,
+          "body_reference_arm_step_rms_deg": 0.11215065419036949,
+          "finger_reference_step_rms_deg": 0.056573276345052596
+        },
+        "LATE_APPROACH": {
+          "samples": 400,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.10265861599117801,
+            "velocity_peak_rad_s": 0.5974663182953164,
+            "angle_detrended_rms_deg": 1.621458811988561,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.450703307649693,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.00028827973610278236,
+            "velocity_peak_rad_s": 0.0022366960205467633,
+            "angle_detrended_rms_deg": 0.0010282749073669561,
+            "dominant_1_20Hz": 2.875,
+            "torque_step_rms_Nm": 0.0005373335680128187,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 2.9947338099651764,
+          "wrist_range_mm": [
+            9.981545279869163,
+            7.995717053288221,
+            36.52116160378283
+          ],
+          "cube_range_mm": [
+            0.5027542974187504,
+            0.3335660807961549,
+            0.3085210700609631
+          ],
+          "decoded_arm_target_step_rms_deg": 0.5601986826674705,
+          "body_reference_arm_step_rms_deg": 0.07342141533240204,
+          "finger_reference_step_rms_deg": 2.292653988039423e-15
+        },
+        "CLOSE": {
+          "samples": 150,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.07506656286280165,
+            "velocity_peak_rad_s": 0.47342845148870477,
+            "angle_detrended_rms_deg": 0.6590842174171176,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.3422118305314783,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.0806574733295661,
+            "velocity_peak_rad_s": 0.19100018782567416,
+            "angle_detrended_rms_deg": 0.5226412011025356,
+            "dominant_1_20Hz": 1.0,
+            "torque_step_rms_Nm": 0.0066139252205959466,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 1.3757643167083426,
+          "wrist_range_mm": [
+            5.340668538360266,
+            5.394904724909527,
+            7.142872157755664
+          ],
+          "cube_range_mm": [
+            3.088450470483395,
+            2.9654434234951674,
+            1.966477817757828
+          ],
+          "decoded_arm_target_step_rms_deg": 0.4301715241333611,
+          "body_reference_arm_step_rms_deg": 0.03632387689504818,
+          "finger_reference_step_rms_deg": 0.09320865306787213
+        },
+        "LIFT": {
+          "samples": 225,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.4298947854124874,
+            "velocity_peak_rad_s": 2.0834058714913586,
+            "angle_detrended_rms_deg": 6.034638422343716,
+            "dominant_1_20Hz": 1.3333333333333333,
+            "torque_step_rms_Nm": 0.8251703044973725,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.04163060227862229,
+            "velocity_peak_rad_s": 0.3258172090966699,
+            "angle_detrended_rms_deg": 0.4757054526796511,
+            "dominant_1_20Hz": 1.3333333333333333,
+            "torque_step_rms_Nm": 0.02154556885632603,
+            "torque_saturation_fraction": 0.13714285714285715
+          },
+          "wrist_detrended_rms_mm": 9.307499709690871,
+          "wrist_range_mm": [
+            30.590620288104027,
+            53.712973580962995,
+            99.76003931287126
+          ],
+          "cube_range_mm": [
+            36.97586376495576,
+            84.41936398411964,
+            88.76735195456075
+          ],
+          "decoded_arm_target_step_rms_deg": 1.0729701132486984,
+          "body_reference_arm_step_rms_deg": 0.5343005202140979,
+          "finger_reference_step_rms_deg": 0.0
+        },
+        "HOLD": {
+          "samples": 125,
+          "right_arm": {
+            "velocity_rms_rad_s": 0.14388957236270555,
+            "velocity_peak_rad_s": 0.7683003858044407,
+            "angle_detrended_rms_deg": 0.6508200210513831,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.5234162526189459,
+            "torque_saturation_fraction": 0.0
+          },
+          "right_hand": {
+            "velocity_rms_rad_s": 0.006479821778871575,
+            "velocity_peak_rad_s": 0.042624685778781764,
+            "angle_detrended_rms_deg": 0.037042803334064275,
+            "dominant_1_20Hz": 1.2000000000000002,
+            "torque_step_rms_Nm": 0.007979643637293208,
+            "torque_saturation_fraction": 0.0
+          },
+          "wrist_detrended_rms_mm": 1.7313535314278192,
+          "wrist_range_mm": [
+            4.89874901820353,
+            10.006710719509314,
+            11.087472954059985
+          ],
+          "cube_range_mm": [
+            13.088800795377498,
+            24.675965890188223,
+            15.761369815300519
+          ],
+          "decoded_arm_target_step_rms_deg": 0.6468960525486579,
+          "body_reference_arm_step_rms_deg": 0.11267223974906088,
+          "finger_reference_step_rms_deg": 0.0
+        }
+      }
+    }
+  ],
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "model_sha": {
+      "A000": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "B000": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+      },
+      "C000": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+      },
+      "D000": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+      },
+      "NWS000": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+      },
+      "NGF000": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+      },
+      "B051": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "68b8eeaa0e50ffa418d60d42bb73117f85caa459945e40e7dbbcee8310c242b0"
+      }
+    },
+    "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+    "library_sha": {
+      "A000": {
+        "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+        "plan": "c186ec44b505f1588d4401f621bb8a2567cea66380c6d9bf5178c5eacacf8183",
+        "sonic_models": {
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+        },
+        "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      },
+      "B000": {
+        "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+        "plan": "6b011d750de7c97461537c1d15666eca922b3d1adbd434c3abdc34c6c84d0175",
+        "sonic_models": {
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+        },
+        "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      },
+      "C000": {
+        "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+        "plan": "b9e6aff501a5d119041d409d1ab59a8737c8d112957b4a78c15efaf7c66dbb27",
+        "sonic_models": {
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+        },
+        "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      },
+      "D000": {
+        "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+        "plan": "f384b275168e23faf93d5c576fc739bb2181be20aec713efd97f7f08335c9170",
+        "sonic_models": {
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+        },
+        "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      },
+      "NWS000": {
+        "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+        "plan": "aa36f19e32b05fd2f3ecf87689b9a344b557b6938385bbb497e17a5898d4fbe8",
+        "sonic_models": {
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+        },
+        "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      },
+      "NGF000": {
+        "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+        "plan": "3d605f94b9d310fa07afe215d00a75d597a6a42d1bf0654b2a5d00e5dfc0931b",
+        "sonic_models": {
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+        },
+        "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      },
+      "B051": {
+        "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+        "plan": "33ccc955733d7297c3a490c95605018131f5a1527cd36d427320f178d901f673",
+        "sonic_models": {
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+        },
+        "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      }
+    },
+    "dt": 0.001,
+    "analysis_source_sha": "7d540ff96e1435c860fee12c25bae72a32e02352b31c0db927c323320a4689b5"
+  },
+  "limits": [
+    "20ms sampling cannot resolve frequencies above25Hz; detrended approach residual includes planned curvature",
+    "Original representative videos sample6.25fps (160ms); not enough to reliably depict oscillations above3.125Hz",
+    "Frequency associations are not causal proof; higher-rate matched experiments follow"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "actual_kinematic_inward_delta_m": [
+    0.000200158131747602,
+    0.0002000803846594151
+  ],
+  "joint_delta_rad": [
+    -5.0411366797842305e-05,
+    -0.0016735482440547456,
+    -0.0007792082940923234,
+    0.0,
+    0.0,
+    0.0015992403755702433,
+    0.0007981744097404486
+  ],
+  "observer_only_no_physics_step": true,
+  "grip_force_audit": {
+    "kind": "fixed captured finger shape + independent normal closure-force regulation via real collision contact anchors; position targets only",
+    "target_normal_force_per_digit_N": 1.2,
+    "compression_cap_m": 0.0025,
+    "joint_offset_cap_rad": 0.06,
+    "captured_command_rad": [
+      0.4074743625544541,
+      -0.302754663863982,
+      -0.09134935906523407,
+      1.2991865456505196,
+      1.6985709235279731,
+      1.3282405140273723,
+      0.10622857628279124
+    ],
+    "normal_frame": "captured collision normal transported with the physical finger link; does not chase cube world position",
+    "max_compression_m": [
+      0.00020037646733773957,
+      0.00020029877379046154
+    ],
+    "calls": 1,
+    "last": {
+      "filtered_normal_N": [
+        0.25883165565112093,
+        0.45306552384617355
+      ],
+      "closure_compression_m": [
+        0.00020037646733773957,
+        0.00020029877379046154
+      ],
+      "delta_joint_rad": [
+        -5.0411366797838585e-05,
+        -0.0016735482440547508,
+        -0.0007792082940923251,
+        0.0,
+        0.0,
+        0.0015992403755701826,
+        0.0007981744097404512
+      ]
+    },
+    "body_target_override": false,
+    "object_state_writes": false,
+    "external_force_injection": false
+  },
+  "stability_or_grasp_success_not_established": true
+}

@@ -1,0 +1,1136 @@
+{
+  "wave": "wave4",
+  "created": "2026-10-09T17:28:26.121465+08:00",
+  "rows": [
+    {
+      "id": "C_combo3",
+      "config": {
+        "id": "C_combo3",
+        "source_episode": "C000",
+        "tau": 0,
+        "damping": 3,
+        "servo_gain": 0.03,
+        "start": 42,
+        "source_hashes": {
+          "execute_jitter.py": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+          "jitter_control.py": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+          "run_wave.py": "673c0d517cb1102cbebb46871b22e48e79d30084e71b3432b85a163bca705604",
+          "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+          "lib/sonic_v11.py": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "frozen_source_reference_sha": "c3e1c47b60b0d37ca560217bd3cc82d61527ecd34881f035a0c69b0422ff26f2"
+      },
+      "success": true,
+      "reason": "complete",
+      "max_lift_mm": 114.49525231042368,
+      "local_slip_mm": 2.370143281349504,
+      "hold_safe_steps": 2500,
+      "hold_support_steps": 2500,
+      "max_joint_overrun_rad": 1.6614636192720612e-06,
+      "frozen_reference_arrays_identical": {
+        "body": true,
+        "hand": true,
+        "wrist": true
+      },
+      "pretreatment_prefix_identical": {
+        "time": true,
+        "qpos": true,
+        "qvel": true,
+        "ctrl": true,
+        "decoded_target": true,
+        "body_reference": true,
+        "hand_reference": true,
+        "cube_pos": true,
+        "wrist_pos": true
+      },
+      "pretreatment_max_abs_delta": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "ctrl": 0.0,
+        "decoded_target": 0.0,
+        "body_reference": 0.0,
+        "hand_reference": 0.0,
+        "cube_pos": 0.0,
+        "wrist_pos": 0.0
+      },
+      "whole_baseline_arrays_identical": null,
+      "geometry_identity": true,
+      "metrics": {
+        "LATE_APPROACH": {
+          "samples": 1600,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 2.7887505923134714,
+          "wrist_rootlocal_detrended_rms_mm": 2.457342714972376,
+          "root_detrended_rms_mm": 1.44046311952393,
+          "wrist_range_mm": [
+            10.527495373669288,
+            10.128781935028975,
+            35.49804278466506
+          ],
+          "cube_range_mm": [
+            2.8459623166548487,
+            2.45232924128283,
+            3.2781523376776978
+          ],
+          "decoded_arm_step_rms_deg": 0.24964132184283452,
+          "actuator_arm_step_rms_deg": 0.24964132184283452,
+          "reference_arm_step_rms_deg": 0.03508440923288143,
+          "servo_offset_step_rms_deg": 0.034115431841288534,
+          "thumb_load_min_N": 0.0,
+          "opposing_load_min_N": 0.0,
+          "arm_velocity_rms_rad_s": 0.10740122858608236,
+          "arm_detrended_angle_rms_deg": 1.2634817362113446,
+          "arm_dominant_1_90Hz": 1.0,
+          "arm_torque_step_rms_Nm": 0.2048947003086421,
+          "finger_velocity_rms_rad_s": 0.001854696085125832,
+          "finger_detrended_angle_rms_deg": 0.019500190144986867,
+          "finger_dominant_1_90Hz": 1.0,
+          "finger_torque_step_rms_Nm": 0.0008731262885032966
+        },
+        "CLOSE": {
+          "samples": 600,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 0.9434677543473223,
+          "wrist_rootlocal_detrended_rms_mm": 0.83283392354066,
+          "root_detrended_rms_mm": 0.761711675550114,
+          "wrist_range_mm": [
+            3.5443320603097686,
+            5.486242603081171,
+            5.058476373277054
+          ],
+          "cube_range_mm": [
+            3.639969142734678,
+            6.049891776413185,
+            5.876905190635218
+          ],
+          "decoded_arm_step_rms_deg": 0.2591079876563976,
+          "actuator_arm_step_rms_deg": 0.2591079876563976,
+          "reference_arm_step_rms_deg": 0.004740655328863585,
+          "servo_offset_step_rms_deg": 0.004740655328863585,
+          "thumb_load_min_N": 0.0,
+          "opposing_load_min_N": 1.0122081182677694,
+          "arm_velocity_rms_rad_s": 0.0657670789323059,
+          "arm_detrended_angle_rms_deg": 0.44577701848814094,
+          "arm_dominant_1_90Hz": 1.0,
+          "arm_torque_step_rms_Nm": 0.21473082911371114,
+          "finger_velocity_rms_rad_s": 0.12936482629032198,
+          "finger_detrended_angle_rms_deg": 0.8582529469975045,
+          "finger_dominant_1_90Hz": 1.0,
+          "finger_torque_step_rms_Nm": 0.004169845001175654
+        },
+        "LIFT": {
+          "samples": 900,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 5.765133889258712,
+          "wrist_rootlocal_detrended_rms_mm": 6.762347518556436,
+          "root_detrended_rms_mm": 1.6211804466641906,
+          "wrist_range_mm": [
+            15.316085821882124,
+            15.694660381725761,
+            108.50316266288407
+          ],
+          "cube_range_mm": [
+            20.525298578577654,
+            27.68066451059911,
+            108.99881836124004
+          ],
+          "decoded_arm_step_rms_deg": 0.25641496911911377,
+          "actuator_arm_step_rms_deg": 0.25641496911911377,
+          "reference_arm_step_rms_deg": 0.06809985638618317,
+          "servo_offset_step_rms_deg": 0.016812008482083893,
+          "thumb_load_min_N": 6.275427185004083,
+          "opposing_load_min_N": 6.245719124004035,
+          "arm_velocity_rms_rad_s": 0.14442234473458967,
+          "arm_detrended_angle_rms_deg": 1.8329083450489811,
+          "arm_dominant_1_90Hz": 1.1111111111111112,
+          "arm_torque_step_rms_Nm": 0.21898438567499418,
+          "finger_velocity_rms_rad_s": 0.003908970787446077,
+          "finger_detrended_angle_rms_deg": 0.04589822893223146,
+          "finger_dominant_1_90Hz": 1.1111111111111112,
+          "finger_torque_step_rms_Nm": 0.000872647131191549
+        },
+        "HOLD": {
+          "samples": 500,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 2.096982735626189,
+          "wrist_rootlocal_detrended_rms_mm": 2.769860218252326,
+          "root_detrended_rms_mm": 0.6661743877646383,
+          "wrist_range_mm": [
+            7.49649540444533,
+            6.185438593781956,
+            14.847731388962115
+          ],
+          "cube_range_mm": [
+            9.684560742984294,
+            15.23969301090536,
+            24.950462499346738
+          ],
+          "decoded_arm_step_rms_deg": 0.3013664390778306,
+          "actuator_arm_step_rms_deg": 0.3013664390778306,
+          "reference_arm_step_rms_deg": 0.04663914087667599,
+          "servo_offset_step_rms_deg": 0.007905379048674256,
+          "thumb_load_min_N": 7.950935758498882,
+          "opposing_load_min_N": 7.8313771423116245,
+          "arm_velocity_rms_rad_s": 0.1183628852169379,
+          "arm_detrended_angle_rms_deg": 0.7331721948532198,
+          "arm_dominant_1_90Hz": 1.2000000000000002,
+          "arm_torque_step_rms_Nm": 0.24255518629621103,
+          "finger_velocity_rms_rad_s": 0.001992552765265007,
+          "finger_detrended_angle_rms_deg": 0.020951055183601835,
+          "finger_dominant_1_90Hz": 1.2000000000000002,
+          "finger_torque_step_rms_Nm": 0.0006041818780254338
+        }
+      },
+      "source_result_sha": "52f47db3913b42c2a34c4f37e288c2e671c359876d692c868a400aa9011f6c6d",
+      "source_dense_sha": "f524be6374430e7a8d50cca5f165753860273479382e3a1f93b4a40de908e806",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+        },
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "sonic_models": {
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "plan": "b9e6aff501a5d119041d409d1ab59a8737c8d112957b4a78c15efaf7c66dbb27"
+        },
+        "source_sha": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "model_xml_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+        },
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "dt": 0.001,
+        "impratio": 10,
+        "margin_m": 0.001,
+        "solref": [
+          0.02,
+          1
+        ],
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_C000",
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "ardy_source": {
+          "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "source_fps": 25.0,
+          "native_frames": 100,
+          "native_clip_duration_s": 4.0,
+          "last_sample_time_s": 3.96,
+          "expected50Hz_frames": 199,
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+        },
+        "root_x_initial_m": 0.0,
+        "jitter_control_source_sha": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+        "jitter_configuration": {
+          "source_episode": "C000",
+          "change_start_s": 42.0,
+          "arm_target_tau_s": 0.0,
+          "arm_damping_scale": 3.0,
+          "servo_gain": 0.03,
+          "dense_sample_dt_s": 0.005,
+          "frozen_source_reference_sha": "c3e1c47b60b0d37ca560217bd3cc82d61527ecd34881f035a0c69b0422ff26f2"
+        }
+      }
+    },
+    {
+      "id": "D_combo3",
+      "config": {
+        "id": "D_combo3",
+        "source_episode": "D000",
+        "tau": 0,
+        "damping": 3,
+        "servo_gain": 0.03,
+        "start": 42,
+        "source_hashes": {
+          "execute_jitter.py": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+          "jitter_control.py": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+          "run_wave.py": "673c0d517cb1102cbebb46871b22e48e79d30084e71b3432b85a163bca705604",
+          "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+          "lib/sonic_v11.py": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "frozen_source_reference_sha": "3189c2228cf5b6cc5235549a2f3788e6210b88ed90c717142e0d2160e52b510e"
+      },
+      "success": true,
+      "reason": "complete",
+      "max_lift_mm": 110.14361257125005,
+      "local_slip_mm": 2.823298642194415,
+      "hold_safe_steps": 2500,
+      "hold_support_steps": 2500,
+      "max_joint_overrun_rad": 1.6614636192720697e-06,
+      "frozen_reference_arrays_identical": {
+        "body": true,
+        "hand": true,
+        "wrist": true
+      },
+      "pretreatment_prefix_identical": {
+        "time": true,
+        "qpos": true,
+        "qvel": true,
+        "ctrl": true,
+        "decoded_target": true,
+        "body_reference": true,
+        "hand_reference": true,
+        "cube_pos": true,
+        "wrist_pos": true
+      },
+      "pretreatment_max_abs_delta": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "ctrl": 0.0,
+        "decoded_target": 0.0,
+        "body_reference": 0.0,
+        "hand_reference": 0.0,
+        "cube_pos": 0.0,
+        "wrist_pos": 0.0
+      },
+      "whole_baseline_arrays_identical": null,
+      "geometry_identity": true,
+      "metrics": {
+        "LATE_APPROACH": {
+          "samples": 1600,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 3.7972200338442565,
+          "wrist_rootlocal_detrended_rms_mm": 3.8717123419468993,
+          "root_detrended_rms_mm": 1.901806476737816,
+          "wrist_range_mm": [
+            8.279107453024071,
+            14.19584365306506,
+            44.39793182727303
+          ],
+          "cube_range_mm": [
+            1.9089590820377533,
+            1.7308004400229393,
+            1.6018592773717755
+          ],
+          "decoded_arm_step_rms_deg": 0.2503885788078015,
+          "actuator_arm_step_rms_deg": 0.2503885788078015,
+          "reference_arm_step_rms_deg": 0.036756412070400854,
+          "servo_offset_step_rms_deg": 0.0358175211449913,
+          "thumb_load_min_N": 0.0,
+          "opposing_load_min_N": 0.0,
+          "arm_velocity_rms_rad_s": 0.10843044490858186,
+          "arm_detrended_angle_rms_deg": 1.5779931629120334,
+          "arm_dominant_1_90Hz": 1.0,
+          "arm_torque_step_rms_Nm": 0.20587774958481025,
+          "finger_velocity_rms_rad_s": 0.001752450573839291,
+          "finger_detrended_angle_rms_deg": 0.01955403775537095,
+          "finger_dominant_1_90Hz": 1.0,
+          "finger_torque_step_rms_Nm": 0.0009053304781208052
+        },
+        "CLOSE": {
+          "samples": 600,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 0.6652280874269496,
+          "wrist_rootlocal_detrended_rms_mm": 0.7400458350725823,
+          "root_detrended_rms_mm": 0.7124318976316869,
+          "wrist_range_mm": [
+            2.8498356412957615,
+            3.2464463687575105,
+            3.234066530320767
+          ],
+          "cube_range_mm": [
+            1.8891803423479736,
+            1.9666156682663638,
+            2.307391726010577
+          ],
+          "decoded_arm_step_rms_deg": 0.24027884810185793,
+          "actuator_arm_step_rms_deg": 0.24027884810185793,
+          "reference_arm_step_rms_deg": 0.005634996939432886,
+          "servo_offset_step_rms_deg": 0.005634996939432889,
+          "thumb_load_min_N": 0.0,
+          "opposing_load_min_N": 1.9940878272341171,
+          "arm_velocity_rms_rad_s": 0.05355490378014579,
+          "arm_detrended_angle_rms_deg": 0.35050124932472787,
+          "arm_dominant_1_90Hz": 1.0,
+          "arm_torque_step_rms_Nm": 0.1948194806503175,
+          "finger_velocity_rms_rad_s": 0.12818338826893436,
+          "finger_detrended_angle_rms_deg": 0.8411363570300899,
+          "finger_dominant_1_90Hz": 1.0,
+          "finger_torque_step_rms_Nm": 0.003914884603935381
+        },
+        "LIFT": {
+          "samples": 900,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 5.577500152750209,
+          "wrist_rootlocal_detrended_rms_mm": 6.948963275817712,
+          "root_detrended_rms_mm": 3.030496835499619,
+          "wrist_range_mm": [
+            13.468541139901562,
+            22.979521623499284,
+            102.48746861059466
+          ],
+          "cube_range_mm": [
+            21.523611001620257,
+            39.23632237510416,
+            100.45947424375379
+          ],
+          "decoded_arm_step_rms_deg": 0.2647739037366508,
+          "actuator_arm_step_rms_deg": 0.2647739037366508,
+          "reference_arm_step_rms_deg": 0.0839220490493591,
+          "servo_offset_step_rms_deg": 0.019439191763244764,
+          "thumb_load_min_N": 5.485104921195537,
+          "opposing_load_min_N": 6.117247468961612,
+          "arm_velocity_rms_rad_s": 0.14795518305815994,
+          "arm_detrended_angle_rms_deg": 2.413961216827458,
+          "arm_dominant_1_90Hz": 1.1111111111111112,
+          "arm_torque_step_rms_Nm": 0.2269800334659764,
+          "finger_velocity_rms_rad_s": 0.005244587217905384,
+          "finger_detrended_angle_rms_deg": 0.03388659498661812,
+          "finger_dominant_1_90Hz": 1.1111111111111112,
+          "finger_torque_step_rms_Nm": 0.002151300546187299
+        },
+        "HOLD": {
+          "samples": 500,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 1.60975102894082,
+          "wrist_rootlocal_detrended_rms_mm": 2.490139234226157,
+          "root_detrended_rms_mm": 1.0982627791392643,
+          "wrist_range_mm": [
+            7.561849542744886,
+            6.567872989570844,
+            7.71976896956772
+          ],
+          "cube_range_mm": [
+            10.131394378972091,
+            20.742330400761734,
+            14.23824429471987
+          ],
+          "decoded_arm_step_rms_deg": 0.23858132466637316,
+          "actuator_arm_step_rms_deg": 0.23858132466637316,
+          "reference_arm_step_rms_deg": 0.041610758450910855,
+          "servo_offset_step_rms_deg": 0.011037953677061207,
+          "thumb_load_min_N": 7.050340225766807,
+          "opposing_load_min_N": 6.817252766356976,
+          "arm_velocity_rms_rad_s": 0.09198752538438484,
+          "arm_detrended_angle_rms_deg": 0.7298494149771683,
+          "arm_dominant_1_90Hz": 1.2000000000000002,
+          "arm_torque_step_rms_Nm": 0.19414862505233912,
+          "finger_velocity_rms_rad_s": 0.001998583061992608,
+          "finger_detrended_angle_rms_deg": 0.027276887656201496,
+          "finger_dominant_1_90Hz": 1.2000000000000002,
+          "finger_torque_step_rms_Nm": 0.0007704317441733429
+        }
+      },
+      "source_result_sha": "02f32c44baeae46792135a140d76b655cf16f1509d7c9042f249f8b836b63f27",
+      "source_dense_sha": "5a402371bfc04497a191768c0f6947d2275954ed8735c64c96dbc532a8ff6349",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+        },
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "sonic_models": {
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "plan": "f384b275168e23faf93d5c576fc739bb2181be20aec713efd97f7f08335c9170"
+        },
+        "source_sha": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "model_xml_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+        },
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "dt": 0.001,
+        "impratio": 10,
+        "margin_m": 0.001,
+        "solref": [
+          0.02,
+          1
+        ],
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_D000",
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "ardy_source": {
+          "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "source_fps": 25.0,
+          "native_frames": 100,
+          "native_clip_duration_s": 4.0,
+          "last_sample_time_s": 3.96,
+          "expected50Hz_frames": 199,
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+        },
+        "root_x_initial_m": -0.02,
+        "jitter_control_source_sha": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+        "jitter_configuration": {
+          "source_episode": "D000",
+          "change_start_s": 42.0,
+          "arm_target_tau_s": 0.0,
+          "arm_damping_scale": 3.0,
+          "servo_gain": 0.03,
+          "dense_sample_dt_s": 0.005,
+          "frozen_source_reference_sha": "3189c2228cf5b6cc5235549a2f3788e6210b88ed90c717142e0d2160e52b510e"
+        }
+      }
+    },
+    {
+      "id": "A_early_combo3",
+      "config": {
+        "id": "A_early_combo3",
+        "source_episode": "A000",
+        "tau": 0,
+        "damping": 3,
+        "servo_gain": 0.03,
+        "start": 34,
+        "source_hashes": {
+          "execute_jitter.py": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+          "jitter_control.py": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+          "run_wave.py": "673c0d517cb1102cbebb46871b22e48e79d30084e71b3432b85a163bca705604",
+          "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+          "lib/sonic_v11.py": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "frozen_source_reference_sha": "4fc58b8515a274d570d6bc5e42e00edaa4a01f16ddf19b2b97db0cc3753ec130"
+      },
+      "success": true,
+      "reason": "complete",
+      "max_lift_mm": 103.36303637585809,
+      "local_slip_mm": 2.232015343298515,
+      "hold_safe_steps": 2500,
+      "hold_support_steps": 2500,
+      "max_joint_overrun_rad": 1.6614636192720525e-06,
+      "frozen_reference_arrays_identical": {
+        "body": true,
+        "hand": true,
+        "wrist": true
+      },
+      "pretreatment_prefix_identical": {
+        "time": true,
+        "qpos": true,
+        "qvel": true,
+        "ctrl": true,
+        "decoded_target": true,
+        "body_reference": true,
+        "hand_reference": true,
+        "cube_pos": true,
+        "wrist_pos": true
+      },
+      "pretreatment_max_abs_delta": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "ctrl": 0.0,
+        "decoded_target": 0.0,
+        "body_reference": 0.0,
+        "hand_reference": 0.0,
+        "cube_pos": 0.0,
+        "wrist_pos": 0.0
+      },
+      "whole_baseline_arrays_identical": null,
+      "geometry_identity": true,
+      "metrics": {
+        "LATE_APPROACH": {
+          "samples": 1600,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 4.329580307267607,
+          "wrist_rootlocal_detrended_rms_mm": 4.293702759592108,
+          "root_detrended_rms_mm": 1.6584666365175122,
+          "wrist_range_mm": [
+            13.458160158474453,
+            10.449514481824101,
+            45.43319958200242
+          ],
+          "cube_range_mm": [
+            0.08084841996075509,
+            0.07582881057141555,
+            0.11263053728305383
+          ],
+          "decoded_arm_step_rms_deg": 0.2714833632594331,
+          "actuator_arm_step_rms_deg": 0.2714833632594331,
+          "reference_arm_step_rms_deg": 0.019112437633394982,
+          "servo_offset_step_rms_deg": 0.01775750146548618,
+          "thumb_load_min_N": 0.0,
+          "opposing_load_min_N": 0.0,
+          "arm_velocity_rms_rad_s": 0.08369501626577283,
+          "arm_detrended_angle_rms_deg": 1.9874489209726813,
+          "arm_dominant_1_90Hz": 1.0,
+          "arm_torque_step_rms_Nm": 0.21927742471741907,
+          "finger_velocity_rms_rad_s": 0.00023544331550402972,
+          "finger_detrended_angle_rms_deg": 0.0005951846242629696,
+          "finger_dominant_1_90Hz": 3.875,
+          "finger_torque_step_rms_Nm": 0.00012273562354931132
+        },
+        "CLOSE": {
+          "samples": 600,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 0.9283273413968477,
+          "wrist_rootlocal_detrended_rms_mm": 0.871456309575983,
+          "root_detrended_rms_mm": 0.5388363258133819,
+          "wrist_range_mm": [
+            4.1052263214304,
+            4.591045436725088,
+            4.507726136880552
+          ],
+          "cube_range_mm": [
+            2.112529965182852,
+            2.7862175202977015,
+            1.0043392105185678
+          ],
+          "decoded_arm_step_rms_deg": 0.2647247718771508,
+          "actuator_arm_step_rms_deg": 0.2647247718771508,
+          "reference_arm_step_rms_deg": 0.004230417645314982,
+          "servo_offset_step_rms_deg": 0.004230417645314977,
+          "thumb_load_min_N": 0.0,
+          "opposing_load_min_N": 0.0,
+          "arm_velocity_rms_rad_s": 0.06730297818227073,
+          "arm_detrended_angle_rms_deg": 0.23471647769510193,
+          "arm_dominant_1_90Hz": 1.0,
+          "arm_torque_step_rms_Nm": 0.22049524030569023,
+          "finger_velocity_rms_rad_s": 0.07915656262530334,
+          "finger_detrended_angle_rms_deg": 0.5120627192759479,
+          "finger_dominant_1_90Hz": 1.0,
+          "finger_torque_step_rms_Nm": 0.002013054610667047
+        },
+        "LIFT": {
+          "samples": 900,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 6.533198132839625,
+          "wrist_rootlocal_detrended_rms_mm": 11.275146086886647,
+          "root_detrended_rms_mm": 4.932124228925606,
+          "wrist_range_mm": [
+            18.198682688453538,
+            32.64127215015336,
+            102.57986602455127
+          ],
+          "cube_range_mm": [
+            25.029557902746802,
+            44.51090235926383,
+            98.23072748294793
+          ],
+          "decoded_arm_step_rms_deg": 0.30949430018598595,
+          "actuator_arm_step_rms_deg": 0.30949430018598595,
+          "reference_arm_step_rms_deg": 0.10135629297157236,
+          "servo_offset_step_rms_deg": 0.022721235031072772,
+          "thumb_load_min_N": 2.1123642997491907,
+          "opposing_load_min_N": 4.18156315079865,
+          "arm_velocity_rms_rad_s": 0.19473586480072183,
+          "arm_detrended_angle_rms_deg": 3.070822507115686,
+          "arm_dominant_1_90Hz": 1.3333333333333333,
+          "arm_torque_step_rms_Nm": 0.2678346696905769,
+          "finger_velocity_rms_rad_s": 0.005855158600299172,
+          "finger_detrended_angle_rms_deg": 0.06294742705247526,
+          "finger_dominant_1_90Hz": 1.1111111111111112,
+          "finger_torque_step_rms_Nm": 0.002175378916817064
+        },
+        "HOLD": {
+          "samples": 500,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 0.9878962850790296,
+          "wrist_rootlocal_detrended_rms_mm": 1.3125128606532357,
+          "root_detrended_rms_mm": 0.5788662635543279,
+          "wrist_range_mm": [
+            5.164754364468366,
+            4.4786077404852795,
+            5.0722122474858855
+          ],
+          "cube_range_mm": [
+            12.149997567314664,
+            6.07278483005802,
+            12.398967860931087
+          ],
+          "decoded_arm_step_rms_deg": 0.2944077345010315,
+          "actuator_arm_step_rms_deg": 0.2944077345010315,
+          "reference_arm_step_rms_deg": 0.03887297294208616,
+          "servo_offset_step_rms_deg": 0.008333218457029359,
+          "thumb_load_min_N": 4.86541063611017,
+          "opposing_load_min_N": 4.6898135429903105,
+          "arm_velocity_rms_rad_s": 0.09561127261593498,
+          "arm_detrended_angle_rms_deg": 0.6562843715357863,
+          "arm_dominant_1_90Hz": 1.2000000000000002,
+          "arm_torque_step_rms_Nm": 0.24552479185074672,
+          "finger_velocity_rms_rad_s": 0.0004143687115648088,
+          "finger_detrended_angle_rms_deg": 0.0010615589615664309,
+          "finger_dominant_1_90Hz": 4.0,
+          "finger_torque_step_rms_Nm": 0.00018891461260379743
+        }
+      },
+      "source_result_sha": "3a88bdcc508bce78a8d0554f0769d4999a2dd21f581c0b9ced559e06cc3c2a6e",
+      "source_dense_sha": "fbb20ad4d3f929efc074375cd54c2b6e0165f0d88b49088f86cd0491e2efc54e",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+          "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+        },
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "sonic_models": {
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "plan": "c186ec44b505f1588d4401f621bb8a2567cea66380c6d9bf5178c5eacacf8183"
+        },
+        "source_sha": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "model_xml_sha": {
+          "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+          "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+        },
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "dt": 0.001,
+        "impratio": 10,
+        "margin_m": 0.001,
+        "solref": [
+          0.02,
+          1
+        ],
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_A000",
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "ardy_source": {
+          "source_npz": "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "source_fps": 25.0,
+          "native_frames": 100,
+          "native_clip_duration_s": 4.0,
+          "last_sample_time_s": 3.96,
+          "expected50Hz_frames": 199,
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+        },
+        "root_x_initial_m": 0.0,
+        "jitter_control_source_sha": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+        "jitter_configuration": {
+          "source_episode": "A000",
+          "change_start_s": 34.0,
+          "arm_target_tau_s": 0.0,
+          "arm_damping_scale": 3.0,
+          "servo_gain": 0.03,
+          "dense_sample_dt_s": 0.005,
+          "frozen_source_reference_sha": "4fc58b8515a274d570d6bc5e42e00edaa4a01f16ddf19b2b97db0cc3753ec130"
+        }
+      }
+    },
+    {
+      "id": "A_early_damp3",
+      "config": {
+        "id": "A_early_damp3",
+        "source_episode": "A000",
+        "tau": 0,
+        "damping": 3,
+        "servo_gain": 0.1,
+        "start": 34,
+        "source_hashes": {
+          "execute_jitter.py": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+          "jitter_control.py": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+          "run_wave.py": "673c0d517cb1102cbebb46871b22e48e79d30084e71b3432b85a163bca705604",
+          "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+          "lib/sonic_v11.py": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+        },
+        "frozen_source_reference_sha": "4fc58b8515a274d570d6bc5e42e00edaa4a01f16ddf19b2b97db0cc3753ec130"
+      },
+      "success": true,
+      "reason": "complete",
+      "max_lift_mm": 105.23712580496559,
+      "local_slip_mm": 2.293059471988325,
+      "hold_safe_steps": 2500,
+      "hold_support_steps": 2500,
+      "max_joint_overrun_rad": 1.6614636192720525e-06,
+      "frozen_reference_arrays_identical": {
+        "body": true,
+        "hand": true,
+        "wrist": true
+      },
+      "pretreatment_prefix_identical": {
+        "time": true,
+        "qpos": true,
+        "qvel": true,
+        "ctrl": true,
+        "decoded_target": true,
+        "body_reference": true,
+        "hand_reference": true,
+        "cube_pos": true,
+        "wrist_pos": true
+      },
+      "pretreatment_max_abs_delta": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "ctrl": 0.0,
+        "decoded_target": 0.0,
+        "body_reference": 0.0,
+        "hand_reference": 0.0,
+        "cube_pos": 0.0,
+        "wrist_pos": 0.0
+      },
+      "whole_baseline_arrays_identical": null,
+      "geometry_identity": true,
+      "metrics": {
+        "LATE_APPROACH": {
+          "samples": 1600,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 3.4255288031071807,
+          "wrist_rootlocal_detrended_rms_mm": 3.5370811052540168,
+          "root_detrended_rms_mm": 1.3988979372548336,
+          "wrist_range_mm": [
+            7.845440932412795,
+            10.616170067641928,
+            44.773018901428486
+          ],
+          "cube_range_mm": [
+            0.2802102127815176,
+            0.5668787642584272,
+            0.3652377428297049
+          ],
+          "decoded_arm_step_rms_deg": 0.35561099491643294,
+          "actuator_arm_step_rms_deg": 0.35561099491643294,
+          "reference_arm_step_rms_deg": 0.03569301699589913,
+          "servo_offset_step_rms_deg": 0.03498621225962988,
+          "thumb_load_min_N": 0.0,
+          "opposing_load_min_N": 0.0,
+          "arm_velocity_rms_rad_s": 0.10737459014448775,
+          "arm_detrended_angle_rms_deg": 1.6359516349081455,
+          "arm_dominant_1_90Hz": 1.0,
+          "arm_torque_step_rms_Nm": 0.28934909584654506,
+          "finger_velocity_rms_rad_s": 0.00032478356178665407,
+          "finger_detrended_angle_rms_deg": 0.00126775116046715,
+          "finger_dominant_1_90Hz": 1.0,
+          "finger_torque_step_rms_Nm": 0.00019794284598145714
+        },
+        "CLOSE": {
+          "samples": 600,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 1.140154892891029,
+          "wrist_rootlocal_detrended_rms_mm": 1.2967038519485983,
+          "root_detrended_rms_mm": 0.6576702653432417,
+          "wrist_range_mm": [
+            6.351273079737846,
+            4.520804680320733,
+            6.665551317573182
+          ],
+          "cube_range_mm": [
+            1.9544864181212929,
+            4.558368836811849,
+            1.6142116258317518
+          ],
+          "decoded_arm_step_rms_deg": 0.3481459524196039,
+          "actuator_arm_step_rms_deg": 0.3481459524196039,
+          "reference_arm_step_rms_deg": 0.013081917301527454,
+          "servo_offset_step_rms_deg": 0.013081917301527446,
+          "thumb_load_min_N": 0.0,
+          "opposing_load_min_N": 0.0,
+          "arm_velocity_rms_rad_s": 0.08641946668665422,
+          "arm_detrended_angle_rms_deg": 0.28044506333458996,
+          "arm_dominant_1_90Hz": 1.0,
+          "arm_torque_step_rms_Nm": 0.2861406686809135,
+          "finger_velocity_rms_rad_s": 0.07908856253321284,
+          "finger_detrended_angle_rms_deg": 0.5148757605955443,
+          "finger_dominant_1_90Hz": 1.0,
+          "finger_torque_step_rms_Nm": 0.0021915889836197425
+        },
+        "LIFT": {
+          "samples": 900,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 6.147252830590715,
+          "wrist_rootlocal_detrended_rms_mm": 6.7936375263833435,
+          "root_detrended_rms_mm": 1.4759432262673564,
+          "wrist_range_mm": [
+            10.011484760042267,
+            24.62706771268258,
+            102.82519954889824
+          ],
+          "cube_range_mm": [
+            17.556326593012262,
+            32.66680079474538,
+            100.275149049179
+          ],
+          "decoded_arm_step_rms_deg": 0.3522420911282765,
+          "actuator_arm_step_rms_deg": 0.3522420911282765,
+          "reference_arm_step_rms_deg": 0.08140238653829905,
+          "servo_offset_step_rms_deg": 0.042179936438063996,
+          "thumb_load_min_N": 4.069669049948983,
+          "opposing_load_min_N": 3.4120694535489138,
+          "arm_velocity_rms_rad_s": 0.17374435048475373,
+          "arm_detrended_angle_rms_deg": 2.373349897171097,
+          "arm_dominant_1_90Hz": 1.1111111111111112,
+          "arm_torque_step_rms_Nm": 0.2980606750795111,
+          "finger_velocity_rms_rad_s": 0.0031050512073849007,
+          "finger_detrended_angle_rms_deg": 0.03221269212111433,
+          "finger_dominant_1_90Hz": 1.1111111111111112,
+          "finger_torque_step_rms_Nm": 0.0017044390850659646
+        },
+        "HOLD": {
+          "samples": 500,
+          "sample_dt_s": 0.005000000000002558,
+          "wrist_detrended_rms_mm": 1.5503088821639979,
+          "wrist_rootlocal_detrended_rms_mm": 1.9367914696830641,
+          "root_detrended_rms_mm": 0.8316357868534736,
+          "wrist_range_mm": [
+            6.5151594737982705,
+            5.238733243200288,
+            8.30515319302405
+          ],
+          "cube_range_mm": [
+            13.52007760076951,
+            9.030898070209126,
+            13.01764662358995
+          ],
+          "decoded_arm_step_rms_deg": 0.3274829454368291,
+          "actuator_arm_step_rms_deg": 0.3274829454368291,
+          "reference_arm_step_rms_deg": 0.05228270549014747,
+          "servo_offset_step_rms_deg": 0.02199089217587142,
+          "thumb_load_min_N": 4.022866137927455,
+          "opposing_load_min_N": 3.8871451036701323,
+          "arm_velocity_rms_rad_s": 0.1149456853496258,
+          "arm_detrended_angle_rms_deg": 0.6750299112425262,
+          "arm_dominant_1_90Hz": 1.2000000000000002,
+          "arm_torque_step_rms_Nm": 0.27429392001718406,
+          "finger_velocity_rms_rad_s": 0.0007607106929036476,
+          "finger_detrended_angle_rms_deg": 0.00529277140171033,
+          "finger_dominant_1_90Hz": 3.6,
+          "finger_torque_step_rms_Nm": 0.0007697743576752178
+        }
+      },
+      "source_result_sha": "493921d6aa9576c09e93fb1de32b606a0c775e45aec22bee1f87f226ed7a6ee4",
+      "source_dense_sha": "afd7a82f81054890d1f365577630974b2e2c0c32f06307569d748425169b97d3",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+          "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+        },
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "sonic_models": {
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "plan": "c186ec44b505f1588d4401f621bb8a2567cea66380c6d9bf5178c5eacacf8183"
+        },
+        "source_sha": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "model_xml_sha": {
+          "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+          "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+        },
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "dt": 0.001,
+        "impratio": 10,
+        "margin_m": 0.001,
+        "solref": [
+          0.02,
+          1
+        ],
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_A000",
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "ardy_source": {
+          "source_npz": "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "source_fps": 25.0,
+          "native_frames": 100,
+          "native_clip_duration_s": 4.0,
+          "last_sample_time_s": 3.96,
+          "expected50Hz_frames": 199,
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+        },
+        "root_x_initial_m": 0.0,
+        "jitter_control_source_sha": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+        "jitter_configuration": {
+          "source_episode": "A000",
+          "change_start_s": 34.0,
+          "arm_target_tau_s": 0.0,
+          "arm_damping_scale": 3.0,
+          "servo_gain": 0.1,
+          "dense_sample_dt_s": 0.005,
+          "frozen_source_reference_sha": "4fc58b8515a274d570d6bc5e42e00edaa4a01f16ddf19b2b97db0cc3753ec130"
+        }
+      }
+    }
+  ],
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "C_combo3": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+      },
+      "D_combo3": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+      },
+      "A_early_combo3": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "A_early_damp3": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      }
+    },
+    "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+    "library_sha": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+    "dt": 0.001,
+    "metric_sample_dt_s": 0.005,
+    "analysis_source_sha": "5e537a186f4db7db850af429b7f3610343322478e8485756712d7e974d6b0f61"
+  },
+  "metric_convention": "position RMS is mean across sampled time and3 coordinate components after linear detrending; not vector-norm RMS or proof of sole causality",
+  "scope": "MuJoCo3.2.7 current parameter family; contact monitoring does not establish hardware stability"
+}

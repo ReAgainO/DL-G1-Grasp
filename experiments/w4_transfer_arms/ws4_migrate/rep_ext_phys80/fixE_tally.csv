@@ -1,0 +1,3 @@
+name,success,fail,lift_mm,slip_mm,red_n,red
+d80_00_00__phys,False,alignment timeout,-1000.0,1000000000000.0,11,clearance_4cm|completed|feet_supported_in_hold|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+d80_00_01__phys,False,,0.9,35.4,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers

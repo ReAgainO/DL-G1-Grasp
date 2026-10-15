@@ -1,0 +1,19 @@
+{
+  "id": "D007",
+  "group": "D",
+  "xy_m": [
+    0.34103310441490975,
+    -0.1835782943606824
+  ],
+  "edge_m": 0.08937395911811179,
+  "mass_kg": 0.12,
+  "root_x_m": -0.02,
+  "sampling_seed": 20261010,
+  "source_baseline_trial": "C007",
+  "no_grip": false,
+  "wrist_servo": true,
+  "gravity_arm_scale": 1.0,
+  "native_mesh": true,
+  "time_scale": 2.0,
+  "retract_raise": true
+}

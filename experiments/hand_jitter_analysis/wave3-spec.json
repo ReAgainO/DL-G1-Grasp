@@ -1,0 +1,6 @@
+[
+  {"id":"B_base","source_episode":"B000","tau":0,"damping":2,"servo_gain":0.10,"start":42},
+  {"id":"C_base","source_episode":"C000","tau":0,"damping":2,"servo_gain":0.10,"start":42},
+  {"id":"D_base","source_episode":"D000","tau":0,"damping":2,"servo_gain":0.10,"start":42},
+  {"id":"B_combo3","source_episode":"B000","tau":0,"damping":3,"servo_gain":0.03,"start":42}
+]

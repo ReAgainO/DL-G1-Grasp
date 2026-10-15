@@ -1,0 +1,19 @@
+name=d80_00_00__phys
+utc_start=2026-10-08T22:10:39Z
+host=worker00039 uid=1004
+runner_sha256=764c2a008238e805b856595c5ae593a3b67483d242443028310963aa0504a48c
+sonic_grasp_sha256=75a1a3b858a91f7543cee58e0f572566feb5f50979794d8baf1482b09ab678d3
+native_branch_sha256=64090ff6d47802755a23b99fe11ae27b4ce130dfc899c5d953d081c51b9164e8
+adaptive_hand_sha256=6469c36883275ffabf673c36931fe7915aa9c8d252616e7ad58b25ccc91b4927
+grasp_geometry_sha256=88ce7c21d2cbea46b526c9273154f858562e2d1c80976ce967cec7ad7874595f
+motion_stem=near_s42
+motion_npz_sha256=78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff
+cpus=98,97 nice=19 ulimit_v_KiB=16777216
+sonic_grasp_args=d80_00_00__phys --cube-edge-mm=80 --cube-x=0.285000 --cube-y=-0.115000 --substep 4 --contact-margin 0.001 --solref 0.02 1 --impratio 10
+w4c_phys_args=--substep 4 --contact-margin 0.001 --solref 0.02 1 --impratio 10
+pressure_cpu: some avg10=3.19 avg60=3.84 avg300=5.24 total=4882445070 full avg10=0.00 avg60=0.00 avg300=0.00 total=0 
+df_data_avail_kb=11086712288
+
+utc_end=2026-10-08T22:13:26Z
+rc=0 wall_s=167
+result_json=/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/rep_ext_phys80/rep/out/d80_00_00__phys/result.json

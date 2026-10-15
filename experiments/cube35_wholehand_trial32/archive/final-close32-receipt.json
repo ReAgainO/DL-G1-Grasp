@@ -1,0 +1,10 @@
+{
+  "last_shared_commit": "e72af34edfe46caffdfbc9bd14aa9f4bd620c906",
+  "source_commit": "02da0da20e80a5cb98e7c3bf59bb32d7fb855643",
+  "journal_cutoff": 2787,
+  "done_line": 2785,
+  "own_view_done": true,
+  "other_staged_blobs_unchanged": true,
+  "report_archive": "local-only explicitly chosen; no report documents uploaded",
+  "metadata_correction": "journal objects do not contain seq; use proven physical journal row number, no duplicate closure/commit/event"
+}

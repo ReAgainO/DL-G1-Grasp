@@ -1,0 +1,19 @@
+{
+  "physical_steps": 0,
+  "passed": true,
+  "checks": [
+    "first_launch_branch",
+    "duplicate_name_rejected",
+    "wrong_wave_prefix_rejected",
+    "path_escape_rejected",
+    "wrong_source_rejected",
+    "existing_output_rejected",
+    "storage_budget_rejected",
+    "twenty_first_launch_rejected",
+    "rejections_never_consume_launch_slots",
+    "fixture_stays_in_owned_test_directory"
+  ],
+  "sandbox": "/data/group4/20261006-093203-codex-6385a841/out/trial-reservation-tests/20261006-093203-codex-6385a841",
+  "production_wave_counts_touched": false,
+  "source_sha": "00a24fbc31a3a1378a0e50ad757063156292c45ea19b5541721f2cf451605d66"
+}

@@ -1,0 +1,11 @@
+frame t=34.00
+frame t=36.00
+frame t=38.00
+frame t=40.00
+frame t=42.00
+frame t=44.00
+frame t=46.00
+frame t=48.00
+frame t=50.00
+frame t=52.00
+{"id": "C_base", "success": true, "frames": 475, "fps": 25, "duration_s": 19.0, "video_sha": "c8149540cef68fe7fa45072685848582bf35e95ce38835b99b1a7b919463a842", "decode_verified": true}

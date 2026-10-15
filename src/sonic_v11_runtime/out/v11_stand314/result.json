@@ -1,0 +1,130 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.14.0",
+    "sys_executable": "/home/group4/group4_dasc7606c/envs/render/bin/python",
+    "python_version": "3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]",
+    "model_sha": {
+      "scene": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+      "robot": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e"
+    },
+    "scene_generator_sha": "83b338a7a1af64ca8556af7ed42bf50dc762eb197ea846605b537f25788f1d9b",
+    "library_sha": {
+      "sonic_v11": "7d3f63cb866499ee82ccfcca4251d95df6eb95f479937dfcd3a4f6b93c589bed",
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    },
+    "dt": 0.002
+  },
+  "success": true,
+  "kind": "SONIC free-base integration/identification probe; NOT a grasp and NOT ARDY",
+  "dynamic": false,
+  "reference_off": false,
+  "fail_reason": null,
+  "duration_s": 5.999999999999561,
+  "min_base_z_m": 0.7356732520534591,
+  "min_up_z": 0.99969989831802,
+  "max_drift_m": 0.019110196544515665,
+  "body_tracking_rms_rad": 0.05096070517603685,
+  "right_arm_tracking_rms_rad": 0.02666221441064441,
+  "max_target_from_default_rad": 0.2870466594279342,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "wall_s": 5.0548181280028075,
+  "sonic": {
+    "ort_version": "1.23.2",
+    "models": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    },
+    "encoder_slots": [
+      {
+        "name": "encoder_mode_4",
+        "width": 4
+      },
+      {
+        "name": "motion_joint_positions_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_joint_velocities_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_anchor_orientation_heading_10frame_step5",
+        "width": 60
+      },
+      {
+        "name": "motion_anchor_orientation_heading",
+        "width": 6
+      },
+      {
+        "name": "motion_joint_positions_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "motion_joint_velocities_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "vr_3point_local_target",
+        "width": 9
+      },
+      {
+        "name": "vr_3point_local_orn_target",
+        "width": 12
+      },
+      {
+        "name": "smpl_joints_10frame_step1",
+        "width": 720
+      },
+      {
+        "name": "smpl_anchor_orientation_heading_10frame_step1",
+        "width": 60
+      },
+      {
+        "name": "motion_joint_positions_wrists_10frame_step1",
+        "width": 60
+      }
+    ],
+    "decoder_slots": [
+      {
+        "name": "token_state",
+        "width": 64
+      },
+      {
+        "name": "his_base_angular_velocity_10frame_step1",
+        "width": 30
+      },
+      {
+        "name": "his_body_joint_positions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_body_joint_velocities_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_last_actions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_gravity_dir_10frame_step1",
+        "width": 30
+      }
+    ],
+    "policy_calls": 300,
+    "unique_encoder_inputs": 300,
+    "unique_actions": 300,
+    "body_action_source": "official SONIC v1.1 ONNX; zero arm target overrides",
+    "mode_id": 0
+  }
+}

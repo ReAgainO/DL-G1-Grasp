@@ -1,0 +1,30 @@
+{
+ "source": "/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/rep_ext_env/rep/out/a35_00_06__env",
+ "success": false,
+ "gates_red": [
+  "completed",
+  "hold_7cm",
+  "two_fingers",
+  "no_support",
+  "clearance_4cm",
+  "slip_1cm",
+  "release_drop_6cm",
+  "no_table_rest_in_hold",
+  "no_nonfoot_floor_support_in_hold",
+  "feet_supported_in_hold",
+  "fingertip_only_robot_contacts_in_hold",
+  "final_table_supported",
+  "no_robot_table_contact_full_task"
+ ],
+ "lift_mm": -1000.0,
+ "slip_mm": 1000000000000.0,
+ "frames": 1253,
+ "stride": 4,
+ "fps": 6.25,
+ "panels": [
+  "full",
+  "hand"
+ ],
+ "physics_recipe_w4c": null,
+ "note": "Recorded MuJoCo state replay for this task only; no dynamics re-integration, no claim change."
+}

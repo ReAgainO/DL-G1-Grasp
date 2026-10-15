@@ -1,0 +1,17 @@
+{
+  "id": "B080_pose06",
+  "source_episode": "B080",
+  "tau": 0,
+  "damping": 3,
+  "servo_gain": 0.03,
+  "rotation_gain": 0.06,
+  "start": 42,
+  "source_hashes": {
+    "execute_jitter_pose.py": "59084cf7444779f8594b2e0e9f2d7e0380f3e63524a07c4e315809888d19da72",
+    "jitter_control.py": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+    "run_wave_pose.py": "7f24aeccb61aef29f9843fa4329629287a685496cae3091ca0151a2e79721c7e",
+    "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+    "lib/sonic_v11.py": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+  },
+  "frozen_source_reference_sha": "dcaa03609f61101916181137385275207cae51fbb7453e9aa7bf15a98979b5d1"
+}

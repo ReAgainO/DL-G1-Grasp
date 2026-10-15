@@ -1,0 +1,630 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+      "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+    },
+    "scene_generator_sha": "3178e1aa7e8a1d5f0bbbe01b74b94a744e84f110c846a61c9e1b50cb5a205e8b",
+    "library_sha": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+      "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+      "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+      "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+      "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+      "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+      "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+      "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+      "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+      "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+      "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+      "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+      "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+      "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+      "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    "dt": 0.002
+  },
+  "success": false,
+  "gates": {
+    "completed": true,
+    "hold_7cm": false,
+    "two_fingers": true,
+    "no_support": true,
+    "clearance_4cm": false,
+    "slip_1cm": true,
+    "release_drop_6cm": false,
+    "final_supported": true,
+    "final_fingers_off": true,
+    "no_external": true,
+    "no_warnings": true,
+    "upright": true,
+    "fingertip_only_robot_contacts_in_hold": true
+  },
+  "gate_definition_version": 2,
+  "legacy_success": false,
+  "legacy_gates": {
+    "completed": true,
+    "hold_7cm": false,
+    "two_fingers": true,
+    "no_support": true,
+    "clearance_4cm": false,
+    "slip_1cm": true,
+    "release_drop_6cm": false,
+    "final_supported": true,
+    "final_fingers_off": true,
+    "no_external": true,
+    "no_warnings": true,
+    "upright": true
+  },
+  "contact_audit_summary": {
+    "raw_contact_rows": 85479,
+    "all_steps": {
+      "pad": {
+        "max_normal_N": 26.088509283723962,
+        "loaded_steps": 5377,
+        "max_upward_force_N": 0.967237197389439,
+        "min_vertical_force_N": -11.439708189128522
+      },
+      "wrist": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "other_robot": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "support": {
+        "max_normal_N": 11.603703409747494,
+        "loaded_steps": 18935,
+        "max_upward_force_N": 11.603703409747494,
+        "min_vertical_force_N": 0.0
+      },
+      "other": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      }
+    },
+    "hold_steps": {
+      "pad": {
+        "max_normal_N": 0.46869786767231464,
+        "loaded_steps": 993,
+        "max_upward_force_N": 0.3811543095095429,
+        "min_vertical_force_N": 0.08399969252565763
+      },
+      "wrist": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "other_robot": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "support": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "other": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      }
+    },
+    "hold_sample_count": 993,
+    "fingertip_only_robot_contacts_in_hold": true
+  },
+  "kind": "ARDY original reach shape/posture -> geometric pinch retargeting -> official SONIC pelvis-fixtured body control + separate contact-gated fingers; no human grasp endpoint joints",
+  "ardy_arm_prior_consumed_by_sonic": true,
+  "native_geometry": false,
+  "pinch_geometry": true,
+  "native_orientation_frame": 31,
+  "ardy_input_representation": "G1 joint reference",
+  "teleop_fk_reference": false,
+  "native_path_consumed_by_sonic": true,
+  "native_ardy_grasp_established": false,
+  "human_calibration_used": false,
+  "ardy_nullspace_weight": 0.03,
+  "source": {
+    "source_npz": "/data/group4/20261006-093203-codex-6385a841/src/original_motions/near_s42.npz",
+    "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+    "source_fps": 25.0,
+    "native_frames": 100,
+    "native_clip_duration_s": 4.0,
+    "last_sample_time_s": 3.96,
+    "expected50Hz_frames": 199,
+    "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+    "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+    "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+    "text": "A person reaches forward with their right hand to grab a small object on a table.",
+    "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+    "paired_csv_sha256": "c46d058430befe1460a9bb22fec4ff0b761d4c9d4726031b75d75acd541fbb3e",
+    "parity_joint_max_rad": 1.1920928955078125e-07,
+    "parity_root_translation_max_m": 0.0,
+    "parity_rotation_matrix_max": 1.2970137341916654e-07
+  },
+  "position_error_metric": "middle-pad physical surface contact frame",
+  "surface_capture": true,
+  "opposing_pad": "right_middle_fingertip",
+  "close_command_duration_s": 0.5,
+  "flat_pinch": true,
+  "orientation_error_metric": "closed-hand FK pad vertical spread in METRES",
+  "c2_reference": true,
+  "reference_filter": {
+    "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+    "calls": 2364,
+    "velocity_max_rad_s": 0.598971129735924,
+    "acceleration_max_rad_s2": 1.3082461503890965,
+    "jerk_max_rad_s3": 11.953760512071405,
+    "max_replan_C2_boundary_jump": 0.0,
+    "max_plan_horizon_s": 5.572562780159998,
+    "velocity_limit": 0.6,
+    "acceleration_limit": 1.5,
+    "jerk_limit": 12
+  },
+  "correction_clipped_cells": 0,
+  "policy_aware_reference": false,
+  "policy_reference": null,
+  "discrete_reference_servo": false,
+  "discrete_reference": null,
+  "endpoint_branch_seed": true,
+  "endpoint_seed_selection": "minimum native-seed deviation among feasible branches",
+  "inverse_reference_anchor": "unexecuted accumulated reference goal",
+  "inverse_reference_linearization": "absolute decoded motor target FK",
+  "kinematic_outer_servo": {
+    "enabled": true,
+    "updates": 166,
+    "max_reference_increment_rad": 0.060000000000000005,
+    "rate_hz": 5,
+    "motor_target_override": false,
+    "kind": "closed-hand actual FK IK delta added to current SONIC input reference"
+  },
+  "base_fixture": true,
+  "fixture_constraint": "pelvis-to-world only; cube is NEVER welded",
+  "free_base_exercised": false,
+  "whole_body_balance_validated": false,
+  "right_arm_pd_kp_scale": 1.0,
+  "right_arm_pd_kd_scale": 1.0,
+  "decoder_targets_unchanged_by_PD_tuning": true,
+  "lift_only_right_arm_damping_scale": 1.0,
+  "right_arm_pd_kd_definition": "sqrt(kp scale) times independent damping scale during LIFT/HOLD; factory damping elsewhere",
+  "postcapture_arm_pd_gain_scale": 1.0,
+  "postcapture_pd_gain_scope": "LIFT/HOLD only; raw official decoded targets unchanged",
+  "postcapture_outer_servo_increment_cap_rad": 0.02,
+  "hold_outer_servo_frozen": true,
+  "right_arm_gravity_feedforward_scale": 1.0,
+  "actuator_gravity_adapter_not_factory_sonic": true,
+  "joint_reference_error_definition": "actual arm minus virtual SONIC input reference; not necessarily decoder motor setpoint",
+  "object_localization": "simulator-state coordinates during DESCEND/ALIGN/CLOSE; not vision",
+  "direct_table": true,
+  "table_top_z_m": 0.757,
+  "object_support": "broad table, no pedestal",
+  "adaptive_hand_controller": true,
+  "adaptive_hand": {
+    "calls": 11,
+    "body_target_override": false,
+    "object_state_writes": false,
+    "object_localization": "simulator state, not vision",
+    "last": {
+      "max_pad_target_error_m": 0.007049248363544257,
+      "target_points_m": [
+        [
+          0.27437837625517053,
+          -0.08768712163451245,
+          0.7758998061807032
+        ],
+        [
+          0.29363095822479995,
+          -0.1398423814852068,
+          0.776779211817421
+        ]
+      ],
+      "achievable_points_m": [
+        [
+          0.2748877272131743,
+          -0.08844258825997947,
+          0.7759356631642076
+        ],
+        [
+          0.2867403255043096,
+          -0.1412196165810481,
+          0.77733984243826
+        ]
+      ],
+      "command_rad": [
+        -0.04897547871278565,
+        -0.6179004777822746,
+        -0.9015305341133362,
+        1.4,
+        0.08,
+        1.471761927579389,
+        0.002
+      ],
+      "normal": [
+        0.20701688542318467,
+        -0.9783373698012787,
+        0.0
+      ],
+      "opposing_cube_axis": 1
+    }
+  },
+  "hand_reference_speed_limit_rad_s": 1.5,
+  "grip_frame_lift": true,
+  "post_capture_body_objective": "full wrist pose translated vertically from actual capture pose; orientation held",
+  "lock_grip": true,
+  "locked_grip_definition": "hold the captured finger motor commands, NOT an object constraint or weld",
+  "sonic_armature": false,
+  "body_armature_runtime": [
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.01
+  ],
+  "passive_free_diagnostic": false,
+  "passive_free_definition": null,
+  "cartesian_compensation": false,
+  "final_cart_bias_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "phase_clips_loaded": true,
+  "preclosure_capture_radius_m": 0.007,
+  "final_success_gates_unchanged": false,
+  "success_gate_change": "v2 adds <=.001N summed non-pad robot load throughout HOLD; all prior thresholds retained; legacy_gates preserved separately",
+  "preclosure_contact_close_enabled": true,
+  "preclosure_contact_rule": "one pad >.05N AND capture-point error<35mm AND flat spread<15mm",
+  "preclosure_contact_dwell_s": 0.04,
+  "freeze_reference_during_close": false,
+  "alignment_time_limit_s": 8.0,
+  "phase_clips_consumed": [
+    "hold_s42",
+    "lift_s42",
+    "release_s42"
+  ],
+  "generated_lift_timewarp": "positive vertical excursion normalized to 10cm, monotone accumulated; explicit task retargeting",
+  "requested_postcapture_lift_height_m": 0.1,
+  "body_action_override": false,
+  "no_grip": false,
+  "pad_off": false,
+  "compensation": true,
+  "teleop_mode": false,
+  "fail_reason": null,
+  "events": [
+    {
+      "phase": "SETTLE",
+      "time_s": 0.0
+    },
+    {
+      "phase": "APPROACH",
+      "time_s": 2.002000000000001
+    },
+    {
+      "phase": "PREGRASP",
+      "time_s": 12.004000000000678
+    },
+    {
+      "phase": "DESCEND",
+      "time_s": 24.007999999997573
+    },
+    {
+      "phase": "ALIGN",
+      "time_s": 32.009999999993155
+    },
+    {
+      "phase": "CLOSE",
+      "time_s": 32.229999999993424
+    },
+    {
+      "phase": "LIFT",
+      "time_s": 33.25799999999468
+    },
+    {
+      "phase": "HOLD",
+      "time_s": 41.26000000000446
+    },
+    {
+      "phase": "RELEASE",
+      "time_s": 43.26400000000691
+    },
+    {
+      "phase": "SETTLE_RELEASE",
+      "time_s": 44.268000000008136
+    }
+  ],
+  "duration_s": 47.27200000001181,
+  "model_load_s": 1.624092650017701,
+  "wall_s": 85.76708781800698,
+  "max_lift_m": 0.08070635212781485,
+  "hold_min_lift_m": 0.013957009728815084,
+  "hold_slip_m": 0.004754195074398018,
+  "hold_min_contact_bodies": 2,
+  "max_drift_m": 0.0030323116658901752,
+  "min_up_z": 0.9999926904483776,
+  "final_wrist_position_error_m": 0.06127072748101415,
+  "final_pad_vertical_spread_m": 0.0035637904922605212,
+  "right_arm_tracking_rms_rad": 0.29676727195816066,
+  "max_ik_position_error_m": 0.3076312332486313,
+  "actual_to_decoded_motor_target_rms_rad": 0.14217311867522742,
+  "decoded_motor_filter": null,
+  "decoded_motor_filter_scope": null,
+  "actual_to_applied_motor_target_rms_rad": 0.14217311867522742,
+  "actual_arm_velocity_per_joint_max_rad_s": [
+    4.959305687143692,
+    4.053238177666831,
+    2.545587853912283,
+    5.957774187689716,
+    2.3813183204138295,
+    6.185091785927258,
+    2.1185739467746925
+  ],
+  "actual_arm_limit_overshoot_per_joint_max_rad": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0019101710039599595
+  ],
+  "virtual_reference_goal_margin_rad": 0.002,
+  "reference_margin_is_task_adaptation": false,
+  "final_actual_arm_rad": [
+    -0.9198623454069033,
+    -0.6438884091317351,
+    1.0340340626445461,
+    0.04917960270639379,
+    -0.37878507561869434,
+    -0.13006207628214891,
+    1.4823627112210238
+  ],
+  "final_decoded_motor_target_rad": [
+    -0.8791271149268185,
+    -0.7239069907246489,
+    1.0895471197493776,
+    0.11799585653797995,
+    -0.4041357792077171,
+    -0.09095397831949578,
+    1.5085052142245152
+  ],
+  "final_virtual_reference_rad": [
+    -1.0420824907609818,
+    -0.5234995328365654,
+    1.1777482500982854,
+    0.303084173063818,
+    -0.35246826784495183,
+    -0.14716337456342005,
+    1.171154704281381
+  ],
+  "max_reference_bias_rad": 0.0,
+  "policy_median_ms": 15.341451566200703,
+  "policy_p95_ms": 16.19688619975932,
+  "user_corrections": 0,
+  "correction_definition": "no interactive user text corrections; manually calibrated geometry is a preconfigured constraint, NOT counted as zero human setup",
+  "peak_external_force": 0.0,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sonic": {
+    "ort_version": "1.23.2",
+    "models": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    },
+    "encoder_slots": [
+      {
+        "name": "encoder_mode_4",
+        "width": 4
+      },
+      {
+        "name": "motion_joint_positions_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_joint_velocities_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_anchor_orientation_heading_10frame_step5",
+        "width": 60
+      },
+      {
+        "name": "motion_anchor_orientation_heading",
+        "width": 6
+      },
+      {
+        "name": "motion_joint_positions_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "motion_joint_velocities_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "vr_3point_local_target",
+        "width": 9
+      },
+      {
+        "name": "vr_3point_local_orn_target",
+        "width": 12
+      },
+      {
+        "name": "smpl_joints_10frame_step1",
+        "width": 720
+      },
+      {
+        "name": "smpl_anchor_orientation_heading_10frame_step1",
+        "width": 60
+      },
+      {
+        "name": "motion_joint_positions_wrists_10frame_step1",
+        "width": 60
+      }
+    ],
+    "decoder_slots": [
+      {
+        "name": "token_state",
+        "width": 64
+      },
+      {
+        "name": "his_base_angular_velocity_10frame_step1",
+        "width": 30
+      },
+      {
+        "name": "his_body_joint_positions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_body_joint_velocities_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_last_actions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_gravity_dir_10frame_step1",
+        "width": 30
+      }
+    ],
+    "policy_calls": 2364,
+    "unique_encoder_inputs": 2364,
+    "unique_actions": 2364,
+    "body_action_source": "official SONIC v1.1 ONNX; no manual/IK arm motor targets; optional causal decoded-target adapter separately labelled",
+    "mode_ids": [
+      0
+    ],
+    "decoded_target_adapter_used": false,
+    "right_arm_pd_kp_scale": 1.0,
+    "right_arm_pd_kd_scale": 1.0,
+    "independent_arm_damping_scales_observed": [
+      1.0
+    ],
+    "right_arm_gravity_feedforward_scale": 1.0,
+    "max_added_gravity_torque_Nm": 7.218029045039458,
+    "actuator_adapter": "SONIC decoded motor targets + PD; optional explicitly labelled decoded-target filter and MODEL GRAVITY ONLY on right-arm actuator torques; no manual target/generalized-force override",
+    "torque_clipped_cells": 882,
+    "torque_steps": 23636,
+    "original_effort_limits_preserved": true
+  },
+  "scene": "/data/group4/20261006-093203-codex-6385a841/out/w4_servo_hold327/scene.xml",
+  "telemetry_schema": {
+    "path": "telemetry.csv.gz",
+    "columns": [
+      "time_s",
+      "cube_x_m",
+      "cube_y_m",
+      "cube_z_m",
+      "cube_wrist_x_m",
+      "cube_wrist_y_m",
+      "cube_wrist_z_m",
+      "thumb_force_N",
+      "index_force_N",
+      "middle_force_N",
+      "support_force_N",
+      "cube_bottom_m",
+      "base_xy_drift_m",
+      "base_up_z",
+      "surface_capture_error_m",
+      "pad_vertical_spread_m",
+      "actual_minus_virtual_ref_right_shoulder_pitch_joint_rad",
+      "actual_minus_virtual_ref_right_shoulder_roll_joint_rad",
+      "actual_minus_virtual_ref_right_shoulder_yaw_joint_rad",
+      "actual_minus_virtual_ref_right_elbow_joint_rad",
+      "actual_minus_virtual_ref_right_wrist_roll_joint_rad",
+      "actual_minus_virtual_ref_right_wrist_pitch_joint_rad",
+      "actual_minus_virtual_ref_right_wrist_yaw_joint_rad"
+    ],
+    "physics_hz": 500,
+    "format": "gzip CSV; 9 significant digits; full result/NPZ floats preserved",
+    "finger_contact_white_list": [
+      "right_thumb_fingertip",
+      "right_index_fingertip",
+      "right_middle_fingertip"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+ "cube_pos": [
+  -0.2442675769698109,
+  -0.1391899139585116,
+  0.7610665340628342
+ ],
+ "arm_q": [
+  1.371914242693268,
+  0.43934618036387135,
+  -0.6963289762712346,
+  0.4089507303212619,
+  -0.050412505010912295,
+  -0.20381262271887107,
+  -0.14873771316654108
+ ],
+ "weld": true,
+ "freeze_hand": true,
+ "skip_to_close": true,
+ "settle_s": 0.05,
+ "weld_release": "LIFT",
+ "design_gaps_mm": [
+  -0.694,
+  -0.558,
+  -0.692
+ ],
+ "note": "W4i tune edge=40mm balanced opposed pinch: cf+delta [-7.43, -13.37, 28.27] mm; pads [-0.69, -0.56, -0.69] mm; abs_sumN=1.73; palm 38.3; body right_wrist_pitch_link@72.1; tab 120.0 | W4i variant settle_s 0.5->0.05 (P9 knob): CLOSE gate needs e>=0.5s AND 2-pad dwell>=0.2s, the long SETTLE spent the only window where the pads stay pressed"
+}

@@ -1,0 +1,222 @@
+{
+  "physical_steps": 0,
+  "default_control_trace_preserved_within_1e_minus8": true,
+  "arrays": {
+    "qpos": {
+      "shape": [
+        1491,
+        57
+      ],
+      "exact": true,
+      "maximum_abs_delta": 0.0
+    },
+    "qvel": {
+      "shape": [
+        1491,
+        55
+      ],
+      "exact": true,
+      "maximum_abs_delta": 0.0
+    },
+    "body_reference": {
+      "shape": [
+        1491,
+        29
+      ],
+      "exact": true,
+      "maximum_abs_delta": 0.0
+    },
+    "decoded_motor_target": {
+      "shape": [
+        1491,
+        29
+      ],
+      "exact": true,
+      "maximum_abs_delta": 0.0
+    },
+    "hand_reference": {
+      "shape": [
+        1491,
+        7
+      ],
+      "exact": true,
+      "maximum_abs_delta": 0.0
+    },
+    "actuator_ctrl": {
+      "shape": [
+        1491,
+        43
+      ],
+      "exact": true,
+      "maximum_abs_delta": 0.0
+    },
+    "time": {
+      "shape": [
+        1491
+      ],
+      "exact": true,
+      "maximum_abs_delta": 0.0
+    },
+    "phase": {
+      "shape": [
+        1491
+      ],
+      "exact": true,
+      "maximum_abs_delta": null
+    }
+  },
+  "allowed_library_changes": [
+    "adaptive_hand",
+    "cycle_latency",
+    "finger_clearance"
+  ],
+  "result_sha256": [
+    "0c72b6c0d30193ae62b0046efc280b8cc8aecea9f971ba0518ccb3ac826b35d0",
+    "5585ee1cd3f03778217229ad6f8e67bb6c4dfff0ded2bb1ef52ae6eda415ecf8"
+  ],
+  "trajectory_sha256": [
+    "86ac6962e8816059f03ef170b892c237bd6537042e238fd75edb1e746b2f4e6d",
+    "8e030db6ec8520c62b28da638ef7b3b91ef59536635d348661c5e96104262f65"
+  ],
+  "old_and_new_successes": [
+    true,
+    true
+  ],
+  "latency": {
+    "observed_loop_iterations": 29812,
+    "unfinished_observation": false,
+    "partial_final_cycle_steps": 2,
+    "complete_50Hz_cycles": {
+      "samples": 2981,
+      "budget_ms": 20.0,
+      "median_ms": 36.50184394791722,
+      "p95_ms": 54.461946012452245,
+      "p99_ms": 59.96924065984785,
+      "max_ms": 587.1293309610337,
+      "over_budget_count": 2981,
+      "over_budget_fraction": 1.0
+    },
+    "nominal_500Hz_iterations": {
+      "samples": 29812,
+      "budget_ms": 2.0,
+      "median_ms": 1.7174954991787672,
+      "p95_ms": 20.22636980982497,
+      "p99_ms": 35.02117700525559,
+      "max_ms": 570.2426240313798,
+      "over_budget_count": 7397,
+      "over_budget_fraction": 0.2481215617871998
+    },
+    "by_cycle_start_phase": {
+      "ALIGN": {
+        "samples": 11,
+        "budget_ms": 20.0,
+        "median_ms": 37.11870696861297,
+        "p95_ms": 48.82407048717141,
+        "p99_ms": 54.14479561150075,
+        "max_ms": 55.47497689258307,
+        "over_budget_count": 11,
+        "over_budget_fraction": 1.0
+      },
+      "APPROACH": {
+        "samples": 1125,
+        "budget_ms": 20.0,
+        "median_ms": 36.173861008137465,
+        "p95_ms": 54.74460597615689,
+        "p99_ms": 59.762647105380886,
+        "max_ms": 587.1293309610337,
+        "over_budget_count": 1125,
+        "over_budget_fraction": 1.0
+      },
+      "CLOSE": {
+        "samples": 44,
+        "budget_ms": 20.0,
+        "median_ms": 38.25340297771618,
+        "p95_ms": 54.62786016869359,
+        "p99_ms": 58.16839122446254,
+        "max_ms": 59.963274048641324,
+        "over_budget_count": 44,
+        "over_budget_fraction": 1.0
+      },
+      "DESCEND": {
+        "samples": 400,
+        "budget_ms": 20.0,
+        "median_ms": 35.37550050532445,
+        "p95_ms": 41.016468685120344,
+        "p99_ms": 42.69378729048185,
+        "max_ms": 44.97812897898257,
+        "over_budget_count": 400,
+        "over_budget_fraction": 1.0
+      },
+      "HOLD": {
+        "samples": 100,
+        "budget_ms": 20.0,
+        "median_ms": 38.38307148544118,
+        "p95_ms": 65.54557459312491,
+        "p99_ms": 67.89292215951718,
+        "max_ms": 69.00332809891552,
+        "over_budget_count": 100,
+        "over_budget_fraction": 1.0
+      },
+      "LIFT": {
+        "samples": 400,
+        "budget_ms": 20.0,
+        "median_ms": 36.73544095363468,
+        "p95_ms": 52.541441109497086,
+        "p99_ms": 56.49495357647538,
+        "max_ms": 65.66144293174148,
+        "over_budget_count": 400,
+        "over_budget_fraction": 1.0
+      },
+      "PREGRASP": {
+        "samples": 600,
+        "budget_ms": 20.0,
+        "median_ms": 37.124624475836754,
+        "p95_ms": 44.43428163067438,
+        "p99_ms": 53.17967741866596,
+        "max_ms": 60.739713022485375,
+        "over_budget_count": 600,
+        "over_budget_fraction": 1.0
+      },
+      "RELEASE": {
+        "samples": 50,
+        "budget_ms": 20.0,
+        "median_ms": 51.78696446819231,
+        "p95_ms": 61.3180995977018,
+        "p99_ms": 62.13893988984637,
+        "max_ms": 62.16997595038265,
+        "over_budget_count": 50,
+        "over_budget_fraction": 1.0
+      },
+      "SETTLE": {
+        "samples": 101,
+        "budget_ms": 20.0,
+        "median_ms": 32.73660608101636,
+        "p95_ms": 38.13673404511064,
+        "p99_ms": 39.81207509059459,
+        "max_ms": 39.89656094927341,
+        "over_budget_count": 101,
+        "over_budget_fraction": 1.0
+      },
+      "SETTLE_RELEASE": {
+        "samples": 150,
+        "budget_ms": 20.0,
+        "median_ms": 38.01183996256441,
+        "p95_ms": 57.01208725222386,
+        "p99_ms": 60.89627954526804,
+        "max_ms": 63.45317303203046,
+        "over_budget_count": 150,
+        "over_budget_fraction": 1.0
+      }
+    },
+    "observer_only": true,
+    "pacing": false,
+    "real_time_validated": false,
+    "definition": "Host wall time for ten consecutive loop observations incl reference/branch/IK/SONIC/finger/physics/audit/state transitions; no pacing. A failed iteration may stop before physics and is counted separately by the caller. Initial model/motion load and final serialization excluded. This is execution latency, not policy-only latency or measured end-to-end user response.",
+    "actual_physics_steps": 29812,
+    "aborted_iterations_without_physics": 0
+  },
+  "simulation_s": 59.6240000000269,
+  "whole_run_wall_s": 119.81616497202776,
+  "policy_p95_ms": 17.310322850244116,
+  "limitation": "Same deterministic scene/source/parameters; observer and disabled geometry feature preserve this trace only. Policy-only p95 is not20ms full-cycle compliance. No real-time service, new-text generalization or enabled table-constraint claim."
+}

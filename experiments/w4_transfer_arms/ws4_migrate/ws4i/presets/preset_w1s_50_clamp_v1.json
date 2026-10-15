@@ -1,0 +1,27 @@
+{
+ "cube_pos": [
+  -0.09183253829578088,
+  0.3023479606233087,
+  0.7829614997466604
+ ],
+ "arm_q": [
+  0.477234717034703,
+  0.7819100299095686,
+  -0.23686819259723985,
+  1.4499739243970482,
+  -1.0059227669025064,
+  -0.23168988186756995,
+  0.09464880870567793
+ ],
+ "weld": true,
+ "freeze_hand": true,
+ "skip_to_close": true,
+ "settle_s": 0.05,
+ "weld_release": "LIFT",
+ "design_gaps_mm": [
+  -0.664,
+  -0.413,
+  -0.307
+ ],
+ "note": "W4i clamp edge=50mm (vertical cross-clamp: top press + bottom support, CoM near axis, settle_s=0.05): pads [-0.66, -0.41, -0.31] mm; n_z [-0.3, -0.38, 1.0]; palm 44.2; body left_elbow_link@60.4; tab 120.0"
+}

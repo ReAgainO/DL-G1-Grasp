@@ -1,0 +1,361 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.14.0",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "dt": 0.002,
+    "model_sha": {
+      "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+      "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+    },
+    "scene_generator_sha": "a37f00591d7ec4679ae6e3110fc5f70d0dc8ea22017cdfbe7d24cb14108fce77",
+    "library_sha": {
+      "episode": "09dc97e9a6a0ad6c7a41b7d52654acc9148ffff78585bf7337765a2cf188bf4a",
+      "raw_contacts": "eeca2a43011d56438cbeae00792e62719a1a46c535e16f73c5d6747668af1e1f",
+      "telemetry": "34c73cbc935b920b7a1ac15cf35e6032e0ce36317dced9a32cfe45129528a9d9"
+    }
+  },
+  "source_episode_runtime_stamp": {
+    "mujoco_version": "3.14.0",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+      "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+    },
+    "scene_generator_sha": "93a9f38949bb542c378b900de45e8209c85b703996ef09113973d02a4eeec13e",
+    "library_versions": {
+      "numpy": "1.26.4",
+      "onnxruntime": "1.23.2"
+    },
+    "library_sha": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+      "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+      "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+      "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+      "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+      "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+      "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+      "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+      "adaptive_hand": "19d2094fc343a7010040f3b1400e50f8617a86797d5c4007d7bb4acfdd741f31",
+      "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+      "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+      "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4",
+      "table_placement": "e1b5e88d4bdd0f0cce8a3dbd78e940c51976d2539caf4f99a4217a8cb9391477",
+      "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+      "setdown_plan": "5dd156238a40b06909e2c760dfbfc516c76e9af7793edf7c6fd07020d34dd521",
+      "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+      "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+      "neutral_pose": "76e534e278960796a08b1459345fd48f2898b1b18977e2f00fe3c1af47ab04b2",
+      "execution_monitor": "dd9d078527e2551a15202322c7bd53eb98eb0dc22a013633dfa74a062a00cf0d",
+      "clearance_approach": "94356a8088bd16da207caec9d220980cd4be335fb421ed7a4109274dfb449020",
+      "motion_profile": "ec830274ba547e49bfab4f9dc25da310711e6fde885e5b118654d04b31288b01",
+      "native_branch": "3200af709404873baf07ff36042b13b8131555c5290af7bd9a410103126eac28",
+      "branch_execution": "14228ce96d7ab17872e6e2ee9d8876985727c2fc74fe370ea6d9099ab0369d32",
+      "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+      "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    "dt": 0.002
+  },
+  "physical_steps": 0,
+  "source_episode": "w6_branchpreload15_near314",
+  "final_cube_position_m": [
+    0.271950867,
+    -0.111927181,
+    0.774453939
+  ],
+  "final_support_geoms": [
+    "table_top"
+  ],
+  "final_table_supported": true,
+  "final_floor_supported": false,
+  "final_contacts": [
+    {
+      "time_s": 59.584,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999982
+    },
+    {
+      "time_s": 59.584,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999985
+    },
+    {
+      "time_s": 59.584,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000018
+    },
+    {
+      "time_s": 59.584,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000015
+    },
+    {
+      "time_s": 59.586,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499998694
+    },
+    {
+      "time_s": 59.586,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.049049999894
+    },
+    {
+      "time_s": 59.586,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500001306
+    },
+    {
+      "time_s": 59.586,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.049050000106
+    },
+    {
+      "time_s": 59.588,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000481
+    },
+    {
+      "time_s": 59.588,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000391
+    },
+    {
+      "time_s": 59.588,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999519
+    },
+    {
+      "time_s": 59.588,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999609
+    },
+    {
+      "time_s": 59.59,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000395
+    },
+    {
+      "time_s": 59.59,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.049050000032
+    },
+    {
+      "time_s": 59.59,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999605
+    },
+    {
+      "time_s": 59.59,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.049049999968
+    },
+    {
+      "time_s": 59.592,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000303
+    },
+    {
+      "time_s": 59.592,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000246
+    },
+    {
+      "time_s": 59.592,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999697
+    },
+    {
+      "time_s": 59.592,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999754
+    },
+    {
+      "time_s": 59.594,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000216
+    },
+    {
+      "time_s": 59.594,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000176
+    },
+    {
+      "time_s": 59.594,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999784
+    },
+    {
+      "time_s": 59.594,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999824
+    },
+    {
+      "time_s": 59.596,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000141
+    },
+    {
+      "time_s": 59.596,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000115
+    },
+    {
+      "time_s": 59.596,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999859
+    },
+    {
+      "time_s": 59.596,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999885
+    },
+    {
+      "time_s": 59.598,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000079
+    },
+    {
+      "time_s": 59.598,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000064
+    },
+    {
+      "time_s": 59.598,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999921
+    },
+    {
+      "time_s": 59.598,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999936
+    },
+    {
+      "time_s": 59.6,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000028
+    },
+    {
+      "time_s": 59.6,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000023
+    },
+    {
+      "time_s": 59.6,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999972
+    },
+    {
+      "time_s": 59.6,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999977
+    },
+    {
+      "time_s": 59.602,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.049049999999
+    },
+    {
+      "time_s": 59.602,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490499999992
+    },
+    {
+      "time_s": 59.602,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.049050000001
+    },
+    {
+      "time_s": 59.602,
+      "geom": "table_top",
+      "body": "grasp_table",
+      "category": "support",
+      "normal_N": 0.0490500000008
+    }
+  ],
+  "legacy_final_supported": true,
+  "definition": "Last 20ms of original solver contacts >.001N; legacy gate does not distinguish floor/table. No historical result is rewritten."
+}

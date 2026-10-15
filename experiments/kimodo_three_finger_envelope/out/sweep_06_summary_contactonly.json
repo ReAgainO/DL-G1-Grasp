@@ -1,0 +1,381 @@
+{
+ "_pre": {
+  "rest_z_m": 0.0297,
+  "leave_frame": 114,
+  "peak_frame": 116,
+  "peak_z_m": 0.056,
+  "wrap": {
+   "f84": {
+    "tip_dist_to_box_center_m": [
+     0.0557,
+     0.1449,
+     0.0686
+    ],
+    "tip_local": [
+     [
+      -0.0125,
+      0.0447,
+      -0.0308
+     ],
+     [
+      -0.1216,
+      -0.077,
+      -0.0162
+     ],
+     [
+      -0.0064,
+      -0.0682,
+      -0.0042
+     ]
+    ],
+    "geom_gap_m": [
+     0.0052,
+     0.0803,
+     0.0153
+    ],
+    "tip_span_m": 0.1641
+   },
+   "f86": {
+    "tip_dist_to_box_center_m": [
+     0.07,
+     0.0968,
+     0.0751
+    ],
+    "tip_local": [
+     [
+      0.0378,
+      0.0486,
+      -0.0333
+     ],
+     [
+      -0.0619,
+      -0.0707,
+      -0.0232
+     ],
+     [
+      0.0467,
+      -0.0583,
+      -0.0078
+     ]
+    ],
+    "geom_gap_m": [
+     0.0102,
+     0.0271,
+     0.0067
+    ],
+    "tip_span_m": 0.1558
+   },
+   "f94": {
+    "tip_dist_to_box_center_m": [
+     0.047,
+     0.0778,
+     0.0532
+    ],
+    "tip_local": [
+     [
+      0.0084,
+      0.0198,
+      -0.0417
+     ],
+     [
+      -0.054,
+      -0.0508,
+      -0.0235
+     ],
+     [
+      0.0138,
+      -0.0456,
+      -0.0237
+     ]
+    ],
+    "geom_gap_m": [
+     -0.0023,
+     0.0162,
+     -0.0023
+    ],
+    "tip_span_m": 0.096
+   }
+  }
+ },
+ "wall_s": 0.26,
+ "motion_frames": 210,
+ "images": 0,
+ "render_fps": 0.0,
+ "mp4": "/data/group4/20261008-235856-codex-3c7f34c5/out/sweep_06.mp4",
+ "substeps_per_frame": 20,
+ "timestep_s": 0.0016666666666666666,
+ "imposition_drift_max_m": 0.00457746,
+ "two_pass_identical_max_abs_diff_m": 0.0,
+ "box_rest_z_m": 0.0297,
+ "box_max_z_m": 0.056,
+ "box_lift_m": 0.0262,
+ "weld_active_frame": null,
+ "first_lift2cm_frame": 114,
+ "first_lift2cm_time_s": 3.833,
+ "peak_frame": 116,
+ "peak_time_s": 3.9,
+ "carry_rigid_lag_mean_mm": 137.376,
+ "carry_rigid_lag_max_mm": 200.559,
+ "hold_qfrc_z_mean_N": 1.1388,
+ "hold_qfrc_z_min_N": 0.369,
+ "hold_qfrc_z_max_N": 1.7216,
+ "box_mass_kg": 0.12,
+ "weight_N": 1.1772,
+ "palm_min_z_m": 0.1085,
+ "palm_min_z_frame": 86,
+ "authored_box_xy": [
+  1.01,
+  -0.19
+ ],
+ "authored_vs_palm_horiz_offset_m": 0.0248,
+ "palm_minus_boxtop_m": 0.0485,
+ "box_half_m": 0.03,
+ "finger_qpos_min_rad": -0.3,
+ "grip_g": 1.0,
+ "closed_angles_rad": [
+  -0.3,
+  0.3,
+  0.3
+ ],
+ "adjacent_frame_pix_meandiff": 0.0,
+ "adjacent_frame_pix_maxdiff": 0.0,
+ "numpy_vs_mujoco_pose_err_m": 0.1991210537274502,
+ "numpy_vs_mujoco_rot_err": 1.1322773049494388,
+ "mujoco_xquat_vs_xmat_err": 2.220446049250313e-16,
+ "box_x_range_m": [
+  1.01,
+  1.0634
+ ],
+ "box_y_range_m": [
+  -0.2001,
+  -0.186
+ ],
+ "box_max_speed_ms": 0.2742,
+ "wrap": {
+  "f84": {
+   "tip_dist_to_box_center_m": [
+    0.0557,
+    0.1449,
+    0.0686
+   ],
+   "tip_local": [
+    [
+     -0.0125,
+     0.0447,
+     -0.0308
+    ],
+    [
+     -0.1216,
+     -0.077,
+     -0.0162
+    ],
+    [
+     -0.0064,
+     -0.0682,
+     -0.0042
+    ]
+   ],
+   "geom_gap_m": [
+    0.0052,
+    0.0803,
+    0.0153
+   ],
+   "tip_span_m": 0.1641
+  },
+  "f86": {
+   "tip_dist_to_box_center_m": [
+    0.07,
+    0.0968,
+    0.0751
+   ],
+   "tip_local": [
+    [
+     0.0378,
+     0.0486,
+     -0.0333
+    ],
+    [
+     -0.0619,
+     -0.0707,
+     -0.0232
+    ],
+    [
+     0.0467,
+     -0.0583,
+     -0.0078
+    ]
+   ],
+   "geom_gap_m": [
+    0.0102,
+    0.0271,
+    0.0067
+   ],
+   "tip_span_m": 0.1558
+  },
+  "f94": {
+   "tip_dist_to_box_center_m": [
+    0.047,
+    0.0778,
+    0.0532
+   ],
+   "tip_local": [
+    [
+     0.0084,
+     0.0198,
+     -0.0417
+    ],
+    [
+     -0.054,
+     -0.0508,
+     -0.0235
+    ],
+    [
+     0.0138,
+     -0.0456,
+     -0.0237
+    ]
+   ],
+   "geom_gap_m": [
+    -0.0023,
+    0.0162,
+    -0.0023
+   ],
+   "tip_span_m": 0.096
+  },
+  "f114": {
+   "tip_dist_to_box_center_m": [
+    0.0307,
+    0.0926,
+    0.0469
+   ],
+   "tip_local": [
+    [
+     -0.0157,
+     0.006,
+     -0.0257
+    ],
+    [
+     -0.074,
+     -0.048,
+     0.0282
+    ],
+    [
+     -0.0066,
+     -0.04,
+     0.0237
+    ]
+   ],
+   "geom_gap_m": [
+    -0.0118,
+    0.0377,
+    -0.0044
+   ],
+   "tip_span_m": 0.096
+  },
+  "f116": {
+   "tip_dist_to_box_center_m": [
+    0.0348,
+    0.0969,
+    0.0453
+   ],
+   "tip_local": [
+    [
+     -0.0226,
+     0.0037,
+     -0.0261
+    ],
+    [
+     -0.0808,
+     -0.0373,
+     0.0383
+    ],
+    [
+     -0.0138,
+     -0.0259,
+     0.0345
+    ]
+   ],
+   "geom_gap_m": [
+    -0.0114,
+    0.0445,
+    -0.003
+   ],
+   "tip_span_m": 0.096
+  }
+ },
+ "relative_pose_at_contact": {
+  "frame": 86,
+  "rel_p_wrist_frame_m": [
+   0.16165,
+   0.02321,
+   0.00566
+  ],
+  "rel_q_wxyz": [
+   0.736635,
+   -0.196942,
+   -0.583465,
+   0.279556
+  ],
+  "inactive_eq_data_not_applied": [
+   0.0,
+   0.0,
+   0.0,
+   0.161647,
+   0.023209,
+   0.005657,
+   0.736635,
+   -0.196942,
+   -0.583465,
+   0.279556
+  ],
+  "wrist_pos_m": [
+   0.97465,
+   -0.18189,
+   0.18651
+  ],
+  "wrist_quat_wxyz": [
+   0.732192,
+   0.183915,
+   0.599421,
+   -0.266015
+  ]
+ },
+ "keyframes": [
+  0,
+  84,
+  86,
+  114,
+  116,
+  209
+ ],
+ "closeups": [
+  84,
+  114,
+  116
+ ],
+ "qpos_csv": "/data/group4/20261008-235856-codex-3c7f34c5/source/qpos_sidegrip.csv",
+ "contact_frame": 86,
+ "close_frame": 86,
+ "grip_rad": null,
+ "fps": 30.0,
+ "finger_box_contact_frame_counts": [
+  33,
+  0,
+  25
+ ],
+ "finger_box_contact_frame_fraction": [
+  0.1571,
+  0.0,
+  0.119
+ ],
+ "runtime_stamp": {
+  "mujoco_version": "3.14.0",
+  "sys_executable": "/home/group4/group4_dasc7606c/envs/render/bin/python",
+  "python_version": "3.10.12",
+  "model_sha": "deb344d5b712f56a1e7f80a138e90c62bf19dc2391e2fc7141e04a497405839d",
+  "scene_generator_sha": "ea13909f217818ab47a831ee1dd253d53104ccf68517fe59e2709bee6a710893",
+  "library_sha": "b35588072ea8dd7d0ac47043539db9611431a55f05389bb78fd1aa7e65494995",
+  "timestep_s": 0.0016666666666666666,
+  "nsub_per_frame": 20
+ }
+}

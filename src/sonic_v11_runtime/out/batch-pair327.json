@@ -1,0 +1,13 @@
+[
+  {
+    "name": "matched0_327",
+    "exit": 0,
+    "wall_s": 43.61151387996506,
+    "log": "/data/group4/20261006-093203-codex-6385a841/out/batch-matched0_327.log",
+    "version": "3.2.7",
+    "success": true,
+    "hold_min_lift_m": 0.08379573666476758,
+    "max_lift_m": 0.08501772267708363,
+    "tracking_rms": 0.0046743748252712665
+  }
+]

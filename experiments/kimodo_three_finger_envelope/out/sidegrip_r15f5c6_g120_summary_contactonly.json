@@ -1,0 +1,382 @@
+{
+ "_pre": {
+  "rest_z_m": 0.0297,
+  "leave_frame": 120,
+  "peak_frame": 121,
+  "peak_z_m": 0.0511,
+  "wrap": {
+   "f84": {
+    "tip_dist_to_box_center_m": [
+     0.0529,
+     0.1312,
+     0.0638
+    ],
+    "tip_local": [
+     [
+      -0.0041,
+      0.0499,
+      -0.0172
+     ],
+     [
+      -0.1049,
+      -0.0788,
+      -0.0023
+     ],
+     [
+      0.0095,
+      -0.0624,
+      0.0091
+     ]
+    ],
+    "geom_gap_m": [
+     0.0024,
+     0.0621,
+     0.0081
+    ],
+    "tip_span_m": 0.1641
+   },
+   "f86": {
+    "tip_dist_to_box_center_m": [
+     0.0739,
+     0.0834,
+     0.0776
+    ],
+    "tip_local": [
+     [
+      0.0439,
+      0.0565,
+      -0.0184
+     ],
+     [
+      -0.0454,
+      -0.069,
+      -0.0117
+     ],
+     [
+      0.0602,
+      -0.0485,
+      0.0065
+     ]
+    ],
+    "geom_gap_m": [
+     0.0097,
+     0.0122,
+     0.0067
+    ],
+    "tip_span_m": 0.1541
+   },
+   "f94": {
+    "tip_dist_to_box_center_m": [
+     0.0411,
+     0.0491,
+     0.0433
+    ],
+    "tip_local": [
+     [
+      0.0231,
+      0.0272,
+      -0.0204
+     ],
+     [
+      -0.0236,
+      -0.0403,
+      -0.0152
+     ],
+     [
+      0.0326,
+      -0.0282,
+      -0.0047
+     ]
+    ],
+    "geom_gap_m": [
+     -0.0178,
+     -0.0091,
+     -0.0147
+    ],
+    "tip_span_m": 0.0822
+   }
+  }
+ },
+ "wall_s": 0.29,
+ "motion_frames": 210,
+ "images": 0,
+ "render_fps": 0.0,
+ "mp4": "/data/group4/20261008-235856-codex-3c7f34c5/out/sidegrip_r15f5c6_g120.mp4",
+ "substeps_per_frame": 20,
+ "timestep_s": 0.0016666666666666666,
+ "imposition_drift_max_m": 0.00922121,
+ "two_pass_identical_max_abs_diff_m": 0.0,
+ "box_rest_z_m": 0.0297,
+ "box_max_z_m": 0.0511,
+ "box_lift_m": 0.0214,
+ "weld_active_frame": null,
+ "first_lift2cm_frame": 120,
+ "first_lift2cm_time_s": 4.033,
+ "peak_frame": 121,
+ "peak_time_s": 4.067,
+ "carry_rigid_lag_mean_mm": 134.496,
+ "carry_rigid_lag_max_mm": 200.499,
+ "hold_qfrc_z_mean_N": 1.1624,
+ "hold_qfrc_z_min_N": 0.0,
+ "hold_qfrc_z_max_N": 1.5557,
+ "box_mass_kg": 0.12,
+ "weight_N": 1.1772,
+ "palm_min_z_m": 0.1235,
+ "palm_min_z_frame": 86,
+ "authored_box_xy": [
+  1.0,
+  -0.2
+ ],
+ "authored_vs_palm_horiz_offset_m": 0.0149,
+ "palm_minus_boxtop_m": 0.0635,
+ "box_half_m": 0.03,
+ "finger_qpos_min_rad": -0.36,
+ "grip_g": 1.2,
+ "closed_angles_rad": [
+  -0.3,
+  0.3,
+  0.3
+ ],
+ "adjacent_frame_pix_meandiff": 0.0,
+ "adjacent_frame_pix_maxdiff": 0.0,
+ "numpy_vs_mujoco_pose_err_m": 0.2004325133917345,
+ "numpy_vs_mujoco_rot_err": 0.4379914925182938,
+ "mujoco_xquat_vs_xmat_err": 2.220446049250313e-16,
+ "box_x_range_m": [
+  0.9993,
+  1.0059
+ ],
+ "box_y_range_m": [
+  -0.2046,
+  -0.1992
+ ],
+ "box_max_speed_ms": 0.5491,
+ "wrap": {
+  "f84": {
+   "tip_dist_to_box_center_m": [
+    0.0529,
+    0.1312,
+    0.0638
+   ],
+   "tip_local": [
+    [
+     -0.0041,
+     0.0499,
+     -0.0172
+    ],
+    [
+     -0.1049,
+     -0.0788,
+     -0.0023
+    ],
+    [
+     0.0095,
+     -0.0624,
+     0.0091
+    ]
+   ],
+   "geom_gap_m": [
+    0.0024,
+    0.0621,
+    0.0081
+   ],
+   "tip_span_m": 0.1641
+  },
+  "f86": {
+   "tip_dist_to_box_center_m": [
+    0.0739,
+    0.0834,
+    0.0776
+   ],
+   "tip_local": [
+    [
+     0.0439,
+     0.0565,
+     -0.0184
+    ],
+    [
+     -0.0454,
+     -0.069,
+     -0.0117
+    ],
+    [
+     0.0602,
+     -0.0485,
+     0.0065
+    ]
+   ],
+   "geom_gap_m": [
+    0.0097,
+    0.0122,
+    0.0067
+   ],
+   "tip_span_m": 0.1541
+  },
+  "f94": {
+   "tip_dist_to_box_center_m": [
+    0.0411,
+    0.0491,
+    0.0433
+   ],
+   "tip_local": [
+    [
+     0.0231,
+     0.0272,
+     -0.0204
+    ],
+    [
+     -0.0236,
+     -0.0403,
+     -0.0152
+    ],
+    [
+     0.0326,
+     -0.0282,
+     -0.0047
+    ]
+   ],
+   "geom_gap_m": [
+    -0.0178,
+    -0.0091,
+    -0.0147
+   ],
+   "tip_span_m": 0.0822
+  },
+  "f120": {
+   "tip_dist_to_box_center_m": [
+    0.0505,
+    0.0493,
+    0.0609
+   ],
+   "tip_local": [
+    [
+     0.0171,
+     0.0395,
+     0.0264
+    ],
+    [
+     -0.003,
+     -0.0402,
+     0.0283
+    ],
+    [
+     0.0456,
+     -0.0098,
+     0.0391
+    ]
+   ],
+   "geom_gap_m": [
+    -0.0055,
+    -0.0048,
+    0.0031
+   ],
+   "tip_span_m": 0.0822
+  },
+  "f121": {
+   "tip_dist_to_box_center_m": [
+    0.0532,
+    0.0525,
+    0.0644
+   ],
+   "tip_local": [
+    [
+     0.0167,
+     0.0396,
+     0.0313
+    ],
+    [
+     -0.0022,
+     -0.0403,
+     0.0336
+    ],
+    [
+     0.046,
+     -0.0092,
+     0.0441
+    ]
+   ],
+   "geom_gap_m": [
+    -0.0053,
+    -0.0041,
+    0.0063
+   ],
+   "tip_span_m": 0.0822
+  }
+ },
+ "relative_pose_at_contact": {
+  "frame": 86,
+  "rel_p_wrist_frame_m": [
+   0.1745,
+   0.01399,
+   -0.00184
+  ],
+  "rel_q_wxyz": [
+   0.756537,
+   -0.183824,
+   -0.577967,
+   0.244571
+  ],
+  "inactive_eq_data_not_applied": [
+   0.0,
+   0.0,
+   0.0,
+   0.174503,
+   0.013991,
+   -0.001844,
+   0.756537,
+   -0.183824,
+   -0.577967,
+   0.244571
+  ],
+  "wrist_pos_m": [
+   0.97465,
+   -0.18189,
+   0.20151
+  ],
+  "wrist_quat_wxyz": [
+   0.732192,
+   0.183915,
+   0.599421,
+   -0.266015
+  ]
+ },
+ "keyframes": [
+  0,
+  84,
+  86,
+  120,
+  121,
+  209
+ ],
+ "closeups": [
+  84,
+  120,
+  121
+ ],
+ "qpos_csv": "/data/group4/20261008-235856-codex-3c7f34c5/source/qpos_sidegrip_raise015.csv",
+ "contact_frame": 86,
+ "close_frame": 86,
+ "grip_rad": null,
+ "fps": 30.0,
+ "finger_box_contact_frame_counts": [
+  36,
+  32,
+  29
+ ],
+ "finger_box_contact_frame_fraction": [
+  0.1714,
+  0.1524,
+  0.1381
+ ],
+ "runtime_stamp": {
+  "mujoco_version": "3.14.0",
+  "sys_executable": "/home/group4/group4_dasc7606c/envs/render/bin/python",
+  "python_version": "3.10.12",
+  "model_sha": "923ac77771c849ad23883edaa726171c553a9a9b07f8275db8c3f3686d520b55",
+  "scene_generator_sha": "ea13909f217818ab47a831ee1dd253d53104ccf68517fe59e2709bee6a710893",
+  "library_sha": "57c38b3db3c1fb872bb3d4ab7b103b677804e6715d86d089ecce2790da926b73",
+  "timestep_s": 0.0016666666666666666,
+  "nsub_per_frame": 20,
+  "kinematic_drive_velocity": true
+ }
+}

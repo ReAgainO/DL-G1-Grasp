@@ -1,0 +1,38 @@
+ROOT=/data/group4/20261008-023143-qoder-d266d3a9/A2_sonicrep
+ENTRY=sonic_grasp
+CLOSURE_LOCAL_MODULES(27):
+   adaptive_hand                    4139 B  adaptive_hand.py
+   balance_audit                    4388 B  balance_audit.py
+   branch_execution                 3652 B  branch_execution.py
+   branch_face_ik                   2235 B  branch_face_ik.py
+   clearance_approach               2736 B  clearance_approach.py
+   contact_audit                    6456 B  contact_audit.py
+   cycle_latency                    3488 B  cycle_latency.py
+   decoded_arm_filter               2560 B  decoded_arm_filter.py
+   discrete_reference               4315 B  discrete_reference.py
+   execution_monitor                3321 B  execution_monitor.py
+   finger_clearance                 1881 B  finger_clearance.py
+   finger_control                   1165 B  finger_control.py
+   grasp_geometry                   1454 B  grasp_geometry.py
+   motion_input                     6468 B  motion_input.py
+   motion_profile                   5973 B  motion_profile.py
+   native_branch                    6141 B  native_branch.py
+   neutral_pose                     1014 B  neutral_pose.py
+   policy_reference                 4342 B  policy_reference.py
+   reference_filter                 4476 B  reference_filter.py
+   setdown_plan                     2201 B  setdown_plan.py
+   sonic_action_adapter             5393 B  official_refs/sonic_action_adapter.py
+   sonic_grasp                     60824 B  sonic_grasp.py
+   sonic_v11                       12300 B  sonic_v11.py
+   source_physics_core             19576 B  source_physics_core.py
+   table_placement                   667 B  table_placement.py
+   task_plan                        8580 B  task_plan.py
+   trajectory                       5326 B  trajectory.py
+EXTERNAL_TOPLEVEL(17): argparse collections csv gzip hashlib json math mujoco numpy onnxruntime os pathlib subprocess sys time xml yaml
+VENDORED pydeps/onnxruntime/__init__.py             OK 14874 B
+VENDORED pydeps/yaml/__init__.py                    OK 12311 B
+VENDORED sonic_v11/model_encoder.onnx               OK 50117796 B
+VENDORED sonic_v11/model_decoder.onnx               OK 149778638 B
+VENDORED sonic_v11/observation_config.yaml          OK 2475 B
+TOPLEVEL_PY_TOTAL=173 REACHABLE=26 UNREACHABLE_FROM_ENTRY=147
+UNREACHABLE: accept_rules_wave6_native active_records amend_wave7_input_identity analyze_control analyze_gate analyze_lift analyze_motor_contacts analyze_wave2 ardy_sonic audit_dynamics audit_release_destination audit_setdown batch_matched begin_wave2 begin_wave3 begin_wave4 begin_wave5 begin_wave6 begin_wave7 branch_refinement build_wave7_profiles capture_branch_preflight capture_hold_diagnostics checkpoint checkpoint_wave2 checkpoint_wave3 checkpoint_wave4 checkpoint_wave5 checkpoint_wave6_final checkpoint_wave6_progress checkpoint_wave6_progress2 checkpoint_wave7_progress1 checkpoint_wave7_progress2 closure_scan compare_ardy_pair compare_control_pair compare_profile_rollout compare_repeat compare_table_constraint compare_wave7_text contact_snapshot control deploy_wave7_face_branch deploy_wave7_face_servo deploy_wave7_observer diagnose_approach diagnose_branch_rejection diagnose_capture diagnose_face_tracking diagnose_floor_binding diagnose_grip_retention diagnose_nonpad diagnose_setdown_tracking diagnose_table_contact execution_preflight generate_wave7_text generator_base grasp grip_diagnosis incremental_wave6_final_git incremental_wave6_git incremental_wave7_progress1_git incremental_wave7_progress2_git inspect_environment_contacts inspect_execution inspect_native_branch inspect_runtime_libraries inspect_wave5 lift_height_preflight lift_progress make_motion_profile merge_wave7_progress2_issue native_branch_preflight native_branch_tracking native_generate note_wave3 note_wave5_progress phase_generate_entry pinch_feasibility prepare_mujoco_overlay profile_preflight quantization_scan record_progress register_wave7_face_controls register_wave7_replay render render_env_probe render_verified_replay reserve_cpu_trial resume_wave7_part2 resume_wave8_diagnostics scan_adaptive_hand setup_npz_inputs setup_sonic show_wave7_trial snapshot_sources sonic_probe sonic_v11_wave1 table_front_preflight test_adaptive_hand test_balance_audit test_balance_contacts_v2 test_branch_execution test_clearance_approach test_contact_audit test_cycle_latency test_damping_adapter test_decoded_arm_filter test_direct_table test_discrete_reference test_dynamics_scene test_execution_monitor test_finger_clearance test_finger_control test_grasp_geometry test_gravity_adapter test_grip_face_region test_grip_preload test_lift_progress test_motion_contract test_motion_profile test_native_branch test_pd_interface test_policy_incremental test_policy_reference test_reference_fallback test_reference_filter test_setdown_interface test_setdown_plan test_sonic_v11 test_table_placement test_teleop test_teleop_geometry test_trial_reservation verify verify_face_default_regression verify_face_servo_prefix verify_no_grip_pair verify_no_grip_wave6 verify_observer_regression verify_servo_default_regression w7_branch_scan w7_facealign_scan w7_refinement_scan wave4_records wave5_records wave6_records

@@ -1,0 +1,6 @@
+name,success,fail,lift_mm,slip_mm,red_n,red
+b25_00_00,False,,133.0,3.62,1,no_robot_table_contact_full_task
+b25_00_10,False,two-finger contact timeout,-1000.0,1000000000000.0,13,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_robot_table_contact_full_task|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+b25_02_06,False,,121.5,3.69,1,no_robot_table_contact_full_task
+b25_04_01,True,,123.8,3.78,0,
+b25_12_04,True,,121.3,4.24,0,

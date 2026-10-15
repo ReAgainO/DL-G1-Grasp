@@ -1,0 +1,8 @@
+kind,run_id,seed,prompt_id,cfg_text,vs,frames_used,dof_l2_mean_rad,dof_l2_max_rad,root_trans_l2_mean_m,root_trans_l2_max_m,root_quat_angle_mean_rad,root_quat_angle_max_rad
+prompt_effect,x01:m0_p2_s0_c,0,P2,2.0,x01:m0_p0_s0_c,100,0.302083,1.283267,0.013731,0.055049,0.056234,0.125074
+prompt_effect,x01:m0_p2_s1_c,1,P2,2.0,x01:m0_p0_s1_c,100,0.304352,1.099241,0.014117,0.020891,0.040714,0.144184
+prompt_effect,x01:m0_p3_s0_c,0,P3,2.0,x01:m0_p0_s0_c,100,3.606183,6.172237,0.289993,0.443776,0.284127,0.596908
+prompt_effect,x01:m0_p3_s1_c,1,P3,2.0,x01:m0_p0_s1_c,100,3.257909,3.664975,0.329554,0.35615,0.310094,0.490241
+prompt_effect,x01:m0_p5_s0_c,0,P5,2.0,x01:m0_p0_s0_c,100,2.701824,3.351676,0.270131,0.291691,0.192704,0.28871
+prompt_effect,x01:m0_p5_s1_c,1,P5,2.0,x01:m0_p0_s1_c,100,2.585415,3.105263,0.282802,0.294048,0.23895,0.299575
+seed_effect,x01:m0_p0_s1_c,1,P0,,x01:m0_p0_s0_c,100,0.823832,1.153985,0.025648,0.049959,0.084244,0.122941

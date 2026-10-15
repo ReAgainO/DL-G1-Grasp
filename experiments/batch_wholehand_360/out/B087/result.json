@@ -1,0 +1,467 @@
+{
+  "success": true,
+  "classification": "physics_success",
+  "grasp_path_executed": true,
+  "success_gate_version": "wholehand-v2-wristlocal-support",
+  "legacy_worldvector_success": false,
+  "reason": "complete",
+  "max_lift_m": 0.1048777294412544,
+  "max_slip_since_lift_m": 0.01782920675291869,
+  "hold_pass_steps": 0,
+  "hold_steps": 2500,
+  "negative_control": false,
+  "basic_lift_achieved": true,
+  "native_mesh_only": true,
+  "retract_raise": true,
+  "hold_safe_steps": 2500,
+  "hold_support_steps": 2500,
+  "hold_each_foot_min_N": [
+    185.17221699965467,
+    152.46578358960545
+  ],
+  "hold_nonfoot_floor_or_robot_table_peak_N": 0.0,
+  "preclose_cube_contact_peak_N": 10.504975590043557,
+  "hold_opposing_load_steps": 2500,
+  "max_wristlocal_slip_alllift_m": 0.00448237202527725,
+  "max_wristlocal_slip_hold_m": 0.000734123125031822,
+  "wrist_reference_servo": true,
+  "max_servo_offset_rad": 0.1926652768347091,
+  "max_joint_limit_violation_rad": 1.6614636192720574e-06,
+  "self_contact_samples": 0,
+  "duration_s": 52.99999999996718,
+  "wall_seconds": 89.4292540550232,
+  "first_bone_contact": {
+    "time": 35.128,
+    "phase": "REACH",
+    "contacts": [
+      {
+        "geom": "right_hand_index_0_link_collision_1",
+        "body": "right_hand_index_0_link",
+        "normal_N": 3.292079316220943,
+        "dist_m": 0.0009544501347580811
+      },
+      {
+        "geom": "table_top",
+        "body": "grasp_table",
+        "normal_N": 2.9802217314233026,
+        "dist_m": 0.0008647891519239379
+      },
+      {
+        "geom": "table_top",
+        "body": "grasp_table",
+        "normal_N": 0.6677469117025401,
+        "dist_m": 0.0008647891519239379
+      },
+      {
+        "geom": "table_top",
+        "body": "grasp_table",
+        "normal_N": 0.7462326581462505,
+        "dist_m": 0.0009203060528693577
+      },
+      {
+        "geom": "table_top",
+        "body": "grasp_table",
+        "normal_N": 0.0,
+        "dist_m": 0.0009203060528693577
+      }
+    ]
+  },
+  "events": [
+    {
+      "time": 35.128,
+      "phase": "REACH",
+      "contacts": [
+        {
+          "geom": "right_hand_index_0_link_collision_1",
+          "body": "right_hand_index_0_link",
+          "normal_N": 3.292079316220943,
+          "dist_m": 0.0009544501347580811
+        },
+        {
+          "geom": "table_top",
+          "body": "grasp_table",
+          "normal_N": 2.9802217314233026,
+          "dist_m": 0.0008647891519239379
+        },
+        {
+          "geom": "table_top",
+          "body": "grasp_table",
+          "normal_N": 0.6677469117025401,
+          "dist_m": 0.0008647891519239379
+        },
+        {
+          "geom": "table_top",
+          "body": "grasp_table",
+          "normal_N": 0.7462326581462505,
+          "dist_m": 0.0009203060528693577
+        },
+        {
+          "geom": "table_top",
+          "body": "grasp_table",
+          "normal_N": 0.0,
+          "dist_m": 0.0009203060528693577
+        }
+      ]
+    }
+  ],
+  "execution_plan": {
+    "geometry_metric": "convex hull SAT independently checked at terminal + mj_forward actual contact pairs along 20ms references",
+    "open_terminal_gaps": [
+      [
+        0.030017540676142707,
+        0.10427928074098214
+      ],
+      [
+        0.03505282215735384,
+        0.07951549334366637
+      ],
+      [
+        0.018646762011398088,
+        0.02763542365662064
+      ],
+      [
+        0.0009995843711534391,
+        0.08017015247498738
+      ],
+      [
+        0.007096353240564235,
+        0.026232993998560716
+      ],
+      [
+        0.0029148861187625608,
+        0.08062837175888748
+      ],
+      [
+        0.009727083089250188,
+        0.02597629855680683
+      ]
+    ],
+    "closed_pad_error_m": 0.0005590134460375218,
+    "max_ik_position_error_m": 9.599469493441784e-09,
+    "max_reference_joint_speed_rad_s": 0.7552871600587874,
+    "path_contact_frames": 0,
+    "path_first_contacts": [],
+    "times_s": [
+      0.0,
+      2.0,
+      10.0,
+      18.0,
+      26.0,
+      36.0,
+      42.0
+    ],
+    "global_time_scale": 2.0,
+    "joint_limits": [
+      [
+        -3.0892,
+        2.6704
+      ],
+      [
+        -2.2515,
+        1.5882
+      ],
+      [
+        -2.618,
+        2.618
+      ],
+      [
+        -1.0472,
+        2.0944
+      ],
+      [
+        -1.97222,
+        1.97222
+      ],
+      [
+        -1.61443,
+        1.61443
+      ],
+      [
+        -1.61443,
+        1.61443
+      ],
+      [
+        -1.0472,
+        1.0472
+      ],
+      [
+        -1.0472,
+        0.724312
+      ],
+      [
+        -2.0944,
+        0.0
+      ],
+      [
+        -0.191986,
+        1.8326
+      ],
+      [
+        0.0,
+        2.0944
+      ],
+      [
+        -0.191986,
+        1.8326
+      ],
+      [
+        0.0,
+        2.0944
+      ]
+    ]
+  },
+  "scope": "ARDY right-arm frame prior + explicit reference-space wrist IK; SONIC all29 decoded motor targets; independent seven-joint finger PD. NOT native ARDY fullbody.",
+  "no_cheats": {
+    "free_base": true,
+    "free_object": true,
+    "neq": 0,
+    "nmocap": 0,
+    "object_actuator_count": 0,
+    "object_write_evidence": "source-audited controller loop writes ctrl only; zero value is a source contract, not a runtime write hook",
+    "object_state_writes_after_init": 0,
+    "xfrc_applied_max": 0.0,
+    "qfrc_applied_max": 0.0
+  },
+  "sonic": {
+    "ort_version": "1.23.2",
+    "models": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    },
+    "encoder_slots": [
+      {
+        "name": "encoder_mode_4",
+        "width": 4
+      },
+      {
+        "name": "motion_joint_positions_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_joint_velocities_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_anchor_orientation_heading_10frame_step5",
+        "width": 60
+      },
+      {
+        "name": "motion_anchor_orientation_heading",
+        "width": 6
+      },
+      {
+        "name": "motion_joint_positions_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "motion_joint_velocities_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "vr_3point_local_target",
+        "width": 9
+      },
+      {
+        "name": "vr_3point_local_orn_target",
+        "width": 12
+      },
+      {
+        "name": "smpl_joints_10frame_step1",
+        "width": 720
+      },
+      {
+        "name": "smpl_anchor_orientation_heading_10frame_step1",
+        "width": 60
+      },
+      {
+        "name": "motion_joint_positions_wrists_10frame_step1",
+        "width": 60
+      }
+    ],
+    "decoder_slots": [
+      {
+        "name": "token_state",
+        "width": 64
+      },
+      {
+        "name": "his_base_angular_velocity_10frame_step1",
+        "width": 30
+      },
+      {
+        "name": "his_body_joint_positions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_body_joint_velocities_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_last_actions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_gravity_dir_10frame_step1",
+        "width": 30
+      }
+    ],
+    "policy_calls": 2650,
+    "unique_encoder_inputs": 2650,
+    "unique_actions": 2650,
+    "body_action_source": "official SONIC v1.1 ONNX; no manual/IK arm motor targets; optional causal decoded-target adapter separately labelled",
+    "mode_ids": [
+      0
+    ],
+    "decoded_target_adapter_used": false,
+    "right_arm_pd_kp_scale": 3.0,
+    "right_arm_pd_kd_scale": 3.4641016151377544,
+    "independent_arm_damping_scales_observed": [
+      2.0
+    ],
+    "right_arm_gravity_feedforward_scale": 1.0,
+    "max_added_gravity_torque_Nm": 4.968395473937054,
+    "actuator_adapter": "SONIC decoded motor targets + PD; optional explicitly labelled decoded-target filter and MODEL GRAVITY ONLY on right-arm actuator torques; no manual target/generalized-force override",
+    "torque_clipped_cells": 0,
+    "torque_steps": 53000,
+    "original_effort_limits_preserved": true
+  },
+  "gravity_arm_scale": 1.0,
+  "trial_config": {
+    "id": "B087",
+    "group": "B",
+    "xy_m": [
+      0.3332951014998212,
+      -0.17441913134585077
+    ],
+    "edge_m": 0.08,
+    "mass_kg": 0.12,
+    "root_x_m": 0.0,
+    "sampling_seed": 20261009,
+    "source_baseline_trial": null,
+    "no_grip": false,
+    "wrist_servo": true,
+    "gravity_arm_scale": 1.0,
+    "native_mesh": true,
+    "time_scale": 2.0,
+    "retract_raise": true
+  },
+  "finger_controller": {
+    "kp": 40,
+    "kd": 2,
+    "armature": 0.1,
+    "original_effort_limits": [
+      [
+        -2.45,
+        2.45
+      ],
+      [
+        -0.7,
+        0.7
+      ],
+      [
+        -0.7,
+        0.7
+      ],
+      [
+        -0.7,
+        0.7
+      ],
+      [
+        -0.7,
+        0.7
+      ],
+      [
+        -0.7,
+        0.7
+      ],
+      [
+        -0.7,
+        0.7
+      ]
+    ]
+  },
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+      "scene": "405cd0376292008444532dea50b24cc653b7677d484a0be5767f6ec9ace334e7"
+    },
+    "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+    "library_sha": {
+      "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "sonic_models": {
+        "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+        "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+        "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+      },
+      "plan": "d1328b35ebbc8ec257e406121f64dbe6361e353086e71df0b26f232b7daf696f"
+    },
+    "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+    "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+    "model_xml_sha": {
+      "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+      "scene": "405cd0376292008444532dea50b24cc653b7677d484a0be5767f6ec9ace334e7"
+    },
+    "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+    "dt": 0.001,
+    "impratio": 10,
+    "margin_m": 0.001,
+    "solref": [
+      0.02,
+      1
+    ],
+    "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_B087",
+    "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+    "ardy_source": {
+      "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+      "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "source_fps": 25.0,
+      "native_frames": 100,
+      "native_clip_duration_s": 4.0,
+      "last_sample_time_s": 3.96,
+      "expected50Hz_frames": 199,
+      "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+      "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+      "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+      "joint_names": [
+        "left_hip_pitch_joint",
+        "left_hip_roll_joint",
+        "left_hip_yaw_joint",
+        "left_knee_joint",
+        "left_ankle_pitch_joint",
+        "left_ankle_roll_joint",
+        "right_hip_pitch_joint",
+        "right_hip_roll_joint",
+        "right_hip_yaw_joint",
+        "right_knee_joint",
+        "right_ankle_pitch_joint",
+        "right_ankle_roll_joint",
+        "waist_yaw_joint",
+        "waist_roll_joint",
+        "waist_pitch_joint",
+        "left_shoulder_pitch_joint",
+        "left_shoulder_roll_joint",
+        "left_shoulder_yaw_joint",
+        "left_elbow_joint",
+        "left_wrist_roll_joint",
+        "left_wrist_pitch_joint",
+        "left_wrist_yaw_joint",
+        "right_shoulder_pitch_joint",
+        "right_shoulder_roll_joint",
+        "right_shoulder_yaw_joint",
+        "right_elbow_joint",
+        "right_wrist_roll_joint",
+        "right_wrist_pitch_joint",
+        "right_wrist_yaw_joint"
+      ],
+      "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+      "text": "A person reaches forward with their right hand to grab a small object on a table.",
+      "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+    },
+    "root_x_initial_m": 0.0
+  },
+  "synthetic_pads": "DISABLED: inherited spheres visual markers only; seven original right collision geoms and palm/wrist remain physical"
+}

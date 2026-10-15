@@ -1,0 +1,146 @@
+{
+  "tag": "ARDY_mdtype_p0_s0_c_fp32textenc_rep2",
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22",
+    "numpy_version": "1.26.4",
+    "torch_version": "2.14.1+cpu",
+    "model_sha": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e",
+    "scene_generator_sha": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+    "runner_sha": "b3b0c9410a3e9f5f2bb7c120fbecee7c500dda6b385b00cf93845035ecc3c004",
+    "library_sha": "5922525847b515bd4162a7fe8a8b4593c6c760f25c4131d90a0a3528eb63a1db",
+    "input_csv_sha256": "0efc8939cf4e6c5fd34f61a104b9cdcf80145688ec2e1113234de235a67ade61",
+    "timestep": 0.002,
+    "nq_nv_nu": [
+      57,
+      55,
+      43
+    ],
+    "integrator_cone_solver": [
+      3,
+      1,
+      2
+    ],
+    "multiccd": false,
+    "mode": "sonic-closed",
+    "base": "pinned",
+    "runner_args": "--trace-csv /data/group4/20261006-055934-qoder-x05eval/runs/ARDY_mdtype_p0_s0_c_fp32textenc_rep2/r01/trace.csv --duration 4 --allow-failure --motion-source ardy --motion-file /data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv --source-fps 25 --close-start 2.2 --close-duration 0.6 --lift-start 2.8 --lift-duration 1",
+    "export_used": false,
+    "pythonpath_shim": null,
+    "rlimit_as_gib": 16.0,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "mujoco_gl": "unset"
+  },
+  "repeats": 1,
+  "ru_maxrss_children_kb": 727412,
+  "ru_maxrss_before_kb": 324888,
+  "runs": [
+    {
+      "repeat_index": 1,
+      "tag": "ARDY_mdtype_p0_s0_c_fp32textenc_rep2",
+      "rc": 0,
+      "timed_out": false,
+      "wall_seconds": 5.689,
+      "child_pid": 3581168,
+      "stdout_sha256": "a9eb31f03304455588b54adf5e3e63072fef370e41bd1c0fea23847632d78f4b",
+      "result_line": "[RESULT] success=False no_grip=False max_contacts=0 max_contact_bodies=0 contact_bodies=[] max_normal_force=0.000N lift_contact_time=0.000s lifted_height=0.0050m final_clearance=-0.0008m final_cube_pos=[0.2292, -0.1807, 0.7417]",
+      "result_line_sha256": "8e032dc93bb0f87e3e5e61ee7c7ef5897d74b4649f8a3690e80e9e9522e4b183",
+      "success_raw": "False",
+      "no_grip_raw": "False",
+      "lifted_height": 0.005,
+      "final_clearance": -0.0008,
+      "max_normal_force": 0.0,
+      "max_contact_bodies": 0.0,
+      "max_contacts": 0.0,
+      "lift_contact_time": 0.0,
+      "contact_bodies": "[]",
+      "control_mode": "generated-motion",
+      "fixed_arm_override_count": "0",
+      "fixed_arm_pd_write_count": "0",
+      "unique_action_hashes": "200",
+      "action_count": "200",
+      "stdout_lines": 23
+    }
+  ],
+  "summary": {
+    "success_counts": {
+      "True": 0,
+      "False": 1
+    },
+    "success_flips_adjacent": 0,
+    "failed_repeat_indices": [
+      1
+    ],
+    "distinct_stdout_shas": 1,
+    "distinct_result_line_shas": 1,
+    "distinct_manifest_csv_shas": 0,
+    "lifted_height": {
+      "n": 1,
+      "min": 0.005,
+      "median": 0.005,
+      "max": 0.005,
+      "range": 0.0,
+      "distinct_round6": [
+        0.005
+      ]
+    },
+    "final_clearance": {
+      "n": 1,
+      "min": -0.0008,
+      "median": -0.0008,
+      "max": -0.0008,
+      "range": 0.0,
+      "distinct_round6": [
+        -0.0008
+      ]
+    },
+    "max_normal_force": {
+      "n": 1,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 0.0,
+      "range": 0.0,
+      "distinct_round6": [
+        0.0
+      ]
+    },
+    "max_contact_bodies": {
+      "n": 1,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 0.0,
+      "range": 0.0,
+      "distinct_round6": [
+        0.0
+      ]
+    },
+    "lift_contact_time": {
+      "n": 1,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 0.0,
+      "range": 0.0,
+      "distinct_round6": [
+        0.0
+      ]
+    },
+    "wall_seconds": {
+      "n": 1,
+      "min": 5.689,
+      "median": 5.689,
+      "max": 5.689,
+      "range": 0.0,
+      "distinct_round6": [
+        5.689
+      ]
+    },
+    "rc_counts": {
+      "0": 1
+    }
+  }
+}

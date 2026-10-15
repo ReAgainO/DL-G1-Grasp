@@ -1,0 +1,23 @@
+# Versions read back out of the run artefacts, not from a lock file.
+# The runs used a shared interpreter on the source node that is not part of this repo, so there is
+# no per-package lock here: each line says which artefact records that version. It proves the version
+# that was in use, not byte-identical environments.
+#
+#   python3.10 -m venv .venv && . .venv/bin/activate
+#   pip install -r requirements.txt
+#   python -c "import mujoco,numpy,onnxruntime;print(mujoco.__version__,numpy.__version__,onnxruntime.__version__)"
+#     expected: 3.2.7 1.26.4 1.23.2
+
+mujoco==3.2.7            # experiments/cube35_wholehand_trial32/.../normal_trial32/result.json : runtime.mujoco
+numpy==1.26.4            # experiments/batch_wholehand_360/manifest.json : numpy_version (needed to regenerate the pool)
+onnxruntime==1.23.2      # .../normal_trial32/result.json : sonic.ort_version
+scipy==1.11.4            # vendored copy in experiments/cube80_sideways_wholehand/plandeps/scipy-1.11.4.dist-info
+PyYAML                   # version not recorded in any artefact -> unverified, install latest 6.x
+flatbuffers==25.12.19    # inferred from a wheel-cache directory name on the node (not in this repo); reference only
+
+# Only needed to regenerate ARDY arm priors (not to reproduce a grasp):
+#   torch==2.6.0+cpu     # src/sonic_v11_runtime/src/generation-manifest.json : torch, device=cpu
+#                        # the +cpu build is not on PyPI; use https://download.pytorch.org/whl/cpu
+
+# Deliberately not required by anything in this repo: torch_musa, vllm-musa, MUSA SDK.
+# All recorded runs are CPU MuJoCo; the GPU side is a different task.

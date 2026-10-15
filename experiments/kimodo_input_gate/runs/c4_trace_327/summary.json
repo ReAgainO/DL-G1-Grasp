@@ -1,0 +1,170 @@
+{
+  "tag": "c4_trace_327",
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22",
+    "numpy_version": "1.26.4",
+    "torch_version": "2.14.1+cpu",
+    "model_sha": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e",
+    "scene_generator_sha": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+    "runner_sha": "b3b0c9410a3e9f5f2bb7c120fbecee7c500dda6b385b00cf93845035ecc3c004",
+    "library_sha": "5922525847b515bd4162a7fe8a8b4593c6c760f25c4131d90a0a3528eb63a1db",
+    "input_csv_sha256": null,
+    "timestep": 0.002,
+    "nq_nv_nu": [
+      57,
+      55,
+      43
+    ],
+    "integrator_cone_solver": [
+      3,
+      1,
+      2
+    ],
+    "multiccd": false,
+    "mode": "direct",
+    "base": "pinned",
+    "runner_args": "--trace-csv /data/group4/20261006-055934-qoder-x05eval/runs/c4_trace_327/r01/trace.csv",
+    "export_used": true,
+    "pythonpath_shim": null,
+    "rlimit_as_gib": 16.0,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "mujoco_gl": "unset"
+  },
+  "repeats": 1,
+  "ru_maxrss_children_kb": 733572,
+  "ru_maxrss_before_kb": 324876,
+  "runs": [
+    {
+      "repeat_index": 1,
+      "tag": "c4_trace_327",
+      "rc": 0,
+      "timed_out": false,
+      "wall_seconds": 10.801,
+      "child_pid": 3514450,
+      "stdout_sha256": "c327dee315e9e0c4af134e32876def97356825fad468c68c1cac51c68381feaa",
+      "result_line": "[RESULT] success=True no_grip=False max_contacts=2 max_contact_bodies=2 contact_bodies=['right_hand_index_1_link', 'right_hand_thumb_2_link'] max_normal_force=4.211N lift_contact_time=4.000s lifted_height=0.0954m final_clearance=0.1274m final_cube_pos=[0.2792, -0.0954, 0.8699]",
+      "result_line_sha256": "70e6810490f6f11ce4c23eb40f1332961c7a03fdc5f06d5a955f8055a890934c",
+      "success_raw": "True",
+      "no_grip_raw": "False",
+      "lifted_height": 0.0954,
+      "final_clearance": 0.1274,
+      "max_normal_force": 4.211,
+      "max_contact_bodies": 2.0,
+      "max_contacts": 2.0,
+      "lift_contact_time": 4.0,
+      "contact_bodies": "['right_hand_index_1_link', 'right_hand_thumb_2_link']",
+      "control_mode": "keyframe",
+      "fixed_arm_override_count": "900",
+      "fixed_arm_pd_write_count": "9000",
+      "unique_action_hashes": "900",
+      "action_count": "900",
+      "stdout_lines": 16,
+      "manifest_full_precision": {
+        "contact_bodies": [
+          "right_hand_index_1_link",
+          "right_hand_thumb_2_link"
+        ],
+        "final_clearance_metres": 0.12736102813845235,
+        "final_cube_position_xyz": [
+          0.2791528721120032,
+          -0.09539990606519955,
+          0.8698610281384523
+        ],
+        "lift_contact_time_seconds": 4.0,
+        "lifted_height_metres": 0.09536102813845238,
+        "max_contact_bodies": 2,
+        "max_contacts": 2,
+        "max_normal_force_newtons": 4.21103750893518,
+        "success": true
+      },
+      "manifest_csv_sha256": "b63c27970a6ee4ca4611143eeb5cbcfc7ee1776b4d6425f3ec2e83895c6876e0",
+      "manifest_provenance": {
+        "physical_contact_only": true,
+        "producer": "runners/run_grasp.py keyframe mode",
+        "reproduction_command": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python runners/run_grasp.py --headless --quiet --trace-csv /data/group4/20261006-055934-qoder-x05eval/runs/c4_trace_327/r01/trace.csv --export-baseline-csv /data/group4/20261006-055934-qoder-x05eval/runs/c4_trace_327/r01/baseline.csv --export-baseline-manifest /data/group4/20261006-055934-qoder-x05eval/runs/c4_trace_327/r01/manifest.json",
+        "scene_conditioned": true,
+        "uses_weld_or_adhesion": false
+      }
+    }
+  ],
+  "summary": {
+    "success_counts": {
+      "True": 1,
+      "False": 0
+    },
+    "success_flips_adjacent": 0,
+    "failed_repeat_indices": [],
+    "distinct_stdout_shas": 1,
+    "distinct_result_line_shas": 1,
+    "distinct_manifest_csv_shas": 1,
+    "lifted_height": {
+      "n": 1,
+      "min": 0.0954,
+      "median": 0.0954,
+      "max": 0.0954,
+      "range": 0.0,
+      "distinct_round6": [
+        0.0954
+      ]
+    },
+    "final_clearance": {
+      "n": 1,
+      "min": 0.1274,
+      "median": 0.1274,
+      "max": 0.1274,
+      "range": 0.0,
+      "distinct_round6": [
+        0.1274
+      ]
+    },
+    "max_normal_force": {
+      "n": 1,
+      "min": 4.211,
+      "median": 4.211,
+      "max": 4.211,
+      "range": 0.0,
+      "distinct_round6": [
+        4.211
+      ]
+    },
+    "max_contact_bodies": {
+      "n": 1,
+      "min": 2.0,
+      "median": 2.0,
+      "max": 2.0,
+      "range": 0.0,
+      "distinct_round6": [
+        2.0
+      ]
+    },
+    "lift_contact_time": {
+      "n": 1,
+      "min": 4.0,
+      "median": 4.0,
+      "max": 4.0,
+      "range": 0.0,
+      "distinct_round6": [
+        4.0
+      ]
+    },
+    "wall_seconds": {
+      "n": 1,
+      "min": 10.801,
+      "median": 10.801,
+      "max": 10.801,
+      "range": 0.0,
+      "distinct_round6": [
+        10.801
+      ]
+    },
+    "rc_counts": {
+      "0": 1
+    }
+  }
+}

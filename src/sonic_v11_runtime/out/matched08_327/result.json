@@ -1,0 +1,105 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "af19865910e94862ac5c70246811c18f0ca22a179c7a12c1990ed632697189b5",
+      "robot": "4ffee3d4cb8638c460926ba48b68896fa5acb5623d3ee9916046878919d734af"
+    },
+    "scene_generator_sha": "796d3761e1b290475f42eae597f22ae4dc57556a3cae665eca1603b19f287097",
+    "library_sha": {
+      "trajectory_py": "560bba85890893bf6e7ffaeca37f530fb5563a2101a7095dcb52de0f09eedaf9",
+      "task_plan_npz": "52fd4752fd515114b0d66887118d3dc498efd75e1c4a0ff35db07c34e350ac55",
+      "grasp_py": "796d3761e1b290475f42eae597f22ae4dc57556a3cae665eca1603b19f287097",
+      "control_py": "6b76e5dc117022bda97d0cb6b2897e1862a3ab999ffd1074e2c8da1214082b8e",
+      "calibration_npz": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "ardy_source_csv": "794b52355a37321c5bc0570b06a404ab9338c1d5087a55576a0ada7e61d518a5"
+    },
+    "dt": 0.002,
+    "timestep": 0.002
+  },
+  "success": true,
+  "gates": {
+    "completed": true,
+    "hold_7cm": true,
+    "two_fingers": true,
+    "no_support": true,
+    "clearance_4cm": true,
+    "slip_1cm": true,
+    "release_drop_6cm": true,
+    "final_supported": true,
+    "final_fingers_off": true,
+    "fixed_base": true,
+    "no_external": true,
+    "no_warnings": true
+  },
+  "no_grip": false,
+  "pad_off": false,
+  "fail_reason": null,
+  "events": [
+    {
+      "phase": "PREGRASP",
+      "time_s": 0.0
+    },
+    {
+      "phase": "DESCEND",
+      "time_s": 1.0020000000000007
+    },
+    {
+      "phase": "ALIGN",
+      "time_s": 7.065999999999444
+    },
+    {
+      "phase": "CLOSE",
+      "time_s": 7.165999999999433
+    },
+    {
+      "phase": "LIFT",
+      "time_s": 9.167999999999731
+    },
+    {
+      "phase": "HOLD",
+      "time_s": 15.230000000001755
+    },
+    {
+      "phase": "RELEASE",
+      "time_s": 17.234000000001327
+    },
+    {
+      "phase": "SETTLE",
+      "time_s": 18.23800000000077
+    }
+  ],
+  "attribution": "hybrid geometric wrist constraints + bounded IK with ARDY posture prior; not native ARDY grasp",
+  "calibration_route": "human calibrated pregrasp/grasp endpoint joint interpolation converted to Cartesian corridor; ARDY only perturbs redundant posture",
+  "initial_condition": "pregrasp IK pose; arm initialized above cube, NOT full neutral-to-object approach",
+  "duration_s": 21.241999999999106,
+  "steps": 10621,
+  "max_lift_m": 0.08523016138955852,
+  "hold_min_lift_m": 0.08401183811637558,
+  "hold_slip_m": 0.002176714684325527,
+  "hold_min_contact_bodies": 2,
+  "hold_min_total_finger_normal_force_N": 6.862853475618693,
+  "hold_max_support_force_N": 0.0,
+  "tracking_rms_rad": 0.00455657733660641,
+  "tracking_max_rad": 0.027404313770637678,
+  "torque_saturation_fraction": 0.0,
+  "warning_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "wall_s": 43.394970752997324,
+  "final_cube_xyz_m": [
+    0.28970596928919273,
+    -0.08178460705623923,
+    0.7424078785418239
+  ],
+  "scene": "/data/group4/20261006-093203-codex-6385a841/out/matched08_327/scene_fixed_grasp.xml"
+}

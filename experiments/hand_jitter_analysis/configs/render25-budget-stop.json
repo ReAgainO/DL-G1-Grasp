@@ -1,0 +1,84 @@
+{
+  "time": "2026-10-09T17:39:37.783729+08:00",
+  "reason": "25fps full53s rendering at observed throughput projects near/above580s budget. Stop only these verified own render groups, preserve partial outputs, rerender34-53s clip in a new directory. No physics repeats/no data deletions.",
+  "groups": [
+    670386,
+    670388,
+    670391,
+    670393
+  ],
+  "rows": [
+    {
+      "pid": 670386,
+      "cmd": "timeout --kill-after=5 580 taskset -c 80,81 /data/group4/20261004-205550-qoder-1280b420/env/bin/python -B /data/group4/20261009-170228-codex-fcd727b9/render_dense.py A_base ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815124"
+    },
+    {
+      "pid": 670389,
+      "cmd": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python -B /data/group4/20261009-170228-codex-fcd727b9/render_dense.py A_base ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815124"
+    },
+    {
+      "pid": 670490,
+      "cmd": "/home/group4/group4_dasc7606c/envs/render/lib/python3.10/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2 -v error -nostdin -f rawvideo -pix_fmt rgb24 -s 960x360 -r 25 -i - -an -c:v libx264 -threads 1 -preset veryfast -crf 18 -pix_fmt yuv420p -movflags +faststart /data/group4/20261009-170228-codex-fcd727b9/out/A_base/replay25/grasp-25fps.mp4 ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815261"
+    },
+    {
+      "pid": 670388,
+      "cmd": "timeout --kill-after=5 580 taskset -c 82,83 /data/group4/20261004-205550-qoder-1280b420/env/bin/python -B /data/group4/20261009-170228-codex-fcd727b9/render_dense.py A_combo3 ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815124"
+    },
+    {
+      "pid": 670392,
+      "cmd": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python -B /data/group4/20261009-170228-codex-fcd727b9/render_dense.py A_combo3 ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815124"
+    },
+    {
+      "pid": 670487,
+      "cmd": "/home/group4/group4_dasc7606c/envs/render/lib/python3.10/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2 -v error -nostdin -f rawvideo -pix_fmt rgb24 -s 960x360 -r 25 -i - -an -c:v libx264 -threads 1 -preset veryfast -crf 18 -pix_fmt yuv420p -movflags +faststart /data/group4/20261009-170228-codex-fcd727b9/out/A_combo3/replay25/grasp-25fps.mp4 ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815256"
+    },
+    {
+      "pid": 670391,
+      "cmd": "timeout --kill-after=5 580 taskset -c 84,85 /data/group4/20261004-205550-qoder-1280b420/env/bin/python -B /data/group4/20261009-170228-codex-fcd727b9/render_dense.py C_base ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815124"
+    },
+    {
+      "pid": 670394,
+      "cmd": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python -B /data/group4/20261009-170228-codex-fcd727b9/render_dense.py C_base ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815124"
+    },
+    {
+      "pid": 670489,
+      "cmd": "/home/group4/group4_dasc7606c/envs/render/lib/python3.10/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2 -v error -nostdin -f rawvideo -pix_fmt rgb24 -s 960x360 -r 25 -i - -an -c:v libx264 -threads 1 -preset veryfast -crf 18 -pix_fmt yuv420p -movflags +faststart /data/group4/20261009-170228-codex-fcd727b9/out/C_base/replay25/grasp-25fps.mp4 ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815257"
+    },
+    {
+      "pid": 670393,
+      "cmd": "timeout --kill-after=5 580 taskset -c 86,87 /data/group4/20261004-205550-qoder-1280b420/env/bin/python -B /data/group4/20261009-170228-codex-fcd727b9/render_dense.py C_combo3 ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815124"
+    },
+    {
+      "pid": 670395,
+      "cmd": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python -B /data/group4/20261009-170228-codex-fcd727b9/render_dense.py C_combo3 ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815124"
+    },
+    {
+      "pid": 670488,
+      "cmd": "/home/group4/group4_dasc7606c/envs/render/lib/python3.10/site-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2 -v error -nostdin -f rawvideo -pix_fmt rgb24 -s 960x360 -r 25 -i - -an -c:v libx264 -threads 1 -preset veryfast -crf 18 -pix_fmt yuv420p -movflags +faststart /data/group4/20261009-170228-codex-fcd727b9/out/C_combo3/replay25/grasp-25fps.mp4 ",
+      "cwd": "/data/group4/20261009-170228-codex-fcd727b9",
+      "ticks": "88815256"
+    }
+  ]
+}

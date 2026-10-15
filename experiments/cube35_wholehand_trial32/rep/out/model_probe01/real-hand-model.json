@@ -1,0 +1,205 @@
+{
+  "variant": "real finger collision surfaces; nonphysical marker only",
+  "collision": [
+    {
+      "body": "left_hand_thumb_0_link",
+      "name": "physical_left_hand_thumb_0_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_thumb_1_link",
+      "name": "physical_left_hand_thumb_1_link",
+      "role": "physical finger surface",
+      "type": "box"
+    },
+    {
+      "body": "left_hand_thumb_2_link",
+      "name": "physical_left_hand_thumb_2_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_middle_0_link",
+      "name": "physical_left_hand_middle_0_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_middle_1_link",
+      "name": "physical_left_hand_middle_1_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_index_0_link",
+      "name": "physical_left_hand_index_0_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_index_1_link",
+      "name": "physical_left_hand_index_1_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_0_link",
+      "name": "physical_right_hand_thumb_0_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_1_link",
+      "name": "physical_right_hand_thumb_1_link",
+      "role": "physical finger surface",
+      "type": "box"
+    },
+    {
+      "body": "right_hand_thumb_2_link",
+      "name": "physical_right_hand_thumb_2_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_2_link",
+      "name": "right_thumb_fingertip",
+      "role": "noncontact FK marker"
+    },
+    {
+      "body": "right_hand_index_0_link",
+      "name": "physical_right_hand_index_0_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_index_1_link",
+      "name": "physical_right_hand_index_1_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_index_1_link",
+      "name": "right_index_fingertip",
+      "role": "noncontact FK marker"
+    },
+    {
+      "body": "right_hand_middle_0_link",
+      "name": "physical_right_hand_middle_0_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_middle_1_link",
+      "name": "physical_right_hand_middle_1_link",
+      "role": "physical finger surface",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_middle_1_link",
+      "name": "right_middle_fingertip",
+      "role": "noncontact FK marker"
+    }
+  ],
+  "markers": [
+    {
+      "marker": "right_thumb_fingertip",
+      "body": "right_hand_thumb_2_link",
+      "old_point_m": [
+        0.0,
+        0.054,
+        0.0
+      ],
+      "actual_mesh_bounds_m": [
+        [
+          -0.008515913979016469,
+          -0.007000001549554979,
+          -0.012899999646324519
+        ],
+        [
+          0.01005795545123318,
+          0.06860980452407858,
+          0.012800000467996142
+        ]
+      ],
+      "nearest_vertex_m": [
+        -0.0055713034529688895,
+        0.054313187053600304,
+        5.7109901391477484e-08
+      ],
+      "surface_marker_m": [
+        0.000687099334772489,
+        0.06860980452407858,
+        1.7093887845223112e-05
+      ],
+      "physical_geom": "physical_right_hand_thumb_2_link",
+      "mesh_vertices": 7683
+    },
+    {
+      "marker": "right_index_fingertip",
+      "body": "right_hand_index_1_link",
+      "old_point_m": [
+        0.054,
+        0.0,
+        0.0
+      ],
+      "actual_mesh_bounds_m": [
+        [
+          -0.007000001550860539,
+          -0.008515913982762129,
+          -0.012800000468393715
+        ],
+        [
+          0.06860980452549946,
+          0.010057955447958343,
+          0.012899999646882956
+        ]
+      ],
+      "nearest_vertex_m": [
+        0.05431318705733068,
+        -0.005571303437812314,
+        -5.710893954970384e-08
+      ],
+      "surface_marker_m": [
+        0.06860980452549946,
+        0.000687099335450798,
+        -1.7093888433020844e-05
+      ],
+      "physical_geom": "physical_right_hand_index_1_link",
+      "mesh_vertices": 7683
+    },
+    {
+      "marker": "right_middle_fingertip",
+      "body": "right_hand_middle_1_link",
+      "old_point_m": [
+        0.054,
+        0.0,
+        0.0
+      ],
+      "actual_mesh_bounds_m": [
+        [
+          -0.007000001550860539,
+          -0.008515913982762129,
+          -0.012800000468393715
+        ],
+        [
+          0.06860980452549946,
+          0.010057955447958343,
+          0.012899999646882956
+        ]
+      ],
+      "nearest_vertex_m": [
+        0.05431318705733068,
+        -0.005571303437812314,
+        -5.710893954970384e-08
+      ],
+      "surface_marker_m": [
+        0.06860980452549946,
+        0.000687099335450798,
+        -1.7093888433020844e-05
+      ],
+      "physical_geom": "physical_right_hand_middle_1_link",
+      "mesh_vertices": 7683
+    }
+  ]
+}

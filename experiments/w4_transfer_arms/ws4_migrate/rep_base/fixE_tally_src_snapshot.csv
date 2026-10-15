@@ -1,0 +1,84 @@
+name,success,fail,lift_mm,slip_mm,red_n,red
+a35_02_05,True,,115.2,3.64,0,
+a35_10_10,True,,126.8,3.64,0,
+a35_18_12,False,,-1.0,141.96,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+a35_19_12,False,,-4.0,146.15,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+a35_19_13,False,,-0.1,31.34,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+a35_19_14,True,,126.8,3.74,0,
+a35_19_15,False,,-4.6,137.17,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+a35_19_16,True,,127.1,3.67,0,
+a35_19_18,True,,114.7,3.68,0,
+a35_19_19,False,two-finger contact timeout,-1000.0,1000000000000.0,12,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+d50_00_00,True,,130.7,3.54,0,
+d50_16_14,True,,128.9,3.77,0,
+d50_16_15,False,,-4.3,135.97,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+d50_16_16,False,,-2.1,138.65,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+d50_16_17,True,,122.7,2.61,0,
+e35n_00_00,False,,108.0,4.0,1,no_robot_table_contact_full_task
+e35n_00_01,False,,107.0,3.92,1,no_robot_table_contact_full_task
+e35n_00_02,False,,106.7,3.83,1,no_robot_table_contact_full_task
+e35n_00_03,False,,-0.1,28.28,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_00_04,False,,110.8,3.71,1,no_robot_table_contact_full_task
+e35n_00_05,False,two-finger contact timeout,-1000.0,1000000000000.0,15,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|final_supported|final_table_supported|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_robot_table_contact_full_task|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+e35n_00_06,True,,104.3,3.7,0,
+e35n_00_07,False,two-finger contact timeout,-1000.0,1000000000000.0,13,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_robot_table_contact_full_task|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+e35n_00_08,True,,109.5,3.66,0,
+e35n_00_09,False,,-0.1,66.81,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_00_10,True,,112.2,3.74,0,
+e35n_00_11,True,,115.8,3.68,0,
+e35n_00_12,True,,107.0,3.79,0,
+e35n_00_13,True,,109.4,3.74,0,
+e35n_00_14,True,,109.1,3.58,0,
+e35n_00_15,False,,-2.8,132.9,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_00_16,False,,-5.8,138.63,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_00_17,True,,107.1,3.65,0,
+e35n_00_18,True,,101.8,4.0,0,
+e35n_00_19,True,,111.5,4.46,0,
+e35n_04_03,True,,108.4,3.71,0,
+e35n_04_04,False,two-finger contact timeout,-1000.0,1000000000000.0,13,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_robot_table_contact_full_task|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+e35n_04_05,False,,-0.1,23.73,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_04_06,False,,-1.3,108.65,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_04_07,False,,-0.1,45.39,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_04_08,False,,-0.1,37.56,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_04_09,False,,-0.1,33.01,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_04_10,False,,-2.7,129.74,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_04_11,False,,-0.1,23.95,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_04_12,True,,120.3,3.76,0,
+e35n_04_13,True,,106.8,3.72,0,
+e35n_04_14,False,,102.1,3.68,1,no_robot_table_contact_full_task
+e35n_04_15,True,,99.9,4.78,0,
+e35n_04_16,False,,-0.1,23.01,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_04_17,True,,107.6,3.58,0,
+e35n_04_18,True,,113.5,4.26,0,
+e35n_04_19,True,,105.4,3.64,0,
+e35n_08_09,False,two-finger contact timeout,-1000.0,1000000000000.0,12,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+e35n_08_10,True,,102.5,3.83,0,
+e35n_08_11,False,,-0.1,32.73,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_08_12,False,,-0.1,34.64,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_08_13,False,,-1.1,117.35,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_08_14,True,,113.0,3.83,0,
+e35n_08_15,False,,-0.1,43.44,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_08_16,False,two-finger contact timeout,-1000.0,1000000000000.0,14,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|final_supported|final_table_supported|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+e35n_08_17,True,,104.0,4.04,0,
+e35n_08_18,True,,106.8,3.71,0,
+e35n_08_19,True,,108.3,3.68,0,
+e35n_12_07,False,,-0.8,116.52,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_12_08,False,,125.7,25.26,2,slip_1cm|two_fingers
+e35n_12_09,False,,-0.1,21.33,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_12_10,True,,119.2,7.32,0,
+e35n_12_11,False,,-0.1,37.3,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_12_12,False,,-0.1,29.21,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_12_13,False,,-0.1,24.04,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_12_14,False,,-0.1,33.11,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_12_15,False,two-finger contact timeout,-1000.0,1000000000000.0,12,clearance_4cm|completed|feet_supported_in_hold|final_fingers_off|fingertip_only_robot_contacts_in_hold|hold_7cm|no_nonfoot_floor_support_in_hold|no_support|no_table_rest_in_hold|release_drop_6cm|slip_1cm|two_fingers
+e35n_12_16,False,,-0.1,42.82,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_12_17,False,,-0.1,28.12,6,clearance_4cm|hold_7cm|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_12_18,True,,105.2,4.28,0,
+e35n_12_19,True,,100.4,4.07,0,
+e35n_16_12,False,,119.1,13.88,1,slip_1cm
+e35n_16_14,False,,-0.1,51.08,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_16_15,False,,-0.1,40.57,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_16_16,False,,-0.1,24.66,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_16_17,False,,105.2,3.59,1,no_robot_table_contact_full_task
+e35n_16_18,False,,-0.1,42.0,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers
+e35n_16_19,False,,-0.1,37.26,7,clearance_4cm|hold_7cm|no_robot_table_contact_full_task|no_support|release_drop_6cm|slip_1cm|two_fingers

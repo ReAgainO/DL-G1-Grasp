@@ -1,0 +1,24 @@
+[
+  {
+    "name": "matched08_314",
+    "exit": 0,
+    "wall_s": 55.02624201204162,
+    "log": "/data/group4/20261006-093203-codex-6385a841/out/batch-matched08_314.log",
+    "version": "3.14.0",
+    "success": true,
+    "hold_min_lift_m": 0.08363445345648779,
+    "max_lift_m": 0.08472444049733929,
+    "tracking_rms": 0.00461618567699337
+  },
+  {
+    "name": "matched0_314",
+    "exit": 0,
+    "wall_s": 54.82530972000677,
+    "log": "/data/group4/20261006-093203-codex-6385a841/out/batch-matched0_314.log",
+    "version": "3.14.0",
+    "success": true,
+    "hold_min_lift_m": 0.08330190072452293,
+    "max_lift_m": 0.08437710892569239,
+    "tracking_rms": 0.0048026013502305885
+  }
+]

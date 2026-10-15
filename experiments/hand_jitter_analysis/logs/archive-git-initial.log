@@ -1,0 +1,54 @@
+[master 6e25b6b] Archive hand-jitter milestone 20261009-170228-codex-fcd727b9 initial
+ 50 files changed, 20157 insertions(+)
+ create mode 100644 claims/20261009-170228-codex-fcd727b9/card.txt
+ create mode 100644 claims/20261009-170228-codex-fcd727b9/rules_seen
+ create mode 100644 claims/20261009-170228-codex-fcd727b9/rules_seen_after
+ create mode 100644 logs/20261009-170228-codex-fcd727b9/steps.md
+ create mode 100644 reports/20261009-170228-codex-fcd727b9-report.md
+ create mode 100644 work/20261009-170228-codex-fcd727b9/REPORT.md
+ create mode 100644 work/20261009-170228-codex-fcd727b9/archive_jitter.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/archived-jitter.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/batch_plan.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/bootstrap.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/build_report.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/evaluate_tracking.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/evaluate_wave.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/execute_baseline.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/execute_jitter.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/execute_jitter_pose.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/freeze_wave.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/freeze_wave_pose.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/jitter_control.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/launch_safe.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/operator-errors.md
+ create mode 100644 work/20261009-170228-codex-fcd727b9/own-ledger-preclose.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/pause_wave4.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/prepare_and_analyze.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/render_batch.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/render_clip.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/render_clip_wave.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/render_dense.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/render_wave.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/run_wave.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/run_wave_pose.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/stop_full_render.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/summary.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/test_jitter_control.py
+ create mode 100644 work/20261009-170228-codex-fcd727b9/tracking-6.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/tracking-7.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave1-evaluation.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave2-evaluation.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave2-spec.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave3-evaluation.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave3-spec.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave4-evaluation.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave4-spec.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave5-evaluation.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave5-spec.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave6-evaluation.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave6-spec.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave7-evaluation.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wave7-spec.json
+ create mode 100644 work/20261009-170228-codex-fcd727b9/wholehand_side.py
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.

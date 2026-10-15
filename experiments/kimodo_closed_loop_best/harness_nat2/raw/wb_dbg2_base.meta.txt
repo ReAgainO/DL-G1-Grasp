@@ -1,0 +1,10 @@
+name=wb_dbg2_base
+utc_start=2026-10-08T17:19:07Z
+host=worker00039 uid=1004
+runner_sha256=8972757117db21763b97d62918a9d078ca9d6f4cf0bceb57a0ea08ab843373e6
+sonic_grasp_sha256=f0fc32dc52231e95bb48a2590e0c48499884e3fd47f83eeb6c0c2c42064f51ea
+motion_stem=near_s42
+sonic_grasp_args=wb_dbg2_base --cube-edge-mm=35 --cube-x=0.267 --cube-y=-0.118
+utc_end=2026-10-08T17:21:19Z
+rc=0 wall_s=132
+result_json=/data/group4/20261008-232029-workbuddy-34e89f61/harness_s1000/rep/out/wb_dbg2_base/result.json

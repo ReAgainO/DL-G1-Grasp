@@ -1,0 +1,23 @@
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv frame=57 joint=waist_pitch_joint value=0.521546423 range=[-0.52, 0.52] excess=0.00154642344 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv frame=58 joint=waist_pitch_joint value=0.522625208 range=[-0.52, 0.52] excess=0.0026252079 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv frame=59 joint=waist_pitch_joint value=0.523119152 range=[-0.52, 0.52] excess=0.00311915159 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv frame=60 joint=waist_pitch_joint value=0.520961285 range=[-0.52, 0.52] excess=0.000961284637 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv frame=61 joint=waist_pitch_joint value=0.521201134 range=[-0.52, 0.52] excess=0.00120113373 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv frame=62 joint=waist_pitch_joint value=0.520419836 range=[-0.52, 0.52] excess=0.000419836044 tolerance=0.02
+[INFO] loading policy checkpoint: policy_state_dict.pt
+[INFO] loaded action std shape=(29,)
+[INFO] load_state_dict missing keys: []
+[INFO] load_state_dict unexpected keys: []
+[INFO] control_mode=generated-motion
+[INFO] motion_source=ardy loader=ardy_loader motion_file=/data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv sha256=0efc8939cf4e6c5fd34f61a104b9cdcf80145688ec2e1113234de235a67ade61 source_frames=100 source_fps=25 prepared_frames=199 target_fps=50.0 motion_start=0 motion_speed=1
+[RESULT] success=False no_grip=False max_contacts=0 max_contact_bodies=0 contact_bodies=[] max_normal_force=0.000N lift_contact_time=0.000s lifted_height=0.0050m final_clearance=-0.0008m final_cube_pos=[0.2292, -0.1807, 0.7417]
+[CONTROL] control_mode=generated-motion fixed_arm_override_count=0 fixed_arm_pd_write_count=0 reference_window_count=200 reference_window_change_count=199 unique_reference_window_hashes=200 reference_first_sha256=b5b58be424f2a6c1a5e64fedd1c58fdb1100e785ebc666ff3f3ec7aa5d7d19c9 reference_last_sha256=7f45ef57846075ce463bf2bb6480d26d311404ee5642b7cda5edaa974e3c2d04 action_count=200 unique_action_hashes=200 action_first_sha256=b73824411159a852333ab686d7d32cd72962e67ea165c4ae43f51216fe466b8d action_last_sha256=8eaea10fcf286d365c2687f7b371cfa4cb7c9233781efd66c063d2e720ee6cde
+[REFERENCE] reference_mode=dynamic sim_time=3.980000 motion_time=3.980000 current_frame=198 requested_frames=198:243 actual_frames=198:198 window_shape=(640,)
+[CONTACT_SNAPSHOT] []
+[FINGERTIP_DISTANCE] right_thumb_fingertip=0.00747 right_index_fingertip=0.06809 right_middle_fingertip=0.06425
+[FINGERTIP_POS] right_thumb_fingertip=[0.1499, -0.0674, 0.7189] right_index_fingertip=[0.1694, -0.0527, 0.7409] right_middle_fingertip=[0.1326, -0.0516, 0.6974]
+[HAND_LOCAL] cube=[0.2027, -0.019, 0.0703] right_thumb_fingertip=[0.1506, 0.0901, -0.0006] right_index_fingertip=[0.1503, 0.1054, 0.0285] right_middle_fingertip=[0.1504, 0.1054, -0.0285]
+[HAND_Q] [0.0075, -0.6317, -0.3693, 1.3974, 0.079, 1.3965, 0.079]
+[ROBOT_STATE] base_pos=[-0.0003, 0.0559, 0.7687] up_z=0.9981
+[HAND_CONTACTS] []
+[TRACE] rows=200 csv=/data/group4/20261006-055934-qoder-x05eval/runs/ARDY_mdtype_p0_s0_c_fp32textenc_rep2/r01/trace.csv

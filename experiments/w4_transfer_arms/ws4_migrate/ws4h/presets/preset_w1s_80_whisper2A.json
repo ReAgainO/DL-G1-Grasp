@@ -1,0 +1,20 @@
+{
+ "cube_pos": [
+  -0.2506631635436003,
+  0.009954120899914093,
+  0.7221985348767773
+ ],
+ "arm_q": [
+  0.7545056060030964,
+  0.8797498958755624,
+  -1.511095061217228,
+  0.1994283131365206,
+  -0.8099225772860703,
+  0.4499070872129404,
+  0.022076179703434208
+ ],
+ "weld": true,
+ "freeze_hand": true,
+ "skip_to_close": true,
+ "note": "W4h W1S seat2 edge=80mm pads [-0.2, -0.1, -0.1] mm relz [0.2, -30.0, -0.2] mm palm 19.6mm body right_wrist_pitch_link@63.0mm table_d 120.0mm span 99.7mm over_table False bottom_vs_table -74.8mm design_ok True"
+}

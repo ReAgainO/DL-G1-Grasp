@@ -1,0 +1,18 @@
+{
+  "pid": 2698476,
+  "started": "2026-10-09T02:43:22.921951+08:00",
+  "cwd": "/data/group4/20261009-021611-codex-415484ce",
+  "command": [
+    "/data/group4/20261009-021611-codex-415484ce/batch_runner.py",
+    "--workers",
+    "8"
+  ],
+  "workers": 8,
+  "rows": 360,
+  "proc_start_ticks": "83458836",
+  "rules_sha": "9e2c073c2ad7b602c4f378b2d8c7a653560375832c9825e5dc005ea65db9ca36",
+  "manifest_sha": "1757e01b98747133052fe06f97f44c485e043277fb276e0c9df2ab8b6621b3b3",
+  "ended": "2026-10-09T07:32:30.052190+08:00",
+  "finished_rows": 360,
+  "wall_s": 17347.173993973993
+}

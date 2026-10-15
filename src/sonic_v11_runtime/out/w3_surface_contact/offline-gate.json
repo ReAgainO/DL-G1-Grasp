@@ -1,0 +1,58 @@
+{
+  "source_runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "5ba7e7ae0643d91e957e9ba7d592ab123363cdc1424287a9e49dba4104bfa72c",
+      "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+    },
+    "scene_generator_sha": "02cec782b6fb316145f6edebd4c8994d254634959ac234f1272634b1a4734775",
+    "library_sha": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+      "sonic_v11": "0e68abf8c74c94889cd0da6ae4e1c6ad35ad0fde234f1c1ad1a8d5287648169f",
+      "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+      "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+      "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+      "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+      "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+      "grasp_geometry": "147d65ecf0f4c753ce24ddb4643ddc0e668aac2137844a50d05682033b920151",
+      "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+      "motion_input": "db8dd701e40159c25d4fe9cd61bb7770eb8763d05bf554b7f342c03c60f81237",
+      "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    "dt": 0.002
+  },
+  "physical_steps": 0,
+  "telemetry_sha": "cad6891e9a0c25a030b3f487d800105c08ca1e7d1089b13fc7676df42229ada3",
+  "candidate_statistics": {
+    "one_pad_force": {
+      "ticks": 298,
+      "longest_dwell_s": 0.156,
+      "first_time_s": 34.546
+    },
+    "position_35mm": {
+      "ticks": 468,
+      "longest_dwell_s": 0.28,
+      "first_time_s": 36.69
+    },
+    "flat_15mm": {
+      "ticks": 4002,
+      "longest_dwell_s": 8.004,
+      "first_time_s": 32.01
+    },
+    "contact_close_candidate": {
+      "ticks": 217,
+      "longest_dwell_s": 0.092,
+      "first_time_s": 36.69
+    }
+  },
+  "min_position_error_m": 0.0174556073,
+  "min_pad_spread_m": 0.000139224991,
+  "one_finger_max_force_N": 10.8287544
+}

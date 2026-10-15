@@ -1,0 +1,17 @@
+{
+  "shared_commit": "fdba08b7a6940e53d6501618cb164d087bc1ea75",
+  "previous_head": "e9e1bb4a6a51ab31e67b295bbd0a66784400511b",
+  "own_paths": [
+    "claims/20261008-202654-codex-182c4568/card.txt",
+    "claims/20261008-202654-codex-182c4568/rules_seen",
+    "claims/20261008-202654-codex-182c4568/rules_seen_after",
+    "logs/20261008-202654-codex-182c4568/steps.md",
+    "work/20261008-202654-codex-182c4568/freeze32-receipt.json",
+    "work/20261008-202654-codex-182c4568/FROZEN32-MANIFEST.json",
+    "work/20261008-202654-codex-182c4568/execution-receipt32.json"
+  ],
+  "other_staged_blobs_unchanged": true,
+  "source_commit": "02da0da20e80a5cb98e7c3bf59bb32d7fb855643",
+  "reports": "local only user override",
+  "all_own_jobs_exited": true
+}

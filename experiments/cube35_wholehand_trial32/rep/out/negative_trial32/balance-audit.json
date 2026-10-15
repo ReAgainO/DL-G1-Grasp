@@ -1,0 +1,79 @@
+{
+  "runtime_stamp": {
+    "kind": "matched encoded-reference open-hand ablation; replay encoder inputs, re-evaluate actualSONIC encoder and decoder with live negative proprioception; never replay motor commands",
+    "positive": "normal_trial32",
+    "positive_result_sha256": "851b66baf7c057eaeaca07a6cfe243923d177349659fed4caaaf5138621ce501",
+    "positive_io_sha256": "4ed1192c1c803e96717cb6bdbe797273469cff46e4153f118ac0bb4508af9bcd",
+    "source_sha256": "576c75d9899239c8fd2ef359a4bcceef32e44871651dc3f499b473a2e8a5daaa",
+    "hand_controller_sha256": "27a4af36e045742931e79948eccfad4f8cee95c965c7f8badcc0847b17147a35",
+    "hand_target_update_hz": 50,
+    "open_gap_m": 0.012,
+    "body_override": false,
+    "object_state_writes": false,
+    "real_hand": true,
+    "scene_sha256": "c17bfaf1b5adc73ad7cbd2aeef0afe62530b7f87d52427ce8106b25dc60865d0",
+    "source_positive_ardy": {
+      "active_reference_reader": true,
+      "sampled_rows": 12461,
+      "profile_sha256": "3edf8c547891f939f14da22e3ee503e3e5b6204cd337382ca1645117e7a4e3ad",
+      "source_native_sha256": "6d3cae6bc899b2274299e3264f3edcb55050422851bb2ae334ab0aaa36971120",
+      "source_hybrid_trace_sha256": "19252b1acd931989f53acfa93e013311217dc12249484e0012257717af9a5236",
+      "kind": "native ARDY wrist backbone with sparse geometry/safety repair; task stationary stance projected allframes; neargrasp60..110 residual-limited corridor5mm/.05rad; actual native paths retained beforehover and inlift",
+      "derived_not_native_generated": true,
+      "fallback_count": 46,
+      "raw_to_final_mean_abs_rad": 0.3841893155693424,
+      "raw_to_final_max_rad": 1.8829020867028667
+    },
+    "source_models": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    }
+  },
+  "physics_steps": 56794,
+  "hold_samples": 992,
+  "foot_body_whitelist": [
+    "left_ankle_roll_link",
+    "right_ankle_roll_link"
+  ],
+  "robot_table_hold_max_normal_N": 0.0,
+  "nonfoot_floor_hold_max_normal_N": 0.0,
+  "foot_floor_hold_min_normal_N": 350.7525950782439,
+  "robot_table_all_max_normal_N": 0.0,
+  "nonfoot_floor_all_max_normal_N": 0.0,
+  "no_table_rest_in_hold": true,
+  "no_nonfoot_floor_support_in_hold": true,
+  "feet_supported_in_hold": true,
+  "state_mutations": false,
+  "columns": [
+    "time_s",
+    "solver_time_s",
+    "robot_table_or_riser_force_N",
+    "left_foot_floor_force_N",
+    "right_foot_floor_force_N",
+    "nonfoot_floor_force_N"
+  ],
+  "scope": "support contacts only; not a COM/COP stability-margin certificate",
+  "raw_robot_support_contact_rows": 0,
+  "raw_robot_support_contact_limit": 1440000,
+  "raw_force_frame": "MuJoCo contact frame; f0 is normal, wrench on geom2; not signed world support force",
+  "raw_contact_columns": [
+    "time_s",
+    "solver_time_s",
+    "phase",
+    "contact_index",
+    "robot_geom_id",
+    "robot_geom_name",
+    "support_geom_id",
+    "support_geom_name",
+    "robot_body",
+    "category",
+    "distance_m",
+    "normal_force_N",
+    "tangent1_force_N",
+    "tangent2_force_N",
+    "contact_torque0_Nm",
+    "contact_torque1_Nm",
+    "contact_torque2_Nm"
+  ]
+}

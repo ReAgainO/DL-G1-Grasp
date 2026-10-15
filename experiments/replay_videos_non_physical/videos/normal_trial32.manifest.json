@@ -1,0 +1,116 @@
+{
+  "task": "20261009-132809-qoder-9b946d7f",
+  "kind": "zero_physics_replay_render",
+  "source_episode": "/data/group4/20261008-202654-codex-182c4568/rep/out/normal_trial32",
+  "source_sha256": {
+    "result.json": "851b66baf7c057eaeaca07a6cfe243923d177349659fed4caaaf5138621ce501",
+    "trajectory.npz": "7c654dfe4a463af3d8a5f93cdcb66bb36b223dc83d54ad10e52020bbc5ff7da2",
+    "scene.xml": "c17bfaf1b5adc73ad7cbd2aeef0afe62530b7f87d52427ce8106b25dc60865d0",
+    "g1_free_grasp.xml": "752efe58b7fe0315e2fd5834556782618103e445d7f6fedccf09f7685c802c10",
+    "runtime.json": "dcce2d14030308401023c01dc7e24ed313c1bcc0a9c7e7604f9c5b9ba86c373f",
+    "real-hand-model.json": "02053ce1437a061243d153aa56af62c9a03c1e873f54e334805fd58750e888f6"
+  },
+  "video": "/data/group4/20261009-132809-qoder-9b946d7f/videos/normal_trial32.mp4",
+  "video_sha256": "bfadd3f79598fd7aba5f9d21024f62594e4c25cc5ee7970bdf10a910db86a600",
+  "video_bytes": 4423019,
+  "frames": 1420,
+  "out_fps": 12.5,
+  "source_fps": 25,
+  "stride": 2,
+  "resolution": "960x720",
+  "camera": "grasp_camera",
+  "phase_boundaries_s": [
+    [
+      0.0,
+      "SETTLE"
+    ],
+    [
+      8.08,
+      "RAISE"
+    ],
+    [
+      22.08,
+      "APPROACH"
+    ],
+    [
+      42.08,
+      "PRESHAPE"
+    ],
+    [
+      52.0,
+      "ALIGN"
+    ],
+    [
+      84.0,
+      "CLOSE"
+    ],
+    [
+      91.6,
+      "TEST_LIFT"
+    ],
+    [
+      95.6,
+      "LIFT"
+    ],
+    [
+      107.6,
+      "HOLD"
+    ],
+    [
+      109.6,
+      "RELEASE"
+    ],
+    [
+      110.64,
+      "FINAL"
+    ]
+  ],
+  "renderer": {
+    "mujoco": "3.2.7",
+    "MUJOCO_GL": "osmesa",
+    "python": "3.10.22",
+    "executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "ffmpeg_sha256": "e7e7fb30477f717e6f55f9180a70386c62677ef8a4d4d1a5d948f4098aa3eb99"
+  },
+  "source_runtime": {
+    "mujoco": "3.2.7",
+    "gate_definition": "v6 real physical digit surfaces, no sphere contacts",
+    "contact_solver": {
+      "impratio": 10.0,
+      "tolerance": 1e-10,
+      "solver": 2,
+      "cone": 1,
+      "noslip_iterations": 0,
+      "friction_coefficients_unchanged": true
+    },
+    "model_sha": {
+      "scene": "c17bfaf1b5adc73ad7cbd2aeef0afe62530b7f87d52427ce8106b25dc60865d0",
+      "robot": "752efe58b7fe0315e2fd5834556782618103e445d7f6fedccf09f7685c802c10"
+    },
+    "contact_model": "actual seven finger link collision geoms; markers collision0; no active fingertip spheres",
+    "ardy_consumption": {
+      "active_reference_reader": true,
+      "sampled_rows": 12461,
+      "profile_sha256": "3edf8c547891f939f14da22e3ee503e3e5b6204cd337382ca1645117e7a4e3ad",
+      "source_native_sha256": "6d3cae6bc899b2274299e3264f3edcb55050422851bb2ae334ab0aaa36971120",
+      "source_hybrid_trace_sha256": "19252b1acd931989f53acfa93e013311217dc12249484e0012257717af9a5236",
+      "kind": "native ARDY wrist backbone with sparse geometry/safety repair; task stationary stance projected allframes; neargrasp60..110 residual-limited corridor5mm/.05rad; actual native paths retained beforehover and inlift",
+      "derived_not_native_generated": true,
+      "fallback_count": 46,
+      "raw_to_final_mean_abs_rad": 0.3841893155693424,
+      "raw_to_final_max_rad": 1.8829020867028667
+    }
+  },
+  "reported_physics": {
+    "success": true,
+    "gates_green": "22/22",
+    "hold_min_lift_m": 0.08448322523549645,
+    "hold_slip_m": 0.0005198768604859854,
+    "max_lift_m": 0.12336126945999026,
+    "simulation_steps": 56794,
+    "wall_s": 276.9025477740215
+  },
+  "no_source_modification": true,
+  "physics_steps_in_this_render": 0,
+  "written_at": "2026-10-09T13:49:21+0800"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "NWS018",
+  "group": "NWS",
+  "xy_m": [
+    0.34738544304544894,
+    -0.18466325200533093
+  ],
+  "edge_m": 0.08,
+  "mass_kg": 0.12,
+  "root_x_m": 0.0,
+  "sampling_seed": 20261009,
+  "source_baseline_trial": "B018",
+  "no_grip": false,
+  "wrist_servo": false,
+  "gravity_arm_scale": 1.0,
+  "native_mesh": true,
+  "time_scale": 2.0,
+  "retract_raise": true
+}

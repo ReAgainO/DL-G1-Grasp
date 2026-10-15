@@ -1,0 +1,33 @@
+{
+  "physical_steps": 0,
+  "checks": [
+    "feasible_branch_bitwise_legacy_parity",
+    "no_prior_certificate_infeasible_goal_still_stops",
+    "legacy_infeasible_replan_branch_hit",
+    "certified_continuation_branch_hit",
+    "bounded_3000_step_continuation",
+    "C2_boundary_continuity",
+    "analytic_derivative_certificates_preserved",
+    "zero_velocity_endpoint_hold",
+    "lookahead_clamped_at_endpoint"
+  ],
+  "passed": true,
+  "source_sha": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+  "test_source_sha": "f5dec73071a878d60ceadac556ada18aa5ee367ab47584c36de40bfca2c36c69",
+  "audit": {
+    "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+    "calls": 3500,
+    "velocity_max_rad_s": 0.5999521072499814,
+    "acceleration_max_rad_s2": 1.4979774975168745,
+    "jerk_max_rad_s3": 11.986320164497494,
+    "max_replan_C2_boundary_jump": 3.552713678800501e-15,
+    "max_plan_horizon_s": 6.687075336191998,
+    "velocity_limit": 0.6,
+    "acceleration_limit": 1.5,
+    "jerk_limit": 12,
+    "continue_certified_enabled": true,
+    "certified_continuation_steps": 199,
+    "continuation_rule": "reject infeasible replacement; continue the remaining previously certified C2 segment; clamp future sampling time at its zero-velocity/acceleration endpoint; stop if no certified segment exists"
+  },
+  "legacy_stops": 1
+}

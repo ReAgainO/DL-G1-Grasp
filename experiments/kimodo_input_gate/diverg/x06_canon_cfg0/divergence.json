@@ -1,0 +1,195 @@
+{
+ "runtime_stamp": {
+  "generated_at": "2026-10-06T06:18:39+08:00",
+  "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+  "python_version": "3.10.22",
+  "platform": "Linux-5.15.0-105-generic-x86_64-with-glibc2.35",
+  "mujoco_version": "3.2.7",
+  "manifest": "/data/group4/20261006-055934-qoder-x05eval/gen/x06_canon_cfg0.csv",
+  "manifest_sha256": "80f0ebcfb8b1b40b7a873092a3f77e29e41856b36440bfe7a72fe847a40a4405",
+  "inputs": {
+   "x06:c2cfg_p0_s0_textoff_c": "593578f418aa543b39ebdf7eed2d6f9012f73c3556f7ac4f7d1f32e00c437f5c",
+   "x06:c2cfg_p0_s1_textoff_c": "28fce18bb2f2ae9e0fffcb5203b2ed0046ad36afc4622e8c73ea62bb20ae5a4a",
+   "x06:c2cfg_p3_s0_textoff_c": "593578f418aa543b39ebdf7eed2d6f9012f73c3556f7ac4f7d1f32e00c437f5c",
+   "x06:c2cfg_p3_s1_textoff_c": "28fce18bb2f2ae9e0fffcb5203b2ed0046ad36afc4622e8c73ea62bb20ae5a4a"
+  },
+  "limits": {
+   "RLIMIT_AS_BYTES": 4294967296,
+   "MAX_FILE_BYTES": 8388608,
+   "MAX_FRAMES": 2000,
+   "MAX_RUNS": 200,
+   "threads": "forced 1"
+  },
+  "n_runs": 4,
+  "n_frames": {
+   "x06:c2cfg_p0_s0_textoff_c": 100,
+   "x06:c2cfg_p0_s1_textoff_c": 100,
+   "x06:c2cfg_p3_s0_textoff_c": 100,
+   "x06:c2cfg_p3_s1_textoff_c": 100
+  }
+ },
+ "meta": {
+  "x06:c2cfg_p0_s0_textoff_c": {
+   "path": "/data/group4/20261006-055932-qoder-x06canon/gen/c2cfg_p0_s0_textoff_c.csv",
+   "sha256": "593578f418aa543b39ebdf7eed2d6f9012f73c3556f7ac4f7d1f32e00c437f5c",
+   "frames": 100,
+   "prompt_id": "P0",
+   "seed": "0",
+   "cfg_text": "0.0",
+   "baseline": true
+  },
+  "x06:c2cfg_p0_s1_textoff_c": {
+   "path": "/data/group4/20261006-055932-qoder-x06canon/gen/c2cfg_p0_s1_textoff_c.csv",
+   "sha256": "28fce18bb2f2ae9e0fffcb5203b2ed0046ad36afc4622e8c73ea62bb20ae5a4a",
+   "frames": 100,
+   "prompt_id": "P0",
+   "seed": "1",
+   "cfg_text": "0.0",
+   "baseline": true
+  },
+  "x06:c2cfg_p3_s0_textoff_c": {
+   "path": "/data/group4/20261006-055932-qoder-x06canon/gen/c2cfg_p3_s0_textoff_c.csv",
+   "sha256": "593578f418aa543b39ebdf7eed2d6f9012f73c3556f7ac4f7d1f32e00c437f5c",
+   "frames": 100,
+   "prompt_id": "P3",
+   "seed": "0",
+   "cfg_text": "0.0",
+   "baseline": false
+  },
+  "x06:c2cfg_p3_s1_textoff_c": {
+   "path": "/data/group4/20261006-055932-qoder-x06canon/gen/c2cfg_p3_s1_textoff_c.csv",
+   "sha256": "28fce18bb2f2ae9e0fffcb5203b2ed0046ad36afc4622e8c73ea62bb20ae5a4a",
+   "frames": 100,
+   "prompt_id": "P3",
+   "seed": "1",
+   "cfg_text": "0.0",
+   "baseline": false
+  }
+ },
+ "controls_negative_self": [
+  {
+   "run_id": "x06:c2cfg_p0_s0_textoff_c",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x06:c2cfg_p0_s1_textoff_c",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x06:c2cfg_p3_s0_textoff_c",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x06:c2cfg_p3_s1_textoff_c",
+   "nonzero_fields": {},
+   "ok": true
+  }
+ ],
+ "baselines_per_seed": {
+  "0": [
+   "P0"
+  ],
+  "1": [
+   "P0"
+  ]
+ },
+ "ambiguous_baseline": {},
+ "prompt_effects_same_seed": [
+  {
+   "frames_used": 100,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 0.0,
+   "dof_l2_max_rad": 0.0,
+   "root_trans_l2_mean_m": 0.0,
+   "root_trans_l2_max_m": 0.0,
+   "root_quat_angle_mean_rad": 0.0,
+   "root_quat_angle_max_rad": 0.0,
+   "run_id": "x06:c2cfg_p3_s0_textoff_c",
+   "seed": "0",
+   "prompt_id": "P3",
+   "cfg_text": "0.0",
+   "vs": "x06:c2cfg_p0_s0_textoff_c"
+  },
+  {
+   "frames_used": 100,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 0.0,
+   "dof_l2_max_rad": 0.0,
+   "root_trans_l2_mean_m": 0.0,
+   "root_trans_l2_max_m": 0.0,
+   "root_quat_angle_mean_rad": 0.0,
+   "root_quat_angle_max_rad": 0.0,
+   "run_id": "x06:c2cfg_p3_s1_textoff_c",
+   "seed": "1",
+   "prompt_id": "P3",
+   "cfg_text": "0.0",
+   "vs": "x06:c2cfg_p0_s1_textoff_c"
+  }
+ ],
+ "seed_effects_same_prompt": [
+  {
+   "frames_used": 100,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 1.337265,
+   "dof_l2_max_rad": 1.717565,
+   "root_trans_l2_mean_m": 0.007221,
+   "root_trans_l2_max_m": 0.011687,
+   "root_quat_angle_mean_rad": 0.100252,
+   "root_quat_angle_max_rad": 0.120286,
+   "run_id": "x06:c2cfg_p0_s1_textoff_c",
+   "seed": "1",
+   "prompt_id": "P0",
+   "vs": "x06:c2cfg_p0_s0_textoff_c"
+  }
+ ],
+ "excluded_length_mismatch": [],
+ "tool_version": "v2 (quat 先归一化 / dof 列区间修正 / 帧数不同者不进主效应)",
+ "prompt_over_seed_ratio": {
+  "dof_l2_mean_rad": {
+   "prompt_median": 0.0,
+   "seed_median": 1.337265,
+   "prompt_over_seed": 0.0
+  },
+  "dof_l2_max_rad": {
+   "prompt_median": 0.0,
+   "seed_median": 1.717565,
+   "prompt_over_seed": 0.0
+  },
+  "root_trans_l2_mean_m": {
+   "prompt_median": 0.0,
+   "seed_median": 0.007221,
+   "prompt_over_seed": 0.0
+  },
+  "root_trans_l2_max_m": {
+   "prompt_median": 0.0,
+   "seed_median": 0.011687,
+   "prompt_over_seed": 0.0
+  },
+  "root_quat_angle_mean_rad": {
+   "prompt_median": 0.0,
+   "seed_median": 0.100252,
+   "prompt_over_seed": 0.0
+  },
+  "root_quat_angle_max_rad": {
+   "prompt_median": 0.0,
+   "seed_median": 0.120286,
+   "prompt_over_seed": 0.0
+  }
+ },
+ "suspicious_identical_pairs": [
+  [
+   "x06:c2cfg_p0_s0_textoff_c",
+   "x06:c2cfg_p3_s0_textoff_c"
+  ],
+  [
+   "x06:c2cfg_p0_s1_textoff_c",
+   "x06:c2cfg_p3_s1_textoff_c"
+  ]
+ ]
+}

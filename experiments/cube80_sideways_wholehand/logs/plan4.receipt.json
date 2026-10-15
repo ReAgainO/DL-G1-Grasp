@@ -1,0 +1,21 @@
+{
+  "started": "2026-10-09T00:51:13.057991+08:00",
+  "command": [
+    "timeout",
+    "900",
+    "taskset",
+    "-c",
+    "80,81",
+    "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "-B",
+    "/data/group4/20261009-003148-codex-363f6327/wholehand_side.py",
+    "plan",
+    "--name",
+    "side60_plan4",
+    "--seeds",
+    "9"
+  ],
+  "returncode": 0,
+  "finished": "2026-10-09T00:51:16.532061+08:00",
+  "log": "/data/group4/20261009-003148-codex-363f6327/logs/plan4.log"
+}

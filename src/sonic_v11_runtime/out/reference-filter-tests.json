@@ -1,0 +1,25 @@
+{
+  "pass_count": 8,
+  "tests": [
+    "150 bounded replans",
+    "future q and v same quintic",
+    "C2 boundary continuous",
+    "joint limits no clipping",
+    "reject_nan",
+    "reject_shape",
+    "reject_limits",
+    "interior polynomial extremum caught"
+  ],
+  "audit": {
+    "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+    "calls": 150,
+    "velocity_max_rad_s": 0.46837346618362546,
+    "acceleration_max_rad_s2": 1.2747452392672347,
+    "jerk_max_rad_s3": 11.718259743661328,
+    "max_replan_C2_boundary_jump": 0.0,
+    "max_plan_horizon_s": 1.296,
+    "velocity_limit": 0.6,
+    "acceleration_limit": 1.5,
+    "jerk_limit": 12
+  }
+}

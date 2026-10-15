@@ -1,0 +1,441 @@
+{
+  "timestamp": "2026-10-09T01:23:56.196737+08:00",
+  "bitwise_repeat_arrays": {
+    "time": true,
+    "qpos": true,
+    "qvel": true,
+    "body_reference": true,
+    "hand_reference": true,
+    "decoded_target": true,
+    "ctrl": true,
+    "cube_pos": true,
+    "wrist_pos": true,
+    "pad_forces": true,
+    "other_hand_force": true,
+    "table_force": true,
+    "phase": true,
+    "hand_saturation": true
+  },
+  "frozen_source_and_model_pairing": true,
+  "right_bones_count": 7,
+  "right_spherical_pads_physical": 0,
+  "hand_geom_manifest": [
+    {
+      "id": 60,
+      "body": "left_hand_thumb_0_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 61,
+      "body": "left_hand_thumb_0_link",
+      "geom": "left_hand_thumb_0_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 62,
+      "body": "left_hand_thumb_1_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 63,
+      "body": "left_hand_thumb_1_link",
+      "geom": "left_hand_thumb_1_link_collision_1",
+      "type": 6,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 64,
+      "body": "left_hand_thumb_2_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 65,
+      "body": "left_hand_thumb_2_link",
+      "geom": "left_hand_thumb_2_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 66,
+      "body": "left_hand_middle_0_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 67,
+      "body": "left_hand_middle_0_link",
+      "geom": "left_hand_middle_0_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 68,
+      "body": "left_hand_middle_1_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 69,
+      "body": "left_hand_middle_1_link",
+      "geom": "left_hand_middle_1_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 70,
+      "body": "left_hand_index_0_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 71,
+      "body": "left_hand_index_0_link",
+      "geom": "left_hand_index_0_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 72,
+      "body": "left_hand_index_1_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 73,
+      "body": "left_hand_index_1_link",
+      "geom": "left_hand_index_1_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 86,
+      "body": "right_wrist_yaw_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 87,
+      "body": "right_wrist_yaw_link",
+      "geom": "",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 88,
+      "body": "right_wrist_yaw_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 89,
+      "body": "right_wrist_yaw_link",
+      "geom": "",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 90,
+      "body": "right_hand_thumb_0_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 91,
+      "body": "right_hand_thumb_0_link",
+      "geom": "right_hand_thumb_0_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 92,
+      "body": "right_hand_thumb_1_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 93,
+      "body": "right_hand_thumb_1_link",
+      "geom": "right_hand_thumb_1_link_collision_1",
+      "type": 6,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 94,
+      "body": "right_hand_thumb_2_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 95,
+      "body": "right_hand_thumb_2_link",
+      "geom": "right_hand_thumb_2_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 96,
+      "body": "right_hand_thumb_2_link",
+      "geom": "right_thumb_fingertip",
+      "type": 2,
+      "group": 0,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 97,
+      "body": "right_hand_index_0_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 98,
+      "body": "right_hand_index_0_link",
+      "geom": "right_hand_index_0_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 99,
+      "body": "right_hand_index_1_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 100,
+      "body": "right_hand_index_1_link",
+      "geom": "right_hand_index_1_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 101,
+      "body": "right_hand_index_1_link",
+      "geom": "right_index_fingertip",
+      "type": 2,
+      "group": 0,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 102,
+      "body": "right_hand_middle_0_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 103,
+      "body": "right_hand_middle_0_link",
+      "geom": "right_hand_middle_0_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 104,
+      "body": "right_hand_middle_1_link",
+      "geom": "",
+      "type": 7,
+      "group": 1,
+      "mask": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 105,
+      "body": "right_hand_middle_1_link",
+      "geom": "right_hand_middle_1_link_collision_1",
+      "type": 7,
+      "group": 0,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 106,
+      "body": "right_hand_middle_1_link",
+      "geom": "right_middle_fingertip",
+      "type": 2,
+      "group": 0,
+      "mask": [
+        0,
+        0
+      ]
+    }
+  ],
+  "runtime_reconstruction_fingerprint_matches": true,
+  "runtime_reconstruction_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+  "runtime_mjb_sha": "2fd4702dcb2fd7c898847d672790f0d00ae3cacf7f7d5a52e14648e0675dbbca",
+  "cases": {
+    "side80_native3": {
+      "success": true,
+      "max_lift_m": 0.10857449062300661,
+      "max_wristlocal_slip_alllift_m": 0.003838688110410231,
+      "hold_safe_steps": 2500,
+      "source_sha": "b88a7482df00ab111c52a43259ff022e3a31b666aee07712f04475c33c2b9f03",
+      "result_sha": "576a1cf6868ee593f738f74f73858253fae06e47de3a5bce3f3d3676ee7ce5f7",
+      "trajectory_sha": "5f0848001c35a04506b5d54f13886407e64287e0e18818e9ebde58b6c57f7d10"
+    },
+    "side80_native3_repeat": {
+      "success": true,
+      "max_lift_m": 0.10857449062300661,
+      "max_wristlocal_slip_alllift_m": 0.003838688110410231,
+      "hold_safe_steps": 2500,
+      "source_sha": "b88a7482df00ab111c52a43259ff022e3a31b666aee07712f04475c33c2b9f03",
+      "result_sha": "ef4cba2f5434fcee2795fe17cc9165cf21a643d735ad9709143c41bd9f8ae8db",
+      "trajectory_sha": "5f0848001c35a04506b5d54f13886407e64287e0e18818e9ebde58b6c57f7d10"
+    },
+    "side80_native_negative3": {
+      "success": false,
+      "max_lift_m": 0.001463928803046577,
+      "max_wristlocal_slip_alllift_m": 0.10997442310039883,
+      "hold_safe_steps": 0,
+      "source_sha": "b88a7482df00ab111c52a43259ff022e3a31b666aee07712f04475c33c2b9f03",
+      "result_sha": "6e64dc519871191e4c28954f8ed8da25c474615db3e6ee1d34cd1d0e892edf67",
+      "trajectory_sha": "741b07f86c72e23eb4bf25503d58eb328cec339632b23e44b77e057c5ebe0ae5"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+ "diff": [
+  "keyframe 'stand' qpos : official 50 values + appended '0 0 0.5 1 0 0 0' (cube freejoint dummy pose)"
+ ],
+ "note": "only this keyframe line differs; robot bodies/joints/actuators/geoms byte-identical",
+ "official_sha256": "2d41a3c6783fbf9e17349608d9c2222d970163b1db315ce9f30c4a97631fc078",
+ "official_xml": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/model/unitree_g1/g1_with_hands.xml",
+ "scene_model_sha256": "aa92067e6ebf2fe5e4ae90b86bb4bea95ce7f26fb9d958e6740553ef238f29a8",
+ "scene_model_xml": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/model/unitree_g1/ws1_scene_model.xml"
+}

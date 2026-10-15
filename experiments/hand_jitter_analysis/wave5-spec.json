@@ -1,0 +1,6 @@
+[
+  {"id":"B080_base","source_episode":"B080","tau":0,"damping":2,"servo_gain":0.10,"start":42},
+  {"id":"B080_combo3","source_episode":"B080","tau":0,"damping":3,"servo_gain":0.03,"start":42},
+  {"id":"C020_base","source_episode":"C020","tau":0,"damping":2,"servo_gain":0.10,"start":42},
+  {"id":"C020_combo3","source_episode":"C020","tau":0,"damping":3,"servo_gain":0.03,"start":42}
+]

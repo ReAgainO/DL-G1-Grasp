@@ -1,0 +1,12 @@
+{
+ "grip_target_rad": [
+  0.666,
+  0.223,
+  -1.221,
+  1.8326,
+  0.025,
+  1.794,
+  0.158
+ ],
+ "note": "W4h W1S envelope config for 80mm (local descent from v5c); audit {\"pad_gap_mm\": [-1.38, -1.37, 5.51], \"palm_min_mm\": 60.0, \"seg_min_mm\": -1.38, \"span_mm\": 7.5}"
+}

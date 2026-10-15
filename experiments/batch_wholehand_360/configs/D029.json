@@ -1,0 +1,19 @@
+{
+  "id": "D029",
+  "group": "D",
+  "xy_m": [
+    0.3576709402483167,
+    -0.1924138260722225
+  ],
+  "edge_m": 0.07385675321833518,
+  "mass_kg": 0.12,
+  "root_x_m": -0.02,
+  "sampling_seed": 20261010,
+  "source_baseline_trial": "C029",
+  "no_grip": false,
+  "wrist_servo": true,
+  "gravity_arm_scale": 1.0,
+  "native_mesh": true,
+  "time_scale": 2.0,
+  "retract_raise": true
+}

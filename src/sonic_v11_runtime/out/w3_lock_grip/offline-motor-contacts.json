@@ -1,0 +1,1076 @@
+{
+  "source_runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+      "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+    },
+    "scene_generator_sha": "d195b3be1d6d539aed7c0ad43d91959cf96e9c3c406bc80a702e358c3d02e402",
+    "library_sha": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+      "sonic_v11": "7a1e7a6a38ed3c7894ee44177212ccafcbc2e7018ddc51e02d451e3146393a85",
+      "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+      "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+      "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+      "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+      "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+      "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+      "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+      "adaptive_hand": "235f16f6af9239b37f0812d0b95076f2f6562900aff3458d314582658692b9d0",
+      "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+      "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+      "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    "dt": 0.002
+  },
+  "analysis_runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6",
+      "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+    },
+    "scene_generator_sha": "cae17a72cc50737d3a32143575861005bffcab554e5292939db5603c76794b5e",
+    "library_sha": {
+      "trajectory": "b29acc165ddee01bb5db4000d6966e2b57015582801b1e671010c9b2ed8cdb9c"
+    },
+    "dt": 0.002
+  },
+  "physical_steps": 0,
+  "warning": "contacts recomputed only by mj_forward; not measured historical contact forces",
+  "records": [
+    {
+      "phase": "SETTLE",
+      "time_s": 2.002000000000001,
+      "motor_tracking_rms_rad": 0.023112159228037294,
+      "actual_range_rad": [
+        0.04070073082806544,
+        0.026864186500192733,
+        0.04908199877603073,
+        0.05775296664407559,
+        0.04444584672473017,
+        0.04155001257315423,
+        0.0716076982970848
+      ],
+      "motor_target_range_rad": [
+        0.12893732701557922,
+        0.0902053523199974,
+        0.10798228118800421,
+        0.09658455213978157,
+        0.0621543116924137,
+        0.02603964505840077,
+        0.06251501715145569
+      ],
+      "motor_target_step_max_rad": 0.055010531513456265,
+      "actual_arm_rad": [
+        0.17553231622008936,
+        -0.22008752644353172,
+        -0.003299584575943087,
+        0.6130540685195532,
+        -0.01593695556838658,
+        0.013225153809895852,
+        0.060559336591871314
+      ],
+      "decoded_motor_target_rad": [
+        0.1094346565950876,
+        -0.25638872409117786,
+        -0.03698946629072527,
+        0.5610478980494,
+        -0.023792303825913637,
+        -0.025844981457618283,
+        0.06543595364548078
+      ],
+      "sonic_input_reference_rad": [
+        0.2,
+        -0.2,
+        0.0,
+        0.6,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "contacts_at_last_frame": [
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "left_ankle_roll_link"
+          ],
+          "penetration_m": -0.0005415383278660714
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606072908681577e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.6060729086815765e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606072908681501e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.6060729086815006e-05
+        }
+      ]
+    },
+    {
+      "phase": "APPROACH",
+      "time_s": 12.002000000000677,
+      "motor_tracking_rms_rad": 0.25565008283702717,
+      "actual_range_rad": [
+        1.8751061965893459,
+        0.9655867381818853,
+        1.0754624947177747,
+        0.9081463179361963,
+        0.3705610994808212,
+        1.6098234621157839,
+        1.502025696262968
+      ],
+      "motor_target_range_rad": [
+        2.1987430334548526,
+        1.3865807804176669,
+        1.2175478892817733,
+        1.4548738418991425,
+        0.6794832217919129,
+        0.739858337933556,
+        1.5548768550860292
+      ],
+      "motor_target_step_max_rad": 0.7520049858268367,
+      "actual_arm_rad": [
+        -1.570085368678396,
+        -1.0283200037357576,
+        0.7859961956140481,
+        -0.1745447035350287,
+        -0.10699044735717482,
+        0.22222933672193265,
+        1.3828955467810404
+      ],
+      "decoded_motor_target_rad": [
+        -1.792949544262049,
+        -1.352433544374673,
+        0.5802501048786106,
+        -0.3771862976592325,
+        -0.11293480540664197,
+        0.21634626771880652,
+        1.3548586792084762
+      ],
+      "sonic_input_reference_rad": [
+        -1.2573999224371153,
+        -0.6777244325985058,
+        0.9708715511779712,
+        0.27329493673410865,
+        -0.23846942043537064,
+        0.10346065798268171,
+        1.534233302196303
+      ],
+      "contacts_at_last_frame": [
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "left_ankle_roll_link"
+          ],
+          "penetration_m": -0.0008570926572839558
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606072908681577e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.6060729086815765e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606072908681488e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606072908681487e-05
+        }
+      ]
+    },
+    {
+      "phase": "PREGRASP",
+      "time_s": 24.001999999997576,
+      "motor_tracking_rms_rad": 0.10716586745828896,
+      "actual_range_rad": [
+        0.5309808507658766,
+        0.7782923826009756,
+        0.41934512812820035,
+        0.665828336768671,
+        0.38312740880014345,
+        0.46942310066716586,
+        0.2838224308665933
+      ],
+      "motor_target_range_rad": [
+        1.1750261676496687,
+        1.045441192923006,
+        0.7391196524706806,
+        1.003027963992969,
+        0.41783065463907826,
+        0.5106837157210597,
+        0.2922012605403759
+      ],
+      "motor_target_step_max_rad": 0.8801098432615169,
+      "actual_arm_rad": [
+        -1.2395267155589857,
+        -0.8643101884359985,
+        0.814309199212303,
+        -0.00782863668280031,
+        -0.42699120263595625,
+        -0.09411871414018416,
+        1.5969192535210035
+      ],
+      "decoded_motor_target_rad": [
+        -1.3720170479148335,
+        -0.7439921457791054,
+        0.7953368181062253,
+        -0.05501573862244613,
+        -0.439578209886912,
+        -0.12280419348112127,
+        1.59882839672953
+      ],
+      "sonic_input_reference_rad": [
+        -1.1513901883809154,
+        -0.4759878879410913,
+        1.1189618659426772,
+        0.44127387493660475,
+        -0.3030966734314203,
+        -0.11015532533208908,
+        1.4671042592328243
+      ],
+      "contacts_at_last_frame": [
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606072908681577e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.6060729086815765e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.6060729086815e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606072908681499e-05
+        }
+      ]
+    },
+    {
+      "phase": "DESCEND",
+      "time_s": 32.001999999993146,
+      "motor_tracking_rms_rad": 0.0940338006448844,
+      "actual_range_rad": [
+        0.5911380050578227,
+        0.3194846730902985,
+        0.31938705270826717,
+        0.4217170855145692,
+        0.3754147887860143,
+        0.3035593221049586,
+        0.27583934817685263
+      ],
+      "motor_target_range_rad": [
+        1.052600234279104,
+        0.7593638247184809,
+        0.49524034460858557,
+        0.7208431317341399,
+        0.418995377810118,
+        0.3534982284373033,
+        0.3129420500161473
+      ],
+      "motor_target_step_max_rad": 0.654582525910282,
+      "actual_arm_rad": [
+        -0.7717796510269773,
+        -0.70030574029637,
+        1.0836040565449756,
+        0.02104765216301166,
+        -0.5222086568357587,
+        -0.1475880855344453,
+        1.3855714790734963
+      ],
+      "decoded_motor_target_rad": [
+        -0.8920279239000155,
+        -0.5377057258337599,
+        1.041715647250379,
+        0.006814266009850467,
+        -0.5258770472304485,
+        -0.12928378961639386,
+        1.3774945027240455
+      ],
+      "sonic_input_reference_rad": [
+        -0.8929059711240283,
+        -0.47323214202660935,
+        1.1790253821780072,
+        0.3264461162602845,
+        -0.5221321266490395,
+        -0.16391891519958324,
+        1.142379923982179
+      ],
+      "contacts_at_last_frame": [
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "left_ankle_roll_link"
+          ],
+          "penetration_m": -0.000686002027139576
+        },
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "left_ankle_roll_link"
+          ],
+          "penetration_m": -0.0007581981974504144
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.628924437770354e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.608699959944092e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.628191118845275e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.6079666410190124e-05
+        }
+      ]
+    },
+    {
+      "phase": "ALIGN",
+      "time_s": 32.20199999999339,
+      "motor_tracking_rms_rad": 0.06981593030188338,
+      "actual_range_rad": [
+        0.15815767217066767,
+        0.019090168294202736,
+        0.029910893822052254,
+        0.011027081493434277,
+        0.02197654608674071,
+        0.016743115610655182,
+        0.05386309214024165
+      ],
+      "motor_target_range_rad": [
+        0.13028503726780127,
+        0.12463267270860723,
+        0.04765308464310869,
+        0.07322560071830997,
+        0.030307218369864553,
+        0.027729207082100235,
+        0.06930316823258753
+      ],
+      "motor_target_step_max_rad": 0.060974349400908956,
+      "actual_arm_rad": [
+        -0.9370418089600232,
+        -0.6821891380085495,
+        1.0474062540111513,
+        0.03204251786861956,
+        -0.5004138070201267,
+        -0.12458345648140053,
+        1.3362978598391666
+      ],
+      "decoded_motor_target_rad": [
+        -1.0285105275327613,
+        -0.682704885675529,
+        0.9764621851726922,
+        -0.032827781820072954,
+        -0.47981554614800837,
+        -0.14213284617754557,
+        1.2932220434080401
+      ],
+      "sonic_input_reference_rad": [
+        -0.8898061772084699,
+        -0.46986883952853736,
+        1.1793968067346534,
+        0.3404290335247059,
+        -0.5258960449365531,
+        -0.16601917410704195,
+        1.1310496991422216
+      ],
+      "contacts_at_last_frame": [
+        {
+          "geom_names": [
+            "right_middle_fingertip",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "right_hand_middle_1_link",
+            "red_cube"
+          ],
+          "penetration_m": -0.0014933879678614235
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -0.0005125248514487746
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -0.0003983650549607182
+        }
+      ]
+    },
+    {
+      "phase": "CLOSE",
+      "time_s": 33.24199999999466,
+      "motor_tracking_rms_rad": 0.07975847095025235,
+      "actual_range_rad": [
+        0.23928804706067464,
+        0.12868875664678892,
+        0.16084013920572804,
+        0.28042838676219,
+        0.11785154151592803,
+        0.07007713747747712,
+        0.12612504456734497
+      ],
+      "motor_target_range_rad": [
+        0.34470781515486904,
+        0.3767517009951601,
+        0.3421185248374752,
+        0.5102169252823681,
+        0.1435342567543777,
+        0.11470543101068588,
+        0.16764457852432058
+      ],
+      "motor_target_step_max_rad": 0.3325931257013557,
+      "actual_arm_rad": [
+        -0.813216973273607,
+        -0.6828860647018634,
+        0.8878893592974101,
+        -0.0005842938506393368,
+        -0.6118062649213993,
+        -0.18249732133048807,
+        1.323756849349344
+      ],
+      "decoded_motor_target_rad": [
+        -0.8806414249672627,
+        -0.7308822591283868,
+        0.8290549461238793,
+        -0.04344546673733307,
+        -0.6066710612015791,
+        -0.13283798201614266,
+        1.345531576306238
+      ],
+      "sonic_input_reference_rad": [
+        -0.8879929359178446,
+        -0.46152624506445683,
+        1.173433326540428,
+        0.3821381432281535,
+        -0.560677457495993,
+        -0.17543049822703077,
+        1.0713608581463052
+      ],
+      "contacts_at_last_frame": [
+        {
+          "geom_names": [
+            "right_thumb_fingertip",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "right_hand_thumb_2_link",
+            "red_cube"
+          ],
+          "penetration_m": -0.00013843223292612193
+        },
+        {
+          "geom_names": [
+            "right_middle_fingertip",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "right_hand_middle_1_link",
+            "red_cube"
+          ],
+          "penetration_m": -0.00016171522901786868
+        }
+      ]
+    },
+    {
+      "phase": "LIFT",
+      "time_s": 41.24200000000444,
+      "motor_tracking_rms_rad": 0.08360077210635293,
+      "actual_range_rad": [
+        0.48699413544353454,
+        0.3607676696570731,
+        0.29027022379715384,
+        0.40945901428162285,
+        0.46073057862170297,
+        0.21803001826014481,
+        0.31823599807350256
+      ],
+      "motor_target_range_rad": [
+        0.9286042054512624,
+        0.5860286009449367,
+        0.5196821995549842,
+        0.714314904761172,
+        0.5191983251100073,
+        0.24450782917593222,
+        0.3231305868190921
+      ],
+      "motor_target_step_max_rad": 0.4659458380700776,
+      "actual_arm_rad": [
+        -1.1103668870434884,
+        -0.692662208375111,
+        0.9194515278536464,
+        0.03452971570049608,
+        -0.31990980542338304,
+        -0.11437646499100045,
+        1.3161288506699074
+      ],
+      "decoded_motor_target_rad": [
+        -0.9907493945631825,
+        -0.7696687562919025,
+        0.8798448756021823,
+        -0.037035685745466784,
+        -0.38835851834078516,
+        -0.1266420335130455,
+        1.3332409959819855
+      ],
+      "sonic_input_reference_rad": [
+        -1.1288738072344273,
+        -0.5747505780404847,
+        1.2507589786222455,
+        0.30319886587324607,
+        -0.20786077550554538,
+        -0.17713162152767478,
+        1.160304371601
+      ],
+      "contacts_at_last_frame": [
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "left_ankle_roll_link"
+          ],
+          "penetration_m": -0.0008797120957156996
+        },
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "left_ankle_roll_link"
+          ],
+          "penetration_m": -0.00047511295316103163
+        },
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "right_ankle_roll_link"
+          ],
+          "penetration_m": -0.0007966603258664313
+        },
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "right_ankle_roll_link"
+          ],
+          "penetration_m": -0.00010404062822054038
+        },
+        {
+          "geom_names": [
+            "right_thumb_fingertip",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "right_hand_thumb_2_link",
+            "red_cube"
+          ],
+          "penetration_m": -5.670939914972743e-05
+        },
+        {
+          "geom_names": [
+            "right_middle_fingertip",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "right_hand_middle_1_link",
+            "red_cube"
+          ],
+          "penetration_m": -3.727091348897267e-05
+        }
+      ]
+    },
+    {
+      "phase": "HOLD",
+      "time_s": 43.24200000000688,
+      "motor_tracking_rms_rad": 0.09372482187984994,
+      "actual_range_rad": [
+        0.2624780482179778,
+        0.28789507450990437,
+        0.24622419587515776,
+        0.32684834003708374,
+        0.22085094363511942,
+        0.1320349280613682,
+        0.13127558079598423
+      ],
+      "motor_target_range_rad": [
+        0.6169215661915488,
+        0.5480287722672497,
+        0.6147198982550366,
+        0.5764204124858978,
+        0.33196235053009315,
+        0.1808831221485619,
+        0.15643423581033655
+      ],
+      "motor_target_step_max_rad": 0.47770270616201094,
+      "actual_arm_rad": [
+        -1.1020405336109282,
+        -0.8960152695481366,
+        1.0249684980921907,
+        -0.1379965007317575,
+        -0.24386522160470658,
+        -0.06965397614377983,
+        1.3724100896174467
+      ],
+      "decoded_motor_target_rad": [
+        -0.8135601670390742,
+        -0.844975043264858,
+        1.2645490570217244,
+        -0.0009779163001827351,
+        -0.11195917493132025,
+        -0.028681444457578746,
+        1.3983550817690693
+      ],
+      "sonic_input_reference_rad": [
+        -1.1684240865326174,
+        -0.5888737574332026,
+        1.2504398405823565,
+        0.2598361280493381,
+        -0.17119810927577858,
+        -0.1692654562316028,
+        1.2477166517538267
+      ],
+      "contacts_at_last_frame": [
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "left_ankle_roll_link"
+          ],
+          "penetration_m": -0.003892688755089006
+        },
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "left_ankle_roll_link"
+          ],
+          "penetration_m": -0.0036460573944826586
+        },
+        {
+          "geom_names": [
+            "right_thumb_fingertip",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "right_hand_thumb_2_link",
+            "red_cube"
+          ],
+          "penetration_m": -4.5070874955836435e-05
+        },
+        {
+          "geom_names": [
+            "right_middle_fingertip",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "right_hand_middle_1_link",
+            "red_cube"
+          ],
+          "penetration_m": -3.971085718860838e-05
+        }
+      ]
+    },
+    {
+      "phase": "RELEASE",
+      "time_s": 44.242000000008105,
+      "motor_tracking_rms_rad": 0.1115211637803276,
+      "actual_range_rad": [
+        0.3233701760492824,
+        0.18545681962496374,
+        0.20010327879693224,
+        0.26055874732599016,
+        0.19140011937335863,
+        0.12454683826965862,
+        0.14782343219520744
+      ],
+      "motor_target_range_rad": [
+        0.7712092854897241,
+        0.6437064086449374,
+        0.5470147533736434,
+        0.6444720857110302,
+        0.23716722297772064,
+        0.17920271774790478,
+        0.1722596741710325
+      ],
+      "motor_target_step_max_rad": 0.6331042516272083,
+      "actual_arm_rad": [
+        -1.1117434728727904,
+        -0.834336186416477,
+        1.1143435529864323,
+        -0.06936804298850592,
+        -0.14979238738191397,
+        -0.032616101453930846,
+        1.3747122908251221
+      ],
+      "decoded_motor_target_rad": [
+        -1.0348343038285728,
+        -0.714460067606024,
+        1.2043332219857774,
+        -0.016780508033521047,
+        -0.10171863629100733,
+        -0.015628854201316923,
+        1.3787441225010386
+      ],
+      "sonic_input_reference_rad": [
+        -1.1773466226779115,
+        -0.5913581063981085,
+        1.245924938329798,
+        0.23166214838216173,
+        -0.15252346182171647,
+        -0.1416501410010405,
+        1.280750244773596
+      ],
+      "contacts_at_last_frame": [
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "left_ankle_roll_link"
+          ],
+          "penetration_m": -0.0005028269569232772
+        },
+        {
+          "geom_names": [
+            "floor",
+            ""
+          ],
+          "body_names": [
+            "world",
+            "left_ankle_roll_link"
+          ],
+          "penetration_m": -0.0008145094705231419
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606987690694966e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606976627677034e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606662415099577e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606651352081645e-05
+        }
+      ]
+    },
+    {
+      "phase": "SETTLE_RELEASE",
+      "time_s": 47.24200000001177,
+      "motor_tracking_rms_rad": 0.09647293038416699,
+      "actual_range_rad": [
+        0.2601250686019758,
+        0.22970246587832288,
+        0.27117648018168317,
+        0.2684163934319555,
+        0.2983756619502074,
+        0.1895749798196666,
+        0.2626564807585392
+      ],
+      "motor_target_range_rad": [
+        0.5939455031348717,
+        0.5885756731516534,
+        0.5544982598626993,
+        0.6369074890799795,
+        0.33831727411932383,
+        0.24079836682962064,
+        0.27226449691551546
+      ],
+      "motor_target_step_max_rad": 0.5999728377123666,
+      "actual_arm_rad": [
+        -1.3575782362295845,
+        -0.7805436383248341,
+        1.0903445632366757,
+        -0.03246981818648831,
+        -0.07227058387085718,
+        0.06556068422021957,
+        1.3518060044327525
+      ],
+      "decoded_motor_target_rad": [
+        -1.2047062831818343,
+        -0.8472836811759163,
+        1.0427692439889176,
+        -0.008841255079109711,
+        -0.17625316182309625,
+        0.004546747073812525,
+        1.3310242495047175
+      ],
+      "sonic_input_reference_rad": [
+        -1.1876117185867192,
+        -0.5608778696557744,
+        1.263106487461651,
+        0.21939932912751817,
+        -0.13880081549942583,
+        -0.11859642782987583,
+        1.3218344989312591
+      ],
+      "contacts_at_last_frame": [
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.6060729088076624e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.6060729088071284e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606072908801662e-05
+        },
+        {
+          "geom_names": [
+            "table_top",
+            "red_cube_geom"
+          ],
+          "body_names": [
+            "grasp_table",
+            "red_cube"
+          ],
+          "penetration_m": -4.606072908801128e-05
+        }
+      ]
+    }
+  ]
+}

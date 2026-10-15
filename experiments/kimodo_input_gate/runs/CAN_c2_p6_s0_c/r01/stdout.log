@@ -1,0 +1,21 @@
+clipped joint limit path=/data/group4/20261006-055932-qoder-x06canon/gen/c2_p6_s0_c.csv frame=56 joint=waist_pitch_joint value=0.521159828 range=[-0.52, 0.52] excess=0.00115982771 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-055932-qoder-x06canon/gen/c2_p6_s0_c.csv frame=57 joint=waist_pitch_joint value=0.522081375 range=[-0.52, 0.52] excess=0.00208137512 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-055932-qoder-x06canon/gen/c2_p6_s0_c.csv frame=58 joint=waist_pitch_joint value=0.521547556 range=[-0.52, 0.52] excess=0.00154755592 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-055932-qoder-x06canon/gen/c2_p6_s0_c.csv frame=59 joint=waist_pitch_joint value=0.520574033 range=[-0.52, 0.52] excess=0.00057403326 tolerance=0.02
+[INFO] loading policy checkpoint: policy_state_dict.pt
+[INFO] loaded action std shape=(29,)
+[INFO] load_state_dict missing keys: []
+[INFO] load_state_dict unexpected keys: []
+[INFO] control_mode=generated-motion
+[INFO] motion_source=ardy loader=ardy_loader motion_file=/data/group4/20261006-055932-qoder-x06canon/gen/c2_p6_s0_c.csv sha256=23083704ff6228a0d68ea2e41684a6ddc5afd08eadfb271e301002a912209b22 source_frames=100 source_fps=25 prepared_frames=199 target_fps=50.0 motion_start=0 motion_speed=1
+[RESULT] success=False no_grip=False max_contacts=1 max_contact_bodies=1 contact_bodies=['right_hand_middle_1_link', 'right_hand_thumb_2_link'] max_normal_force=12.770N lift_contact_time=0.000s lifted_height=0.0467m final_clearance=-0.0001m final_cube_pos=[0.3878, 0.0645, 0.7424]
+[CONTROL] control_mode=generated-motion fixed_arm_override_count=0 fixed_arm_pd_write_count=0 reference_window_count=200 reference_window_change_count=199 unique_reference_window_hashes=200 reference_first_sha256=b654d939cecaf943a58727b38795c4e5da8017f0bb87c94e7c1387281ace96a1 reference_last_sha256=2733771288206545aa0a99d65fcee90c6752c468cfd6f86710ccbcd308b43984 action_count=200 unique_action_hashes=200 action_first_sha256=eef0d88110b68d77ccd066c94e41bce8fa7957b845e561e3a5e578c09d222e58 action_last_sha256=106abad2d60c54580578ca8acb1df69806430e6f9ba74118ddc4c54b7cc6d228
+[REFERENCE] reference_mode=dynamic sim_time=3.980000 motion_time=3.980000 current_frame=198 requested_frames=198:243 actual_frames=198:198 window_shape=(640,)
+[CONTACT_SNAPSHOT] [{'body': 'right_hand_middle_1_link', 'geom': 'right_middle_fingertip', 'pos': [0.3823, 0.0808, 0.7583], 'normal': [0.2708, 0.38, -0.8845], 'normal_force': 12.77, 'cube_is_geom1': False}]
+[FINGERTIP_DISTANCE] right_thumb_fingertip=-0.00106 right_index_fingertip=0.01367 right_middle_fingertip=-0.00230
+[FINGERTIP_POS] right_thumb_fingertip=[0.1037, -0.1397, 0.6609] right_index_fingertip=[0.1295, -0.1248, 0.6752] right_middle_fingertip=[0.085, -0.1255, 0.6396]
+[HAND_LOCAL] cube=[0.1873, 0.3181, 0.2744] right_thumb_fingertip=[0.1506, 0.09, -0.0008] right_index_fingertip=[0.1503, 0.1054, 0.0285] right_middle_fingertip=[0.15, 0.1054, -0.0285]
+[HAND_Q] [0.01, -0.6318, -0.3702, 1.3977, 0.0789, 1.4, 0.0792]
+[ROBOT_STATE] base_pos=[-0.0039, 0.0263, 0.7489] up_z=0.9975
+[HAND_CONTACTS] []
+[TRACE] rows=200 csv=/data/group4/20261006-055934-qoder-x05eval/runs/CAN_c2_p6_s0_c/r01/trace.csv

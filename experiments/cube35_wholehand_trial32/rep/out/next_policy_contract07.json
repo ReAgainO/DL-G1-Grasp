@@ -1,0 +1,6 @@
+{
+  "raw_action_max_error": 0.0,
+  "encoder_max_error": 0.0,
+  "decoder_max_error": 0.0,
+  "policy_history_preserved_by_predict": true
+}

@@ -1,0 +1,98 @@
+{
+ "e20_grasp_kp100.0": {
+  "contact_any": 2,
+  "lift_gt_10cm": 0,
+  "n": 5,
+  "slip_lt_5mm": 0,
+  "success": 0,
+  "weld_free": 5
+ },
+ "e20_grasp_kpasset": {
+  "contact_any": 1,
+  "lift_gt_10cm": 0,
+  "n": 10,
+  "slip_lt_5mm": 0,
+  "success": 0,
+  "weld_free": 10
+ },
+ "e20_ideal_kpasset": {
+  "contact_any": 2,
+  "lift_gt_10cm": 2,
+  "n": 2,
+  "slip_lt_5mm": 0,
+  "success": 2,
+  "weld_free": 2
+ },
+ "e20_negctl_kpasset": {
+  "contact_any": 0,
+  "lift_gt_10cm": 0,
+  "n": 3,
+  "slip_lt_5mm": 0,
+  "success": 0,
+  "weld_free": 3
+ },
+ "e25_grasp_kp100.0": {
+  "contact_any": 5,
+  "lift_gt_10cm": 0,
+  "n": 5,
+  "slip_lt_5mm": 0,
+  "success": 0,
+  "weld_free": 5
+ },
+ "e25_grasp_kpasset": {
+  "contact_any": 10,
+  "lift_gt_10cm": 0,
+  "n": 10,
+  "slip_lt_5mm": 0,
+  "success": 0,
+  "weld_free": 10
+ },
+ "e25_ideal_kpasset": {
+  "contact_any": 2,
+  "lift_gt_10cm": 2,
+  "n": 2,
+  "slip_lt_5mm": 0,
+  "success": 2,
+  "weld_free": 2
+ },
+ "e25_negctl_kpasset": {
+  "contact_any": 0,
+  "lift_gt_10cm": 0,
+  "n": 3,
+  "slip_lt_5mm": 0,
+  "success": 0,
+  "weld_free": 3
+ },
+ "e35_grasp_kp100.0": {
+  "contact_any": 0,
+  "lift_gt_10cm": 0,
+  "n": 5,
+  "slip_lt_5mm": 0,
+  "success": 0,
+  "weld_free": 5
+ },
+ "e35_grasp_kpasset": {
+  "contact_any": 0,
+  "lift_gt_10cm": 0,
+  "n": 10,
+  "slip_lt_5mm": 0,
+  "success": 0,
+  "weld_free": 10
+ },
+ "e35_ideal_kpasset": {
+  "contact_any": 0,
+  "lift_gt_10cm": 2,
+  "n": 2,
+  "slip_lt_5mm": 0,
+  "success": 0,
+  "weld_free": 2
+ },
+ "e35_negctl_kpasset": {
+  "contact_any": 0,
+  "lift_gt_10cm": 0,
+  "n": 3,
+  "slip_lt_5mm": 0,
+  "success": 0,
+  "weld_free": 3
+ }
+}

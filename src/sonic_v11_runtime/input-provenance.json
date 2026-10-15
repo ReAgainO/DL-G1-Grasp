@@ -1,0 +1,960 @@
+{
+  "time": "2026-10-06T09:39:45.427444+08:00",
+  "task": "20261006-093203-codex-6385a841",
+  "files": [
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/._g1_23dof.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/._g1_23dof.xml",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/._g1_29dof.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/._g1_29dof.xml",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/._g1_29dof_old.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/._g1_29dof_old.xml",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/._g1_29dof_with_hand.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/._g1_29dof_with_hand.xml",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/._images",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/._images",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/._meshes",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/._meshes",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/._scene_23dof.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/._scene_23dof.xml",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/._scene_29dof.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/._scene_29dof.xml",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/._scene_29dof_with_hand.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/._scene_29dof_with_hand.xml",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/._scene_empty.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/._scene_empty.xml",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/g1_23dof.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/g1_23dof.xml",
+      "bytes": 31389,
+      "sha256": "59333584df95ab2cc20aefd4a3ac24584935043f673efaf13ece7fbe3d350edf"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/g1_29dof.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/g1_29dof.xml",
+      "bytes": 26111,
+      "sha256": "439c1ec0806583d73b492da9484b0cb9e9eae215e0d9506e3c2fa69016733532"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/g1_29dof_old.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/g1_29dof_old.xml",
+      "bytes": 35824,
+      "sha256": "58660a6f1d0d33ffd8ee967ab3860def53e3327d956cb009dd1385ddaf430f56"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/g1_29dof_with_hand.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/g1_29dof_with_hand.xml",
+      "bytes": 55288,
+      "sha256": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/g1_fixed_base.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/g1_fixed_base.xml",
+      "bytes": 50964,
+      "sha256": "e5db5d3fa76fab2548a7b9d90ad9d5c3b448a4e0b10dbcd63b35968dc858cef8"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._head_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._head_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_ankle_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_ankle_pitch_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_ankle_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_ankle_roll_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_elbow_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_elbow_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hand_index_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hand_index_0_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hand_index_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hand_index_1_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hand_middle_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hand_middle_0_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hand_middle_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hand_middle_1_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hand_palm_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hand_palm_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hand_thumb_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hand_thumb_0_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hand_thumb_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hand_thumb_1_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hand_thumb_2_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hand_thumb_2_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hip_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hip_pitch_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hip_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hip_roll_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_hip_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_hip_yaw_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_knee_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_knee_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_rubber_hand.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_shoulder_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_shoulder_pitch_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_shoulder_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_shoulder_roll_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_shoulder_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_shoulder_yaw_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_wrist_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_wrist_pitch_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_wrist_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_wrist_roll_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_wrist_roll_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_wrist_roll_rubber_hand.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._left_wrist_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._left_wrist_yaw_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._logo_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._logo_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._pelvis.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._pelvis.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._pelvis_contour_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._pelvis_contour_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_ankle_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_ankle_pitch_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_ankle_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_ankle_roll_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_elbow_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_elbow_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hand_index_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hand_index_0_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hand_index_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hand_index_1_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hand_middle_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hand_middle_0_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hand_middle_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hand_middle_1_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hand_palm_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hand_palm_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hand_thumb_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hand_thumb_0_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hand_thumb_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hand_thumb_1_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hand_thumb_2_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hand_thumb_2_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hip_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hip_pitch_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hip_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hip_roll_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_hip_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_hip_yaw_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_knee_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_knee_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_rubber_hand.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_shoulder_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_shoulder_pitch_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_shoulder_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_shoulder_roll_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_shoulder_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_shoulder_yaw_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_wrist_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_wrist_pitch_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_wrist_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_wrist_roll_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_wrist_roll_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_wrist_roll_rubber_hand.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._right_wrist_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._right_wrist_yaw_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._torso_constraint_L_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._torso_constraint_L_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._torso_constraint_L_rod_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._torso_constraint_L_rod_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._torso_constraint_R_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._torso_constraint_R_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._torso_constraint_R_rod_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._torso_constraint_R_rod_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._torso_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._torso_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._waist_constraint_L.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._waist_constraint_L.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._waist_constraint_R.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._waist_constraint_R.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._waist_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._waist_roll_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._waist_support_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._waist_support_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/._waist_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/._waist_yaw_link.STL",
+      "bytes": 163,
+      "sha256": "ad4310871ce50088c74b7a8912cd692357a9274ad151b6f6dcf5118a30b4b060"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/head_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/head_link.STL",
+      "bytes": 337584,
+      "sha256": "d297328b3569fc85074355e76cba6c889d19de5361224bcd3c5b8ce82e13b9b6"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_ankle_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_ankle_pitch_link.STL",
+      "bytes": 71184,
+      "sha256": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_ankle_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_ankle_roll_link.STL",
+      "bytes": 653384,
+      "sha256": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_elbow_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_elbow_link.STL",
+      "bytes": 88784,
+      "sha256": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hand_index_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hand_index_0_link.STL",
+      "bytes": 189884,
+      "sha256": "efaabe6a8c850f628c55ab5ed8402757d5263262e8c32943f9bfbec4329d9a8a"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hand_index_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hand_index_1_link.STL",
+      "bytes": 768684,
+      "sha256": "926e5fc790ddbabf222e7b7ee5b790a45b090d27a4a87e558a5ba57516b6a805"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hand_middle_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hand_middle_0_link.STL",
+      "bytes": 189884,
+      "sha256": "efaabe6a8c850f628c55ab5ed8402757d5263262e8c32943f9bfbec4329d9a8a"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hand_middle_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hand_middle_1_link.STL",
+      "bytes": 768684,
+      "sha256": "926e5fc790ddbabf222e7b7ee5b790a45b090d27a4a87e558a5ba57516b6a805"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hand_palm_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hand_palm_link.STL",
+      "bytes": 556084,
+      "sha256": "d48b0b1dbd2def01867de0840ed643e6ae8f4882fe81368540830448e2fba58f"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hand_thumb_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hand_thumb_0_link.STL",
+      "bytes": 71384,
+      "sha256": "c63f6a2e8d700940c172cfa8a5fab2d8c2785abc43bc258d3adf315ceb1fa653"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hand_thumb_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hand_thumb_1_link.STL",
+      "bytes": 189884,
+      "sha256": "ba3d13e21e8ed1e4885bdbf562326abdae41964c0fee63eceeebebdcf5fff935"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hand_thumb_2_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hand_thumb_2_link.STL",
+      "bytes": 768684,
+      "sha256": "9985783981720896e54347dbcf9d8cbfb991a264ac4fa44cfc017dae1b83fdcd"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hip_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hip_pitch_link.STL",
+      "bytes": 181684,
+      "sha256": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hip_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hip_roll_link.STL",
+      "bytes": 192184,
+      "sha256": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_hip_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_hip_yaw_link.STL",
+      "bytes": 296284,
+      "sha256": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_knee_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_knee_link.STL",
+      "bytes": 854884,
+      "sha256": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_rubber_hand.STL",
+      "bytes": 2287484,
+      "sha256": "cff2221a690fa69303f61fce68f2d155c1517b52efb6ca9262dd56e0bc6e70fe"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_shoulder_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_shoulder_pitch_link.STL",
+      "bytes": 176784,
+      "sha256": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_shoulder_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_shoulder_roll_link.STL",
+      "bytes": 400284,
+      "sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_shoulder_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_shoulder_yaw_link.STL",
+      "bytes": 249184,
+      "sha256": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_wrist_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_wrist_pitch_link.STL",
+      "bytes": 85984,
+      "sha256": "b251d8e05047f695d0f536cd78c11973cfa4e78d08cfe82759336cc3471de3a9"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_wrist_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_wrist_roll_link.STL",
+      "bytes": 356184,
+      "sha256": "edc387c9a0ba8c2237e9b296d32531426fabeb6f53e58df45c76106bca74148c"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_wrist_roll_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_wrist_roll_rubber_hand.STL",
+      "bytes": 3484884,
+      "sha256": "e81030abd023bd9e4a308ef376d814a2c12d684d8a7670c335bbd5cd7809c909"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/left_wrist_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/left_wrist_yaw_link.STL",
+      "bytes": 318684,
+      "sha256": "83f8fb3a726bf9613d65dd14f0f447cb918c3c95b3938042a0c9c09749267d3b"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/logo_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/logo_link.STL",
+      "bytes": 243384,
+      "sha256": "8571a0a19bc4916fa55f91449f51d5fdefd751000054865a842449429d5f155b"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/pelvis.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/pelvis.STL",
+      "bytes": 1060884,
+      "sha256": "5ba6bbc888e630550140d3c26763f10206da8c8bd30ed886b8ede41c61f57a31"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/pelvis_contour_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/pelvis_contour_link.STL",
+      "bytes": 1805184,
+      "sha256": "5cc5c2c7a312329e3feeb2b03d3fc09fc29705bd01864f6767e51be959662420"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_ankle_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_ankle_pitch_link.STL",
+      "bytes": 71184,
+      "sha256": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_ankle_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_ankle_roll_link.STL",
+      "bytes": 653784,
+      "sha256": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_elbow_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_elbow_link.STL",
+      "bytes": 88784,
+      "sha256": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hand_index_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hand_index_0_link.STL",
+      "bytes": 189884,
+      "sha256": "8bac717a5ff4c5a6f4ca839091ad935392859795a68a5a547bc5ecb3f196f40d"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hand_index_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hand_index_1_link.STL",
+      "bytes": 768684,
+      "sha256": "06a5f46b5705a1e54205fc01ed437d475e194a205b72ba78d00c8f26481237bb"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hand_middle_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hand_middle_0_link.STL",
+      "bytes": 189884,
+      "sha256": "a02dd3c5b6747e76016f3a1cab27173fa218b0eb271570847be64d8a390022d1"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hand_middle_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hand_middle_1_link.STL",
+      "bytes": 768684,
+      "sha256": "60ca1810b7b1371733556660e9e2167790355a83cad9ba55dbd236f2020a228a"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hand_palm_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hand_palm_link.STL",
+      "bytes": 556084,
+      "sha256": "5e95f19c4daa3ed7f765d465ba763153d7a76e4c02cbe6d8c567cd67f89f1c1b"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hand_thumb_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hand_thumb_0_link.STL",
+      "bytes": 71384,
+      "sha256": "30f91ca9cccda42065c98cbe635ff87cd1e004b82d38888fd7e741cf0998d01d"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hand_thumb_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hand_thumb_1_link.STL",
+      "bytes": 189884,
+      "sha256": "acdd00f613ea4253229461e1367be5331e6631df49e1d40fe283c2bd4c66469f"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hand_thumb_2_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hand_thumb_2_link.STL",
+      "bytes": 768684,
+      "sha256": "36256d0253ae42e0652fbe3e3992b6ac9b5aefd839694ad39b4af143d4efa85f"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hip_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hip_pitch_link.STL",
+      "bytes": 181284,
+      "sha256": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hip_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hip_roll_link.STL",
+      "bytes": 192684,
+      "sha256": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_hip_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_hip_yaw_link.STL",
+      "bytes": 296284,
+      "sha256": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_knee_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_knee_link.STL",
+      "bytes": 852284,
+      "sha256": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_rubber_hand.STL",
+      "bytes": 2192684,
+      "sha256": "99533b778bca6246144fa511bb9d4e555e075c641f2a0251e04372869cd99d67"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_shoulder_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_shoulder_pitch_link.STL",
+      "bytes": 176784,
+      "sha256": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_shoulder_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_shoulder_roll_link.STL",
+      "bytes": 401884,
+      "sha256": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_shoulder_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_shoulder_yaw_link.STL",
+      "bytes": 249984,
+      "sha256": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_wrist_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_wrist_pitch_link.STL",
+      "bytes": 79584,
+      "sha256": "d22f8f3b3127f15a63e5be1ee273cd5075786c3142f1c3d9f76cbf43d2a26477"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_wrist_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_wrist_roll_link.STL",
+      "bytes": 356084,
+      "sha256": "a7ee9212ff5b94d6cb7f52bb1bbf3f352194d5b598acff74f4c77d340c5b344f"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_wrist_roll_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_wrist_roll_rubber_hand.STL",
+      "bytes": 3481584,
+      "sha256": "0729aff1ac4356f9314de13a46906267642e58bc47f0d8a7f17f6590a6242ccf"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/right_wrist_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/right_wrist_yaw_link.STL",
+      "bytes": 341484,
+      "sha256": "bc9dece2d12509707e0057ba2e48df8f3d56db0c79410212963a25e8a50f61a6"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/torso_constraint_L_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/torso_constraint_L_link.STL",
+      "bytes": 203584,
+      "sha256": "82be7f93e85b3d303a1d1e1847e2c916939bd61c424ed1ebd28691ec33909dd1"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/torso_constraint_L_rod_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/torso_constraint_L_rod_link.STL",
+      "bytes": 74884,
+      "sha256": "c10de1effa7ea797ac268006aa2a739036c7e1f326b2012d711ee2c20c5a6e96"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/torso_constraint_R_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/torso_constraint_R_link.STL",
+      "bytes": 203584,
+      "sha256": "54ded433a3a0c76027365856fdbd55215643de88846f7d436598a4071e682725"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/torso_constraint_R_rod_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/torso_constraint_R_rod_link.STL",
+      "bytes": 74884,
+      "sha256": "cb83fd38a9f06c99e3f301c70f12d94ae770a8f0cf9501f83580a27f908990b4"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/torso_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/torso_link.STL",
+      "bytes": 2232984,
+      "sha256": "e96d023f0368a4e3450b86ca5d4f10227d8141156a373e7da8cb3c93266523e0"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/waist_constraint_L.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/waist_constraint_L.STL",
+      "bytes": 114684,
+      "sha256": "8ebafdcb4de6871113f0ca2c356618d6e46b1d50f6c0bf9e37f47b9d8e100d99"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/waist_constraint_R.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/waist_constraint_R.STL",
+      "bytes": 114684,
+      "sha256": "791902a291ffbd35ab97383b7b44ea5d975de7c80eef838797c970790b382ca9"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/waist_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/waist_roll_link.STL",
+      "bytes": 24184,
+      "sha256": "34f0aa73f41131230be4d25876c944fdf6c24d62553f199ff8b980c15e8913df"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/waist_support_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/waist_support_link.STL",
+      "bytes": 150484,
+      "sha256": "1fae9e1bb609848a1667d32eed8d6083ae443538a306843056a2a660f1b2926a"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/meshes/waist_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/meshes/waist_yaw_link.STL",
+      "bytes": 336284,
+      "sha256": "2883f20e03f09b669b5b4ce10677ee6b5191c0934b584d7cbaef2d0662856ffb"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/scene_23dof.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/scene_23dof.xml",
+      "bytes": 872,
+      "sha256": "58436a034c2548b3cd3935d1e5c6d3e22d93e0105c6b6a4d82f36185c94dce7d"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/scene_29dof.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/scene_29dof.xml",
+      "bytes": 1031,
+      "sha256": "a857005b8dfda038705c9ffc14a4c8b6d7ea8cd2c06f88b7f884874533b7f5ae"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/scene_29dof_with_hand.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/scene_29dof_with_hand.xml",
+      "bytes": 882,
+      "sha256": "f8538904eb47cada1bfb2dcdc157099092aa63df4307d7e077b651b16bfb6c74"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/scene_empty.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/scene_empty.xml",
+      "bytes": 994,
+      "sha256": "a8ee9a5f404160b529136e54f33f41d085774d5d396fbee410d3a52f081e1c0f"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/scene_fixed_grasp.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/scene_fixed_grasp.xml",
+      "bytes": 2638,
+      "sha256": "a979e2ac635a6ff3774562f5f17063e56188ffe668556c1c7af8d99c64bdbd2f"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/g1/scene_grasp_hand.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/g1/scene_grasp_hand.xml",
+      "bytes": 2603,
+      "sha256": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/generation-manifest.json",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/generation-manifest.json",
+      "bytes": 6043,
+      "sha256": "916612b11db8e1bf11d8e6ffea2d2a7e52509d0a12a119098cfdd0859c7c4357"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/guided_cfg8_s42.csv",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/guided_cfg8_s42.csv",
+      "bytes": 527408,
+      "sha256": "2aa6c026dcf161b5a1825e387c2c9afbae3e02b776561f6fa7f14af84373b45f"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/guided_s42.csv",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/guided_s42.csv",
+      "bytes": 526461,
+      "sha256": "794b52355a37321c5bc0570b06a404ab9338c1d5087a55576a0ada7e61d518a5"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/manual_grasp_calibration.json",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/manual_grasp_calibration.json",
+      "bytes": 2628,
+      "sha256": "39356675f7cacdc131d9e990208a03945c89dc802012e9e711d6990f0a6f9e3c"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/manual_grasp_calibration.npz",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/manual_grasp_calibration.npz",
+      "bytes": 432289,
+      "sha256": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/reference_mount.csv",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/reference_mount.csv",
+      "bytes": 446293,
+      "sha256": "c9a7f91eac95b1e699ba9838832ad5323c6d24894ac743188bd831f9a796297c"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/src/reference_run_grasp.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/reference_run_grasp.py",
+      "bytes": 39091,
+      "sha256": "baabf723961d3a87315102fc750a425ec45d42a7b598c5d34b46e22d46aa5165"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/task_plan.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/task_plan.py",
+      "bytes": 8580,
+      "sha256": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/trajectory.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/trajectory.py",
+      "bytes": 5326,
+      "sha256": "560bba85890893bf6e7ffaeca37f530fb5563a2101a7095dcb52de0f09eedaf9"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/grasp.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/grasp.py",
+      "bytes": 8393,
+      "sha256": "796d3761e1b290475f42eae597f22ae4dc57556a3cae665eca1603b19f287097"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/control.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/control.py",
+      "bytes": 4665,
+      "sha256": "6b76e5dc117022bda97d0cb6b2897e1862a3ab999ffd1074e2c8da1214082b8e"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/source_physics_core.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/source_physics_core.py",
+      "bytes": 19576,
+      "sha256": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/verify.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/verify.py",
+      "bytes": 5029,
+      "sha256": "539b94fc31ffc3d64012ce6f8e66a6ddb30b922f4e54875104fe6a0b169f2c45"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/render.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/render.py",
+      "bytes": 2510,
+      "sha256": "852defcc8ceb1a809957834e2b0b7381479eeac6a773f77b2690f8eaf20477fe"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/out/repaired_guided_s42/reference.npz",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/out/repaired_guided_s42/reference.npz",
+      "bytes": 5783557,
+      "sha256": "f15ae1569e33e126bb6a02a1bbdfdcfcc1133ca190d730a10bab2fe293cea9de"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/out/repaired_guided_s42/result.json",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/out/repaired_guided_s42/result.json",
+      "bytes": 1661,
+      "sha256": "de85597a8384b8a53125c5ee5732ee9f3d8321cfdf18a33c5e0f6d8cfa7007bc"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/out/ff327/result.json",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/out/ff327/result.json",
+      "bytes": 1744,
+      "sha256": "4e7d4c16074c9ce20fd32295198df0c37c1d9c3e5af7693016974114c34998c7"
+    },
+    {
+      "source": "/data/group4/20261006-035100-codex-8d174a6b/out/ff314/result.json",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/out/ff314/result.json",
+      "bytes": 1729,
+      "sha256": "062dc3e07b1456fdcf85e30191ef735173b5776c49270ec86cefd8684f4d27f5"
+    }
+  ]
+}

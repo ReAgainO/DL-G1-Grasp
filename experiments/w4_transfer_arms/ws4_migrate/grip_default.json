@@ -1,0 +1,6 @@
+{
+  "grip_target_rad": [0.0, -0.60, -0.88, 1.40, 0.08, 1.40, 0.08],
+  "joint_order": ["right_hand_thumb_0", "right_hand_thumb_1", "right_hand_thumb_2", "right_hand_index_0", "right_hand_index_1", "right_hand_middle_0", "right_hand_middle_1"],
+  "name": "grip_default (W4b smoke 3b identity)",
+  "note": "bit-equal to the effective built-in pinch recipe close_hand (core.CLOSED with close_hand[2]=-.88); loading it must be a provable no-op"
+}

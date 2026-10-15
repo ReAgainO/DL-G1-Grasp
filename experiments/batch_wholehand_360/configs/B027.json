@@ -1,0 +1,19 @@
+{
+  "id": "B027",
+  "group": "B",
+  "xy_m": [
+    0.3365267193491592,
+    -0.16863894524388812
+  ],
+  "edge_m": 0.08,
+  "mass_kg": 0.12,
+  "root_x_m": 0.0,
+  "sampling_seed": 20261009,
+  "source_baseline_trial": null,
+  "no_grip": false,
+  "wrist_servo": true,
+  "gravity_arm_scale": 1.0,
+  "native_mesh": true,
+  "time_scale": 2.0,
+  "retract_raise": true
+}

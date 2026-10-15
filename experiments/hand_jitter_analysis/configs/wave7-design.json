@@ -1,0 +1,81 @@
+{
+  "wave": "wave7",
+  "frozen": "2026-10-09T17:40:32.152386+08:00",
+  "trials": [
+    {
+      "id": "A_pose06",
+      "source_episode": "A000",
+      "tau": 0,
+      "damping": 3,
+      "servo_gain": 0.03,
+      "rotation_gain": 0.06,
+      "start": 42,
+      "source_hashes": {
+        "execute_jitter_pose.py": "59084cf7444779f8594b2e0e9f2d7e0380f3e63524a07c4e315809888d19da72",
+        "jitter_control.py": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+        "run_wave_pose.py": "7f24aeccb61aef29f9843fa4329629287a685496cae3091ca0151a2e79721c7e",
+        "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "lib/sonic_v11.py": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      },
+      "frozen_source_reference_sha": "4fc58b8515a274d570d6bc5e42e00edaa4a01f16ddf19b2b97db0cc3753ec130"
+    },
+    {
+      "id": "D_pose06",
+      "source_episode": "D000",
+      "tau": 0,
+      "damping": 3,
+      "servo_gain": 0.03,
+      "rotation_gain": 0.06,
+      "start": 42,
+      "source_hashes": {
+        "execute_jitter_pose.py": "59084cf7444779f8594b2e0e9f2d7e0380f3e63524a07c4e315809888d19da72",
+        "jitter_control.py": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+        "run_wave_pose.py": "7f24aeccb61aef29f9843fa4329629287a685496cae3091ca0151a2e79721c7e",
+        "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "lib/sonic_v11.py": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      },
+      "frozen_source_reference_sha": "3189c2228cf5b6cc5235549a2f3788e6210b88ed90c717142e0d2160e52b510e"
+    },
+    {
+      "id": "B080_pose06",
+      "source_episode": "B080",
+      "tau": 0,
+      "damping": 3,
+      "servo_gain": 0.03,
+      "rotation_gain": 0.06,
+      "start": 42,
+      "source_hashes": {
+        "execute_jitter_pose.py": "59084cf7444779f8594b2e0e9f2d7e0380f3e63524a07c4e315809888d19da72",
+        "jitter_control.py": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+        "run_wave_pose.py": "7f24aeccb61aef29f9843fa4329629287a685496cae3091ca0151a2e79721c7e",
+        "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "lib/sonic_v11.py": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      },
+      "frozen_source_reference_sha": "dcaa03609f61101916181137385275207cae51fbb7453e9aa7bf15a98979b5d1"
+    },
+    {
+      "id": "D020_pose06",
+      "source_episode": "D020",
+      "tau": 0,
+      "damping": 3,
+      "servo_gain": 0.03,
+      "rotation_gain": 0.06,
+      "start": 42,
+      "source_hashes": {
+        "execute_jitter_pose.py": "59084cf7444779f8594b2e0e9f2d7e0380f3e63524a07c4e315809888d19da72",
+        "jitter_control.py": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+        "run_wave_pose.py": "7f24aeccb61aef29f9843fa4329629287a685496cae3091ca0151a2e79721c7e",
+        "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "lib/sonic_v11.py": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+      },
+      "frozen_source_reference_sha": "6218993d29958703b694d6d6e6c02ab8e8a400b843a26f5fe7f6173a2aef069f"
+    }
+  ],
+  "max_workers": 4,
+  "AS_GiB_per_worker": 4,
+  "no_gpu": true,
+  "physics_gate": "unchanged wholehand-v2-wristlocal-support",
+  "freeze_source_sha": "7c31d3d0612769862e91aec61ed7bf20014dc08dacf91d8b8966f3807243c2b2",
+  "selection": "Require original success gate, exact pretreatment prefix, lower HOLD wrist RMS and arm velocity RMS. All failures retained.",
+  "scope": "MuJoCo3.2.7 finite matched-input controller experiments; development or held-out status stated in report"
+}

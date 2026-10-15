@@ -1,0 +1,101 @@
+{
+  "tag": "KIM_K_M0_P2_s0",
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22",
+    "numpy_version": "1.26.4",
+    "torch_version": "2.14.1+cpu",
+    "model_sha": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e",
+    "scene_generator_sha": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+    "runner_sha": "b3b0c9410a3e9f5f2bb7c120fbecee7c500dda6b385b00cf93845035ecc3c004",
+    "library_sha": "5922525847b515bd4162a7fe8a8b4593c6c760f25c4131d90a0a3528eb63a1db",
+    "input_csv_sha256": "3568a9f51905fa0568da2d9db1baa8c661798bb6b8c3c0ab2e7cb25bde855885",
+    "timestep": 0.002,
+    "nq_nv_nu": [
+      57,
+      55,
+      43
+    ],
+    "integrator_cone_solver": [
+      3,
+      1,
+      2
+    ],
+    "multiccd": false,
+    "mode": "sonic-closed",
+    "base": "pinned",
+    "runner_args": "--trace-csv /data/group4/20261006-055934-qoder-x05eval/runs/KIM_K_M0_P2_s0/r01/trace.csv --duration 4 --allow-failure --motion-source kimodo --motion-file /data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P2_s0.csv --source-fps 30 --close-start 2.2 --close-duration 0.6 --lift-start 2.8 --lift-duration 1",
+    "export_used": false,
+    "pythonpath_shim": null,
+    "rlimit_as_gib": 16.0,
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "mujoco_gl": "unset"
+  },
+  "repeats": 1,
+  "ru_maxrss_children_kb": 522536,
+  "ru_maxrss_before_kb": 324996,
+  "runs": [
+    {
+      "repeat_index": 1,
+      "tag": "KIM_K_M0_P2_s0",
+      "rc": 2,
+      "timed_out": false,
+      "wall_seconds": 2.148,
+      "child_pid": 3532716,
+      "stdout_sha256": "01f7a2800f55e0743e0e39ce2cee54c78477fa209e4825cb4ca3c886cc950e79",
+      "result_line": "",
+      "result_line_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "success_raw": null,
+      "no_grip_raw": null,
+      "lifted_height": null,
+      "final_clearance": null,
+      "max_normal_force": null,
+      "max_contact_bodies": null,
+      "max_contacts": null,
+      "lift_contact_time": null,
+      "contact_bodies": null,
+      "control_mode": null,
+      "fixed_arm_override_count": null,
+      "fixed_arm_pd_write_count": null,
+      "unique_action_hashes": null,
+      "action_count": null,
+      "stdout_lines": 28
+    }
+  ],
+  "summary": {
+    "success_counts": {
+      "True": 0,
+      "False": 0
+    },
+    "success_flips_adjacent": 0,
+    "failed_repeat_indices": [
+      1
+    ],
+    "distinct_stdout_shas": 1,
+    "distinct_result_line_shas": 1,
+    "distinct_manifest_csv_shas": 0,
+    "lifted_height": null,
+    "final_clearance": null,
+    "max_normal_force": null,
+    "max_contact_bodies": null,
+    "lift_contact_time": null,
+    "wall_seconds": {
+      "n": 1,
+      "min": 2.148,
+      "median": 2.148,
+      "max": 2.148,
+      "range": 0.0,
+      "distinct_round6": [
+        2.148
+      ]
+    },
+    "rc_counts": {
+      "2": 1
+    }
+  }
+}

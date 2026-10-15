@@ -1,0 +1,319 @@
+{
+ "O7": [
+  -1.0472,
+  0.724312,
+  -0.87266,
+  0.0,
+  0.0,
+  1.5708,
+  0.0
+ ],
+ "T7": [
+  0.4188799999999999,
+  -1.0472,
+  -1.74533,
+  1.5708,
+  1.74533,
+  1.5708,
+  1.74533
+ ],
+ "arm_vals": [
+  -0.8,
+  -0.3,
+  0.8,
+  1.2,
+  0.7854,
+  -0.6,
+  0.2
+ ],
+ "lam_extra": 0.06,
+ "pad_inset_frac": 0.7,
+ "pad_r": 0.005,
+ "procedure": "pads_variant_v2 pair=tm (pad-convergence seating, runner-rule lambda_g)",
+ "sizes": {
+  "25": {
+   "candidates": [
+    {
+     "P": [
+      0.410847,
+      -0.050695,
+      0.855953
+     ],
+     "accept": false,
+     "between_perp_m": 0.002146,
+     "between_ta_frac": 0.506,
+     "clr0": 0.02422,
+     "da_g": -0.00113,
+     "db_g": -0.0002,
+     "dc_g": 0.04398,
+     "desk_clr0": 0.04345,
+     "dthird_g": 0.04033,
+     "lam": 0.6333,
+     "lam0": 0.6333,
+     "lam_g": 0.65,
+     "lam_touch": 0.59,
+     "pair": "tm",
+     "squeeze_g": 0.00134
+    },
+    {
+     "P": [
+      0.409035,
+      -0.059064,
+      0.854131
+     ],
+     "accept": false,
+     "between_perp_m": 0.000464,
+     "between_ta_frac": 0.5011,
+     "clr0": 0.03062,
+     "da_g": 0.00014,
+     "db_g": 0.00038,
+     "dc_g": 0.04914,
+     "desk_clr0": 0.04163,
+     "dthird_g": 0.04079,
+     "lam": 0.6968,
+     "lam0": 0.6968,
+     "lam_g": 0.7,
+     "lam_touch": 0.64,
+     "pair": "tm",
+     "squeeze_g": -0.00051
+    }
+   ],
+   "chosen": {
+    "P": [
+     0.410847,
+     -0.050695,
+     0.855953
+    ],
+    "accept": false,
+    "between_perp_m": 0.002146,
+    "between_ta_frac": 0.506,
+    "clr0": 0.02422,
+    "da_g": -0.00113,
+    "db_g": -0.0002,
+    "dc_g": 0.04398,
+    "desk_clr0": 0.04345,
+    "dthird_g": 0.04033,
+    "lam": 0.6333,
+    "lam0": 0.6333,
+    "lam_g": 0.65,
+    "lam_touch": 0.59,
+    "pair": "tm",
+    "squeeze_g": 0.00134
+   },
+   "n_candidates": 2
+  },
+  "35": {
+   "candidates": [
+    {
+     "P": [
+      0.415101,
+      -0.036569,
+      0.859176
+     ],
+     "accept": true,
+     "between_perp_m": 0.004054,
+     "between_ta_frac": 0.5218,
+     "clr0": 0.01168,
+     "da_g": -0.0026,
+     "db_g": -0.00097,
+     "dc_g": 0.04732,
+     "desk_clr0": 0.04168,
+     "dthird_g": 0.03234,
+     "lam": 0.4687,
+     "lam0": 0.4687,
+     "lam_g": 0.53,
+     "lam_touch": 0.47000000000000003,
+     "pair": "tm",
+     "squeeze_g": 0.00357
+    },
+    {
+     "P": [
+      0.407512,
+      -0.066887,
+      0.852603
+     ],
+     "accept": false,
+     "between_perp_m": 0.013216,
+     "between_ta_frac": 0.4565,
+     "clr0": 0.03017,
+     "da_g": -0.00348,
+     "db_g": -0.00047,
+     "dc_g": 0.04486,
+     "desk_clr0": 0.0351,
+     "dthird_g": 0.03333,
+     "lam": 0.7493,
+     "lam0": 0.7493,
+     "lam_g": 0.66,
+     "lam_touch": 0.6,
+     "pair": "tm",
+     "squeeze_g": 0.00395
+    }
+   ],
+   "chosen": {
+    "P": [
+     0.415101,
+     -0.036569,
+     0.859176
+    ],
+    "accept": true,
+    "between_perp_m": 0.004054,
+    "between_ta_frac": 0.5218,
+    "clr0": 0.01168,
+    "da_g": -0.0026,
+    "db_g": -0.00097,
+    "dc_g": 0.04732,
+    "desk_clr0": 0.04168,
+    "dthird_g": 0.03234,
+    "lam": 0.4687,
+    "lam0": 0.4687,
+    "lam_g": 0.53,
+    "lam_touch": 0.47000000000000003,
+    "pair": "tm",
+    "squeeze_g": 0.00357
+   },
+   "n_candidates": 2
+  },
+  "40": {
+   "candidates": [
+    {
+     "P": [
+      0.415616,
+      -0.035639,
+      0.859324
+     ],
+     "accept": false,
+     "between_perp_m": 0.003514,
+     "between_ta_frac": 0.5219,
+     "clr0": 0.00899,
+     "da_g": -0.00454,
+     "db_g": -0.00326,
+     "dc_g": 0.05092,
+     "desk_clr0": 0.03932,
+     "dthird_g": 0.02868,
+     "lam": 0.4464,
+     "lam0": 0.4464,
+     "lam_g": 0.51,
+     "lam_touch": 0.45,
+     "pair": "tm",
+     "squeeze_g": 0.0078
+    },
+    {
+     "P": [
+      0.406672,
+      -0.071509,
+      0.851791
+     ],
+     "accept": false,
+     "between_perp_m": 0.021736,
+     "between_ta_frac": 0.4118,
+     "clr0": 0.03075,
+     "da_g": -0.00311,
+     "db_g": 0.00512,
+     "dc_g": 0.04258,
+     "desk_clr0": 0.03179,
+     "dthird_g": 0.02942,
+     "lam": 0.7784,
+     "lam0": 0.7784,
+     "lam_g": 0.63,
+     "lam_touch": 0.5700000000000001,
+     "pair": "tm",
+     "squeeze_g": -0.002
+    }
+   ],
+   "chosen": {
+    "P": [
+     0.415616,
+     -0.035639,
+     0.859324
+    ],
+    "accept": false,
+    "between_perp_m": 0.003514,
+    "between_ta_frac": 0.5219,
+    "clr0": 0.00899,
+    "da_g": -0.00454,
+    "db_g": -0.00326,
+    "dc_g": 0.05092,
+    "desk_clr0": 0.03932,
+    "dthird_g": 0.02868,
+    "lam": 0.4464,
+    "lam0": 0.4464,
+    "lam_g": 0.51,
+    "lam_touch": 0.45,
+    "pair": "tm",
+    "squeeze_g": 0.0078
+   },
+   "n_candidates": 2
+  },
+  "50": {
+   "candidates": [
+    {
+     "P": [
+      0.416216,
+      -0.034849,
+      0.859386
+     ],
+     "accept": false,
+     "between_perp_m": 0.002438,
+     "between_ta_frac": 0.5196,
+     "clr0": 0.00393,
+     "da_g": -0.0088,
+     "db_g": -0.00817,
+     "dc_g": 0.05765,
+     "desk_clr0": 0.03439,
+     "dthird_g": 0.02142,
+     "lam": 0.4197,
+     "lam0": 0.4197,
+     "lam_g": 0.48,
+     "lam_touch": 0.42,
+     "pair": "tm",
+     "squeeze_g": 0.01698
+    },
+    {
+     "P": [
+      0.40418,
+      -0.08663,
+      0.849659
+     ],
+     "accept": false,
+     "between_perp_m": 0.031705,
+     "between_ta_frac": 0.3768,
+     "clr0": 0.03793,
+     "da_g": -0.008,
+     "db_g": 0.01053,
+     "dc_g": 0.04583,
+     "desk_clr0": 0.02466,
+     "dthird_g": 0.02321,
+     "lam": 0.8685,
+     "lam0": 0.8685,
+     "lam_g": 0.67,
+     "lam_touch": 0.61,
+     "pair": "tm",
+     "squeeze_g": -0.00254
+    }
+   ],
+   "chosen": {
+    "P": [
+     0.416216,
+     -0.034849,
+     0.859386
+    ],
+    "accept": false,
+    "between_perp_m": 0.002438,
+    "between_ta_frac": 0.5196,
+    "clr0": 0.00393,
+    "da_g": -0.0088,
+    "db_g": -0.00817,
+    "dc_g": 0.05765,
+    "desk_clr0": 0.03439,
+    "dthird_g": 0.02142,
+    "lam": 0.4197,
+    "lam0": 0.4197,
+    "lam_g": 0.48,
+    "lam_touch": 0.42,
+    "pair": "tm",
+    "squeeze_g": 0.01698
+   },
+   "n_candidates": 2
+  }
+ }
+}

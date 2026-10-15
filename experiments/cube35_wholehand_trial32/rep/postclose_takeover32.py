@@ -1,0 +1,13 @@
+from pathlib import Path
+import subprocess,json,hashlib,shutil
+base=Path('/home/group4/group4_dasc7606c');t='20261008-202654-codex-182c4568';w=base/'work'/t;arc=Path('/data/group4')/t/'archive'
+rows=(base/'claims/journal.log').read_text().splitlines();own=[line for line in rows if json.loads(line).get('task')==t];assert json.loads(own[-1])['event']=='done';(w/'task-journal-final.jsonl').write_text('\n'.join(own)+'\n');view=[line for line in (base/'claims/INDEX.md').read_text().splitlines() if t in line];assert view
+snapshot={'journal_cutoff_rows':len(rows),'own_latest_event':json.loads(own[-1]),'own_index_row':view,'global_journal_preserved':True,'report_location':'local only per user; server report archive explicitly not requested','source_snapshot_commit':json.loads((arc/'freeze32-receipt.json').read_text())['source_commit']};(w/'closure-view-snapshot.json').write_text(json.dumps(snapshot,indent=2))
+with (base/'logs'/t/'steps.md').open('a') as f:f.write('\n## Post-close cutoff archive\nDone event2785, sanctioned close+verifyexit0; hashchain/anchors intact through2787, INDEX439/439rows matched andowntasknotdoing. Ownjournalrawlines/INDEXrow preservedin worktask snapshots; nootherhistoricalevents changed. Scopecomplete fixedscene only. SourceGit+bundle includescode/input/reference; largeassets remainhashedservercopies. Reports+simulationoriginals+NNIO/sourcebundle preservedlocally; noreportupload peruser. FinalownmetadataGit andlocalarchive stopatthiscutoff, nogloballedgercommit orpush.\n')
+paths=['claims/'+t+'/done.txt','logs/'+t+'/steps.md','work/'+t+'/task-journal-final.jsonl','work/'+t+'/closure-view-snapshot.json']
+def g(a):return subprocess.run(['git','-C',str(base),*a],check=True,capture_output=True,text=True)
+def other():return '\n'.join(x for x in g(['ls-files','--stage']).stdout.splitlines() if x.split('\t',1)[-1] not in paths)
+before=other();g(['add','-f','--',*paths]);g(['-c','user.name=Codex ReAgain0','-c','user.email=01a11763-05ca-7133-811e-3b4f81f35331@worker00039.invalid','commit','--only','-m','Archive owned takeover completion marker and verified cutoff '+t,'--',*paths]);assert other()==before
+assert not g(['status','--porcelain','--',*paths]).stdout
+result={'last_shared_commit':g(['rev-parse','HEAD']).stdout.strip(),'source_commit':snapshot['source_snapshot_commit'],'journal_cutoff':len(rows),'done_sequence':json.loads(own[-1])['seq'],'own_view_done':True,'other_staged_blobs_unchanged':True,'report_archive':'local-only explicitly chosen, no report documents uploaded'}
+(arc/'final-close32-receipt.json').write_text(json.dumps(result,indent=2));print(json.dumps(result))

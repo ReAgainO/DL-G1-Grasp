@@ -1,0 +1,298 @@
+{
+  "physical_steps": 0,
+  "episode": "w7_control43_327",
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+      "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+    },
+    "scene_generator_sha": "93a9f38949bb542c378b900de45e8209c85b703996ef09113973d02a4eeec13e",
+    "library_versions": {
+      "numpy": "1.26.4",
+      "onnxruntime": "1.23.2"
+    },
+    "library_sha": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+      "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "native_npz": "62607734726d37cba47ef2b0c1c1fc53d0c2cc9200e6181a1b281376b01dc5b3",
+      "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+      "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+      "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+      "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+      "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+      "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+      "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+      "adaptive_hand": "19d2094fc343a7010040f3b1400e50f8617a86797d5c4007d7bb4acfdd741f31",
+      "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+      "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+      "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4",
+      "table_placement": "e1b5e88d4bdd0f0cce8a3dbd78e940c51976d2539caf4f99a4217a8cb9391477",
+      "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+      "setdown_plan": "5dd156238a40b06909e2c760dfbfc516c76e9af7793edf7c6fd07020d34dd521",
+      "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+      "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+      "neutral_pose": "76e534e278960796a08b1459345fd48f2898b1b18977e2f00fe3c1af47ab04b2",
+      "execution_monitor": "dd9d078527e2551a15202322c7bd53eb98eb0dc22a013633dfa74a062a00cf0d",
+      "clearance_approach": "94356a8088bd16da207caec9d220980cd4be335fb421ed7a4109274dfb449020",
+      "motion_profile": "ec830274ba547e49bfab4f9dc25da310711e6fde885e5b118654d04b31288b01",
+      "native_branch": "3200af709404873baf07ff36042b13b8131555c5290af7bd9a410103126eac28",
+      "branch_execution": "14228ce96d7ab17872e6e2ee9d8876985727c2fc74fe370ea6d9099ab0369d32",
+      "input_profile": "81abc21545ba479745de28513519989b0c78c9e8cb10c31c4e5c0a42e2eea2f7",
+      "generation_summary": "613e6e7ce10e24874bf0b25351c1c7414d6aa5e0ec056d58b4de97af834bce33",
+      "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+      "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    "dt": 0.002
+  },
+  "script_sha256": "8c4208913aa953f9e4b0c087af398cd573a3ecb25d69320830568b4c386b5296",
+  "result_sha256": "8a226a496eda4ffee31c2c05c0fb8652c7cf2438f4a173e00fd583c779636853",
+  "contact_source_sha256": "11bda733c3720650ccafe4be6201f1306ede1105a5baacf41b20d7858177e97f",
+  "contact_rows_examined": 494,
+  "loaded_robot_table_rows": 494,
+  "by_phase_body_geom": {
+    "LIFT / right_hand_middle_1_link / right_middle_fingertip": {
+      "phase": "LIFT",
+      "robot_body": "right_hand_middle_1_link",
+      "robot_geom": "right_middle_fingertip",
+      "rows": 269,
+      "first_time_s": 46.042000000010304,
+      "last_time_s": 47.69800000001233,
+      "peak_normal_N": 2.5061519438581255,
+      "min_distance_m": -0.0001087492518872784
+    },
+    "LIFT / right_hand_thumb_2_link / right_thumb_fingertip": {
+      "phase": "LIFT",
+      "robot_body": "right_hand_thumb_2_link",
+      "robot_geom": "right_thumb_fingertip",
+      "rows": 225,
+      "first_time_s": 46.09400000001037,
+      "last_time_s": 46.542000000010916,
+      "peak_normal_N": 4.337604675964405,
+      "min_distance_m": -9.299820522809359e-05
+    }
+  },
+  "full_task_table_max_N": 4.692580414374364,
+  "strict_success": false,
+  "failed_gates": [
+    "no_robot_table_contact_full_task"
+  ],
+  "actual_clearance": {
+    "kind": "real-wrist full pose raise, then closed-pad task transition",
+    "actual_wrist_clearance_z_m": 0.9,
+    "hover_wrist_position_m": [
+      0.05423944612546007,
+      -0.22182271272211787,
+      0.925
+    ],
+    "clearance_passed_time_s": 15.638,
+    "approach_time_limit_s": 26.0,
+    "post_clearance_transition_s": 6.0,
+    "rotation_frozen_until_actual_clearance": true,
+    "body_motor_target_override": false,
+    "geometry_constraint_certified": false,
+    "limits": "Task scaffold into SONIC reference only; clearance checks wrist height, not every link. Original solver contacts and actual velocity/limits remain the acceptance evidence."
+  },
+  "native_branch": {
+    "kind": "Selected ARDY multistart static IK branch after actual wrist-height clearance",
+    "candidate_count": 7,
+    "selected": {
+      "seed_label": "selected_ardy_frame",
+      "source_frame": 0,
+      "body_q": [
+        -1.0407178552444416,
+        -0.6706608689491226,
+        0.8835514220886852,
+        -0.1837147285451753,
+        -0.30037563348694496,
+        0.04067815273696749,
+        1.5795609808013298
+      ],
+      "capture_error_m": 8.771830331288419e-13,
+      "pad_spread_m": 3.9968028886505635e-15,
+      "minimum_arm_limit_margin_rad": 0.03486901919867025,
+      "open_robot_table_clearance_m": 0.05589639624653627,
+      "finger_replan_error_m": 0.0009700556112280934,
+      "native_pose_deviation_rad": 2.5906426845199317,
+      "static_feasible": true
+    },
+    "candidates": [
+      {
+        "seed_label": "current_executed_arm",
+        "source_frame": null,
+        "body_q": [
+          -1.3732399989847692,
+          -0.8068410644373315,
+          1.1648156730970805,
+          0.0383765365567584,
+          0.7077730693242243,
+          1.61243,
+          0.6717843300050144
+        ],
+        "capture_error_m": 7.44183363530582e-05,
+        "pad_spread_m": 2.4412344718949264e-05,
+        "minimum_arm_limit_margin_rad": 0.0020000000000000018,
+        "open_robot_table_clearance_m": 0.05589639624653627,
+        "finger_replan_error_m": 0.0011074171851473968,
+        "native_pose_deviation_rad": 2.948805444454413,
+        "static_feasible": false
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 0,
+        "body_q": [
+          -1.0407178552444416,
+          -0.6706608689491226,
+          0.8835514220886852,
+          -0.1837147285451753,
+          -0.30037563348694496,
+          0.04067815273696749,
+          1.5795609808013298
+        ],
+        "capture_error_m": 8.771830331288419e-13,
+        "pad_spread_m": 3.9968028886505635e-15,
+        "minimum_arm_limit_margin_rad": 0.03486901919867025,
+        "open_robot_table_clearance_m": 0.05589639624653627,
+        "finger_replan_error_m": 0.0009700556112280934,
+        "native_pose_deviation_rad": 2.5906426845199317,
+        "static_feasible": true
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 19,
+        "body_q": [
+          -1.011684171608242,
+          -0.65874300136889,
+          0.8453346403748357,
+          -0.1876941754916691,
+          -0.30553412722759504,
+          -0.050647907959055743,
+          1.6089290768653335
+        ],
+        "capture_error_m": 5.555222028778516e-12,
+        "pad_spread_m": 2.3203661214665772e-14,
+        "minimum_arm_limit_margin_rad": 0.005500923134666547,
+        "open_robot_table_clearance_m": 0.05589639624653627,
+        "finger_replan_error_m": 0.0019510783591466796,
+        "native_pose_deviation_rad": 2.587808786851817,
+        "static_feasible": false
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 39,
+        "body_q": [
+          -1.0848289299367875,
+          -0.7543775125686502,
+          0.9622705214812824,
+          -0.20700478451447524,
+          -0.17678557318003094,
+          -0.34126239844471257,
+          1.5098539512115732
+        ],
+        "capture_error_m": 2.9030754919133495e-12,
+        "pad_spread_m": 7.103651000761602e-12,
+        "minimum_arm_limit_margin_rad": 0.10457604878842686,
+        "open_robot_table_clearance_m": 0.05589639624653627,
+        "finger_replan_error_m": 0.0036036918010079882,
+        "native_pose_deviation_rad": 2.527113459960353,
+        "static_feasible": false
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 59,
+        "body_q": [
+          0.005040422492179815,
+          0.07339911642774288,
+          0.6627172829528308,
+          1.4073043250677408,
+          -1.2931300153451961,
+          -0.3154759403306278,
+          -1.61243
+        ],
+        "capture_error_m": 0.2571129963277821,
+        "pad_spread_m": 0.04695737956500512,
+        "minimum_arm_limit_margin_rad": 0.0020000000000000018,
+        "open_robot_table_clearance_m": 0.03368180348695163,
+        "finger_replan_error_m": 0.28283370123441864,
+        "native_pose_deviation_rad": 1.8557553064543526,
+        "static_feasible": false
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 79,
+        "body_q": [
+          -0.07560672371891977,
+          0.1702988975621662,
+          0.33491282498229025,
+          1.4323663996211096,
+          -1.490222755811607,
+          -0.13958469488228137,
+          -1.61243
+        ],
+        "capture_error_m": 0.23119989063927446,
+        "pad_spread_m": 0.044750744034544154,
+        "minimum_arm_limit_margin_rad": 0.0020000000000000018,
+        "open_robot_table_clearance_m": 0.0011192095778568556,
+        "finger_replan_error_m": 0.257625508442953,
+        "native_pose_deviation_rad": 2.0116468624489987,
+        "static_feasible": false
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 99,
+        "body_q": [
+          -0.11329776997868896,
+          0.10602770377956357,
+          0.38795032760982895,
+          1.4402869672088625,
+          -1.5473693111085172,
+          -0.24007260984256257,
+          -1.61243
+        ],
+        "capture_error_m": 0.2302517093512253,
+        "pad_spread_m": 0.044752752331963186,
+        "minimum_arm_limit_margin_rad": 0.0020000000000000018,
+        "open_robot_table_clearance_m": -0.006085028290167244,
+        "finger_replan_error_m": 0.2553169505754864,
+        "native_pose_deviation_rad": 2.013915038528958,
+        "static_feasible": false
+      }
+    ],
+    "real_base_position_m": [
+      0.03667873272435283,
+      0.004809395977403003,
+      0.7558302940965408
+    ],
+    "real_base_quaternion_wxyz": [
+      0.9999344799904418,
+      -0.006937120462467145,
+      0.002064440003088153,
+      -0.008868493299822549
+    ],
+    "target_closed_pad_surface_m": [
+      0.267,
+      -0.118,
+      0.8744999999999999
+    ],
+    "physical_steps_in_search": 0,
+    "body_motor_target_override": false,
+    "object_state_writes": false,
+    "arm_reference_changed": true,
+    "static_feasible": true,
+    "dynamic_collision_free_certified": false,
+    "hand_contact_stability_validated": false,
+    "metric_definition": "Distance to one COMMON selected-source pose, not each branch own seed. Static thresholds capture1mm/spread2mm/arm margin20mrad/open-table10mm/hand-replan1.5mm; not success-gate relaxations.",
+    "branch_search_wall_s": 0.4265128809493035,
+    "selected_time_s": 17.640000000001102,
+    "selected_source_npz": "/data/group4/20261006-093203-codex-6385a841/out/w7-generated-text/w7_control_s43.npz",
+    "selected_source_npz_sha256": "62607734726d37cba47ef2b0c1c1fc53d0c2cc9200e6181a1b281376b01dc5b3",
+    "actual_clearance_qualified_before_search": true,
+    "actual_wrist_z_at_search_m": 0.9004794139056397
+  },
+  "limitation": "Original solver contact localization, not replay-image contact inference or causal intervention; contact rows are not independent events or per-step force sums."
+}

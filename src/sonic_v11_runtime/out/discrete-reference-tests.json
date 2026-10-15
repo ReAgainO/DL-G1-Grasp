@@ -1,0 +1,67 @@
+{
+  "physical_steps": 0,
+  "pass_count": 4,
+  "tests": [
+    "robot state/forces unchanged",
+    "policy action/target/count/histories unchanged",
+    "bounded finite legal reference",
+    "every candidate uses unchanged official encoder and decoder"
+  ],
+  "audit": {
+    "calls": 1,
+    "frozen_probes": 23,
+    "unchanged_token_probes": 1,
+    "duplicate_tokens": 0,
+    "max_reference_update_rad": 0.1,
+    "reference_update_hz": 5,
+    "quantization_aware": true,
+    "policy_history_mutation": false,
+    "arm_action_override": false,
+    "last_diagnostic": {
+      "candidate_count": 23,
+      "distinct_tokens": 23,
+      "chosen_cost": 0.0011661300889275823,
+      "selected_reference_delta_rad": [
+        -0.1,
+        0.0,
+        0.0,
+        0.09999999999999998,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_features": [
+        0.24364992249281886,
+        -0.17160372321471318,
+        0.6579025580981012,
+        -0.016038207630510448,
+        -0.040818967562317954
+      ],
+      "desired_features": [
+        0.23201826707094167,
+        -0.16283622896375025,
+        0.6547254935133477,
+        0.0,
+        0.0
+      ],
+      "candidate_decoded_motor_target_rad": [
+        0.04740401137209366,
+        -0.23796289436615564,
+        -0.044736113819621455,
+        0.5704199526423409,
+        -0.0450279448758508,
+        -0.007048269650200106,
+        0.0144429825377873
+      ],
+      "changed_token_components": 13,
+      "actual_features": [
+        0.21201826707094168,
+        -0.16283622896375025,
+        0.6447254935133477,
+        -0.017202349651317284,
+        -0.03905870595019201
+      ],
+      "incremental": true
+    }
+  }
+}

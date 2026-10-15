@@ -1,0 +1,40 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "af19865910e94862ac5c70246811c18f0ca22a179c7a12c1990ed632697189b5",
+      "robot": "d8d7c55b87dea038f1553adf9182b0d78f3adcac7b026a1699cf8e58afad6e7d"
+    },
+    "scene_generator_sha": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39",
+    "library_sha": {
+      "trajectory_py": "ff59cc58bcf28e50105c6711eddcb55da79450d070e6cbc4f128170a3858827c",
+      "source_csv": "794b52355a37321c5bc0570b06a404ab9338c1d5087a55576a0ada7e61d518a5"
+    },
+    "dt": 0.002,
+    "timestep": 0.002
+  },
+  "gates": {
+    "finite": true,
+    "joint_range": true,
+    "velocity": true,
+    "acceleration": true,
+    "jerk": true
+  },
+  "success": true,
+  "source": "/data/group4/20261006-035100-codex-8d174a6b/src/guided_s42.csv",
+  "source_frames": 575,
+  "generated_source": "ARDY; source qpos projected to fixed pelvis/waist right arm",
+  "processing": "joint-limit projection + positive Gaussian smoothing + C2 quintic interpolation + global time scaling",
+  "angular_branch_policy": "all hinge ranges <2pi; reject naive unwrap; infeasible endpoints projected explicitly",
+  "sigma_frames": 20,
+  "duration_s": 54.01193523880274,
+  "time_scale": 2.352436203780607,
+  "raw_max_delta_rad": 6.197304964065552,
+  "raw_out_of_range_cells": 88,
+  "raw_repair_rms_rad": 0.5702840217910145,
+  "velocity_max_rad_s": 0.5940611707820821,
+  "accel_max_rad_s2": 0.2115739577237864,
+  "jerk_max_rad_s3": 5.045472830785912
+}

@@ -1,0 +1,198 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+      "robot": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e"
+    },
+    "scene_generator_sha": "7ca909f95f0dc922faf4607182f5fd0fd2a3d76132c4972251f3d05d527ed3e3",
+    "library_sha": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+      "sonic_v11": "7d3f63cb866499ee82ccfcca4251d95df6eb95f479937dfcd3a4f6b93c589bed",
+      "motion_input": "db8dd701e40159c25d4fe9cd61bb7770eb8763d05bf554b7f342c03c60f81237",
+      "source_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "converter_asset": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+      "action_adapter": "77f30b1f13067bd2cf6457fc779ff9cc9f97883ca6a6a92216d042cd57cf3f64"
+    },
+    "dt": 0.002
+  },
+  "tracking_stage_pass": false,
+  "physical_grasp_established": false,
+  "kind": "original ARDY NPZ -> SONIC physical reaching/tracking; fingers open",
+  "source": {
+    "source_npz": "/data/group4/20261006-093203-codex-6385a841/src/original_motions/near_s42.npz",
+    "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+    "source_fps": 25.0,
+    "native_frames": 100,
+    "native_clip_duration_s": 4.0,
+    "last_sample_time_s": 3.96,
+    "expected50Hz_frames": 199,
+    "converter_sha": "db8dd701e40159c25d4fe9cd61bb7770eb8763d05bf554b7f342c03c60f81237",
+    "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+    "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+    "text": "A person reaches forward with their right hand to grab a small object on a table.",
+    "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+    "paired_csv_sha256": "c46d058430befe1460a9bb22fec4ff0b761d4c9d4726031b75d75acd541fbb3e",
+    "parity_joint_max_rad": 1.1920928955078125e-07,
+    "parity_root_translation_max_m": 0.0,
+    "parity_rotation_matrix_max": 1.2970137341916654e-07
+  },
+  "input_processing": {
+    "upper_only_projection": true,
+    "speed": 0.5,
+    "neutral_settle_s": 2,
+    "startup_ramp_s": 2,
+    "raw_joint_limit_violations": 0,
+    "arm_ik_or_direct_override": false,
+    "reference_off": true,
+    "root_translation": "not in SONIC v1.1 G1-mode input; not used as kinematic body teleport"
+  },
+  "fail_reason": null,
+  "duration_s": 13.920000000001318,
+  "min_up_z": 0.9992887615565805,
+  "max_drift_m": 0.02755813540110735,
+  "right_arm_tracking_rms_rad": 0.4243703330913132,
+  "wrist_local_fk_tracking_max_m": 0.17785226350229422,
+  "wrist_to_cube_min_m": 0.21161820781031623,
+  "wrist_to_cube_final_m": 0.21620648953334173,
+  "cube_peak_lift_m": 0.0,
+  "right_hand_cube_contact_ticks": 0,
+  "nonhand_cube_contact_ticks": 6960,
+  "peak_external_force": 0.0,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "wall_s": 17.014580162009224,
+  "sonic": {
+    "ort_version": "1.23.2",
+    "models": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    },
+    "encoder_slots": [
+      {
+        "name": "encoder_mode_4",
+        "width": 4
+      },
+      {
+        "name": "motion_joint_positions_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_joint_velocities_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_anchor_orientation_heading_10frame_step5",
+        "width": 60
+      },
+      {
+        "name": "motion_anchor_orientation_heading",
+        "width": 6
+      },
+      {
+        "name": "motion_joint_positions_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "motion_joint_velocities_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "vr_3point_local_target",
+        "width": 9
+      },
+      {
+        "name": "vr_3point_local_orn_target",
+        "width": 12
+      },
+      {
+        "name": "smpl_joints_10frame_step1",
+        "width": 720
+      },
+      {
+        "name": "smpl_anchor_orientation_heading_10frame_step1",
+        "width": 60
+      },
+      {
+        "name": "motion_joint_positions_wrists_10frame_step1",
+        "width": 60
+      }
+    ],
+    "decoder_slots": [
+      {
+        "name": "token_state",
+        "width": 64
+      },
+      {
+        "name": "his_base_angular_velocity_10frame_step1",
+        "width": 30
+      },
+      {
+        "name": "his_body_joint_positions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_body_joint_velocities_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_last_actions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_gravity_dir_10frame_step1",
+        "width": 30
+      }
+    ],
+    "policy_calls": 696,
+    "unique_encoder_inputs": 696,
+    "unique_actions": 696,
+    "body_action_source": "official SONIC v1.1 ONNX; zero arm target overrides",
+    "mode_id": 0
+  }
+}

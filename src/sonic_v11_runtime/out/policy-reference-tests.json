@@ -1,0 +1,19 @@
+{
+  "pass_count": 5,
+  "tests": [
+    "actual qpos/qvel unchanged",
+    "SONIC body targets/actions unchanged",
+    "policy count unchanged",
+    "all history buffers unchanged",
+    "bounded nonzero reference suggestion"
+  ],
+  "audit": {
+    "calls": 1,
+    "frozen_observation_probes": 7,
+    "max_reference_update_rad": 0.03143492216738142,
+    "min_effective_jacobian_singular_value": 0.04901536426176441,
+    "arm_output_override": false,
+    "policy_history_mutation_by_probes": false,
+    "reference_update_hz": 5
+  }
+}

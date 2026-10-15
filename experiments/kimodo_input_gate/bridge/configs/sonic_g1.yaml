@@ -1,0 +1,33 @@
+robot:
+  name: g1
+  mujoco_xml: g1/scene_29dof.xml
+  dof: 29
+
+policy:
+  backend: pytorch
+  checkpoint: policy_state_dict.pt
+  device: cpu
+  use_fp16: false
+  decoder_type: g1_dyn
+
+
+observation:
+  total_dim: 436
+  token_dim: 64
+  history_len: 10
+  history_step: 1
+  encoder_history_len: 10
+  encoder_step: 5
+  mode: g1
+
+control:
+  sim_dt: 0.002
+  policy_hz: 50
+  action_scale: 1.0
+  action_type: target_position
+
+debug:
+  print_shapes: true
+  print_every_n_steps: 100
+
+  

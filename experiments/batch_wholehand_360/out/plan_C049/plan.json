@@ -1,0 +1,274 @@
+{
+  "best": {
+    "axis": 0,
+    "seed": "frozen_baseline_warmstart",
+    "targets": [
+      [
+        0.27985694627344687,
+        -0.16530346761750397,
+        0.7626362897301654
+      ],
+      [
+        0.41512952573377776,
+        -0.13680346761750398,
+        0.7626362897301654
+      ],
+      [
+        0.41512952573377776,
+        -0.19380346761750397,
+        0.7626362897301654
+      ]
+    ],
+    "q": [
+      -0.17382259075272075,
+      -0.5091330453594602,
+      0.5684819351417097,
+      0.1540109276150778,
+      -0.8914498941036737,
+      0.41476374860789966,
+      -0.09742964251790728,
+      -0.19465882000452966,
+      0.7212597920269069,
+      -1.8340762584008563,
+      0.2772927907265102,
+      0.711511533756937,
+      0.22547845040039852,
+      0.8201950140471003
+    ],
+    "pad_error_m": 1.6169013714525803e-05,
+    "min_bone_cube_gap_m": 0.0009997099302265777,
+    "min_bone_table_gap_m": 0.023857978406464753,
+    "nfev": 92,
+    "rough_nfev": 80
+  },
+  "arm": [
+    -0.17382259075272075,
+    -0.5091330453594602,
+    0.5684819351417097,
+    0.1540109276150778,
+    -0.8914498941036737,
+    0.41476374860789966,
+    -0.09742964251790728
+  ],
+  "closed_hand": [
+    -0.19465882000452966,
+    0.7212597920269069,
+    -1.8340762584008563,
+    0.2772927907265102,
+    0.711511533756937,
+    0.22547845040039852,
+    0.8201950140471003
+  ],
+  "open_hand": [
+    -0.19465882000452966,
+    0.7212597920269069,
+    -1.8340762584008563,
+    0.2772927907265102,
+    0.711511533756937,
+    0.22547845040039852,
+    0.8201950140471003
+  ],
+  "wrist_pos": [
+    0.21154092039089306,
+    -0.17275036764868806,
+    0.866139524468413
+  ],
+  "wrist_R": [
+    [
+      0.9814794259867268,
+      -0.18988833671284805,
+      -0.025309206727847935
+    ],
+    [
+      0.029046228573237437,
+      0.016922437051698134,
+      0.9994348141474271
+    ],
+    [
+      -0.189352721053689,
+      -0.9816598447041923,
+      0.022124563835350466
+    ]
+  ],
+  "edge_m": 0.07527257946033088,
+  "mass_kg": 0.12,
+  "pad_gap_m": 0.02,
+  "cube_pos": [
+    0.3474932360036123,
+    -0.16530346761750397,
+    0.7626362897301654
+  ],
+  "hand_geoms": [
+    {
+      "body": "left_hand_thumb_0_link",
+      "geom": "left_hand_thumb_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_thumb_1_link",
+      "geom": "left_hand_thumb_1_link_collision_1",
+      "type": "box"
+    },
+    {
+      "body": "left_hand_thumb_2_link",
+      "geom": "left_hand_thumb_2_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_middle_0_link",
+      "geom": "left_hand_middle_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_middle_1_link",
+      "geom": "left_hand_middle_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_index_0_link",
+      "geom": "left_hand_index_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_index_1_link",
+      "geom": "left_hand_index_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_0_link",
+      "geom": "right_hand_thumb_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_1_link",
+      "geom": "right_hand_thumb_1_link_collision_1",
+      "type": "box"
+    },
+    {
+      "body": "right_hand_thumb_2_link",
+      "geom": "right_hand_thumb_2_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_2_link",
+      "geom": "right_thumb_fingertip",
+      "type": "sphere"
+    },
+    {
+      "body": "right_hand_index_0_link",
+      "geom": "right_hand_index_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_index_1_link",
+      "geom": "right_hand_index_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_index_1_link",
+      "geom": "right_index_fingertip",
+      "type": "sphere"
+    },
+    {
+      "body": "right_hand_middle_0_link",
+      "geom": "right_hand_middle_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_middle_1_link",
+      "geom": "right_hand_middle_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_middle_1_link",
+      "geom": "right_middle_fingertip",
+      "type": "sphere"
+    }
+  ],
+  "ardy_source": {
+    "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+    "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+    "source_fps": 25.0,
+    "native_frames": 100,
+    "native_clip_duration_s": 4.0,
+    "last_sample_time_s": 3.96,
+    "expected50Hz_frames": 199,
+    "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+    "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+    "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+    "text": "A person reaches forward with their right hand to grab a small object on a table.",
+    "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+  },
+  "ardy_frame": 99,
+  "geometry_pass": true,
+  "retarget": "one warmstart, 80 rough + 100 SAT evaluations, fixed axis0",
+  "scope": "ARDY seven-arm posture prior plus bounded reference-space geometry correction; not fullbody ARDY",
+  "root_x": 0.0,
+  "trial_config": {
+    "id": "C049",
+    "group": "C",
+    "xy_m": [
+      0.3474932360036123,
+      -0.16530346761750397
+    ],
+    "edge_m": 0.07527257946033088,
+    "mass_kg": 0.12,
+    "root_x_m": 0.0,
+    "sampling_seed": 20261010,
+    "source_baseline_trial": null,
+    "no_grip": false,
+    "wrist_servo": true,
+    "gravity_arm_scale": 1.0,
+    "native_mesh": true,
+    "time_scale": 2.0,
+    "retract_raise": true
+  },
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "robot": "4063ea817cdef9af4a84fc71a9bfe98f99e743e061402ad6cd1227e657a91fe2",
+      "scene": "69a3e96e2db9c2d8ab9c89d2e59f6e2d8e7e2caa8adbcb0feea8f2409bffcecb"
+    },
+    "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+    "library_sha": {
+      "wholehand_side": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+      "sonic": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff"
+    },
+    "dt": 0.002
+  }
+}

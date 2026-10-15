@@ -1,0 +1,472 @@
+{
+  "generated": [
+    {
+      "stem": "reach_s43",
+      "text": "A person reaches forward with their right hand to grab a small object on a table.",
+      "wall_s": 3.16,
+      "text_encode_s": 1.07,
+      "native": {
+        "source_npz": "/data/group4/20261006-093203-codex-6385a841/out/generated_phases2/reach_s43.npz",
+        "source_npz_sha256": "62607734726d37cba47ef2b0c1c1fc53d0c2cc9200e6181a1b281376b01dc5b3",
+        "source_fps": 25.0,
+        "native_frames": 100,
+        "native_clip_duration_s": 4.0,
+        "last_sample_time_s": 3.96,
+        "expected50Hz_frames": 199,
+        "converter_sha": "db8dd701e40159c25d4fe9cd61bb7770eb8763d05bf554b7f342c03c60f81237",
+        "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+        "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+        "joint_names": [
+          "left_hip_pitch_joint",
+          "left_hip_roll_joint",
+          "left_hip_yaw_joint",
+          "left_knee_joint",
+          "left_ankle_pitch_joint",
+          "left_ankle_roll_joint",
+          "right_hip_pitch_joint",
+          "right_hip_roll_joint",
+          "right_hip_yaw_joint",
+          "right_knee_joint",
+          "right_ankle_pitch_joint",
+          "right_ankle_roll_joint",
+          "waist_yaw_joint",
+          "waist_roll_joint",
+          "waist_pitch_joint",
+          "left_shoulder_pitch_joint",
+          "left_shoulder_roll_joint",
+          "left_shoulder_yaw_joint",
+          "left_elbow_joint",
+          "left_wrist_roll_joint",
+          "left_wrist_pitch_joint",
+          "left_wrist_yaw_joint",
+          "right_shoulder_pitch_joint",
+          "right_shoulder_roll_joint",
+          "right_shoulder_yaw_joint",
+          "right_elbow_joint",
+          "right_wrist_roll_joint",
+          "right_wrist_pitch_joint",
+          "right_wrist_yaw_joint"
+        ],
+        "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+        "text": "A person reaches forward with their right hand to grab a small object on a table.",
+        "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+        "paired_csv_sha256": "1cd7616beb275c020720a94728c333d7145f41ae5e1e6ad1a9c916244bc0873c",
+        "parity_joint_max_rad": 1.1920928955078125e-07,
+        "parity_root_translation_max_m": 0.0,
+        "parity_rotation_matrix_max": 1.087600743909789e-07
+      },
+      "native_joint_limit_violations": 0,
+      "wrist_world_start": [
+        0.19950355353066263,
+        -0.1530886819534675,
+        0.8599896404935472
+      ],
+      "wrist_world_end": [
+        0.19955096649671472,
+        -0.14782715671112462,
+        0.8635266039186562
+      ],
+      "wrist_world_delta": [
+        4.7412966052096106e-05,
+        0.005261525242342885,
+        0.0035369634251090076
+      ],
+      "wrist_relative_delta": [
+        0.0008137664149049928,
+        0.0008699616517268971,
+        0.0035349964718314197
+      ],
+      "wrist_world_min": [
+        0.1982637831086173,
+        -0.15407494329778856,
+        0.80808334517733
+      ],
+      "wrist_world_max": [
+        0.25411164642622,
+        -0.06424956635531846,
+        0.8637571745318551
+      ]
+    },
+    {
+      "stem": "lift_s42",
+      "text": "A standing person slowly lifts a small object upward with their right hand and keeps the left arm relaxed.",
+      "wall_s": 2.84,
+      "text_encode_s": 0.76,
+      "native": {
+        "source_npz": "/data/group4/20261006-093203-codex-6385a841/out/generated_phases2/lift_s42.npz",
+        "source_npz_sha256": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+        "source_fps": 25.0,
+        "native_frames": 100,
+        "native_clip_duration_s": 4.0,
+        "last_sample_time_s": 3.96,
+        "expected50Hz_frames": 199,
+        "converter_sha": "db8dd701e40159c25d4fe9cd61bb7770eb8763d05bf554b7f342c03c60f81237",
+        "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+        "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+        "joint_names": [
+          "left_hip_pitch_joint",
+          "left_hip_roll_joint",
+          "left_hip_yaw_joint",
+          "left_knee_joint",
+          "left_ankle_pitch_joint",
+          "left_ankle_roll_joint",
+          "right_hip_pitch_joint",
+          "right_hip_roll_joint",
+          "right_hip_yaw_joint",
+          "right_knee_joint",
+          "right_ankle_pitch_joint",
+          "right_ankle_roll_joint",
+          "waist_yaw_joint",
+          "waist_roll_joint",
+          "waist_pitch_joint",
+          "left_shoulder_pitch_joint",
+          "left_shoulder_roll_joint",
+          "left_shoulder_yaw_joint",
+          "left_elbow_joint",
+          "left_wrist_roll_joint",
+          "left_wrist_pitch_joint",
+          "left_wrist_yaw_joint",
+          "right_shoulder_pitch_joint",
+          "right_shoulder_roll_joint",
+          "right_shoulder_yaw_joint",
+          "right_elbow_joint",
+          "right_wrist_roll_joint",
+          "right_wrist_pitch_joint",
+          "right_wrist_yaw_joint"
+        ],
+        "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+        "text": "A standing person slowly lifts a small object upward with their right hand and keeps the left arm relaxed.",
+        "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+        "paired_csv_sha256": "a9effe3eeb78e272fe39464fb943c28dcaff6b0434bb10fc847c4d144e23d406",
+        "parity_joint_max_rad": 1.1920928955078125e-07,
+        "parity_root_translation_max_m": 0.0,
+        "parity_rotation_matrix_max": 1.134004617986406e-07
+      },
+      "native_joint_limit_violations": 0,
+      "wrist_world_start": [
+        0.20592829024082657,
+        -0.14321537478488167,
+        0.8649917440308014
+      ],
+      "wrist_world_end": [
+        0.1958845725790034,
+        -0.14446110180411234,
+        0.8876608857426209
+      ],
+      "wrist_world_delta": [
+        -0.01004371766182316,
+        -0.0012457270192306746,
+        0.02266914171181955
+      ],
+      "wrist_relative_delta": [
+        -0.0055254108476890385,
+        0.002985019980152298,
+        0.022493129195797823
+      ],
+      "wrist_world_min": [
+        0.1958845725790034,
+        -0.14446110180411234,
+        0.8540550404426999
+      ],
+      "wrist_world_max": [
+        0.24090383473113725,
+        -0.07910389351101027,
+        0.926193562010226
+      ]
+    },
+    {
+      "stem": "hold_s42",
+      "text": "A standing person holds a small object steadily in their right hand in front of the chest.",
+      "wall_s": 2.78,
+      "text_encode_s": 0.77,
+      "native": {
+        "source_npz": "/data/group4/20261006-093203-codex-6385a841/out/generated_phases2/hold_s42.npz",
+        "source_npz_sha256": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+        "source_fps": 25.0,
+        "native_frames": 100,
+        "native_clip_duration_s": 4.0,
+        "last_sample_time_s": 3.96,
+        "expected50Hz_frames": 199,
+        "converter_sha": "db8dd701e40159c25d4fe9cd61bb7770eb8763d05bf554b7f342c03c60f81237",
+        "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+        "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+        "joint_names": [
+          "left_hip_pitch_joint",
+          "left_hip_roll_joint",
+          "left_hip_yaw_joint",
+          "left_knee_joint",
+          "left_ankle_pitch_joint",
+          "left_ankle_roll_joint",
+          "right_hip_pitch_joint",
+          "right_hip_roll_joint",
+          "right_hip_yaw_joint",
+          "right_knee_joint",
+          "right_ankle_pitch_joint",
+          "right_ankle_roll_joint",
+          "waist_yaw_joint",
+          "waist_roll_joint",
+          "waist_pitch_joint",
+          "left_shoulder_pitch_joint",
+          "left_shoulder_roll_joint",
+          "left_shoulder_yaw_joint",
+          "left_elbow_joint",
+          "left_wrist_roll_joint",
+          "left_wrist_pitch_joint",
+          "left_wrist_yaw_joint",
+          "right_shoulder_pitch_joint",
+          "right_shoulder_roll_joint",
+          "right_shoulder_yaw_joint",
+          "right_elbow_joint",
+          "right_wrist_roll_joint",
+          "right_wrist_pitch_joint",
+          "right_wrist_yaw_joint"
+        ],
+        "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+        "text": "A standing person holds a small object steadily in their right hand in front of the chest.",
+        "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+        "paired_csv_sha256": "9e0e8c2ffffa1b4d26f7e53dd6eb7765ac5f4e48104e8b2cca58e1d595b8d41e",
+        "parity_joint_max_rad": 1.1920928955078125e-07,
+        "parity_root_translation_max_m": 0.0,
+        "parity_rotation_matrix_max": 1.5791055152369893e-07
+      },
+      "native_joint_limit_violations": 0,
+      "wrist_world_start": [
+        0.19724549876867867,
+        -0.13818238256903656,
+        0.8865646749885158
+      ],
+      "wrist_world_end": [
+        0.18308573711424708,
+        -0.14660357591859635,
+        0.8870707561598759
+      ],
+      "wrist_world_delta": [
+        -0.014159761654431585,
+        -0.008421193349559791,
+        0.0005060811713600843
+      ],
+      "wrist_relative_delta": [
+        -0.0011294235533425845,
+        0.0017165527609987186,
+        0.001593985147800514
+      ],
+      "wrist_world_min": [
+        0.18037435356944792,
+        -0.14660357591859635,
+        0.8855750968786043
+      ],
+      "wrist_world_max": [
+        0.19724549876867867,
+        -0.13640001750769007,
+        0.8908991369439215
+      ]
+    },
+    {
+      "stem": "release_s42",
+      "text": "A standing person slowly lowers their right hand to place a small object back on a table.",
+      "wall_s": 2.81,
+      "text_encode_s": 0.8,
+      "native": {
+        "source_npz": "/data/group4/20261006-093203-codex-6385a841/out/generated_phases2/release_s42.npz",
+        "source_npz_sha256": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+        "source_fps": 25.0,
+        "native_frames": 100,
+        "native_clip_duration_s": 4.0,
+        "last_sample_time_s": 3.96,
+        "expected50Hz_frames": 199,
+        "converter_sha": "db8dd701e40159c25d4fe9cd61bb7770eb8763d05bf554b7f342c03c60f81237",
+        "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+        "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+        "joint_names": [
+          "left_hip_pitch_joint",
+          "left_hip_roll_joint",
+          "left_hip_yaw_joint",
+          "left_knee_joint",
+          "left_ankle_pitch_joint",
+          "left_ankle_roll_joint",
+          "right_hip_pitch_joint",
+          "right_hip_roll_joint",
+          "right_hip_yaw_joint",
+          "right_knee_joint",
+          "right_ankle_pitch_joint",
+          "right_ankle_roll_joint",
+          "waist_yaw_joint",
+          "waist_roll_joint",
+          "waist_pitch_joint",
+          "left_shoulder_pitch_joint",
+          "left_shoulder_roll_joint",
+          "left_shoulder_yaw_joint",
+          "left_elbow_joint",
+          "left_wrist_roll_joint",
+          "left_wrist_pitch_joint",
+          "left_wrist_yaw_joint",
+          "right_shoulder_pitch_joint",
+          "right_shoulder_roll_joint",
+          "right_shoulder_yaw_joint",
+          "right_elbow_joint",
+          "right_wrist_roll_joint",
+          "right_wrist_pitch_joint",
+          "right_wrist_yaw_joint"
+        ],
+        "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+        "text": "A standing person slowly lowers their right hand to place a small object back on a table.",
+        "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+        "paired_csv_sha256": "5e7fc6df16490d56b648da0a57f7652201c94f2c5e9b88792705b1ca4ba88a31",
+        "parity_joint_max_rad": 1.1920928955078125e-07,
+        "parity_root_translation_max_m": 0.0,
+        "parity_rotation_matrix_max": 1.793348513023929e-07
+      },
+      "native_joint_limit_violations": 0,
+      "wrist_world_start": [
+        0.19726224349176252,
+        -0.15244686987510603,
+        0.8679177354436334
+      ],
+      "wrist_world_end": [
+        0.18248585067938278,
+        -0.16795807957669387,
+        0.8620103041992011
+      ],
+      "wrist_world_delta": [
+        -0.014776392812379746,
+        -0.015511209701587841,
+        -0.005907431244432271
+      ],
+      "wrist_relative_delta": [
+        -0.003040362122007756,
+        -0.0032629450759193157,
+        -0.0048443228002184036
+      ],
+      "wrist_world_min": [
+        0.1776605704731478,
+        -0.16795807957669387,
+        0.7871403701649285
+      ],
+      "wrist_world_max": [
+        0.22239053315719767,
+        -0.08028970800128354,
+        0.8679177354436334
+      ]
+    }
+  ],
+  "physics": [
+    {
+      "name": "hybrid_sonic01",
+      "version": "3.2.7",
+      "success": false,
+      "fail": "alignment timeout",
+      "wrist_pos_error": 0.06444509929162244,
+      "wrist_rot_error": 0.33686964115280227,
+      "min_up_z": 0.9940974416293958,
+      "native_geometry": null,
+      "final_reference_arm": [
+        -1.5895916522178029,
+        0.11801191767720061,
+        -1.4639301468194952,
+        1.6475389232038238,
+        -0.723606145470056,
+        1.4071954398793423,
+        0.07720062152566853
+      ],
+      "final_actual_arm": [
+        -0.8158252585937382,
+        -0.2716088287194156,
+        -0.12339152066272062,
+        0.8452705955529861,
+        0.8069781215013219,
+        1.4488510819140519,
+        -0.3736771008501959
+      ],
+      "final_reference_minus_actual": [
+        -0.7737663936240646,
+        0.3896207463966162,
+        -1.3405386261567747,
+        0.8022683276508377,
+        -1.5305842669713778,
+        -0.04165564203470962,
+        0.45087772237586443
+      ],
+      "source_script_sha": "5d7e4df86155ae9eb6a2e610102e2e5e6aaa7b48f1f9a5b68ae20f84bd2831f1"
+    },
+    {
+      "name": "hybrid_teleop01",
+      "version": "3.2.7",
+      "success": false,
+      "fail": "alignment timeout",
+      "wrist_pos_error": 0.13856431344559914,
+      "wrist_rot_error": 0.80006100531498,
+      "min_up_z": 0.9766342118795384,
+      "native_geometry": null,
+      "final_reference_arm": [
+        -1.9830603019609716,
+        -0.22204008527012686,
+        -1.9152671052992765,
+        1.1723705352569198,
+        -1.97022,
+        1.5469634715815668,
+        1.2594117879638993
+      ],
+      "final_actual_arm": [
+        -1.510991397469554,
+        -0.5365564519106154,
+        -0.19315997124902354,
+        2.095023373007911,
+        -0.15444724051007644,
+        0.45805256240170916,
+        0.09640900229998052
+      ],
+      "final_reference_minus_actual": [
+        -0.4720689044914177,
+        0.31451636664048854,
+        -1.722107134050253,
+        -0.9226528377509913,
+        -1.8157727594899236,
+        1.0889109091798577,
+        1.1630027856639187
+      ],
+      "source_script_sha": "6601d801e6bf03eb5c3bd76c5f8096277659cf07f0706459d7bebef56c12db38"
+    },
+    {
+      "name": "native_geometry_g101",
+      "version": "3.2.7",
+      "success": false,
+      "fail": "alignment timeout",
+      "wrist_pos_error": 0.13467651195670555,
+      "wrist_rot_error": 0.41386343864784164,
+      "min_up_z": 0.947202988719231,
+      "native_geometry": true,
+      "final_reference_arm": [
+        -1.0811206277381333,
+        0.2227986523706776,
+        -1.816215792560035,
+        1.633911568701675,
+        -1.97022,
+        -0.7104801594976651,
+        -0.679342897829077
+      ],
+      "final_actual_arm": [
+        -0.3023536553538017,
+        -0.1959992258814194,
+        -0.29917299272807335,
+        0.8928539243333432,
+        -0.8296175894636195,
+        -0.1299919394889464,
+        -0.3478519539341232
+      ],
+      "final_reference_minus_actual": [
+        -0.7787669723843316,
+        0.418797878252097,
+        -1.5170427998319618,
+        0.7410576443683318,
+        -1.1406024105363806,
+        -0.5804882200087187,
+        -0.33149094389495376
+      ],
+      "source_script_sha": "e8954b29a99167b09f27ceb3b1f310fd0cce4e30a0553e53904c3d2c322034a3"
+    }
+  ],
+  "textencoder_load_s": 68.8,
+  "model_load_s": 0.7,
+  "physics_sim_steps": 0,
+  "native_pose_is_not_executable_grasp": true
+}

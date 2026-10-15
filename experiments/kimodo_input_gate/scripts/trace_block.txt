@@ -1,0 +1,51 @@
+
+        if args.trace_csv and step % control_every == 0:
+            gap_center_now, _ = grasp_pose(data, wrist_body_id)
+            gap_center_value = float(
+                np.linalg.norm(gap_center_now - data.xpos[cube_body_id])
+            )
+            palm_value = float(
+                np.linalg.norm(
+                    data.xpos[wrist_body_id] - data.xpos[cube_body_id]
+                )
+            )
+            ft_value = {}
+            for ft_name, ft_geom_id in fingertip_geom_ids.items():
+                ft_value[ft_name] = float(
+                    mujoco.mj_geomDistance(
+                        model, data, cube_geom_id, ft_geom_id, 1.0, None
+                    )
+                )
+            track_rms_value = float('nan')
+            if generated_motion:
+                traj = motion_runtime.trajectory
+                ref_t = time_s + motion_runtime.motion_start
+                ref_idx = int(np.searchsorted(traj.timestamps, ref_t))
+                ref_idx = min(max(ref_idx, 0), traj.timestamps.shape[0] - 1)
+                ref_mujoco = np.asarray(traj.joint_pos[ref_idx])[M2I]
+                sim_body = np.asarray(data.qpos[body_qpos_adr], dtype=np.float64)
+                track_rms_value = float(
+                    np.sqrt(np.mean((sim_body - ref_mujoco) ** 2))
+                )
+            q_root = np.asarray(data.qpos[3:7], dtype=np.float64)
+            up_z_value = float(1.0 - 2.0 * (q_root[2] ** 2 + q_root[3] ** 2))
+            trace_rows.append(
+                [
+                    time_s,
+                    phase,
+                    float(data.xpos[cube_body_id, 0]),
+                    float(data.xpos[cube_body_id, 1]),
+                    float(data.xpos[cube_body_id, 2]),
+                    float(data.xpos[cube_body_id, 2] - cube_initial_pos[2]),
+                    gap_center_value,
+                    palm_value,
+                    ft_value.get('right_thumb_fingertip', float('nan')),
+                    ft_value.get('right_index_fingertip', float('nan')),
+                    ft_value.get('right_middle_fingertip', float('nan')),
+                    float(current_body_count),
+                    float(contact_force_sum),
+                    float(data.qpos[2]),
+                    up_z_value,
+                    track_rms_value,
+                ]
+            )

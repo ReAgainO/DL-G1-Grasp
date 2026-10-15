@@ -1,0 +1,90 @@
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=0 joint=waist_pitch_joint value=0.528336585 range=[-0.52, 0.52] excess=0.00833658457 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=1 joint=waist_pitch_joint value=0.528517663 range=[-0.52, 0.52] excess=0.00851766348 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=2 joint=waist_pitch_joint value=0.528020799 range=[-0.52, 0.52] excess=0.00802079916 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=3 joint=waist_pitch_joint value=0.528578758 range=[-0.52, 0.52] excess=0.00857875824 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=4 joint=waist_pitch_joint value=0.530876875 range=[-0.52, 0.52] excess=0.0108768749 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=5 joint=waist_pitch_joint value=0.528069437 range=[-0.52, 0.52] excess=0.00806943655 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=6 joint=waist_pitch_joint value=0.524085701 range=[-0.52, 0.52] excess=0.00408570051 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=7 joint=waist_pitch_joint value=0.521374762 range=[-0.52, 0.52] excess=0.00137476206 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=8 joint=waist_pitch_joint value=0.524922848 range=[-0.52, 0.52] excess=0.00492284775 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=9 joint=waist_pitch_joint value=0.522440732 range=[-0.52, 0.52] excess=0.00244073153 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=36 joint=waist_pitch_joint value=0.521452487 range=[-0.52, 0.52] excess=0.00145248652 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=37 joint=waist_pitch_joint value=0.524425507 range=[-0.52, 0.52] excess=0.00442550659 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=38 joint=waist_pitch_joint value=0.527142763 range=[-0.52, 0.52] excess=0.00714276314 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=39 joint=waist_pitch_joint value=0.529608905 range=[-0.52, 0.52] excess=0.00960890532 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=40 joint=waist_pitch_joint value=0.532218874 range=[-0.52, 0.52] excess=0.0122188735 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=41 joint=waist_pitch_joint value=0.532257438 range=[-0.52, 0.52] excess=0.0122574377 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=42 joint=waist_pitch_joint value=0.532595932 range=[-0.52, 0.52] excess=0.0125959325 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=43 joint=waist_pitch_joint value=0.533363044 range=[-0.52, 0.52] excess=0.0133630443 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=44 joint=waist_pitch_joint value=0.532491267 range=[-0.52, 0.52] excess=0.0124912667 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=45 joint=waist_pitch_joint value=0.531448543 range=[-0.52, 0.52] excess=0.0114485431 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=46 joint=waist_pitch_joint value=0.530804038 range=[-0.52, 0.52] excess=0.010804038 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=47 joint=waist_pitch_joint value=0.53049171 range=[-0.52, 0.52] excess=0.0104917097 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=48 joint=waist_pitch_joint value=0.529160678 range=[-0.52, 0.52] excess=0.00916067839 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=49 joint=waist_pitch_joint value=0.528187454 range=[-0.52, 0.52] excess=0.00818745375 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=50 joint=waist_pitch_joint value=0.527670383 range=[-0.52, 0.52] excess=0.00767038345 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=51 joint=waist_pitch_joint value=0.527586043 range=[-0.52, 0.52] excess=0.00758604288 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=52 joint=waist_pitch_joint value=0.527545035 range=[-0.52, 0.52] excess=0.00754503489 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=53 joint=waist_pitch_joint value=0.52670145 range=[-0.52, 0.52] excess=0.00670145035 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=54 joint=waist_pitch_joint value=0.526482224 range=[-0.52, 0.52] excess=0.00648222446 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=55 joint=waist_pitch_joint value=0.526633978 range=[-0.52, 0.52] excess=0.00663397789 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=56 joint=waist_pitch_joint value=0.528525412 range=[-0.52, 0.52] excess=0.00852541208 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=57 joint=waist_pitch_joint value=0.52873081 range=[-0.52, 0.52] excess=0.00873080969 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=58 joint=waist_pitch_joint value=0.529713571 range=[-0.52, 0.52] excess=0.00971357107 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=59 joint=waist_pitch_joint value=0.530914962 range=[-0.52, 0.52] excess=0.0109149623 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=60 joint=waist_pitch_joint value=0.531888664 range=[-0.52, 0.52] excess=0.0118886638 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=61 joint=waist_pitch_joint value=0.532169282 range=[-0.52, 0.52] excess=0.0121692824 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=62 joint=waist_pitch_joint value=0.532588482 range=[-0.52, 0.52] excess=0.0125884819 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=63 joint=waist_pitch_joint value=0.53276521 range=[-0.52, 0.52] excess=0.0127652097 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=64 joint=waist_pitch_joint value=0.531724393 range=[-0.52, 0.52] excess=0.0117243934 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=65 joint=waist_pitch_joint value=0.531185567 range=[-0.52, 0.52] excess=0.0111855674 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=66 joint=waist_pitch_joint value=0.530882239 range=[-0.52, 0.52] excess=0.0108822393 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=67 joint=waist_pitch_joint value=0.530445039 range=[-0.52, 0.52] excess=0.0104450393 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=68 joint=waist_pitch_joint value=0.530026376 range=[-0.52, 0.52] excess=0.0100263762 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=69 joint=waist_pitch_joint value=0.528836906 range=[-0.52, 0.52] excess=0.00883690596 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=70 joint=waist_pitch_joint value=0.527771473 range=[-0.52, 0.52] excess=0.00777147293 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=71 joint=waist_pitch_joint value=0.526373684 range=[-0.52, 0.52] excess=0.00637368441 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=72 joint=waist_pitch_joint value=0.525085211 range=[-0.52, 0.52] excess=0.0050852108 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=73 joint=waist_pitch_joint value=0.524293005 range=[-0.52, 0.52] excess=0.00429300547 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=74 joint=waist_pitch_joint value=0.523466051 range=[-0.52, 0.52] excess=0.00346605062 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=75 joint=waist_pitch_joint value=0.522343993 range=[-0.52, 0.52] excess=0.00234399319 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=76 joint=waist_pitch_joint value=0.521967232 range=[-0.52, 0.52] excess=0.00196723223 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=77 joint=waist_pitch_joint value=0.520822227 range=[-0.52, 0.52] excess=0.000822227001 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=78 joint=waist_pitch_joint value=0.520284772 range=[-0.52, 0.52] excess=0.000284771919 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=80 joint=waist_pitch_joint value=0.520839632 range=[-0.52, 0.52] excess=0.000839631557 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=81 joint=waist_pitch_joint value=0.522036493 range=[-0.52, 0.52] excess=0.00203649282 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=82 joint=waist_pitch_joint value=0.523495674 range=[-0.52, 0.52] excess=0.00349567413 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=83 joint=waist_pitch_joint value=0.524320662 range=[-0.52, 0.52] excess=0.00432066202 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=84 joint=waist_pitch_joint value=0.523864329 range=[-0.52, 0.52] excess=0.00386432886 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=85 joint=waist_pitch_joint value=0.524149358 range=[-0.52, 0.52] excess=0.00414935827 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=86 joint=waist_pitch_joint value=0.524763465 range=[-0.52, 0.52] excess=0.00476346493 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=87 joint=waist_pitch_joint value=0.525174022 range=[-0.52, 0.52] excess=0.00517402172 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=88 joint=waist_pitch_joint value=0.525396109 range=[-0.52, 0.52] excess=0.00539610863 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=89 joint=waist_pitch_joint value=0.525704086 range=[-0.52, 0.52] excess=0.00570408583 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=90 joint=waist_pitch_joint value=0.526112795 range=[-0.52, 0.52] excess=0.00611279488 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=91 joint=waist_pitch_joint value=0.526384652 range=[-0.52, 0.52] excess=0.00638465166 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=92 joint=waist_pitch_joint value=0.524843872 range=[-0.52, 0.52] excess=0.00484387159 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=93 joint=waist_pitch_joint value=0.524791777 range=[-0.52, 0.52] excess=0.00479177713 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=94 joint=waist_pitch_joint value=0.52513653 range=[-0.52, 0.52] excess=0.0051365304 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=95 joint=waist_pitch_joint value=0.525572896 range=[-0.52, 0.52] excess=0.005572896 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=96 joint=waist_pitch_joint value=0.525515079 range=[-0.52, 0.52] excess=0.0055150795 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=97 joint=waist_pitch_joint value=0.526839733 range=[-0.52, 0.52] excess=0.00683973312 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=98 joint=waist_pitch_joint value=0.528595507 range=[-0.52, 0.52] excess=0.00859550714 tolerance=0.02
+clipped joint limit path=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv frame=99 joint=waist_pitch_joint value=0.530663013 range=[-0.52, 0.52] excess=0.0106630135 tolerance=0.02
+[INFO] loading policy checkpoint: policy_state_dict.pt
+[INFO] loaded action std shape=(29,)
+[INFO] load_state_dict missing keys: []
+[INFO] load_state_dict unexpected keys: []
+[INFO] control_mode=generated-motion
+[INFO] motion_source=ardy loader=ardy_loader motion_file=/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv sha256=a65f007dcff95486cf659d7bce8ea6202fe24b9218ced20edb96915a9d410a1b source_frames=100 source_fps=25 prepared_frames=199 target_fps=50.0 motion_start=0 motion_speed=1
+[RESULT] success=False no_grip=True max_contacts=1 max_contact_bodies=1 contact_bodies=['right_hand_middle_1_link'] max_normal_force=8.504N lift_contact_time=0.000s lifted_height=0.0212m final_clearance=-0.7250m final_cube_pos=[0.1126, -0.149, 0.0175]
+[CONTROL] control_mode=generated-motion fixed_arm_override_count=0 fixed_arm_pd_write_count=0 reference_window_count=200 reference_window_change_count=199 unique_reference_window_hashes=200 reference_first_sha256=439be2391fc66faa2dd710fc7f37526603248b4a29ca78fa9b330782d03dd460 reference_last_sha256=0beaa7f3e5a85bc308b00f47cf637651a8db657ac256dfc7b4f2c29547de000d action_count=200 unique_action_hashes=200 action_first_sha256=5246ba3fa74e4bb29a0a1673518be1cdd92f9dcff146193b0e40aac2d398a7fa action_last_sha256=a1ba09faa883bdcf12ed01a7fd13f8626c3bbde24fbe0f13434ed79fbc1a8fcf
+[REFERENCE] reference_mode=dynamic sim_time=3.980000 motion_time=3.980000 current_frame=198 requested_frames=198:243 actual_frames=198:198 window_shape=(640,)
+[CONTACT_SNAPSHOT] [{'body': 'right_hand_middle_1_link', 'geom': 'right_middle_fingertip', 'pos': [0.2842, -0.1039, 0.7571], 'normal': [-0.8548, -0.0, 0.5189], 'normal_force': 8.504, 'cube_is_geom1': False}]
+[FINGERTIP_DISTANCE] right_thumb_fingertip=0.02996 right_index_fingertip=0.01938 right_middle_fingertip=-0.00154
+[FINGERTIP_POS] right_thumb_fingertip=[0.4344, 0.1198, 0.9456] right_index_fingertip=[0.4009, 0.2125, 0.9195] right_middle_fingertip=[0.4139, 0.1858, 0.8709]
+[HAND_LOCAL] cube=[-0.2347, 0.4431, -0.8463] right_thumb_fingertip=[0.1308, 0.0096, -0.0003] right_index_fingertip=[0.1503, 0.1054, 0.0285] right_middle_fingertip=[0.1505, 0.1054, -0.0285]
+[HAND_Q] [0.0053, -0.7014, -1.999, 1.3967, 0.0792, 1.3956, 0.0785]
+[ROBOT_STATE] base_pos=[-0.0089, 0.0159, 0.7509] up_z=0.9997
+[HAND_CONTACTS] []
+[TRACE] rows=200 csv=/data/group4/20261006-055934-qoder-x05eval/runs/ARDY_m0_p5_s1_c_OFF/r01/trace.csv

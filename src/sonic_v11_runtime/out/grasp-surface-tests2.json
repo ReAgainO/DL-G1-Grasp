@@ -1,0 +1,6 @@
+{
+  "physical_steps": 0,
+  "pass_count": 40,
+  "max_analytic_vs_finite_difference_error": 1.6256514967505353e-08,
+  "tests": "5 branch poses x2 cube orientations x2 opposing pads x(Jacobian + surface-distance identity)"
+}

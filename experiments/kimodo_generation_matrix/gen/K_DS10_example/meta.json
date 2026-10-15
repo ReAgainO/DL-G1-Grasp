@@ -1,0 +1,12 @@
+{
+  "text": "A person reaches forward with their right hand to grab a small object on a table.",
+  "duration": 4.0,
+  "num_samples": 1,
+  "seed": 0,
+  "diffusion_steps": 10,
+  "cfg": {
+    "enabled": true,
+    "text_weight": 2.0,
+    "constraint_weight": 2.0
+  }
+}

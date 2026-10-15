@@ -1,0 +1,1058 @@
+{
+  "rng_seed": 20261006,
+  "c2_pick": [
+    "ARDY_m0_p2_s0_c",
+    "ARDY_m1_p0_s0_u",
+    "ARDY_m0_p5_s1_c"
+  ],
+  "c1_pick": [
+    "ARDY_m1_p3_s0_u",
+    "ARDY_mdtype_p0_s0_c_fp32textenc"
+  ],
+  "records": [
+    {
+      "tag": "ARDY_m0_p2_s0_c_OFF",
+      "rc": 0,
+      "stderr_tail": "",
+      "no_grip": true,
+      "meta": {
+        "batch": "x01gen",
+        "cell_id": "m0_p2_s0_c",
+        "prompt_id": "P2",
+        "seed": "0",
+        "arm": "C",
+        "cfg_text": "2.0",
+        "cfg_constr": "2.0",
+        "diffusion_steps": "10",
+        "frames": "100",
+        "cols": "36",
+        "gen_device": "musa:0",
+        "dtype": "bfloat16_textenc(default load_model.py:27/155)",
+        "prompt_sha256": "3b1568a1700b01af563773154eec98ffafa27cbaa10ef6ad8eee12a2b2940369",
+        "csv_sha256": "4c576806db38e3e298785337d53c12b494e57614da4ca119dbb7b15c0fd857a0",
+        "lim_cells_beyond_tol": "0",
+        "base_table_overlap_frames": "0",
+        "root_z_lo": "0.7104848027229309",
+        "root_z_hi": "0.7795450687408447",
+        "gen_loader": "PASS",
+        "model": "ARDY-G1-RP-25FPS-Horizon8"
+      },
+      "input_csv": "/data/group4/20261006-042504-qoder-x01gen/gen/m0_p2_s0_c.csv",
+      "input_csv_sha256": "4c576806db38e3e298785337d53c12b494e57614da4ca119dbb7b15c0fd857a0",
+      "source": "ardy",
+      "source_fps": 25.0,
+      "duration_s": 4.0,
+      "fsm": {
+        "close_start": 2.2,
+        "close_duration": 0.6,
+        "lift_start": 2.8,
+        "lift_duration": 1.0
+      },
+      "repeats": 1,
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22",
+        "numpy_version": "1.26.4",
+        "torch_version": "2.14.1+cpu",
+        "model_sha": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e",
+        "scene_generator_sha": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+        "runner_sha": "b3b0c9410a3e9f5f2bb7c120fbecee7c500dda6b385b00cf93845035ecc3c004",
+        "library_sha": "5922525847b515bd4162a7fe8a8b4593c6c760f25c4131d90a0a3528eb63a1db",
+        "input_csv_sha256": "4c576806db38e3e298785337d53c12b494e57614da4ca119dbb7b15c0fd857a0",
+        "timestep": 0.002,
+        "nq_nv_nu": [
+          57,
+          55,
+          43
+        ],
+        "integrator_cone_solver": [
+          3,
+          1,
+          2
+        ],
+        "multiccd": false,
+        "mode": "sonic-closed",
+        "base": "pinned",
+        "runner_args": "--trace-csv /data/group4/20261006-055934-qoder-x05eval/runs/ARDY_m0_p2_s0_c_OFF/r01/trace.csv --duration 4 --allow-failure --motion-source ardy --motion-file /data/group4/20261006-042504-qoder-x01gen/gen/m0_p2_s0_c.csv --source-fps 25 --close-start 2.2 --close-duration 0.6 --lift-start 2.8 --lift-duration 1 --no-grip",
+        "export_used": false,
+        "pythonpath_shim": null,
+        "rlimit_as_gib": 16.0,
+        "thread_env": {
+          "OMP_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1"
+        },
+        "mujoco_gl": "unset"
+      },
+      "runs": [
+        {
+          "repeat_index": 1,
+          "tag": "ARDY_m0_p2_s0_c_OFF",
+          "rc": 0,
+          "timed_out": false,
+          "wall_seconds": 6.041,
+          "child_pid": 3574076,
+          "stdout_sha256": "460dc2e13ff71e2440bf449500b74927e761da70b59ac5410e16d486be3cfc4e",
+          "result_line": "[RESULT] success=False no_grip=True max_contacts=1 max_contact_bodies=1 contact_bodies=['right_hand_index_1_link'] max_normal_force=20.017N lift_contact_time=0.000s lifted_height=0.0053m final_clearance=-0.0001m final_cube_pos=[0.2331, -0.0411, 0.7424]",
+          "result_line_sha256": "6c77385f054685ad894e902abb779718c8c3695eda4c8a4d79aedcdeb2cdbad2",
+          "success_raw": "False",
+          "no_grip_raw": "True",
+          "lifted_height": 0.0053,
+          "final_clearance": -0.0001,
+          "max_normal_force": 20.017,
+          "max_contact_bodies": 1.0,
+          "max_contacts": 1.0,
+          "lift_contact_time": 0.0,
+          "contact_bodies": "['right_hand_index_1_link']",
+          "control_mode": "generated-motion",
+          "fixed_arm_override_count": "0",
+          "fixed_arm_pd_write_count": "0",
+          "unique_action_hashes": "200",
+          "action_count": "200",
+          "stdout_lines": 20
+        }
+      ],
+      "summary_stats": {
+        "success_counts": {
+          "True": 0,
+          "False": 1
+        },
+        "success_flips_adjacent": 0,
+        "failed_repeat_indices": [
+          1
+        ],
+        "distinct_stdout_shas": 1,
+        "distinct_result_line_shas": 1,
+        "distinct_manifest_csv_shas": 0,
+        "lifted_height": {
+          "n": 1,
+          "min": 0.0053,
+          "median": 0.0053,
+          "max": 0.0053,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0053
+          ]
+        },
+        "final_clearance": {
+          "n": 1,
+          "min": -0.0001,
+          "median": -0.0001,
+          "max": -0.0001,
+          "range": 0.0,
+          "distinct_round6": [
+            -0.0001
+          ]
+        },
+        "max_normal_force": {
+          "n": 1,
+          "min": 20.017,
+          "median": 20.017,
+          "max": 20.017,
+          "range": 0.0,
+          "distinct_round6": [
+            20.017
+          ]
+        },
+        "max_contact_bodies": {
+          "n": 1,
+          "min": 1.0,
+          "median": 1.0,
+          "max": 1.0,
+          "range": 0.0,
+          "distinct_round6": [
+            1.0
+          ]
+        },
+        "lift_contact_time": {
+          "n": 1,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0
+          ]
+        },
+        "wall_seconds": {
+          "n": 1,
+          "min": 6.041,
+          "median": 6.041,
+          "max": 6.041,
+          "range": 0.0,
+          "distinct_round6": [
+            6.041
+          ]
+        },
+        "rc_counts": {
+          "0": 1
+        }
+      },
+      "result_line": "[RESULT] success=False no_grip=True max_contacts=1 max_contact_bodies=1 contact_bodies=['right_hand_index_1_link'] max_normal_force=20.017N lift_contact_time=0.000s lifted_height=0.0053m final_clearance=-0.0001m final_cube_pos=[0.2331, -0.0411, 0.7424]",
+      "control_mode": "generated-motion",
+      "success_runner": "False",
+      "force_single_contact_max_N": 20.017,
+      "lifted_height_runner_m": 0.0053,
+      "n_contact_bodies_runner": 1.0,
+      "contact_bodies": "['right_hand_index_1_link']",
+      "wall_seconds": 6.041,
+      "reference_window_info": null,
+      "trace_metrics_rc": 0,
+      "gap_min_m": 0.043582,
+      "gap_at_trigger_m": 0.043582,
+      "trigger_time_s": 1.48,
+      "lift_max_m": 0.005257,
+      "lift_sustained_tail1s_min_m": -0.032615,
+      "lift_sustained_ge5cm_trailing_seconds": 0.0,
+      "n_contact_bodies": 1,
+      "force_normal_N": 16.021045,
+      "force_normal_in_grasp_phases_N": 0.0,
+      "track_rms_rad": 0.502414,
+      "fell": false,
+      "root_z_range_m": 0.080455,
+      "up_z_min": 0.992655,
+      "final_lift_m": -0.032092,
+      "success_composite_protocol": false,
+      "gap_min_fingertip_m": -0.001639,
+      "samples": 200,
+      "episode_seconds": 4.0
+    },
+    {
+      "tag": "ARDY_m1_p0_s0_u_OFF",
+      "rc": 0,
+      "stderr_tail": "",
+      "no_grip": true,
+      "meta": {
+        "batch": "x01gen",
+        "cell_id": "m1_p0_s0_u",
+        "prompt_id": "P0",
+        "seed": "0",
+        "arm": "U",
+        "cfg_text": "2.0",
+        "cfg_constr": "2.0",
+        "diffusion_steps": "10",
+        "frames": "100",
+        "cols": "36",
+        "gen_device": "musa:0",
+        "dtype": "bfloat16_textenc(default load_model.py:27/155)",
+        "prompt_sha256": "464213bd14a5371591106df505be601403bfc1968893ac472952f80d772beb5b",
+        "csv_sha256": "876bcce2c1f92be5564af1c9c91a69ad593349fe98eb5d33d8ac932062f17d6c",
+        "lim_cells_beyond_tol": "0",
+        "base_table_overlap_frames": "0",
+        "root_z_lo": "0.7815144062042236",
+        "root_z_hi": "0.7846729755401611",
+        "gen_loader": "PASS",
+        "model": "ARDY-G1-RP-25FPS-Horizon8"
+      },
+      "input_csv": "/data/group4/20261006-042504-qoder-x01gen/gen/m1_p0_s0_u.csv",
+      "input_csv_sha256": "876bcce2c1f92be5564af1c9c91a69ad593349fe98eb5d33d8ac932062f17d6c",
+      "source": "ardy",
+      "source_fps": 25.0,
+      "duration_s": 4.0,
+      "fsm": {
+        "close_start": 2.2,
+        "close_duration": 0.6,
+        "lift_start": 2.8,
+        "lift_duration": 1.0
+      },
+      "repeats": 1,
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22",
+        "numpy_version": "1.26.4",
+        "torch_version": "2.14.1+cpu",
+        "model_sha": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e",
+        "scene_generator_sha": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+        "runner_sha": "b3b0c9410a3e9f5f2bb7c120fbecee7c500dda6b385b00cf93845035ecc3c004",
+        "library_sha": "5922525847b515bd4162a7fe8a8b4593c6c760f25c4131d90a0a3528eb63a1db",
+        "input_csv_sha256": "876bcce2c1f92be5564af1c9c91a69ad593349fe98eb5d33d8ac932062f17d6c",
+        "timestep": 0.002,
+        "nq_nv_nu": [
+          57,
+          55,
+          43
+        ],
+        "integrator_cone_solver": [
+          3,
+          1,
+          2
+        ],
+        "multiccd": false,
+        "mode": "sonic-closed",
+        "base": "pinned",
+        "runner_args": "--trace-csv /data/group4/20261006-055934-qoder-x05eval/runs/ARDY_m1_p0_s0_u_OFF/r01/trace.csv --duration 4 --allow-failure --motion-source ardy --motion-file /data/group4/20261006-042504-qoder-x01gen/gen/m1_p0_s0_u.csv --source-fps 25 --close-start 2.2 --close-duration 0.6 --lift-start 2.8 --lift-duration 1 --no-grip",
+        "export_used": false,
+        "pythonpath_shim": null,
+        "rlimit_as_gib": 16.0,
+        "thread_env": {
+          "OMP_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1"
+        },
+        "mujoco_gl": "unset"
+      },
+      "runs": [
+        {
+          "repeat_index": 1,
+          "tag": "ARDY_m1_p0_s0_u_OFF",
+          "rc": 0,
+          "timed_out": false,
+          "wall_seconds": 5.678,
+          "child_pid": 3576012,
+          "stdout_sha256": "291356beef80fb688887514415f8cb60fb31963a9536557bb55eee77a958e6e7",
+          "result_line": "[RESULT] success=False no_grip=True max_contacts=0 max_contact_bodies=0 contact_bodies=[] max_normal_force=0.000N lift_contact_time=0.000s lifted_height=0.0063m final_clearance=0.0010m final_cube_pos=[0.3005, -0.1721, 0.7435]",
+          "result_line_sha256": "d092e569383551d89844d3f37c17724efb4b014d0b94de71b19c511797c131a9",
+          "success_raw": "False",
+          "no_grip_raw": "True",
+          "lifted_height": 0.0063,
+          "final_clearance": 0.001,
+          "max_normal_force": 0.0,
+          "max_contact_bodies": 0.0,
+          "max_contacts": 0.0,
+          "lift_contact_time": 0.0,
+          "contact_bodies": "[]",
+          "control_mode": "generated-motion",
+          "fixed_arm_override_count": "0",
+          "fixed_arm_pd_write_count": "0",
+          "unique_action_hashes": "200",
+          "action_count": "200",
+          "stdout_lines": 17
+        }
+      ],
+      "summary_stats": {
+        "success_counts": {
+          "True": 0,
+          "False": 1
+        },
+        "success_flips_adjacent": 0,
+        "failed_repeat_indices": [
+          1
+        ],
+        "distinct_stdout_shas": 1,
+        "distinct_result_line_shas": 1,
+        "distinct_manifest_csv_shas": 0,
+        "lifted_height": {
+          "n": 1,
+          "min": 0.0063,
+          "median": 0.0063,
+          "max": 0.0063,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0063
+          ]
+        },
+        "final_clearance": {
+          "n": 1,
+          "min": 0.001,
+          "median": 0.001,
+          "max": 0.001,
+          "range": 0.0,
+          "distinct_round6": [
+            0.001
+          ]
+        },
+        "max_normal_force": {
+          "n": 1,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0
+          ]
+        },
+        "max_contact_bodies": {
+          "n": 1,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0
+          ]
+        },
+        "lift_contact_time": {
+          "n": 1,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0
+          ]
+        },
+        "wall_seconds": {
+          "n": 1,
+          "min": 5.678,
+          "median": 5.678,
+          "max": 5.678,
+          "range": 0.0,
+          "distinct_round6": [
+            5.678
+          ]
+        },
+        "rc_counts": {
+          "0": 1
+        }
+      },
+      "result_line": "[RESULT] success=False no_grip=True max_contacts=0 max_contact_bodies=0 contact_bodies=[] max_normal_force=0.000N lift_contact_time=0.000s lifted_height=0.0063m final_clearance=0.0010m final_cube_pos=[0.3005, -0.1721, 0.7435]",
+      "control_mode": "generated-motion",
+      "success_runner": "False",
+      "force_single_contact_max_N": 0.0,
+      "lifted_height_runner_m": 0.0063,
+      "n_contact_bodies_runner": 0.0,
+      "contact_bodies": "[]",
+      "wall_seconds": 5.678,
+      "reference_window_info": null,
+      "trace_metrics_rc": 0,
+      "gap_min_m": 0.094525,
+      "gap_at_trigger_m": 0.094525,
+      "trigger_time_s": 2.72,
+      "lift_max_m": 0.006137,
+      "lift_sustained_tail1s_min_m": -0.032096,
+      "lift_sustained_ge5cm_trailing_seconds": 0.0,
+      "n_contact_bodies": 0,
+      "force_normal_N": 0.0,
+      "force_normal_in_grasp_phases_N": 0.0,
+      "track_rms_rad": 0.439997,
+      "fell": false,
+      "root_z_range_m": 0.04298,
+      "up_z_min": 0.995231,
+      "final_lift_m": -0.030427,
+      "success_composite_protocol": false,
+      "gap_min_fingertip_m": 0.025495,
+      "samples": 200,
+      "episode_seconds": 4.0
+    },
+    {
+      "tag": "ARDY_m0_p5_s1_c_OFF",
+      "rc": 0,
+      "stderr_tail": "",
+      "no_grip": true,
+      "meta": {
+        "batch": "x01gen",
+        "cell_id": "m0_p5_s1_c",
+        "prompt_id": "P5",
+        "seed": "1",
+        "arm": "C",
+        "cfg_text": "2.0",
+        "cfg_constr": "2.0",
+        "diffusion_steps": "10",
+        "frames": "100",
+        "cols": "36",
+        "gen_device": "musa:0",
+        "dtype": "bfloat16_textenc(default load_model.py:27/155)",
+        "prompt_sha256": "eaf6900bf37277fa3412bc18e3c5942c0affe6b6bafc74aa1a9360e2c5b90221",
+        "csv_sha256": "a65f007dcff95486cf659d7bce8ea6202fe24b9218ced20edb96915a9d410a1b",
+        "lim_cells_beyond_tol": "0",
+        "base_table_overlap_frames": "0",
+        "root_z_lo": "0.4994328022003174",
+        "root_z_hi": "0.5145264267921448",
+        "gen_loader": "PASS",
+        "model": "ARDY-G1-RP-25FPS-Horizon8"
+      },
+      "input_csv": "/data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv",
+      "input_csv_sha256": "a65f007dcff95486cf659d7bce8ea6202fe24b9218ced20edb96915a9d410a1b",
+      "source": "ardy",
+      "source_fps": 25.0,
+      "duration_s": 4.0,
+      "fsm": {
+        "close_start": 2.2,
+        "close_duration": 0.6,
+        "lift_start": 2.8,
+        "lift_duration": 1.0
+      },
+      "repeats": 1,
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22",
+        "numpy_version": "1.26.4",
+        "torch_version": "2.14.1+cpu",
+        "model_sha": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e",
+        "scene_generator_sha": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+        "runner_sha": "b3b0c9410a3e9f5f2bb7c120fbecee7c500dda6b385b00cf93845035ecc3c004",
+        "library_sha": "5922525847b515bd4162a7fe8a8b4593c6c760f25c4131d90a0a3528eb63a1db",
+        "input_csv_sha256": "a65f007dcff95486cf659d7bce8ea6202fe24b9218ced20edb96915a9d410a1b",
+        "timestep": 0.002,
+        "nq_nv_nu": [
+          57,
+          55,
+          43
+        ],
+        "integrator_cone_solver": [
+          3,
+          1,
+          2
+        ],
+        "multiccd": false,
+        "mode": "sonic-closed",
+        "base": "pinned",
+        "runner_args": "--trace-csv /data/group4/20261006-055934-qoder-x05eval/runs/ARDY_m0_p5_s1_c_OFF/r01/trace.csv --duration 4 --allow-failure --motion-source ardy --motion-file /data/group4/20261006-042504-qoder-x01gen/gen/m0_p5_s1_c.csv --source-fps 25 --close-start 2.2 --close-duration 0.6 --lift-start 2.8 --lift-duration 1 --no-grip",
+        "export_used": false,
+        "pythonpath_shim": null,
+        "rlimit_as_gib": 16.0,
+        "thread_env": {
+          "OMP_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1"
+        },
+        "mujoco_gl": "unset"
+      },
+      "runs": [
+        {
+          "repeat_index": 1,
+          "tag": "ARDY_m0_p5_s1_c_OFF",
+          "rc": 0,
+          "timed_out": false,
+          "wall_seconds": 5.347,
+          "child_pid": 3577273,
+          "stdout_sha256": "216c1fe3d54a19d16893fbabc9c748b2f2f8aaab7138b6e7870f9a5cdd47983c",
+          "result_line": "[RESULT] success=False no_grip=True max_contacts=1 max_contact_bodies=1 contact_bodies=['right_hand_middle_1_link'] max_normal_force=8.504N lift_contact_time=0.000s lifted_height=0.0212m final_clearance=-0.7250m final_cube_pos=[0.1126, -0.149, 0.0175]",
+          "result_line_sha256": "dacb8a43ba9e8ba36598dd090145e75922711277321382d33ddeb52a7a1249bb",
+          "success_raw": "False",
+          "no_grip_raw": "True",
+          "lifted_height": 0.0212,
+          "final_clearance": -0.725,
+          "max_normal_force": 8.504,
+          "max_contact_bodies": 1.0,
+          "max_contacts": 1.0,
+          "lift_contact_time": 0.0,
+          "contact_bodies": "['right_hand_middle_1_link']",
+          "control_mode": "generated-motion",
+          "fixed_arm_override_count": "0",
+          "fixed_arm_pd_write_count": "0",
+          "unique_action_hashes": "200",
+          "action_count": "200",
+          "stdout_lines": 90
+        }
+      ],
+      "summary_stats": {
+        "success_counts": {
+          "True": 0,
+          "False": 1
+        },
+        "success_flips_adjacent": 0,
+        "failed_repeat_indices": [
+          1
+        ],
+        "distinct_stdout_shas": 1,
+        "distinct_result_line_shas": 1,
+        "distinct_manifest_csv_shas": 0,
+        "lifted_height": {
+          "n": 1,
+          "min": 0.0212,
+          "median": 0.0212,
+          "max": 0.0212,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0212
+          ]
+        },
+        "final_clearance": {
+          "n": 1,
+          "min": -0.725,
+          "median": -0.725,
+          "max": -0.725,
+          "range": 0.0,
+          "distinct_round6": [
+            -0.725
+          ]
+        },
+        "max_normal_force": {
+          "n": 1,
+          "min": 8.504,
+          "median": 8.504,
+          "max": 8.504,
+          "range": 0.0,
+          "distinct_round6": [
+            8.504
+          ]
+        },
+        "max_contact_bodies": {
+          "n": 1,
+          "min": 1.0,
+          "median": 1.0,
+          "max": 1.0,
+          "range": 0.0,
+          "distinct_round6": [
+            1.0
+          ]
+        },
+        "lift_contact_time": {
+          "n": 1,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0
+          ]
+        },
+        "wall_seconds": {
+          "n": 1,
+          "min": 5.347,
+          "median": 5.347,
+          "max": 5.347,
+          "range": 0.0,
+          "distinct_round6": [
+            5.347
+          ]
+        },
+        "rc_counts": {
+          "0": 1
+        }
+      },
+      "result_line": "[RESULT] success=False no_grip=True max_contacts=1 max_contact_bodies=1 contact_bodies=['right_hand_middle_1_link'] max_normal_force=8.504N lift_contact_time=0.000s lifted_height=0.0212m final_clearance=-0.7250m final_cube_pos=[0.1126, -0.149, 0.0175]",
+      "control_mode": "generated-motion",
+      "success_runner": "False",
+      "force_single_contact_max_N": 8.504,
+      "lifted_height_runner_m": 0.0212,
+      "n_contact_bodies_runner": 1.0,
+      "contact_bodies": "['right_hand_middle_1_link']",
+      "wall_seconds": 5.347,
+      "reference_window_info": null,
+      "trace_metrics_rc": 0,
+      "gap_min_m": 0.026777,
+      "gap_at_trigger_m": 0.026777,
+      "trigger_time_s": 1.78,
+      "lift_max_m": 0.021172,
+      "lift_sustained_tail1s_min_m": -0.757266,
+      "lift_sustained_ge5cm_trailing_seconds": 0.0,
+      "n_contact_bodies": 1,
+      "force_normal_N": 0.042538,
+      "force_normal_in_grasp_phases_N": 0.0,
+      "track_rms_rad": 0.526504,
+      "fell": false,
+      "root_z_range_m": 0.048393,
+      "up_z_min": 0.997537,
+      "final_lift_m": -0.757046,
+      "success_composite_protocol": false,
+      "gap_min_fingertip_m": -0.000969,
+      "samples": 200,
+      "episode_seconds": 4.0
+    },
+    {
+      "tag": "ARDY_m1_p3_s0_u_rep2",
+      "rc": 0,
+      "stderr_tail": "",
+      "no_grip": false,
+      "meta": {
+        "batch": "x01gen",
+        "cell_id": "m1_p3_s0_u",
+        "prompt_id": "P3",
+        "seed": "0",
+        "arm": "U",
+        "cfg_text": "2.0",
+        "cfg_constr": "2.0",
+        "diffusion_steps": "10",
+        "frames": "100",
+        "cols": "36",
+        "gen_device": "musa:0",
+        "dtype": "bfloat16_textenc(default load_model.py:27/155)",
+        "prompt_sha256": "6d25226ac0ecf8c5ab66fccd3cf147b62c639b3ae0c74a7c991e7aafc6824291",
+        "csv_sha256": "f432f6fac7671911848ee01bc9b6a8ec78a24aac5fdf87d4b8ae09a8180a1f0a",
+        "lim_cells_beyond_tol": "0",
+        "base_table_overlap_frames": "0",
+        "root_z_lo": "0.7810590267181396",
+        "root_z_hi": "0.7882215976715088",
+        "gen_loader": "PASS",
+        "model": "ARDY-G1-RP-25FPS-Horizon8"
+      },
+      "input_csv": "/data/group4/20261006-042504-qoder-x01gen/gen/m1_p3_s0_u.csv",
+      "input_csv_sha256": "f432f6fac7671911848ee01bc9b6a8ec78a24aac5fdf87d4b8ae09a8180a1f0a",
+      "source": "ardy",
+      "source_fps": 25.0,
+      "duration_s": 4.0,
+      "fsm": {
+        "close_start": 2.2,
+        "close_duration": 0.6,
+        "lift_start": 2.8,
+        "lift_duration": 1.0
+      },
+      "repeats": 1,
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22",
+        "numpy_version": "1.26.4",
+        "torch_version": "2.14.1+cpu",
+        "model_sha": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e",
+        "scene_generator_sha": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+        "runner_sha": "b3b0c9410a3e9f5f2bb7c120fbecee7c500dda6b385b00cf93845035ecc3c004",
+        "library_sha": "5922525847b515bd4162a7fe8a8b4593c6c760f25c4131d90a0a3528eb63a1db",
+        "input_csv_sha256": "f432f6fac7671911848ee01bc9b6a8ec78a24aac5fdf87d4b8ae09a8180a1f0a",
+        "timestep": 0.002,
+        "nq_nv_nu": [
+          57,
+          55,
+          43
+        ],
+        "integrator_cone_solver": [
+          3,
+          1,
+          2
+        ],
+        "multiccd": false,
+        "mode": "sonic-closed",
+        "base": "pinned",
+        "runner_args": "--trace-csv /data/group4/20261006-055934-qoder-x05eval/runs/ARDY_m1_p3_s0_u_rep2/r01/trace.csv --duration 4 --allow-failure --motion-source ardy --motion-file /data/group4/20261006-042504-qoder-x01gen/gen/m1_p3_s0_u.csv --source-fps 25 --close-start 2.2 --close-duration 0.6 --lift-start 2.8 --lift-duration 1",
+        "export_used": false,
+        "pythonpath_shim": null,
+        "rlimit_as_gib": 16.0,
+        "thread_env": {
+          "OMP_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1"
+        },
+        "mujoco_gl": "unset"
+      },
+      "runs": [
+        {
+          "repeat_index": 1,
+          "tag": "ARDY_m1_p3_s0_u_rep2",
+          "rc": 0,
+          "timed_out": false,
+          "wall_seconds": 6.073,
+          "child_pid": 3578968,
+          "stdout_sha256": "fe0878614041a80510f2c0c63832f42036efc82fe13efed1ea3756a15cc30b7f",
+          "result_line": "[RESULT] success=False no_grip=False max_contacts=1 max_contact_bodies=1 contact_bodies=['right_hand_index_1_link', 'right_hand_thumb_2_link'] max_normal_force=40.911N lift_contact_time=0.000s lifted_height=0.0095m final_clearance=-0.0001m final_cube_pos=[0.2188, -0.195, 0.7424]",
+          "result_line_sha256": "0d89313c9901a44cebfc18c4dec0cb40580ff8517c04d3fe8cb3b7ffb29c9a6c",
+          "success_raw": "False",
+          "no_grip_raw": "False",
+          "lifted_height": 0.0095,
+          "final_clearance": -0.0001,
+          "max_normal_force": 40.911,
+          "max_contact_bodies": 1.0,
+          "max_contacts": 1.0,
+          "lift_contact_time": 0.0,
+          "contact_bodies": "['right_hand_index_1_link', 'right_hand_thumb_2_link']",
+          "control_mode": "generated-motion",
+          "fixed_arm_override_count": "0",
+          "fixed_arm_pd_write_count": "0",
+          "unique_action_hashes": "200",
+          "action_count": "200",
+          "stdout_lines": 17
+        }
+      ],
+      "summary_stats": {
+        "success_counts": {
+          "True": 0,
+          "False": 1
+        },
+        "success_flips_adjacent": 0,
+        "failed_repeat_indices": [
+          1
+        ],
+        "distinct_stdout_shas": 1,
+        "distinct_result_line_shas": 1,
+        "distinct_manifest_csv_shas": 0,
+        "lifted_height": {
+          "n": 1,
+          "min": 0.0095,
+          "median": 0.0095,
+          "max": 0.0095,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0095
+          ]
+        },
+        "final_clearance": {
+          "n": 1,
+          "min": -0.0001,
+          "median": -0.0001,
+          "max": -0.0001,
+          "range": 0.0,
+          "distinct_round6": [
+            -0.0001
+          ]
+        },
+        "max_normal_force": {
+          "n": 1,
+          "min": 40.911,
+          "median": 40.911,
+          "max": 40.911,
+          "range": 0.0,
+          "distinct_round6": [
+            40.911
+          ]
+        },
+        "max_contact_bodies": {
+          "n": 1,
+          "min": 1.0,
+          "median": 1.0,
+          "max": 1.0,
+          "range": 0.0,
+          "distinct_round6": [
+            1.0
+          ]
+        },
+        "lift_contact_time": {
+          "n": 1,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0
+          ]
+        },
+        "wall_seconds": {
+          "n": 1,
+          "min": 6.073,
+          "median": 6.073,
+          "max": 6.073,
+          "range": 0.0,
+          "distinct_round6": [
+            6.073
+          ]
+        },
+        "rc_counts": {
+          "0": 1
+        }
+      },
+      "result_line": "[RESULT] success=False no_grip=False max_contacts=1 max_contact_bodies=1 contact_bodies=['right_hand_index_1_link', 'right_hand_thumb_2_link'] max_normal_force=40.911N lift_contact_time=0.000s lifted_height=0.0095m final_clearance=-0.0001m final_cube_pos=[0.2188, -0.195, 0.7424]",
+      "control_mode": "generated-motion",
+      "success_runner": "False",
+      "force_single_contact_max_N": 40.911,
+      "lifted_height_runner_m": 0.0095,
+      "n_contact_bodies_runner": 1.0,
+      "contact_bodies": "['right_hand_index_1_link', 'right_hand_thumb_2_link']",
+      "wall_seconds": 6.073,
+      "reference_window_info": null,
+      "trace_metrics_rc": 0,
+      "gap_min_m": 0.070383,
+      "gap_at_trigger_m": 0.070383,
+      "trigger_time_s": 2.46,
+      "lift_max_m": 0.008571,
+      "lift_sustained_tail1s_min_m": -0.032078,
+      "lift_sustained_ge5cm_trailing_seconds": 0.0,
+      "n_contact_bodies": 1,
+      "force_normal_N": 8.125273,
+      "force_normal_in_grasp_phases_N": 8.125273,
+      "track_rms_rad": 0.66483,
+      "fell": false,
+      "root_z_range_m": 0.093425,
+      "up_z_min": 0.985164,
+      "final_lift_m": -0.032077,
+      "success_composite_protocol": false,
+      "gap_min_fingertip_m": -0.002481,
+      "samples": 200,
+      "episode_seconds": 4.0,
+      "c1_identical_to_first_run": true,
+      "c1_diff_keys": []
+    },
+    {
+      "tag": "ARDY_mdtype_p0_s0_c_fp32textenc_rep2",
+      "rc": 0,
+      "stderr_tail": "",
+      "no_grip": false,
+      "meta": {
+        "batch": "x01gen",
+        "cell_id": "mdtype_p0_s0_c_fp32textenc",
+        "prompt_id": "P0",
+        "seed": "0",
+        "arm": "C",
+        "cfg_text": "2.0",
+        "cfg_constr": "2.0",
+        "diffusion_steps": "10",
+        "frames": "100",
+        "cols": "36",
+        "gen_device": "musa:0",
+        "dtype": "float32_textenc(load_model(text_encoder_fp32=True) -> load_model.py:236 -> load_text_encoder(fp32=) -> :155)",
+        "prompt_sha256": "464213bd14a5371591106df505be601403bfc1968893ac472952f80d772beb5b",
+        "csv_sha256": "0efc8939cf4e6c5fd34f61a104b9cdcf80145688ec2e1113234de235a67ade61",
+        "lim_cells_beyond_tol": "0",
+        "base_table_overlap_frames": "0",
+        "root_z_lo": "0.6994816064834595",
+        "root_z_hi": "0.7778840065002441",
+        "gen_loader": "PASS",
+        "model": "ARDY-G1-RP-25FPS-Horizon8"
+      },
+      "input_csv": "/data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv",
+      "input_csv_sha256": "0efc8939cf4e6c5fd34f61a104b9cdcf80145688ec2e1113234de235a67ade61",
+      "source": "ardy",
+      "source_fps": 25.0,
+      "duration_s": 4.0,
+      "fsm": {
+        "close_start": 2.2,
+        "close_duration": 0.6,
+        "lift_start": 2.8,
+        "lift_duration": 1.0
+      },
+      "repeats": 1,
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22",
+        "numpy_version": "1.26.4",
+        "torch_version": "2.14.1+cpu",
+        "model_sha": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e",
+        "scene_generator_sha": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+        "runner_sha": "b3b0c9410a3e9f5f2bb7c120fbecee7c500dda6b385b00cf93845035ecc3c004",
+        "library_sha": "5922525847b515bd4162a7fe8a8b4593c6c760f25c4131d90a0a3528eb63a1db",
+        "input_csv_sha256": "0efc8939cf4e6c5fd34f61a104b9cdcf80145688ec2e1113234de235a67ade61",
+        "timestep": 0.002,
+        "nq_nv_nu": [
+          57,
+          55,
+          43
+        ],
+        "integrator_cone_solver": [
+          3,
+          1,
+          2
+        ],
+        "multiccd": false,
+        "mode": "sonic-closed",
+        "base": "pinned",
+        "runner_args": "--trace-csv /data/group4/20261006-055934-qoder-x05eval/runs/ARDY_mdtype_p0_s0_c_fp32textenc_rep2/r01/trace.csv --duration 4 --allow-failure --motion-source ardy --motion-file /data/group4/20261006-042504-qoder-x01gen/gen/mdtype_p0_s0_c_fp32textenc.csv --source-fps 25 --close-start 2.2 --close-duration 0.6 --lift-start 2.8 --lift-duration 1",
+        "export_used": false,
+        "pythonpath_shim": null,
+        "rlimit_as_gib": 16.0,
+        "thread_env": {
+          "OMP_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1"
+        },
+        "mujoco_gl": "unset"
+      },
+      "runs": [
+        {
+          "repeat_index": 1,
+          "tag": "ARDY_mdtype_p0_s0_c_fp32textenc_rep2",
+          "rc": 0,
+          "timed_out": false,
+          "wall_seconds": 5.689,
+          "child_pid": 3581168,
+          "stdout_sha256": "a9eb31f03304455588b54adf5e3e63072fef370e41bd1c0fea23847632d78f4b",
+          "result_line": "[RESULT] success=False no_grip=False max_contacts=0 max_contact_bodies=0 contact_bodies=[] max_normal_force=0.000N lift_contact_time=0.000s lifted_height=0.0050m final_clearance=-0.0008m final_cube_pos=[0.2292, -0.1807, 0.7417]",
+          "result_line_sha256": "8e032dc93bb0f87e3e5e61ee7c7ef5897d74b4649f8a3690e80e9e9522e4b183",
+          "success_raw": "False",
+          "no_grip_raw": "False",
+          "lifted_height": 0.005,
+          "final_clearance": -0.0008,
+          "max_normal_force": 0.0,
+          "max_contact_bodies": 0.0,
+          "max_contacts": 0.0,
+          "lift_contact_time": 0.0,
+          "contact_bodies": "[]",
+          "control_mode": "generated-motion",
+          "fixed_arm_override_count": "0",
+          "fixed_arm_pd_write_count": "0",
+          "unique_action_hashes": "200",
+          "action_count": "200",
+          "stdout_lines": 23
+        }
+      ],
+      "summary_stats": {
+        "success_counts": {
+          "True": 0,
+          "False": 1
+        },
+        "success_flips_adjacent": 0,
+        "failed_repeat_indices": [
+          1
+        ],
+        "distinct_stdout_shas": 1,
+        "distinct_result_line_shas": 1,
+        "distinct_manifest_csv_shas": 0,
+        "lifted_height": {
+          "n": 1,
+          "min": 0.005,
+          "median": 0.005,
+          "max": 0.005,
+          "range": 0.0,
+          "distinct_round6": [
+            0.005
+          ]
+        },
+        "final_clearance": {
+          "n": 1,
+          "min": -0.0008,
+          "median": -0.0008,
+          "max": -0.0008,
+          "range": 0.0,
+          "distinct_round6": [
+            -0.0008
+          ]
+        },
+        "max_normal_force": {
+          "n": 1,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0
+          ]
+        },
+        "max_contact_bodies": {
+          "n": 1,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0
+          ]
+        },
+        "lift_contact_time": {
+          "n": 1,
+          "min": 0.0,
+          "median": 0.0,
+          "max": 0.0,
+          "range": 0.0,
+          "distinct_round6": [
+            0.0
+          ]
+        },
+        "wall_seconds": {
+          "n": 1,
+          "min": 5.689,
+          "median": 5.689,
+          "max": 5.689,
+          "range": 0.0,
+          "distinct_round6": [
+            5.689
+          ]
+        },
+        "rc_counts": {
+          "0": 1
+        }
+      },
+      "result_line": "[RESULT] success=False no_grip=False max_contacts=0 max_contact_bodies=0 contact_bodies=[] max_normal_force=0.000N lift_contact_time=0.000s lifted_height=0.0050m final_clearance=-0.0008m final_cube_pos=[0.2292, -0.1807, 0.7417]",
+      "control_mode": "generated-motion",
+      "success_runner": "False",
+      "force_single_contact_max_N": 0.0,
+      "lifted_height_runner_m": 0.005,
+      "n_contact_bodies_runner": 0.0,
+      "contact_bodies": "[]",
+      "wall_seconds": 5.689,
+      "reference_window_info": null,
+      "trace_metrics_rc": 0,
+      "gap_min_m": 0.111935,
+      "gap_at_trigger_m": 0.111935,
+      "trigger_time_s": 1.52,
+      "lift_max_m": 0.005012,
+      "lift_sustained_tail1s_min_m": -0.032422,
+      "lift_sustained_ge5cm_trailing_seconds": 0.0,
+      "n_contact_bodies": 0,
+      "force_normal_N": 0.0,
+      "force_normal_in_grasp_phases_N": 0.0,
+      "track_rms_rad": 0.4418,
+      "fell": false,
+      "root_z_range_m": 0.088922,
+      "up_z_min": 0.995412,
+      "final_lift_m": -0.031795,
+      "success_composite_protocol": false,
+      "gap_min_fingertip_m": 0.008897,
+      "samples": 200,
+      "episode_seconds": 4.0,
+      "c1_identical_to_first_run": true,
+      "c1_diff_keys": []
+    }
+  ]
+}

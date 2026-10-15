@@ -1,0 +1,21 @@
+{
+ "cube_pos": [
+  0.2075618635187867,
+  -0.08438661460472958,
+  0.6270244269129369
+ ],
+ "arm_q": [
+  0.1217,
+  0.226,
+  -0.4558,
+  0.7972,
+  -0.5068,
+  -0.3276,
+  -0.1141
+ ],
+ "weld": true,
+ "freeze_hand": true,
+ "skip_to_close": true,
+ "settle_s": 0.5,
+ "note": "W4h W1S whisper-clamp START2 edge=80mm: thumb/index pressed on top, middle 1.33mm under bottom face; pads [-0.252, -0.053, 1.33] mm; palm 20.9mm; body right_hip_yaw_link@21.6mm design_ok=True"
+}

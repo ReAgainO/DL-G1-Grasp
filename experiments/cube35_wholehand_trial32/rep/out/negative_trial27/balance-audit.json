@@ -1,0 +1,65 @@
+{
+  "runtime_stamp": {
+    "kind": "matched encoded-reference open-hand ablation; replay encoder inputs, re-evaluate actualSONIC encoder and decoder with live negative proprioception; never replay motor commands",
+    "positive": "normal_trial27",
+    "positive_result_sha256": "e225f90904aaed23ff7623835595de1e3a43273cf3b9d0c30db793dfcb319d7b",
+    "positive_io_sha256": "7f26c44722f6aa4c13b6ea4946381e0f13186ab320b9ad6cce9705a8151b33c5",
+    "source_sha256": "dabbf218a60952993cc9c9067064568f1d1a850793d0c1e8fae265dfea8342ff",
+    "body_override": false,
+    "object_state_writes": false,
+    "real_hand": true,
+    "scene_sha256": "c17bfaf1b5adc73ad7cbd2aeef0afe62530b7f87d52427ce8106b25dc60865d0",
+    "source_positive_ardy": null,
+    "source_models": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    }
+  },
+  "physics_steps": 51619,
+  "hold_samples": 992,
+  "foot_body_whitelist": [
+    "left_ankle_roll_link",
+    "right_ankle_roll_link"
+  ],
+  "robot_table_hold_max_normal_N": 0.0,
+  "nonfoot_floor_hold_max_normal_N": 0.0,
+  "foot_floor_hold_min_normal_N": 354.7718294846136,
+  "robot_table_all_max_normal_N": 0.0,
+  "nonfoot_floor_all_max_normal_N": 0.0,
+  "no_table_rest_in_hold": true,
+  "no_nonfoot_floor_support_in_hold": true,
+  "feet_supported_in_hold": true,
+  "state_mutations": false,
+  "columns": [
+    "time_s",
+    "solver_time_s",
+    "robot_table_or_riser_force_N",
+    "left_foot_floor_force_N",
+    "right_foot_floor_force_N",
+    "nonfoot_floor_force_N"
+  ],
+  "scope": "support contacts only; not a COM/COP stability-margin certificate",
+  "raw_robot_support_contact_rows": 0,
+  "raw_robot_support_contact_limit": 1440000,
+  "raw_force_frame": "MuJoCo contact frame; f0 is normal, wrench on geom2; not signed world support force",
+  "raw_contact_columns": [
+    "time_s",
+    "solver_time_s",
+    "phase",
+    "contact_index",
+    "robot_geom_id",
+    "robot_geom_name",
+    "support_geom_id",
+    "support_geom_name",
+    "robot_body",
+    "category",
+    "distance_m",
+    "normal_force_N",
+    "tangent1_force_N",
+    "tangent2_force_N",
+    "contact_torque0_Nm",
+    "contact_torque1_Nm",
+    "contact_torque2_Nm"
+  ]
+}

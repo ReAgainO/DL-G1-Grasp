@@ -1,0 +1,314 @@
+{
+ "runtime_stamp": {
+  "generated_at": "2026-10-06T06:18:39+08:00",
+  "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+  "python_version": "3.10.22",
+  "platform": "Linux-5.15.0-105-generic-x86_64-with-glibc2.35",
+  "mujoco_version": "3.2.7",
+  "manifest": "/data/group4/20261006-055934-qoder-x05eval/gen/x04_C_main.csv",
+  "manifest_sha256": "8ad06789f5e896db59ea4fcf95dfcb43a412ace42487277dc066ca6fb6e9dc96",
+  "inputs": {
+   "x04:K_M0_P0_s0": "a5a031cd30b2ebdfb82652594651ed7b1c40474874f591f10561395b643012d3",
+   "x04:K_M0_P0_s1": "2da40ba28755e0d678088aa91355c796363e88efad1c32e37ce28088b2939f45",
+   "x04:K_M0_P2_s0": "3568a9f51905fa0568da2d9db1baa8c661798bb6b8c3c0ab2e7cb25bde855885",
+   "x04:K_M0_P2_s1": "9988a063d203be5f74b9b4ed837502c88ccf89a93e4a6d28b050caac46dfb54c",
+   "x04:K_M0_P3_s0": "7605cfcb17fb8ef1e1a0439334e4ecdf5f150e4d048be69d99355d2e8237b4e8",
+   "x04:K_M0_P3_s1": "6518563467f6af304186b9614965cba6f0730ce451c448648503760abfaf999a",
+   "x04:K_M0_P5_s0": "99e009e16d28b9fa30750cb901d5a5cd04742e962614fc36a3d7c2f5e590f0fd",
+   "x04:K_M0_P5_s1": "e685cd1f291a2a0861971a8fc81ed967eadabc7f32cd9ded58cc1688c45de1e9"
+  },
+  "limits": {
+   "RLIMIT_AS_BYTES": 4294967296,
+   "MAX_FILE_BYTES": 8388608,
+   "MAX_FRAMES": 2000,
+   "MAX_RUNS": 200,
+   "threads": "forced 1"
+  },
+  "n_runs": 8,
+  "n_frames": {
+   "x04:K_M0_P0_s0": 120,
+   "x04:K_M0_P0_s1": 120,
+   "x04:K_M0_P2_s0": 120,
+   "x04:K_M0_P2_s1": 120,
+   "x04:K_M0_P3_s0": 120,
+   "x04:K_M0_P3_s1": 120,
+   "x04:K_M0_P5_s0": 120,
+   "x04:K_M0_P5_s1": 120
+  }
+ },
+ "meta": {
+  "x04:K_M0_P0_s0": {
+   "path": "/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P0_s0.csv",
+   "sha256": "a5a031cd30b2ebdfb82652594651ed7b1c40474874f591f10561395b643012d3",
+   "frames": 120,
+   "prompt_id": "P0",
+   "seed": "0",
+   "cfg_text": "2.0",
+   "baseline": true
+  },
+  "x04:K_M0_P0_s1": {
+   "path": "/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P0_s1.csv",
+   "sha256": "2da40ba28755e0d678088aa91355c796363e88efad1c32e37ce28088b2939f45",
+   "frames": 120,
+   "prompt_id": "P0",
+   "seed": "1",
+   "cfg_text": "2.0",
+   "baseline": true
+  },
+  "x04:K_M0_P2_s0": {
+   "path": "/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P2_s0.csv",
+   "sha256": "3568a9f51905fa0568da2d9db1baa8c661798bb6b8c3c0ab2e7cb25bde855885",
+   "frames": 120,
+   "prompt_id": "P2",
+   "seed": "0",
+   "cfg_text": "2.0",
+   "baseline": false
+  },
+  "x04:K_M0_P2_s1": {
+   "path": "/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P2_s1.csv",
+   "sha256": "9988a063d203be5f74b9b4ed837502c88ccf89a93e4a6d28b050caac46dfb54c",
+   "frames": 120,
+   "prompt_id": "P2",
+   "seed": "1",
+   "cfg_text": "2.0",
+   "baseline": false
+  },
+  "x04:K_M0_P3_s0": {
+   "path": "/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P3_s0.csv",
+   "sha256": "7605cfcb17fb8ef1e1a0439334e4ecdf5f150e4d048be69d99355d2e8237b4e8",
+   "frames": 120,
+   "prompt_id": "P3",
+   "seed": "0",
+   "cfg_text": "2.0",
+   "baseline": false
+  },
+  "x04:K_M0_P3_s1": {
+   "path": "/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P3_s1.csv",
+   "sha256": "6518563467f6af304186b9614965cba6f0730ce451c448648503760abfaf999a",
+   "frames": 120,
+   "prompt_id": "P3",
+   "seed": "1",
+   "cfg_text": "2.0",
+   "baseline": false
+  },
+  "x04:K_M0_P5_s0": {
+   "path": "/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P5_s0.csv",
+   "sha256": "99e009e16d28b9fa30750cb901d5a5cd04742e962614fc36a3d7c2f5e590f0fd",
+   "frames": 120,
+   "prompt_id": "P5",
+   "seed": "0",
+   "cfg_text": "2.0",
+   "baseline": false
+  },
+  "x04:K_M0_P5_s1": {
+   "path": "/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P5_s1.csv",
+   "sha256": "e685cd1f291a2a0861971a8fc81ed967eadabc7f32cd9ded58cc1688c45de1e9",
+   "frames": 120,
+   "prompt_id": "P5",
+   "seed": "1",
+   "cfg_text": "2.0",
+   "baseline": false
+  }
+ },
+ "controls_negative_self": [
+  {
+   "run_id": "x04:K_M0_P0_s0",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x04:K_M0_P0_s1",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x04:K_M0_P2_s0",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x04:K_M0_P2_s1",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x04:K_M0_P3_s0",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x04:K_M0_P3_s1",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x04:K_M0_P5_s0",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x04:K_M0_P5_s1",
+   "nonzero_fields": {},
+   "ok": true
+  }
+ ],
+ "baselines_per_seed": {
+  "0": [
+   "P0"
+  ],
+  "1": [
+   "P0"
+  ]
+ },
+ "ambiguous_baseline": {},
+ "prompt_effects_same_seed": [
+  {
+   "frames_used": 120,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 4.935632,
+   "dof_l2_max_rad": 9.187097,
+   "root_trans_l2_mean_m": 0.929916,
+   "root_trans_l2_max_m": 1.615708,
+   "root_quat_angle_mean_rad": 0.434884,
+   "root_quat_angle_max_rad": 0.821315,
+   "run_id": "x04:K_M0_P2_s0",
+   "seed": "0",
+   "prompt_id": "P2",
+   "cfg_text": "2.0",
+   "vs": "x04:K_M0_P0_s0"
+  },
+  {
+   "frames_used": 120,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 4.992409,
+   "dof_l2_max_rad": 9.357931,
+   "root_trans_l2_mean_m": 0.854233,
+   "root_trans_l2_max_m": 1.807938,
+   "root_quat_angle_mean_rad": 0.19925,
+   "root_quat_angle_max_rad": 0.548041,
+   "run_id": "x04:K_M0_P2_s1",
+   "seed": "1",
+   "prompt_id": "P2",
+   "cfg_text": "2.0",
+   "vs": "x04:K_M0_P0_s1"
+  },
+  {
+   "frames_used": 120,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 8.655589,
+   "dof_l2_max_rad": 10.993998,
+   "root_trans_l2_mean_m": 1.896955,
+   "root_trans_l2_max_m": 3.600563,
+   "root_quat_angle_mean_rad": 0.48045,
+   "root_quat_angle_max_rad": 0.732132,
+   "run_id": "x04:K_M0_P3_s0",
+   "seed": "0",
+   "prompt_id": "P3",
+   "cfg_text": "2.0",
+   "vs": "x04:K_M0_P0_s0"
+  },
+  {
+   "frames_used": 120,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 7.700463,
+   "dof_l2_max_rad": 10.400311,
+   "root_trans_l2_mean_m": 2.091851,
+   "root_trans_l2_max_m": 3.855259,
+   "root_quat_angle_mean_rad": 1.007919,
+   "root_quat_angle_max_rad": 1.320563,
+   "run_id": "x04:K_M0_P3_s1",
+   "seed": "1",
+   "prompt_id": "P3",
+   "cfg_text": "2.0",
+   "vs": "x04:K_M0_P0_s1"
+  },
+  {
+   "frames_used": 120,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 6.658655,
+   "dof_l2_max_rad": 11.399928,
+   "root_trans_l2_mean_m": 0.48826,
+   "root_trans_l2_max_m": 0.830418,
+   "root_quat_angle_mean_rad": 1.278247,
+   "root_quat_angle_max_rad": 3.0798,
+   "run_id": "x04:K_M0_P5_s0",
+   "seed": "0",
+   "prompt_id": "P5",
+   "cfg_text": "2.0",
+   "vs": "x04:K_M0_P0_s0"
+  },
+  {
+   "frames_used": 120,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 6.731423,
+   "dof_l2_max_rad": 10.737093,
+   "root_trans_l2_mean_m": 0.577035,
+   "root_trans_l2_max_m": 1.244036,
+   "root_quat_angle_mean_rad": 1.201339,
+   "root_quat_angle_max_rad": 3.115137,
+   "run_id": "x04:K_M0_P5_s1",
+   "seed": "1",
+   "prompt_id": "P5",
+   "cfg_text": "2.0",
+   "vs": "x04:K_M0_P0_s1"
+  }
+ ],
+ "seed_effects_same_prompt": [
+  {
+   "frames_used": 120,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 5.092484,
+   "dof_l2_max_rad": 9.713084,
+   "root_trans_l2_mean_m": 0.248689,
+   "root_trans_l2_max_m": 0.769149,
+   "root_quat_angle_mean_rad": 0.183027,
+   "root_quat_angle_max_rad": 0.64874,
+   "run_id": "x04:K_M0_P0_s1",
+   "seed": "1",
+   "prompt_id": "P0",
+   "vs": "x04:K_M0_P0_s0"
+  }
+ ],
+ "excluded_length_mismatch": [],
+ "tool_version": "v2 (quat 先归一化 / dof 列区间修正 / 帧数不同者不进主效应)",
+ "prompt_over_seed_ratio": {
+  "dof_l2_mean_rad": {
+   "prompt_median": 6.695039,
+   "seed_median": 5.092484,
+   "prompt_over_seed": 1.315
+  },
+  "dof_l2_max_rad": {
+   "prompt_median": 10.568702,
+   "seed_median": 9.713084,
+   "prompt_over_seed": 1.088
+  },
+  "root_trans_l2_mean_m": {
+   "prompt_median": 0.892074,
+   "seed_median": 0.248689,
+   "prompt_over_seed": 3.587
+  },
+  "root_trans_l2_max_m": {
+   "prompt_median": 1.711823,
+   "seed_median": 0.769149,
+   "prompt_over_seed": 2.226
+  },
+  "root_quat_angle_mean_rad": {
+   "prompt_median": 0.744185,
+   "seed_median": 0.183027,
+   "prompt_over_seed": 4.066
+  },
+  "root_quat_angle_max_rad": {
+   "prompt_median": 1.070939,
+   "seed_median": 0.64874,
+   "prompt_over_seed": 1.651
+  }
+ },
+ "suspicious_identical_pairs": []
+}
