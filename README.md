@@ -55,33 +55,37 @@ constraint without touching it, and those numbers are kept here only as history.
   B) grasp geometry planning -> surface_exec25_plan.json
        (wrist target / waypoints / open-hand pose)
 
-[during the run - every simulation step (dt=2 ms), driven by a phase state machine]
-  SETTLE -> RAISE -> APPROACH -> PRESHAPE -> ALIGN -> CLOSE
-        -> TEST_LIFT -> LIFT -> HOLD -> RELEASE -> FINAL
+[during the run - every sim step dt=2 ms; phase state machine:
+  SETTLE->RAISE->APPROACH->PRESHAPE->ALIGN->CLOSE->TEST_LIFT->LIFT->HOLD->RELEASE->FINAL]
 
-  +-- body path (via SONIC) ----------------------------------+
-  | profile frame + waypoints -> wrist task IK (right arm 7)  |
-  |   -> left-arm mirror -> C2 full29 reference filter        |
-  |   -> SONIC v1.1 policy (encoder ONNX in repo)             |
-  |     observation = qpos/qvel/action/gravity/gyro           |
-  |   -> ctrl[0:29] torso+arm torques (legs + gravity comp)   |
-  +-----------------------------------------------------------+
-  +-- hand path (independent controller, not via SONIC) ------+
-  | MaterialHand22 geometry solve (against current cube pose) |
-  |   <-> GripForce26 grip-force loop (measured pad forces)   |
-  |   -> stable_hand PD                                       |
-  |   -> ctrl[36:43] right-hand 7 torques                     |
-  |   -> ctrl[29:36] left-hand 7 rest                         |
-  +-----------------------------------------------------------+
-            v merge
-  MuJoCo 3.2.7 (nu=43, free base, free 35 mm cube)
-    feedback: qpos/qvel -> SONIC observation; pad contact forces
-    -> grip loop; cube pose -> geometry solve
-            v
-  gate set v6 (22 gates) -> result.json (trial32: success=true, 22/22)
+   ARDY reference chain (profile frames + waypoints)   surface_exec25_plan.json
+            |                                                 |
+            v                                                 v
+   wrist task IK (right arm 7) -> left mirror      MaterialHand22 geometry solve
+            |                                       (against the cube pose G1 reports)
+            v                                                 | <-->
+   C2 full29 reference filter                          GripForce26 grip-force loop
+            |                                          (measured pad forces from G1)
+            v                                                 |
+   +--------------------+                        +----------------------+
+   | SONIC v1.1 policy  |                        | stable_hand finger PD|
+   | (encoder ONNX)     |                        | gains = core.gains() |
+   +---------+----------+                        +----------+-----------+
+             | 29 body torques                             | right 7 + left rest
+             v                                             v
+   +------------------------------------------------------------+
+   |       G1 + 35 mm cube (MuJoCo, nu=43)                       |
+   +------------------------------------------------------------+
+             ^                                            ^
+             +-- qpos/qvel fed back into SONIC obs -------+
+             +-- pad contact forces / cube pose fed back -+
+                       | per-frame record
+                       v
+        gate set v6 (22 gates) -> result.json (trial32: 22/22 green)
 ```
-Source: `rep/normal_runner32.py` (header "All body targets from SONIC"; write sites
-`d.ctrl[:29]=ctrl.torques(...)`, `d.ctrl[36:43]=stable_hand_torques(...)`,
+So yes: ARDY -> SONIC -> G1, and G1 state -> finger PD -> G1, every sim step (a closed loop).
+Source: `rep/normal_runner32.py` (writes `d.ctrl[:29]=ctrl.torques(...)`,
+`d.ctrl[36:43]=stable_hand_torques(...)`, `d.ctrl[29:36]=...`; grip loop
 `handgoal=force_control.update(d, measured_digit_forces)`; runtime_stamp `ardy_use`:
 "Raw ARDY token148 is decoded, not passed as SONIC token64").
 
