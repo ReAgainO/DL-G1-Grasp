@@ -49,31 +49,41 @@ constraint without touching it, and those numbers are kept here only as history.
 ### 1.1 ARDY whole-hand chain, 35 mm (`cube35_wholehand_trial32`)
 
 ```
- text prompt
-     v
- ARDY motion generation (outputs 148-dim tokens)
-     v
- decode to body29 reference -> geometric/safety repair -> wrist task IK -> C2 full29 filter
-     v
- +-----------------------------------------------------------+
- | SONIC v1.1 policy (encoder ONNX in repo)                  |
- |   writes body only: ctrl[0:29] torso+arm torques @500 Hz  |
- +-----------------------------------------------------------+
- +-----------------------------------------------------------+
- | independent hand controller (not via SONIC):              |
- |   grasp geometry plan surface_exec25_plan.json            |
- |     (wrist_target / wrist_R / open-hand pose)             |
- |   -> MaterialHand22 solver + GripForce26 grip-force loop  |
- |   + finger_control / stable_hand                          |
- |   -> ctrl[36:43] right-hand 7 torques; left 7 = rest PD   |
- +-----------------------------------------------------------+
-     v
- MuJoCo 3.2.7 (nu=43, free base, free 35 mm cube, dt=2 ms)
-     v
- gate set v6 (22 gates) -> result.json (trial32: success=true, all green)
+[before the run - two independent preparation lines, artefacts in repo]
+  A) text prompt -> ARDY motion generation (148-dim tokens)
+       -> decode -> geometric/safety repair -> profile chain (native_profile28/29/30)
+  B) grasp geometry planning -> surface_exec25_plan.json
+       (wrist target / waypoints / open-hand pose)
+
+[during the run - every simulation step (dt=2 ms), driven by a phase state machine]
+  SETTLE -> RAISE -> APPROACH -> PRESHAPE -> ALIGN -> CLOSE
+        -> TEST_LIFT -> LIFT -> HOLD -> RELEASE -> FINAL
+
+  +-- body path (via SONIC) ----------------------------------+
+  | profile frame + waypoints -> wrist task IK (right arm 7)  |
+  |   -> left-arm mirror -> C2 full29 reference filter        |
+  |   -> SONIC v1.1 policy (encoder ONNX in repo)             |
+  |     observation = qpos/qvel/action/gravity/gyro           |
+  |   -> ctrl[0:29] torso+arm torques (legs + gravity comp)   |
+  +-----------------------------------------------------------+
+  +-- hand path (independent controller, not via SONIC) ------+
+  | MaterialHand22 geometry solve (against current cube pose) |
+  |   <-> GripForce26 grip-force loop (measured pad forces)   |
+  |   -> stable_hand PD                                       |
+  |   -> ctrl[36:43] right-hand 7 torques                     |
+  |   -> ctrl[29:36] left-hand 7 rest                         |
+  +-----------------------------------------------------------+
+            v merge
+  MuJoCo 3.2.7 (nu=43, free base, free 35 mm cube)
+    feedback: qpos/qvel -> SONIC observation; pad contact forces
+    -> grip loop; cube pose -> geometry solve
+            v
+  gate set v6 (22 gates) -> result.json (trial32: success=true, 22/22)
 ```
-Source: `rep/normal_runner32.py` (header: "All body targets from SONIC") and the runtime_stamp field
-`ardy_use`: "Raw ARDY token148 is decoded, not passed as SONIC token64".
+Source: `rep/normal_runner32.py` (header "All body targets from SONIC"; write sites
+`d.ctrl[:29]=ctrl.torques(...)`, `d.ctrl[36:43]=stable_hand_torques(...)`,
+`handgoal=force_control.update(d, measured_digit_forces)`; runtime_stamp `ardy_use`:
+"Raw ARDY token148 is decoded, not passed as SONIC token64").
 
 ### 1.2 ARDY whole-hand chain, 80 mm and the 360-cell batch
 
