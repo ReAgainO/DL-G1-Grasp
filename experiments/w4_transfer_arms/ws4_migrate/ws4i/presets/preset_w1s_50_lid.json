@@ -1,0 +1,27 @@
+{
+ "cube_pos": [
+  0.006317819479377162,
+  -0.3561872729902737,
+  0.7546061564716418
+ ],
+ "arm_q": [
+  0.3267760008630981,
+  -0.09757953525648047,
+  -1.3118806960191285,
+  0.07503682351824205,
+  -0.803330820957927,
+  0.3014434648651843,
+  0.46421043390571903
+ ],
+ "weld": true,
+ "freeze_hand": true,
+ "skip_to_close": true,
+ "settle_s": 0.05,
+ "weld_release": "LIFT",
+ "design_gaps_mm": [
+  -0.696,
+  -0.453,
+  -0.673
+ ],
+ "note": "W4i lid edge=50mm (W4h top-press family, corrected normal, settle_s=0.05): pads [-0.7, -0.45, -0.67] mm; n_z [-0.36, 0.0, 0.0]; palm 54.4; body right_wrist_pitch_link@77.7; tab 120.0"
+}

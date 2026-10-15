@@ -1,0 +1,69 @@
+[
+  {
+    "stage": "plan",
+    "rc": 0,
+    "wall_s": 162.45233058929443,
+    "command": [
+      "timeout",
+      "--kill-after=5",
+      "180",
+      "taskset",
+      "-c",
+      "84,85",
+      "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+      "-B",
+      "/data/group4/20261009-021611-codex-415484ce/batch_plan.py",
+      "--config",
+      "/data/group4/20261009-021611-codex-415484ce/pilots/PSIZE2.json"
+    ],
+    "pid": 2657179,
+    "log": "/data/group4/20261009-021611-codex-415484ce/logs/PSIZE2-plan.log",
+    "log_sha": "dbe8ae91864810745ba58c7a061a9d1c5044bfb779362f1d67a9b49b342fc459"
+  },
+  {
+    "stage": "physics",
+    "rc": 0,
+    "wall_s": 104.80157375335693,
+    "command": [
+      "timeout",
+      "--kill-after=5",
+      "600",
+      "taskset",
+      "-c",
+      "84,85",
+      "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+      "-B",
+      "/data/group4/20261009-021611-codex-415484ce/execute_batch.py",
+      "--plan",
+      "plan_PSIZE2",
+      "--name",
+      "PSIZE2",
+      "--native-mesh",
+      "--retract-raise",
+      "--wrist-servo"
+    ],
+    "pid": 2665558,
+    "log": "/data/group4/20261009-021611-codex-415484ce/logs/PSIZE2-physics.log",
+    "log_sha": "1358c6ab965c93856a760021aa194114a28a10647a013afd2aaba3fa3c40f7d8"
+  },
+  {
+    "stage": "render",
+    "rc": 0,
+    "wall_s": 184.26920342445374,
+    "command": [
+      "timeout",
+      "--kill-after=5",
+      "600",
+      "taskset",
+      "-c",
+      "84,85",
+      "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+      "-B",
+      "/data/group4/20261009-021611-codex-415484ce/render_batch.py",
+      "PSIZE2"
+    ],
+    "pid": 2673480,
+    "log": "/data/group4/20261009-021611-codex-415484ce/logs/PSIZE2-render.log",
+    "log_sha": "8d2dce8d53f0992b2821183cecc5f2dc4dd232aeab56a4c77373d9bcc262f29a"
+  }
+]

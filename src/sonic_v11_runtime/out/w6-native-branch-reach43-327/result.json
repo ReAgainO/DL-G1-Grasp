@@ -1,0 +1,245 @@
+{
+  "physical_steps": 0,
+  "source_episode": "w6_profile_reach43_free327",
+  "saved_time_s": 23.641999999997775,
+  "actual_wrist_z_m": 0.9161485184549302,
+  "source": {
+    "source_npz": "/data/group4/20261006-093203-codex-6385a841/out/generated_phases2/reach_s43.npz",
+    "source_npz_sha256": "62607734726d37cba47ef2b0c1c1fc53d0c2cc9200e6181a1b281376b01dc5b3",
+    "source_fps": 25.0,
+    "native_frames": 100,
+    "native_clip_duration_s": 4.0,
+    "last_sample_time_s": 3.96,
+    "expected50Hz_frames": 199,
+    "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+    "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+    "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+    "text": "A person reaches forward with their right hand to grab a small object on a table.",
+    "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+  },
+  "source_result_sha256": "d11a268b5e63e8a47fe3c7782f5f53b27f46dfe3f62bb644dc4350d2f173e216",
+  "branch": {
+    "kind": "Selected ARDY multistart static IK branch after actual wrist-height clearance",
+    "candidate_count": 7,
+    "selected": {
+      "seed_label": "selected_ardy_frame",
+      "source_frame": 0,
+      "body_q": [
+        -1.0384716538968706,
+        -0.6930648042337945,
+        0.8837849413338499,
+        -0.0940563773785888,
+        -0.31808779515116886,
+        0.03680564360284392,
+        1.5633052175780005
+      ],
+      "capture_error_m": 4.361131850182331e-11,
+      "pad_spread_m": 2.1727064591914313e-13,
+      "minimum_arm_limit_margin_rad": 0.05112478242199958,
+      "open_robot_table_clearance_m": 0.06979701608302169,
+      "finger_replan_error_m": 0.00014324062328929799,
+      "native_pose_deviation_rad": 2.5386466640209,
+      "static_feasible": true
+    },
+    "candidates": [
+      {
+        "seed_label": "current_executed_arm",
+        "source_frame": null,
+        "body_q": [
+          -1.387177692468409,
+          -0.8406106328183041,
+          1.1863751853381757,
+          0.16512286935487816,
+          0.9221896559216555,
+          1.61243,
+          0.46417331405433365
+        ],
+        "capture_error_m": 0.00010569313309368851,
+        "pad_spread_m": 3.2182227876376146e-05,
+        "minimum_arm_limit_margin_rad": 0.0020000000000000018,
+        "open_robot_table_clearance_m": 0.06979701608302169,
+        "finger_replan_error_m": 0.002149155026999111,
+        "native_pose_deviation_rad": 2.910428873906686,
+        "static_feasible": false
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 0,
+        "body_q": [
+          -1.0384716538968706,
+          -0.6930648042337945,
+          0.8837849413338499,
+          -0.0940563773785888,
+          -0.31808779515116886,
+          0.03680564360284392,
+          1.5633052175780005
+        ],
+        "capture_error_m": 4.361131850182331e-11,
+        "pad_spread_m": 2.1727064591914313e-13,
+        "minimum_arm_limit_margin_rad": 0.05112478242199958,
+        "open_robot_table_clearance_m": 0.06979701608302169,
+        "finger_replan_error_m": 0.00014324062328929799,
+        "native_pose_deviation_rad": 2.5386466640209,
+        "static_feasible": true
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 19,
+        "body_q": [
+          -1.0121762867534962,
+          -0.6744634252135234,
+          0.8437848412951079,
+          -0.0933332020681055,
+          -0.34169893017195635,
+          0.002308418633038694,
+          1.593105666471312
+        ],
+        "capture_error_m": 6.646785733398471e-13,
+        "pad_spread_m": 3.219646771412954e-15,
+        "minimum_arm_limit_margin_rad": 0.021324333528688122,
+        "open_robot_table_clearance_m": 0.06979701608302169,
+        "finger_replan_error_m": 0.00048232788972199514,
+        "native_pose_deviation_rad": 2.544760521064896,
+        "static_feasible": true
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 39,
+        "body_q": [
+          -1.0821386246979634,
+          -0.7729424372754435,
+          0.9674896491888919,
+          -0.12266440896550257,
+          -0.20438078321548805,
+          -0.27808629508804333,
+          1.4947187939838187
+        ],
+        "capture_error_m": 9.705076084807073e-12,
+        "pad_spread_m": 1.9854118349371674e-11,
+        "minimum_arm_limit_margin_rad": 0.11971120601618135,
+        "open_robot_table_clearance_m": 0.06979701608302169,
+        "finger_replan_error_m": 0.0034103503811972746,
+        "native_pose_deviation_rad": 2.481999358474506,
+        "static_feasible": false
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 59,
+        "body_q": [
+          -0.020809258869167704,
+          0.0664695099099895,
+          0.6371051690359688,
+          1.4217823572026589,
+          -1.2718122023946354,
+          -0.31495695107548155,
+          -1.61243
+        ],
+        "capture_error_m": 0.25465364664967943,
+        "pad_spread_m": 0.04699023909659472,
+        "minimum_arm_limit_margin_rad": 0.0020000000000000018,
+        "open_robot_table_clearance_m": 0.03596566588288419,
+        "finger_replan_error_m": 0.2808544599648779,
+        "native_pose_deviation_rad": 1.8325857610608638,
+        "static_feasible": false
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 79,
+        "body_q": [
+          -0.10850008645945027,
+          0.13763170416269024,
+          0.3147428875985261,
+          1.4355591622446966,
+          -1.483670461405382,
+          -0.1654068474067848,
+          -1.61243
+        ],
+        "capture_error_m": 0.2253064774210276,
+        "pad_spread_m": 0.04480969247029931,
+        "minimum_arm_limit_margin_rad": 0.0020000000000000018,
+        "open_robot_table_clearance_m": 0.001957264882690185,
+        "finger_replan_error_m": 0.25235285619073067,
+        "native_pose_deviation_rad": 1.9885603194743162,
+        "static_feasible": false
+      },
+      {
+        "seed_label": "selected_ardy_frame",
+        "source_frame": 99,
+        "body_q": [
+          -0.10689633684278885,
+          0.14811680318864698,
+          0.30476790009589105,
+          1.4345952029592972,
+          -1.4902095887735824,
+          -0.15244105525289275,
+          -1.61243
+        ],
+        "capture_error_m": 0.22559779970106336,
+        "pad_spread_m": 0.04476101864886761,
+        "minimum_arm_limit_margin_rad": 0.0020000000000000018,
+        "open_robot_table_clearance_m": 0.0022023941971028582,
+        "finger_replan_error_m": 0.25269480305819153,
+        "native_pose_deviation_rad": 1.9988163960263308,
+        "static_feasible": false
+      }
+    ],
+    "real_base_position_m": [
+      0.020868994744504547,
+      0.012449632808947893,
+      0.7619730903254982
+    ],
+    "real_base_quaternion_wxyz": [
+      0.9998659803875016,
+      0.0007183187236770427,
+      0.01263741113105506,
+      -0.01038273190720588
+    ],
+    "target_closed_pad_surface_m": [
+      0.267,
+      -0.118,
+      0.8744078785418263
+    ],
+    "physical_steps_in_search": 0,
+    "body_motor_target_override": false,
+    "object_state_writes": false,
+    "arm_reference_changed": true,
+    "static_feasible": true,
+    "dynamic_collision_free_certified": false,
+    "hand_contact_stability_validated": false,
+    "metric_definition": "Distance to one COMMON selected-source pose, not each branch own seed. Static thresholds capture1mm/spread2mm/arm margin20mrad/open-table10mm/hand-replan1.5mm; not success-gate relaxations."
+  },
+  "module_sha256": "3200af709404873baf07ff36042b13b8131555c5290af7bd9a410103126eac28",
+  "physical_grasp_established": false
+}

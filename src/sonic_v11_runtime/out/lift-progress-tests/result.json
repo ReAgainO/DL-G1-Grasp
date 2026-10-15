@@ -1,0 +1,51 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "dt": 0.002,
+    "model_sha": {
+      "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+      "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+    },
+    "scene_generator_sha": "caf28e72eaeeac996107f570723c438e85db72f4833882998d6b2a1238f7ff79",
+    "library_sha": {
+      "lift_progress": "e007b0aa5c0912736e050f2dc192061b9d24d469953a5650aabbe3b9fa52a687"
+    }
+  },
+  "physical_steps": 0,
+  "passed": true,
+  "checks": [
+    "finite_with_explicit_8001_sample_bound",
+    "zero_position_velocity_acceleration_at_start",
+    "one_position_zero_velocity_acceleration_at_end",
+    "monotone_progress",
+    "normalized_range",
+    "analytic_velocity_bound",
+    "analytic_acceleration_bound",
+    "derivative_consistency",
+    "C2_boundaries_numerically_continuous",
+    "native_distribution_changes_output",
+    "reject_decreasing",
+    "reject_not_normalized",
+    "reject_nan",
+    "reject_window_discards_source",
+    "reject_window_too_short",
+    "outside_clock_holds_C2_endpoints"
+  ],
+  "audit": {
+    "kind": "nonnegative ARDY progress increments -> common-support quintic CDF mixture",
+    "duration_s": 8.0,
+    "window_s": 4.0,
+    "positive_native_increments": 3,
+    "progress_velocity_bound_per_s": 0.46875,
+    "progress_acceleration_bound_per_s2": 0.36084391824351614,
+    "progress_jerk_bound_per_s3": 0.9375,
+    "C2": true,
+    "monotone": true,
+    "body_motor_override": false,
+    "limitation": "Scalar Cartesian progress only; IK/reference/decoded/actual-joint dynamics must be validated separately. Native timing is smoothed and compressed, not preserved literally."
+  },
+  "boundary_probe_max_difference": 8.15999989800531e-09,
+  "limitations": "Scalar mathematical tests only; no physical grasp or actual joint smoothness claim."
+}

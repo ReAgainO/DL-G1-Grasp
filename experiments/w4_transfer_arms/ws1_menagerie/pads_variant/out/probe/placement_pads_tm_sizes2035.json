@@ -1,0 +1,177 @@
+{
+ "O7": [
+  -1.0472,
+  0.724312,
+  -0.87266,
+  0.0,
+  0.0,
+  1.5708,
+  0.0
+ ],
+ "T7": [
+  0.4188799999999999,
+  -1.0472,
+  -1.74533,
+  1.5708,
+  1.74533,
+  1.5708,
+  1.74533
+ ],
+ "arm_vals": [
+  -0.8,
+  -0.3,
+  0.8,
+  1.2,
+  0.7854,
+  -0.6,
+  0.2
+ ],
+ "lam_extra": 0.06,
+ "pad_inset_frac": 0.7,
+ "pad_r": 0.005,
+ "procedure": "pads_variant_v2 pair=tm (pad-convergence seating, runner-rule lambda_g)",
+ "sizes": {
+  "25": {
+   "candidates": [
+    {
+     "P": [
+      0.410847,
+      -0.050695,
+      0.855953
+     ],
+     "accept": false,
+     "between_perp_m": 0.002146,
+     "between_ta_frac": 0.506,
+     "clr0": 0.02422,
+     "da_g": -0.00113,
+     "db_g": -0.0002,
+     "dc_g": 0.04398,
+     "desk_clr0": 0.04345,
+     "dthird_g": 0.04033,
+     "lam": 0.6333,
+     "lam0": 0.6333,
+     "lam_g": 0.65,
+     "lam_touch": 0.59,
+     "pair": "tm",
+     "squeeze_g": 0.00134
+    },
+    {
+     "P": [
+      0.409035,
+      -0.059064,
+      0.854131
+     ],
+     "accept": false,
+     "between_perp_m": 0.000464,
+     "between_ta_frac": 0.5011,
+     "clr0": 0.03062,
+     "da_g": 0.00014,
+     "db_g": 0.00038,
+     "dc_g": 0.04914,
+     "desk_clr0": 0.04163,
+     "dthird_g": 0.04079,
+     "lam": 0.6968,
+     "lam0": 0.6968,
+     "lam_g": 0.7,
+     "lam_touch": 0.64,
+     "pair": "tm",
+     "squeeze_g": -0.00051
+    }
+   ],
+   "chosen": {
+    "P": [
+     0.410847,
+     -0.050695,
+     0.855953
+    ],
+    "accept": false,
+    "between_perp_m": 0.002146,
+    "between_ta_frac": 0.506,
+    "clr0": 0.02422,
+    "da_g": -0.00113,
+    "db_g": -0.0002,
+    "dc_g": 0.04398,
+    "desk_clr0": 0.04345,
+    "dthird_g": 0.04033,
+    "lam": 0.6333,
+    "lam0": 0.6333,
+    "lam_g": 0.65,
+    "lam_touch": 0.59,
+    "pair": "tm",
+    "squeeze_g": 0.00134
+   },
+   "n_candidates": 2
+  },
+  "35": {
+   "candidates": [
+    {
+     "P": [
+      0.415101,
+      -0.036569,
+      0.859176
+     ],
+     "accept": true,
+     "between_perp_m": 0.004054,
+     "between_ta_frac": 0.5218,
+     "clr0": 0.01168,
+     "da_g": -0.0026,
+     "db_g": -0.00097,
+     "dc_g": 0.04732,
+     "desk_clr0": 0.04168,
+     "dthird_g": 0.03234,
+     "lam": 0.4687,
+     "lam0": 0.4687,
+     "lam_g": 0.53,
+     "lam_touch": 0.47000000000000003,
+     "pair": "tm",
+     "squeeze_g": 0.00357
+    },
+    {
+     "P": [
+      0.407512,
+      -0.066887,
+      0.852603
+     ],
+     "accept": false,
+     "between_perp_m": 0.013216,
+     "between_ta_frac": 0.4565,
+     "clr0": 0.03017,
+     "da_g": -0.00348,
+     "db_g": -0.00047,
+     "dc_g": 0.04486,
+     "desk_clr0": 0.0351,
+     "dthird_g": 0.03333,
+     "lam": 0.7493,
+     "lam0": 0.7493,
+     "lam_g": 0.66,
+     "lam_touch": 0.6,
+     "pair": "tm",
+     "squeeze_g": 0.00395
+    }
+   ],
+   "chosen": {
+    "P": [
+     0.415101,
+     -0.036569,
+     0.859176
+    ],
+    "accept": true,
+    "between_perp_m": 0.004054,
+    "between_ta_frac": 0.5218,
+    "clr0": 0.01168,
+    "da_g": -0.0026,
+    "db_g": -0.00097,
+    "dc_g": 0.04732,
+    "desk_clr0": 0.04168,
+    "dthird_g": 0.03234,
+    "lam": 0.4687,
+    "lam0": 0.4687,
+    "lam_g": 0.53,
+    "lam_touch": 0.47000000000000003,
+    "pair": "tm",
+    "squeeze_g": 0.00357
+   },
+   "n_candidates": 2
+  }
+ }
+}

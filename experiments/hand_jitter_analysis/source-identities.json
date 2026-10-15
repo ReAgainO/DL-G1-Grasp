@@ -1,0 +1,27 @@
+{
+  "wholehand_side.py": {
+    "source": "/data/group4/20261009-021611-codex-415484ce/wholehand_side.py",
+    "copy": "/data/group4/20261009-170228-codex-fcd727b9/wholehand_side.py",
+    "sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40"
+  },
+  "execute_batch.py": {
+    "source": "/data/group4/20261009-021611-codex-415484ce/execute_batch.py",
+    "copy": "/data/group4/20261009-170228-codex-fcd727b9/execute_baseline.py",
+    "sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf"
+  },
+  "batch_plan.py": {
+    "source": "/data/group4/20261009-021611-codex-415484ce/batch_plan.py",
+    "copy": "/data/group4/20261009-170228-codex-fcd727b9/batch_plan.py",
+    "sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f"
+  },
+  "render_batch.py": {
+    "source": "/data/group4/20261009-021611-codex-415484ce/render_batch.py",
+    "copy": "/data/group4/20261009-170228-codex-fcd727b9/render_batch.py",
+    "sha": "4578a0e3d4f6cdadf67e831fb4b2eb48489299af934a0bc6b7b66563a6aebbc9"
+  },
+  "sonic_module": {
+    "source": "/data/group4/20261009-021611-codex-415484ce/lib/sonic_v11.py",
+    "copy": "/data/group4/20261009-170228-codex-fcd727b9/lib/sonic_v11.py",
+    "sha": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+  }
+}

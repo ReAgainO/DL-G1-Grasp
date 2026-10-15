@@ -1,1 +1,188 @@
-# DL-G1-Grasp
+# DL-G1-Grasp — humanoid whole-hand grasping in MuJoCo: experiments, data and how to reproduce the checks
+
+Arm priors from motion generation (KIMODO / ARDY) are closed in simulation by the SONIC v1.1 policy
+with **every finger inside the physics**: a Unitree G1 with a 3-finger hand lifts free cubes of 35 mm
+and 80 mm off a table, and each attempt is recorded against an explicit gate set.
+This repo is a mirror of those runs on a shared research node - code, configs, MJCF, inputs, and
+machine-readable results - with **model weights and vendor SDKs deliberately left out**.
+
+Status: snapshot, not under active development. Two views of the same material exist:
+
+| Repo | What it is for |
+|---|---|
+| **DL-G1-Grasp** (this one) | readable layout, English docs, everything hash-verified |
+| `DL-G1` | the byte-for-byte mirror: top-level directories keep their source task-card names and internal paths, so artefacts still agree with the paths written inside `result.json` |
+
+`docs/RUN_MAP.md` maps one to the other.
+
+---
+
+## 1. What is being measured
+
+```
+ text prompt
+     │
+     ▼
+ ┌───────────────────────┐   36-column root+joint trajectory (CSV / NPZ)
+ │ motion generation      │   (KIMODO or ARDY, arm prior only - no finger channels)
+ └───────────────────────┘
+     │  FK + joint-limit projection  ->  *_bounded.csv
+     ▼
+ ┌───────────────────────┐
+ │ SONIC v1.1 encoder     │  ONNX, IN this repo (50,117,796 B)
+ │ + policy network       │  observation config: 57 qpos / 55 nv / 43 nu
+ └───────────────────────┘
+     │  body torques                ▲                │
+     ▼                              │                ▼
+ ┌───────────────────────────────────────────────────────────┐
+ │ MuJoCo 3.2.7, 500 Hz, free-base robot, cube = free body    │
+ │   fingers: geometric pinch / IK -> independent PD torque    │
+ │   table top 0.757 m, no pedestal, cube 35 mm or 80 mm       │
+ └───────────────────────────────────────────────────────────┘
+     │  per-step contacts, pad forces, COM/COP, drift
+     ▼
+ ┌───────────────────────┐     ┌──────────────────────────────┐
+ │ gate set (20 / 22 /    │ ──▶ │ result.json: success + gates │
+ │ wholehand-v2)          │     │ + max/hold lift, slip, forces│
+ └───────────────────────┘     └──────────────────────────────┘
+```
+
+A grasp counts as successful only if the cube is held by **friction on the finger pads** while the base
+is free and there is no pedestal - earlier weld-based rigs were shown to lift the cube by equality
+constraint without touching it, and those numbers are kept here only as history.
+
+## 2. Repository layout
+
+```
+.
+├── README.md                     you are here
+├── requirements.txt              versions recovered from artefact fields (not a lock file)
+├── EXPORT-MANIFEST.tsv           authoritative per-file list: path, bytes, mtime, sha256, class
+├── ASSETS-MANIFEST.tsv           every artefact that a run recorded by sha256 but that is NOT here
+├── docs/
+│   ├── REPRODUCTION.md           three reproduction tiers, entry points, command -> expected field
+│   ├── EXPERIMENTS.md            one row per run directory, with the measurement rule
+│   ├── RUN_MAP.md                new path  <->  source task-card path
+│   ├── TROUBLESHOOTING.md        symptoms and minimal fixes
+│   ├── EXCLUSIONS.md             what is left out and why
+│   ├── ATTRIBUTION.md            who ran each experiment (read from the node's own claim cards)
+│   └── THIRD_PARTY.md            upstream repositories, pinned commits, licences
+├── src/
+│   └── sonic_v11_runtime/        shared code imported by three runs (encoder wrapper, motion input,
+│                                 Unitree G1 MJCF + ARDY runtime source, observation config, encoder ONNX)
+├── experiments/
+│   ├── cube35_wholehand_trial32/        35 mm, 22-gate pass
+│   ├── cube80_sideways_wholehand/       80 mm sideways approach, 2.5 s hold
+│   ├── batch_wholehand_360/             300 main + 60 ablation cells
+│   ├── w4_transfer_arms/                nine transfer-arm variants (palm support, PD, substep, 80 mm)
+│   ├── kimodo_closed_loop_best/         KIMODO prior through the official grasp harness (20/20 gates)
+│   ├── kimodo_generation_matrix/        17-cell generation matrix, protocol only
+│   ├── kimodo_input_gate/               evaluator + input gate that rejected those 17 cells
+│   ├── kimodo_three_finger_envelope/    three-finger envelope, kinematic drive with real contact
+│   ├── tripod_50mm_negative/            50 mm tripod: 0/25 negative
+│   ├── tripod_iter01_91/                iteration log of the tripod line, single pass at iter91
+│   ├── hand_jitter_analysis/            finger-jitter diagnostics
+│   └── replay_videos_non_physical/      renders with mj_step = 0 (visualisation, not a rerun)
+├── refs/
+│   ├── cross_run/                         files from 7 other runs, pulled in only because an
+│   │                                      artefact here records their sha256
+│   └── from_shared_tree/                  8 files that existed only in the node's shared tree
+└── tools/
+    ├── verify_repo.py            one-command self-check (see §3)
+    ├── build_export_manifest.py  regenerate EXPORT-MANIFEST.tsv
+    ├── make_links.sh             recreate the lib/ symlinks git cannot carry
+    ├── fetch_assets.sh           how to obtain the missing artefacts + mandatory sha check
+    └── mesh_source_comparison.tsv measured comparison against the public mesh mirror
+```
+
+Inside an `experiments/<name>/` directory the layout is deliberately unchanged from the source
+(`rep/`, `out/<cell>/result.json`, `raw/`, `configs/`, `lib/`) so that the paths quoted inside reports
+and `runtime_stamp` fields can still be resolved by hand.
+
+## 3. Reproduce it - three tiers, start with the first one
+
+### Tier 1 - verify every recorded result (needs only Python 3.8+)
+
+```bash
+git clone <this repo> && cd DL-G1-Grasp
+python tools/verify_repo.py
+```
+
+Expected last line `VERDICT=PASS`, plus, among others:
+
+```
+[manifest] PASS missing=0 sizediffer=0 shadiffer=0 (sha checked 400/11021 rows, mode=sample)
+[headline] PASS all 14 assertions match
+[batch]    planned=360 present=353 absent=['A000','B000','B051','C000','D000','NGF000','NWS000']
+[batch]    PASS sha(manifest.json) == summary.manifest_sha256
+[deps]     PASS every recorded-but-absent artefact has a row in ASSETS-MANIFEST.tsv
+```
+
+Add `--full` to hash all 11,021 files (~500 MB of reads).
+
+### Tier 2 - recompute the aggregates
+
+```bash
+python3.10 -m venv .venv && . .venv/bin/activate
+pip install -r requirements.txt
+python -c "import mujoco,numpy,onnxruntime;print(mujoco.__version__,numpy.__version__,onnxruntime.__version__)"
+# expected: 3.2.7 1.26.4 1.23.2
+
+bash tools/make_links.sh                 # three runs import the shared runtime via <run>/lib
+python experiments/batch_wholehand_360/summarize_batch.py
+```
+
+The recomputed group counts will be **288/300 and 23/60** where the recorded summary says 292 and 25.
+That difference is exactly the seven cells whose `result.json` no longer exists anywhere; there is no
+other disagreement, and all 353 shared rows hash-match. The pool of 360 configurations can be
+regenerated bit-for-bit with `make_trials.py` plus seeds `20261009` / `20261010` and numpy 1.26.4.
+
+### Tier 3 - rerun the physics (this does **not** work from a clone alone)
+
+Three classes of artefacts are required and not shipped, each registered in `ASSETS-MANIFEST.tsv`:
+
+| Missing | Size | Why not here |
+|---|---|---|
+| `model_decoder.onnx` | 149,778,638 B | weight, and above GitHub's 100 MiB hard limit; upstream `nvidia/GEAR-SONIC` |
+| Unitree G1 meshes (60 STL) | 33,319,908 B | upstream model assets; the public mirror reproduces only 29 of the 50 recorded hashes |
+| per-cell `trajectory.npz`, `dense_trace.npz`, replay mp4 | ~14 MB each, GB in total | size and raw-evidence policy |
+
+On top of that, MJCF files reference the meshes by absolute source-node paths, and the batch scheduler
+asserts node conditions (rules-file hash, CPU pins 80-95, >30 GiB free, OSMesa library path).
+So a genuine rerun means restoring the original layout and paths - `tools/fetch_assets.sh` and
+`docs/REPRODUCTION.md` §6 give the exact route. **The honest claim of this repo is: the conclusions and
+the data can be verified here; the physics cannot be re-executed here.**
+
+## 4. Results worth quoting, with their source
+
+| Result | Where it comes from |
+|---|---|
+| 35 mm, all fingers in physics, held 84.483 mm above the lift-off point with 0.52 mm slip, 22/22 gates | `experiments/cube35_wholehand_trial32/rep/out/normal_trial32/result.json` → `hold_min_lift_m`, `hold_slip_m`, `gates`, `success` |
+| 80 mm sideways, lifted 108.574 mm and held for 2.5 s | `experiments/cube80_sideways_wholehand/out/side80_native3/result.json` → `max_lift_m`, `hold_steps` |
+| 360-cell batch: 292/300 main, 25/60 ablation (recorded); 353 cells verifiable here | `experiments/batch_wholehand_360/summary.json` → `main_300_total.counts`, `ablation_60_total.counts` |
+| Nine transfer arms: 21 of 105 cells all-green under 20 gates | recomputed by `tools/verify_repo.py` over `experiments/w4_transfer_arms/ws4_migrate/rep_ext_*/` |
+| KIMODO arm prior: one cell 20/20 gates, `max_lift_m = 0.1439862432245319`, 3/6 segments | `experiments/kimodo_closed_loop_best/harness_nat2/raw/wb_kimo_p6l1.result.json` |
+| KIMODO 17-cell generation matrix: 0 cells entered the closed loop, all rejected at the input gate | `experiments/kimodo_input_gate/table_x04.csv`, `master_table_x05.csv` |
+
+Each gate count is a different standard (20, 21, 22 and the 12/13/16/17 `wholehand-v2` groups coexist),
+and MuJoCo 3.2.7 and 3.14.0 both appear - so these numbers are not one leaderboard. See
+`docs/EXPERIMENTS.md` for the reading rules.
+
+## 5. Deliberately not in this repo
+
+Weights, vendor SDKs, virtual environments, upstream third-party sources and raw per-run evidence.
+They are registered with sha256 and location in `ASSETS-MANIFEST.tsv` / `docs/EXCLUSIONS.md`, never
+carried here. The 635 MB jitter bundle is distributed as a GitHub Release asset; a deploy key cannot
+download release assets, so that route needs a token with `Contents: read`.
+
+## 6. Licence and attribution
+
+Source licence is **not yet decided** by the group; until then this repository grants no licence
+("all rights reserved"). Upstream components are recorded with pinned commits only, in
+`docs/THIRD_PARTY.md` - including whether they may be redistributed with a reproduction package,
+which is an open group decision. Experiment ownership is copied verbatim from the node's own claim
+cards, with no inference or merging, in `docs/ATTRIBUTION.md`.
+
+## 7. Questions
+
+Open an issue and paste the output of `python tools/verify_repo.py --full`.

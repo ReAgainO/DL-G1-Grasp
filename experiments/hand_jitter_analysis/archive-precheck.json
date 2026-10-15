@@ -1,0 +1,131 @@
+{
+  "time": "2026-10-09T17:50:59.084555+08:00",
+  "summary_sha": "f0106394e33b5c65059618b6e4d653d5cdf5bb0b224cf40f0036edde8463e760",
+  "report_sha": "6427957f0a4c4609c4deeb52a995d3743d7a8aa4ea3724a3b26c842b302561ba",
+  "rules_sha": "9e2c073c2ad7b602c4f378b2d8c7a653560375832c9825e5dc005ea65db9ca36",
+  "initial_commit": "6e25b6bd493e6f444cd2f64368e8b6f37c5c204a",
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "A_base": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "A_lpf60": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "A_damp3": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "A_servo03": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "A_combo3": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "A_combo4": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "A_combo3slow": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "A_servo01": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "B_base": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+      },
+      "C_base": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+      },
+      "D_base": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+      },
+      "B_combo3": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+      },
+      "C_combo3": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+      },
+      "D_combo3": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+      },
+      "A_early_combo3": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "A_early_damp3": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "B080_base": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "1c97b072cfed7a38d8f168a94e9f2d06ebcb0b620ba97678fe91ba18268fa8d5"
+      },
+      "B080_combo3": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "1c97b072cfed7a38d8f168a94e9f2d06ebcb0b620ba97678fe91ba18268fa8d5"
+      },
+      "C020_base": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "6d5b08b8bd007a188707a4cfdb4a2927ece4065cace912186d615d19aaba1920"
+      },
+      "C020_combo3": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "6d5b08b8bd007a188707a4cfdb4a2927ece4065cace912186d615d19aaba1920"
+      },
+      "D020_base": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "6d5b08b8bd007a188707a4cfdb4a2927ece4065cace912186d615d19aaba1920"
+      },
+      "D020_combo3": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "6d5b08b8bd007a188707a4cfdb4a2927ece4065cace912186d615d19aaba1920"
+      },
+      "B051_base": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "68b8eeaa0e50ffa418d60d42bb73117f85caa459945e40e7dbbcee8310c242b0"
+      },
+      "B051_combo3": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "68b8eeaa0e50ffa418d60d42bb73117f85caa459945e40e7dbbcee8310c242b0"
+      },
+      "A_pose06": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "D_pose06": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "97072850c6f73a91784353ef2d372000d644d71794a431d1a1e8d198a404ae0b"
+      },
+      "B080_pose06": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "1c97b072cfed7a38d8f168a94e9f2d06ebcb0b620ba97678fe91ba18268fa8d5"
+      },
+      "D020_pose06": {
+        "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+        "scene": "6d5b08b8bd007a188707a4cfdb4a2927ece4065cace912186d615d19aaba1920"
+      }
+    },
+    "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+    "library_sha": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+    "dt": 0.001,
+    "metric_sample_dt_s": 0.005,
+    "analysis_source_sha": "5e537a186f4db7db850af429b7f3610343322478e8485756712d7e974d6b0f61"
+  }
+}

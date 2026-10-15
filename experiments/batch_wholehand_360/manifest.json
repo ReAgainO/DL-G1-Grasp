@@ -1,0 +1,6904 @@
+{
+  "version": "batch-v1",
+  "random_generator": "numpy.default_rng PCG64",
+  "numpy_version": "1.26.4",
+  "main_count": 300,
+  "ablation_count": 60,
+  "trials": [
+    {
+      "id": "A000",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A001",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A002",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A003",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A004",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A005",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A006",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A007",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A008",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A009",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A010",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A011",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A012",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A013",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A014",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A015",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A016",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A017",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A018",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A019",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A020",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A021",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A022",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A023",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A024",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A025",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A026",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A027",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A028",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A029",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A030",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A031",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A032",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A033",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A034",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A035",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A036",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A037",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A038",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A039",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A040",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A041",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A042",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A043",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A044",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A045",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A046",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A047",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A048",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A049",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A050",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A051",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A052",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A053",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A054",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A055",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A056",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A057",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A058",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A059",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A060",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A061",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A062",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A063",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A064",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A065",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A066",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A067",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A068",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A069",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A070",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A071",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A072",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A073",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A074",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A075",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A076",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A077",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A078",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A079",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A080",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A081",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A082",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A083",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A084",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A085",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A086",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A087",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A088",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A089",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A090",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A091",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A092",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A093",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A094",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A095",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A096",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A097",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A098",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "A099",
+      "group": "A",
+      "xy_m": [
+        0.35,
+        -0.18
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": null,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B000",
+      "group": "B",
+      "xy_m": [
+        0.3489161074873625,
+        -0.18343058982588248
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B001",
+      "group": "B",
+      "xy_m": [
+        0.35469443380750915,
+        -0.19163096528939993
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B002",
+      "group": "B",
+      "xy_m": [
+        0.36808730582892113,
+        -0.18374258435686217
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B003",
+      "group": "B",
+      "xy_m": [
+        0.3673246551984485,
+        -0.18584788909304845
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B004",
+      "group": "B",
+      "xy_m": [
+        0.33638806376204466,
+        -0.16169046296950995
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B005",
+      "group": "B",
+      "xy_m": [
+        0.35789952381363244,
+        -0.16275724463556152
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B006",
+      "group": "B",
+      "xy_m": [
+        0.3574628209684465,
+        -0.1770265025821287
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B007",
+      "group": "B",
+      "xy_m": [
+        0.34334521544979096,
+        -0.17797333134168455
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B008",
+      "group": "B",
+      "xy_m": [
+        0.36380326600575236,
+        -0.19194422086741666
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B009",
+      "group": "B",
+      "xy_m": [
+        0.35421023776255256,
+        -0.1868428158567358
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B010",
+      "group": "B",
+      "xy_m": [
+        0.3576411573558478,
+        -0.16077383908032017
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B011",
+      "group": "B",
+      "xy_m": [
+        0.3682512442121498,
+        -0.19631018865826383
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B012",
+      "group": "B",
+      "xy_m": [
+        0.3454508803771097,
+        -0.1934835929464022
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B013",
+      "group": "B",
+      "xy_m": [
+        0.3434368421415783,
+        -0.1604789823164165
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B014",
+      "group": "B",
+      "xy_m": [
+        0.3597700530016395,
+        -0.1842330165405645
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B015",
+      "group": "B",
+      "xy_m": [
+        0.3634753433996356,
+        -0.19457375705905602
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B016",
+      "group": "B",
+      "xy_m": [
+        0.355256850241762,
+        -0.18240717384883523
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B017",
+      "group": "B",
+      "xy_m": [
+        0.33032151218986344,
+        -0.16430510155150907
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B018",
+      "group": "B",
+      "xy_m": [
+        0.34738544304544894,
+        -0.18466325200533093
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B019",
+      "group": "B",
+      "xy_m": [
+        0.35141460759172827,
+        -0.18806859138244708
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B020",
+      "group": "B",
+      "xy_m": [
+        0.3527805187291064,
+        -0.1647756784069353
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B021",
+      "group": "B",
+      "xy_m": [
+        0.3429075990814646,
+        -0.17760767433173322
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B022",
+      "group": "B",
+      "xy_m": [
+        0.355778737718135,
+        -0.19708319158850457
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B023",
+      "group": "B",
+      "xy_m": [
+        0.3665416711031645,
+        -0.1697429947324085
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B024",
+      "group": "B",
+      "xy_m": [
+        0.33051544698905727,
+        -0.1957670773612569
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B025",
+      "group": "B",
+      "xy_m": [
+        0.333037175591048,
+        -0.18764161416587877
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B026",
+      "group": "B",
+      "xy_m": [
+        0.34299027662837767,
+        -0.16861306149980143
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B027",
+      "group": "B",
+      "xy_m": [
+        0.3365267193491592,
+        -0.16863894524388812
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B028",
+      "group": "B",
+      "xy_m": [
+        0.35193253607105424,
+        -0.17766817802549165
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B029",
+      "group": "B",
+      "xy_m": [
+        0.3389224989061159,
+        -0.16220208947474804
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B030",
+      "group": "B",
+      "xy_m": [
+        0.3597067597210408,
+        -0.17998968187090028
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B031",
+      "group": "B",
+      "xy_m": [
+        0.3504277497453716,
+        -0.17088705235005272
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B032",
+      "group": "B",
+      "xy_m": [
+        0.3502407697964843,
+        -0.17864230262101732
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B033",
+      "group": "B",
+      "xy_m": [
+        0.36927174329571716,
+        -0.19772878204025165
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B034",
+      "group": "B",
+      "xy_m": [
+        0.33308281810375384,
+        -0.17776021744431084
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B035",
+      "group": "B",
+      "xy_m": [
+        0.363033054571095,
+        -0.167429886752759
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B036",
+      "group": "B",
+      "xy_m": [
+        0.34090231402574006,
+        -0.17626784036086318
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B037",
+      "group": "B",
+      "xy_m": [
+        0.3668173328677123,
+        -0.17015650256580725
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B038",
+      "group": "B",
+      "xy_m": [
+        0.3544702230233684,
+        -0.1714390103505144
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B039",
+      "group": "B",
+      "xy_m": [
+        0.36353824897078,
+        -0.1951845653944648
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B040",
+      "group": "B",
+      "xy_m": [
+        0.36494182281298004,
+        -0.16374402823655868
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B041",
+      "group": "B",
+      "xy_m": [
+        0.36368720066379273,
+        -0.18635769364583188
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B042",
+      "group": "B",
+      "xy_m": [
+        0.35419616370657886,
+        -0.19584360029743914
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B043",
+      "group": "B",
+      "xy_m": [
+        0.3469451538888928,
+        -0.17469853424772927
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B044",
+      "group": "B",
+      "xy_m": [
+        0.3469513710687259,
+        -0.1695761163796367
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B045",
+      "group": "B",
+      "xy_m": [
+        0.3600059377427731,
+        -0.19027315106126963
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B046",
+      "group": "B",
+      "xy_m": [
+        0.3501760207641345,
+        -0.1949714434776613
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B047",
+      "group": "B",
+      "xy_m": [
+        0.3603468326720351,
+        -0.17166907097509934
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B048",
+      "group": "B",
+      "xy_m": [
+        0.34105713047868563,
+        -0.1653922675163128
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B049",
+      "group": "B",
+      "xy_m": [
+        0.3303519425058959,
+        -0.1726323571499769
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B050",
+      "group": "B",
+      "xy_m": [
+        0.33030698061672886,
+        -0.1969161506342555
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B051",
+      "group": "B",
+      "xy_m": [
+        0.3315456050949919,
+        -0.18826524746236642
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B052",
+      "group": "B",
+      "xy_m": [
+        0.3595438504474724,
+        -0.19727237237916742
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B053",
+      "group": "B",
+      "xy_m": [
+        0.3663959136849283,
+        -0.1611327417596195
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B054",
+      "group": "B",
+      "xy_m": [
+        0.3556867744509759,
+        -0.18808163135887218
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B055",
+      "group": "B",
+      "xy_m": [
+        0.3686056922293245,
+        -0.1665198268057324
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B056",
+      "group": "B",
+      "xy_m": [
+        0.3337191511317794,
+        -0.1850508649771739
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B057",
+      "group": "B",
+      "xy_m": [
+        0.36161710959474885,
+        -0.16312290874532137
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B058",
+      "group": "B",
+      "xy_m": [
+        0.3615271111257983,
+        -0.17675182996223834
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B059",
+      "group": "B",
+      "xy_m": [
+        0.3413361807257633,
+        -0.16506908128159203
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B060",
+      "group": "B",
+      "xy_m": [
+        0.35858150101351494,
+        -0.19261856065050403
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B061",
+      "group": "B",
+      "xy_m": [
+        0.3685188025222639,
+        -0.18434813646071693
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B062",
+      "group": "B",
+      "xy_m": [
+        0.3547748190495322,
+        -0.1764632966453082
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B063",
+      "group": "B",
+      "xy_m": [
+        0.35402483771703547,
+        -0.16842246394177524
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B064",
+      "group": "B",
+      "xy_m": [
+        0.3419684027528018,
+        -0.19664537159418458
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B065",
+      "group": "B",
+      "xy_m": [
+        0.3660303650170321,
+        -0.16008542791651095
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B066",
+      "group": "B",
+      "xy_m": [
+        0.346082580451273,
+        -0.18750550058478208
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B067",
+      "group": "B",
+      "xy_m": [
+        0.34981915672665664,
+        -0.16143579554493737
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B068",
+      "group": "B",
+      "xy_m": [
+        0.3484286094533401,
+        -0.19655131222164934
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B069",
+      "group": "B",
+      "xy_m": [
+        0.35907475557858737,
+        -0.19250438638418998
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B070",
+      "group": "B",
+      "xy_m": [
+        0.3601148804148733,
+        -0.18117896491360513
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B071",
+      "group": "B",
+      "xy_m": [
+        0.3321578475632988,
+        -0.1807850277535407
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B072",
+      "group": "B",
+      "xy_m": [
+        0.3382312623670994,
+        -0.1980943656226372
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B073",
+      "group": "B",
+      "xy_m": [
+        0.350538567512015,
+        -0.16774609226794182
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B074",
+      "group": "B",
+      "xy_m": [
+        0.3519021422437838,
+        -0.18949429463599937
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B075",
+      "group": "B",
+      "xy_m": [
+        0.36454897982656476,
+        -0.19739024228632154
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B076",
+      "group": "B",
+      "xy_m": [
+        0.33237489704683965,
+        -0.17801447532566234
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B077",
+      "group": "B",
+      "xy_m": [
+        0.3688550562712895,
+        -0.19934269658032994
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B078",
+      "group": "B",
+      "xy_m": [
+        0.34211997788483384,
+        -0.1990600088644217
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B079",
+      "group": "B",
+      "xy_m": [
+        0.35474445171057023,
+        -0.17522241078141793
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B080",
+      "group": "B",
+      "xy_m": [
+        0.3495053036985267,
+        -0.16740740218714617
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B081",
+      "group": "B",
+      "xy_m": [
+        0.3605561351971845,
+        -0.18335045938899247
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B082",
+      "group": "B",
+      "xy_m": [
+        0.3479561617625783,
+        -0.18760645480222574
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B083",
+      "group": "B",
+      "xy_m": [
+        0.3553654902014335,
+        -0.16752888817290876
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B084",
+      "group": "B",
+      "xy_m": [
+        0.3545430089734234,
+        -0.18416516167756886
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B085",
+      "group": "B",
+      "xy_m": [
+        0.3382707198541454,
+        -0.1622337725146325
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B086",
+      "group": "B",
+      "xy_m": [
+        0.33528846288129155,
+        -0.1897595186443499
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B087",
+      "group": "B",
+      "xy_m": [
+        0.3332951014998212,
+        -0.17441913134585077
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B088",
+      "group": "B",
+      "xy_m": [
+        0.3614706412380659,
+        -0.1887327114436029
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B089",
+      "group": "B",
+      "xy_m": [
+        0.34906993930192,
+        -0.18429943588737757
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B090",
+      "group": "B",
+      "xy_m": [
+        0.35954876545997355,
+        -0.17495053696484325
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B091",
+      "group": "B",
+      "xy_m": [
+        0.3614197262132811,
+        -0.1666573761011765
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B092",
+      "group": "B",
+      "xy_m": [
+        0.3461158463821111,
+        -0.1766321811373838
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B093",
+      "group": "B",
+      "xy_m": [
+        0.36251359340006073,
+        -0.1934985437003792
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B094",
+      "group": "B",
+      "xy_m": [
+        0.3584237812932561,
+        -0.17051160028010193
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B095",
+      "group": "B",
+      "xy_m": [
+        0.3368343397625349,
+        -0.1991031748152249
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B096",
+      "group": "B",
+      "xy_m": [
+        0.3565228207165245,
+        -0.17413500613921468
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B097",
+      "group": "B",
+      "xy_m": [
+        0.33112693009064653,
+        -0.16670577653694924
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B098",
+      "group": "B",
+      "xy_m": [
+        0.35781798089855005,
+        -0.19344801310398427
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "B099",
+      "group": "B",
+      "xy_m": [
+        0.36119348259350537,
+        -0.19679774417567644
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C000",
+      "group": "C",
+      "xy_m": [
+        0.36488750663785724,
+        -0.19876929472862925
+      ],
+      "edge_m": 0.0705921328445634,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C001",
+      "group": "C",
+      "xy_m": [
+        0.3416534603805021,
+        -0.17049230968265158
+      ],
+      "edge_m": 0.07206522333291396,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C002",
+      "group": "C",
+      "xy_m": [
+        0.3440768995180327,
+        -0.18982302146761781
+      ],
+      "edge_m": 0.07678065256311255,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C003",
+      "group": "C",
+      "xy_m": [
+        0.34821703836770823,
+        -0.18567266982003972
+      ],
+      "edge_m": 0.07813291440395496,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C004",
+      "group": "C",
+      "xy_m": [
+        0.33044755979570617,
+        -0.1772322073922839
+      ],
+      "edge_m": 0.0833624636820923,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C005",
+      "group": "C",
+      "xy_m": [
+        0.3555996922758301,
+        -0.19361876687689214
+      ],
+      "edge_m": 0.07722203663734209,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C006",
+      "group": "C",
+      "xy_m": [
+        0.369797222530365,
+        -0.19502342754535937
+      ],
+      "edge_m": 0.08851139699026428,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C007",
+      "group": "C",
+      "xy_m": [
+        0.34103310441490975,
+        -0.1835782943606824
+      ],
+      "edge_m": 0.08937395911811179,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C008",
+      "group": "C",
+      "xy_m": [
+        0.35564324295161065,
+        -0.1607565818855312
+      ],
+      "edge_m": 0.08167740659572789,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C009",
+      "group": "C",
+      "xy_m": [
+        0.33389989594753355,
+        -0.18359498989517797
+      ],
+      "edge_m": 0.08615500575261625,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C010",
+      "group": "C",
+      "xy_m": [
+        0.36039942120263535,
+        -0.18428694771937498
+      ],
+      "edge_m": 0.07890644471654559,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C011",
+      "group": "C",
+      "xy_m": [
+        0.36783818045856786,
+        -0.18063117555460434
+      ],
+      "edge_m": 0.08953146456288821,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C012",
+      "group": "C",
+      "xy_m": [
+        0.3579358372845365,
+        -0.1900398188535945
+      ],
+      "edge_m": 0.07524138608067014,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C013",
+      "group": "C",
+      "xy_m": [
+        0.36850810013855717,
+        -0.1635140203914635
+      ],
+      "edge_m": 0.07442537428099513,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C014",
+      "group": "C",
+      "xy_m": [
+        0.35516323762404023,
+        -0.17312064535225677
+      ],
+      "edge_m": 0.0796870742560541,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C015",
+      "group": "C",
+      "xy_m": [
+        0.3507919048984692,
+        -0.16318962993708708
+      ],
+      "edge_m": 0.08646259446746145,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C016",
+      "group": "C",
+      "xy_m": [
+        0.35901135288641917,
+        -0.1961206585590241
+      ],
+      "edge_m": 0.07921486457807368,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C017",
+      "group": "C",
+      "xy_m": [
+        0.3500005242012241,
+        -0.19992765763406015
+      ],
+      "edge_m": 0.08068793626219135,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C018",
+      "group": "C",
+      "xy_m": [
+        0.3407958607470201,
+        -0.17251828809743577
+      ],
+      "edge_m": 0.07035022119274288,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C019",
+      "group": "C",
+      "xy_m": [
+        0.34121835355134994,
+        -0.18046589382903383
+      ],
+      "edge_m": 0.08170536403738433,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C020",
+      "group": "C",
+      "xy_m": [
+        0.3382164297765583,
+        -0.19120091637292752
+      ],
+      "edge_m": 0.07237652719574977,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C021",
+      "group": "C",
+      "xy_m": [
+        0.335292734444956,
+        -0.16203068173508847
+      ],
+      "edge_m": 0.07558961924273795,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C022",
+      "group": "C",
+      "xy_m": [
+        0.3629815300752466,
+        -0.18418004598280568
+      ],
+      "edge_m": 0.07890516445053072,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C023",
+      "group": "C",
+      "xy_m": [
+        0.3602260824909828,
+        -0.16276630870108694
+      ],
+      "edge_m": 0.0840703839873775,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C024",
+      "group": "C",
+      "xy_m": [
+        0.35162551772803396,
+        -0.16998669716614262
+      ],
+      "edge_m": 0.08366500718942738,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C025",
+      "group": "C",
+      "xy_m": [
+        0.36665388026816836,
+        -0.1710926787448977
+      ],
+      "edge_m": 0.0857150176577669,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C026",
+      "group": "C",
+      "xy_m": [
+        0.33938367998971997,
+        -0.18097793439884208
+      ],
+      "edge_m": 0.07912811265894379,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C027",
+      "group": "C",
+      "xy_m": [
+        0.35634440203829293,
+        -0.16647004189263137
+      ],
+      "edge_m": 0.08503978233995431,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C028",
+      "group": "C",
+      "xy_m": [
+        0.3541266518317761,
+        -0.1863133875128199
+      ],
+      "edge_m": 0.07980599941792739,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C029",
+      "group": "C",
+      "xy_m": [
+        0.3576709402483167,
+        -0.1924138260722225
+      ],
+      "edge_m": 0.07385675321833518,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C030",
+      "group": "C",
+      "xy_m": [
+        0.34722196852404996,
+        -0.17394414522326052
+      ],
+      "edge_m": 0.08331764054495355,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C031",
+      "group": "C",
+      "xy_m": [
+        0.35801156570749637,
+        -0.1758508726252045
+      ],
+      "edge_m": 0.08817455174340896,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C032",
+      "group": "C",
+      "xy_m": [
+        0.358883178298563,
+        -0.18330298493100364
+      ],
+      "edge_m": 0.07443475479056683,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C033",
+      "group": "C",
+      "xy_m": [
+        0.3569654948013359,
+        -0.16988242647100193
+      ],
+      "edge_m": 0.07176044230571965,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C034",
+      "group": "C",
+      "xy_m": [
+        0.33064340835436856,
+        -0.18036347274401024
+      ],
+      "edge_m": 0.08433749859210242,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C035",
+      "group": "C",
+      "xy_m": [
+        0.3596132422141782,
+        -0.19012411469811397
+      ],
+      "edge_m": 0.07244454947521109,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C036",
+      "group": "C",
+      "xy_m": [
+        0.3570733454593489,
+        -0.18122227889429368
+      ],
+      "edge_m": 0.07815304430442782,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C037",
+      "group": "C",
+      "xy_m": [
+        0.335589275487554,
+        -0.16936476816421753
+      ],
+      "edge_m": 0.07781365589093453,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C038",
+      "group": "C",
+      "xy_m": [
+        0.3341956077230366,
+        -0.1725729086794876
+      ],
+      "edge_m": 0.08500390518215475,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C039",
+      "group": "C",
+      "xy_m": [
+        0.35653875637184257,
+        -0.18399027075627472
+      ],
+      "edge_m": 0.07076218153960895,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C040",
+      "group": "C",
+      "xy_m": [
+        0.34391922025397853,
+        -0.18784761086496585
+      ],
+      "edge_m": 0.07233587571028895,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C041",
+      "group": "C",
+      "xy_m": [
+        0.33917691027381236,
+        -0.16479681388450346
+      ],
+      "edge_m": 0.08859683376130116,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C042",
+      "group": "C",
+      "xy_m": [
+        0.3615481202689941,
+        -0.16282449631122112
+      ],
+      "edge_m": 0.07573239741929394,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C043",
+      "group": "C",
+      "xy_m": [
+        0.3301324613923755,
+        -0.17600960945443106
+      ],
+      "edge_m": 0.08932178526601883,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C044",
+      "group": "C",
+      "xy_m": [
+        0.36344417891684067,
+        -0.1772021483769879
+      ],
+      "edge_m": 0.0816869969175745,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C045",
+      "group": "C",
+      "xy_m": [
+        0.35212318048686303,
+        -0.18495157263773046
+      ],
+      "edge_m": 0.07251886142251072,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C046",
+      "group": "C",
+      "xy_m": [
+        0.36139521197177826,
+        -0.17465580554409624
+      ],
+      "edge_m": 0.08714394217386903,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C047",
+      "group": "C",
+      "xy_m": [
+        0.34907381270200577,
+        -0.16386017293816074
+      ],
+      "edge_m": 0.07369486759800101,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C048",
+      "group": "C",
+      "xy_m": [
+        0.34918803415330946,
+        -0.1882967225796612
+      ],
+      "edge_m": 0.08377970226563966,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "C049",
+      "group": "C",
+      "xy_m": [
+        0.3474932360036123,
+        -0.16530346761750397
+      ],
+      "edge_m": 0.07527257946033088,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": null,
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D000",
+      "group": "D",
+      "xy_m": [
+        0.36488750663785724,
+        -0.19876929472862925
+      ],
+      "edge_m": 0.0705921328445634,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C000",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D001",
+      "group": "D",
+      "xy_m": [
+        0.3416534603805021,
+        -0.17049230968265158
+      ],
+      "edge_m": 0.07206522333291396,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C001",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D002",
+      "group": "D",
+      "xy_m": [
+        0.3440768995180327,
+        -0.18982302146761781
+      ],
+      "edge_m": 0.07678065256311255,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C002",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D003",
+      "group": "D",
+      "xy_m": [
+        0.34821703836770823,
+        -0.18567266982003972
+      ],
+      "edge_m": 0.07813291440395496,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C003",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D004",
+      "group": "D",
+      "xy_m": [
+        0.33044755979570617,
+        -0.1772322073922839
+      ],
+      "edge_m": 0.0833624636820923,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C004",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D005",
+      "group": "D",
+      "xy_m": [
+        0.3555996922758301,
+        -0.19361876687689214
+      ],
+      "edge_m": 0.07722203663734209,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C005",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D006",
+      "group": "D",
+      "xy_m": [
+        0.369797222530365,
+        -0.19502342754535937
+      ],
+      "edge_m": 0.08851139699026428,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C006",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D007",
+      "group": "D",
+      "xy_m": [
+        0.34103310441490975,
+        -0.1835782943606824
+      ],
+      "edge_m": 0.08937395911811179,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C007",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D008",
+      "group": "D",
+      "xy_m": [
+        0.35564324295161065,
+        -0.1607565818855312
+      ],
+      "edge_m": 0.08167740659572789,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C008",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D009",
+      "group": "D",
+      "xy_m": [
+        0.33389989594753355,
+        -0.18359498989517797
+      ],
+      "edge_m": 0.08615500575261625,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C009",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D010",
+      "group": "D",
+      "xy_m": [
+        0.36039942120263535,
+        -0.18428694771937498
+      ],
+      "edge_m": 0.07890644471654559,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C010",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D011",
+      "group": "D",
+      "xy_m": [
+        0.36783818045856786,
+        -0.18063117555460434
+      ],
+      "edge_m": 0.08953146456288821,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C011",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D012",
+      "group": "D",
+      "xy_m": [
+        0.3579358372845365,
+        -0.1900398188535945
+      ],
+      "edge_m": 0.07524138608067014,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C012",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D013",
+      "group": "D",
+      "xy_m": [
+        0.36850810013855717,
+        -0.1635140203914635
+      ],
+      "edge_m": 0.07442537428099513,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C013",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D014",
+      "group": "D",
+      "xy_m": [
+        0.35516323762404023,
+        -0.17312064535225677
+      ],
+      "edge_m": 0.0796870742560541,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C014",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D015",
+      "group": "D",
+      "xy_m": [
+        0.3507919048984692,
+        -0.16318962993708708
+      ],
+      "edge_m": 0.08646259446746145,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C015",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D016",
+      "group": "D",
+      "xy_m": [
+        0.35901135288641917,
+        -0.1961206585590241
+      ],
+      "edge_m": 0.07921486457807368,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C016",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D017",
+      "group": "D",
+      "xy_m": [
+        0.3500005242012241,
+        -0.19992765763406015
+      ],
+      "edge_m": 0.08068793626219135,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C017",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D018",
+      "group": "D",
+      "xy_m": [
+        0.3407958607470201,
+        -0.17251828809743577
+      ],
+      "edge_m": 0.07035022119274288,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C018",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D019",
+      "group": "D",
+      "xy_m": [
+        0.34121835355134994,
+        -0.18046589382903383
+      ],
+      "edge_m": 0.08170536403738433,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C019",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D020",
+      "group": "D",
+      "xy_m": [
+        0.3382164297765583,
+        -0.19120091637292752
+      ],
+      "edge_m": 0.07237652719574977,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C020",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D021",
+      "group": "D",
+      "xy_m": [
+        0.335292734444956,
+        -0.16203068173508847
+      ],
+      "edge_m": 0.07558961924273795,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C021",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D022",
+      "group": "D",
+      "xy_m": [
+        0.3629815300752466,
+        -0.18418004598280568
+      ],
+      "edge_m": 0.07890516445053072,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C022",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D023",
+      "group": "D",
+      "xy_m": [
+        0.3602260824909828,
+        -0.16276630870108694
+      ],
+      "edge_m": 0.0840703839873775,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C023",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D024",
+      "group": "D",
+      "xy_m": [
+        0.35162551772803396,
+        -0.16998669716614262
+      ],
+      "edge_m": 0.08366500718942738,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C024",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D025",
+      "group": "D",
+      "xy_m": [
+        0.36665388026816836,
+        -0.1710926787448977
+      ],
+      "edge_m": 0.0857150176577669,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C025",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D026",
+      "group": "D",
+      "xy_m": [
+        0.33938367998971997,
+        -0.18097793439884208
+      ],
+      "edge_m": 0.07912811265894379,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C026",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D027",
+      "group": "D",
+      "xy_m": [
+        0.35634440203829293,
+        -0.16647004189263137
+      ],
+      "edge_m": 0.08503978233995431,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C027",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D028",
+      "group": "D",
+      "xy_m": [
+        0.3541266518317761,
+        -0.1863133875128199
+      ],
+      "edge_m": 0.07980599941792739,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C028",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D029",
+      "group": "D",
+      "xy_m": [
+        0.3576709402483167,
+        -0.1924138260722225
+      ],
+      "edge_m": 0.07385675321833518,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C029",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D030",
+      "group": "D",
+      "xy_m": [
+        0.34722196852404996,
+        -0.17394414522326052
+      ],
+      "edge_m": 0.08331764054495355,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C030",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D031",
+      "group": "D",
+      "xy_m": [
+        0.35801156570749637,
+        -0.1758508726252045
+      ],
+      "edge_m": 0.08817455174340896,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C031",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D032",
+      "group": "D",
+      "xy_m": [
+        0.358883178298563,
+        -0.18330298493100364
+      ],
+      "edge_m": 0.07443475479056683,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C032",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D033",
+      "group": "D",
+      "xy_m": [
+        0.3569654948013359,
+        -0.16988242647100193
+      ],
+      "edge_m": 0.07176044230571965,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C033",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D034",
+      "group": "D",
+      "xy_m": [
+        0.33064340835436856,
+        -0.18036347274401024
+      ],
+      "edge_m": 0.08433749859210242,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C034",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D035",
+      "group": "D",
+      "xy_m": [
+        0.3596132422141782,
+        -0.19012411469811397
+      ],
+      "edge_m": 0.07244454947521109,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C035",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D036",
+      "group": "D",
+      "xy_m": [
+        0.3570733454593489,
+        -0.18122227889429368
+      ],
+      "edge_m": 0.07815304430442782,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C036",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D037",
+      "group": "D",
+      "xy_m": [
+        0.335589275487554,
+        -0.16936476816421753
+      ],
+      "edge_m": 0.07781365589093453,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C037",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D038",
+      "group": "D",
+      "xy_m": [
+        0.3341956077230366,
+        -0.1725729086794876
+      ],
+      "edge_m": 0.08500390518215475,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C038",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D039",
+      "group": "D",
+      "xy_m": [
+        0.35653875637184257,
+        -0.18399027075627472
+      ],
+      "edge_m": 0.07076218153960895,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C039",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D040",
+      "group": "D",
+      "xy_m": [
+        0.34391922025397853,
+        -0.18784761086496585
+      ],
+      "edge_m": 0.07233587571028895,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C040",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D041",
+      "group": "D",
+      "xy_m": [
+        0.33917691027381236,
+        -0.16479681388450346
+      ],
+      "edge_m": 0.08859683376130116,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C041",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D042",
+      "group": "D",
+      "xy_m": [
+        0.3615481202689941,
+        -0.16282449631122112
+      ],
+      "edge_m": 0.07573239741929394,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C042",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D043",
+      "group": "D",
+      "xy_m": [
+        0.3301324613923755,
+        -0.17600960945443106
+      ],
+      "edge_m": 0.08932178526601883,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C043",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D044",
+      "group": "D",
+      "xy_m": [
+        0.36344417891684067,
+        -0.1772021483769879
+      ],
+      "edge_m": 0.0816869969175745,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C044",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D045",
+      "group": "D",
+      "xy_m": [
+        0.35212318048686303,
+        -0.18495157263773046
+      ],
+      "edge_m": 0.07251886142251072,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C045",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D046",
+      "group": "D",
+      "xy_m": [
+        0.36139521197177826,
+        -0.17465580554409624
+      ],
+      "edge_m": 0.08714394217386903,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C046",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D047",
+      "group": "D",
+      "xy_m": [
+        0.34907381270200577,
+        -0.16386017293816074
+      ],
+      "edge_m": 0.07369486759800101,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C047",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D048",
+      "group": "D",
+      "xy_m": [
+        0.34918803415330946,
+        -0.1882967225796612
+      ],
+      "edge_m": 0.08377970226563966,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C048",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "D049",
+      "group": "D",
+      "xy_m": [
+        0.3474932360036123,
+        -0.16530346761750397
+      ],
+      "edge_m": 0.07527257946033088,
+      "mass_kg": 0.12,
+      "root_x_m": -0.02,
+      "sampling_seed": 20261010,
+      "source_baseline_trial": "C049",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR000",
+      "group": "NGR",
+      "xy_m": [
+        0.3489161074873625,
+        -0.18343058982588248
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B000",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR001",
+      "group": "NGR",
+      "xy_m": [
+        0.35469443380750915,
+        -0.19163096528939993
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B001",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR002",
+      "group": "NGR",
+      "xy_m": [
+        0.36808730582892113,
+        -0.18374258435686217
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B002",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR003",
+      "group": "NGR",
+      "xy_m": [
+        0.3673246551984485,
+        -0.18584788909304845
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B003",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR004",
+      "group": "NGR",
+      "xy_m": [
+        0.33638806376204466,
+        -0.16169046296950995
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B004",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR005",
+      "group": "NGR",
+      "xy_m": [
+        0.35789952381363244,
+        -0.16275724463556152
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B005",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR006",
+      "group": "NGR",
+      "xy_m": [
+        0.3574628209684465,
+        -0.1770265025821287
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B006",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR007",
+      "group": "NGR",
+      "xy_m": [
+        0.34334521544979096,
+        -0.17797333134168455
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B007",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR008",
+      "group": "NGR",
+      "xy_m": [
+        0.36380326600575236,
+        -0.19194422086741666
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B008",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR009",
+      "group": "NGR",
+      "xy_m": [
+        0.35421023776255256,
+        -0.1868428158567358
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B009",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR010",
+      "group": "NGR",
+      "xy_m": [
+        0.3576411573558478,
+        -0.16077383908032017
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B010",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR011",
+      "group": "NGR",
+      "xy_m": [
+        0.3682512442121498,
+        -0.19631018865826383
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B011",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR012",
+      "group": "NGR",
+      "xy_m": [
+        0.3454508803771097,
+        -0.1934835929464022
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B012",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR013",
+      "group": "NGR",
+      "xy_m": [
+        0.3434368421415783,
+        -0.1604789823164165
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B013",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR014",
+      "group": "NGR",
+      "xy_m": [
+        0.3597700530016395,
+        -0.1842330165405645
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B014",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR015",
+      "group": "NGR",
+      "xy_m": [
+        0.3634753433996356,
+        -0.19457375705905602
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B015",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR016",
+      "group": "NGR",
+      "xy_m": [
+        0.355256850241762,
+        -0.18240717384883523
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B016",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR017",
+      "group": "NGR",
+      "xy_m": [
+        0.33032151218986344,
+        -0.16430510155150907
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B017",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR018",
+      "group": "NGR",
+      "xy_m": [
+        0.34738544304544894,
+        -0.18466325200533093
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B018",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGR019",
+      "group": "NGR",
+      "xy_m": [
+        0.35141460759172827,
+        -0.18806859138244708
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B019",
+      "no_grip": true,
+      "wrist_servo": true,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS000",
+      "group": "NWS",
+      "xy_m": [
+        0.3489161074873625,
+        -0.18343058982588248
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B000",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS001",
+      "group": "NWS",
+      "xy_m": [
+        0.35469443380750915,
+        -0.19163096528939993
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B001",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS002",
+      "group": "NWS",
+      "xy_m": [
+        0.36808730582892113,
+        -0.18374258435686217
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B002",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS003",
+      "group": "NWS",
+      "xy_m": [
+        0.3673246551984485,
+        -0.18584788909304845
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B003",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS004",
+      "group": "NWS",
+      "xy_m": [
+        0.33638806376204466,
+        -0.16169046296950995
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B004",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS005",
+      "group": "NWS",
+      "xy_m": [
+        0.35789952381363244,
+        -0.16275724463556152
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B005",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS006",
+      "group": "NWS",
+      "xy_m": [
+        0.3574628209684465,
+        -0.1770265025821287
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B006",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS007",
+      "group": "NWS",
+      "xy_m": [
+        0.34334521544979096,
+        -0.17797333134168455
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B007",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS008",
+      "group": "NWS",
+      "xy_m": [
+        0.36380326600575236,
+        -0.19194422086741666
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B008",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS009",
+      "group": "NWS",
+      "xy_m": [
+        0.35421023776255256,
+        -0.1868428158567358
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B009",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS010",
+      "group": "NWS",
+      "xy_m": [
+        0.3576411573558478,
+        -0.16077383908032017
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B010",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS011",
+      "group": "NWS",
+      "xy_m": [
+        0.3682512442121498,
+        -0.19631018865826383
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B011",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS012",
+      "group": "NWS",
+      "xy_m": [
+        0.3454508803771097,
+        -0.1934835929464022
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B012",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS013",
+      "group": "NWS",
+      "xy_m": [
+        0.3434368421415783,
+        -0.1604789823164165
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B013",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS014",
+      "group": "NWS",
+      "xy_m": [
+        0.3597700530016395,
+        -0.1842330165405645
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B014",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS015",
+      "group": "NWS",
+      "xy_m": [
+        0.3634753433996356,
+        -0.19457375705905602
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B015",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS016",
+      "group": "NWS",
+      "xy_m": [
+        0.355256850241762,
+        -0.18240717384883523
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B016",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS017",
+      "group": "NWS",
+      "xy_m": [
+        0.33032151218986344,
+        -0.16430510155150907
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B017",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS018",
+      "group": "NWS",
+      "xy_m": [
+        0.34738544304544894,
+        -0.18466325200533093
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B018",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NWS019",
+      "group": "NWS",
+      "xy_m": [
+        0.35141460759172827,
+        -0.18806859138244708
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B019",
+      "no_grip": false,
+      "wrist_servo": false,
+      "gravity_arm_scale": 1.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF000",
+      "group": "NGF",
+      "xy_m": [
+        0.3489161074873625,
+        -0.18343058982588248
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B000",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF001",
+      "group": "NGF",
+      "xy_m": [
+        0.35469443380750915,
+        -0.19163096528939993
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B001",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF002",
+      "group": "NGF",
+      "xy_m": [
+        0.36808730582892113,
+        -0.18374258435686217
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B002",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF003",
+      "group": "NGF",
+      "xy_m": [
+        0.3673246551984485,
+        -0.18584788909304845
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B003",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF004",
+      "group": "NGF",
+      "xy_m": [
+        0.33638806376204466,
+        -0.16169046296950995
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B004",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF005",
+      "group": "NGF",
+      "xy_m": [
+        0.35789952381363244,
+        -0.16275724463556152
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B005",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF006",
+      "group": "NGF",
+      "xy_m": [
+        0.3574628209684465,
+        -0.1770265025821287
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B006",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF007",
+      "group": "NGF",
+      "xy_m": [
+        0.34334521544979096,
+        -0.17797333134168455
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B007",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF008",
+      "group": "NGF",
+      "xy_m": [
+        0.36380326600575236,
+        -0.19194422086741666
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B008",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF009",
+      "group": "NGF",
+      "xy_m": [
+        0.35421023776255256,
+        -0.1868428158567358
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B009",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF010",
+      "group": "NGF",
+      "xy_m": [
+        0.3576411573558478,
+        -0.16077383908032017
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B010",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF011",
+      "group": "NGF",
+      "xy_m": [
+        0.3682512442121498,
+        -0.19631018865826383
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B011",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF012",
+      "group": "NGF",
+      "xy_m": [
+        0.3454508803771097,
+        -0.1934835929464022
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B012",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF013",
+      "group": "NGF",
+      "xy_m": [
+        0.3434368421415783,
+        -0.1604789823164165
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B013",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF014",
+      "group": "NGF",
+      "xy_m": [
+        0.3597700530016395,
+        -0.1842330165405645
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B014",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF015",
+      "group": "NGF",
+      "xy_m": [
+        0.3634753433996356,
+        -0.19457375705905602
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B015",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF016",
+      "group": "NGF",
+      "xy_m": [
+        0.355256850241762,
+        -0.18240717384883523
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B016",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF017",
+      "group": "NGF",
+      "xy_m": [
+        0.33032151218986344,
+        -0.16430510155150907
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B017",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF018",
+      "group": "NGF",
+      "xy_m": [
+        0.34738544304544894,
+        -0.18466325200533093
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B018",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    },
+    {
+      "id": "NGF019",
+      "group": "NGF",
+      "xy_m": [
+        0.35141460759172827,
+        -0.18806859138244708
+      ],
+      "edge_m": 0.08,
+      "mass_kg": 0.12,
+      "root_x_m": 0.0,
+      "sampling_seed": 20261009,
+      "source_baseline_trial": "B019",
+      "no_grip": false,
+      "wrist_servo": true,
+      "gravity_arm_scale": 0.0,
+      "native_mesh": true,
+      "time_scale": 2.0,
+      "retract_raise": true
+    }
+  ],
+  "representative_rule": "lowest numerical ID in each group and outcome; no borrowing across groups",
+  "gate": "wholehand-v2-wristlocal-support",
+  "fixed_repeats": "A has no random state perturbation; determinism check, not generalization",
+  "random_domain": {
+    "xy_min_m": [
+      0.33,
+      -0.2
+    ],
+    "xy_max_m": [
+      0.37,
+      -0.16
+    ],
+    "edge_range_m": [
+      0.07,
+      0.09
+    ],
+    "mass_kg": 0.12
+  },
+  "resource": {
+    "cores": [
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "max_workers": 8,
+    "cores_per_worker": 2,
+    "job_AS_GiB": 4,
+    "per_command_timeout_s": 600,
+    "batch_timeout_s": 28800,
+    "data_peak_GiB": 20
+  },
+  "video": "all real recorded states from time0, including reach; 960x320 dual camera, 6.25fps real time",
+  "planning_refusal_video": "real 10s safe standing; clearly NOT grasp execution",
+  "sources_sha": {
+    "execute_batch.py": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+    "batch_plan.py": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+    "render_batch.py": "4578a0e3d4f6cdadf67e831fb4b2eb48489299af934a0bc6b7b66563a6aebbc9",
+    "batch_runner.py": "fd41a890f70c21b757a93f05baa28f4c39c311adf7bd5bd960721e3c1c31124c",
+    "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+    "make_trials.py": "0529617f20913182f0d8c0556a1d2e98026b060d5a9bf4e50d74b90537621bf3"
+  },
+  "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612"
+}

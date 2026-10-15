@@ -1,0 +1,111 @@
+{
+  "physical_right_hand_thumb_2_link": {
+    "condim": 3,
+    "friction": [
+      1.0,
+      0.005,
+      0.0001
+    ],
+    "priority": 0,
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "geomtype": "7"
+  },
+  "physical_right_hand_middle_1_link": {
+    "condim": 3,
+    "friction": [
+      1.0,
+      0.005,
+      0.0001
+    ],
+    "priority": 0,
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "geomtype": "7"
+  },
+  "physical_right_hand_index_1_link": {
+    "condim": 3,
+    "friction": [
+      1.0,
+      0.005,
+      0.0001
+    ],
+    "priority": 0,
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "geomtype": "7"
+  },
+  "red_cube_geom": {
+    "condim": 4,
+    "friction": [
+      2.0,
+      0.02,
+      0.002
+    ],
+    "priority": 0,
+    "solref": [
+      0.006,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "geomtype": "6"
+  },
+  "table_top": {
+    "condim": 3,
+    "friction": [
+      1.0,
+      0.01,
+      0.001
+    ],
+    "priority": 0,
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "geomtype": "6"
+  },
+  "cube_mass": 0.02,
+  "solver": 2,
+  "cone": 1,
+  "enableflags": 16
+}

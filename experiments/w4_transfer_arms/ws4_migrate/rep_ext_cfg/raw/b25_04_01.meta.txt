@@ -1,0 +1,18 @@
+name=b25_04_01
+utc_start=2026-10-08T14:55:22Z
+host=worker00039 uid=1004
+runner_sha256=61d5ab3f018396c1792469b0a9d4e77f26f983e4ca339b1022ae03a6251fa7ec
+sonic_grasp_sha256=f668518afa340beff3ac974f1c188d6c98209a5ec3c3f8525bce6c4fa9501e30
+native_branch_sha256=64090ff6d47802755a23b99fe11ae27b4ce130dfc899c5d953d081c51b9164e8
+adaptive_hand_sha256=f35a826835f57cff66ca5411c46b72b63c770e832259e6b88ba4c0d048232c34
+grasp_geometry_sha256=bbbfbde344d8e5359498287ece86fa509c34882a01aa21754c9c123d3b577358
+motion_stem=near_s42
+motion_npz_sha256=78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff
+cpus=92,93 nice=19 ulimit_v_KiB=16777216
+sonic_grasp_args=b25_04_01 --cube-edge-mm=25 --cube-x=0.274400 --cube-y=-0.144600 --grip-target-json=/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/grip_real_map.json
+pressure_cpu: some avg10=0.24 avg60=0.76 avg300=0.88 total=4032508918 full avg10=0.00 avg60=0.00 avg300=0.00 total=0 
+df_data_avail_kb=11122496320
+
+utc_end=2026-10-08T14:57:03Z
+rc=0 wall_s=101
+result_json=/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/rep_ext_cfg/rep/out/b25_04_01/result.json

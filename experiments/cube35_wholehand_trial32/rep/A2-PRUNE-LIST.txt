@@ -1,0 +1,10 @@
+# A2 lane: files intentionally NOT present in the independent copy
+# reason: they hardcode the owner task id /data/group4/20261006-093203-codex-6385a841
+#         and would write into the owner tree and/or consume the owner private
+#         CPU-trial quota gate. Lane A2 must never invoke them.
+run.sh	86db3c2e0ffea07b9965c01a03da1ee1b0aebeaa52a363fabec0269fe80af7f5	PRUNED_BY_DESIGN_owner_quota_gate_or_launcher
+run.wave7.sh	86db3c2e0ffea07b9965c01a03da1ee1b0aebeaa52a363fabec0269fe80af7f5	PRUNED_BY_DESIGN_owner_quota_gate_or_launcher
+ardy-server-entry.sh	ccb6e1c7cdb9352955a2dad5a1e17c3a033d94d82021a08a561b8c7604a8e906	PRUNED_BY_DESIGN_owner_quota_gate_or_launcher
+ardy-server-entry.wave7.sh	ccb6e1c7cdb9352955a2dad5a1e17c3a033d94d82021a08a561b8c7604a8e906	PRUNED_BY_DESIGN_owner_quota_gate_or_launcher
+reserve_cpu_trial.py	00a24fbc31a3a1378a0e50ad757063156292c45ea19b5541721f2cf451605d66	PRUNED_BY_DESIGN_owner_quota_gate_or_launcher
+snapshot_sources.py	8cdbb9e2f6d8b7d8b5cb893a4b3f270f1243763c79f38bfd6ff41797b734952e	PRUNED_BY_DESIGN_owner_quota_gate_or_launcher

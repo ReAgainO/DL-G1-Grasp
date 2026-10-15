@@ -1,0 +1,23 @@
+[
+  {
+    "stage": "plan",
+    "rc": 1,
+    "wall_s": 0.2543296813964844,
+    "command": [
+      "timeout",
+      "--kill-after=5",
+      "180",
+      "taskset",
+      "-c",
+      "80,81",
+      "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+      "-B",
+      "/data/group4/20261009-021611-codex-415484ce/batch_plan.py",
+      "--config",
+      "/data/group4/20261009-021611-codex-415484ce/pilots/PBASE.json"
+    ],
+    "pid": 2651275,
+    "log": "/data/group4/20261009-021611-codex-415484ce/logs/PBASE-plan.log",
+    "log_sha": "d2f66914395a3e657f963259771829e1c6d7fd1566a27a4503af3c9c5c855f00"
+  }
+]

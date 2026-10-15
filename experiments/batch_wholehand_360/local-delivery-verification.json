@@ -1,0 +1,211 @@
+{
+  "task": "20261009-021611-codex-415484ce",
+  "checked_at": "2026-10-08 23:47:47 UTC",
+  "scope": "Local transfer and explicit three-server-report SHA comparison; full trajectories and all360 videos remain server, representative11 videos local",
+  "server_report_checks": [
+    {
+      "sha": "504c6cb6f480dac787e799e52426089b3cf16499fe47104cfe9caadb3d59f65e",
+      "path": "/data/group4/20261009-021611-codex-415484ce/REPORT.md"
+    },
+    {
+      "sha": "504c6cb6f480dac787e799e52426089b3cf16499fe47104cfe9caadb3d59f65e",
+      "path": "/home/group4/group4_dasc7606c/work/20261009-021611-codex-415484ce/REPORT.md"
+    },
+    {
+      "sha": "504c6cb6f480dac787e799e52426089b3cf16499fe47104cfe9caadb3d59f65e",
+      "path": "/home/group4/group4_dasc7606c/reports/20261009-021611-codex-415484ce-report.md"
+    }
+  ],
+  "bundle_sha": "cb1f7a9028fbeaa3e262fdfe9e74a5cfeb9eedcc41a197ab05f35ad972a72296",
+  "local_report_path": "C:/Users/hp/Documents/Codex/2026-09-27/zo/server_reports/batch-grasp-20261009-results/evidence/REPORT.md",
+  "verification": {
+    "scope": "Local transferred result/decode-proof/metadata and representative identity verification; full trajectories remain on server and are not rehashed locally; no simulation/re-render",
+    "manifest_sha": "1757e01b98747133052fe06f97f44c485e043277fb276e0c9df2ab8b6621b3b3",
+    "report_sha": "504c6cb6f480dac787e799e52426089b3cf16499fe47104cfe9caadb3d59f65e",
+    "checked_result_files": 360,
+    "server_independently_verified_videos": 360,
+    "groups": [
+      {
+        "group": "A",
+        "planned": 100,
+        "counts": {
+          "success": 100,
+          "planning_refused": 0,
+          "physics_failure": 0,
+          "infrastructure_error": 0,
+          "not_started": 0
+        },
+        "success_rate": 1,
+        "valid_videos": 100
+      },
+      {
+        "group": "B",
+        "planned": 100,
+        "counts": {
+          "success": 98,
+          "planning_refused": 0,
+          "physics_failure": 2,
+          "infrastructure_error": 0,
+          "not_started": 0
+        },
+        "success_rate": 0.98,
+        "valid_videos": 100
+      },
+      {
+        "group": "C",
+        "planned": 50,
+        "counts": {
+          "success": 49,
+          "planning_refused": 0,
+          "physics_failure": 1,
+          "infrastructure_error": 0,
+          "not_started": 0
+        },
+        "success_rate": 0.98,
+        "valid_videos": 50
+      },
+      {
+        "group": "D",
+        "planned": 50,
+        "counts": {
+          "success": 45,
+          "planning_refused": 0,
+          "physics_failure": 5,
+          "infrastructure_error": 0,
+          "not_started": 0
+        },
+        "success_rate": 0.9,
+        "valid_videos": 50
+      },
+      {
+        "group": "NGR",
+        "planned": 20,
+        "counts": {
+          "success": 0,
+          "planning_refused": 0,
+          "physics_failure": 20,
+          "infrastructure_error": 0,
+          "not_started": 0
+        },
+        "success_rate": 0,
+        "valid_videos": 20
+      },
+      {
+        "group": "NWS",
+        "planned": 20,
+        "counts": {
+          "success": 5,
+          "planning_refused": 0,
+          "physics_failure": 15,
+          "infrastructure_error": 0,
+          "not_started": 0
+        },
+        "success_rate": 0.25,
+        "valid_videos": 20
+      },
+      {
+        "group": "NGF",
+        "planned": 20,
+        "counts": {
+          "success": 20,
+          "planning_refused": 0,
+          "physics_failure": 0,
+          "infrastructure_error": 0,
+          "not_started": 0
+        },
+        "success_rate": 1,
+        "valid_videos": 20
+      }
+    ],
+    "representatives": [
+      {
+        "id": "A000",
+        "kind": "success",
+        "group": "A",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\A000\\grasp.mp4",
+        "sha": "3242c00d52b28711e5d3d205e1039b5c4bc0ca988aa64532265d731c225aaf4b",
+        "duration_s": 53.12
+      },
+      {
+        "id": "B000",
+        "kind": "success",
+        "group": "B",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\B000\\grasp.mp4",
+        "sha": "fae5ed8f7df41003d2da5dfd89ddd2fca60016911165c8a8dd33f7fa75736a5f",
+        "duration_s": 53.12
+      },
+      {
+        "id": "B051",
+        "kind": "physics_failure",
+        "group": "B",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\B051\\grasp.mp4",
+        "sha": "cc26433f1b43c6a03f906d131190f0549f04c320837139ce9e8805e2614725e7",
+        "duration_s": 53.12
+      },
+      {
+        "id": "C000",
+        "kind": "success",
+        "group": "C",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\C000\\grasp.mp4",
+        "sha": "2948bdb109959e74ca39819e94978596cb89a26fbee51c6b14ad93b5cce60811",
+        "duration_s": 53.12
+      },
+      {
+        "id": "C046",
+        "kind": "physics_failure",
+        "group": "C",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\C046\\grasp.mp4",
+        "sha": "64a124598f7c0aabb32cd1bca4987137c8d575453066809164824a4118ef94d0",
+        "duration_s": 53.12
+      },
+      {
+        "id": "D000",
+        "kind": "success",
+        "group": "D",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\D000\\grasp.mp4",
+        "sha": "f2ef66e88ce83f7be3261693f94eecc8f78d29da1ad3f3e2de6a9c62dde4d516",
+        "duration_s": 53.12
+      },
+      {
+        "id": "D011",
+        "kind": "physics_failure",
+        "group": "D",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\D011\\grasp.mp4",
+        "sha": "b8cc3a4601cbd2adb2e990ffac10058da7c6329d40e97afeaabcd9fa717468a3",
+        "duration_s": 53.12
+      },
+      {
+        "id": "NGR000",
+        "kind": "physics_failure",
+        "group": "NGR",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\NGR000\\grasp.mp4",
+        "sha": "25b98eb583c9f46c1085fff9a59ec5a1c6f949ae807e5035095e7756101364b5",
+        "duration_s": 53.12
+      },
+      {
+        "id": "NWS000",
+        "kind": "success",
+        "group": "NWS",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\NWS000\\grasp.mp4",
+        "sha": "2625cf7cb5336e9016582964d53e941b1b971a6ae2f6cb35d8756f847c678893",
+        "duration_s": 53.12
+      },
+      {
+        "id": "NWS002",
+        "kind": "physics_failure",
+        "group": "NWS",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\NWS002\\grasp.mp4",
+        "sha": "3469e9638fda8aaf589e30cef90c353feb4f2950d171314c560b2822daa6e4ce",
+        "duration_s": 53.12
+      },
+      {
+        "id": "NGF000",
+        "kind": "success",
+        "group": "NGF",
+        "local_path": "C:\\Users\\hp\\Documents\\Codex\\2026-09-27\\zo\\server_reports\\batch-grasp-20261009-results\\representatives\\NGF000\\grasp.mp4",
+        "sha": "f531a4c562457d62527a19dff176989a56e6eab946e263c5dcad74391b0e3063",
+        "duration_s": 53.12
+      }
+    ]
+  }
+}

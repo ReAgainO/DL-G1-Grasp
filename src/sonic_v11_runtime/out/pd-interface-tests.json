@@ -1,0 +1,11 @@
+{
+  "pass_count": 5,
+  "tests": [
+    "scale1 matches official PD bitwise",
+    "only right arm torques differ at scale2",
+    "SONIC decoder target unchanged",
+    "OEM torque limits respected",
+    "reject gain>4"
+  ],
+  "source_sha": "0e68abf8c74c94889cd0da6ae4e1c6ad35ad0fde234f1c1ad1a8d5287648169f"
+}

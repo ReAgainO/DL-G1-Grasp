@@ -1,0 +1,36 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "dt": 0.002,
+    "model_sha": {
+      "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+      "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+    },
+    "scene_generator_sha": "7c06c79acb49e68d35b1ca63ed179de9b52d744becb1792e3607edca91945a28",
+    "library_sha": {
+      "sonic_grasp": "264c6837e448522b5eeb3909b9ef4865bfc91a64d113b5e0c0b3843a7f7eefb1",
+      "setdown_plan": "5dd156238a40b06909e2c760dfbfc516c76e9af7793edf7c6fd07020d34dd521"
+    }
+  },
+  "physical_steps": 0,
+  "passed": true,
+  "checks": [
+    "setdown_default_disabled",
+    "empty_or_short_window_cannot_pass",
+    "floor_load_not_counted_as_table",
+    "table_full_window_passes",
+    "threshold_is_strict",
+    "interrupted_support_fails",
+    "old_unloaded_steps_outside_window_ignored",
+    "reject_nan",
+    "reject_negative",
+    "reject_oversize",
+    "reject_shape",
+    "CLI_help_exit_zero",
+    "CLI_declares_setdown_and_finger_gain"
+  ],
+  "reference_model_only": true,
+  "limitation": "CLI/help and support-gate branch tests only. Does not execute a simulation or establish physical placing success."
+}

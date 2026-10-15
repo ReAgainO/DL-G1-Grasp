@@ -1,0 +1,113 @@
+{
+  "run": "wb_kimo_p6l1",
+  "fps_source": 25.0,
+  "frames": 1490,
+  "hand_joint_names": [
+    "right_hand_thumb_0_joint",
+    "right_hand_thumb_1_joint",
+    "right_hand_thumb_2_joint",
+    "right_hand_index_0_joint",
+    "right_hand_index_1_joint",
+    "right_hand_middle_0_joint",
+    "right_hand_middle_1_joint"
+  ],
+  "fingers": {
+    "open_reference_rad": [
+      0.0,
+      -0.7,
+      -2.0,
+      1.4,
+      0.08,
+      1.4,
+      0.08
+    ],
+    "closed_reference_rad": [
+      0.0,
+      -0.6,
+      -0.425,
+      1.4,
+      0.08,
+      1.4,
+      0.08
+    ],
+    "commanded_reference_is_exactly_open": true,
+    "commanded_max_dev_from_open_rad": 0.0,
+    "realized_max_dev_from_open_rad": 0.01057246536933043,
+    "realized_open_tolerance_rad": 0.02,
+    "open_ok": true,
+    "frames_open_before_close": 1116,
+    "lift_hold": {
+      "frames": 251,
+      "max_abs_delta_rad": 0.0049960366109732535,
+      "max_step_delta_rad": 0.0002074342312585846
+    },
+    "hold_frozen_max_drift_rad": 9.243079472909255e-05
+  },
+  "grasp": {
+    "close_time_s": 44.61200000000856,
+    "wrist_at_close_m": [
+      0.2772508328267885,
+      -0.06899606334447181,
+      0.9434517943842194
+    ],
+    "commanded_wrist_target_at_close_m": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "wrist_target_error_at_close_m": NaN,
+    "wrist_height_at_close_m": 0.9434517943842194,
+    "cube_centre_m": [
+      0.267,
+      -0.118,
+      0.7745
+    ],
+    "wrist_minus_cube_m": [
+      0.010250832826788459,
+      0.049003936655528185,
+      0.16895179438421948
+    ],
+    "wrist_orientation_at_close_vs_lift_deg": 3.216273280864498,
+    "close_seconds_declared": 0.5
+  },
+  "lift": {
+    "cube_z_at_close_m": 0.7744078785418264,
+    "cube_z_at_hold_end_m": 0.7744078785418238,
+    "cube_z_max_m": 0.9184859883473598,
+    "lift_height_m": 0.14407810980553348,
+    "lift_hold_end_m": -2.55351295663786e-15
+  },
+  "telemetry": {
+    "rows": 29785,
+    "max_thumb_force_N": 2.50397679,
+    "max_index_force_N": 0.0,
+    "max_middle_force_N": 2.50288833,
+    "max_surface_capture_error_m": 0.223750231,
+    "max_pad_vertical_spread_m": 0.0532702541,
+    "max_base_xy_drift_m": 0.0390601886
+  },
+  "gates": {
+    "completed": true,
+    "hold_7cm": true,
+    "two_fingers": true,
+    "no_support": true,
+    "clearance_4cm": true,
+    "slip_1cm": true,
+    "release_drop_6cm": true,
+    "final_supported": true,
+    "final_fingers_off": true,
+    "no_external": true,
+    "no_warnings": true,
+    "upright": true,
+    "no_table_rest_in_hold": true,
+    "no_nonfoot_floor_support_in_hold": true,
+    "feet_supported_in_hold": true,
+    "fingertip_only_robot_contacts_in_hold": true,
+    "final_table_supported": true,
+    "actual_arm_speed_within_limit": true,
+    "actual_body_limits_within_2mrad": true,
+    "no_robot_table_contact_full_task": true
+  },
+  "success": true,
+  "source_npz_sha256": "ef46c0c22135d34de3a6cdd03e9f8b878e2d5e9353572b88fbc1c6b3f77b0ed1"
+}

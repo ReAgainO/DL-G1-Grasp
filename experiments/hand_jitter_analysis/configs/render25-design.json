@@ -1,0 +1,12 @@
+{
+  "ids": [
+    "A_base",
+    "A_combo3",
+    "C_base",
+    "C_combo3"
+  ],
+  "renderer_sha": "6f31e175070b6eb68132214be21123ca966812c8410fb86a48cb3455600f7831",
+  "runner_sha": "3b08973d5068609b2a6394697c182fa369557c31c3dd731f9d590d254906f148",
+  "max_workers": 4,
+  "command_limit_s": 580
+}

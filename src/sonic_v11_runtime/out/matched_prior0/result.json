@@ -1,0 +1,56 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "af19865910e94862ac5c70246811c18f0ca22a179c7a12c1990ed632697189b5",
+      "robot": "4ffee3d4cb8638c460926ba48b68896fa5acb5623d3ee9916046878919d734af"
+    },
+    "scene_generator_sha": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+    "library_sha": {
+      "trajectory_py": "560bba85890893bf6e7ffaeca37f530fb5563a2101a7095dcb52de0f09eedaf9",
+      "ardy_source_csv": "794b52355a37321c5bc0570b06a404ab9338c1d5087a55576a0ada7e61d518a5",
+      "processed_reference": "f15ae1569e33e126bb6a02a1bbdfdcfcc1133ca190d730a10bab2fe293cea9de",
+      "manual_grasp_calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "task_plan_py": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b"
+    },
+    "dt": 0.002,
+    "timestep": 0.002
+  },
+  "success": true,
+  "gates": {
+    "segment_boundary_continuous": true,
+    "ik_position": true,
+    "ik_rotation": true,
+    "within_limits": true,
+    "velocity": true,
+    "acceleration": true,
+    "jerk": true
+  },
+  "method": "human calibrated geometric route only; ZERO ARDY posture influence",
+  "geometric_route": "human calibrated pregrasp/grasp endpoint joint interpolation converted to Cartesian corridor; ARDY only perturbs redundant posture",
+  "ardy_nullspace_weight": 0.0,
+  "ardy_prior_target_effect_rms_rad": 0.0,
+  "phase_duration_s": 6.0600000000000005,
+  "segment_boundary_max_jump_rad": 2.220446049250313e-16,
+  "calibration_frame_time": 12.002,
+  "calibration_wrist_cube_offset_m": [
+    0.006313614440687065,
+    -0.09911337867166706,
+    0.13566899642085273
+  ],
+  "pregrasp_calibration_time": 17.482,
+  "pregrasp_position_m": [
+    0.27515706480826263,
+    -0.2298595560055805,
+    0.9796800990871579
+  ],
+  "max_ik_position_error_m": 0.0,
+  "max_ik_rotation_error_rad": 6.206335383118183e-17,
+  "velocity_max_rad_s": 0.08584847706764025,
+  "accel_max_rad_s2": 0.04370436962256137,
+  "jerk_max_rad_s3": 0.5406155092279399,
+  "ardy_prior_ik_mean_deviation_rad": 1.7525818816741299,
+  "initial_condition": "pregrasp IK pose; arm initialized above cube, NOT full neutral-to-object approach"
+}

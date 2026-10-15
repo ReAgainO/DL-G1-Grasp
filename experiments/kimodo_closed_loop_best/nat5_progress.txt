@@ -1,0 +1,15 @@
+=== NAT5 sweep 2026-10-09T13:21:29Z ===
+delivered  0e0435b66da9b9b5
+frozen     0e0435b66da9b9b5
+working    1ee74627416810ef
+### wb_nat5_n4_o00 (orient_blend=0.0) 2026-10-09T13:21:29Z
+### wb_nat5_n4_o00 rc=0 120 s
+### wb_nat5_n4_o025 (orient_blend=0.25) 2026-10-09T13:23:29Z
+### wb_nat5_n4_o025 rc=0 125 s
+### wb_nat5_n4_o05 (orient_blend=0.5) 2026-10-09T13:25:34Z
+### wb_nat5_n4_o05 rc=1 55 s
+### wb_nat5_n4_o075 (orient_blend=0.75) 2026-10-09T13:26:29Z
+### wb_nat5_n4_o075 rc=1 55 s
+### wb_nat5_n4_o10 (orient_blend=1.0) 2026-10-09T13:27:24Z
+### wb_nat5_n4_o10 rc=1 58 s
+=== NAT5 sweep done 2026-10-09T13:28:22Z ===

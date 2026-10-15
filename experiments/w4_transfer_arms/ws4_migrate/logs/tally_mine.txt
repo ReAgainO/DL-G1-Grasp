@@ -1,0 +1,6 @@
+fixE stratum (mtime>0.0): total=1 success=1
+  SUCCESS e35n_00_06 lift= 104.3 slip= 3.7
+  fail=None(ran all phases)=0  still-approach-timeout=0  other-fail=0
+  red-gate tally for ran-all-phases:
+  near-success (<=2 red gates):
+  per-cell CSV -> /data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/rep_base/fixE_tally.csv

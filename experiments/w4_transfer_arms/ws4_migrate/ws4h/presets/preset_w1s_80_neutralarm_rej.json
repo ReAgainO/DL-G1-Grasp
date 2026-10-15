@@ -1,0 +1,11 @@
+{
+ "cube_pos": [
+  0.07948581707935824,
+  -0.08920649793999647,
+  0.6779579075087921
+ ],
+ "weld": true,
+ "freeze_hand": true,
+ "skip_to_close": true,
+ "note": "W4h W1S seat for edge=80mm: contact_frame(middle) of q below at the rep_ext_w1 init pose; pads [-1.38, -1.37, 5.51] mm; palm min 60.00mm; segmin -1.38mm; span 7.5mm"
+}

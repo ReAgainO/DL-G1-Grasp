@@ -1,0 +1,383 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+      "robot": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e"
+    },
+    "scene_generator_sha": "f1001196ab7c8da06b0e3c26a4ab539c384b3463b18585e98a9f8866611c30f4",
+    "library_sha": {
+      "ik_source": "2b2c88d8b8a034a4a811efe1a3673abe4fab2db608d0d86412514982a4320ac1",
+      "original_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff"
+    },
+    "dt": 0.002
+  },
+  "physical_steps": 0,
+  "physical_grasp_established": false,
+  "records": [
+    {
+      "target": "grasp",
+      "seed": 0,
+      "q": [
+        -0.9347657665997283,
+        -0.633337514129139,
+        0.9495565017505354,
+        0.2427396761055959,
+        -0.27652716349103773,
+        1.4137226785054806,
+        1.1854902233749183
+      ],
+      "position_error_m": 2.8609792490763985e-16,
+      "pad_vertical_spread_m": 1.1102230246251565e-16,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.446473664037846,
+      "feasible": true
+    },
+    {
+      "target": "grasp",
+      "seed": 1,
+      "q": [
+        -1.032130195944424,
+        -0.5681945744452455,
+        1.0573889719980079,
+        0.4381010794165318,
+        -0.36517012774862767,
+        0.21898286960680033,
+        1.251025928312281
+      ],
+      "position_error_m": 1.1443916996305594e-16,
+      "pad_vertical_spread_m": 1.1102230246251565e-16,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.010458443264964,
+      "feasible": true
+    },
+    {
+      "target": "grasp",
+      "seed": 2,
+      "q": [
+        -1.0643070401435961,
+        -0.600121790424357,
+        1.1321159297602275,
+        0.4170086476615864,
+        -0.26917754471550803,
+        0.3663508132255945,
+        1.206015383100188
+      ],
+      "position_error_m": 9.71445146547012e-17,
+      "pad_vertical_spread_m": 1.1102230246251565e-16,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.3193672987517004,
+      "feasible": true
+    },
+    {
+      "target": "grasp",
+      "seed": 3,
+      "q": [
+        -0.03082418066058894,
+        0.03489342565229624,
+        0.07692509480775162,
+        1.4064077212519248,
+        -1.547114176233329,
+        -0.3018724988991325,
+        -1.61243
+      ],
+      "position_error_m": 0.1644687872483151,
+      "pad_vertical_spread_m": 0.046342784812379856,
+      "within_limits": true,
+      "native_seed_deviation_rad": 1.8443604837651177,
+      "feasible": false
+    },
+    {
+      "target": "grasp",
+      "seed": 4,
+      "q": [
+        -0.024304650450382364,
+        0.08807216464095974,
+        -0.0638489562315146,
+        1.4203606133532325,
+        -1.6276226608552724,
+        -0.2558315486557694,
+        -1.61243
+      ],
+      "position_error_m": 0.1692764743516497,
+      "pad_vertical_spread_m": 0.046359593518051634,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.220836829118576,
+      "feasible": false
+    },
+    {
+      "target": "grasp",
+      "seed": 5,
+      "q": [
+        -0.0291795067556769,
+        0.04121017108879604,
+        -0.008530718310501183,
+        1.4052330685241727,
+        -1.634271992864979,
+        -0.3092835539961108,
+        -1.61243
+      ],
+      "position_error_m": 0.16474277302651502,
+      "pad_vertical_spread_m": 0.04633431331301807,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.2516412985114904,
+      "feasible": false
+    },
+    {
+      "target": "grasp",
+      "seed": 6,
+      "q": [
+        -0.02878090993938263,
+        0.04397324264026913,
+        -0.04535352114786856,
+        1.4047518172995876,
+        -1.671280715102461,
+        -0.31227033876720245,
+        -1.61243
+      ],
+      "position_error_m": 0.164841293971719,
+      "pad_vertical_spread_m": 0.0463293884863345,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.2552708581925884,
+      "feasible": false
+    },
+    {
+      "target": "grasp",
+      "seed": 7,
+      "q": [
+        0.2793009503892834,
+        -2.2312115659456007,
+        -2.616,
+        2.0924,
+        -1.97022,
+        -1.006146327728322,
+        0.9414879835303442
+      ],
+      "position_error_m": 0.39090989187554087,
+      "pad_vertical_spread_m": 0.02753662861050854,
+      "within_limits": true,
+      "native_seed_deviation_rad": 3.2832729989315728,
+      "feasible": false
+    },
+    {
+      "target": "grasp",
+      "seed": 8,
+      "q": [
+        1.3695420691418905,
+        -2.2495000000000003,
+        -2.616,
+        1.9019783458305461,
+        -1.97022,
+        -1.61243,
+        -0.19911978059920532
+      ],
+      "position_error_m": 0.30412036725176067,
+      "pad_vertical_spread_m": 0.02679309063578783,
+      "within_limits": true,
+      "native_seed_deviation_rad": 4.351767079966977,
+      "feasible": false
+    },
+    {
+      "target": "pregrasp",
+      "seed": 0,
+      "q": [
+        -1.2801713251744054,
+        -0.807651802394369,
+        1.1069440849761123,
+        0.1275961868114684,
+        -0.2970190206581579,
+        1.252993879507928,
+        1.5724460820670478
+      ],
+      "position_error_m": 1.1857187100668868e-16,
+      "pad_vertical_spread_m": 1.1102230246251565e-16,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.852970220055831,
+      "feasible": true
+    },
+    {
+      "target": "pregrasp",
+      "seed": 1,
+      "q": [
+        -1.257399922055183,
+        -0.6777244324733114,
+        0.9708715509235404,
+        0.27329493681972644,
+        -0.2384694203728763,
+        0.10346065795556837,
+        1.5342333017942351
+      ],
+      "position_error_m": 1.7772239894833365e-16,
+      "pad_vertical_spread_m": 0.0,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.3697149708852456,
+      "feasible": true
+    },
+    {
+      "target": "pregrasp",
+      "seed": 2,
+      "q": [
+        0.09964058207992144,
+        -0.03156871430300292,
+        0.41501233111547103,
+        1.3083311478310558,
+        -1.3927784204750773,
+        -0.31511222842408054,
+        -1.61243
+      ],
+      "position_error_m": 0.2823390621146988,
+      "pad_vertical_spread_m": 0.04659832082190407,
+      "within_limits": true,
+      "native_seed_deviation_rad": 1.7084086432904286,
+      "feasible": false
+    },
+    {
+      "target": "pregrasp",
+      "seed": 3,
+      "q": [
+        0.09856598764476898,
+        -0.026935289035553395,
+        0.39137721206011605,
+        1.3111201883453578,
+        -1.4138080842684375,
+        -0.3159992012955495,
+        -1.61243
+      ],
+      "position_error_m": 0.2821232279381014,
+      "pad_vertical_spread_m": 0.0465849308558649,
+      "within_limits": true,
+      "native_seed_deviation_rad": 1.7106299739122868,
+      "feasible": false
+    },
+    {
+      "target": "pregrasp",
+      "seed": 4,
+      "q": [
+        0.115569384126679,
+        -0.02553044681716343,
+        0.31924804633511705,
+        1.2987901830876316,
+        -1.5010014219259686,
+        -0.33687257879386656,
+        -1.61243
+      ],
+      "position_error_m": 0.28364728479428164,
+      "pad_vertical_spread_m": 0.04665864809901332,
+      "within_limits": true,
+      "native_seed_deviation_rad": 1.9876861061917968,
+      "feasible": false
+    },
+    {
+      "target": "pregrasp",
+      "seed": 5,
+      "q": [
+        0.1143957891671288,
+        -0.020319010044404288,
+        0.29186574765733364,
+        1.301312123470867,
+        -1.5257222810018025,
+        -0.338280229488999,
+        -1.61243
+      ],
+      "position_error_m": 0.2834298894817195,
+      "pad_vertical_spread_m": 0.046645998984902626,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.0569409478166296,
+      "feasible": false
+    },
+    {
+      "target": "pregrasp",
+      "seed": 6,
+      "q": [
+        0.11435864992451479,
+        -0.023222483999152947,
+        0.30985418705227613,
+        1.3004783306182202,
+        -1.5083791407580394,
+        -0.3365070339397959,
+        -1.61243
+      ],
+      "position_error_m": 0.2834736178689718,
+      "pad_vertical_spread_m": 0.04664900213308354,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.0213334923848167,
+      "feasible": false
+    },
+    {
+      "target": "pregrasp",
+      "seed": 7,
+      "q": [
+        -1.5842878500707251,
+        -1.003068702896347,
+        -1.785480414420896,
+        2.0924,
+        -1.412789727522104,
+        1.61243,
+        -0.16355821234938708
+      ],
+      "position_error_m": 0.11727448908699876,
+      "pad_vertical_spread_m": 0.007762701404949945,
+      "within_limits": true,
+      "native_seed_deviation_rad": 0.9568464409559173,
+      "feasible": false
+    },
+    {
+      "target": "pregrasp",
+      "seed": 8,
+      "q": [
+        -1.5293710262312097,
+        -0.9441562399105065,
+        -1.9141968701995415,
+        2.0924,
+        -1.1986997352803532,
+        1.61243,
+        -0.49859992546931997
+      ],
+      "position_error_m": 0.0987272858272328,
+      "pad_vertical_spread_m": 0.007405242346126495,
+      "within_limits": true,
+      "native_seed_deviation_rad": 0.7910166932886395,
+      "feasible": false
+    }
+  ],
+  "best": {
+    "grasp": {
+      "target": "grasp",
+      "seed": 2,
+      "q": [
+        -1.0643070401435961,
+        -0.600121790424357,
+        1.1321159297602275,
+        0.4170086476615864,
+        -0.26917754471550803,
+        0.3663508132255945,
+        1.206015383100188
+      ],
+      "position_error_m": 9.71445146547012e-17,
+      "pad_vertical_spread_m": 1.1102230246251565e-16,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.3193672987517004,
+      "feasible": true
+    },
+    "pregrasp": {
+      "target": "pregrasp",
+      "seed": 0,
+      "q": [
+        -1.2801713251744054,
+        -0.807651802394369,
+        1.1069440849761123,
+        0.1275961868114684,
+        -0.2970190206581579,
+        1.252993879507928,
+        1.5724460820670478
+      ],
+      "position_error_m": 1.1857187100668868e-16,
+      "pad_vertical_spread_m": 1.1102230246251565e-16,
+      "within_limits": true,
+      "native_seed_deviation_rad": 2.852970220055831,
+      "feasible": true
+    }
+  }
+}

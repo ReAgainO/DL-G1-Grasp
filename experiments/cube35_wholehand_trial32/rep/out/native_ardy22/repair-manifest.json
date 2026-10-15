@@ -1,0 +1,27 @@
+{
+  "native_generated": false,
+  "source_native_sha256": "6d3cae6bc899b2274299e3264f3edcb55050422851bb2ae334ab0aaa36971120",
+  "source_manifest_sha256": "f08d20e843b20079a36b5db30bc3e727d0736a0c04374b7f7fd1e94c3000df1d",
+  "method": "Original decoded29 motion plus C2 additive correction interpolating5 exact planned keyframes, including safe raised entry; preserve native residual between anchors; bound originaljointlimits; root fixed to explicitplan",
+  "anchors": [
+    0,
+    30,
+    60,
+    125,
+    199
+  ],
+  "anchor_q_max_error_rad": 9.634409137149191e-08,
+  "inverse_converter_max_error_rad": 2.0986059778849153e-07,
+  "correction_max_rad": 2.2708905153312187,
+  "correction_mean_abs_rad": 0.34119013966028044,
+  "joint_clip_cells": 0,
+  "root_projection_max_m": 0.10002758366633056,
+  "source_code_sha256": "480c961860e55cc9c73633053b943b5dde3c43a8e396617a468b58800d84a9be",
+  "derived_motion_sha256": "99c47fd6c5dfeab274d50a0be7ebf0f9ba6847ce2473710600fd0260d8090dd4",
+  "paired_csv_sha256": "6d133071b2c3d87517b644b36621b46c4b2531fa4885300cad458b6fcc7fb071",
+  "pose_fk_validated": true,
+  "physical_success": false,
+  "active_in_controller": false,
+  "fk_source_sha256": "e7383952b8bbb7e275fd2783335b7972ec7d0c7ba5966b4941f6f9c69982d53e",
+  "derived_npz_schema": "local_rot_mats/root_positions/posed_joints/global_rot_mats all mutually consistent via G1Skeleton34 FK; removed stale inferred foot/heading metadata"
+}

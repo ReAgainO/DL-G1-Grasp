@@ -1,0 +1,6 @@
+[
+  {"id":"A_pose06","source_episode":"A000","tau":0,"damping":3,"servo_gain":0.03,"rotation_gain":0.06,"start":42},
+  {"id":"D_pose06","source_episode":"D000","tau":0,"damping":3,"servo_gain":0.03,"rotation_gain":0.06,"start":42},
+  {"id":"B080_pose06","source_episode":"B080","tau":0,"damping":3,"servo_gain":0.03,"rotation_gain":0.06,"start":42},
+  {"id":"D020_pose06","source_episode":"D020","tau":0,"damping":3,"servo_gain":0.03,"rotation_gain":0.06,"start":42}
+]

@@ -1,0 +1,19 @@
+{
+  "id": "C020",
+  "group": "C",
+  "xy_m": [
+    0.3382164297765583,
+    -0.19120091637292752
+  ],
+  "edge_m": 0.07237652719574977,
+  "mass_kg": 0.12,
+  "root_x_m": 0.0,
+  "sampling_seed": 20261010,
+  "source_baseline_trial": null,
+  "no_grip": false,
+  "wrist_servo": true,
+  "gravity_arm_scale": 1.0,
+  "native_mesh": true,
+  "time_scale": 2.0,
+  "retract_raise": true
+}

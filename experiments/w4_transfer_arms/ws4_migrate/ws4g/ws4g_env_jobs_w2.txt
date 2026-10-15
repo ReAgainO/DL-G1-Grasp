@@ -1,0 +1,6 @@
+d80env_01|80|0.285000|-0.115000|0|-|env1|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env80.json
+d80env_02|80|0.298000|-0.138000|0|-|env1|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env80.json
+d80env_03|80|0.298000|-0.115000|0|-|env1|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env80.json
+d100env_00|100|0.290000|-0.138000|0|-|env1|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env100.json
+d100env_01|100|0.290000|-0.115000|0|-|env1|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env100.json
+d100env_02|100|0.300000|-0.130000|0|-|env1|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env100.json

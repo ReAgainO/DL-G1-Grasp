@@ -1,0 +1,17 @@
+[INFO] loading policy checkpoint: policy_state_dict.pt
+[INFO] loaded action std shape=(29,)
+[INFO] load_state_dict missing keys: []
+[INFO] load_state_dict unexpected keys: []
+[INFO] control_mode=generated-motion
+[INFO] motion_source=ardy loader=ardy_loader motion_file=/data/group4/20261006-042504-qoder-x01gen/gen/mcfg_p0_s0_textoff_c.csv sha256=593578f418aa543b39ebdf7eed2d6f9012f73c3556f7ac4f7d1f32e00c437f5c source_frames=100 source_fps=25 prepared_frames=199 target_fps=50.0 motion_start=0 motion_speed=1
+[RESULT] success=False no_grip=False max_contacts=0 max_contact_bodies=0 contact_bodies=[] max_normal_force=0.000N lift_contact_time=0.000s lifted_height=0.0055m final_clearance=0.0356m final_cube_pos=[0.2621, -0.1185, 0.7781]
+[CONTROL] control_mode=generated-motion fixed_arm_override_count=0 fixed_arm_pd_write_count=0 reference_window_count=200 reference_window_change_count=199 unique_reference_window_hashes=200 reference_first_sha256=e50355786cb48a884d7bb64ddb84b9a8176e3618f3f187232b14ce0d4ed2e8d0 reference_last_sha256=ae748b4593c1b129abba45bfcbde1da7eb67f514bb057ccb51a06ca0932774c3 action_count=200 unique_action_hashes=200 action_first_sha256=a595aac635d05236e9041a5234a59b7ec421af6bf750f48ebe8caf58c204b868 action_last_sha256=99c0628dd423c4fe98403e3a393da08241de9530c7c4c598d79ea10dfe7f12dc
+[REFERENCE] reference_mode=dynamic sim_time=3.980000 motion_time=3.980000 current_frame=198 requested_frames=198:243 actual_frames=198:198 window_shape=(640,)
+[CONTACT_SNAPSHOT] []
+[FINGERTIP_DISTANCE] right_thumb_fingertip=0.03034 right_index_fingertip=0.07260 right_middle_fingertip=0.05389
+[FINGERTIP_POS] right_thumb_fingertip=[0.2824, 0.0095, 0.7982] right_index_fingertip=[0.2823, 0.0323, 0.822] right_middle_fingertip=[0.2692, 0.0149, 0.7693]
+[HAND_LOCAL] cube=[0.102, -0.0149, -0.0626] right_thumb_fingertip=[0.1509, 0.0897, -0.0004] right_index_fingertip=[0.1498, 0.1055, 0.0285] right_middle_fingertip=[0.1499, 0.1055, -0.0285]
+[HAND_Q] [0.0049, -0.6378, -0.3665, 1.4015, 0.079, 1.4014, 0.079]
+[ROBOT_STATE] base_pos=[-0.0327, 0.0048, 0.7708] up_z=0.9986
+[HAND_CONTACTS] []
+[TRACE] rows=200 csv=/data/group4/20261006-055934-qoder-x05eval/runs/ARDY_mcfg_p0_s0_textoff_c/r01/trace.csv

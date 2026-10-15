@@ -1,0 +1,11 @@
+name=wb_nat_r02
+utc_start=2026-10-09T09:53:17Z
+host=worker00039 uid=1004
+runner_sha256=2baed55e22482e26b14b803e916091c419ed7bf5f2be0aebfd6ac0704adef25f
+sonic_grasp_sha256=d0dfc453a674067c02e8e2e5bfc554a73df47973f38dd61dc1cf490585967847
+motion_stem=p6_conv
+flat_pinch_relax=0.2
+sonic_grasp_args=wb_nat_r02 --cube-edge-mm=35 --cube-x=0.267 --cube-y=-0.118 --flat-pinch-relax=0.2
+utc_end=2026-10-09T09:55:13Z
+rc=0 wall_s=116
+result_json=/data/group4/20261008-232029-workbuddy-34e89f61/harness_nat/rep/out/wb_nat_r02/result.json

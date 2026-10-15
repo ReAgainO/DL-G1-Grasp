@@ -1,0 +1,36 @@
+{
+  "qpos_roundtrip_max_abs": 1.3113021850585938e-06,
+  "physical_wrist_fk_error_mm": [
+    0.0005723891828382844,
+    0.0010196837917811697,
+    0.0011018352502330058,
+    0.0009985124907837852
+  ],
+  "frame_indices": [
+    0,
+    60,
+    125,
+    199
+  ],
+  "C_mujoco_to_ardy": [
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "csv_quaternion": "wxyz",
+  "keyframe_source_sha256": "eb7a3dbce99692663014951984df5b2a5fce1c8f670acd7aea4dedb59ecc29e3",
+  "constraints_sha256": "0971cb8f0c5c4fd055d9db11d57c98b8267c570225829ae18158bd9473a046ae",
+  "geometry_keyframes_not_physical_success": true
+}

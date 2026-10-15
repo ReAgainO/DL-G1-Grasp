@@ -1,0 +1,14 @@
+[INFO] loading policy checkpoint: policy_state_dict.pt
+[INFO] loaded action std shape=(29,)
+[INFO] load_state_dict missing keys: []
+[INFO] load_state_dict unexpected keys: []
+[INFO] control_mode=keyframe
+[RESULT] success=False no_grip=True max_contacts=0 max_contact_bodies=0 contact_bodies=[] max_normal_force=0.000N lift_contact_time=0.000s lifted_height=0.0000m final_clearance=0.0319m final_cube_pos=[0.267, -0.118, 0.7744]
+[CONTROL] control_mode=keyframe fixed_arm_override_count=900 fixed_arm_pd_write_count=9000 reference_window_count=0 reference_window_change_count=0 unique_reference_window_hashes=0 reference_first_sha256=- reference_last_sha256=- action_count=900 unique_action_hashes=900 action_first_sha256=cebe4201680bae58032e70678edb3f63e6640e6c0da8ea1fe405916ff0ae8e4b action_last_sha256=df24c0ee007053cc6692ad6f82be874d6ac1ec6ebdd11d133a48c933bd3b196d
+[CONTACT_SNAPSHOT] []
+[FINGERTIP_DISTANCE] right_thumb_fingertip=0.03577 right_index_fingertip=0.00075 right_middle_fingertip=0.01219
+[FINGERTIP_POS] right_thumb_fingertip=[0.2608, -0.1707, 0.869] right_index_fingertip=[0.2998, -0.0759, 0.8704] right_middle_fingertip=[0.2441, -0.0703, 0.881]
+[HAND_LOCAL] cube=[0.2347, 0.0346, 0.0184] right_thumb_fingertip=[0.1309, 0.009, 0.0001] right_index_fingertip=[0.1513, 0.1053, 0.0285] right_middle_fingertip=[0.1513, 0.1053, -0.0285]
+[HAND_Q] [-0.0015, -0.7119, -1.9953, 1.3894, 0.076, 1.3894, 0.076]
+[ROBOT_STATE] base_pos=[-0.0074, 0.0092, 0.7846] up_z=0.9988
+[HAND_CONTACTS] []

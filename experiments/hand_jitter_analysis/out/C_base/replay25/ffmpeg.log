@@ -1,0 +1,3 @@
+[in#0/rawvideo @ 0x8265d00] Error during demuxing: Immediate exit requested
+[out#0/mp4 @ 0x827a7c0] Error writing trailer: Immediate exit requested
+[out#0/mp4 @ 0x827a7c0] Error closing file: Immediate exit requested

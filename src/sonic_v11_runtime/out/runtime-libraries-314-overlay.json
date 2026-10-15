@@ -1,0 +1,27 @@
+{
+  "physical_steps": 0,
+  "time": "2026-10-06T20:15:18.319027+08:00",
+  "versions": {
+    "mujoco": "3.14.0",
+    "numpy": "1.26.4",
+    "onnxruntime": "1.23.2",
+    "python": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]"
+  },
+  "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+  "source_sha": "67bf2cb7a45287310d65b58ceb11752abf1ebd92945770d0b1711b59f5f07b42",
+  "imported_library_files": {
+    "numpy_native": {
+      "path": "/data/group4/20261004-205550-qoder-1280b420/env/lib/python3.10/site-packages/numpy/core/_multiarray_umath.cpython-310-x86_64-linux-gnu.so",
+      "sha256": "fe5efe31c55326b072c8fb239a225819211826cb45cd3c74ed0af0030e70f3a1"
+    },
+    "ort_native": {
+      "path": "/data/group4/20261006-093203-codex-6385a841/pydeps/onnxruntime/capi/onnxruntime_pybind11_state.cpython-310-x86_64-linux-gnu.so",
+      "sha256": "56916e79d8506f08654560c65af3bc1bb4f4b299988c906dd973ae5a29c08630"
+    },
+    "sonic_v11": {
+      "path": "/data/group4/20261006-093203-codex-6385a841/sonic_v11.py",
+      "sha256": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+    }
+  },
+  "limitation": "Current imported environment only. Does not retroactively add missing native-library versions/hashes to old episode runtime stamps."
+}

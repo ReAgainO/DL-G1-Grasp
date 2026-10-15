@@ -1,0 +1,21 @@
+{
+  "source": "/data/group4/20261009-003148-codex-363f6327/out/side80_native3",
+  "source_trajectory_sha": "5f0848001c35a04506b5d54f13886407e64287e0e18818e9ebde58b6c57f7d10",
+  "source_result_sha": "576a1cf6868ee593f738f74f73858253fae06e47de3a5bce3f3d3676ee7ce5f7",
+  "replay_only": true,
+  "physical_steps": 0,
+  "frames": 238,
+  "fps": 12.5,
+  "source_time_range_s": [
+    34.0,
+    52.96
+  ],
+  "success": true,
+  "mujoco_version": "3.2.7",
+  "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+  "renderer_sha": "3a8045757e7200e65432c4095621cc2667d08fe7f2775bac4d900816334cf5ac",
+  "ffmpeg_sha": "e7e7fb30477f717e6f55f9180a70386c62677ef8a4d4d1a5d948f4098aa3eb99",
+  "video_sha": "44fc4a72454410679b5db63d67ff14f32e7d21ce7e571abc455b05c144c42a2f",
+  "video_bytes": 896684,
+  "decode_verified": true
+}

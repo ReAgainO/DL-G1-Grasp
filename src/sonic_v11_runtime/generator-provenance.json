@@ -1,0 +1,800 @@
+{
+  "source_files": [
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/__init__.py",
+      "sha256": "1c84133148843972777013a5d33c83a957936c11219301a34e10bd6273c46bbb",
+      "bytes": 177
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/cskel27/joints.p",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/cskel27/joints.p",
+      "sha256": "5e1d60cb1935c2ea50c6978848697d83efde5621cbbc287891ddae3ba55dde61",
+      "bytes": 1815
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/cskel27/skin_standard.npz",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/cskel27/skin_standard.npz",
+      "sha256": "4ed2b1ea33a997d7777a59d74ec2312b52af2276331048c954441f5f44f6e58b",
+      "bytes": 237170
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/cskel29/joints.p",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/cskel29/joints.p",
+      "sha256": "7bb521eeb1c60ef3cadd60ff9004638be1ce45850cf7564e4e56340d5b5e40e6",
+      "bytes": 1064
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/cskel29/standard_t_pose_cskel29_joint_quat.p",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/cskel29/standard_t_pose_cskel29_joint_quat.p",
+      "sha256": "87e191e342831b08f3b8f99cecc4f317cde72810099d0dfb25d9d837fcfc00ef",
+      "bytes": 1777
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/joints.p",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/joints.p",
+      "sha256": "16b6c234face0b93143a45db7677f02da4a62835300da5401b6acf89dc7d985e",
+      "bytes": 1943
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/head_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/head_link.STL",
+      "sha256": "005fb67fbd3eff94aa8bf4a6e83238174e9f91b6721f7111594322f223724411",
+      "bytes": 932784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_ankle_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_ankle_pitch_link.STL",
+      "sha256": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d",
+      "bytes": 71184
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_ankle_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_ankle_roll_link.STL",
+      "sha256": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f",
+      "bytes": 653384
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_elbow_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_elbow_link.STL",
+      "sha256": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3",
+      "bytes": 88784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_index_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_index_0_link.STL",
+      "sha256": "6b35f2f77211d5a366f0b9a4e47c4ee35e536731266f1a34e9efa12db579b892",
+      "bytes": 475984
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_index_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_index_1_link.STL",
+      "sha256": "9e315ebc8a7a0cb98e033985b586b20d81cf8aa761181ae61ce56fcb14077a06",
+      "bytes": 1521784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_middle_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_middle_0_link.STL",
+      "sha256": "6b35f2f77211d5a366f0b9a4e47c4ee35e536731266f1a34e9efa12db579b892",
+      "bytes": 475984
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_middle_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_middle_1_link.STL",
+      "sha256": "9e315ebc8a7a0cb98e033985b586b20d81cf8aa761181ae61ce56fcb14077a06",
+      "bytes": 1521784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_palm_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_palm_link.STL",
+      "sha256": "23a486b75bd78a9bf03cec25d84d87f97f3dae038cf21a743b6d469b337e4004",
+      "bytes": 2140184
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_thumb_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_thumb_0_link.STL",
+      "sha256": "a90c721661c0622685488a3c74d1e122c7da89242d3a1daef75edb83422d05e0",
+      "bytes": 8884
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_thumb_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_thumb_1_link.STL",
+      "sha256": "445c54a45bc13ce36001556f66bc0f49c83cb40321205ae4d676bb2874325684",
+      "bytes": 475984
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_thumb_2_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hand_thumb_2_link.STL",
+      "sha256": "3d8dbe5085acfc213d21aa8b0782e89cd79084e9678f3a85fc7b04a86b029db5",
+      "bytes": 1521784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hip_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hip_pitch_link.STL",
+      "sha256": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4",
+      "bytes": 181684
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hip_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hip_roll_link.STL",
+      "sha256": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf",
+      "bytes": 192184
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_hip_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_hip_yaw_link.STL",
+      "sha256": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b",
+      "bytes": 296284
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_knee_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_knee_link.STL",
+      "sha256": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477",
+      "bytes": 854884
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_rubber_hand.STL",
+      "sha256": "cff2221a690fa69303f61fce68f2d155c1517b52efb6ca9262dd56e0bc6e70fe",
+      "bytes": 2287484
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_shoulder_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_shoulder_pitch_link.STL",
+      "sha256": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52",
+      "bytes": 176784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_shoulder_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_shoulder_roll_link.STL",
+      "sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88",
+      "bytes": 400284
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_shoulder_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_shoulder_yaw_link.STL",
+      "sha256": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e",
+      "bytes": 249184
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_wrist_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_wrist_pitch_link.STL",
+      "sha256": "b251d8e05047f695d0f536cd78c11973cfa4e78d08cfe82759336cc3471de3a9",
+      "bytes": 85984
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_wrist_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_wrist_roll_link.STL",
+      "sha256": "edc387c9a0ba8c2237e9b296d32531426fabeb6f53e58df45c76106bca74148c",
+      "bytes": 356184
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_wrist_roll_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_wrist_roll_rubber_hand.STL",
+      "sha256": "e81030abd023bd9e4a308ef376d814a2c12d684d8a7670c335bbd5cd7809c909",
+      "bytes": 3484884
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/left_wrist_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/left_wrist_yaw_link.STL",
+      "sha256": "83f8fb3a726bf9613d65dd14f0f447cb918c3c95b3938042a0c9c09749267d3b",
+      "bytes": 318684
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/logo_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/logo_link.STL",
+      "sha256": "8571a0a19bc4916fa55f91449f51d5fdefd751000054865a842449429d5f155b",
+      "bytes": 243384
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/pelvis.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/pelvis.STL",
+      "sha256": "5ba6bbc888e630550140d3c26763f10206da8c8bd30ed886b8ede41c61f57a31",
+      "bytes": 1060884
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/pelvis_contour_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/pelvis_contour_link.STL",
+      "sha256": "5cc5c2c7a312329e3feeb2b03d3fc09fc29705bd01864f6767e51be959662420",
+      "bytes": 1805184
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_ankle_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_ankle_pitch_link.STL",
+      "sha256": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9",
+      "bytes": 71184
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_ankle_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_ankle_roll_link.STL",
+      "sha256": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5",
+      "bytes": 653784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_elbow_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_elbow_link.STL",
+      "sha256": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab",
+      "bytes": 88784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_index_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_index_0_link.STL",
+      "sha256": "12ab4300c95e437e834f9aef772b3b431c671bf34338930b52ad11aef73bbd0d",
+      "bytes": 475984
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_index_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_index_1_link.STL",
+      "sha256": "c9c34efce4563cacdcfd29fc838a982976d40f5442c71219811dcbbf3923a33d",
+      "bytes": 1521784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_middle_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_middle_0_link.STL",
+      "sha256": "12ab4300c95e437e834f9aef772b3b431c671bf34338930b52ad11aef73bbd0d",
+      "bytes": 475984
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_middle_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_middle_1_link.STL",
+      "sha256": "c9c34efce4563cacdcfd29fc838a982976d40f5442c71219811dcbbf3923a33d",
+      "bytes": 1521784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_palm_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_palm_link.STL",
+      "sha256": "86c0b231cc44477d64a6493e5a427ba16617a00738112dd187c652675b086fb9",
+      "bytes": 2140184
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_thumb_0_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_thumb_0_link.STL",
+      "sha256": "544298d0ea1088f5b276a10cc6a6a9e533efdd91594955fdc956c46211d07f83",
+      "bytes": 8884
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_thumb_1_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_thumb_1_link.STL",
+      "sha256": "0a9a820da8dd10f298778b714f1364216e8a5976f4fd3a05689ea26327d44bf6",
+      "bytes": 475984
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_thumb_2_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hand_thumb_2_link.STL",
+      "sha256": "3f1bfb37668e8f61801c8d25f171fa1949e08666be86c67acad7e0079937cc45",
+      "bytes": 1521784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hip_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hip_pitch_link.STL",
+      "sha256": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6",
+      "bytes": 181284
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hip_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hip_roll_link.STL",
+      "sha256": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6",
+      "bytes": 192684
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_hip_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_hip_yaw_link.STL",
+      "sha256": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668",
+      "bytes": 296284
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_knee_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_knee_link.STL",
+      "sha256": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8",
+      "bytes": 852284
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_rubber_hand.STL",
+      "sha256": "99533b778bca6246144fa511bb9d4e555e075c641f2a0251e04372869cd99d67",
+      "bytes": 2192684
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_shoulder_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_shoulder_pitch_link.STL",
+      "sha256": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02",
+      "bytes": 176784
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_shoulder_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_shoulder_roll_link.STL",
+      "sha256": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81",
+      "bytes": 401884
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_shoulder_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_shoulder_yaw_link.STL",
+      "sha256": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5",
+      "bytes": 249984
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_wrist_pitch_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_wrist_pitch_link.STL",
+      "sha256": "d22f8f3b3127f15a63e5be1ee273cd5075786c3142f1c3d9f76cbf43d2a26477",
+      "bytes": 79584
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_wrist_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_wrist_roll_link.STL",
+      "sha256": "a7ee9212ff5b94d6cb7f52bb1bbf3f352194d5b598acff74f4c77d340c5b344f",
+      "bytes": 356084
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_wrist_roll_rubber_hand.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_wrist_roll_rubber_hand.STL",
+      "sha256": "0729aff1ac4356f9314de13a46906267642e58bc47f0d8a7f17f6590a6242ccf",
+      "bytes": 3481584
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/right_wrist_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/right_wrist_yaw_link.STL",
+      "sha256": "bc9dece2d12509707e0057ba2e48df8f3d56db0c79410212963a25e8a50f61a6",
+      "bytes": 341484
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/torso_constraint_L_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/torso_constraint_L_link.STL",
+      "sha256": "82be7f93e85b3d303a1d1e1847e2c916939bd61c424ed1ebd28691ec33909dd1",
+      "bytes": 203584
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/torso_constraint_L_rod_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/torso_constraint_L_rod_link.STL",
+      "sha256": "c10de1effa7ea797ac268006aa2a739036c7e1f326b2012d711ee2c20c5a6e96",
+      "bytes": 74884
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/torso_constraint_R_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/torso_constraint_R_link.STL",
+      "sha256": "54ded433a3a0c76027365856fdbd55215643de88846f7d436598a4071e682725",
+      "bytes": 203584
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/torso_constraint_R_rod_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/torso_constraint_R_rod_link.STL",
+      "sha256": "cb83fd38a9f06c99e3f301c70f12d94ae770a8f0cf9501f83580a27f908990b4",
+      "bytes": 74884
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/torso_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/torso_link.STL",
+      "sha256": "e96d023f0368a4e3450b86ca5d4f10227d8141156a373e7da8cb3c93266523e0",
+      "bytes": 2232984
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/torso_link_23dof_rev_1_0.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/torso_link_23dof_rev_1_0.STL",
+      "sha256": "3cd0d56fde14b73c1623304684805029971c4f84b596f9914e823ca70a107fd2",
+      "bytes": 7825434
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/torso_link_rev_1_0.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/torso_link_rev_1_0.STL",
+      "sha256": "11ddb46f2098efbbd8816b1d65893632d8e78be936376c7cdcd6771899ccc723",
+      "bytes": 2570584
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/waist_constraint_L.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/waist_constraint_L.STL",
+      "sha256": "8ebafdcb4de6871113f0ca2c356618d6e46b1d50f6c0bf9e37f47b9d8e100d99",
+      "bytes": 114684
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/waist_constraint_R.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/waist_constraint_R.STL",
+      "sha256": "791902a291ffbd35ab97383b7b44ea5d975de7c80eef838797c970790b382ca9",
+      "bytes": 114684
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/waist_roll_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/waist_roll_link.STL",
+      "sha256": "34f0aa73f41131230be4d25876c944fdf6c24d62553f199ff8b980c15e8913df",
+      "bytes": 24184
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/waist_roll_link_rev_1_0.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/waist_roll_link_rev_1_0.STL",
+      "sha256": "b67c347a05abc3e8ddae600d98a082bee273bb39f8e651647708b0a7140a8a97",
+      "bytes": 85884
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/waist_support_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/waist_support_link.STL",
+      "sha256": "1fae9e1bb609848a1667d32eed8d6083ae443538a306843056a2a660f1b2926a",
+      "bytes": 150484
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/waist_yaw_link.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/waist_yaw_link.STL",
+      "sha256": "2883f20e03f09b669b5b4ce10677ee6b5191c0934b584d7cbaef2d0662856ffb",
+      "bytes": 336284
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/meshes/g1/waist_yaw_link_rev_1_0.STL",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/meshes/g1/waist_yaw_link_rev_1_0.STL",
+      "sha256": "ec6db442b11f25eed898b5add07940c85d804f300de24dcbd264ccd8be7d554c",
+      "bytes": 619984
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/g1skel34/xml/g1.xml",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/g1skel34/xml/g1.xml",
+      "sha256": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+      "bytes": 31881
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/somaskel30/joints.p",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/somaskel30/joints.p",
+      "sha256": "f8582822d4f7cdd7c9cbb5ee8003f07d3116155fc49be11ed125d373d13e4e8a",
+      "bytes": 1879
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/somaskel30/soma_base_fit_mhr_params.npz",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/somaskel30/soma_base_fit_mhr_params.npz",
+      "sha256": "61f0b96c8386a19d44823faf4399816642b7e20691ed5b398c7402921090096e",
+      "bytes": 1877
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/somaskel77/joints.p",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/somaskel77/joints.p",
+      "sha256": "dc5fd8e39e0ff312f5d0f536a87ac22ac58445e13443fcb8ab54e6817cb97ce7",
+      "bytes": 2967
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/somaskel77/relaxed_hands_rest_pose.npy",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/somaskel77/relaxed_hands_rest_pose.npy",
+      "sha256": "64a3828e0d1ef1f1de8228c74eba8040c0810d898169f1892d8997a213b2b64c",
+      "bytes": 2900
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/somaskel77/skin_standard.npz",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/somaskel77/skin_standard.npz",
+      "sha256": "90ee2cdf50f168382a7dd7e9c88b118298aba0aca4b72022080c89c4bab0ceb2",
+      "bytes": 531434
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/somaskel77/standard_t_pose_global_offsets_rots.p",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/somaskel77/standard_t_pose_global_offsets_rots.p",
+      "sha256": "464a8a95159d5e26ad24a702107aec86698935deeb034e02c9fe51e55472d75b",
+      "bytes": 4653
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets/skeletons/somaskel77/standard_t_pose_somaskel77_joint_quat.p",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets/skeletons/somaskel77/standard_t_pose_somaskel77_joint_quat.p",
+      "sha256": "80130eb473a3721c46897a45b1f561a1c0ad65de64436ae385b511632c9a9b7c",
+      "bytes": 2610
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/assets.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/assets.py",
+      "sha256": "df261ed2d6021c389ea6578c2f377ac7984806b7fa5f5fcf43be9df1d22bee39",
+      "bytes": 603
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/constraints.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/constraints.py",
+      "sha256": "57d0b1418cfe689b9c69c41120d9ef2d6a65a59f3bf8ffc21d7fec06380ed7ef",
+      "bytes": 17272
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/data_processing/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/data_processing/__init__.py",
+      "sha256": "39b67a3543de12fbe919327958818a53222b223688ef8ece33a12bc1e46d1f14",
+      "bytes": 137
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/data_processing/bvh.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/data_processing/bvh.py",
+      "sha256": "7504e4811bd9526edfcff5e23e9ab6835ea8ae1051951e83945878f9ecad54e4",
+      "bytes": 10226
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/data_processing/skeleton.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/data_processing/skeleton.py",
+      "sha256": "e39ba723fa77efb3e1d95197432a53f840c5866d6160d3f5563ea045cfce5447",
+      "bytes": 19169
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/exports/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/exports/__init__.py",
+      "sha256": "018bcb15b4efed6e6c7a6471c3c70d7fb257ec2071b3875af732598b4e63c747",
+      "bytes": 205
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/exports/mujoco.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/exports/mujoco.py",
+      "sha256": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+      "bytes": 11822
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/geometry.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/geometry.py",
+      "sha256": "4d5a5d8c71e3cd9f3f10fc837698652a78fad621cdd25b1d4b0e8515153f20d9",
+      "bytes": 5192
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/__init__.py",
+      "sha256": "984d21defa5001d276aba8c0bffff649a9ec117f5cdd9ca2d199718d2a5b0684",
+      "bytes": 739
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/ardy_model.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/ardy_model.py",
+      "sha256": "3fc21ad6a53a41ad4f968f18e2d7f27d8212bf123544503cf21151bfd783b338",
+      "bytes": 34496
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/auto_latent_twostage_denoiser.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/auto_latent_twostage_denoiser.py",
+      "sha256": "7a5b49c90f46c9507f2175b9180de5bdd9c114743abbbe2771efc21066f25b00",
+      "bytes": 19905
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/autoencoder/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/autoencoder/__init__.py",
+      "sha256": "83379d29bca875b122df43be9f30d0210a8ade9a32c0f8b830ca2d19737376cc",
+      "bytes": 219
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/autoencoder/fsq.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/autoencoder/fsq.py",
+      "sha256": "f46306ba9610d57cfaf1d134ef96e9b17a48acf5b61d5d2342077aa06b6828f6",
+      "bytes": 10649
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/autoencoder/transformer.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/autoencoder/transformer.py",
+      "sha256": "245a9041f67a26c38d307d55568427773a0e3da477cd0b827b0dae0b42e00407",
+      "bytes": 12667
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/backbone.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/backbone.py",
+      "sha256": "16b55c5330a9cd46d6aff496222a479ee251a52bff401a7b568f29255bba3346",
+      "bytes": 22312
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/cfg.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/cfg.py",
+      "sha256": "d47c213f63d159d38b8df07a39a19c2bf8944474984a0086eda73916be2a8964",
+      "bytes": 11157
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/diffusion.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/diffusion.py",
+      "sha256": "783122d3d2782043e956f106ac420d601fcfb653ae4d60e0937f9b41b9887d70",
+      "bytes": 5591
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/latent_utils.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/latent_utils.py",
+      "sha256": "bbf6bf81bfbc96d6fcc225e99c2675bf5769a8d32a2840e6d9e4b6e444688bac",
+      "bytes": 9363
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/llm2vec/README.md",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/llm2vec/README.md",
+      "sha256": "9e13aa22d1fd91b49e443546f3f1d2d936c82728f75de96b0ce7c143e745c559",
+      "bytes": 207
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/llm2vec/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/llm2vec/__init__.py",
+      "sha256": "217714cb3a5cf5b3733feaec6e87d83a4191cd65eda6abecc2da827c5ce066ad",
+      "bytes": 312
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/llm2vec/llm2vec.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/llm2vec/llm2vec.py",
+      "sha256": "e3f78a9e931b2b4fea29b625b9570d1c45f71941c4104706b46ba0edc5b63436",
+      "bytes": 19620
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/llm2vec/llm2vec_wrapper.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/llm2vec/llm2vec_wrapper.py",
+      "sha256": "2d80c51d6d44048ec83d457bdf138b783bbe4342b52204b606790f41a367460e",
+      "bytes": 3614
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/llm2vec/models/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/llm2vec/models/__init__.py",
+      "sha256": "c47228e98e752ddaf3ad5b71967820fc276723a5518f2df0c06b45914f0d1961",
+      "bytes": 464
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/llm2vec/models/attn_mask_utils.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/llm2vec/models/attn_mask_utils.py",
+      "sha256": "ebac1133236a4d9cd56747d23c9c0355b3b9d0652910f6b60b01d773721aee98",
+      "bytes": 9420
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/llm2vec/models/bidirectional_llama.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/llm2vec/models/bidirectional_llama.py",
+      "sha256": "5d446109170e3aed437c5039661e6c23b3455ea5b3df866ece5b84bbd6fcfdca",
+      "bytes": 9491
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/llm2vec/models/utils.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/llm2vec/models/utils.py",
+      "sha256": "2a361b55e067ae450152920dcb5b5f9e4694ac91ac1a0aa325799bcb5ee37153",
+      "bytes": 2146
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/load_model.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/load_model.py",
+      "sha256": "3249c864d11f977056c191408a5b6e0670ac2ba4cfbff0acaac76b60e3e68554",
+      "bytes": 10165
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/loading.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/loading.py",
+      "sha256": "1857e14ed49423ca9f310ec6b428d25f10af7dbbd4897696fabc0923f6d177bc",
+      "bytes": 2459
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/registry.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/registry.py",
+      "sha256": "1a6a6552a7b47e881b94a99659092d966152cf8024736b26d316040621e03968",
+      "bytes": 4147
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/text_encoder_api.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/text_encoder_api.py",
+      "sha256": "2d9e4652ef85bd49a86abcad7c1c29cae871fd6d5730c286e145f49a94ff3f91",
+      "bytes": 2292
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/model/trt.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/model/trt.py",
+      "sha256": "44021ff563d758d123ba90bf3965ce26c68d85ca057ce477ea9ce899d97ba15f",
+      "bytes": 14874
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/motion_rep/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/motion_rep/__init__.py",
+      "sha256": "917ca1876a39df876484e2402c0dabe81ad79dc147e4f1b5be4e9cd865fbf933",
+      "bytes": 281
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/motion_rep/conditioning.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/motion_rep/conditioning.py",
+      "sha256": "cab545e3325065f4fe5a48a6b2dab807e37ebd22f6fc69e08930f98d542f1944",
+      "bytes": 1106
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/motion_rep/feet.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/motion_rep/feet.py",
+      "sha256": "a89a5b57cb7e505dd2ed35e2dbef9a326bd8831d922be8087f5ce6c2fc92fdb6",
+      "bytes": 1755
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/motion_rep/reps/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/motion_rep/reps/__init__.py",
+      "sha256": "2ec6e639d6690b5c41ef62f05dfd51f07a840f0a051026383cb0e321bba00bb8",
+      "bytes": 258
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/motion_rep/reps/ardy_motionrep.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/motion_rep/reps/ardy_motionrep.py",
+      "sha256": "83231aac1b2e77b34e3dcd3d71f97b92f5b73537d1d2ca8915b53128aa3b5980",
+      "bytes": 17090
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/motion_rep/reps/base.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/motion_rep/reps/base.py",
+      "sha256": "4c27eab1964402a2dba6d960a2fe0eab92ab9520d754e8b6c3ec045cdd1b52ab",
+      "bytes": 12386
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/motion_rep/smooth_root.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/motion_rep/smooth_root.py",
+      "sha256": "5776896446788655365f083b78ce715ab8853912b52e46374c4952e3751db711",
+      "bytes": 15303
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/motion_rep/stats.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/motion_rep/stats.py",
+      "sha256": "61e64fc70d54cc48e0ebe9cc80bbb932424f9ea8137e133a8495ea14b9b3340e",
+      "bytes": 4810
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/motion_rep/tools.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/motion_rep/tools.py",
+      "sha256": "58c7724e36853731b0767ef52f5349f3dd641a25fe23f72bbde93beb28351ff6",
+      "bytes": 7657
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/postprocess.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/postprocess.py",
+      "sha256": "646a495330548dbaca4911bf02fef33bec8b09e90da939161fc4258a7db843d4",
+      "bytes": 14681
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/skeleton/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/skeleton/__init__.py",
+      "sha256": "953be64bba3df61b6aee0e25032e5f0b5c969170dfefa68b7fccb6bc223361fb",
+      "bytes": 731
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/skeleton/base.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/skeleton/base.py",
+      "sha256": "cff3089f3ac38a8f1f8cbf88d6d087a08bba3b289ac42762ae03a44ecd109e4e",
+      "bytes": 10637
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/skeleton/bvh.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/skeleton/bvh.py",
+      "sha256": "2aeea04251713ab2757fdf1bcd978189707ba7f60c78ddb833c7000e36984bd8",
+      "bytes": 22350
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/skeleton/definitions.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/skeleton/definitions.py",
+      "sha256": "790ecd42819c3bc35e61631925671c5b8d757c1932045ab55bffb713db91033a",
+      "bytes": 13937
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/skeleton/kinematics.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/skeleton/kinematics.py",
+      "sha256": "7113ae39074b98e96f8d53310a1706c8c2e66ead8c5b1f3a8b83a0fbccb39aa7",
+      "bytes": 5865
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/skeleton/registry.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/skeleton/registry.py",
+      "sha256": "d0a13e96c5b2e12b63933275905e3dfc523af4507bd68d03bf1fd794078ef4bc",
+      "bytes": 1375
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/skeleton/transforms.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/skeleton/transforms.py",
+      "sha256": "b845b90bc1f6ac350cf7325d0bcd08e54f2ce4d255171c20ef3e5d0c32946969",
+      "bytes": 4683
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/tools.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/tools.py",
+      "sha256": "2b0f462a2be34a6e8d0adabdc663a9530c741ef052fae834daed4cdb90507983",
+      "bytes": 9751
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/viz/__init__.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/viz/__init__.py",
+      "sha256": "a43983b5b9c8d31ab92420124d5e507bf78bcbda8b752e4d07224ae42fc6df2a",
+      "bytes": 226
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/viz/core_skin.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/viz/core_skin.py",
+      "sha256": "670dc6be751b66a6e32b85f42d317078c61fcf32859ea2e401a44d9400e639c4",
+      "bytes": 4318
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/viz/g1_rig.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/viz/g1_rig.py",
+      "sha256": "2fbc523d0dfb9d0ed8ad09144b82ca31d8497530b7223c21f0101ceb4a76d7d7",
+      "bytes": 9033
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/viz/soma_skin.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/viz/soma_skin.py",
+      "sha256": "709b6057d68b15176c92af136f4152fdebff575401e56ebd80843dc9f33e9ff4",
+      "bytes": 5728
+    },
+    {
+      "source": "/data/group4/20261006-030300-codex-c87d21ab/src/ardy/ardy/viz/viser_utils.py",
+      "destination": "/data/group4/20261006-093203-codex-6385a841/src/ardy_runtime/ardy/viz/viser_utils.py",
+      "sha256": "65c4c6930f3ec9480ce581b23fbba4e518715e223f9a99d6a999a1ada55f8098",
+      "bytes": 114794
+    }
+  ],
+  "base_generator_sha": "0d879f6c0ec458ed7f9731d7927bb7ea577dc7b424a7bc640549536f73b5818d",
+  "environment": "/data/group4/20261004-205543-qoder-f5a4a02a/env-gen/bin/python",
+  "torch": "2.6.0+cpu",
+  "offline": true
+}

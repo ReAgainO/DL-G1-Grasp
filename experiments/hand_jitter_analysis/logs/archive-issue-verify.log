@@ -1,0 +1,5 @@
+convention=include-newline
+   数据行 968 | 问题 280 | JSON坏 0 | 空行 0 | 断链 0 | seq异常 0 | 缺字段 0 | state异常 0 | event异常 0 | 锚点缺失 0 | 锚点失配 0 | 锚点条数 0 | 锚点格式 0 | 视图问题数 0 | 视图事件数 0
+-- exit=0 (0=链/JSON/seq/字段/state/锚点逐条/视图 全部完整)
+
+STDERR

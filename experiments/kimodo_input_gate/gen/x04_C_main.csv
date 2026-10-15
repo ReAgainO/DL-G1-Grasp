@@ -1,0 +1,9 @@
+run_id,prompt_id,seed,cfg_text,csv_path,prompt_text,constraints_sha,baseline
+x04:K_M0_P0_s0,P0,0,2.0,/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P0_s0.csv,A person reaches forward with their right hand to grab a small object on a table.,fc82ff4a26466146d36c396d35158a173d929060a8ffe0c95f0ce918e6caaad6,1
+x04:K_M0_P0_s1,P0,1,2.0,/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P0_s1.csv,A person reaches forward with their right hand to grab a small object on a table.,fc82ff4a26466146d36c396d35158a173d929060a8ffe0c95f0ce918e6caaad6,1
+x04:K_M0_P2_s0,P2,0,2.0,/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P2_s0.csv,A person extends their right arm toward a small object resting on a table and takes it.,547d40b8cc45792633e34b92ada902b9c7262fca8bb3a51b0dad7bafe197c287,0
+x04:K_M0_P2_s1,P2,1,2.0,/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P2_s1.csv,A person extends their right arm toward a small object resting on a table and takes it.,547d40b8cc45792633e34b92ada902b9c7262fca8bb3a51b0dad7bafe197c287,0
+x04:K_M0_P3_s0,P3,0,2.0,/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P3_s0.csv,A person waters the plants on the balcony with their right hand.,90a968e0b429426c319b2a399ac7edcf45c6e6cb8aa459f25c64aacbbbf94f22,0
+x04:K_M0_P3_s1,P3,1,2.0,/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P3_s1.csv,A person waters the plants on the balcony with their right hand.,90a968e0b429426c319b2a399ac7edcf45c6e6cb8aa459f25c64aacbbbf94f22,0
+x04:K_M0_P5_s0,P5,0,2.0,/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P5_s0.csv,A person leans forward over a table and grabs a cup.,6da70c41317bcf37e7077d076b8ae639207855795de7e713b74a11b2ccb15e46,0
+x04:K_M0_P5_s1,P5,1,2.0,/data/group4/20261006-045000-qoder-x04kimodo/gen/K_M0_P5_s1.csv,A person leans forward over a table and grabs a cup.,6da70c41317bcf37e7077d076b8ae639207855795de7e713b74a11b2ccb15e46,0

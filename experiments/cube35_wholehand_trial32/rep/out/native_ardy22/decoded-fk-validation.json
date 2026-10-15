@@ -1,0 +1,121 @@
+{
+  "parity": {
+    "source_npz": "/data/group4/20261008-202654-codex-182c4568/rep/out/native_ardy22/generated_s42.npz",
+    "source_npz_sha256": "6d3cae6bc899b2274299e3264f3edcb55050422851bb2ae334ab0aaa36971120",
+    "source_fps": 25.0,
+    "native_frames": 200,
+    "native_clip_duration_s": 8.0,
+    "last_sample_time_s": 7.96,
+    "expected50Hz_frames": 399,
+    "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+    "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+    "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+    "text": "A humanoid robot stands balanced, reaches its right hand down to a small cube on a table, grasps the cube, and raises its right hand while keeping both feet planted.",
+    "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+    "paired_csv_sha256": "89d698e22eaae8cba7c0442138b5873ae068c762c6a18f287e68b347ee789f80",
+    "parity_joint_max_rad": 1.7881393432617188e-07,
+    "parity_root_translation_max_m": 0.0,
+    "parity_rotation_matrix_max": 1.5345921067222434e-07
+  },
+  "keyframe_actual_robot_fk": [
+    {
+      "frame": 0,
+      "planned_xyz": [
+        -0.022195948066673472,
+        -0.21898150002180347,
+        0.7694624690208415
+      ],
+      "decoded_fk_xyz": [
+        0.02675114133352086,
+        -0.25135840461282805,
+        0.7525680527435838
+      ],
+      "wrist_position_error_mm": 61.069655419006516,
+      "wrist_orientation_error_deg": 19.417281675755888,
+      "max_joint_limit_violation_rad": -0.031144995689392108
+    },
+    {
+      "frame": 60,
+      "planned_xyz": [
+        0.17406867150448366,
+        -0.12582900197459496,
+        0.9983171680236177
+      ],
+      "decoded_fk_xyz": [
+        0.15557193481165185,
+        -0.19478783611704206,
+        0.9631363617200683
+      ],
+      "wrist_position_error_mm": 79.59358772374404,
+      "wrist_orientation_error_deg": 18.559524290635462,
+      "max_joint_limit_violation_rad": -0.05176033496856691
+    },
+    {
+      "frame": 125,
+      "planned_xyz": [
+        0.16793744009156839,
+        -0.12699561166689013,
+        0.914345024157767
+      ],
+      "decoded_fk_xyz": [
+        0.1356181042736197,
+        -0.16308544705451045,
+        0.8868091581552178
+      ],
+      "wrist_position_error_mm": 55.72467678263569,
+      "wrist_orientation_error_deg": 12.484244041874053,
+      "max_joint_limit_violation_rad": -0.06761660099029543
+    },
+    {
+      "frame": 199,
+      "planned_xyz": [
+        0.16793736855040484,
+        -0.1270012299988222,
+        1.014344604920252
+      ],
+      "decoded_fk_xyz": [
+        0.14388017238602252,
+        -0.15132139083066742,
+        0.9856612184765485
+      ],
+      "wrist_position_error_mm": 44.642530932477634,
+      "wrist_orientation_error_deg": 14.393179916821053,
+      "max_joint_limit_violation_rad": -0.16336383342742922
+    }
+  ],
+  "all_frame_max_limit_violation_rad": 0.015893917083740217,
+  "native_keyframes_are_not_hard_guarantees": true,
+  "physical_success": false
+}

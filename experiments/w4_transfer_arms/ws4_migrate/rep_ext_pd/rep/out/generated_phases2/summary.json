@@ -1,0 +1,296 @@
+{
+ "device": "cpu",
+ "torch": "2.6.0+cpu",
+ "jobs": [
+  {
+   "stem": "reach_s43",
+   "prompt": "A person reaches forward with their right hand to grab a small object on a table.",
+   "seed": 43,
+   "duration_s": 4.0,
+   "num_frames": 100,
+   "constraints": false,
+   "n_constraints": 0,
+   "wall_s": 3.16,
+   "text_encode_s": 1.07,
+   "encode_calls": 1,
+   "new_embeds": 1,
+   "cond_s": 0.0,
+   "qpos_shape": [
+    100,
+    36
+   ],
+   "cfg_weight": [
+    2.0,
+    2.0
+   ],
+   "peak_rss_mib": 14891.6,
+   "root_final_xyz": [
+    0.0001,
+    0.0043,
+    0.7807
+   ],
+   "root_z_min_max": [
+    0.7801,
+    0.7817
+   ],
+   "wrist_final_xyz": [
+    0.1736,
+    -0.0997,
+    0.9018
+   ],
+   "wrist_rel_final_xyz": [
+    0.1735,
+    -0.104,
+    0.1211
+   ],
+   "wrist_rel_best_xyz": [
+    0.3234,
+    -0.089,
+    -0.0275
+   ],
+   "wrist_rel_max_forward": 0.3234,
+   "wrist_z_min_max": [
+    0.7138,
+    0.9031
+   ],
+   "wrist_z_last5": [
+    0.9022,
+    0.9015,
+    0.9017,
+    0.9019,
+    0.9018
+   ]
+  },
+  {
+   "stem": "lift_s42",
+   "prompt": "A standing person slowly lifts a small object upward with their right hand and keeps the left arm relaxed.",
+   "seed": 42,
+   "duration_s": 4.0,
+   "num_frames": 100,
+   "constraints": false,
+   "n_constraints": 0,
+   "wall_s": 2.84,
+   "text_encode_s": 0.76,
+   "encode_calls": 1,
+   "new_embeds": 1,
+   "cond_s": 0.0,
+   "qpos_shape": [
+    100,
+    36
+   ],
+   "cfg_weight": [
+    2.0,
+    2.0
+   ],
+   "peak_rss_mib": 14893.8,
+   "root_final_xyz": [
+    -0.0042,
+    -0.0041,
+    0.788
+   ],
+   "root_z_min_max": [
+    0.7862,
+    0.7889
+   ],
+   "wrist_final_xyz": [
+    0.1658,
+    -0.1333,
+    0.9829
+   ],
+   "wrist_rel_final_xyz": [
+    0.17,
+    -0.1292,
+    0.1949
+   ],
+   "wrist_rel_best_xyz": [
+    0.4403,
+    -0.0495,
+    0.2908
+   ],
+   "wrist_rel_max_forward": 0.4403,
+   "wrist_z_min_max": [
+    0.7231,
+    1.3233
+   ],
+   "wrist_z_last5": [
+    1.1179,
+    1.078,
+    1.0442,
+    1.0107,
+    0.9829
+   ]
+  },
+  {
+   "stem": "hold_s42",
+   "prompt": "A standing person holds a small object steadily in their right hand in front of the chest.",
+   "seed": 42,
+   "duration_s": 4.0,
+   "num_frames": 100,
+   "constraints": false,
+   "n_constraints": 0,
+   "wall_s": 2.78,
+   "text_encode_s": 0.77,
+   "encode_calls": 1,
+   "new_embeds": 1,
+   "cond_s": 0.0,
+   "qpos_shape": [
+    100,
+    36
+   ],
+   "cfg_weight": [
+    2.0,
+    2.0
+   ],
+   "peak_rss_mib": 14894.5,
+   "root_final_xyz": [
+    -0.0123,
+    -0.0103,
+    0.7853
+   ],
+   "root_z_min_max": [
+    0.7852,
+    0.7865
+   ],
+   "wrist_final_xyz": [
+    0.1928,
+    -0.0983,
+    0.9643
+   ],
+   "wrist_rel_final_xyz": [
+    0.2052,
+    -0.088,
+    0.1789
+   ],
+   "wrist_rel_best_xyz": [
+    0.2178,
+    -0.084,
+    0.1933
+   ],
+   "wrist_rel_max_forward": 0.2178,
+   "wrist_z_min_max": [
+    0.9643,
+    0.9858
+   ],
+   "wrist_z_last5": [
+    0.9656,
+    0.9659,
+    0.9653,
+    0.9648,
+    0.9643
+   ]
+  },
+  {
+   "stem": "release_s42",
+   "prompt": "A standing person slowly lowers their right hand to place a small object back on a table.",
+   "seed": 42,
+   "duration_s": 4.0,
+   "num_frames": 100,
+   "constraints": false,
+   "n_constraints": 0,
+   "wall_s": 2.81,
+   "text_encode_s": 0.8,
+   "encode_calls": 1,
+   "new_embeds": 1,
+   "cond_s": 0.0,
+   "qpos_shape": [
+    100,
+    36
+   ],
+   "cfg_weight": [
+    2.0,
+    2.0
+   ],
+   "peak_rss_mib": 14894.7,
+   "root_final_xyz": [
+    -0.0117,
+    -0.0118,
+    0.7864
+   ],
+   "root_z_min_max": [
+    0.7864,
+    0.789
+   ],
+   "wrist_final_xyz": [
+    0.047,
+    -0.2044,
+    0.7122
+   ],
+   "wrist_rel_final_xyz": [
+    0.0587,
+    -0.1926,
+    -0.0742
+   ],
+   "wrist_rel_best_xyz": [
+    0.2816,
+    -0.1127,
+    -0.059
+   ],
+   "wrist_rel_max_forward": 0.2816,
+   "wrist_z_min_max": [
+    0.7115,
+    0.9509
+   ],
+   "wrist_z_last5": [
+    0.712,
+    0.712,
+    0.7121,
+    0.7121,
+    0.7122
+   ]
+  }
+ ],
+ "enc_mode": "stacked",
+ "textencoder_load_s": 68.8,
+ "rss_after_textenc_mib": 14637.7,
+ "model_load_s": 0.7,
+ "rss_after_model_mib": 14637.7,
+ "peak_rss_mib_to_date": 14637.7,
+ "fps": 25.0,
+ "gen_horizon_len": 52,
+ "num_frames_per_token": 4,
+ "num_base_steps": 10,
+ "skeleton_cls": "G1Skeleton34",
+ "nbjoints": 34,
+ "bone_names": [
+  "pelvis_skel",
+  "left_hip_pitch_skel",
+  "left_hip_roll_skel",
+  "left_hip_yaw_skel",
+  "left_knee_skel",
+  "left_ankle_pitch_skel",
+  "left_ankle_roll_skel",
+  "left_toe_base",
+  "right_hip_pitch_skel",
+  "right_hip_roll_skel",
+  "right_hip_yaw_skel",
+  "right_knee_skel",
+  "right_ankle_pitch_skel",
+  "right_ankle_roll_skel",
+  "right_toe_base",
+  "waist_yaw_skel",
+  "waist_roll_skel",
+  "waist_pitch_skel",
+  "left_shoulder_pitch_skel",
+  "left_shoulder_roll_skel",
+  "left_shoulder_yaw_skel",
+  "left_elbow_skel",
+  "left_wrist_roll_skel",
+  "left_wrist_pitch_skel",
+  "left_wrist_yaw_skel",
+  "left_hand_roll_skel",
+  "right_shoulder_pitch_skel",
+  "right_shoulder_roll_skel",
+  "right_shoulder_yaw_skel",
+  "right_elbow_skel",
+  "right_wrist_roll_skel",
+  "right_wrist_pitch_skel",
+  "right_wrist_yaw_skel",
+  "right_hand_roll_skel"
+ ],
+ "wrist_bone": "right_wrist_yaw_skel",
+ "peak_rss_mib_final": 14894.7,
+ "rss_samples": 162,
+ "ru_maxrss_mib": 15466.7,
+ "ru_utime_s": 125.7,
+ "ru_stime_s": 80.7
+}

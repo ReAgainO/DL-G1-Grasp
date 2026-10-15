@@ -1,0 +1,69 @@
+[
+  {
+    "stage": "plan",
+    "rc": 0,
+    "wall_s": 141.46790027618408,
+    "command": [
+      "timeout",
+      "--kill-after=5",
+      "180",
+      "taskset",
+      "-c",
+      "82,83",
+      "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+      "-B",
+      "/data/group4/20261009-021611-codex-415484ce/batch_plan.py",
+      "--config",
+      "/data/group4/20261009-021611-codex-415484ce/pilots/PRAND2.json"
+    ],
+    "pid": 2657176,
+    "log": "/data/group4/20261009-021611-codex-415484ce/logs/PRAND2-plan.log",
+    "log_sha": "e69a60b4b5093cd3ee2bc41ee77a6717969ebfdeec04998b3786151ddc4608f8"
+  },
+  {
+    "stage": "physics",
+    "rc": 0,
+    "wall_s": 109.20456838607788,
+    "command": [
+      "timeout",
+      "--kill-after=5",
+      "600",
+      "taskset",
+      "-c",
+      "82,83",
+      "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+      "-B",
+      "/data/group4/20261009-021611-codex-415484ce/execute_batch.py",
+      "--plan",
+      "plan_PRAND2",
+      "--name",
+      "PRAND2",
+      "--native-mesh",
+      "--retract-raise",
+      "--wrist-servo"
+    ],
+    "pid": 2664938,
+    "log": "/data/group4/20261009-021611-codex-415484ce/logs/PRAND2-physics.log",
+    "log_sha": "6d59f04f8e7dabf43ae549680ea6e5ba7705241893c237d86c115db3c0e5453f"
+  },
+  {
+    "stage": "render",
+    "rc": 0,
+    "wall_s": 179.72191786766052,
+    "command": [
+      "timeout",
+      "--kill-after=5",
+      "600",
+      "taskset",
+      "-c",
+      "82,83",
+      "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+      "-B",
+      "/data/group4/20261009-021611-codex-415484ce/render_batch.py",
+      "PRAND2"
+    ],
+    "pid": 2671323,
+    "log": "/data/group4/20261009-021611-codex-415484ce/logs/PRAND2-render.log",
+    "log_sha": "4809fe79287e5f941db68ee72ae192c64f2882efcb22ec1c5fe6a7f2818aad54"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "stage": "plan",
+    "rc": 0,
+    "wall_s": 50.76586413383484,
+    "command": [
+      "timeout",
+      "--kill-after=5",
+      "180",
+      "taskset",
+      "-c",
+      "86,87",
+      "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+      "-B",
+      "/data/group4/20261009-021611-codex-415484ce/batch_plan.py",
+      "--config",
+      "/data/group4/20261009-021611-codex-415484ce/pilots/PBACK2.json"
+    ],
+    "pid": 2657182,
+    "log": "/data/group4/20261009-021611-codex-415484ce/logs/PBACK2-plan.log",
+    "log_sha": "a7294545344a7152055837442cce336cff6792bf765c035ade3e4848eeb6b867"
+  },
+  {
+    "stage": "physics",
+    "rc": 0,
+    "wall_s": 113.56592917442322,
+    "command": [
+      "timeout",
+      "--kill-after=5",
+      "600",
+      "taskset",
+      "-c",
+      "86,87",
+      "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+      "-B",
+      "/data/group4/20261009-021611-codex-415484ce/execute_batch.py",
+      "--plan",
+      "plan_PBACK2",
+      "--name",
+      "PBACK2",
+      "--native-mesh",
+      "--retract-raise",
+      "--wrist-servo"
+    ],
+    "pid": 2659349,
+    "log": "/data/group4/20261009-021611-codex-415484ce/logs/PBACK2-physics.log",
+    "log_sha": "af44270980c3c4e26ed6d68e8c6048f57321db9a343ce21208e8b1946cd53fce"
+  },
+  {
+    "stage": "render",
+    "rc": 0,
+    "wall_s": 184.36252331733704,
+    "command": [
+      "timeout",
+      "--kill-after=5",
+      "600",
+      "taskset",
+      "-c",
+      "86,87",
+      "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+      "-B",
+      "/data/group4/20261009-021611-codex-415484ce/render_batch.py",
+      "PBACK2"
+    ],
+    "pid": 2665630,
+    "log": "/data/group4/20261009-021611-codex-415484ce/logs/PBACK2-render.log",
+    "log_sha": "7bb1bec8b58c7fc9c5fd3434295820ace4e67cc5d9c8c6aa59644eed89581cf8"
+  }
+]

@@ -1,0 +1,19 @@
+{
+ "dt": 0.002,
+ "generated": "2026-10-08T22:46:20+0800",
+ "hostname": "worker00039",
+ "model_sha": "2d41a3c6783fbf9e17349608d9c2222d970163b1db315ce9f30c4a97631fc078",
+ "model_xml": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/model/unitree_g1/g1_with_hands.xml",
+ "mujoco_version": "3.2.7",
+ "n_frames": 107,
+ "note": "video rendered with the same mujoco version as the run",
+ "numpy_version": "2.2.6",
+ "omp_num_threads": "1",
+ "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+ "scene_generator_sha": "89b3b4d1b11cf53fc3a3ee66f49d85c21f5d6cd1bd38b281dd8b8a2b4cfa5e51",
+ "sys_executable": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/env/bin/python",
+ "tag": "vid_e20_negctl_0",
+ "taskid": "20261008-221515-qoder-03c4673f",
+ "video": "video/e20_negctl_0.mp4",
+ "worker": "ws1"
+}

@@ -1,0 +1,283 @@
+{
+  "device": "cpu",
+  "torch": "2.6.0+cpu",
+  "jobs": [
+    {
+      "stem": "guided_cfg4_s42",
+      "prompt": "A person reaches forward with their right hand, grasps a small cube on a table, lifts it gently, holds it steady, and releases it.",
+      "seed": 42,
+      "duration_s": 23.0,
+      "num_frames": 575,
+      "constraints": true,
+      "n_constraints": 3,
+      "wall_s": 21.41,
+      "text_encode_s": 0.48,
+      "encode_calls": 1,
+      "new_embeds": 1,
+      "cond_s": 0.01,
+      "qpos_shape": [
+        575,
+        36
+      ],
+      "cfg_weight": [
+        2.0,
+        4.0
+      ],
+      "peak_rss_mib": 14960.6,
+      "root_final_xyz": [
+        -0.07,
+        0.0226,
+        0.7725
+      ],
+      "root_z_min_max": [
+        0.7379,
+        0.7928
+      ],
+      "wrist_final_xyz": [
+        0.1373,
+        -0.3818,
+        0.9641
+      ],
+      "wrist_rel_final_xyz": [
+        0.2074,
+        -0.4044,
+        0.1916
+      ],
+      "wrist_rel_best_xyz": [
+        0.2936,
+        -0.1717,
+        0.0832
+      ],
+      "wrist_rel_max_forward": 0.2936,
+      "wrist_z_min_max": [
+        0.6093,
+        0.9731
+      ],
+      "wrist_z_last5": [
+        0.8523,
+        0.8332,
+        0.7799,
+        0.8891,
+        0.9641
+      ]
+    },
+    {
+      "stem": "guided_cfg8_s42",
+      "prompt": "A person reaches forward with their right hand, grasps a small cube on a table, lifts it gently, holds it steady, and releases it.",
+      "seed": 42,
+      "duration_s": 23.0,
+      "num_frames": 575,
+      "constraints": true,
+      "n_constraints": 3,
+      "wall_s": 18.83,
+      "text_encode_s": 0.0,
+      "encode_calls": 1,
+      "new_embeds": 0,
+      "cond_s": 0.01,
+      "qpos_shape": [
+        575,
+        36
+      ],
+      "cfg_weight": [
+        2.0,
+        8.0
+      ],
+      "peak_rss_mib": 14982.3,
+      "root_final_xyz": [
+        0.0796,
+        0.1758,
+        0.866
+      ],
+      "root_z_min_max": [
+        0.6025,
+        1.774
+      ],
+      "wrist_final_xyz": [
+        0.4905,
+        0.3618,
+        0.7462
+      ],
+      "wrist_rel_final_xyz": [
+        0.4109,
+        0.1861,
+        -0.1198
+      ],
+      "wrist_rel_best_xyz": [
+        0.616,
+        -0.0024,
+        0.0492
+      ],
+      "wrist_rel_max_forward": 0.616,
+      "wrist_z_min_max": [
+        0.633,
+        1.9581
+      ],
+      "wrist_z_last5": [
+        0.7732,
+        0.8356,
+        0.7075,
+        0.7758,
+        0.7462
+      ]
+    }
+  ],
+  "enc_mode": "stacked",
+  "textencoder_load_s": 56.8,
+  "rss_after_textenc_mib": 14677.3,
+  "model_load_s": 0.5,
+  "rss_after_model_mib": 14677.3,
+  "peak_rss_mib_to_date": 14677.3,
+  "fps": 25.0,
+  "gen_horizon_len": 52,
+  "num_frames_per_token": 4,
+  "num_base_steps": 10,
+  "skeleton_cls": "G1Skeleton34",
+  "nbjoints": 34,
+  "bone_names": [
+    "pelvis_skel",
+    "left_hip_pitch_skel",
+    "left_hip_roll_skel",
+    "left_hip_yaw_skel",
+    "left_knee_skel",
+    "left_ankle_pitch_skel",
+    "left_ankle_roll_skel",
+    "left_toe_base",
+    "right_hip_pitch_skel",
+    "right_hip_roll_skel",
+    "right_hip_yaw_skel",
+    "right_knee_skel",
+    "right_ankle_pitch_skel",
+    "right_ankle_roll_skel",
+    "right_toe_base",
+    "waist_yaw_skel",
+    "waist_roll_skel",
+    "waist_pitch_skel",
+    "left_shoulder_pitch_skel",
+    "left_shoulder_roll_skel",
+    "left_shoulder_yaw_skel",
+    "left_elbow_skel",
+    "left_wrist_roll_skel",
+    "left_wrist_pitch_skel",
+    "left_wrist_yaw_skel",
+    "left_hand_roll_skel",
+    "right_shoulder_pitch_skel",
+    "right_shoulder_roll_skel",
+    "right_shoulder_yaw_skel",
+    "right_elbow_skel",
+    "right_wrist_roll_skel",
+    "right_wrist_pitch_skel",
+    "right_wrist_yaw_skel",
+    "right_hand_roll_skel"
+  ],
+  "wrist_bone": "right_wrist_yaw_skel",
+  "peak_rss_mib_final": 14982.3,
+  "rss_samples": 195,
+  "ru_maxrss_mib": 15457.1,
+  "ru_utime_s": 417.6,
+  "ru_stime_s": 89.8,
+  "weight_sha": {
+    "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/config.yaml": "d34bcd2a43e5bade030e2779bd11e0c3d8ce7eeea6b636e7504efe9a404ec757",
+    "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/denoiser.safetensors": "0c16ac26c1ab75e511cd24bb25bd9ad92078a2460b4ce78529788b5da22647a2",
+    "/home/group4/group4_dasc7606c/weights/ardy_ckpt/ARDY-G1-RP-25FPS-Horizon52/tokenizer.safetensors": "6f2f75f738b8d6fb1b196d3253c7accc90494b9c12669b35968425fef54c8896"
+  },
+  "guidance_sha": "381526b728f669d777b8b9ba6edb80735fd57703d1c6f848229dbd0440f761c3",
+  "generator_sha": "0d879f6c0ec458ed7f9731d7927bb7ea577dc7b424a7bc640549536f73b5818d",
+  "conditions_meta": {
+    "description": "ARDY generation conditioned on successful fixed-mount approach, grasp and lift poses",
+    "manual_guidance": true,
+    "fullbody_frames": [
+      0,
+      25,
+      50,
+      75,
+      100,
+      125,
+      150,
+      175,
+      200,
+      225,
+      250,
+      275,
+      300,
+      325,
+      350,
+      375,
+      400,
+      425,
+      450,
+      475,
+      500,
+      525,
+      550,
+      574
+    ],
+    "right_hand_frames": [
+      0,
+      25,
+      50,
+      75,
+      100,
+      125,
+      150,
+      175,
+      200,
+      225,
+      250,
+      275,
+      300,
+      305,
+      310,
+      315,
+      320,
+      325,
+      330,
+      335,
+      340,
+      345,
+      350,
+      375,
+      400,
+      425,
+      430,
+      435,
+      440,
+      445,
+      450,
+      455,
+      460,
+      465,
+      470,
+      475,
+      480,
+      485,
+      490,
+      495,
+      500,
+      505,
+      510,
+      515,
+      520,
+      525,
+      530,
+      535,
+      540,
+      545,
+      550,
+      555,
+      560,
+      565,
+      570,
+      574
+    ],
+    "pelvis_condition_frames": 575,
+    "qpos_roundtrip_max_joint_error_rad": 1.9134208839588496e-07,
+    "runtime_control": "No direct use of these keyframes in ARDY physics controller",
+    "classes": [
+      "EndEffectorConstraintSet",
+      "FullBodyConstraintSet",
+      "RightHandConstraintSet"
+    ],
+    "fps": 25,
+    "frame_count": 575
+  }
+}

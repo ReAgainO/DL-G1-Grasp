@@ -1,0 +1,18 @@
+{
+  "source": "/data/group4/20261009-003148-codex-363f6327/out/side80_native3",
+  "source_trajectory_sha": "5f0848001c35a04506b5d54f13886407e64287e0e18818e9ebde58b6c57f7d10",
+  "source_result_sha": "576a1cf6868ee593f738f74f73858253fae06e47de3a5bce3f3d3676ee7ce5f7",
+  "replay_only": true,
+  "physical_steps": 0,
+  "frames": 238,
+  "fps": 12.5,
+  "source_time_range_s": [
+    34.0,
+    52.96
+  ],
+  "mujoco_version": "3.2.7",
+  "renderer_sha": "b8022d35481a02bfad1a1afcbe58af248a9f8f239da9d4fd692e9390c0ec2f57",
+  "video_sha": "0b4eb2ccd1b46c6ba8ed7dcd9853d20db88de1b1a84a5b072b5bd8af001adc0d",
+  "video_bytes": 913652,
+  "decode_verified": true
+}

@@ -1,0 +1,56 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "dt": 0.002,
+    "model_sha": {
+      "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+      "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+    },
+    "scene_generator_sha": "6c0c6e4d348c5d9d3ba3cc4feca820625470840824dde59a640caee6f005c0e0",
+    "library_sha": {
+      "sonic_grasp": "788fa70d5e556f0b2fe6ba500f660063ed6324b33a54d65842873bc703c62062",
+      "table_placement": "e1b5e88d4bdd0f0cce8a3dbd78e940c51976d2539caf4f99a4217a8cb9391477",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    }
+  },
+  "physical_steps": 0,
+  "passed": true,
+  "checks": [
+    "default_scene_bitwise_same_as_matched_positive",
+    "default_robot_bitwise_same_as_matched_positive",
+    "free_robot_dimensions_unchanged",
+    "robot_XML_not_changed_by_table_front",
+    "collision_masks_unchanged",
+    "robot_cube_masses_inertias_and_all_friction_unchanged",
+    "table_is_static_world_child_without_joints",
+    "same_generalized_mass_matrix_at_identical_state",
+    "same_initial_height_and_back_edge",
+    "new_front240mm_and_full_cube_footprint_supported",
+    "cube_freejoint_not_welded_or_teleported",
+    "no_external_applied_forces",
+    "invalid_front_rejected_0.22",
+    "invalid_front_rejected_0.246",
+    "invalid_front_rejected_nan"
+  ],
+  "static_table_compiled_mass_kg": {
+    "before": 42.52000000000001,
+    "after": 42.07000000000001
+  },
+  "static_table_compiled_inertia_kg_m2": {
+    "before": [
+      5.96081768659614,
+      5.560682640716496,
+      3.659959660645971
+    ],
+    "after": [
+      5.897381581541039,
+      5.506491147632567,
+      3.6030820625069353
+    ]
+  },
+  "static_inertia_note": "Compiler infers table mass/inertia from changed tabletop geometry. This static world child has no joints; robot/cube inertias and generalized mass matrix are unchanged. Earlier all-body equality test failed and is preserved.",
+  "cube_front_support_margin_m": 0.009499999999999953,
+  "scope": "Geometry/structure only. Dynamic contact, grasp and balance must be physically tested."
+}

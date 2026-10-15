@@ -1,0 +1,20 @@
+{
+  "started": "2026-10-09T01:06:39.689025+08:00",
+  "command": [
+    "timeout",
+    "900",
+    "taskset",
+    "-c",
+    "82,83",
+    "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "-B",
+    "/data/group4/20261009-003148-codex-363f6327/execute_side.py",
+    "--plan",
+    "side80_open7",
+    "--name",
+    "side80_sonic1"
+  ],
+  "returncode": 0,
+  "finished": "2026-10-09T01:08:00.539858+08:00",
+  "log": "/data/group4/20261009-003148-codex-363f6327/logs/physics1.log"
+}

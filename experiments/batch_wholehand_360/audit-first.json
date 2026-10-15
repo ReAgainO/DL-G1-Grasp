@@ -1,0 +1,37 @@
+{
+  "mujoco_version": "3.2.7",
+  "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+  "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+  "manifest_sha": "1757e01b98747133052fe06f97f44c485e043277fb276e0c9df2ab8b6621b3b3",
+  "audit_source_sha": "33814f91d127d771ff01091a8f27ff739558a1b62cbd7899c2a8b2df3c934aaf",
+  "checked": 1,
+  "failures": [],
+  "trial_checks": [
+    {
+      "id": "A000",
+      "classification": "physics_success",
+      "native7_eachhand_and_palm_active": true,
+      "no_sphere_contact": true,
+      "runtime_hashes_verified": true,
+      "config_verified": true,
+      "success": true,
+      "source_npz_sha": "f775ddd5e5c27b1f3fdfc1cd335821fe5b4c31210242291fe9d57df6376e5595",
+      "model_sha": {
+        "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+        "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+      },
+      "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+      "dt": 0.001,
+      "runtime_gate_consistency": true
+    }
+  ],
+  "fixed_A_arrays_bitwise_equal": {
+    "A000": true
+  },
+  "ablation_pairs": [],
+  "evidence_limits": [
+    "sampled qpos is post-step; gate/contact force values are original1ms evaluation-stage records",
+    "object-state write prohibition is source audit, not an instrumentation hook",
+    "no second MuJoCo version and no native fullbody ARDY causal claim"
+  ]
+}

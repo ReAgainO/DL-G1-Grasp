@@ -1,0 +1,225 @@
+{
+ "device": "cpu",
+ "torch": "2.6.0+cpu",
+ "jobs": [
+  {
+   "stem": "control_s42",
+   "prompt": "A person reaches forward with their right hand to grab a small object on a table.",
+   "seed": 42,
+   "duration_s": 4.0,
+   "num_frames": 100,
+   "constraints": false,
+   "n_constraints": 0,
+   "wall_s": 1.87,
+   "text_encode_s": 0.57,
+   "encode_calls": 1,
+   "new_embeds": 1,
+   "cond_s": 0.0,
+   "qpos_shape": [
+    100,
+    36
+   ],
+   "peak_rss_mib": 14894.2,
+   "root_final_xyz": [
+    -0.0046,
+    -0.0047,
+    0.7861
+   ],
+   "root_z_min_max": [
+    0.7856,
+    0.7868
+   ],
+   "wrist_final_xyz": [
+    0.1519,
+    -0.0858,
+    0.8951
+   ],
+   "wrist_rel_final_xyz": [
+    0.1565,
+    -0.0811,
+    0.109
+   ],
+   "wrist_rel_best_xyz": [
+    0.3335,
+    -0.0587,
+    -0.007
+   ],
+   "wrist_rel_max_forward": 0.3335,
+   "wrist_z_min_max": [
+    0.7156,
+    0.9021
+   ],
+   "wrist_z_last5": [
+    0.8952,
+    0.8949,
+    0.8951,
+    0.8953,
+    0.8951
+   ]
+  },
+  {
+   "stem": "near_s42",
+   "prompt": "A person reaches forward with their right hand to grab a small object on a table.",
+   "seed": 42,
+   "duration_s": 4.0,
+   "num_frames": 100,
+   "constraints": true,
+   "n_constraints": 1,
+   "wall_s": 1.29,
+   "text_encode_s": 0.0,
+   "encode_calls": 1,
+   "new_embeds": 0,
+   "cond_s": 0.0,
+   "qpos_shape": [
+    100,
+    36
+   ],
+   "peak_rss_mib": 14896.2,
+   "root_final_xyz": [
+    0.0017,
+    -0.0135,
+    0.7863
+   ],
+   "root_z_min_max": [
+    0.7861,
+    0.7882
+   ],
+   "wrist_final_xyz": [
+    0.1456,
+    -0.113,
+    0.8413
+   ],
+   "wrist_rel_final_xyz": [
+    0.1439,
+    -0.0995,
+    0.0551
+   ],
+   "wrist_rel_best_xyz": [
+    0.2808,
+    -0.0893,
+    -0.0448
+   ],
+   "wrist_rel_max_forward": 0.2808,
+   "wrist_z_min_max": [
+    0.7142,
+    0.8476
+   ],
+   "wrist_z_last5": [
+    0.8424,
+    0.8419,
+    0.842,
+    0.8418,
+    0.8413
+   ]
+  },
+  {
+   "stem": "far_s42",
+   "prompt": "A person reaches forward with their right hand to grab a small object on a table.",
+   "seed": 42,
+   "duration_s": 4.0,
+   "num_frames": 100,
+   "constraints": true,
+   "n_constraints": 1,
+   "wall_s": 1.28,
+   "text_encode_s": 0.0,
+   "encode_calls": 1,
+   "new_embeds": 0,
+   "cond_s": 0.0,
+   "qpos_shape": [
+    100,
+    36
+   ],
+   "peak_rss_mib": 14896.2,
+   "root_final_xyz": [
+    0.1168,
+    -0.0333,
+    0.789
+   ],
+   "root_z_min_max": [
+    0.7851,
+    0.791
+   ],
+   "wrist_final_xyz": [
+    0.2786,
+    -0.1267,
+    0.842
+   ],
+   "wrist_rel_final_xyz": [
+    0.1619,
+    -0.0934,
+    0.0529
+   ],
+   "wrist_rel_best_xyz": [
+    0.2742,
+    -0.0951,
+    -0.0435
+   ],
+   "wrist_rel_max_forward": 0.2742,
+   "wrist_z_min_max": [
+    0.716,
+    0.8479
+   ],
+   "wrist_z_last5": [
+    0.8411,
+    0.8421,
+    0.8424,
+    0.8424,
+    0.842
+   ]
+  }
+ ],
+ "enc_mode": "stacked",
+ "textencoder_load_s": 54.7,
+ "rss_after_textenc_mib": 14635.2,
+ "model_load_s": 0.6,
+ "rss_after_model_mib": 14635.2,
+ "peak_rss_mib_to_date": 14635.2,
+ "fps": 25.0,
+ "gen_horizon_len": 52,
+ "num_frames_per_token": 4,
+ "num_base_steps": 10,
+ "skeleton_cls": "G1Skeleton34",
+ "nbjoints": 34,
+ "bone_names": [
+  "pelvis_skel",
+  "left_hip_pitch_skel",
+  "left_hip_roll_skel",
+  "left_hip_yaw_skel",
+  "left_knee_skel",
+  "left_ankle_pitch_skel",
+  "left_ankle_roll_skel",
+  "left_toe_base",
+  "right_hip_pitch_skel",
+  "right_hip_roll_skel",
+  "right_hip_yaw_skel",
+  "right_knee_skel",
+  "right_ankle_pitch_skel",
+  "right_ankle_roll_skel",
+  "right_toe_base",
+  "waist_yaw_skel",
+  "waist_roll_skel",
+  "waist_pitch_skel",
+  "left_shoulder_pitch_skel",
+  "left_shoulder_roll_skel",
+  "left_shoulder_yaw_skel",
+  "left_elbow_skel",
+  "left_wrist_roll_skel",
+  "left_wrist_pitch_skel",
+  "left_wrist_yaw_skel",
+  "left_hand_roll_skel",
+  "right_shoulder_pitch_skel",
+  "right_shoulder_roll_skel",
+  "right_shoulder_yaw_skel",
+  "right_elbow_skel",
+  "right_wrist_roll_skel",
+  "right_wrist_pitch_skel",
+  "right_wrist_yaw_skel",
+  "right_hand_roll_skel"
+ ],
+ "wrist_bone": "right_wrist_yaw_skel",
+ "peak_rss_mib_final": 14896.2,
+ "rss_samples": 119,
+ "ru_maxrss_mib": 15465.8,
+ "ru_utime_s": 125.1,
+ "ru_stime_s": 89.4
+}

@@ -1,0 +1,42 @@
+[
+ {
+  "cell": "wb_nat2_n4_off",
+  "stem": "n4_conv",
+  "native_orient": "off",
+  "success": true,
+  "gates_pass": 20,
+  "failed": [],
+  "max_lift_m": 0.1412889420280138,
+  "table_N": null,
+  "err": "AttributeError: 'list' object has no attribute 'mean'"
+ },
+ {
+  "cell": "wb_nat2_n4_on",
+  "stem": "n4_conv",
+  "native_orient": "on",
+  "success": null,
+  "failed": [
+   "NO_RESULT_JSON"
+  ]
+ },
+ {
+  "cell": "wb_nat2_p6_off",
+  "stem": "p6_conv",
+  "native_orient": "off",
+  "success": true,
+  "gates_pass": 20,
+  "failed": [],
+  "max_lift_m": 0.1439862432245319,
+  "table_N": null,
+  "err": "AttributeError: 'list' object has no attribute 'mean'"
+ },
+ {
+  "cell": "wb_nat2_p6_on",
+  "stem": "p6_conv",
+  "native_orient": "on",
+  "success": null,
+  "failed": [
+   "NO_RESULT_JSON"
+  ]
+ }
+]

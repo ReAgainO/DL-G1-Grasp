@@ -1,0 +1,12 @@
+{
+ "text": "A person walks forward, squats down and grabs an object from the ground with their right hand, then stands up and lifts it high.",
+ "duration": 7.0,
+ "num_samples": 1,
+ "seed": 0,
+ "diffusion_steps": 100,
+ "cfg": {
+  "enabled": true,
+  "text_weight": 2.0,
+  "constraint_weight": 1.5
+ }
+}

@@ -1,0 +1,755 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.14.0",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22",
+    "model_sha": {
+      "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+      "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+    },
+    "scene_generator_sha": "93a9f38949bb542c378b900de45e8209c85b703996ef09113973d02a4eeec13e",
+    "library_versions": {
+      "numpy": "1.26.4",
+      "onnxruntime": "1.23.2"
+    },
+    "library_sha": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+      "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "native_npz": "feaf256b8e97bb7c37a45149d624d277549519a8db1f522dbee431edcdaa21d4",
+      "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+      "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+      "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+      "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+      "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+      "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+      "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+      "adaptive_hand": "892bff4b931f9df1836d685b2cea0a233783f32cfdf8738e51cf41aeb038986f",
+      "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+      "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+      "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4",
+      "table_placement": "e1b5e88d4bdd0f0cce8a3dbd78e940c51976d2539caf4f99a4217a8cb9391477",
+      "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+      "setdown_plan": "5dd156238a40b06909e2c760dfbfc516c76e9af7793edf7c6fd07020d34dd521",
+      "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+      "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+      "neutral_pose": "76e534e278960796a08b1459345fd48f2898b1b18977e2f00fe3c1af47ab04b2",
+      "execution_monitor": "dd9d078527e2551a15202322c7bd53eb98eb0dc22a013633dfa74a062a00cf0d",
+      "clearance_approach": "94356a8088bd16da207caec9d220980cd4be335fb421ed7a4109274dfb449020",
+      "motion_profile": "ec830274ba547e49bfab4f9dc25da310711e6fde885e5b118654d04b31288b01",
+      "native_branch": "3200af709404873baf07ff36042b13b8131555c5290af7bd9a410103126eac28",
+      "branch_execution": "14228ce96d7ab17872e6e2ee9d8876985727c2fc74fe370ea6d9099ab0369d32",
+      "input_profile": "065777e3cdcbba3972065ddd2a0b34c396fe048a3663d0b539ab45482405d306",
+      "generation_summary": "613e6e7ce10e24874bf0b25351c1c7414d6aa5e0ec056d58b4de97af834bce33",
+      "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+      "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39",
+      "finger_clearance": "4364050ab61a528509b4691000eb9c10484565ef33c1ba0c0eda4e439cec995f",
+      "sonic_grasp": "f01c16cc913983c9f2befd2abd49c9694f6de9f53fe59407ee42d4225136e219",
+      "branch_face_ik": "cfae1a29d9f5161665594be3cb41b17ca23e271df05c620920d555f52419a2e2"
+    },
+    "dt": 0.002,
+    "diagnostic_sha256": "d0ea763840d70ba7a069173f1c5df0b88912fd60a6023adb9c2be5d917273551",
+    "scene_origin": "Existing scene loaded read-only; original generator fingerprint retained"
+  },
+  "source_scan_sha256": "1fed025e511ae71786e199d4ba8d67588836416c26332888f9044a52b7450f32",
+  "physical_steps": 0,
+  "saved_to_live_gap_s": 0.017999999999990024,
+  "candidates": [
+    {
+      "source_frame": null,
+      "body_q": [
+        -0.1487528741849012,
+        0.10996218993324886,
+        -0.5288771727615303,
+        0.15620938803999623,
+        0.5568480450796212,
+        -0.5990169898774298,
+        0.6910966783400234
+      ],
+      "capture_error_m": 0.14577924624358526,
+      "pad_spread_m": 0.03840124214058138,
+      "minimum_arm_limit_margin_rad": 0.9233333216599766,
+      "open_robot_table_clearance_m": 0.07294605313081431,
+      "finger_replan_error_m": 0.08526762266464598,
+      "native_pose_deviation_rad": 2.0703173285364564,
+      "preload_mm": 0.5,
+      "hand_plan": {
+        "max_pad_target_error_m": 0.08526762266464598,
+        "target_points_m": [
+          [
+            0.28200000000000003,
+            -0.14499999999879654,
+            0.8894989394616256
+          ],
+          [
+            0.28200000000000003,
+            -0.09099999999879653,
+            0.8894989394572932
+          ]
+        ],
+        "achievable_points_m": [
+          [
+            0.298746313694927,
+            -0.16738203917010938,
+            0.9399851960597893
+          ],
+          [
+            0.3038378805359622,
+            -0.1469213826331332,
+            0.9500503507772748
+          ]
+        ],
+        "command_rad": [
+          0.7596254544325532,
+          0.3523213315690286,
+          -1.8378517741633533,
+          1.4,
+          0.08,
+          1.8306,
+          0.045185130152833625
+        ],
+        "normal": [
+          0.3162358787623653,
+          0.9486805937634619,
+          0.0
+        ],
+        "opposing_cube_axis": 1,
+        "table_top_z_m": null,
+        "table_clearance_m": 0.0,
+        "table_target_constraint_active": false,
+        "actual_collision_free_certified": false
+      },
+      "static_feasible": false
+    },
+    {
+      "source_frame": null,
+      "body_q": [
+        -0.1487528741849012,
+        0.10996218993324886,
+        -0.5288771727615303,
+        0.15620938803999623,
+        0.5568480450796212,
+        -0.5990169898774298,
+        0.6910966783400234
+      ],
+      "capture_error_m": 0.14577924624358526,
+      "pad_spread_m": 0.03840124214058138,
+      "minimum_arm_limit_margin_rad": 0.9233333216599766,
+      "open_robot_table_clearance_m": 0.07294605313081431,
+      "finger_replan_error_m": 0.0849457303301211,
+      "native_pose_deviation_rad": 2.0703173285364564,
+      "preload_mm": 1.5,
+      "hand_plan": {
+        "max_pad_target_error_m": 0.0849457303301211,
+        "target_points_m": [
+          [
+            0.28200000000000003,
+            -0.14399999999879654,
+            0.8894989394615455
+          ],
+          [
+            0.28200000000000003,
+            -0.09199999999879653,
+            0.8894989394573735
+          ]
+        ],
+        "achievable_points_m": [
+          [
+            0.29708939574938537,
+            -0.16497477367026336,
+            0.9357176835521328
+          ],
+          [
+            0.30419403245428367,
+            -0.1468478833820133,
+            0.9504490150366286
+          ]
+        ],
+        "command_rad": [
+          0.8783279494178325,
+          0.37920905512704994,
+          -1.8324706630160972,
+          1.4,
+          0.08,
+          1.8306,
+          0.03519230104431195
+        ],
+        "normal": [
+          0.3162358787623653,
+          0.9486805937634619,
+          0.0
+        ],
+        "opposing_cube_axis": 1,
+        "table_top_z_m": null,
+        "table_clearance_m": 0.0,
+        "table_target_constraint_active": false,
+        "actual_collision_free_certified": false
+      },
+      "static_feasible": false
+    },
+    {
+      "source_frame": 0,
+      "body_q": [
+        -1.3020925957595557,
+        -0.7751765088509127,
+        1.1535231989746093,
+        -0.025504295070725373,
+        0.2025722107775302,
+        1.5925723421527447,
+        1.1084202832985983
+      ],
+      "capture_error_m": 1.8150655921263854e-11,
+      "pad_spread_m": 1.6945267411472287e-10,
+      "minimum_arm_limit_margin_rad": 0.021857657847255352,
+      "open_robot_table_clearance_m": 0.07294605313081431,
+      "finger_replan_error_m": 1.5539939871189734e-05,
+      "native_pose_deviation_rad": 3.0851488780924883,
+      "preload_mm": 0.5,
+      "hand_plan": {
+        "max_pad_target_error_m": 1.5539939871189734e-05,
+        "target_points_m": [
+          [
+            0.29400000000000004,
+            -0.11796076863562399,
+            0.8746773935790534
+          ],
+          [
+            0.24000000000000002,
+            -0.11799999980158438,
+            0.8744989393186288
+          ]
+        ],
+        "achievable_points_m": [
+          [
+            0.29398446006012885,
+            -0.11796076863562399,
+            0.8746773935790534
+          ],
+          [
+            0.23999999980304348,
+            -0.11799999980158438,
+            0.8744989393186288
+          ]
+        ],
+        "command_rad": [
+          -0.03667500308139602,
+          -0.6133307142030803,
+          -0.93915567749088,
+          1.4,
+          0.08,
+          1.4000000037294669,
+          0.07999999173452157
+        ],
+        "normal": [
+          -1.0,
+          7.587328735666045e-09,
+          0.0
+        ],
+        "opposing_cube_axis": 0,
+        "table_top_z_m": null,
+        "table_clearance_m": 0.0,
+        "table_target_constraint_active": false,
+        "actual_collision_free_certified": false
+      },
+      "static_feasible": true
+    },
+    {
+      "source_frame": 0,
+      "body_q": [
+        -1.3020925957595557,
+        -0.7751765088509127,
+        1.1535231989746093,
+        -0.025504295070725373,
+        0.2025722107775302,
+        1.5925723421527447,
+        1.1084202832985983
+      ],
+      "capture_error_m": 1.8150655921263854e-11,
+      "pad_spread_m": 1.6945267411472287e-10,
+      "minimum_arm_limit_margin_rad": 0.021857657847255352,
+      "open_robot_table_clearance_m": 0.07294605313081431,
+      "finger_replan_error_m": 0.000915555765961279,
+      "native_pose_deviation_rad": 3.0851488780924883,
+      "preload_mm": 1.5,
+      "hand_plan": {
+        "max_pad_target_error_m": 0.000915555765961279,
+        "target_points_m": [
+          [
+            0.29300000000000004,
+            -0.11797314467520124,
+            0.8746148295322785
+          ],
+          [
+            0.24100000000000002,
+            -0.11806134024494841,
+            0.8742977227139519
+          ]
+        ],
+        "achievable_points_m": [
+          [
+            0.29298899327247224,
+            -0.11797314467520124,
+            0.8746148295322785
+          ],
+          [
+            0.24008444423403874,
+            -0.11806134024494841,
+            0.8742977227139519
+          ]
+        ],
+        "command_rad": [
+          -0.030014911254107046,
+          -0.610909888756418,
+          -0.9284131495810567,
+          1.4,
+          0.08,
+          1.4176410468993965,
+          0.040902806572955815
+        ],
+        "normal": [
+          -1.0,
+          7.587328735666045e-09,
+          0.0
+        ],
+        "opposing_cube_axis": 0,
+        "table_top_z_m": null,
+        "table_clearance_m": 0.0,
+        "table_target_constraint_active": false,
+        "actual_collision_free_certified": false
+      },
+      "static_feasible": true
+    },
+    {
+      "source_frame": 19,
+      "body_q": [
+        -1.3002409718807408,
+        -0.774440903772083,
+        1.1527561661833021,
+        -0.026092740468927823,
+        0.19245507417961147,
+        1.5931475771673167,
+        1.1167498773733995
+      ],
+      "capture_error_m": 2.6376136628850944e-12,
+      "pad_spread_m": 2.4607205162396895e-11,
+      "minimum_arm_limit_margin_rad": 0.021282422832683334,
+      "open_robot_table_clearance_m": 0.07294605313081431,
+      "finger_replan_error_m": 1.5539939442699158e-05,
+      "native_pose_deviation_rad": 3.0882387407724,
+      "preload_mm": 0.5,
+      "hand_plan": {
+        "max_pad_target_error_m": 1.5539939442699158e-05,
+        "target_points_m": [
+          [
+            0.29400000000000004,
+            -0.11796076850250989,
+            0.8746773935054891
+          ],
+          [
+            0.24000000000000002,
+            -0.11799999997132571,
+            0.8744989394390249
+          ]
+        ],
+        "achievable_points_m": [
+          [
+            0.29398446006055734,
+            -0.11796076850250989,
+            0.8746773935054891
+          ],
+          [
+            0.23999999997148827,
+            -0.11799999997132571,
+            0.8744989394390249
+          ]
+        ],
+        "command_rad": [
+          -0.03667500154949652,
+          -0.6133307134008703,
+          -0.9391556765843633,
+          1.4,
+          0.08,
+          1.4000000005398843,
+          0.07999999880347441
+        ],
+        "normal": [
+          -1.0,
+          1.0963013957169337e-09,
+          0.0
+        ],
+        "opposing_cube_axis": 0,
+        "table_top_z_m": null,
+        "table_clearance_m": 0.0,
+        "table_target_constraint_active": false,
+        "actual_collision_free_certified": false
+      },
+      "static_feasible": true
+    },
+    {
+      "source_frame": 19,
+      "body_q": [
+        -1.3002409718807408,
+        -0.774440903772083,
+        1.1527561661833021,
+        -0.026092740468927823,
+        0.19245507417961147,
+        1.5931475771673167,
+        1.1167498773733995
+      ],
+      "capture_error_m": 2.6376136628850944e-12,
+      "pad_spread_m": 2.4607205162396895e-11,
+      "minimum_arm_limit_margin_rad": 0.021282422832683334,
+      "open_robot_table_clearance_m": 0.07294605313081431,
+      "finger_replan_error_m": 0.0009155556036579138,
+      "native_pose_deviation_rad": 3.0882387407724,
+      "preload_mm": 1.5,
+      "hand_plan": {
+        "max_pad_target_error_m": 0.0009155556036579138,
+        "target_points_m": [
+          [
+            0.29300000000000004,
+            -0.11797314454151957,
+            0.8746148294607794
+          ],
+          [
+            0.24100000000000002,
+            -0.11806134040970967,
+            0.8742977228338346
+          ]
+        ],
+        "achievable_points_m": [
+          [
+            0.2929889932728423,
+            -0.11797314454151957,
+            0.8746148294607794
+          ],
+          [
+            0.2400844443963421,
+            -0.11806134040970967,
+            0.8742977228338346
+          ]
+        ],
+        "command_rad": [
+          -0.03001490978172136,
+          -0.6109098880204028,
+          -0.9284131484864443,
+          1.4,
+          0.08,
+          1.41764104383472,
+          0.04090281342796576
+        ],
+        "normal": [
+          -1.0,
+          1.0963013957169337e-09,
+          0.0
+        ],
+        "opposing_cube_axis": 0,
+        "table_top_z_m": null,
+        "table_clearance_m": 0.0,
+        "table_target_constraint_active": false,
+        "actual_collision_free_certified": false
+      },
+      "static_feasible": true
+    },
+    {
+      "source_frame": 39,
+      "static_feasible": false,
+      "rejection": "Degenerate horizontal pad direction",
+      "preload_mm": null
+    },
+    {
+      "source_frame": 59,
+      "static_feasible": false,
+      "rejection": "Degenerate horizontal pad direction",
+      "preload_mm": null
+    },
+    {
+      "source_frame": 79,
+      "body_q": [
+        -0.14628625558761915,
+        -0.11890891360893346,
+        0.4695198267751477,
+        1.2312264146124925,
+        -1.8367661647034708,
+        -0.8756768134538114,
+        -1.61243
+      ],
+      "capture_error_m": 0.22682035271709305,
+      "pad_spread_m": 0.047517558312567876,
+      "minimum_arm_limit_margin_rad": 0.0020000000000000018,
+      "open_robot_table_clearance_m": -0.0016352976273470432,
+      "finger_replan_error_m": 0.2461170250041937,
+      "native_pose_deviation_rad": 2.069675792931255,
+      "preload_mm": 0.5,
+      "hand_plan": {
+        "max_pad_target_error_m": 0.2461170250041937,
+        "target_points_m": [
+          [
+            0.24000000000000002,
+            -0.10300000000120345,
+            0.859498939458256
+          ],
+          [
+            0.29400000000000004,
+            -0.10300000000120345,
+            0.859498939458256
+          ]
+        ],
+        "achievable_points_m": [
+          [
+            0.21139367315836494,
+            -0.007795981653346152,
+            0.7240987481991733
+          ],
+          [
+            0.1898052752417401,
+            -0.02335325220463337,
+            0.6512360169422812
+          ]
+        ],
+        "command_rad": [
+          0.0002182304688266684,
+          -0.6426277080995038,
+          -1.1655076256580816,
+          1.4,
+          0.08,
+          1.8306,
+          0.002
+        ],
+        "normal": [
+          0.9415415100001918,
+          0.3368969945644496,
+          0.0
+        ],
+        "opposing_cube_axis": 0,
+        "table_top_z_m": null,
+        "table_clearance_m": 0.0,
+        "table_target_constraint_active": false,
+        "actual_collision_free_certified": false
+      },
+      "static_feasible": false
+    },
+    {
+      "source_frame": 79,
+      "body_q": [
+        -0.14628625558761915,
+        -0.11890891360893346,
+        0.4695198267751477,
+        1.2312264146124925,
+        -1.8367661647034708,
+        -0.8756768134538114,
+        -1.61243
+      ],
+      "capture_error_m": 0.22682035271709305,
+      "pad_spread_m": 0.047517558312567876,
+      "minimum_arm_limit_margin_rad": 0.0020000000000000018,
+      "open_robot_table_clearance_m": -0.0016352976273470432,
+      "finger_replan_error_m": 0.24569534091512274,
+      "native_pose_deviation_rad": 2.069675792931255,
+      "preload_mm": 1.5,
+      "hand_plan": {
+        "max_pad_target_error_m": 0.24569534091512274,
+        "target_points_m": [
+          [
+            0.24100000000000002,
+            -0.10300000000120345,
+            0.859498939458256
+          ],
+          [
+            0.29300000000000004,
+            -0.10300000000120345,
+            0.859498939458256
+          ]
+        ],
+        "achievable_points_m": [
+          [
+            0.21149958593495122,
+            -0.007810139795428928,
+            0.7241178741232035
+          ],
+          [
+            0.1898052752417401,
+            -0.02335325220463337,
+            0.6512360169422812
+          ]
+        ],
+        "command_rad": [
+          0.0010427086301241508,
+          -0.6442922672553958,
+          -1.1634601913933267,
+          1.4,
+          0.08,
+          1.8306,
+          0.002
+        ],
+        "normal": [
+          0.9415415100001918,
+          0.3368969945644496,
+          0.0
+        ],
+        "opposing_cube_axis": 0,
+        "table_top_z_m": null,
+        "table_clearance_m": 0.0,
+        "table_target_constraint_active": false,
+        "actual_collision_free_certified": false
+      },
+      "static_feasible": false
+    },
+    {
+      "source_frame": 99,
+      "static_feasible": false,
+      "rejection": "Degenerate horizontal pad direction",
+      "preload_mm": null
+    },
+    {
+      "source_frame": 38,
+      "static_feasible": false,
+      "rejection": "Degenerate horizontal pad direction",
+      "preload_mm": null
+    },
+    {
+      "source_frame": 43,
+      "static_feasible": false,
+      "rejection": "Degenerate horizontal pad direction",
+      "preload_mm": null
+    },
+    {
+      "source_frame": 48,
+      "body_q": [
+        0.12984191348957258,
+        0.7799710716265357,
+        0.34670279932466824,
+        0.41574511690821514,
+        -0.9423818805201025,
+        0.9955474483335709,
+        -1.5924626665974142
+      ],
+      "capture_error_m": 0.08715622224180622,
+      "pad_spread_m": 0.0468331649566015,
+      "minimum_arm_limit_margin_rad": 0.02196733340258583,
+      "open_robot_table_clearance_m": -0.0046193842317439875,
+      "finger_replan_error_m": 0.10035305791369849,
+      "native_pose_deviation_rad": 2.4616606541587327,
+      "preload_mm": 0.5,
+      "hand_plan": {
+        "max_pad_target_error_m": 0.10035305791369849,
+        "target_points_m": [
+          [
+            0.29400000000000004,
+            -0.10300000000120345,
+            0.859498939458256
+          ],
+          [
+            0.24000000000000002,
+            -0.10300000000120345,
+            0.859498939458256
+          ]
+        ],
+        "achievable_points_m": [
+          [
+            0.2717784358517441,
+            -0.08250347426429143,
+            0.8102764863189912
+          ],
+          [
+            0.2610360801518922,
+            -0.08922839830131976,
+            0.7623466746823226
+          ]
+        ],
+        "command_rad": [
+          -0.006271148003402589,
+          -0.619651287598166,
+          -0.8617911227164963,
+          1.4,
+          0.08,
+          1.4442569316862204,
+          0.002
+        ],
+        "normal": [
+          -0.7959650440200037,
+          -0.605342587877504,
+          0.0
+        ],
+        "opposing_cube_axis": 0,
+        "table_top_z_m": null,
+        "table_clearance_m": 0.0,
+        "table_target_constraint_active": false,
+        "actual_collision_free_certified": false
+      },
+      "static_feasible": false
+    },
+    {
+      "source_frame": 48,
+      "body_q": [
+        0.12984191348957258,
+        0.7799710716265357,
+        0.34670279932466824,
+        0.41574511690821514,
+        -0.9423818805201025,
+        0.9955474483335709,
+        -1.5924626665974142
+      ],
+      "capture_error_m": 0.08715622224180622,
+      "pad_spread_m": 0.0468331649566015,
+      "minimum_arm_limit_margin_rad": 0.02196733340258583,
+      "open_robot_table_clearance_m": -0.0046193842317439875,
+      "finger_replan_error_m": 0.10014471213019031,
+      "native_pose_deviation_rad": 2.4616606541587327,
+      "preload_mm": 1.5,
+      "hand_plan": {
+        "max_pad_target_error_m": 0.10014471213019031,
+        "target_points_m": [
+          [
+            0.29300000000000004,
+            -0.10300000000120345,
+            0.859498939458256
+          ],
+          [
+            0.24100000000000002,
+            -0.10300000000120345,
+            0.859498939458256
+          ]
+        ],
+        "achievable_points_m": [
+          [
+            0.27175962579185525,
+            -0.0825058511124489,
+            0.8102809282564764
+          ],
+          [
+            0.26104038919690825,
+            -0.0892380623349701,
+            0.7623498002950815
+          ]
+        ],
+        "command_rad": [
+          -0.006106820719805205,
+          -0.6194862152844332,
+          -0.8622846405937514,
+          1.4,
+          0.08,
+          1.4441537668608049,
+          0.002
+        ],
+        "normal": [
+          -0.7959650440200037,
+          -0.605342587877504,
+          0.0
+        ],
+        "opposing_cube_axis": 0,
+        "table_top_z_m": null,
+        "table_clearance_m": 0.0,
+        "table_target_constraint_active": false,
+        "actual_collision_free_certified": false
+      },
+      "static_feasible": false
+    }
+  ],
+  "candidate_bound": 20,
+  "arm_iterations_per_seed_bound": 60,
+  "hand_iterations_per_candidate_bound": 35,
+  "limitation": "Approximate saved-state FK only; source ARDY seeds plus explicit object-face yaw retargeting, not an original generated orientation or motor override; all existing static gates preserved; not dynamic grasp proof."
+}

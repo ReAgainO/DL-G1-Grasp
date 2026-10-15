@@ -1,0 +1,178 @@
+{
+ "device": "cpu",
+ "torch": "2.6.0+cpu",
+ "jobs": [
+  {
+   "stem": "w7_control_s43",
+   "prompt": "A person reaches forward with their right hand to grab a small object on a table.",
+   "seed": 43,
+   "duration_s": 4.0,
+   "num_frames": 100,
+   "constraints": false,
+   "n_constraints": 0,
+   "wall_s": 2.75,
+   "text_encode_s": 0.87,
+   "encode_calls": 1,
+   "new_embeds": 1,
+   "cond_s": 0.0,
+   "qpos_shape": [
+    100,
+    36
+   ],
+   "cfg_weight": [
+    2.0,
+    2.0
+   ],
+   "peak_rss_mib": 15376.1,
+   "root_final_xyz": [
+    0.0001,
+    0.0043,
+    0.7807
+   ],
+   "root_z_min_max": [
+    0.7801,
+    0.7817
+   ],
+   "wrist_final_xyz": [
+    0.1736,
+    -0.0997,
+    0.9018
+   ],
+   "wrist_rel_final_xyz": [
+    0.1735,
+    -0.104,
+    0.1211
+   ],
+   "wrist_rel_best_xyz": [
+    0.3234,
+    -0.089,
+    -0.0275
+   ],
+   "wrist_rel_max_forward": 0.3234,
+   "wrist_z_min_max": [
+    0.7138,
+    0.9031
+   ],
+   "wrist_z_last5": [
+    0.9022,
+    0.9015,
+    0.9017,
+    0.9019,
+    0.9018
+   ]
+  },
+  {
+   "stem": "w7_upright_reach_s43",
+   "prompt": "A standing person slowly reaches down and forward with their right hand to grasp a small object on a table, keeping their torso upright and their left arm relaxed.",
+   "seed": 43,
+   "duration_s": 4.0,
+   "num_frames": 100,
+   "constraints": false,
+   "n_constraints": 0,
+   "wall_s": 2.55,
+   "text_encode_s": 0.67,
+   "encode_calls": 1,
+   "new_embeds": 1,
+   "cond_s": 0.0,
+   "qpos_shape": [
+    100,
+    36
+   ],
+   "cfg_weight": [
+    2.0,
+    2.0
+   ],
+   "peak_rss_mib": 15376.1,
+   "root_final_xyz": [
+    -0.0054,
+    0.0057,
+    0.7829
+   ],
+   "root_z_min_max": [
+    0.7823,
+    0.7842
+   ],
+   "wrist_final_xyz": [
+    0.2026,
+    -0.0901,
+    0.9425
+   ],
+   "wrist_rel_final_xyz": [
+    0.208,
+    -0.0957,
+    0.1596
+   ],
+   "wrist_rel_best_xyz": [
+    0.3096,
+    -0.0802,
+    -0.0507
+   ],
+   "wrist_rel_max_forward": 0.3096,
+   "wrist_z_min_max": [
+    0.7154,
+    0.9438
+   ],
+   "wrist_z_last5": [
+    0.9425,
+    0.9428,
+    0.943,
+    0.943,
+    0.9425
+   ]
+  }
+ ],
+ "enc_mode": "stacked",
+ "textencoder_load_s": 70.3,
+ "rss_after_textenc_mib": 14667.2,
+ "model_load_s": 0.9,
+ "rss_after_model_mib": 15376.1,
+ "peak_rss_mib_to_date": 15376.1,
+ "fps": 25.0,
+ "gen_horizon_len": 52,
+ "num_frames_per_token": 4,
+ "num_base_steps": 10,
+ "skeleton_cls": "G1Skeleton34",
+ "nbjoints": 34,
+ "bone_names": [
+  "pelvis_skel",
+  "left_hip_pitch_skel",
+  "left_hip_roll_skel",
+  "left_hip_yaw_skel",
+  "left_knee_skel",
+  "left_ankle_pitch_skel",
+  "left_ankle_roll_skel",
+  "left_toe_base",
+  "right_hip_pitch_skel",
+  "right_hip_roll_skel",
+  "right_hip_yaw_skel",
+  "right_knee_skel",
+  "right_ankle_pitch_skel",
+  "right_ankle_roll_skel",
+  "right_toe_base",
+  "waist_yaw_skel",
+  "waist_roll_skel",
+  "waist_pitch_skel",
+  "left_shoulder_pitch_skel",
+  "left_shoulder_roll_skel",
+  "left_shoulder_yaw_skel",
+  "left_elbow_skel",
+  "left_wrist_roll_skel",
+  "left_wrist_pitch_skel",
+  "left_wrist_yaw_skel",
+  "left_hand_roll_skel",
+  "right_shoulder_pitch_skel",
+  "right_shoulder_roll_skel",
+  "right_shoulder_yaw_skel",
+  "right_elbow_skel",
+  "right_wrist_roll_skel",
+  "right_wrist_pitch_skel",
+  "right_wrist_yaw_skel",
+  "right_hand_roll_skel"
+ ],
+ "wrist_bone": "right_wrist_yaw_skel",
+ "peak_rss_mib_final": 15376.1,
+ "rss_samples": 152,
+ "ru_maxrss_mib": 15452.3,
+ "ru_utime_s": 100.0,
+ "ru_stime_s": 83.9
+}

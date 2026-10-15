@@ -1,0 +1,19 @@
+{
+  "id": "D046",
+  "group": "D",
+  "xy_m": [
+    0.36139521197177826,
+    -0.17465580554409624
+  ],
+  "edge_m": 0.08714394217386903,
+  "mass_kg": 0.12,
+  "root_x_m": -0.02,
+  "sampling_seed": 20261010,
+  "source_baseline_trial": "C046",
+  "no_grip": false,
+  "wrist_servo": true,
+  "gravity_arm_scale": 1.0,
+  "native_mesh": true,
+  "time_scale": 2.0,
+  "retract_raise": true
+}

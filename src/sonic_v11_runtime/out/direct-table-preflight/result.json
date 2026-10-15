@@ -1,0 +1,17 @@
+{
+  "physical_steps": 0,
+  "pass_count": 6,
+  "tests": [
+    "body dimensions preserved",
+    "only pelvis-world fixture",
+    "cube retains free joint",
+    "same initial cube height directly on table",
+    "cube collisions retained",
+    "no applied external force"
+  ],
+  "table_top_z_m": 0.757,
+  "cube_bottom_z_m": 0.757,
+  "table_front_x_m": 0.23000000000000004,
+  "source_sha": "865da44ab26321e92ae3f97e1ed9a50400f31918f8071106033f4ac843c5bfcc",
+  "scene_sha": "f56954aabe0fbd1f154b8ac1fa2c87aa8be1fdb90d4b4ca8c0710ec0b496ead6"
+}

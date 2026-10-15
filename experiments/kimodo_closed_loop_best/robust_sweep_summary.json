@@ -1,0 +1,298 @@
+{
+  "cells": [
+    {
+      "cell": "wb_base_tpl",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14332502505609868,
+      "hold_min_lift_m": 0.1257953698876788,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.6240000000269,
+      "wall_s": 116.94107708206866,
+      "reach_stem": "near_s42",
+      "reach_group": "official"
+    },
+    {
+      "cell": "wb_dbg2_base",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.1440140069619268,
+      "hold_min_lift_m": 0.12400968848885041,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.6240000000269,
+      "wall_s": 129.03182158106938,
+      "reach_stem": "near_s42",
+      "reach_group": "official"
+    },
+    {
+      "cell": "wb_dbg2_p4",
+      "have_result": false
+    },
+    {
+      "cell": "wb_dbg_base",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.1440140069619268,
+      "hold_min_lift_m": 0.12400968848885041,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.6240000000269,
+      "wall_s": 131.85315882205032,
+      "reach_stem": "near_s42",
+      "reach_group": "official"
+    },
+    {
+      "cell": "wb_dbg_p4",
+      "have_result": false
+    },
+    {
+      "cell": "wb_iso_lift",
+      "have_result": true,
+      "success": false,
+      "gates_pass": 15,
+      "gates_total": 20,
+      "failed_gates": [
+        "hold_7cm",
+        "two_fingers",
+        "clearance_4cm",
+        "slip_1cm",
+        "release_drop_6cm"
+      ],
+      "max_lift_m": 0.1460603123954084,
+      "hold_min_lift_m": 0.025917128521748323,
+      "hold_min_contact_bodies": 0,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.6240000000269,
+      "wall_s": 119.81534982891753,
+      "reach_stem": "near_s42",
+      "reach_group": "official"
+    },
+    {
+      "cell": "wb_iso_reach",
+      "have_result": false
+    },
+    {
+      "cell": "wb_kimo_p1",
+      "have_result": true,
+      "success": false,
+      "gates_pass": 19,
+      "gates_total": 20,
+      "failed_gates": [
+        "no_robot_table_contact_full_task"
+      ],
+      "max_lift_m": 0.14366161550247714,
+      "hold_min_lift_m": 0.1343261431019993,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 3.0108215228830186,
+      "duration_s": 61.47000000002916,
+      "wall_s": 122.83293567306828,
+      "reach_stem": "p1_conv",
+      "reach_group": "kimodo"
+    },
+    {
+      "cell": "wb_kimo_p2",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14478007297336903,
+      "hold_min_lift_m": 0.12642033567308997,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 61.05200000002865,
+      "wall_s": 133.45116542105097,
+      "reach_stem": "p2_conv",
+      "reach_group": "kimodo"
+    },
+    {
+      "cell": "wb_kimo_p3",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14248192918700564,
+      "hold_min_lift_m": 0.13601595820116208,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 60.034000000027405,
+      "wall_s": 138.47190215101,
+      "reach_stem": "p3_conv",
+      "reach_group": "kimodo"
+    },
+    {
+      "cell": "wb_kimo_p4",
+      "have_result": false
+    },
+    {
+      "cell": "wb_kimo_p5",
+      "have_result": false
+    },
+    {
+      "cell": "wb_kimo_p6",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.1409575724419494,
+      "hold_min_lift_m": 0.1319162268060825,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.57000000002684,
+      "wall_s": 119.33629246405326,
+      "reach_stem": "p6_conv",
+      "reach_group": "kimodo"
+    },
+    {
+      "cell": "wb_kimo_p6l1",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.1439862432245319,
+      "hold_min_lift_m": 0.13118074148281422,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.57000000002684,
+      "wall_s": 114.1789274669718,
+      "reach_stem": "p6_conv",
+      "reach_group": "kimodo"
+    },
+    {
+      "cell": "wb_kimo_p6l2",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14230698876343106,
+      "hold_min_lift_m": 0.12793768090495694,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.57000000002684,
+      "wall_s": 113.38999344198965,
+      "reach_stem": "p6_conv",
+      "reach_group": "kimodo"
+    },
+    {
+      "cell": "wb_kimo_p6l3",
+      "have_result": true,
+      "success": false,
+      "gates_pass": 19,
+      "gates_total": 20,
+      "failed_gates": [
+        "hold_7cm"
+      ],
+      "max_lift_m": 0.10190990350673612,
+      "hold_min_lift_m": 0.04581412686200592,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.57000000002684,
+      "wall_s": 114.18081676808652,
+      "reach_stem": "p6_conv",
+      "reach_group": "kimodo"
+    },
+    {
+      "cell": "wb_kimo_p6l4",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14671726392889461,
+      "hold_min_lift_m": 0.13392174393500167,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.57000000002684,
+      "wall_s": 113.94508902798407,
+      "reach_stem": "p6_conv",
+      "reach_group": "kimodo"
+    },
+    {
+      "cell": "wb_kimo_p6l5",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14036829592971367,
+      "hold_min_lift_m": 0.1267199016932744,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.57000000002684,
+      "wall_s": 119.90873230202124,
+      "reach_stem": "p6_conv",
+      "reach_group": "kimodo"
+    },
+    {
+      "cell": "wb_kimo_r1",
+      "have_result": false
+    },
+    {
+      "cell": "wb_kimo_v1",
+      "have_result": false
+    },
+    {
+      "cell": "wb_nat_n4l1",
+      "have_result": true,
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.1412889420280138,
+      "hold_min_lift_m": 0.1261709504140096,
+      "hold_min_contact_bodies": 2,
+      "robot_table_all_max_normal_N": 0.0,
+      "duration_s": 59.59400000002687,
+      "wall_s": 115.27651706396136,
+      "reach_stem": "n4_conv",
+      "reach_group": "other:n4_conv"
+    }
+  ],
+  "kimodo_reach": {
+    "finished": 9,
+    "success": 7,
+    "rate_pct": 77.77777777777777,
+    "cells": [
+      "wb_kimo_p1",
+      "wb_kimo_p2",
+      "wb_kimo_p3",
+      "wb_kimo_p6",
+      "wb_kimo_p6l1",
+      "wb_kimo_p6l2",
+      "wb_kimo_p6l3",
+      "wb_kimo_p6l4",
+      "wb_kimo_p6l5"
+    ]
+  },
+  "official_reach": {
+    "finished": 4,
+    "success": 3,
+    "rate_pct": 75.0,
+    "cells": [
+      "wb_base_tpl",
+      "wb_dbg2_base",
+      "wb_dbg_base",
+      "wb_iso_lift"
+    ]
+  },
+  "all_finished": {
+    "finished": 14,
+    "success": 11,
+    "rate_pct": 78.57142857142857
+  }
+}

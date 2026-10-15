@@ -1,0 +1,20 @@
+name=d100env_02
+utc_start=2026-10-08T22:42:03Z
+host=worker00039 uid=1004
+runner_sha256=f74f872621aa642b23c8d942cfeecf716d78e57241e92df9687a87f7d3b02a1a
+sonic_grasp_sha256=548821b95916c3458747323d583495b8ca5bad016b9fb570820ee5c7bb466706
+native_branch_sha256=64090ff6d47802755a23b99fe11ae27b4ce130dfc899c5d953d081c51b9164e8
+adaptive_hand_sha256=966bee1b9e922068ba6cd1dfa29aba7fb16b94abc9e15564563e8e94779aa060
+grasp_geometry_sha256=adc49dabb048e2d5e73e411d6ac4ec8eb1f2c1332f0a22b1334bb01ec19d2027
+motion_stem=near_s42
+motion_npz_sha256=78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff
+cpus=99,98 nice=19 ulimit_v_KiB=16777216
+sonic_grasp_args=d100env_02 --cube-edge-mm=100 --cube-x=0.300000 --cube-y=-0.130000 --grip-target-json=/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env100.json --envelope-collision=1
+w4c_phys_args=<none>
+envelope_collision=1 grip_target_json=/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env100.json w4g_env_guards=1 finger_pd=<none>
+pressure_cpu: some avg10=4.97 avg60=6.56 avg300=5.98 total=4984739120 full avg10=0.00 avg60=0.00 avg300=0.00 total=0 
+df_data_avail_kb=11085697376
+
+utc_end=2026-10-08T22:42:49Z
+rc=0 wall_s=46
+result_json=/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/rep_ext_env/rep/out/d100env_02/result.json

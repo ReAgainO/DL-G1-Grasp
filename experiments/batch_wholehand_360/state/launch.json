@@ -1,0 +1,17 @@
+{
+  "pid": 2698476,
+  "command": [
+    "taskset",
+    "-c",
+    "80-95",
+    "/usr/bin/python3",
+    "-B",
+    "/data/group4/20261009-021611-codex-415484ce/batch_runner.py",
+    "--workers",
+    "8"
+  ],
+  "cwd": "/data/group4/20261009-021611-codex-415484ce",
+  "started": "2026-10-09T02:43:22.841148",
+  "proc_start_ticks": "83458836",
+  "log": "/data/group4/20261009-021611-codex-415484ce/logs/batch.log"
+}

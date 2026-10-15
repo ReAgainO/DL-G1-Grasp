@@ -1,0 +1,324 @@
+{
+  "baseline_all14_physical_arrays_bitwise_equal": {
+    "time": true,
+    "qpos": true,
+    "qvel": true,
+    "body_reference": true,
+    "hand_reference": true,
+    "decoded_target": true,
+    "ctrl": true,
+    "cube_pos": true,
+    "wrist_pos": true,
+    "pad_forces": true,
+    "other_hand_force": true,
+    "table_force": true,
+    "phase": true,
+    "hand_saturation": true
+  },
+  "pilots": {
+    "PBASE2": {
+      "lift_m": 0.10857449062300661,
+      "success": true,
+      "duration_s": 53.12,
+      "render_receipt": [
+        {
+          "stage": "plan",
+          "rc": 0,
+          "wall_s": 1.5944421291351318,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "180",
+            "taskset",
+            "-c",
+            "80,81",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/batch_plan.py",
+            "--config",
+            "/data/group4/20261009-021611-codex-415484ce/pilots/PBASE2.json"
+          ],
+          "pid": 2657174,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PBASE2-plan.log",
+          "log_sha": "e8d1e08576f5bc8c18e6b4aeef858338bf71b60cbe36e845986b907d767d4c75"
+        },
+        {
+          "stage": "physics",
+          "rc": 0,
+          "wall_s": 108.9712963104248,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "600",
+            "taskset",
+            "-c",
+            "80,81",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/execute_batch.py",
+            "--plan",
+            "plan_PBASE2",
+            "--name",
+            "PBASE2",
+            "--native-mesh",
+            "--retract-raise",
+            "--wrist-servo"
+          ],
+          "pid": 2657252,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PBASE2-physics.log",
+          "log_sha": "753ca687b2b1f5d473090be232086aae8e243ef0f3172a2ba9369aca82f1f94b"
+        },
+        {
+          "stage": "render",
+          "rc": 0,
+          "wall_s": 186.99993300437927,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "600",
+            "taskset",
+            "-c",
+            "80,81",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/render_batch.py",
+            "PBASE2"
+          ],
+          "pid": 2662417,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PBASE2-render.log",
+          "log_sha": "8b5c9a925551ce8b8e131de1b33e945c482d791b99e335bcc10f49e8a5aa4cd0"
+        }
+      ],
+      "mujoco_version": "3.2.7",
+      "video_sha": "b825c553360a265666cbcdd6d91b822614a15b71423b7370a758742cf0bfc3be"
+    },
+    "PRAND2": {
+      "lift_m": 0.11274953748483807,
+      "success": true,
+      "duration_s": 53.12,
+      "render_receipt": [
+        {
+          "stage": "plan",
+          "rc": 0,
+          "wall_s": 141.46790027618408,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "180",
+            "taskset",
+            "-c",
+            "82,83",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/batch_plan.py",
+            "--config",
+            "/data/group4/20261009-021611-codex-415484ce/pilots/PRAND2.json"
+          ],
+          "pid": 2657176,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PRAND2-plan.log",
+          "log_sha": "e69a60b4b5093cd3ee2bc41ee77a6717969ebfdeec04998b3786151ddc4608f8"
+        },
+        {
+          "stage": "physics",
+          "rc": 0,
+          "wall_s": 109.20456838607788,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "600",
+            "taskset",
+            "-c",
+            "82,83",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/execute_batch.py",
+            "--plan",
+            "plan_PRAND2",
+            "--name",
+            "PRAND2",
+            "--native-mesh",
+            "--retract-raise",
+            "--wrist-servo"
+          ],
+          "pid": 2664938,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PRAND2-physics.log",
+          "log_sha": "6d59f04f8e7dabf43ae549680ea6e5ba7705241893c237d86c115db3c0e5453f"
+        },
+        {
+          "stage": "render",
+          "rc": 0,
+          "wall_s": 179.72191786766052,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "600",
+            "taskset",
+            "-c",
+            "82,83",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/render_batch.py",
+            "PRAND2"
+          ],
+          "pid": 2671323,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PRAND2-render.log",
+          "log_sha": "4809fe79287e5f941db68ee72ae192c64f2882efcb22ec1c5fe6a7f2818aad54"
+        }
+      ],
+      "mujoco_version": "3.2.7",
+      "video_sha": "d23064a239199628beb3447e0a552ab11b63b2377ab61aa4f21598759d1abb55"
+    },
+    "PSIZE2": {
+      "lift_m": 0.11310123397153882,
+      "success": true,
+      "duration_s": 53.12,
+      "render_receipt": [
+        {
+          "stage": "plan",
+          "rc": 0,
+          "wall_s": 162.45233058929443,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "180",
+            "taskset",
+            "-c",
+            "84,85",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/batch_plan.py",
+            "--config",
+            "/data/group4/20261009-021611-codex-415484ce/pilots/PSIZE2.json"
+          ],
+          "pid": 2657179,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PSIZE2-plan.log",
+          "log_sha": "dbe8ae91864810745ba58c7a061a9d1c5044bfb779362f1d67a9b49b342fc459"
+        },
+        {
+          "stage": "physics",
+          "rc": 0,
+          "wall_s": 104.80157375335693,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "600",
+            "taskset",
+            "-c",
+            "84,85",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/execute_batch.py",
+            "--plan",
+            "plan_PSIZE2",
+            "--name",
+            "PSIZE2",
+            "--native-mesh",
+            "--retract-raise",
+            "--wrist-servo"
+          ],
+          "pid": 2665558,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PSIZE2-physics.log",
+          "log_sha": "1358c6ab965c93856a760021aa194114a28a10647a013afd2aaba3fa3c40f7d8"
+        },
+        {
+          "stage": "render",
+          "rc": 0,
+          "wall_s": 184.26920342445374,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "600",
+            "taskset",
+            "-c",
+            "84,85",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/render_batch.py",
+            "PSIZE2"
+          ],
+          "pid": 2673480,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PSIZE2-render.log",
+          "log_sha": "8d2dce8d53f0992b2821183cecc5f2dc4dd232aeab56a4c77373d9bcc262f29a"
+        }
+      ],
+      "mujoco_version": "3.2.7",
+      "video_sha": "6d0cb2b8a3ea366e7b5cba5dc3ba082bffdb6e668357e7a52f21261b3e61bb59"
+    },
+    "PBACK2": {
+      "lift_m": 0.11903081485696476,
+      "success": true,
+      "duration_s": 53.12,
+      "render_receipt": [
+        {
+          "stage": "plan",
+          "rc": 0,
+          "wall_s": 50.76586413383484,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "180",
+            "taskset",
+            "-c",
+            "86,87",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/batch_plan.py",
+            "--config",
+            "/data/group4/20261009-021611-codex-415484ce/pilots/PBACK2.json"
+          ],
+          "pid": 2657182,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PBACK2-plan.log",
+          "log_sha": "a7294545344a7152055837442cce336cff6792bf765c035ade3e4848eeb6b867"
+        },
+        {
+          "stage": "physics",
+          "rc": 0,
+          "wall_s": 113.56592917442322,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "600",
+            "taskset",
+            "-c",
+            "86,87",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/execute_batch.py",
+            "--plan",
+            "plan_PBACK2",
+            "--name",
+            "PBACK2",
+            "--native-mesh",
+            "--retract-raise",
+            "--wrist-servo"
+          ],
+          "pid": 2659349,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PBACK2-physics.log",
+          "log_sha": "af44270980c3c4e26ed6d68e8c6048f57321db9a343ce21208e8b1946cd53fce"
+        },
+        {
+          "stage": "render",
+          "rc": 0,
+          "wall_s": 184.36252331733704,
+          "command": [
+            "timeout",
+            "--kill-after=5",
+            "600",
+            "taskset",
+            "-c",
+            "86,87",
+            "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+            "-B",
+            "/data/group4/20261009-021611-codex-415484ce/render_batch.py",
+            "PBACK2"
+          ],
+          "pid": 2665630,
+          "log": "/data/group4/20261009-021611-codex-415484ce/logs/PBACK2-render.log",
+          "log_sha": "7bb1bec8b58c7fc9c5fd3434295820ace4e67cc5d9c8c6aa59644eed89581cf8"
+        }
+      ],
+      "mujoco_version": "3.2.7",
+      "video_sha": "b715983c70d72b6c6ba0279b2303f02f6edbcca8a7167f97de1bc8aeb6759a03"
+    }
+  }
+}

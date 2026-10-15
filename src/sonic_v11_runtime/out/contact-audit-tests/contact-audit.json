@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "dt": 0.002,
+    "model_sha": {
+      "scene": "7e70445394e8d0f53bd72b6b04529c9c3c93e240dcc126df79506ef1cb09c6c2"
+    },
+    "scene_generator_sha": "3cd559273fc141d1767615ad1e0ddff263b36bf6bdddea9a668ddc7343b87eb2",
+    "library_sha": {
+      "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e"
+    }
+  },
+  "physics_steps": 1,
+  "raw_contact_rows": 4,
+  "all_steps": {
+    "pad": {
+      "max_normal_N": 0.0,
+      "loaded_steps": 0,
+      "max_upward_force_N": 0.0,
+      "min_vertical_force_N": 0.0
+    },
+    "wrist": {
+      "max_normal_N": 0.0,
+      "loaded_steps": 0,
+      "max_upward_force_N": 0.0,
+      "min_vertical_force_N": 0.0
+    },
+    "other_robot": {
+      "max_normal_N": 0.0,
+      "loaded_steps": 0,
+      "max_upward_force_N": 0.0,
+      "min_vertical_force_N": 0.0
+    },
+    "support": {
+      "max_normal_N": 0.2715740259740266,
+      "loaded_steps": 1,
+      "max_upward_force_N": 0.2715740259740266,
+      "min_vertical_force_N": 0.2715740259740266
+    },
+    "other": {
+      "max_normal_N": 0.0,
+      "loaded_steps": 0,
+      "max_upward_force_N": 0.0,
+      "min_vertical_force_N": 0.0
+    }
+  },
+  "hold_steps": {
+    "pad": {
+      "max_normal_N": 0.0,
+      "loaded_steps": 0,
+      "max_upward_force_N": 0.0,
+      "min_vertical_force_N": 0.0
+    },
+    "wrist": {
+      "max_normal_N": 0.0,
+      "loaded_steps": 0,
+      "max_upward_force_N": 0.0,
+      "min_vertical_force_N": 0.0
+    },
+    "other_robot": {
+      "max_normal_N": 0.0,
+      "loaded_steps": 0,
+      "max_upward_force_N": 0.0,
+      "min_vertical_force_N": 0.0
+    },
+    "support": {
+      "max_normal_N": 0.2715740259740266,
+      "loaded_steps": 1,
+      "max_upward_force_N": 0.2715740259740266,
+      "min_vertical_force_N": 0.2715740259740266
+    },
+    "other": {
+      "max_normal_N": 0.0,
+      "loaded_steps": 0,
+      "max_upward_force_N": 0.0,
+      "min_vertical_force_N": 0.0
+    }
+  },
+  "hold_sample_count": 1,
+  "fingertip_only_robot_contacts_in_hold": true,
+  "forbidden_robot_normal_threshold_N": 0.001,
+  "threshold_definition": "sum of wrist and other non-whitelisted robot normal forces per solver step",
+  "raw_columns": [
+    "time_s",
+    "solver_time_s",
+    "step",
+    "contact_id",
+    "geom1",
+    "geom2",
+    "other_geom",
+    "other_body",
+    "category",
+    "efc_address",
+    "distance_m",
+    "condim",
+    "contact_x_m",
+    "contact_y_m",
+    "contact_z_m",
+    "frame_0",
+    "frame_1",
+    "frame_2",
+    "frame_3",
+    "frame_4",
+    "frame_5",
+    "frame_6",
+    "frame_7",
+    "frame_8",
+    "contact_fn_N",
+    "contact_ft1_N",
+    "contact_ft2_N",
+    "contact_tn_Nm",
+    "contact_tt1_Nm",
+    "contact_tt2_Nm",
+    "cube_force_x_N",
+    "cube_force_y_N",
+    "cube_force_z_N",
+    "cube_moment_com_x_Nm",
+    "cube_moment_com_y_Nm",
+    "cube_moment_com_z_Nm",
+    "cube_com_x_m",
+    "cube_com_y_m",
+    "cube_com_z_m",
+    "cube_rotation_0",
+    "cube_rotation_1",
+    "cube_rotation_2",
+    "cube_rotation_3",
+    "cube_rotation_4",
+    "cube_rotation_5",
+    "cube_rotation_6",
+    "cube_rotation_7",
+    "cube_rotation_8"
+  ],
+  "step_columns": [
+    "time_s",
+    "solver_time_s",
+    "phase_id",
+    "pad_normal_N",
+    "pad_world_fx_N",
+    "pad_world_fy_N",
+    "pad_world_fz_N",
+    "wrist_normal_N",
+    "wrist_world_fx_N",
+    "wrist_world_fy_N",
+    "wrist_world_fz_N",
+    "other_robot_normal_N",
+    "other_robot_world_fx_N",
+    "other_robot_world_fy_N",
+    "other_robot_world_fz_N",
+    "support_normal_N",
+    "support_world_fx_N",
+    "support_world_fy_N",
+    "support_world_fz_N",
+    "other_normal_N",
+    "other_world_fx_N",
+    "other_world_fy_N",
+    "other_world_fz_N"
+  ],
+  "category_ids": {
+    "0": "pad",
+    "1": "wrist",
+    "2": "other_robot",
+    "3": "support",
+    "4": "other"
+  },
+  "phase_ids": {
+    "HOLD": 0
+  },
+  "geom_metadata": {
+    "0": {
+      "name": "floor",
+      "body": 0,
+      "body_name": "world",
+      "category": "support"
+    },
+    "1": {
+      "name": "robot",
+      "body": 1,
+      "body_name": "pelvis",
+      "category": "other_robot"
+    },
+    "2": {
+      "name": "wrist",
+      "body": 2,
+      "body_name": "right_wrist_yaw_link",
+      "category": "wrist"
+    }
+  },
+  "geom_contact_counts": {
+    "0": {
+      "contact_rows": 4,
+      "loaded_rows": 4,
+      "max_normal_N": 0.06789350649350669
+    }
+  },
+  "force_convention": "contact frame rows; positive wrench on geom2; signed cube-world force and contact moment about xipos COM",
+  "timestamp_convention": "time_s advanced by mj_step; solver_time_s=time_s-dt for preintegration contact/xipos/xmat values",
+  "state_mutations": false,
+  "raw_path": "cube_contacts.csv.gz",
+  "step_path": "cube_contact_steps.csv.gz"
+}

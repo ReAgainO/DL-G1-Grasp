@@ -1,0 +1,1984 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22",
+    "model_sha": {
+      "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+      "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+    },
+    "scene_generator_sha": "f01c16cc913983c9f2befd2abd49c9694f6de9f53fe59407ee42d4225136e219",
+    "library_versions": {
+      "numpy": "1.26.4",
+      "onnxruntime": "1.23.2"
+    },
+    "library_sha": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+      "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "native_npz": "62607734726d37cba47ef2b0c1c1fc53d0c2cc9200e6181a1b281376b01dc5b3",
+      "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+      "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+      "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+      "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+      "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+      "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+      "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+      "adaptive_hand": "892bff4b931f9df1836d685b2cea0a233783f32cfdf8738e51cf41aeb038986f",
+      "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+      "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+      "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4",
+      "table_placement": "e1b5e88d4bdd0f0cce8a3dbd78e940c51976d2539caf4f99a4217a8cb9391477",
+      "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+      "setdown_plan": "5dd156238a40b06909e2c760dfbfc516c76e9af7793edf7c6fd07020d34dd521",
+      "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+      "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+      "neutral_pose": "76e534e278960796a08b1459345fd48f2898b1b18977e2f00fe3c1af47ab04b2",
+      "execution_monitor": "dd9d078527e2551a15202322c7bd53eb98eb0dc22a013633dfa74a062a00cf0d",
+      "clearance_approach": "94356a8088bd16da207caec9d220980cd4be335fb421ed7a4109274dfb449020",
+      "motion_profile": "ec830274ba547e49bfab4f9dc25da310711e6fde885e5b118654d04b31288b01",
+      "native_branch": "3200af709404873baf07ff36042b13b8131555c5290af7bd9a410103126eac28",
+      "branch_execution": "14228ce96d7ab17872e6e2ee9d8876985727c2fc74fe370ea6d9099ab0369d32",
+      "finger_clearance": "4364050ab61a528509b4691000eb9c10484565ef33c1ba0c0eda4e439cec995f",
+      "cycle_latency": "692296c0ff2d90cb2a8274e0a0b024ad06b11019702e082797e8a9daf97e9428",
+      "input_profile": "81abc21545ba479745de28513519989b0c78c9e8cb10c31c4e5c0a42e2eea2f7",
+      "generation_summary": "613e6e7ce10e24874bf0b25351c1c7414d6aa5e0ec056d58b4de97af834bce33",
+      "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+      "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    "dt": 0.002,
+    "diagnostic_sha256": "18702531a4db2180d59edfa0b9e1839958f7360d30a989e222252580b4ac8ef5"
+  },
+  "physical_steps": 0,
+  "source_episode": "w7_fingerclear_control327",
+  "result_sha256": "674fd06fd9cac11a25882d4e2bab13b53fa3a39f10b6d803ff8f7e26619cc4fa",
+  "trajectory_sha256": "1924f9bf0bf311bf0c1c0ac1b50d355a3a54c49da5890035da7ee22da25eacaa",
+  "saved_samples": 91,
+  "sample_bound": 96,
+  "approximate_fixed_normal_from_first_saved_CLOSE_frame": [
+    0.20893760822910576,
+    -0.9779289728132103,
+    0.0
+  ],
+  "samples": [
+    {
+      "time_s": 44.922000000008936,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        62.96658278223188,
+        26.66554688109768
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        61.80277064789252,
+        22.712035725592884
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.175612898057473,
+        22.587789485084887
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.03878574180346184
+    },
+    {
+      "time_s": 44.962000000008985,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        62.69614171743954,
+        25.120390380977685
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        59.08349922700562,
+        22.862752559729806
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.07988025000418,
+        22.0503469113712
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.08860752472383071
+    },
+    {
+      "time_s": 45.00200000000903,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        60.732724456545874,
+        23.266456486905838
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        55.478036760055694,
+        22.50370305166016
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.242508594119915,
+        22.22110483320183
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.11063107728584254
+    },
+    {
+      "time_s": 45.04200000000908,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        56.98128047741358,
+        22.20981625645768
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        51.84842380970611,
+        21.86633929240067
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.335597813254115,
+        22.21053382498106
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.10374732201489878
+    },
+    {
+      "time_s": 45.08200000000913,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        52.07653839978843,
+        21.416790423981368
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        48.19066590874588,
+        21.055382559586832
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.068339885732758,
+        21.410908090656267
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.08042812141657185
+    },
+    {
+      "time_s": 45.12200000000918,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        46.78102477834012,
+        20.277094313488895
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        44.143044608857316,
+        19.731931881847963
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.010894739881937,
+        20.273479403703387
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.05665491664569777
+    },
+    {
+      "time_s": 45.16200000000923,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        41.63351381422908,
+        18.163199308881993
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        39.68505761047525,
+        17.57778468671645
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.137820074747626,
+        18.162177219107733
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.04345141340165837
+    },
+    {
+      "time_s": 45.20200000000928,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        37.3856075597,
+        16.34002062364437
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        35.513692355793715,
+        15.613353371443317
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.069013976549368,
+        16.342538860809164
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.04346651083947495
+    },
+    {
+      "time_s": 45.24200000000933,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        33.76095934023127,
+        14.606474095087862
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        31.595194444085205,
+        13.731752153826049
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.04520339932725,
+        14.612737603833082
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.05247854339958358
+    },
+    {
+      "time_s": 45.282000000009376,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        30.58311487443277,
+        13.06776761774897
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        28.080838945836796,
+        12.140710641384223
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.04856973334268,
+        13.076581320978109
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.06349701774823302
+    },
+    {
+      "time_s": 45.322000000009425,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        27.710296861175543,
+        11.8795236325685
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        25.060074238694273,
+        10.929131711776341
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.067360829905013,
+        11.88928977982162
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.07087022417871047
+    },
+    {
+      "time_s": 45.36200000000947,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        24.99705452690948,
+        10.99181290570983
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        22.448857037043357,
+        10.027294228386662
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.097160875973465,
+        11.001091333205038
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.07244465102415454
+    },
+    {
+      "time_s": 45.40200000000952,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        22.414418917269586,
+        10.312384084587233
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        20.163396025819736,
+        9.494862395182825
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        22.12511047200538,
+        10.320436564587144
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.06941716435005785
+    },
+    {
+      "time_s": 45.44200000000957,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        19.857715100701224,
+        10.186392083630924
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        17.920398364600686,
+        9.56594357272811
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        19.839172508060663,
+        10.187510891208174
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.06470209757108014
+    },
+    {
+      "time_s": 45.48200000000962,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        16.947720505256946,
+        9.686237437705136
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        15.26945781312783,
+        8.05625020466183
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        16.92324240818488,
+        9.687918839426324
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.06108626865807776
+    },
+    {
+      "time_s": 45.52200000000967,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        14.12569087064741,
+        7.798841828885683
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        12.637004693248578,
+        6.653853616832905
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        14.042748615543443,
+        7.805858665882903
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.059918787484771974
+    },
+    {
+      "time_s": 45.56200000000972,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        11.59764018540943,
+        6.028428330044133
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        10.246026672068421,
+        5.337906774735446
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        11.513874728239282,
+        6.036852302511608
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.06095583772281721
+    },
+    {
+      "time_s": 45.60200000000977,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        9.517753686103747,
+        4.9106032265159305
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        8.292682579698951,
+        4.326573187523719
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        9.434300883428115,
+        4.920581901387
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.06305983355316414
+    },
+    {
+      "time_s": 45.642000000009816,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        7.9170932963466,
+        4.249073131892156
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        6.839234938688654,
+        3.6796421086946474
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        7.839299634031183,
+        4.260630034252366
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.0649834530697847
+    },
+    {
+      "time_s": 45.682000000009864,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        6.629464026546739,
+        3.7733883841407634
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        5.728398452076511,
+        3.2195019500166344
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        6.572761273284322,
+        3.784532671174956
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.06596875727579432
+    },
+    {
+      "time_s": 45.72200000000991,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        5.485458450661396,
+        3.3508243538443727
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        4.784788569497711,
+        2.8142250697156257
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        5.454866905415412,
+        3.3615463921636834
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.06593957368206738
+    },
+    {
+      "time_s": 45.76200000000996,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        4.090263855946241,
+        2.4564542079478224
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        3.797841866938212,
+        2.0255789199390417
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        4.085352772992157,
+        2.462528235910977
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.033610132899965395
+    },
+    {
+      "time_s": 45.80200000001001,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        3.1801422931153622,
+        1.8188750901462214
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        3.3035557143279437,
+        1.4139172961232793
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        3.1768378175919265,
+        1.8220470869508842
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010591657400090382
+    },
+    {
+      "time_s": 45.84200000001006,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        2.769211090042911,
+        1.5689421722611119
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        3.019241379896398,
+        1.1544791830540024
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        2.7697057746910447,
+        1.5684566021645363
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.012879015267623029
+    },
+    {
+      "time_s": 45.88200000001011,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        2.5625686966319616,
+        1.3642405805126545
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        2.814672534467433,
+        0.9534028952482565
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        2.56282531671137,
+        1.3639886359055886
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.013160857962314143
+    },
+    {
+      "time_s": 45.92200000001016,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        2.09204693025955,
+        1.0012950471494086
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        2.3427274185173763,
+        0.5900363725911406
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        2.0931785528163216,
+        1.0001900302752942
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.013200875395591227
+    },
+    {
+      "time_s": 45.96200000001021,
+      "phase": "CLOSE",
+      "actual_pad_table_clearance_mm": [
+        1.4526719556118284,
+        0.5094112935053463
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        1.7018648369075962,
+        0.0897184800457973
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        1.4554495103492604,
+        0.5067449283615577
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.6284736642977862
+      ],
+      "hand_tracking_max_rad": 0.013188029753015473
+    },
+    {
+      "time_s": 46.002000000010256,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        0.9554941207505774,
+        0.14623264505864153
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        1.203662414474227,
+        -0.27787914899957133
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        0.9588096949917357,
+        0.1430134674053063
+      ],
+      "added_floor_target_displacement_mm": [
+        0.05923127636080745,
+        1.0822580111862388
+      ],
+      "hand_tracking_max_rad": 0.01317999133181258
+    },
+    {
+      "time_s": 46.1220000000104,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        -0.09274300234551891,
+        0.11613659527553999
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        0.14744147175271838,
+        -0.3426725993451729
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        -0.08094731463426097,
+        0.1048588904893899
+      ],
+      "added_floor_target_displacement_mm": [
+        1.504270076918136,
+        1.1119316452534789
+      ],
+      "hand_tracking_max_rad": 0.012367715833223047
+    },
+    {
+      "time_s": 46.24200000001055,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        -0.0344999021156811,
+        0.5481768776162133
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        0.18847418056944232,
+        0.16966057389444789
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        -0.02451325827212969,
+        0.5382898806232106
+      ],
+      "added_floor_target_displacement_mm": [
+        1.4125849837537197,
+        0.5756673484031798
+      ],
+      "hand_tracking_max_rad": 0.011268868789460762
+    },
+    {
+      "time_s": 46.362000000010696,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        -0.02542816090411737,
+        0.7153954567953313
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        0.1987541932346737,
+        0.41456990265842375
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        -0.018506688810537852,
+        0.7085721913243637
+      ],
+      "added_floor_target_displacement_mm": [
+        1.4025331656064282,
+        0.36594067598742963
+      ],
+      "hand_tracking_max_rad": 0.011393668324204742
+    },
+    {
+      "time_s": 46.48200000001084,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        -0.03649281633844037,
+        0.7161578815484404
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        0.1868483351790129,
+        0.47855504305849283
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        -0.033313951377511586,
+        0.7130055445895289
+      ],
+      "added_floor_target_displacement_mm": [
+        1.1103695534850613,
+        0.33647251947809786
+      ],
+      "hand_tracking_max_rad": 0.011544607997215461
+    },
+    {
+      "time_s": 46.60200000001099,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        0.34105872211509514,
+        0.8068912571413955
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        0.5589127782308356,
+        0.6257317218212322
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        0.3369322800620411,
+        0.8110933271250342
+      ],
+      "added_floor_target_displacement_mm": [
+        0.714467709844926,
+        0.22134119690239412
+      ],
+      "hand_tracking_max_rad": 0.011735077589371201
+    },
+    {
+      "time_s": 46.722000000011136,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        0.5650351926751451,
+        0.7673208499576756
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        0.7771273697809722,
+        0.6417355965894211
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        0.5594596891299597,
+        0.772812102902698
+      ],
+      "added_floor_target_displacement_mm": [
+        0.4771960197496621,
+        0.2654742295895922
+      ],
+      "hand_tracking_max_rad": 0.011829476477355994
+    },
+    {
+      "time_s": 46.88200000001133,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        2.1200711628935887,
+        1.1588503071272571
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        2.310206264326542,
+        1.100051336684782
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        2.092843268076461,
+        1.1856965219835258
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.01187721396063346
+    },
+    {
+      "time_s": 47.00200000001148,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        1.9713146418837146,
+        0.7444028508774014
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        2.1557148916281355,
+        0.7178739210047524
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        1.946575149522456,
+        0.7699648588409547
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.2656584743748552
+      ],
+      "hand_tracking_max_rad": 0.01188758047020877
+    },
+    {
+      "time_s": 47.122000000011624,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        1.1066323242620024,
+        -0.068027832278994
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        1.2805104437889625,
+        -0.5254403668263352
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        1.0971539846209577,
+        -0.05836398518466179
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        1.223912926129904
+      ],
+      "hand_tracking_max_rad": 0.011714850683198663
+    },
+    {
+      "time_s": 47.24200000001177,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        1.2375084765938738,
+        -0.06163447696971858
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        1.3998421807369654,
+        -0.6874768185928248
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        1.2307350376876691,
+        -0.05478835634364909
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        1.2198292149057444
+      ],
+      "hand_tracking_max_rad": 0.01129897570442051
+    },
+    {
+      "time_s": 47.36200000001192,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        1.2674669514131098,
+        -0.05103750037815935
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        1.4225548759695394,
+        -0.7588517147452123
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        1.2636919441230132,
+        -0.04724150392687587
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        1.2143946020231209
+      ],
+      "hand_tracking_max_rad": 0.010935409736260615
+    },
+    {
+      "time_s": 47.482000000012064,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        1.6972278322415768,
+        0.10151666230506784
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        1.8456465450548132,
+        -0.5842697816151876
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        1.6900812148834543,
+        0.10855756889216472
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        1.0334109831619511
+      ],
+      "hand_tracking_max_rad": 0.010644649141706042
+    },
+    {
+      "time_s": 47.64200000001226,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        2.1493994183900966,
+        -0.05147413323947081
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        2.2912670156669535,
+        -0.5861403523816922
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        2.1313041128832033,
+        -0.03313546534466916
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        1.1956077029570957
+      ],
+      "hand_tracking_max_rad": 0.010499017296534019
+    },
+    {
+      "time_s": 47.76200000001241,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        2.2607909304430684,
+        0.1302437747368046
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        2.405289128032062,
+        -0.31373222558805924
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        2.2459906606774327,
+        0.14551073087520905
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        1.0781322329738399
+      ],
+      "hand_tracking_max_rad": 0.010494827429199827
+    },
+    {
+      "time_s": 47.88200000001255,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        2.7609652153565145,
+        1.1373570562198676
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        2.9133012755006016,
+        0.7917594863995348
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        2.754517490870634,
+        1.1437899143557084
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010491693340785924
+    },
+    {
+      "time_s": 48.0020000000127,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        3.5707049160151882,
+        1.8692271937446048
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        3.7209453710568274,
+        1.608497060938907
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        3.558420218161107,
+        1.8814920579540706
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010484197640221904
+    },
+    {
+      "time_s": 48.12200000001285,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        4.90642917325379,
+        2.9420536520680107
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        5.049448924642763,
+        2.755668621281959
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        4.883977571933595,
+        2.9644856143017373
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010507843274668138
+    },
+    {
+      "time_s": 48.24200000001299,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        5.150324456130617,
+        3.3615180869627226
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        5.295412051951276,
+        3.237535572843231
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        5.129186238886141,
+        3.382612365759541
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010553990620791431
+    },
+    {
+      "time_s": 48.40200000001319,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        4.43219777955195,
+        3.0101054431769247
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        4.584861502433979,
+        2.9585845003090583
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        4.416684433031448,
+        3.025611210830781
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.01061964800269577
+    },
+    {
+      "time_s": 48.522000000013335,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        5.739723986174838,
+        4.504704370083101
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        5.896869276313721,
+        4.498287848641813
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        5.726526248140074,
+        4.51787438935447
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010662837084123633
+    },
+    {
+      "time_s": 48.64200000001348,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        5.599086544660681,
+        4.868177403990925
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        5.770313191004961,
+        4.901557297157133
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        5.5964146030307305,
+        4.87084128724069
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010694147336704818
+    },
+    {
+      "time_s": 48.76200000001363,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        8.779973028105514,
+        8.389995600845301
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        8.957130014577764,
+        8.461061228283384
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        8.783977785533303,
+        8.385994368288907
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010747056985483727
+    },
+    {
+      "time_s": 48.882000000013775,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        13.38365208016279,
+        13.552286197074936
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        13.568090749216054,
+        13.654161401864373
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        13.399920156669797,
+        13.536036236817539
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010782543106048648
+    },
+    {
+      "time_s": 49.00200000001392,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        21.143582799138414,
+        22.06647811409923
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        21.331407987117522,
+        22.196472182635098
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        21.176978323335206,
+        22.033143034649427
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.01080491867402944
+    },
+    {
+      "time_s": 49.12200000001407,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        28.165505335801534,
+        29.663836508556752
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        28.35527749775879,
+        29.816967068775348
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        28.212084568759344,
+        29.61724393174414
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010847909173543613
+    },
+    {
+      "time_s": 49.282000000014264,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        33.05171438705212,
+        35.699119501727
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        33.26184303121404,
+        35.87950000778173
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        33.12587916502729,
+        35.624942005157756
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010879216980094752
+    },
+    {
+      "time_s": 49.40200000001441,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        35.85534883786301,
+        37.513292626375595
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        36.04860820076639,
+        37.71075860098749
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        35.903965387581785,
+        37.464756431589194
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010871448595424327
+    },
+    {
+      "time_s": 49.52200000001456,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        39.56436741139413,
+        39.25473699666038
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        39.712199523225244,
+        39.465081232761264
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        39.56305728304565,
+        39.256047735779845
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010876633771003674
+    },
+    {
+      "time_s": 49.642000000014704,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        40.5287022251416,
+        39.44324485020534
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        40.655934748753396,
+        39.66574432484216
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        40.50723383014232,
+        39.464696189512985
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010875176289028898
+    },
+    {
+      "time_s": 49.76200000001485,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        41.828168129683704,
+        40.3911672124625
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        41.94271953578899,
+        40.62553361796528
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        41.7971701150901,
+        40.422124348273854
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010865994420116931
+    },
+    {
+      "time_s": 49.882000000015,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        44.68626697237266,
+        42.37312960102724
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        44.783981051424895,
+        42.616063892068844
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        44.63268634133721,
+        42.42655564037767
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.01084770699809201
+    },
+    {
+      "time_s": 50.04200000001519,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        46.150502138453064,
+        42.99048292812646
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        46.24142028634781,
+        43.24332453706437
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        46.07505853566274,
+        43.0657237983183
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010805259471589723
+    },
+    {
+      "time_s": 50.16200000001534,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        47.56126216226109,
+        44.10003736634971
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        47.65071016376321,
+        44.360842925619146
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        47.4777395563527,
+        44.183225919790516
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010797149182717458
+    },
+    {
+      "time_s": 50.282000000015486,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        51.53870481411671,
+        47.81314484916399
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        51.62017793796947,
+        48.08040391627977
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        51.44809032962372,
+        47.903442496433634
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010784525986482052
+    },
+    {
+      "time_s": 50.40200000001563,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        53.389011653053544,
+        49.662067996022685
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        53.46698226378588,
+        49.93242550158439
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        53.297929784177576,
+        49.75280264412163
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010759556363078016
+    },
+    {
+      "time_s": 50.52200000001578,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        55.17900185085889,
+        51.860543432997844
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        55.26256104088745,
+        52.13825002790629
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        55.097816862763274,
+        51.9416197084781
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.01075749187652253
+    },
+    {
+      "time_s": 50.642000000015926,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        58.73159591241084,
+        55.99535018274837
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        58.82043862900355,
+        56.27633106076202
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        58.6645122569015,
+        56.062093335582205
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010733390668926202
+    },
+    {
+      "time_s": 50.80200000001612,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        67.03671480759665,
+        64.11419766658366
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        67.10536730029315,
+        64.39861438477634
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        66.96457798618327,
+        64.18606792949655
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.01068643667128899
+    },
+    {
+      "time_s": 50.92200000001627,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        73.60968094397103,
+        69.88442718914168
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        73.65925880066237,
+        70.16815319894809
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        73.51733159980789,
+        69.97659342239626
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010679951435074164
+    },
+    {
+      "time_s": 51.042000000016415,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        74.60850847493417,
+        70.84937274340675
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        74.65698309553449,
+        71.13403292462527
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        74.51504634521999,
+        70.94246290204221
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010660332725404453
+    },
+    {
+      "time_s": 51.16200000001656,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        75.8696937509823,
+        71.91183347712071
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        75.9145864226468,
+        72.20009247488146
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        75.77115642963417,
+        72.01005953937944
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010634282932545314
+    },
+    {
+      "time_s": 51.28200000001671,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        80.68549400258651,
+        76.66974689438388
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        80.72281925529623,
+        76.95853392887753
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        80.58534570555942,
+        76.76951078527705
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010609174549679135
+    },
+    {
+      "time_s": 51.402000000016855,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        82.8102607931348,
+        78.79107387577567
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        82.84607523330911,
+        79.08044620247546
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        82.70994091415196,
+        78.89102524435998
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010586500531405973
+    },
+    {
+      "time_s": 51.522000000017,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        84.18258826867297,
+        80.4040340474027
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        84.22901015771423,
+        80.69554389974142
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        84.08827359603998,
+        80.4979688201194
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010571529948519176
+    },
+    {
+      "time_s": 51.6820000000172,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        85.60739684940167,
+        82.16970974470306
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        85.6800338821464,
+        82.4668819833012
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        85.52157173063546,
+        82.25522720692535
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010551001626349255
+    },
+    {
+      "time_s": 51.802000000017344,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        87.72632005226765,
+        84.28126862515495
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        87.80135634280539,
+        84.58111891917952
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        87.64030348109753,
+        84.36693522388306
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010539581416488586
+    },
+    {
+      "time_s": 51.92200000001749,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        90.3881294551837,
+        86.7385969844272
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        90.45572593043794,
+        87.03862571476273
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        90.29699629446574,
+        86.82950722134586
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010537944743140848
+    },
+    {
+      "time_s": 52.04200000001764,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        92.6358329737117,
+        89.25409828557085
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        92.70893024340742,
+        89.5576136081685
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        92.55137170874849,
+        89.33848522652322
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010544812441375506
+    },
+    {
+      "time_s": 52.162000000017784,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        98.18366710422654,
+        95.76604743350026
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        98.2943859732699,
+        96.07656498283079
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        98.12319474084286,
+        95.82626311911469
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010564859707719143
+    },
+    {
+      "time_s": 52.28200000001793,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        102.49230565239165,
+        100.6774752720334
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        102.6197550004343,
+        100.98976838673823
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        102.4471499904005,
+        100.7225438968169
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010549757819643069
+    },
+    {
+      "time_s": 52.442000000018126,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        107.36492686758037,
+        105.94254475350407
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        107.49541688354591,
+        106.25699705643376
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        107.329528812665,
+        105.97782844556048
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010560526994938924
+    },
+    {
+      "time_s": 52.56200000001827,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        111.68896049130228,
+        109.93296350856707
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        111.80621254922085,
+        110.24811977320081
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        111.64533911759212,
+        109.97649039163181
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010556117795397002
+    },
+    {
+      "time_s": 52.68200000001842,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        119.86079173684372,
+        117.22046427481936
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        119.95256056637938,
+        117.53504509319012
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        119.79493629449078,
+        117.28614458474385
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010551813529674381
+    },
+    {
+      "time_s": 52.802000000018566,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        123.8339775576931,
+        120.32236908313376
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        123.90669388159337,
+        120.63428702962986
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        123.74619066976733,
+        120.40988901887395
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010558091074411302
+    },
+    {
+      "time_s": 52.92200000001871,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        126.47036056616024,
+        123.26672493383428
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        126.54531737813868,
+        123.58064348986719
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        126.3903640251417,
+        123.34638355371385
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010539566520516463
+    },
+    {
+      "time_s": 53.04200000001886,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        129.92863821312616,
+        126.96625563913189
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        130.00023251988614,
+        127.27910415831577
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        129.8548192740795,
+        127.03990585113156
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010525388649020972
+    },
+    {
+      "time_s": 53.202000000019055,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        129.92329176257078,
+        126.97281494481749
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        129.99296644440284,
+        127.28607154830596
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        129.8497870961084,
+        127.04606997993906
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010514361181220067
+    },
+    {
+      "time_s": 53.3220000000192,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        132.1711773631614,
+        128.972156714789
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        132.23114375049937,
+        129.28519049127917
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        132.09157866004907,
+        129.0515116781512
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010496044860754394
+    },
+    {
+      "time_s": 53.44200000001935,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        132.91209621156574,
+        129.83715886787084
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        132.96961198685997,
+        130.15080698726877
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        132.8354415195102,
+        129.91360433457368
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010499996214937024
+    },
+    {
+      "time_s": 53.562000000019495,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        132.00970714665127,
+        129.20558958656093
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        132.0719785584078,
+        129.5188642200955
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        131.93993608529377,
+        129.2750655188457
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010479226705995659
+    },
+    {
+      "time_s": 53.68200000001964,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        130.27900607206976,
+        127.12124524682267
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        130.34482313754114,
+        127.43415302718242
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        130.2008023350315,
+        127.19905306433843
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010451806116528295
+    },
+    {
+      "time_s": 53.80200000001979,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        129.1692351035373,
+        125.39612657383181
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        129.23678662980876,
+        125.7104527326588
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        129.07581492723764,
+        125.489266742003
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.010439958356163737
+    },
+    {
+      "time_s": 53.962000000019984,
+      "phase": "LIFT",
+      "actual_pad_table_clearance_mm": [
+        129.30563377055037,
+        125.51092191230117
+      ],
+      "commanded_fk_pad_table_clearance_mm": [
+        129.37844790230767,
+        125.8276034463951
+      ],
+      "unconstrained_target_table_clearance_mm": [
+        129.21180794147136,
+        125.60430888319974
+      ],
+      "added_floor_target_displacement_mm": [
+        0.0,
+        0.0
+      ],
+      "hand_tracking_max_rad": 0.01044533674881698
+    }
+  ],
+  "min_actual_clearance_mm": -0.09274300234551891,
+  "min_commanded_fk_clearance_mm": -0.7588517147452123,
+  "max_added_floor_displacement_mm": 1.504270076918136,
+  "floor_changes_saved_projection_samples": 15,
+  "max_hand_tracking_rad": 0.11063107728584254,
+  "limitation": "Saved25Hz actual state/reference FK and direct projection, not a replay of actual10Hz IK calls or solver warm starts. Fixed closure normal approximated from first saved CLOSE frame; no physical steps or causal proof."
+}

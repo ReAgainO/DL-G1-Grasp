@@ -1,0 +1,5 @@
+run_id,prompt_id,seed,cfg_text,csv_path,prompt_text,constraints_sha,baseline
+x06:c2cfg_p0_s0_textoff_c,P0,0,0.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2cfg_p0_s0_textoff_c.csv,A person reaches forward with their right hand to grab a small object on a table.,6b8c648f9aac11a9da6306f39c2140cc26ded66fcff49d984c8e77308e2a2c6d,1
+x06:c2cfg_p0_s1_textoff_c,P0,1,0.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2cfg_p0_s1_textoff_c.csv,A person reaches forward with their right hand to grab a small object on a table.,6b8c648f9aac11a9da6306f39c2140cc26ded66fcff49d984c8e77308e2a2c6d,1
+x06:c2cfg_p3_s0_textoff_c,P3,0,0.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2cfg_p3_s0_textoff_c.csv,A person waters the plants on the balcony with their right hand.,6b8c648f9aac11a9da6306f39c2140cc26ded66fcff49d984c8e77308e2a2c6d,0
+x06:c2cfg_p3_s1_textoff_c,P3,1,0.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2cfg_p3_s1_textoff_c.csv,A person waters the plants on the balcony with their right hand.,6b8c648f9aac11a9da6306f39c2140cc26ded66fcff49d984c8e77308e2a2c6d,0

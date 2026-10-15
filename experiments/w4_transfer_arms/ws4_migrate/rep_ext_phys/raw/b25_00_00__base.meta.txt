@@ -1,0 +1,19 @@
+name=b25_00_00__base
+utc_start=2026-10-08T15:18:23Z
+host=worker00039 uid=1004
+runner_sha256=9a46d53b2297eb0ee7b1c02078b6403eebb0928fa193e14c274e8c4a2c289892
+sonic_grasp_sha256=45f0c6d898adf08990ea8c6231ef8ea1d58d61a2a4f0eb42c4243d61dadf2e63
+native_branch_sha256=64090ff6d47802755a23b99fe11ae27b4ce130dfc899c5d953d081c51b9164e8
+adaptive_hand_sha256=f35a826835f57cff66ca5411c46b72b63c770e832259e6b88ba4c0d048232c34
+grasp_geometry_sha256=bbbfbde344d8e5359498287ece86fa509c34882a01aa21754c9c123d3b577358
+motion_stem=near_s42
+motion_npz_sha256=78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff
+cpus=88,89 nice=19 ulimit_v_KiB=16777216
+sonic_grasp_args=b25_00_00__base --cube-edge-mm=25 --cube-x=0.266000 --cube-y=-0.148000
+w4c_phys_args=<none>
+pressure_cpu: some avg10=0.02 avg60=0.21 avg300=0.19 total=4043185650 full avg10=0.00 avg60=0.00 avg300=0.00 total=0 
+df_data_avail_kb=11119044200
+
+utc_end=2026-10-08T15:20:32Z
+rc=0 wall_s=129
+result_json=/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/rep_ext_phys/rep/out/b25_00_00__base/result.json

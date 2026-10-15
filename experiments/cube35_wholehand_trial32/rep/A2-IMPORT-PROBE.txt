@@ -1,0 +1,106 @@
+usage: sonic_grasp.py [-h] [--weight WEIGHT] [--no-grip] [--pad-off]
+                      [--no-compensation] [--teleop] [--native-geometry]
+                      [--pinch-geometry] [--cart-compensation] [--phase-clips]
+                      [--capture-radius CAPTURE_RADIUS] [--flat-pinch]
+                      [--c2-reference] [--policy-aware] [--endpoint-seed]
+                      [--arm-gain ARM_GAIN] [--fixed-base] [--inverse-anchor]
+                      [--endpoint-seed-native] [--inverse-incremental]
+                      [--kinematic-servo] [--contact-close]
+                      [--align-seconds ALIGN_SECONDS] [--surface-capture]
+                      [--contact-entry-dwell CONTACT_ENTRY_DWELL]
+                      [--freeze-close] [--gravity-arm GRAVITY_ARM]
+                      [--opponent {index,middle}]
+                      [--close-seconds CLOSE_SECONDS] [--teleop-fk-reference]
+                      [--discrete-servo] [--discrete-absolute]
+                      [--direct-table] [--adaptive-hand] [--grip-frame-lift]
+                      [--lock-grip] [--lift-damping LIFT_DAMPING]
+                      [--sonic-armature] [--passive-free]
+                      [--decoded-filter-tau DECODED_FILTER_TAU]
+                      [--decoded-filter-speed DECODED_FILTER_SPEED]
+                      [--reference-margin REFERENCE_MARGIN]
+                      [--postcapture-arm-gain POSTCAPTURE_ARM_GAIN]
+                      [--postcapture-servo-cap POSTCAPTURE_SERVO_CAP]
+                      [--freeze-hold-servo] [--lift-height LIFT_HEIGHT]
+                      [--reference-fallback] [--ardy-off]
+                      [--table-front TABLE_FRONT]
+                      [--grip-preload-mm GRIP_PRELOAD_MM]
+                      [--finger-gain FINGER_GAIN] [--setdown]
+                      [--grip-face-half-mm GRIP_FACE_HALF_MM]
+                      [--neutral-shoulder-offset NEUTRAL_SHOULDER_OFFSET]
+                      [--strict-execution]
+                      [--execution-speed-limit EXECUTION_SPEED_LIMIT]
+                      [--clearance-approach] [--motion-profile MOTION_PROFILE]
+                      [--clearance-native-branch] [--clearance-branch-servo]
+                      [--finger-table-clearance-mm FINGER_TABLE_CLEARANCE_MM]
+                      [--branch-face-alignment] [--face-aligned-servo]
+                      name
+
+positional arguments:
+  name
+
+options:
+  -h, --help            show this help message and exit
+  --weight WEIGHT
+  --no-grip
+  --pad-off
+  --no-compensation
+  --teleop
+  --native-geometry
+  --pinch-geometry
+  --cart-compensation
+  --phase-clips
+  --capture-radius CAPTURE_RADIUS
+  --flat-pinch
+  --c2-reference
+  --policy-aware
+  --endpoint-seed
+  --arm-gain ARM_GAIN
+  --fixed-base
+  --inverse-anchor
+  --endpoint-seed-native
+  --inverse-incremental
+  --kinematic-servo
+  --contact-close
+  --align-seconds ALIGN_SECONDS
+  --surface-capture
+  --contact-entry-dwell CONTACT_ENTRY_DWELL
+  --freeze-close
+  --gravity-arm GRAVITY_ARM
+  --opponent {index,middle}
+  --close-seconds CLOSE_SECONDS
+  --teleop-fk-reference
+  --discrete-servo
+  --discrete-absolute
+  --direct-table
+  --adaptive-hand
+  --grip-frame-lift
+  --lock-grip
+  --lift-damping LIFT_DAMPING
+  --sonic-armature
+  --passive-free
+  --decoded-filter-tau DECODED_FILTER_TAU
+  --decoded-filter-speed DECODED_FILTER_SPEED
+  --reference-margin REFERENCE_MARGIN
+  --postcapture-arm-gain POSTCAPTURE_ARM_GAIN
+  --postcapture-servo-cap POSTCAPTURE_SERVO_CAP
+  --freeze-hold-servo
+  --lift-height LIFT_HEIGHT
+  --reference-fallback
+  --ardy-off
+  --table-front TABLE_FRONT
+  --grip-preload-mm GRIP_PRELOAD_MM
+  --finger-gain FINGER_GAIN
+  --setdown
+  --grip-face-half-mm GRIP_FACE_HALF_MM
+  --neutral-shoulder-offset NEUTRAL_SHOULDER_OFFSET
+  --strict-execution
+  --execution-speed-limit EXECUTION_SPEED_LIMIT
+  --clearance-approach
+  --motion-profile MOTION_PROFILE
+                        Verified generated four-role manifest, relative to
+                        this project evidence root
+  --clearance-native-branch
+  --clearance-branch-servo
+  --finger-table-clearance-mm FINGER_TABLE_CLEARANCE_MM
+  --branch-face-alignment
+  --face-aligned-servo

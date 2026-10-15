@@ -1,0 +1,61 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "dt": 0.002,
+    "model_sha": {
+      "scene": "3a0d510608d802f97b4c615a6b50e84c823ddc74d8490e35fb2896edad9baaf6"
+    },
+    "scene_generator_sha": "349417f342faeba23160953628d11189da7300603f3018a332569c4ec17b607b",
+    "library_sha": {
+      "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4"
+    }
+  },
+  "physics_steps": 1,
+  "hold_samples": 1,
+  "foot_body_whitelist": [
+    "left_ankle_roll_link",
+    "right_ankle_roll_link"
+  ],
+  "robot_table_hold_max_normal_N": 131.532185481108,
+  "nonfoot_floor_hold_max_normal_N": 0.0,
+  "foot_floor_hold_min_normal_N": 0.0,
+  "robot_table_all_max_normal_N": 131.532185481108,
+  "nonfoot_floor_all_max_normal_N": 0.0,
+  "no_table_rest_in_hold": false,
+  "no_nonfoot_floor_support_in_hold": true,
+  "feet_supported_in_hold": false,
+  "state_mutations": false,
+  "columns": [
+    "time_s",
+    "solver_time_s",
+    "robot_table_or_riser_force_N",
+    "left_foot_floor_force_N",
+    "right_foot_floor_force_N",
+    "nonfoot_floor_force_N"
+  ],
+  "scope": "support contacts only; not a COM/COP stability-margin certificate",
+  "raw_robot_support_contact_rows": 9,
+  "raw_robot_support_contact_limit": 1440000,
+  "raw_force_frame": "MuJoCo contact frame; f0 is normal, wrench on geom2; not signed world support force",
+  "raw_contact_columns": [
+    "time_s",
+    "solver_time_s",
+    "phase",
+    "contact_index",
+    "robot_geom_id",
+    "robot_geom_name",
+    "support_geom_id",
+    "support_geom_name",
+    "robot_body",
+    "category",
+    "distance_m",
+    "normal_force_N",
+    "tangent1_force_N",
+    "tangent2_force_N",
+    "contact_torque0_Nm",
+    "contact_torque1_Nm",
+    "contact_torque2_Nm"
+  ]
+}

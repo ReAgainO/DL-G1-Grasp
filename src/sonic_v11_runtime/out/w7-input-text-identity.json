@@ -1,0 +1,11 @@
+{
+  "physical_steps": 0,
+  "original_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+  "original_result_sha256": "d08b6c022aaf16b34e7801d20b496abfc75c53f10d408274871ef41c74b21d72",
+  "generation_summary_sha256": "a1555c9380666c58b9d3084b6bf34dc52a0fcf5fabe55604befceb21fd98b003",
+  "original_text": "A person reaches forward with their right hand to grab a small object on a table.",
+  "reach43_text": "A person reaches forward with their right hand to grab a small object on a table.",
+  "texts_equal": true,
+  "reach43_seed_from_summary": 43,
+  "limitation": "near_s42 vs reach_s43 is a different generated sample of the SAME text, not a text generalization test; filename seed is not enough attribution"
+}

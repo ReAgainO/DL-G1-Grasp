@@ -1,0 +1,11 @@
+{
+  "task": "20261009-170228-codex-fcd727b9",
+  "data": "/data/group4/20261009-170228-codex-fcd727b9",
+  "work": "/home/group4/group4_dasc7606c/work/20261009-170228-codex-fcd727b9",
+  "logs": "/home/group4/group4_dasc7606c/logs/20261009-170228-codex-fcd727b9",
+  "rules_sha": "9e2c073c2ad7b602c4f378b2d8c7a653560375832c9825e5dc005ea65db9ca36",
+  "source_batch": "/data/group4/20261009-021611-codex-415484ce",
+  "registered": "2026-10-09T17:02:28.594725+08:00",
+  "start_receipt": "",
+  "scope": "Diagnose and reduce successful native-wholehand grasp jitter from frozen own batch; new-task sources/results only, peers and prior completed tasks readonly; no GPU/realrobot/object overrides/weld/externalforces; up to4 concurrent2core jobs, AS4GiB/job; each command <=600s, finite optimization wave <=4h; data peak12GiB, home text<=5MiB; keep success gate, geometry, gravity, source references and all failed attempts; high-rate telemetry, physical A/B comparisons and high-frame-rate true-state replay"
+}

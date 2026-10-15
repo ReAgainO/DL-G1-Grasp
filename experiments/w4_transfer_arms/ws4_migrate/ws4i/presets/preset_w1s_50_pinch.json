@@ -1,0 +1,27 @@
+{
+ "cube_pos": [
+  0.06379433990677727,
+  -0.25038347963356905,
+  0.6484342767374428
+ ],
+ "arm_q": [
+  0.5738671917532672,
+  0.32181097403569553,
+  -0.6058583045016689,
+  0.22336042576361156,
+  -0.06447394008630453,
+  0.0744206673371981,
+  -0.2924230301244421
+ ],
+ "weld": true,
+ "freeze_hand": true,
+ "skip_to_close": true,
+ "settle_s": 0.5,
+ "weld_release": "LIFT",
+ "design_gaps_mm": [
+  -1.086,
+  -0.426,
+  -0.736
+ ],
+ "note": "W4i tune edge=50mm balanced opposed pinch: cf+delta [12.45, 28.86, -4.06] mm; pads [-1.09, -0.43, -0.74] mm; abs_sumN=1.00; palm 20.1; body right_hip_pitch_link@60.0; tab 120.0"
+}

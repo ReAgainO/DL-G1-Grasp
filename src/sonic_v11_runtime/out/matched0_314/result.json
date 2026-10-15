@@ -1,0 +1,104 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.14.0",
+    "sys_executable": "/home/group4/group4_dasc7606c/envs/render/bin/python",
+    "python_version": "3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]",
+    "model_sha": {
+      "scene": "af19865910e94862ac5c70246811c18f0ca22a179c7a12c1990ed632697189b5",
+      "robot": "4ffee3d4cb8638c460926ba48b68896fa5acb5623d3ee9916046878919d734af"
+    },
+    "scene_generator_sha": "796d3761e1b290475f42eae597f22ae4dc57556a3cae665eca1603b19f287097",
+    "library_sha": {
+      "trajectory_py": "560bba85890893bf6e7ffaeca37f530fb5563a2101a7095dcb52de0f09eedaf9",
+      "task_plan_npz": "8a4c7e10ad1e50d53ef5033051f04b053ca15710e889c6c21220869882adab61",
+      "grasp_py": "796d3761e1b290475f42eae597f22ae4dc57556a3cae665eca1603b19f287097",
+      "control_py": "6b76e5dc117022bda97d0cb6b2897e1862a3ab999ffd1074e2c8da1214082b8e",
+      "calibration_npz": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "ardy_source_csv": "794b52355a37321c5bc0570b06a404ab9338c1d5087a55576a0ada7e61d518a5"
+    },
+    "dt": 0.002,
+    "timestep": 0.002
+  },
+  "success": true,
+  "gates": {
+    "completed": true,
+    "hold_7cm": true,
+    "two_fingers": true,
+    "no_support": true,
+    "clearance_4cm": true,
+    "slip_1cm": true,
+    "release_drop_6cm": true,
+    "final_supported": true,
+    "final_fingers_off": true,
+    "fixed_base": true,
+    "no_external": true,
+    "no_warnings": true
+  },
+  "no_grip": false,
+  "pad_off": false,
+  "fail_reason": null,
+  "events": [
+    {
+      "phase": "PREGRASP",
+      "time_s": 0.0
+    },
+    {
+      "phase": "DESCEND",
+      "time_s": 1.0020000000000007
+    },
+    {
+      "phase": "ALIGN",
+      "time_s": 7.065999999999444
+    },
+    {
+      "phase": "CLOSE",
+      "time_s": 7.165999999999433
+    },
+    {
+      "phase": "LIFT",
+      "time_s": 9.167999999999731
+    },
+    {
+      "phase": "HOLD",
+      "time_s": 15.230000000001755
+    },
+    {
+      "phase": "RELEASE",
+      "time_s": 17.234000000001327
+    },
+    {
+      "phase": "SETTLE",
+      "time_s": 18.23800000000077
+    }
+  ],
+  "attribution": "human calibrated geometric route only; ZERO ARDY posture influence",
+  "calibration_route": "human calibrated pregrasp/grasp endpoint joint interpolation converted to Cartesian corridor; ARDY only perturbs redundant posture",
+  "initial_condition": "pregrasp IK pose; arm initialized above cube, NOT full neutral-to-object approach",
+  "duration_s": 21.241999999999106,
+  "steps": 10621,
+  "max_lift_m": 0.08437710892569239,
+  "hold_min_lift_m": 0.08330190072452293,
+  "hold_slip_m": 0.0020035997960339215,
+  "hold_min_contact_bodies": 2,
+  "hold_min_total_finger_normal_force_N": 6.851157124126308,
+  "hold_max_support_force_N": 0.0,
+  "tracking_rms_rad": 0.0048026013502305885,
+  "tracking_max_rad": 0.02749947046209611,
+  "torque_saturation_fraction": 0.0,
+  "warning_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "wall_s": 54.392554347985424,
+  "final_cube_xyz_m": [
+    0.2768429202373254,
+    -0.11022110672900709,
+    0.7744496791583318
+  ],
+  "scene": "/data/group4/20261006-093203-codex-6385a841/out/matched0_314/scene_fixed_grasp.xml"
+}

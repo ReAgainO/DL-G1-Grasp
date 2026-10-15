@@ -1,0 +1,17 @@
+[INFO] loading policy checkpoint: policy_state_dict.pt
+[INFO] loaded action std shape=(29,)
+[INFO] load_state_dict missing keys: []
+[INFO] load_state_dict unexpected keys: []
+[INFO] control_mode=generated-motion
+[INFO] motion_source=ardy loader=ardy_loader motion_file=/data/group4/20261006-055932-qoder-x06canon/gen/c2u_p2_s0_u.csv sha256=06c92092c20163686e863be7f50790be30bc60f06a55fcf66efd07dcbe29a266 source_frames=100 source_fps=25 prepared_frames=199 target_fps=50.0 motion_start=0 motion_speed=1
+[RESULT] success=False no_grip=False max_contacts=0 max_contact_bodies=0 contact_bodies=[] max_normal_force=0.000N lift_contact_time=0.000s lifted_height=0.0053m final_clearance=0.0320m final_cube_pos=[0.2679, -0.1185, 0.7745]
+[CONTROL] control_mode=generated-motion fixed_arm_override_count=0 fixed_arm_pd_write_count=0 reference_window_count=200 reference_window_change_count=199 unique_reference_window_hashes=200 reference_first_sha256=106e3f562cd52f7f4e51f032ea0f88240ce502560215dcb794ee6bd4c05fffcf reference_last_sha256=2fbcdb4db9e8745fe8543011e12740581ff2cc1afd7c0d3981a0cfb0a1d59ea4 action_count=200 unique_action_hashes=200 action_first_sha256=f281c00be3e6af5d4341bfad72417c43a48fa5ba30ca547fb7642c9dda3f3b46 action_last_sha256=ca7a89efc4fd9342b38fca10778e036acd927b8883c10ddf9b014196d5514177
+[REFERENCE] reference_mode=dynamic sim_time=3.980000 motion_time=3.980000 current_frame=198 requested_frames=198:243 actual_frames=198:198 window_shape=(640,)
+[CONTACT_SNAPSHOT] []
+[FINGERTIP_DISTANCE] right_thumb_fingertip=0.05674 right_index_fingertip=0.06578 right_middle_fingertip=0.05219
+[FINGERTIP_POS] right_thumb_fingertip=[0.1609, -0.1216, 0.7143] right_index_fingertip=[0.1772, -0.1036, 0.7365] right_middle_fingertip=[0.1431, -0.1089, 0.6911]
+[HAND_LOCAL] cube=[0.2007, 0.0818, 0.1113] right_thumb_fingertip=[0.1507, 0.09, -0.0006] right_index_fingertip=[0.1507, 0.1054, 0.0285] right_middle_fingertip=[0.1504, 0.1054, -0.0285]
+[HAND_Q] [0.007, -0.6339, -0.3666, 1.393, 0.079, 1.3959, 0.079]
+[ROBOT_STATE] base_pos=[-0.0224, 0.0135, 0.7784] up_z=0.9998
+[HAND_CONTACTS] []
+[TRACE] rows=200 csv=/data/group4/20261006-055934-qoder-x05eval/runs/CAN_c2u_p2_s0_u/r01/trace.csv

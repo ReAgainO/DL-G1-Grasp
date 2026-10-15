@@ -1,0 +1,15 @@
+{
+  "pid": 2657171,
+  "command": [
+    "taskset",
+    "-c",
+    "80-87",
+    "/usr/bin/python3",
+    "-B",
+    "/data/group4/20261009-021611-codex-415484ce/server_prepare.py",
+    "runpilots2"
+  ],
+  "cwd": "/data/group4/20261009-021611-codex-415484ce",
+  "started": "2026-10-09T02:30:43.990119",
+  "proc_start_ticks": "83382951"
+}

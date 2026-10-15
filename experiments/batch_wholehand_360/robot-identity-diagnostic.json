@@ -1,0 +1,2055 @@
+{
+  "scope": "read-only XML and compiled-model diagnostics; no mj_step; object positions differ by predeclared XY; in-memory controller contact recipe reproduced",
+  "equal_compiled_arrays": [
+    "actuator_acc0",
+    "actuator_actadr",
+    "actuator_actearly",
+    "actuator_actlimited",
+    "actuator_actnum",
+    "actuator_actrange",
+    "actuator_biasprm",
+    "actuator_biastype",
+    "actuator_cranklength",
+    "actuator_ctrllimited",
+    "actuator_ctrlrange",
+    "actuator_dynprm",
+    "actuator_dyntype",
+    "actuator_forcelimited",
+    "actuator_forcerange",
+    "actuator_gainprm",
+    "actuator_gaintype",
+    "actuator_gear",
+    "actuator_group",
+    "actuator_length0",
+    "actuator_lengthrange",
+    "actuator_plugin",
+    "actuator_trnid",
+    "actuator_trntype",
+    "actuator_user",
+    "body_bvhadr",
+    "body_bvhnum",
+    "body_conaffinity",
+    "body_contype",
+    "body_dofadr",
+    "body_dofnum",
+    "body_geomadr",
+    "body_geomnum",
+    "body_gravcomp",
+    "body_inertia",
+    "body_invweight0",
+    "body_ipos",
+    "body_iquat",
+    "body_jntadr",
+    "body_jntnum",
+    "body_margin",
+    "body_mass",
+    "body_mocapid",
+    "body_parentid",
+    "body_plugin",
+    "body_quat",
+    "body_rootid",
+    "body_sameframe",
+    "body_simple",
+    "body_subtreemass",
+    "body_treeid",
+    "body_user",
+    "body_weldid",
+    "bvh_aabb",
+    "bvh_child",
+    "bvh_depth",
+    "bvh_nodeid",
+    "cam_bodyid",
+    "cam_fovy",
+    "cam_intrinsic",
+    "cam_ipd",
+    "cam_mat0",
+    "cam_mode",
+    "cam_orthographic",
+    "cam_pos",
+    "cam_pos0",
+    "cam_quat",
+    "cam_resolution",
+    "cam_sensorsize",
+    "cam_targetbodyid",
+    "cam_user",
+    "dof_M0",
+    "dof_Madr",
+    "dof_armature",
+    "dof_bodyid",
+    "dof_damping",
+    "dof_frictionloss",
+    "dof_invweight0",
+    "dof_jntid",
+    "dof_parentid",
+    "dof_simplenum",
+    "dof_solimp",
+    "dof_solref",
+    "dof_treeid",
+    "eq_active0",
+    "eq_data",
+    "eq_obj1id",
+    "eq_obj2id",
+    "eq_objtype",
+    "eq_solimp",
+    "eq_solref",
+    "eq_type",
+    "exclude_signature",
+    "flex_activelayers",
+    "flex_bvhadr",
+    "flex_bvhnum",
+    "flex_centered",
+    "flex_conaffinity",
+    "flex_condim",
+    "flex_contype",
+    "flex_damping",
+    "flex_dim",
+    "flex_edge",
+    "flex_edgeadr",
+    "flex_edgedamping",
+    "flex_edgeequality",
+    "flex_edgenum",
+    "flex_edgestiffness",
+    "flex_elem",
+    "flex_elemadr",
+    "flex_elemdataadr",
+    "flex_elemedge",
+    "flex_elemedgeadr",
+    "flex_elemlayer",
+    "flex_elemnum",
+    "flex_evpair",
+    "flex_evpairadr",
+    "flex_evpairnum",
+    "flex_flatskin",
+    "flex_friction",
+    "flex_gap",
+    "flex_group",
+    "flex_internal",
+    "flex_margin",
+    "flex_matid",
+    "flex_priority",
+    "flex_radius",
+    "flex_rgba",
+    "flex_rigid",
+    "flex_selfcollide",
+    "flex_shell",
+    "flex_shelldataadr",
+    "flex_shellnum",
+    "flex_solimp",
+    "flex_solmix",
+    "flex_solref",
+    "flex_stiffness",
+    "flex_texcoord",
+    "flex_texcoordadr",
+    "flex_vert",
+    "flex_vert0",
+    "flex_vertadr",
+    "flex_vertbodyid",
+    "flex_vertnum",
+    "flexedge_invweight0",
+    "flexedge_length0",
+    "flexedge_rigid",
+    "geom_aabb",
+    "geom_bodyid",
+    "geom_conaffinity",
+    "geom_condim",
+    "geom_contype",
+    "geom_dataid",
+    "geom_fluid",
+    "geom_friction",
+    "geom_gap",
+    "geom_group",
+    "geom_margin",
+    "geom_matid",
+    "geom_plugin",
+    "geom_pos",
+    "geom_priority",
+    "geom_quat",
+    "geom_rbound",
+    "geom_rgba",
+    "geom_sameframe",
+    "geom_size",
+    "geom_solimp",
+    "geom_solmix",
+    "geom_solref",
+    "geom_type",
+    "geom_user",
+    "hfield_adr",
+    "hfield_data",
+    "hfield_ncol",
+    "hfield_nrow",
+    "hfield_pathadr",
+    "hfield_size",
+    "jnt_actfrclimited",
+    "jnt_actfrcrange",
+    "jnt_actgravcomp",
+    "jnt_axis",
+    "jnt_bodyid",
+    "jnt_dofadr",
+    "jnt_group",
+    "jnt_limited",
+    "jnt_margin",
+    "jnt_pos",
+    "jnt_qposadr",
+    "jnt_range",
+    "jnt_solimp",
+    "jnt_solref",
+    "jnt_stiffness",
+    "jnt_type",
+    "jnt_user",
+    "key_act",
+    "key_ctrl",
+    "key_mpos",
+    "key_mquat",
+    "key_qpos",
+    "key_qvel",
+    "key_time",
+    "light_active",
+    "light_ambient",
+    "light_attenuation",
+    "light_bodyid",
+    "light_bulbradius",
+    "light_castshadow",
+    "light_cutoff",
+    "light_diffuse",
+    "light_dir",
+    "light_dir0",
+    "light_directional",
+    "light_exponent",
+    "light_mode",
+    "light_pos",
+    "light_pos0",
+    "light_specular",
+    "light_targetbodyid",
+    "mat_emission",
+    "mat_metallic",
+    "mat_reflectance",
+    "mat_rgba",
+    "mat_roughness",
+    "mat_shininess",
+    "mat_specular",
+    "mat_texid",
+    "mat_texrepeat",
+    "mat_texuniform",
+    "mesh_bvhadr",
+    "mesh_bvhnum",
+    "mesh_face",
+    "mesh_faceadr",
+    "mesh_facenormal",
+    "mesh_facenum",
+    "mesh_facetexcoord",
+    "mesh_graph",
+    "mesh_graphadr",
+    "mesh_normal",
+    "mesh_normaladr",
+    "mesh_normalnum",
+    "mesh_pathadr",
+    "mesh_pos",
+    "mesh_quat",
+    "mesh_scale",
+    "mesh_texcoord",
+    "mesh_texcoordadr",
+    "mesh_texcoordnum",
+    "mesh_vert",
+    "mesh_vertadr",
+    "mesh_vertnum",
+    "name_actuatoradr",
+    "name_bodyadr",
+    "name_camadr",
+    "name_eqadr",
+    "name_excludeadr",
+    "name_flexadr",
+    "name_geomadr",
+    "name_hfieldadr",
+    "name_jntadr",
+    "name_keyadr",
+    "name_lightadr",
+    "name_matadr",
+    "name_meshadr",
+    "name_numericadr",
+    "name_pairadr",
+    "name_pluginadr",
+    "name_sensoradr",
+    "name_siteadr",
+    "name_skinadr",
+    "name_tendonadr",
+    "name_texadr",
+    "name_textadr",
+    "name_tupleadr",
+    "names_map",
+    "numeric_adr",
+    "numeric_data",
+    "numeric_size",
+    "pair_dim",
+    "pair_friction",
+    "pair_gap",
+    "pair_geom1",
+    "pair_geom2",
+    "pair_margin",
+    "pair_signature",
+    "pair_solimp",
+    "pair_solref",
+    "pair_solreffriction",
+    "plugin",
+    "plugin_attr",
+    "plugin_attradr",
+    "plugin_stateadr",
+    "plugin_statenum",
+    "sensor_adr",
+    "sensor_cutoff",
+    "sensor_datatype",
+    "sensor_dim",
+    "sensor_needstage",
+    "sensor_noise",
+    "sensor_objid",
+    "sensor_objtype",
+    "sensor_plugin",
+    "sensor_refid",
+    "sensor_reftype",
+    "sensor_type",
+    "sensor_user",
+    "site_bodyid",
+    "site_group",
+    "site_matid",
+    "site_pos",
+    "site_quat",
+    "site_rgba",
+    "site_sameframe",
+    "site_size",
+    "site_type",
+    "site_user",
+    "skin_boneadr",
+    "skin_bonebindpos",
+    "skin_bonebindquat",
+    "skin_bonebodyid",
+    "skin_bonenum",
+    "skin_bonevertadr",
+    "skin_bonevertid",
+    "skin_bonevertnum",
+    "skin_bonevertweight",
+    "skin_face",
+    "skin_faceadr",
+    "skin_facenum",
+    "skin_group",
+    "skin_inflate",
+    "skin_matid",
+    "skin_pathadr",
+    "skin_rgba",
+    "skin_texcoord",
+    "skin_texcoordadr",
+    "skin_vert",
+    "skin_vertadr",
+    "skin_vertnum",
+    "tendon_adr",
+    "tendon_damping",
+    "tendon_frictionloss",
+    "tendon_group",
+    "tendon_invweight0",
+    "tendon_length0",
+    "tendon_lengthspring",
+    "tendon_limited",
+    "tendon_margin",
+    "tendon_matid",
+    "tendon_num",
+    "tendon_range",
+    "tendon_rgba",
+    "tendon_solimp_fri",
+    "tendon_solimp_lim",
+    "tendon_solref_fri",
+    "tendon_solref_lim",
+    "tendon_stiffness",
+    "tendon_user",
+    "tendon_width",
+    "tex_adr",
+    "tex_data",
+    "tex_height",
+    "tex_nchannel",
+    "tex_pathadr",
+    "tex_type",
+    "tex_width",
+    "text_adr",
+    "text_size",
+    "tuple_adr",
+    "tuple_objid",
+    "tuple_objprm",
+    "tuple_objtype",
+    "tuple_size",
+    "wrap_objid",
+    "wrap_prm",
+    "wrap_type"
+  ],
+  "differing_compiled_arrays": {
+    "body_pos": {
+      "shape_a": [
+        47,
+        3
+      ],
+      "shape_b": [
+        47,
+        3
+      ],
+      "dtype": "float64",
+      "max_abs_difference": 0.003430589825882485,
+      "changed_indices": [
+        [
+          46,
+          0
+        ],
+        [
+          46,
+          1
+        ]
+      ]
+    },
+    "cam_poscom0": {
+      "shape_a": [
+        1,
+        3
+      ],
+      "shape_b": [
+        1,
+        3
+      ],
+      "dtype": "float64",
+      "max_abs_difference": 5.050871729972428e-06,
+      "changed_indices": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "light_poscom0": {
+      "shape_a": [
+        1,
+        3
+      ],
+      "shape_b": [
+        1,
+        3
+      ],
+      "dtype": "float64",
+      "max_abs_difference": 5.050871730027939e-06,
+      "changed_indices": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "qpos0": {
+      "shape_a": [
+        57
+      ],
+      "shape_b": [
+        57
+      ],
+      "dtype": "float64",
+      "max_abs_difference": 0.003430589825882485,
+      "changed_indices": [
+        [
+          50
+        ],
+        [
+          51
+        ]
+      ]
+    },
+    "qpos_spring": {
+      "shape_a": [
+        57
+      ],
+      "shape_b": [
+        57
+      ],
+      "dtype": "float64",
+      "max_abs_difference": 0.003430589825882485,
+      "changed_indices": [
+        [
+          50
+        ],
+        [
+          51
+        ]
+      ]
+    }
+  },
+  "xml_diff": [
+    "--- A000 retained baseline\n",
+    "+++ B000 fresh build\n",
+    "@@ -2,3 +2,3 @@\n",
+    " <mujoco model=\"g1_29dof_with_hand\">",
+    "-  <compiler angle=\"radian\" meshdir=\"/data/group4/20261009-003148-codex-363f6327/lib/src/g1/meshes\" />",
+    "+  <compiler angle=\"radian\" meshdir=\"/data/group4/20261009-021611-codex-415484ce/lib/src/g1/meshes\" />",
+    " "
+  ],
+  "rows": [
+    {
+      "id": "A000",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+          "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+        },
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "sonic_models": {
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "plan": "c186ec44b505f1588d4401f621bb8a2567cea66380c6d9bf5178c5eacacf8183"
+        },
+        "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "model_xml_sha": {
+          "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+          "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+        },
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "dt": 0.001,
+        "impratio": 10,
+        "margin_m": 0.001,
+        "solref": [
+          0.02,
+          1
+        ],
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_A000",
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "ardy_source": {
+          "source_npz": "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "source_fps": 25.0,
+          "native_frames": 100,
+          "native_clip_duration_s": 4.0,
+          "last_sample_time_s": 3.96,
+          "expected50Hz_frames": 199,
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+        },
+        "root_x_initial_m": 0.0
+      },
+      "contract": {
+        "runtime_stamp": {
+          "mujoco_version": "3.2.7",
+          "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+          "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+          "model_sha": {
+            "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+            "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+          },
+          "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+          "library_sha": {
+            "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+            "sonic_models": {
+              "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+              "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+              "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+            },
+            "plan": "c186ec44b505f1588d4401f621bb8a2567cea66380c6d9bf5178c5eacacf8183"
+          },
+          "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+          "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+          "model_xml_sha": {
+            "robot": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+            "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+          },
+          "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+          "dt": 0.001,
+          "impratio": 10,
+          "margin_m": 0.001,
+          "solref": [
+            0.02,
+            1
+          ],
+          "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_A000",
+          "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+          "ardy_source": {
+            "source_npz": "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz",
+            "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "source_fps": 25.0,
+            "native_frames": 100,
+            "native_clip_duration_s": 4.0,
+            "last_sample_time_s": 3.96,
+            "expected50Hz_frames": 199,
+            "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+            "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+            "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+            "joint_names": [
+              "left_hip_pitch_joint",
+              "left_hip_roll_joint",
+              "left_hip_yaw_joint",
+              "left_knee_joint",
+              "left_ankle_pitch_joint",
+              "left_ankle_roll_joint",
+              "right_hip_pitch_joint",
+              "right_hip_roll_joint",
+              "right_hip_yaw_joint",
+              "right_knee_joint",
+              "right_ankle_pitch_joint",
+              "right_ankle_roll_joint",
+              "waist_yaw_joint",
+              "waist_roll_joint",
+              "waist_pitch_joint",
+              "left_shoulder_pitch_joint",
+              "left_shoulder_roll_joint",
+              "left_shoulder_yaw_joint",
+              "left_elbow_joint",
+              "left_wrist_roll_joint",
+              "left_wrist_pitch_joint",
+              "left_wrist_yaw_joint",
+              "right_shoulder_pitch_joint",
+              "right_shoulder_roll_joint",
+              "right_shoulder_yaw_joint",
+              "right_elbow_joint",
+              "right_wrist_roll_joint",
+              "right_wrist_pitch_joint",
+              "right_wrist_yaw_joint"
+            ],
+            "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+            "text": "A person reaches forward with their right hand to grab a small object on a table.",
+            "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+          },
+          "root_x_initial_m": 0.0
+        },
+        "native_mesh_only": true,
+        "initial_qpos": [
+          0.0,
+          0.0,
+          0.78874,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.312,
+          0.0,
+          0.0,
+          0.669,
+          -0.363,
+          0.0,
+          -0.312,
+          0.0,
+          0.0,
+          0.669,
+          -0.363,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.2,
+          0.2,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.2,
+          -0.2,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.7,
+          -1.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.35,
+          -0.18,
+          0.765,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_arm_gravity_feedforward_scale": 1.0,
+        "physical_gravity_m_s2": [
+          0.0,
+          0.0,
+          -9.81
+        ],
+        "no_grip": false,
+        "wrist_servo": true,
+        "trial_config": {
+          "id": "A000",
+          "group": "A",
+          "xy_m": [
+            0.35,
+            -0.18
+          ],
+          "edge_m": 0.08,
+          "mass_kg": 0.12,
+          "root_x_m": 0.0,
+          "sampling_seed": null,
+          "source_baseline_trial": null,
+          "no_grip": false,
+          "wrist_servo": true,
+          "gravity_arm_scale": 1.0,
+          "native_mesh": true,
+          "time_scale": 2.0,
+          "retract_raise": true
+        },
+        "active_hand_geoms": [
+          {
+            "name": "",
+            "body": "left_wrist_roll_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "left_wrist_roll_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "left_wrist_pitch_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "left_wrist_pitch_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "left_wrist_yaw_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "left_wrist_yaw_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "left_wrist_yaw_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "left_wrist_yaw_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "left_hand_thumb_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_thumb_0_link_collision_1",
+            "body": "left_hand_thumb_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_thumb_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_thumb_1_link_collision_1",
+            "body": "left_hand_thumb_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_thumb_2_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_thumb_2_link_collision_1",
+            "body": "left_hand_thumb_2_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_middle_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_middle_0_link_collision_1",
+            "body": "left_hand_middle_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_middle_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_middle_1_link_collision_1",
+            "body": "left_hand_middle_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_index_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_index_0_link_collision_1",
+            "body": "left_hand_index_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_index_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_index_1_link_collision_1",
+            "body": "left_hand_index_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "right_wrist_roll_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_wrist_roll_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "right_wrist_pitch_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_wrist_pitch_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "right_wrist_yaw_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_wrist_yaw_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "right_wrist_yaw_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_wrist_yaw_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "right_hand_thumb_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_thumb_0_link_collision_1",
+            "body": "right_hand_thumb_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "right_hand_thumb_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_thumb_1_link_collision_1",
+            "body": "right_hand_thumb_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "right_hand_thumb_2_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_thumb_2_link_collision_1",
+            "body": "right_hand_thumb_2_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "right_thumb_fingertip",
+            "body": "right_hand_thumb_2_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_hand_index_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_index_0_link_collision_1",
+            "body": "right_hand_index_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "right_hand_index_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_index_1_link_collision_1",
+            "body": "right_hand_index_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "right_index_fingertip",
+            "body": "right_hand_index_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_hand_middle_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_middle_0_link_collision_1",
+            "body": "right_hand_middle_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "right_hand_middle_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_middle_1_link_collision_1",
+            "body": "right_hand_middle_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "right_middle_fingertip",
+            "body": "right_hand_middle_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          }
+        ],
+        "neq": 0,
+        "nmocap": 0,
+        "nq": 57,
+        "nv": 55,
+        "nu": 43
+      },
+      "robot_xml_sha": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+      "initial_robot_pos": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.793
+        ],
+        [
+          0.0,
+          0.064452,
+          -0.1027
+        ],
+        [
+          0.0,
+          0.052,
+          -0.030465
+        ],
+        [
+          0.025001,
+          0.0,
+          -0.12412
+        ],
+        [
+          -0.078273,
+          0.0021489,
+          -0.17734
+        ],
+        [
+          0.0,
+          -9.4445e-05,
+          -0.30001
+        ],
+        [
+          0.0,
+          0.0,
+          -0.017558
+        ],
+        [
+          0.0,
+          -0.064452,
+          -0.1027
+        ],
+        [
+          0.0,
+          -0.052,
+          -0.030465
+        ],
+        [
+          0.025001,
+          0.0,
+          -0.12412
+        ],
+        [
+          -0.078273,
+          -0.0021489,
+          -0.17734
+        ],
+        [
+          0.0,
+          9.4445e-05,
+          -0.30001
+        ],
+        [
+          0.0,
+          0.0,
+          -0.017558
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0039635,
+          0.0,
+          0.035
+        ],
+        [
+          0.0,
+          0.0,
+          0.019
+        ],
+        [
+          0.0039563,
+          0.10022,
+          0.23778
+        ],
+        [
+          0.0,
+          0.038,
+          -0.013831
+        ],
+        [
+          0.0,
+          0.00624,
+          -0.1032
+        ],
+        [
+          0.015783,
+          0.0,
+          -0.080518
+        ],
+        [
+          0.1,
+          0.00188791,
+          -0.01
+        ],
+        [
+          0.038,
+          0.0,
+          0.0
+        ],
+        [
+          0.046,
+          0.0,
+          0.0
+        ],
+        [
+          0.0695,
+          0.003,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0246,
+          0.0
+        ],
+        [
+          0.0055,
+          -0.0528,
+          0.0
+        ],
+        [
+          0.1415,
+          0.0013,
+          -0.0285
+        ],
+        [
+          0.0528,
+          -0.0055,
+          0.0
+        ],
+        [
+          0.1415,
+          0.0013,
+          0.0285
+        ],
+        [
+          0.0528,
+          -0.0055,
+          0.0
+        ],
+        [
+          0.0039563,
+          -0.10021,
+          0.23778
+        ],
+        [
+          0.0,
+          -0.038,
+          -0.013831
+        ],
+        [
+          0.0,
+          -0.00624,
+          -0.1032
+        ],
+        [
+          0.015783,
+          0.0,
+          -0.080518
+        ],
+        [
+          0.1,
+          -0.00188791,
+          -0.01
+        ],
+        [
+          0.038,
+          0.0,
+          0.0
+        ],
+        [
+          0.046,
+          0.0,
+          0.0
+        ],
+        [
+          0.0695,
+          -0.003,
+          0.0
+        ],
+        [
+          0.0,
+          0.0246,
+          0.0
+        ],
+        [
+          0.0055,
+          0.0528,
+          0.0
+        ],
+        [
+          0.1415,
+          -0.0013,
+          0.0285
+        ],
+        [
+          0.0528,
+          0.0055,
+          0.0
+        ],
+        [
+          0.1415,
+          -0.0013,
+          -0.0285
+        ],
+        [
+          0.0528,
+          0.0055,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "id": "B000",
+      "runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+        },
+        "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+        "library_sha": {
+          "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "sonic_models": {
+            "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+            "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+            "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+          },
+          "plan": "6b011d750de7c97461537c1d15666eca922b3d1adbd434c3abdc34c6c84d0175"
+        },
+        "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+        "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+        "model_xml_sha": {
+          "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+          "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+        },
+        "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+        "dt": 0.001,
+        "impratio": 10,
+        "margin_m": 0.001,
+        "solref": [
+          0.02,
+          1
+        ],
+        "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_B000",
+        "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+        "ardy_source": {
+          "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+          "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "source_fps": 25.0,
+          "native_frames": 100,
+          "native_clip_duration_s": 4.0,
+          "last_sample_time_s": 3.96,
+          "expected50Hz_frames": 199,
+          "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+          "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "waist_yaw_joint",
+            "waist_roll_joint",
+            "waist_pitch_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "left_wrist_roll_joint",
+            "left_wrist_pitch_joint",
+            "left_wrist_yaw_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint",
+            "right_wrist_roll_joint",
+            "right_wrist_pitch_joint",
+            "right_wrist_yaw_joint"
+          ],
+          "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+          "text": "A person reaches forward with their right hand to grab a small object on a table.",
+          "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+        },
+        "root_x_initial_m": 0.0
+      },
+      "contract": {
+        "runtime_stamp": {
+          "mujoco_version": "3.2.7",
+          "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+          "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+          "model_sha": {
+            "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+            "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+          },
+          "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+          "library_sha": {
+            "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+            "sonic_models": {
+              "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+              "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+              "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+            },
+            "plan": "6b011d750de7c97461537c1d15666eca922b3d1adbd434c3abdc34c6c84d0175"
+          },
+          "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+          "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+          "model_xml_sha": {
+            "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+            "scene": "0a24082628b78b4157d043153fa8359816ad169b8da09e8160a13fe585256bec"
+          },
+          "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+          "dt": 0.001,
+          "impratio": 10,
+          "margin_m": 0.001,
+          "solref": [
+            0.02,
+            1
+          ],
+          "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_B000",
+          "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+          "ardy_source": {
+            "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+            "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+            "source_fps": 25.0,
+            "native_frames": 100,
+            "native_clip_duration_s": 4.0,
+            "last_sample_time_s": 3.96,
+            "expected50Hz_frames": 199,
+            "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+            "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+            "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+            "joint_names": [
+              "left_hip_pitch_joint",
+              "left_hip_roll_joint",
+              "left_hip_yaw_joint",
+              "left_knee_joint",
+              "left_ankle_pitch_joint",
+              "left_ankle_roll_joint",
+              "right_hip_pitch_joint",
+              "right_hip_roll_joint",
+              "right_hip_yaw_joint",
+              "right_knee_joint",
+              "right_ankle_pitch_joint",
+              "right_ankle_roll_joint",
+              "waist_yaw_joint",
+              "waist_roll_joint",
+              "waist_pitch_joint",
+              "left_shoulder_pitch_joint",
+              "left_shoulder_roll_joint",
+              "left_shoulder_yaw_joint",
+              "left_elbow_joint",
+              "left_wrist_roll_joint",
+              "left_wrist_pitch_joint",
+              "left_wrist_yaw_joint",
+              "right_shoulder_pitch_joint",
+              "right_shoulder_roll_joint",
+              "right_shoulder_yaw_joint",
+              "right_elbow_joint",
+              "right_wrist_roll_joint",
+              "right_wrist_pitch_joint",
+              "right_wrist_yaw_joint"
+            ],
+            "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+            "text": "A person reaches forward with their right hand to grab a small object on a table.",
+            "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+          },
+          "root_x_initial_m": 0.0
+        },
+        "native_mesh_only": true,
+        "initial_qpos": [
+          0.0,
+          0.0,
+          0.78874,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.312,
+          0.0,
+          0.0,
+          0.669,
+          -0.363,
+          0.0,
+          -0.312,
+          0.0,
+          0.0,
+          0.669,
+          -0.363,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.2,
+          0.2,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.2,
+          -0.2,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.7,
+          -1.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.3489161074873625,
+          -0.18343058982588248,
+          0.765,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right_arm_gravity_feedforward_scale": 1.0,
+        "physical_gravity_m_s2": [
+          0.0,
+          0.0,
+          -9.81
+        ],
+        "no_grip": false,
+        "wrist_servo": true,
+        "trial_config": {
+          "id": "B000",
+          "group": "B",
+          "xy_m": [
+            0.3489161074873625,
+            -0.18343058982588248
+          ],
+          "edge_m": 0.08,
+          "mass_kg": 0.12,
+          "root_x_m": 0.0,
+          "sampling_seed": 20261009,
+          "source_baseline_trial": null,
+          "no_grip": false,
+          "wrist_servo": true,
+          "gravity_arm_scale": 1.0,
+          "native_mesh": true,
+          "time_scale": 2.0,
+          "retract_raise": true
+        },
+        "active_hand_geoms": [
+          {
+            "name": "",
+            "body": "left_wrist_roll_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "left_wrist_roll_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "left_wrist_pitch_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "left_wrist_pitch_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "left_wrist_yaw_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "left_wrist_yaw_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "left_wrist_yaw_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "left_wrist_yaw_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "left_hand_thumb_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_thumb_0_link_collision_1",
+            "body": "left_hand_thumb_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_thumb_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_thumb_1_link_collision_1",
+            "body": "left_hand_thumb_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_thumb_2_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_thumb_2_link_collision_1",
+            "body": "left_hand_thumb_2_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_middle_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_middle_0_link_collision_1",
+            "body": "left_hand_middle_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_middle_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_middle_1_link_collision_1",
+            "body": "left_hand_middle_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_index_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_index_0_link_collision_1",
+            "body": "left_hand_index_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "left_hand_index_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "left_hand_index_1_link_collision_1",
+            "body": "left_hand_index_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "right_wrist_roll_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_wrist_roll_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "right_wrist_pitch_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_wrist_pitch_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "right_wrist_yaw_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_wrist_yaw_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "right_wrist_yaw_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_wrist_yaw_link",
+            "contype": 1,
+            "conaffinity": 1
+          },
+          {
+            "name": "",
+            "body": "right_hand_thumb_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_thumb_0_link_collision_1",
+            "body": "right_hand_thumb_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "right_hand_thumb_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_thumb_1_link_collision_1",
+            "body": "right_hand_thumb_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "right_hand_thumb_2_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_thumb_2_link_collision_1",
+            "body": "right_hand_thumb_2_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "right_thumb_fingertip",
+            "body": "right_hand_thumb_2_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_hand_index_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_index_0_link_collision_1",
+            "body": "right_hand_index_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "right_hand_index_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_index_1_link_collision_1",
+            "body": "right_hand_index_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "right_index_fingertip",
+            "body": "right_hand_index_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "",
+            "body": "right_hand_middle_0_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_middle_0_link_collision_1",
+            "body": "right_hand_middle_0_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "",
+            "body": "right_hand_middle_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          },
+          {
+            "name": "right_hand_middle_1_link_collision_1",
+            "body": "right_hand_middle_1_link",
+            "contype": 2,
+            "conaffinity": 3
+          },
+          {
+            "name": "right_middle_fingertip",
+            "body": "right_hand_middle_1_link",
+            "contype": 0,
+            "conaffinity": 0
+          }
+        ],
+        "neq": 0,
+        "nmocap": 0,
+        "nq": 57,
+        "nv": 55,
+        "nu": 43
+      },
+      "robot_xml_sha": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+      "initial_robot_pos": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.793
+        ],
+        [
+          0.0,
+          0.064452,
+          -0.1027
+        ],
+        [
+          0.0,
+          0.052,
+          -0.030465
+        ],
+        [
+          0.025001,
+          0.0,
+          -0.12412
+        ],
+        [
+          -0.078273,
+          0.0021489,
+          -0.17734
+        ],
+        [
+          0.0,
+          -9.4445e-05,
+          -0.30001
+        ],
+        [
+          0.0,
+          0.0,
+          -0.017558
+        ],
+        [
+          0.0,
+          -0.064452,
+          -0.1027
+        ],
+        [
+          0.0,
+          -0.052,
+          -0.030465
+        ],
+        [
+          0.025001,
+          0.0,
+          -0.12412
+        ],
+        [
+          -0.078273,
+          -0.0021489,
+          -0.17734
+        ],
+        [
+          0.0,
+          9.4445e-05,
+          -0.30001
+        ],
+        [
+          0.0,
+          0.0,
+          -0.017558
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0039635,
+          0.0,
+          0.035
+        ],
+        [
+          0.0,
+          0.0,
+          0.019
+        ],
+        [
+          0.0039563,
+          0.10022,
+          0.23778
+        ],
+        [
+          0.0,
+          0.038,
+          -0.013831
+        ],
+        [
+          0.0,
+          0.00624,
+          -0.1032
+        ],
+        [
+          0.015783,
+          0.0,
+          -0.080518
+        ],
+        [
+          0.1,
+          0.00188791,
+          -0.01
+        ],
+        [
+          0.038,
+          0.0,
+          0.0
+        ],
+        [
+          0.046,
+          0.0,
+          0.0
+        ],
+        [
+          0.0695,
+          0.003,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0246,
+          0.0
+        ],
+        [
+          0.0055,
+          -0.0528,
+          0.0
+        ],
+        [
+          0.1415,
+          0.0013,
+          -0.0285
+        ],
+        [
+          0.0528,
+          -0.0055,
+          0.0
+        ],
+        [
+          0.1415,
+          0.0013,
+          0.0285
+        ],
+        [
+          0.0528,
+          -0.0055,
+          0.0
+        ],
+        [
+          0.0039563,
+          -0.10021,
+          0.23778
+        ],
+        [
+          0.0,
+          -0.038,
+          -0.013831
+        ],
+        [
+          0.0,
+          -0.00624,
+          -0.1032
+        ],
+        [
+          0.015783,
+          0.0,
+          -0.080518
+        ],
+        [
+          0.1,
+          -0.00188791,
+          -0.01
+        ],
+        [
+          0.038,
+          0.0,
+          0.0
+        ],
+        [
+          0.046,
+          0.0,
+          0.0
+        ],
+        [
+          0.0695,
+          -0.003,
+          0.0
+        ],
+        [
+          0.0,
+          0.0246,
+          0.0
+        ],
+        [
+          0.0055,
+          0.0528,
+          0.0
+        ],
+        [
+          0.1415,
+          -0.0013,
+          0.0285
+        ],
+        [
+          0.0528,
+          0.0055,
+          0.0
+        ],
+        [
+          0.1415,
+          -0.0013,
+          -0.0285
+        ],
+        [
+          0.0528,
+          0.0055,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  ]
+}

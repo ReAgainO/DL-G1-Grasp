@@ -1,0 +1,174 @@
+{
+  "episode": "/data/group4/20261009-003148-codex-363f6327/out/side80_sonic1",
+  "runtime_version": "3.2.7",
+  "replay_only": true,
+  "physics_steps": 0,
+  "raw_success": false,
+  "relative_metrics": {
+    "world_vector_slip_alllift_m": 0.02916030448791515,
+    "wristlocal_slip_alllift_m": 0.003500351895817858,
+    "world_vector_slip_hold_m": 0.009259624882760338,
+    "wristlocal_slip_hold_m": 0.0010705795939516336
+  },
+  "min_hold_cube_height_increase_m": 0.0929429817266254,
+  "hold_frames": 125,
+  "hold_floor_nonfoot_peak_N": 0.0,
+  "hold_feet_min_N": 176.42871579156107,
+  "note_contact_forces": "Replay mj_forward original XML lacks in-memory margin/inertia changes; force numbers are diagnostic only, not trusted runtime replacement.",
+  "max_cube_contact_depth_original_xml_m": -0.0012604522385340354,
+  "wholehand_geoms": [
+    {
+      "body": "left_hand_thumb_0_link",
+      "geom": "left_hand_thumb_0_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "left_hand_thumb_1_link",
+      "geom": "left_hand_thumb_1_link_collision_1",
+      "type": 6,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "left_hand_thumb_2_link",
+      "geom": "left_hand_thumb_2_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "left_hand_middle_0_link",
+      "geom": "left_hand_middle_0_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "left_hand_middle_1_link",
+      "geom": "left_hand_middle_1_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "left_hand_index_0_link",
+      "geom": "left_hand_index_0_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "left_hand_index_1_link",
+      "geom": "left_hand_index_1_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "right_hand_thumb_0_link",
+      "geom": "right_hand_thumb_0_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "right_hand_thumb_1_link",
+      "geom": "right_hand_thumb_1_link_collision_1",
+      "type": 6,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "right_hand_thumb_2_link",
+      "geom": "right_hand_thumb_2_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "right_hand_thumb_2_link",
+      "geom": "right_thumb_fingertip",
+      "type": 2,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "right_hand_index_0_link",
+      "geom": "right_hand_index_0_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "right_hand_index_1_link",
+      "geom": "right_hand_index_1_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "right_hand_index_1_link",
+      "geom": "right_index_fingertip",
+      "type": 2,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "right_hand_middle_0_link",
+      "geom": "right_hand_middle_0_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "right_hand_middle_1_link",
+      "geom": "right_hand_middle_1_link_collision_1",
+      "type": 7,
+      "mask": [
+        2,
+        3
+      ]
+    },
+    {
+      "body": "right_hand_middle_1_link",
+      "geom": "right_middle_fingertip",
+      "type": 2,
+      "mask": [
+        2,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "timestamp": "2026-10-09T01:35:52.760414+08:00",
+  "environment": {
+    "mujoco": "3.2.7",
+    "model_origin": "posthoc reconstructed MJB; fingerprint matches runtime, not captured live"
+  },
+  "source_and_plan_hashes": {
+    "/data/group4/20261009-003148-codex-363f6327/out/side80_native3/robot.xml": "2b94936d3ffc1c5c4f53f26c55c88c2b58b25f25fa208ef31c06ea59b3a8a9bd",
+    "/data/group4/20261009-003148-codex-363f6327/out/side80_native3/scene.xml": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe",
+    "/data/group4/20261009-003148-codex-363f6327/out/side80_native3/execution_plan.json": "dc0d3a8ded28d22d8762f124f4712d86e963006c66c3c5d215b1d97b6445522a",
+    "/data/group4/20261009-003148-codex-363f6327/out/side80_native3/reference.npz": "48adfdce9da9ecf763aa6991bdcc14ea5fde456a072e8795b1a03b81a6c2edf5",
+    "/data/group4/20261009-003148-codex-363f6327/out/side80_open7/plan.json": "0177b8168e168de622adb897978995b03b840434b23f8ee547a9bbf90d073eaf",
+    "/data/group4/20261009-003148-codex-363f6327/wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+    "/data/group4/20261009-003148-codex-363f6327/execute_side.py": "b88a7482df00ab111c52a43259ff022e3a31b666aee07712f04475c33c2b9f03",
+    "/data/group4/20261009-003148-codex-363f6327/GATES-v2.md": "3496bac6e39e7244af831dc401f1a74a21da907f6d14c792daa613485291c2f1",
+    "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff"
+  },
+  "ardy_source_plan_record": {
+    "source_npz": "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz",
+    "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+    "source_fps": 25.0,
+    "native_frames": 100,
+    "native_clip_duration_s": 4.0,
+    "last_sample_time_s": 3.96,
+    "expected50Hz_frames": 199,
+    "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+    "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+    "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+    "text": "A person reaches forward with their right hand to grab a small object on a table.",
+    "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+  },
+  "before_close_paired_arrays_equal": {
+    "time": true,
+    "qpos": true,
+    "qvel": true,
+    "body_reference": true,
+    "hand_reference": true,
+    "decoded_target": true,
+    "ctrl": true,
+    "cube_pos": true,
+    "wrist_pos": true,
+    "pad_forces": true,
+    "other_hand_force": true,
+    "table_force": true,
+    "phase": true,
+    "hand_saturation": true
+  },
+  "repeat_arrays_equal": {
+    "time": true,
+    "qpos": true,
+    "qvel": true,
+    "body_reference": true,
+    "hand_reference": true,
+    "decoded_target": true,
+    "ctrl": true,
+    "cube_pos": true,
+    "wrist_pos": true,
+    "pad_forces": true,
+    "other_hand_force": true,
+    "table_force": true,
+    "phase": true,
+    "hand_saturation": true
+  },
+  "preclose_cube_displacement": {
+    "max_xy_m": 0.00041082673120480215,
+    "max_xyz_m": 0.0013309904873136083,
+    "last_xyz_minus_initial_m": [
+      2.910109552511919e-05,
+      1.188998209664116e-05,
+      0.0009943523663065168
+    ],
+    "sample_dt_s": 0.02,
+    "scope": "sampled evaluation-stage positions, before CLOSE t<42s"
+  },
+  "fk_sampled_diagnostic": {
+    "max_local_slip_from_first_saved_lift_m": 0.0038351978392964672,
+    "max_local_slip_from_first_saved_hold_m": 0.0012890517895791337,
+    "hold_saved_frames": 125,
+    "not_runtime_gate": "post-step FK at 20ms; runtime gate evaluated every1ms"
+  },
+  "sampled_ctrl_overrun": 0.0,
+  "sampled_joint_limit_overrun_rad": 1.5324202491266575e-06,
+  "sampled_hold_min_thumb_load_N": 4.792175198233734,
+  "sampled_hold_min_index_middle_load_N": 4.556615093508029,
+  "sampled_tracking_by_phase": {
+    "REACH": {
+      "sampled_max_arm_speed_rad_s": 1.1278903451969982,
+      "arm_reference_tracking_rms_rad": 0.18690900305297495,
+      "decoded_arm_target_tracking_rms_rad": 0.015970163840281427
+    },
+    "CLOSE": {
+      "sampled_max_arm_speed_rad_s": 0.5777346912464326,
+      "arm_reference_tracking_rms_rad": 0.11950372864781424,
+      "decoded_arm_target_tracking_rms_rad": 0.016850363118368388
+    },
+    "GRIP_DWELL": {
+      "sampled_max_arm_speed_rad_s": 0.42592204446395976,
+      "arm_reference_tracking_rms_rad": 0.12110086210180122,
+      "decoded_arm_target_tracking_rms_rad": 0.02515815386311693
+    },
+    "TEST_LIFT": {
+      "sampled_max_arm_speed_rad_s": 1.4676937919851192,
+      "arm_reference_tracking_rms_rad": 0.08909945031454448,
+      "decoded_arm_target_tracking_rms_rad": 0.08562437869175211
+    },
+    "LIFT": {
+      "sampled_max_arm_speed_rad_s": 0.9166584092017817,
+      "arm_reference_tracking_rms_rad": 0.13860493813967253,
+      "decoded_arm_target_tracking_rms_rad": 0.02841943865107762
+    },
+    "HOLD": {
+      "sampled_max_arm_speed_rad_s": 0.677258919551313,
+      "arm_reference_tracking_rms_rad": 0.21333175568764337,
+      "decoded_arm_target_tracking_rms_rad": 0.029997065435579735
+    }
+  },
+  "zero_spherical_pad_force": true,
+  "neq": 0,
+  "nmocap": 0,
+  "early_contact_runtime_peak_N": 10.045370711330353,
+  "limits": [
+    "one geometry/placement/mass/trajectory, deterministic repeat only",
+    "contact forces from original runtime JSON, no reintegration force substitution",
+    "preclose contact exists; preclose displacement quantified not assumed zero"
+  ]
+}

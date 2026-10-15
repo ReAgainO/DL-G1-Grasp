@@ -1,0 +1,2 @@
+d80env_00|80|0.285000|-0.138000|0|-|env1|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env80.json
+a35_00_06__env|35|0.266000|-0.127600|0|-|env1|/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/ws4g/grips/grip_env35.json

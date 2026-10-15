@@ -1,0 +1,15 @@
+{
+  "id": "PRAND2",
+  "xy_m": [
+    0.369,
+    -0.197
+  ],
+  "edge_m": 0.08,
+  "root_x_m": 0,
+  "group": "PILOT",
+  "mass_kg": 0.12,
+  "sampling_seed": null,
+  "no_grip": false,
+  "wrist_servo": true,
+  "gravity_arm_scale": 1
+}

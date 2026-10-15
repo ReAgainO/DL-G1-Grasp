@@ -1,0 +1,16 @@
+{
+ "source": "/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/rep_ext_phys/rep/out/b25_12_04__base",
+ "success": true,
+ "gates_red": [],
+ "lift_mm": 121.3,
+ "slip_mm": 4.24,
+ "frames": 1549,
+ "stride": 4,
+ "fps": 6.25,
+ "panels": [
+  "full",
+  "hand"
+ ],
+ "physics_recipe_w4c": null,
+ "note": "Recorded MuJoCo state replay for this task only; no dynamics re-integration, no claim change."
+}

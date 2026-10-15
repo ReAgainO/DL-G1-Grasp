@@ -1,0 +1,19 @@
+name=d80_00_00
+utc_start=2026-10-08T21:51:06Z
+host=worker00039 uid=1004
+runner_sha256=d91cd7f8c75465ee01a81e05e1853e9248a27c7f5aa220c8e6448a8eb73d6d0e
+sonic_grasp_sha256=574bc600d7122f2b59d616c3b0ec49587cbec300bc11b138c224633c7a7c18c3
+native_branch_sha256=64090ff6d47802755a23b99fe11ae27b4ce130dfc899c5d953d081c51b9164e8
+adaptive_hand_sha256=f35a826835f57cff66ca5411c46b72b63c770e832259e6b88ba4c0d048232c34
+grasp_geometry_sha256=bbbfbde344d8e5359498287ece86fa509c34882a01aa21754c9c123d3b577358
+motion_stem=near_s42
+motion_npz_sha256=78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff
+cpus=98,97 nice=19 ulimit_v_KiB=16777216
+sonic_grasp_args=d80_00_00 --cube-edge-mm=80 --cube-x=0.285000 --cube-y=-0.115000
+w4c_phys_args=<none>
+pressure_cpu: some avg10=0.49 avg60=3.52 avg300=6.64 total=4812987533 full avg10=0.00 avg60=0.00 avg300=0.00 total=0 
+df_data_avail_kb=11088381020
+
+utc_end=2026-10-08T21:51:07Z
+rc=1 wall_s=1
+result_json=/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/rep_ext_comb80/rep/out/d80_00_00/result.json

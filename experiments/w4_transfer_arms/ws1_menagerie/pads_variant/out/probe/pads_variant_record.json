@@ -1,0 +1,212 @@
+{
+ "base_sha256": "aa92067e6ebf2fe5e4ae90b86bb4bea95ce7f26fb9d958e6740553ef238f29a8",
+ "base_xml": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/model/unitree_g1/ws1_scene_model.xml",
+ "generated_out": "ws1b_make_variant.py",
+ "ghosted_collision_geoms_right_hand": [
+  "<geom pos=\"0.0415 -0.003 0\" quat=\"1 0 0 0\" class=\"collision\" mesh=\"right_hand_palm_link\"/>",
+  "<geom class=\"collision\" mesh=\"right_hand_thumb_0_link\"/>",
+  "<geom size=\"0.01 0.015 0.01\" pos=\"-0.001 0.032 0\" type=\"box\" class=\"collision\"/>",
+  "<geom class=\"collision\" mesh=\"right_hand_thumb_2_link\"/>",
+  "<geom class=\"collision\" mesh=\"right_hand_middle_0_link\"/>",
+  "<geom class=\"collision\" mesh=\"right_hand_middle_1_link\"/>",
+  "<geom class=\"collision\" mesh=\"right_hand_index_0_link\"/>",
+  "<geom class=\"collision\" mesh=\"right_hand_index_1_link\"/>"
+ ],
+ "kept_collision_inventory": {
+  "index": [
+   "ws1b_pad_index"
+  ],
+  "middle": [
+   "ws1b_pad_middle"
+  ],
+  "note_palm": "palm + phalanges ghosted; wrist link collision mesh untouched (forearm end)",
+  "palm": [],
+  "thumb": [
+   "ws1b_pad_thumb"
+  ],
+  "wrist_link_kept": [
+   "#83"
+  ]
+ },
+ "mujoco_version": "3.2.7",
+ "official_model_sha256": "2d41a3c6783fbf9e17349608d9c2222d970163b1db315ce9f30c4a97631fc078",
+ "pads": {
+  "index": {
+   "body": "right_hand_index_1_link",
+   "center_body": [
+    0.048449,
+    -0.003549,
+    0.00202
+   ],
+   "condim": 4,
+   "density": 0,
+   "dir_body": [
+    0.996466,
+    -0.073,
+    0.041541
+   ],
+   "friction": "1 0.005 0.0001",
+   "geom_name": "ws1b_pad_index",
+   "inset_frac": 0.7,
+   "protrusion_beyond_tip_m": 0.0015,
+   "r": 0.005,
+   "tip_body": [
+    0.051937,
+    -0.003805,
+    0.002165
+   ]
+  },
+  "middle": {
+   "body": "right_hand_middle_1_link",
+   "center_body": [
+    0.048449,
+    -0.003549,
+    0.00202
+   ],
+   "condim": 4,
+   "density": 0,
+   "dir_body": [
+    0.996466,
+    -0.073,
+    0.041541
+   ],
+   "friction": "1 0.005 0.0001",
+   "geom_name": "ws1b_pad_middle",
+   "inset_frac": 0.7,
+   "protrusion_beyond_tip_m": 0.0015,
+   "r": 0.005,
+   "tip_body": [
+    0.051937,
+    -0.003805,
+    0.002165
+   ]
+  },
+  "thumb": {
+   "body": "right_hand_thumb_2_link",
+   "center_body": [
+    -0.003549,
+    0.048449,
+    -0.00202
+   ],
+   "condim": 4,
+   "density": 0,
+   "dir_body": [
+    -0.073,
+    0.996466,
+    -0.041541
+   ],
+   "friction": "1 0.005 0.0001",
+   "geom_name": "ws1b_pad_thumb",
+   "inset_frac": 0.7,
+   "protrusion_beyond_tip_m": 0.0015,
+   "r": 0.005,
+   "tip_body": [
+    -0.003805,
+    0.051937,
+    -0.002165
+   ]
+  }
+ },
+ "tip_probe": {
+  "index": {
+   "bbox_body": [
+    [
+     -0.007,
+     0.051962
+    ],
+    [
+     -0.00892,
+     0.008772
+    ],
+    [
+     -0.0131,
+     0.0129
+    ]
+   ],
+   "body": "right_hand_index_1_link",
+   "dir_body": [
+    0.996466,
+    -0.073,
+    0.041541
+   ],
+   "geom_id": 99,
+   "mesh_id": 48,
+   "n_verts": 15221,
+   "tip_body": [
+    0.051937,
+    -0.003805,
+    0.002165
+   ],
+   "tip_dist_from_anchor_m": 0.052121,
+   "tip_region_max_lateral_m": 0.002975
+  },
+  "middle": {
+   "bbox_body": [
+    [
+     -0.007,
+     0.051962
+    ],
+    [
+     -0.00892,
+     0.008772
+    ],
+    [
+     -0.0131,
+     0.0129
+    ]
+   ],
+   "body": "right_hand_middle_1_link",
+   "dir_body": [
+    0.996466,
+    -0.073,
+    0.041541
+   ],
+   "geom_id": 95,
+   "mesh_id": 46,
+   "n_verts": 15221,
+   "tip_body": [
+    0.051937,
+    -0.003805,
+    0.002165
+   ],
+   "tip_dist_from_anchor_m": 0.052121,
+   "tip_region_max_lateral_m": 0.002975
+  },
+  "thumb": {
+   "bbox_body": [
+    [
+     -0.00892,
+     0.008772
+    ],
+    [
+     -0.007,
+     0.051962
+    ],
+    [
+     -0.0129,
+     0.0131
+    ]
+   ],
+   "body": "right_hand_thumb_2_link",
+   "dir_body": [
+    -0.073,
+    0.996466,
+    -0.041541
+   ],
+   "geom_id": 91,
+   "mesh_id": 44,
+   "n_verts": 15221,
+   "tip_body": [
+    -0.003805,
+    0.051937,
+    -0.002165
+   ],
+   "tip_dist_from_anchor_m": 0.052121,
+   "tip_region_max_lateral_m": 0.002975
+  }
+ },
+ "variant": "pads-only",
+ "variant_sha256": "9b577945d9de55536ec17f6cfa4323e09aded4dd41f71277a7d202899e6cccfd",
+ "variant_xml": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/pads_variant/model/unitree_g1/ws1b_scene_model.xml",
+ "worker": "ws1b"
+}

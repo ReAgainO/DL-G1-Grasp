@@ -1,0 +1,8 @@
+{
+  "bundle_sha": "cb1f7a9028fbeaa3e262fdfe9e74a5cfeb9eedcc41a197ab05f35ad972a72296",
+  "files": 3314,
+  "bytes": 3108411,
+  "scope": "pre-close evidence snapshot; final ledger/Git/close receipts transferred separately, not a final closed archive",
+  "source_root": "/data/group4/20261009-021611-codex-415484ce",
+  "no_videos_in_bundle": "representative videos transferred separately with SHA checks"
+}

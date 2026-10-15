@@ -1,0 +1,174 @@
+{
+ "runtime_stamp": {
+  "mujoco_version": "3.2.7",
+  "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+  "python_version": "3.10.22",
+  "xml": "/home/group4/group4_dasc7606c/repos/sonic-bridge/g1/g1_29dof.xml",
+  "xml_sha256": "439c1ec0806583d73b492da9484b0cb9e9eae215e0d9506e3c2fa69016733532",
+  "tol_rad": 0.02,
+  "fps": 30.0,
+  "unresolved_joints": []
+ },
+ "cells": [
+  {
+   "file": "K_CFG0_P0_s0.csv",
+   "frames": 120,
+   "root_z_min_m": 0.6214,
+   "root_z_max_m": 0.7672,
+   "root_z_frame0_m": 0.7335,
+   "worst_joint": {
+    "joint": "left_ankle_pitch",
+    "excess_rad": 0.0397
+   },
+   "joints_beyond_tol": 2,
+   "loader_rejected": true,
+   "worst5": [
+    [
+     "left_ankle_pitch",
+     {
+      "range": [
+       -0.873,
+       0.524
+      ],
+      "min": -0.912,
+      "max": 0.055,
+      "max_excess_rad": 0.0397,
+      "frames_over_tol": 2
+     }
+    ],
+    [
+     "left_hip_pitch",
+     {
+      "range": [
+       -2.531,
+       2.88
+      ],
+      "min": -1.042,
+      "max": 0.403,
+      "max_excess_rad": 0.0,
+      "frames_over_tol": 0
+     }
+    ],
+    [
+     "left_hip_roll",
+     {
+      "range": [
+       -0.524,
+       2.967
+      ],
+      "min": 0.211,
+      "max": 0.85,
+      "max_excess_rad": 0.0,
+      "frames_over_tol": 0
+     }
+    ],
+    [
+     "left_hip_yaw",
+     {
+      "range": [
+       -2.758,
+       2.758
+      ],
+      "min": 0.242,
+      "max": 0.661,
+      "max_excess_rad": 0.0,
+      "frames_over_tol": 0
+     }
+    ],
+    [
+     "left_knee",
+     {
+      "range": [
+       -0.087,
+       2.88
+      ],
+      "min": 0.442,
+      "max": 2.068,
+      "max_excess_rad": 0.0,
+      "frames_over_tol": 0
+     }
+    ]
+   ]
+  },
+  {
+   "file": "K_CFG0_P3_s0.csv",
+   "frames": 120,
+   "root_z_min_m": 0.6627,
+   "root_z_max_m": 0.9931,
+   "root_z_frame0_m": 0.9582,
+   "worst_joint": {
+    "joint": "left_ankle_pitch",
+    "excess_rad": 0.1012
+   },
+   "joints_beyond_tol": 5,
+   "loader_rejected": true,
+   "worst5": [
+    [
+     "left_ankle_pitch",
+     {
+      "range": [
+       -0.873,
+       0.524
+      ],
+      "min": -0.974,
+      "max": 0.302,
+      "max_excess_rad": 0.1012,
+      "frames_over_tol": 5
+     }
+    ],
+    [
+     "left_ankle_roll",
+     {
+      "range": [
+       -0.262,
+       0.262
+      ],
+      "min": -0.299,
+      "max": 0.257,
+      "max_excess_rad": 0.0374,
+      "frames_over_tol": 3
+     }
+    ],
+    [
+     "left_hip_pitch",
+     {
+      "range": [
+       -2.531,
+       2.88
+      ],
+      "min": -0.956,
+      "max": 0.132,
+      "max_excess_rad": 0.0,
+      "frames_over_tol": 0
+     }
+    ],
+    [
+     "left_hip_roll",
+     {
+      "range": [
+       -0.524,
+       2.967
+      ],
+      "min": -0.07,
+      "max": 0.603,
+      "max_excess_rad": 0.0,
+      "frames_over_tol": 0
+     }
+    ],
+    [
+     "left_hip_yaw",
+     {
+      "range": [
+       -2.758,
+       2.758
+      ],
+      "min": -0.081,
+      "max": 0.786,
+      "max_excess_rad": 0.0,
+      "frames_over_tol": 0
+     }
+    ]
+   ]
+  }
+ ]
+}

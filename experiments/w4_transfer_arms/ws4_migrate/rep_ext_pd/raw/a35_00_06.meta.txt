@@ -1,0 +1,18 @@
+name=a35_00_06
+utc_start=2026-10-08T14:55:43Z
+host=worker00039 uid=1004
+runner_sha256=3f5cf46edd5fb082604616a91e27e02131dbb962fc5997a5b0b95d0fd2e5165d
+sonic_grasp_sha256=5d1bac788ced13ebb33e161fb5fbcf4580069d46c72492011b67ade7ffbdb50d
+native_branch_sha256=64090ff6d47802755a23b99fe11ae27b4ce130dfc899c5d953d081c51b9164e8
+adaptive_hand_sha256=f35a826835f57cff66ca5411c46b72b63c770e832259e6b88ba4c0d048232c34
+grasp_geometry_sha256=bbbfbde344d8e5359498287ece86fa509c34882a01aa21754c9c123d3b577358
+motion_stem=near_s42
+motion_npz_sha256=78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff
+cpus=88,89 nice=19 ulimit_v_KiB=16777216
+sonic_grasp_args=a35_00_06 --cube-edge-mm=35 --cube-x=0.266000 --cube-y=-0.127600 --finger-pd=100,10 --finger-armature=0.1
+pressure_cpu: some avg10=0.16 avg60=0.64 avg300=0.85 total=4032654427 full avg10=0.00 avg60=0.00 avg300=0.00 total=0 
+df_data_avail_kb=11122487876
+
+utc_end=2026-10-08T14:57:46Z
+rc=0 wall_s=123
+result_json=/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/rep_ext_pd/rep/out/a35_00_06/result.json

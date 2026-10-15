@@ -1,0 +1,8 @@
+d80_00_00 rc=1 wall=1
+d80_00_00 rc=0 wall=141
+d80_00_01 rc=1 wall=0
+d80_01_00 rc=1 wall=0
+d80_01_01 rc=1 wall=0
+d80_01_00 rc=0 wall=143
+d80_00_01 rc=0 wall=164
+d80_01_01 rc=0 wall=162

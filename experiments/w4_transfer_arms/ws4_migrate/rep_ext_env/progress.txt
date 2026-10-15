@@ -1,0 +1,12 @@
+d80env_00 rc=0 wall=46
+a35_00_06__env rc=0 wall=106
+d80env_01 rc=0 wall=42
+d80env_02 rc=0 wall=45
+d100env_00 rc=1 wall=1
+d100env_01 rc=1 wall=1
+d80env_03 rc=0 wall=44
+d100env_02 rc=0 wall=46
+d100env_00b rc=0 wall=46
+d100env_01b rc=0 wall=47
+d80env_pinch rc=1 wall=3
+d80env_pinch rc=0 wall=127

@@ -1,0 +1,1367 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.14.0",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+      "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+    },
+    "scene_generator_sha": "e4450a7f13374938a5a81003666440aee6b1f1537a47112217cd42dd349de1b8",
+    "library_versions": {
+      "numpy": "1.26.4",
+      "onnxruntime": "1.23.2"
+    },
+    "library_sha": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+      "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "native_npz": "feaf256b8e97bb7c37a45149d624d277549519a8db1f522dbee431edcdaa21d4",
+      "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+      "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+      "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+      "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+      "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+      "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+      "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+      "adaptive_hand": "892bff4b931f9df1836d685b2cea0a233783f32cfdf8738e51cf41aeb038986f",
+      "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+      "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+      "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4",
+      "table_placement": "e1b5e88d4bdd0f0cce8a3dbd78e940c51976d2539caf4f99a4217a8cb9391477",
+      "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+      "setdown_plan": "5dd156238a40b06909e2c760dfbfc516c76e9af7793edf7c6fd07020d34dd521",
+      "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+      "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+      "neutral_pose": "76e534e278960796a08b1459345fd48f2898b1b18977e2f00fe3c1af47ab04b2",
+      "execution_monitor": "dd9d078527e2551a15202322c7bd53eb98eb0dc22a013633dfa74a062a00cf0d",
+      "clearance_approach": "94356a8088bd16da207caec9d220980cd4be335fb421ed7a4109274dfb449020",
+      "motion_profile": "ec830274ba547e49bfab4f9dc25da310711e6fde885e5b118654d04b31288b01",
+      "native_branch": "1f956007892cca5a9d170809052ccd864244e7370fd07046082fa131f3c7f73d",
+      "branch_execution": "14228ce96d7ab17872e6e2ee9d8876985727c2fc74fe370ea6d9099ab0369d32",
+      "finger_clearance": "4364050ab61a528509b4691000eb9c10484565ef33c1ba0c0eda4e439cec995f",
+      "cycle_latency": "692296c0ff2d90cb2a8274e0a0b024ad06b11019702e082797e8a9daf97e9428",
+      "branch_face_ik": "1492f257abb7dd1c3a5ff61b87605ec46e2ae0d46b84ff38651495f11bdc84e4",
+      "input_profile": "065777e3cdcbba3972065ddd2a0b34c396fe048a3663d0b539ab45482405d306",
+      "generation_summary": "613e6e7ce10e24874bf0b25351c1c7414d6aa5e0ec056d58b4de97af834bce33",
+      "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+      "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    "dt": 0.002
+  },
+  "physical_steps": 0,
+  "script_sha256": "e0f4c2406b5e1c6454991aa97bb35e4e0b0e226e997b9d02e853a4fa8faf5790",
+  "result_sha256": "7ac8296eea62330f3adeadf95e462ec2f347a108c5f580a670828d67b07a01ed",
+  "trajectory_sha256": "b2531b29ff52b6eefd2b96f69b83fae32823bd711bcfd79d2038cf099a348148",
+  "selected_cube_axis": 0,
+  "samples": [
+    {
+      "time_s": 2.0419999999999967,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 58.13462861336108,
+      "virtual_reference_closed_recipe_yaw_error_deg": 53.87919287864999,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.7469914766778525
+    },
+    {
+      "time_s": 2.801999999999913,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 57.98043133663596,
+      "virtual_reference_closed_recipe_yaw_error_deg": 53.7193629423756,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.7472618438094109
+    },
+    {
+      "time_s": 3.601999999999825,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 57.70076853944081,
+      "virtual_reference_closed_recipe_yaw_error_deg": 53.79032883264235,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.7470574320335859
+    },
+    {
+      "time_s": 4.401999999999737,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 58.66923426864161,
+      "virtual_reference_closed_recipe_yaw_error_deg": 53.88186801873436,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.7545422947693531
+    },
+    {
+      "time_s": 5.201999999999649,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 58.43236401283328,
+      "virtual_reference_closed_recipe_yaw_error_deg": 54.24421507202188,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.7588853052586554
+    },
+    {
+      "time_s": 6.001999999999561,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 56.8395909000542,
+      "virtual_reference_closed_recipe_yaw_error_deg": 54.86009912371869,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.7728215662718894
+    },
+    {
+      "time_s": 6.801999999999473,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 56.74262541791842,
+      "virtual_reference_closed_recipe_yaw_error_deg": 56.61048674767088,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.7813940259645734
+    },
+    {
+      "time_s": 7.601999999999385,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 55.632880125749345,
+      "virtual_reference_closed_recipe_yaw_error_deg": 57.05997258416238,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.7884377052479582
+    },
+    {
+      "time_s": 8.401999999999475,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 57.753345055988504,
+      "virtual_reference_closed_recipe_yaw_error_deg": 58.4397590157103,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.7940073084907021
+    },
+    {
+      "time_s": 9.201999999999742,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 59.18093056460297,
+      "virtual_reference_closed_recipe_yaw_error_deg": 59.554120883092565,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.800240081988987
+    },
+    {
+      "time_s": 10.00200000000001,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 61.40521250839551,
+      "virtual_reference_closed_recipe_yaw_error_deg": 60.875041645033605,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.8236669195386557
+    },
+    {
+      "time_s": 10.762000000000263,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 62.45602097940333,
+      "virtual_reference_closed_recipe_yaw_error_deg": 61.75141808547301,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.8342609580853148
+    },
+    {
+      "time_s": 11.56200000000053,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 61.641173791720966,
+      "virtual_reference_closed_recipe_yaw_error_deg": 62.07990341840943,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.8327962790247923
+    },
+    {
+      "time_s": 12.362000000000798,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 61.080481322025705,
+      "virtual_reference_closed_recipe_yaw_error_deg": 61.7371037372792,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.8340496286982224
+    },
+    {
+      "time_s": 13.162000000001065,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 57.88045629457876,
+      "virtual_reference_closed_recipe_yaw_error_deg": 62.409281954952185,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.8452868269631937
+    },
+    {
+      "time_s": 13.962000000001332,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 56.00137466149897,
+      "virtual_reference_closed_recipe_yaw_error_deg": 63.17995184188608,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.8668613754235255
+    },
+    {
+      "time_s": 14.7620000000016,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 58.37851588050485,
+      "virtual_reference_closed_recipe_yaw_error_deg": 64.96276687833638,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.8759640370476883
+    },
+    {
+      "time_s": 15.562000000001866,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 58.972786015628245,
+      "virtual_reference_closed_recipe_yaw_error_deg": 65.38727260131272,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.8832513141546989
+    },
+    {
+      "time_s": 16.36200000000181,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 58.32918263457358,
+      "virtual_reference_closed_recipe_yaw_error_deg": 65.14410781145881,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.8939093515812141
+    },
+    {
+      "time_s": 17.162000000001367,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 58.24355907019808,
+      "virtual_reference_closed_recipe_yaw_error_deg": 65.43993588259782,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.89662508445363
+    },
+    {
+      "time_s": 17.962000000000923,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 58.804166961123606,
+      "virtual_reference_closed_recipe_yaw_error_deg": 65.27052821129843,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.9047776347042104
+    },
+    {
+      "time_s": 18.722000000000502,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 59.89129615459838,
+      "virtual_reference_closed_recipe_yaw_error_deg": 64.64063406320906,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.9052499324773723
+    },
+    {
+      "time_s": 19.52200000000006,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 52.68592707081074,
+      "virtual_reference_closed_recipe_yaw_error_deg": 56.7970193290297,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.896684327576905
+    },
+    {
+      "time_s": 20.321999999999615,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 34.70412845040906,
+      "virtual_reference_closed_recipe_yaw_error_deg": 39.517171765022056,
+      "cube_z_m": 0.774453939270913,
+      "wrist_z_m": 0.9007684302884605
+    },
+    {
+      "time_s": 21.121999999999172,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 9.843927112947492,
+      "virtual_reference_closed_recipe_yaw_error_deg": 15.216695123404868,
+      "cube_z_m": 0.7813601865679664,
+      "wrist_z_m": 0.9249660723979728
+    },
+    {
+      "time_s": 21.92199999999873,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 3.248772163103644,
+      "virtual_reference_closed_recipe_yaw_error_deg": 3.0728788364908963,
+      "cube_z_m": 0.7744525103228631,
+      "wrist_z_m": 0.967504040352854
+    },
+    {
+      "time_s": 22.721999999998285,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 13.003528374057376,
+      "virtual_reference_closed_recipe_yaw_error_deg": 4.4705712194040315,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0384424646178976
+    },
+    {
+      "time_s": 23.521999999997842,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 10.215089904329005,
+      "virtual_reference_closed_recipe_yaw_error_deg": 1.4107836079928169,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0921642414098542
+    },
+    {
+      "time_s": 24.3219999999974,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 8.530165735952078,
+      "virtual_reference_closed_recipe_yaw_error_deg": 2.8451968597268915,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0937137436796105
+    },
+    {
+      "time_s": 25.121999999996955,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 5.604659872713244,
+      "virtual_reference_closed_recipe_yaw_error_deg": 5.940215187026492,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0783903617632327
+    },
+    {
+      "time_s": 25.921999999996512,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 5.754952215355525,
+      "virtual_reference_closed_recipe_yaw_error_deg": 9.824283863550335,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0696340595794944
+    },
+    {
+      "time_s": 26.72199999999607,
+      "phase": "APPROACH",
+      "actual_closed_recipe_yaw_error_deg": 4.152665436824619,
+      "virtual_reference_closed_recipe_yaw_error_deg": 13.6066060692597,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.057303740942239
+    },
+    {
+      "time_s": 26.761999999996046,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 3.9917085309389226,
+      "virtual_reference_closed_recipe_yaw_error_deg": 13.850040284307683,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0556752067124093
+    },
+    {
+      "time_s": 27.121999999995847,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 3.283808456992564,
+      "virtual_reference_closed_recipe_yaw_error_deg": 15.743944636738318,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0396961884021954
+    },
+    {
+      "time_s": 27.521999999995625,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 2.0007034183319465,
+      "virtual_reference_closed_recipe_yaw_error_deg": 17.80355110858472,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0303339727052745
+    },
+    {
+      "time_s": 27.881999999995426,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 1.3447140058404337,
+      "virtual_reference_closed_recipe_yaw_error_deg": 18.181652287779393,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0284783304900658
+    },
+    {
+      "time_s": 28.281999999995204,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 1.0604512676830895,
+      "virtual_reference_closed_recipe_yaw_error_deg": 17.606250882484673,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0381528744569695
+    },
+    {
+      "time_s": 28.681999999994982,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 1.6431157234477682,
+      "virtual_reference_closed_recipe_yaw_error_deg": 16.68603363245483,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.046857205504352
+    },
+    {
+      "time_s": 29.041999999994783,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 1.9297972647361747,
+      "virtual_reference_closed_recipe_yaw_error_deg": 16.111317042302144,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0551048748061427
+    },
+    {
+      "time_s": 29.44199999999456,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 2.2161815534637563,
+      "virtual_reference_closed_recipe_yaw_error_deg": 15.27509249518948,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0564525623737069
+    },
+    {
+      "time_s": 29.84199999999434,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 5.020395570172813,
+      "virtual_reference_closed_recipe_yaw_error_deg": 13.554013287250847,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0536427194791642
+    },
+    {
+      "time_s": 30.20199999999414,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 6.572652893027748,
+      "virtual_reference_closed_recipe_yaw_error_deg": 11.71862935494122,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0467854212891574
+    },
+    {
+      "time_s": 30.601999999993918,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 7.435867577983701,
+      "virtual_reference_closed_recipe_yaw_error_deg": 9.863327386211798,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.050143318595939
+    },
+    {
+      "time_s": 31.001999999993696,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 5.41510690986056,
+      "virtual_reference_closed_recipe_yaw_error_deg": 8.92670047294526,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0492912891600705
+    },
+    {
+      "time_s": 31.361999999993497,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 4.876401990823369,
+      "virtual_reference_closed_recipe_yaw_error_deg": 9.079512556110576,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0518267046253782
+    },
+    {
+      "time_s": 31.761999999993275,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 4.824888425432422,
+      "virtual_reference_closed_recipe_yaw_error_deg": 9.797246559082136,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0481660999052214
+    },
+    {
+      "time_s": 32.16199999999334,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 3.647762633276548,
+      "virtual_reference_closed_recipe_yaw_error_deg": 10.703315152092818,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0443885513304334
+    },
+    {
+      "time_s": 32.52199999999378,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 2.1501858512652263,
+      "virtual_reference_closed_recipe_yaw_error_deg": 11.097803898028777,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0399498946911896
+    },
+    {
+      "time_s": 32.92199999999427,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 2.2847864801383015,
+      "virtual_reference_closed_recipe_yaw_error_deg": 9.570987254248921,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0400754034908588
+    },
+    {
+      "time_s": 33.28199999999471,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 2.7657626499106636,
+      "virtual_reference_closed_recipe_yaw_error_deg": 7.205157876326544,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0382293454359686
+    },
+    {
+      "time_s": 33.6819999999952,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 4.321095456882382,
+      "virtual_reference_closed_recipe_yaw_error_deg": 4.82849684476713,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0413654222145285
+    },
+    {
+      "time_s": 34.08199999999569,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 9.66405506458456,
+      "virtual_reference_closed_recipe_yaw_error_deg": 2.5200455106631283,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0482662885281526
+    },
+    {
+      "time_s": 34.44199999999613,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 10.939460060453674,
+      "virtual_reference_closed_recipe_yaw_error_deg": 0.8308645973623333,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0528957403087824
+    },
+    {
+      "time_s": 34.84199999999662,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 11.200282674437473,
+      "virtual_reference_closed_recipe_yaw_error_deg": 0.09494185984983947,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0538670643675592
+    },
+    {
+      "time_s": 35.241999999997105,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 13.528291580615551,
+      "virtual_reference_closed_recipe_yaw_error_deg": 0.9657987855769766,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0515409788730328
+    },
+    {
+      "time_s": 35.601999999997545,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 14.388832989735636,
+      "virtual_reference_closed_recipe_yaw_error_deg": 1.4912792101753407,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0512454628600372
+    },
+    {
+      "time_s": 36.001999999998034,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 15.141241093375195,
+      "virtual_reference_closed_recipe_yaw_error_deg": 2.8679960741921566,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0506120025515828
+    },
+    {
+      "time_s": 36.40199999999852,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 15.299758606066924,
+      "virtual_reference_closed_recipe_yaw_error_deg": 4.474514468700616,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0533890647788104
+    },
+    {
+      "time_s": 36.76199999999896,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 15.41563658654283,
+      "virtual_reference_closed_recipe_yaw_error_deg": 5.954416893419279,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.053400160859298
+    },
+    {
+      "time_s": 37.16199999999945,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 15.340814621550917,
+      "virtual_reference_closed_recipe_yaw_error_deg": 7.965151914895375,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0518734309074427
+    },
+    {
+      "time_s": 37.56199999999994,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 17.744160751036258,
+      "virtual_reference_closed_recipe_yaw_error_deg": 10.183713407501394,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0409306546324963
+    },
+    {
+      "time_s": 37.92200000000038,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 19.346770478466308,
+      "virtual_reference_closed_recipe_yaw_error_deg": 12.412705224212884,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0383332724182444
+    },
+    {
+      "time_s": 38.32200000000087,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 20.918028150244623,
+      "virtual_reference_closed_recipe_yaw_error_deg": 14.96933215666342,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0386156469101722
+    },
+    {
+      "time_s": 38.72200000000136,
+      "phase": "PREGRASP",
+      "actual_closed_recipe_yaw_error_deg": 25.986071752224735,
+      "virtual_reference_closed_recipe_yaw_error_deg": 17.614426199266184,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0435905836862998
+    },
+    {
+      "time_s": 38.76200000000141,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 26.28229392605456,
+      "virtual_reference_closed_recipe_yaw_error_deg": 17.846420093363452,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0436270340320113
+    },
+    {
+      "time_s": 39.0020000000017,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 26.59001119355992,
+      "virtual_reference_closed_recipe_yaw_error_deg": 18.857449908088373,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0414075878128153
+    },
+    {
+      "time_s": 39.242000000001994,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 26.14708708490828,
+      "virtual_reference_closed_recipe_yaw_error_deg": 19.087705295102843,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.041101758298723
+    },
+    {
+      "time_s": 39.522000000002336,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 26.50432025108032,
+      "virtual_reference_closed_recipe_yaw_error_deg": 20.261497979033447,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0394261516420003
+    },
+    {
+      "time_s": 39.76200000000263,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 27.55373423652287,
+      "virtual_reference_closed_recipe_yaw_error_deg": 22.13539618593591,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0408297692655
+    },
+    {
+      "time_s": 40.04200000000297,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 30.267249623777115,
+      "virtual_reference_closed_recipe_yaw_error_deg": 24.66729056943114,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0397747604772807
+    },
+    {
+      "time_s": 40.282000000003265,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 33.40792046008015,
+      "virtual_reference_closed_recipe_yaw_error_deg": 25.883707205973185,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0402943082102918
+    },
+    {
+      "time_s": 40.52200000000356,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 32.60552847056084,
+      "virtual_reference_closed_recipe_yaw_error_deg": 26.123566687981857,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0390052488914059
+    },
+    {
+      "time_s": 40.8020000000039,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 32.25942449581422,
+      "virtual_reference_closed_recipe_yaw_error_deg": 26.094242721048783,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0410613271519003
+    },
+    {
+      "time_s": 41.042000000004194,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 31.26347368356064,
+      "virtual_reference_closed_recipe_yaw_error_deg": 26.36016883965039,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.040155696629953
+    },
+    {
+      "time_s": 41.322000000004536,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 31.913576005911818,
+      "virtual_reference_closed_recipe_yaw_error_deg": 26.83238040143888,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0403623252860885
+    },
+    {
+      "time_s": 41.56200000000483,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 32.11917002051982,
+      "virtual_reference_closed_recipe_yaw_error_deg": 27.269606077597434,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0327765524876529
+    },
+    {
+      "time_s": 41.84200000000517,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 34.68207187124474,
+      "virtual_reference_closed_recipe_yaw_error_deg": 27.992707563685695,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0299883107288288
+    },
+    {
+      "time_s": 42.082000000005465,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 36.541711541204116,
+      "virtual_reference_closed_recipe_yaw_error_deg": 28.902438774641134,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.027164776543094
+    },
+    {
+      "time_s": 42.32200000000576,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 36.510548024411676,
+      "virtual_reference_closed_recipe_yaw_error_deg": 29.74431196656941,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0246499359372454
+    },
+    {
+      "time_s": 42.6020000000061,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 37.089531727862905,
+      "virtual_reference_closed_recipe_yaw_error_deg": 30.545181241752186,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.01441316380157
+    },
+    {
+      "time_s": 42.842000000006394,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 36.05631179567434,
+      "virtual_reference_closed_recipe_yaw_error_deg": 31.18613340005665,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.005154344171787
+    },
+    {
+      "time_s": 43.122000000006736,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 36.011203688210614,
+      "virtual_reference_closed_recipe_yaw_error_deg": 31.90954588578112,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.004642720547347
+    },
+    {
+      "time_s": 43.36200000000703,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 35.83200873514937,
+      "virtual_reference_closed_recipe_yaw_error_deg": 32.259262738878384,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 1.0013164607503662
+    },
+    {
+      "time_s": 43.60200000000732,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 36.03771986612416,
+      "virtual_reference_closed_recipe_yaw_error_deg": 32.21714148510194,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9972693581403232
+    },
+    {
+      "time_s": 43.882000000007665,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 35.01353221947568,
+      "virtual_reference_closed_recipe_yaw_error_deg": 32.438303229739425,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9879832780507725
+    },
+    {
+      "time_s": 44.12200000000796,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 35.2447234494661,
+      "virtual_reference_closed_recipe_yaw_error_deg": 32.95239491341978,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9818850721482227
+    },
+    {
+      "time_s": 44.4020000000083,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 35.10012478617386,
+      "virtual_reference_closed_recipe_yaw_error_deg": 33.36140245436365,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9825715653910796
+    },
+    {
+      "time_s": 44.64200000000859,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 33.64241012370613,
+      "virtual_reference_closed_recipe_yaw_error_deg": 33.40818488987448,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9784241829278104
+    },
+    {
+      "time_s": 44.922000000008936,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 33.365054805927116,
+      "virtual_reference_closed_recipe_yaw_error_deg": 33.65863222170959,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.970565452911401
+    },
+    {
+      "time_s": 45.16200000000923,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 34.218188078664475,
+      "virtual_reference_closed_recipe_yaw_error_deg": 34.01148341353912,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9659409145372284
+    },
+    {
+      "time_s": 45.40200000000952,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 36.86287792235285,
+      "virtual_reference_closed_recipe_yaw_error_deg": 34.65380669462026,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9559457353044134
+    },
+    {
+      "time_s": 45.682000000009864,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 37.044625762409844,
+      "virtual_reference_closed_recipe_yaw_error_deg": 35.167077080997466,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.95458634255127
+    },
+    {
+      "time_s": 45.92200000001016,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 37.36779217010829,
+      "virtual_reference_closed_recipe_yaw_error_deg": 35.746701660427526,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9543698338495885
+    },
+    {
+      "time_s": 46.2020000000105,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 37.438904810572026,
+      "virtual_reference_closed_recipe_yaw_error_deg": 35.87045620731408,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9543027791705324
+    },
+    {
+      "time_s": 46.44200000001079,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 37.30816378625159,
+      "virtual_reference_closed_recipe_yaw_error_deg": 35.24850995944771,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9532911700473595
+    },
+    {
+      "time_s": 46.722000000011136,
+      "phase": "DESCEND",
+      "actual_closed_recipe_yaw_error_deg": 35.21295685841459,
+      "virtual_reference_closed_recipe_yaw_error_deg": 34.99755144373812,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9541527290424228
+    },
+    {
+      "time_s": 46.762000000011184,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 35.06120524566687,
+      "virtual_reference_closed_recipe_yaw_error_deg": 35.017868286078716,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9542143746512967
+    },
+    {
+      "time_s": 46.88200000001133,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 34.16691370568035,
+      "virtual_reference_closed_recipe_yaw_error_deg": 34.93098855664193,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9548982983708992
+    },
+    {
+      "time_s": 47.00200000001148,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 33.92033494233928,
+      "virtual_reference_closed_recipe_yaw_error_deg": 34.80230612478813,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.954902523247564
+    },
+    {
+      "time_s": 47.122000000011624,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 33.526272193585946,
+      "virtual_reference_closed_recipe_yaw_error_deg": 34.84985357092586,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9546636338311261
+    },
+    {
+      "time_s": 47.24200000001177,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 32.93229387676229,
+      "virtual_reference_closed_recipe_yaw_error_deg": 34.93642927498946,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9543129084464027
+    },
+    {
+      "time_s": 47.36200000001192,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 33.20155401113266,
+      "virtual_reference_closed_recipe_yaw_error_deg": 34.97702934984437,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9527368922044902
+    },
+    {
+      "time_s": 47.482000000012064,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 33.775879785480186,
+      "virtual_reference_closed_recipe_yaw_error_deg": 35.12845539054275,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9504444002955384
+    },
+    {
+      "time_s": 47.60200000001221,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 34.17827649310185,
+      "virtual_reference_closed_recipe_yaw_error_deg": 35.310939838387995,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9498467313562942
+    },
+    {
+      "time_s": 47.72200000001236,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 34.37111367882176,
+      "virtual_reference_closed_recipe_yaw_error_deg": 35.5054724596368,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9496635919093053
+    },
+    {
+      "time_s": 47.842000000012504,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 35.00188394452249,
+      "virtual_reference_closed_recipe_yaw_error_deg": 35.7621035188057,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.948877129612191
+    },
+    {
+      "time_s": 47.96200000001265,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 35.54815701857015,
+      "virtual_reference_closed_recipe_yaw_error_deg": 36.085655688746535,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9477433367783193
+    },
+    {
+      "time_s": 48.0820000000128,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 36.15065988370005,
+      "virtual_reference_closed_recipe_yaw_error_deg": 36.29759114921719,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.94694701678251
+    },
+    {
+      "time_s": 48.202000000012944,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 36.512814950434006,
+      "virtual_reference_closed_recipe_yaw_error_deg": 36.48723849120255,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9465069615147536
+    },
+    {
+      "time_s": 48.32200000001309,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 36.73126390852464,
+      "virtual_reference_closed_recipe_yaw_error_deg": 36.67182771566022,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9459864114712894
+    },
+    {
+      "time_s": 48.44200000001324,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 37.32708267731753,
+      "virtual_reference_closed_recipe_yaw_error_deg": 36.86294794108734,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9456905292540269
+    },
+    {
+      "time_s": 48.562000000013384,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 37.78931411665653,
+      "virtual_reference_closed_recipe_yaw_error_deg": 37.119783835375245,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9447255395276268
+    },
+    {
+      "time_s": 48.68200000001353,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 38.074363636372645,
+      "virtual_reference_closed_recipe_yaw_error_deg": 37.396374046165576,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9435992606611388
+    },
+    {
+      "time_s": 48.80200000001368,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 38.293823052909424,
+      "virtual_reference_closed_recipe_yaw_error_deg": 37.62686479729797,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9399642363109467
+    },
+    {
+      "time_s": 48.922000000013824,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 38.71098347878345,
+      "virtual_reference_closed_recipe_yaw_error_deg": 37.83967653255885,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9393214649597209
+    },
+    {
+      "time_s": 49.04200000001397,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 39.028432672349375,
+      "virtual_reference_closed_recipe_yaw_error_deg": 38.173619822592066,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.939707453890005
+    },
+    {
+      "time_s": 49.16200000001412,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 39.42256939178811,
+      "virtual_reference_closed_recipe_yaw_error_deg": 38.646448613634234,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9408656841736601
+    },
+    {
+      "time_s": 49.282000000014264,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 39.66996834067363,
+      "virtual_reference_closed_recipe_yaw_error_deg": 39.15255023358238,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9411195546741888
+    },
+    {
+      "time_s": 49.40200000001441,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 40.43910153017741,
+      "virtual_reference_closed_recipe_yaw_error_deg": 39.66384300080582,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9436374455760732
+    },
+    {
+      "time_s": 49.52200000001456,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 40.969839658521465,
+      "virtual_reference_closed_recipe_yaw_error_deg": 40.24860393971888,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9438933164437244
+    },
+    {
+      "time_s": 49.642000000014704,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 41.64897250575078,
+      "virtual_reference_closed_recipe_yaw_error_deg": 40.676286456722416,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9422588288980673
+    },
+    {
+      "time_s": 49.76200000001485,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 41.560688559999356,
+      "virtual_reference_closed_recipe_yaw_error_deg": 40.77795460429705,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9405588958630794
+    },
+    {
+      "time_s": 49.882000000015,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 41.60380909512814,
+      "virtual_reference_closed_recipe_yaw_error_deg": 40.80070229421628,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9404457537698366
+    },
+    {
+      "time_s": 50.002000000015144,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 41.778278251423096,
+      "virtual_reference_closed_recipe_yaw_error_deg": 40.84107212092888,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9423547176445214
+    },
+    {
+      "time_s": 50.12200000001529,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 42.009029091778,
+      "virtual_reference_closed_recipe_yaw_error_deg": 40.92887145120183,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9443712022066769
+    },
+    {
+      "time_s": 50.24200000001544,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 42.82174635185578,
+      "virtual_reference_closed_recipe_yaw_error_deg": 41.12546132455946,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9449901708586821
+    },
+    {
+      "time_s": 50.362000000015584,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 43.75824646696188,
+      "virtual_reference_closed_recipe_yaw_error_deg": 41.38556908448298,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.945772010475492
+    },
+    {
+      "time_s": 50.48200000001573,
+      "phase": "ALIGN",
+      "actual_closed_recipe_yaw_error_deg": 44.32420702365405,
+      "virtual_reference_closed_recipe_yaw_error_deg": 41.66942654974446,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9457510647789238
+    },
+    {
+      "time_s": 50.52200000001578,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 44.507543634154615,
+      "virtual_reference_closed_recipe_yaw_error_deg": 41.76535115357866,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9455009405367045
+    },
+    {
+      "time_s": 50.56200000001583,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 44.67094642095735,
+      "virtual_reference_closed_recipe_yaw_error_deg": 41.913782290193865,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.944712262231053
+    },
+    {
+      "time_s": 50.60200000001588,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 44.8563236296515,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.03793607159654,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9433992153350391
+    },
+    {
+      "time_s": 50.642000000015926,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 45.06102984993191,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.13375137307932,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9419547329381334
+    },
+    {
+      "time_s": 50.682000000015975,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 45.2681115200389,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.22185415645615,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9403275011823476
+    },
+    {
+      "time_s": 50.722000000016024,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 45.5145263384156,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.31458865415832,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9388165802566245
+    },
+    {
+      "time_s": 50.76200000001607,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 45.774977811021465,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.41631368093224,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9377416644625282
+    },
+    {
+      "time_s": 50.80200000001612,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 45.992516039493914,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.52628089443093,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9372241983100523
+    },
+    {
+      "time_s": 50.84200000001617,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 46.164755418621034,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.64497822493987,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9370975249855573
+    },
+    {
+      "time_s": 50.88200000001622,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 46.429101289009466,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.73210657879405,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9373374663911512
+    },
+    {
+      "time_s": 50.92200000001627,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 46.841235314235114,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.80788079874163,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9375914615235402
+    },
+    {
+      "time_s": 50.96200000001632,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 47.29215978723213,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.90672293104041,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9376255165768258
+    },
+    {
+      "time_s": 51.002000000016366,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 47.69440018533632,
+      "virtual_reference_closed_recipe_yaw_error_deg": 43.02750110948535,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9374198810237331
+    },
+    {
+      "time_s": 51.042000000016415,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 48.043723425206025,
+      "virtual_reference_closed_recipe_yaw_error_deg": 43.20111242038133,
+      "cube_z_m": 0.7744539392709122,
+      "wrist_z_m": 0.9370246803148968
+    },
+    {
+      "time_s": 51.082000000016464,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 47.81577623380027,
+      "virtual_reference_closed_recipe_yaw_error_deg": 42.74114717134797,
+      "cube_z_m": 0.7745182174136696,
+      "wrist_z_m": 0.9368827459602663
+    },
+    {
+      "time_s": 51.12200000001651,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 46.94576265002982,
+      "virtual_reference_closed_recipe_yaw_error_deg": 41.49162931867876,
+      "cube_z_m": 0.7747100312768751,
+      "wrist_z_m": 0.9372821244670982
+    },
+    {
+      "time_s": 51.16200000001656,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 45.61676148737173,
+      "virtual_reference_closed_recipe_yaw_error_deg": 39.76402835400532,
+      "cube_z_m": 0.7746470937065076,
+      "wrist_z_m": 0.9374985365917574
+    },
+    {
+      "time_s": 51.20200000001661,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 44.30922404491374,
+      "virtual_reference_closed_recipe_yaw_error_deg": 38.10358833861848,
+      "cube_z_m": 0.7748277833072926,
+      "wrist_z_m": 0.9377429727863563
+    },
+    {
+      "time_s": 51.24200000001666,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 42.76824373713145,
+      "virtual_reference_closed_recipe_yaw_error_deg": 36.27995617436363,
+      "cube_z_m": 0.7750990603890489,
+      "wrist_z_m": 0.9379837249714099
+    },
+    {
+      "time_s": 51.28200000001671,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 41.94896945843003,
+      "virtual_reference_closed_recipe_yaw_error_deg": 35.273347438217755,
+      "cube_z_m": 0.7752355597582219,
+      "wrist_z_m": 0.9380211744115786
+    },
+    {
+      "time_s": 51.32200000001676,
+      "phase": "CLOSE",
+      "actual_closed_recipe_yaw_error_deg": 41.615569561404584,
+      "virtual_reference_closed_recipe_yaw_error_deg": 34.842158860244794,
+      "cube_z_m": 0.7752038215022372,
+      "wrist_z_m": 0.9378583138734576
+    }
+  ],
+  "sample_bound": 160,
+  "by_phase": {
+    "ALIGN": {
+      "first": {
+        "time_s": 46.762000000011184,
+        "phase": "ALIGN",
+        "actual_closed_recipe_yaw_error_deg": 35.06120524566687,
+        "virtual_reference_closed_recipe_yaw_error_deg": 35.017868286078716,
+        "cube_z_m": 0.7744539392709122,
+        "wrist_z_m": 0.9542143746512967
+      },
+      "last": {
+        "time_s": 50.48200000001573,
+        "phase": "ALIGN",
+        "actual_closed_recipe_yaw_error_deg": 44.32420702365405,
+        "virtual_reference_closed_recipe_yaw_error_deg": 41.66942654974446,
+        "cube_z_m": 0.7744539392709122,
+        "wrist_z_m": 0.9457510647789238
+      },
+      "max_actual_yaw_deg": 44.32420702365405,
+      "max_reference_yaw_deg": 41.66942654974446,
+      "invalid_actual_samples": 0,
+      "invalid_reference_samples": 0
+    },
+    "APPROACH": {
+      "first": {
+        "time_s": 2.0419999999999967,
+        "phase": "APPROACH",
+        "actual_closed_recipe_yaw_error_deg": 58.13462861336108,
+        "virtual_reference_closed_recipe_yaw_error_deg": 53.87919287864999,
+        "cube_z_m": 0.774453939270913,
+        "wrist_z_m": 0.7469914766778525
+      },
+      "last": {
+        "time_s": 26.72199999999607,
+        "phase": "APPROACH",
+        "actual_closed_recipe_yaw_error_deg": 4.152665436824619,
+        "virtual_reference_closed_recipe_yaw_error_deg": 13.6066060692597,
+        "cube_z_m": 0.7744539392709122,
+        "wrist_z_m": 1.057303740942239
+      },
+      "max_actual_yaw_deg": 62.45602097940333,
+      "max_reference_yaw_deg": 65.43993588259782,
+      "invalid_actual_samples": 0,
+      "invalid_reference_samples": 0
+    },
+    "CLOSE": {
+      "first": {
+        "time_s": 50.52200000001578,
+        "phase": "CLOSE",
+        "actual_closed_recipe_yaw_error_deg": 44.507543634154615,
+        "virtual_reference_closed_recipe_yaw_error_deg": 41.76535115357866,
+        "cube_z_m": 0.7744539392709122,
+        "wrist_z_m": 0.9455009405367045
+      },
+      "last": {
+        "time_s": 51.32200000001676,
+        "phase": "CLOSE",
+        "actual_closed_recipe_yaw_error_deg": 41.615569561404584,
+        "virtual_reference_closed_recipe_yaw_error_deg": 34.842158860244794,
+        "cube_z_m": 0.7752038215022372,
+        "wrist_z_m": 0.9378583138734576
+      },
+      "max_actual_yaw_deg": 48.043723425206025,
+      "max_reference_yaw_deg": 43.20111242038133,
+      "invalid_actual_samples": 0,
+      "invalid_reference_samples": 0
+    },
+    "DESCEND": {
+      "first": {
+        "time_s": 38.76200000000141,
+        "phase": "DESCEND",
+        "actual_closed_recipe_yaw_error_deg": 26.28229392605456,
+        "virtual_reference_closed_recipe_yaw_error_deg": 17.846420093363452,
+        "cube_z_m": 0.7744539392709122,
+        "wrist_z_m": 1.0436270340320113
+      },
+      "last": {
+        "time_s": 46.722000000011136,
+        "phase": "DESCEND",
+        "actual_closed_recipe_yaw_error_deg": 35.21295685841459,
+        "virtual_reference_closed_recipe_yaw_error_deg": 34.99755144373812,
+        "cube_z_m": 0.7744539392709122,
+        "wrist_z_m": 0.9541527290424228
+      },
+      "max_actual_yaw_deg": 37.438904810572026,
+      "max_reference_yaw_deg": 35.87045620731408,
+      "invalid_actual_samples": 0,
+      "invalid_reference_samples": 0
+    },
+    "PREGRASP": {
+      "first": {
+        "time_s": 26.761999999996046,
+        "phase": "PREGRASP",
+        "actual_closed_recipe_yaw_error_deg": 3.9917085309389226,
+        "virtual_reference_closed_recipe_yaw_error_deg": 13.850040284307683,
+        "cube_z_m": 0.7744539392709122,
+        "wrist_z_m": 1.0556752067124093
+      },
+      "last": {
+        "time_s": 38.72200000000136,
+        "phase": "PREGRASP",
+        "actual_closed_recipe_yaw_error_deg": 25.986071752224735,
+        "virtual_reference_closed_recipe_yaw_error_deg": 17.614426199266184,
+        "cube_z_m": 0.7744539392709122,
+        "wrist_z_m": 1.0435905836862998
+      },
+      "max_actual_yaw_deg": 25.986071752224735,
+      "max_reference_yaw_deg": 18.181652287779393,
+      "invalid_actual_samples": 0,
+      "invalid_reference_samples": 0
+    }
+  },
+  "limitation": "25Hz saved-state FK with virtual CLOSED recipe; not measured finger contacts, not a causal proof or actual10Hz hand controller replay. Invalid/degenerate directions remain null."
+}

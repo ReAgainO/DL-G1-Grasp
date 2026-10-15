@@ -1,0 +1,656 @@
+{
+  "best": {
+    "axis": 0,
+    "seed": 1,
+    "pad_error_m": 2.0074888469683126e-06,
+    "pad_errors_m": [
+      2.1271267460993783e-07,
+      1.9621620374990594e-06,
+      2.0074888469683126e-06
+    ],
+    "pad_positions": [
+      [
+        0.292000150780842,
+        -0.1800001054152643,
+        0.7649998932318322
+      ],
+      [
+        0.40799987147524913,
+        -0.15149809880639806,
+        0.7650004680001472
+      ],
+      [
+        0.40800010100998724,
+        -0.20850200148954393,
+        0.7649998823222252
+      ]
+    ],
+    "targets": [
+      [
+        0.292,
+        -0.18,
+        0.765
+      ],
+      [
+        0.408,
+        -0.1515,
+        0.765
+      ],
+      [
+        0.408,
+        -0.2085,
+        0.765
+      ]
+    ],
+    "min_bone_cube_gap_m": 0.0009973127312079,
+    "min_bone_table_gap_m": 0.025724261799896064,
+    "q": [
+      -0.23075290819238972,
+      -0.6109237439507824,
+      0.705536673735581,
+      0.1141002079241929,
+      -0.7439839291297176,
+      0.5491661303516442,
+      -0.15167675859191698,
+      0.046500645895690404,
+      0.5249186435020863,
+      -1.7547546869838013,
+      0.22615686972986307,
+      0.9564411833551715,
+      0.229678029578204,
+      0.9385404540201977
+    ],
+    "nfev": 67
+  },
+  "candidates": [
+    {
+      "axis": 0,
+      "seed": 0,
+      "pad_error_m": 0.00036922077979158804,
+      "pad_errors_m": [
+        0.00036922077979158804,
+        0.00024322474250249742,
+        0.0002844500353300149
+      ],
+      "pad_positions": [
+        [
+          0.2920542155680192,
+          -0.1803606558155465,
+          0.7650575503182159
+        ],
+        [
+          0.4080238404996051,
+          -0.1517420161793288,
+          0.7650042514570523
+        ],
+        [
+          0.4080829512664332,
+          -0.20874227676809315,
+          0.7651238259974267
+        ]
+      ],
+      "targets": [
+        [
+          0.292,
+          -0.18,
+          0.765
+        ],
+        [
+          0.408,
+          -0.1515,
+          0.765
+        ],
+        [
+          0.408,
+          -0.2085,
+          0.765
+        ]
+      ],
+      "min_bone_cube_gap_m": -0.02466774279116643,
+      "min_bone_table_gap_m": 0.0049791034477698615,
+      "q": [
+        0.0033926318539396916,
+        -0.4275607309925182,
+        0.5063872197377837,
+        0.28930320719036373,
+        -0.9878545544986073,
+        0.3086376874938528,
+        -0.39229191051872025,
+        0.0027675305879014617,
+        -0.22435453627329935,
+        -1.9992820368737352,
+        0.1707371769394752,
+        0.08674312658025053,
+        0.16211837377586374,
+        0.09979930498544211
+      ],
+      "nfev": 23
+    },
+    {
+      "axis": 0,
+      "seed": 1,
+      "pad_error_m": 2.0074888469683126e-06,
+      "pad_errors_m": [
+        2.1271267460993783e-07,
+        1.9621620374990594e-06,
+        2.0074888469683126e-06
+      ],
+      "pad_positions": [
+        [
+          0.292000150780842,
+          -0.1800001054152643,
+          0.7649998932318322
+        ],
+        [
+          0.40799987147524913,
+          -0.15149809880639806,
+          0.7650004680001472
+        ],
+        [
+          0.40800010100998724,
+          -0.20850200148954393,
+          0.7649998823222252
+        ]
+      ],
+      "targets": [
+        [
+          0.292,
+          -0.18,
+          0.765
+        ],
+        [
+          0.408,
+          -0.1515,
+          0.765
+        ],
+        [
+          0.408,
+          -0.2085,
+          0.765
+        ]
+      ],
+      "min_bone_cube_gap_m": 0.0009973127312079,
+      "min_bone_table_gap_m": 0.025724261799896064,
+      "q": [
+        -0.23075290819238972,
+        -0.6109237439507824,
+        0.705536673735581,
+        0.1141002079241929,
+        -0.7439839291297176,
+        0.5491661303516442,
+        -0.15167675859191698,
+        0.046500645895690404,
+        0.5249186435020863,
+        -1.7547546869838013,
+        0.22615686972986307,
+        0.9564411833551715,
+        0.229678029578204,
+        0.9385404540201977
+      ],
+      "nfev": 67
+    },
+    {
+      "axis": 0,
+      "seed": 2,
+      "pad_error_m": 2.4409560054173955e-05,
+      "pad_errors_m": [
+        3.892392864229071e-07,
+        2.3904222978397655e-05,
+        2.4409560054173955e-05
+      ],
+      "pad_positions": [
+        [
+          0.2920002189596466,
+          -0.17999968490954793,
+          0.7649999345637543
+        ],
+        [
+          0.4079989710771017,
+          -0.15147612253712453,
+          0.7650004689994682
+        ],
+        [
+          0.40800090527338956,
+          -0.20852439136732173,
+          0.7649997386529045
+        ]
+      ],
+      "targets": [
+        [
+          0.292,
+          -0.18,
+          0.765
+        ],
+        [
+          0.408,
+          -0.1515,
+          0.765
+        ],
+        [
+          0.408,
+          -0.2085,
+          0.765
+        ]
+      ],
+      "min_bone_cube_gap_m": 0.0009983279936822131,
+      "min_bone_table_gap_m": 0.02558127414986533,
+      "q": [
+        -0.1445071938722019,
+        -0.4461224060132093,
+        0.37419305252936824,
+        0.24165034732919274,
+        -1.0195149128191472,
+        0.21554212593064873,
+        -0.1518891129553655,
+        -0.2736382144736659,
+        0.7213096434759673,
+        -1.7954884771209034,
+        0.4728383334506157,
+        0.7956012543672307,
+        0.441488535163144,
+        0.8879435265831476
+      ],
+      "nfev": 99
+    },
+    {
+      "axis": 1,
+      "seed": 0,
+      "pad_error_m": 0.013839559774380741,
+      "pad_errors_m": [
+        0.013063511449657153,
+        0.013839559774380741,
+        0.009232892751348013
+      ],
+      "pad_positions": [
+        [
+          0.34738641683829097,
+          -0.23390263948376902,
+          0.7771258464138462
+        ],
+        [
+          0.3817816044589051,
+          -0.13537557903727104,
+          0.7636367786894025
+        ],
+        [
+          0.31886550474551645,
+          -0.12876208349583596,
+          0.7707078866585928
+        ]
+      ],
+      "targets": [
+        [
+          0.35,
+          -0.238,
+          0.765
+        ],
+        [
+          0.3785,
+          -0.122,
+          0.765
+        ],
+        [
+          0.32149999999999995,
+          -0.122,
+          0.765
+        ]
+      ],
+      "min_bone_cube_gap_m": -0.027757745033015313,
+      "min_bone_table_gap_m": 0.023224019137887852,
+      "q": [
+        -1.0380037048520772,
+        -0.39569552714355755,
+        -0.9610539809042353,
+        1.4703178936378636,
+        -1.0630906347618896,
+        0.7659118161649788,
+        0.6761137559494214,
+        0.03635136174030563,
+        -1.0441999999985636,
+        -1.5099404303801496,
+        0.6989170409545574,
+        0.6576124668722149,
+        1.284654924255053,
+        0.027710084463128448
+      ],
+      "nfev": 33
+    },
+    {
+      "axis": 1,
+      "seed": 1,
+      "pad_error_m": 0.01367246802742338,
+      "pad_errors_m": [
+        0.013368860487242644,
+        0.01367246802742338,
+        0.009073655369473506
+      ],
+      "pad_positions": [
+        [
+          0.34739293891465156,
+          -0.2339217570423868,
+          0.7774618456740283
+        ],
+        [
+          0.38173175609788956,
+          -0.13521640828368237,
+          0.7636514131234213
+        ],
+        [
+          0.31882654017322726,
+          -0.1286398321221211,
+          0.7705764203310598
+        ]
+      ],
+      "targets": [
+        [
+          0.35,
+          -0.238,
+          0.765
+        ],
+        [
+          0.3785,
+          -0.122,
+          0.765
+        ],
+        [
+          0.32149999999999995,
+          -0.122,
+          0.765
+        ]
+      ],
+      "min_bone_cube_gap_m": -0.027851930533639657,
+      "min_bone_table_gap_m": 0.023355024027070126,
+      "q": [
+        -1.036806087941201,
+        -0.39591704434031816,
+        -0.9654179323145772,
+        1.4682237085856416,
+        -1.0691177152878188,
+        0.7639898949707414,
+        0.683729784972635,
+        0.03483893864788137,
+        -1.0441999999985818,
+        -1.5151814854440429,
+        0.6941674261277088,
+        0.6553535346381515,
+        1.2784085183312486,
+        0.027101721757223828
+      ],
+      "nfev": 31
+    },
+    {
+      "axis": 1,
+      "seed": 2,
+      "pad_error_m": 0.01420348894255469,
+      "pad_errors_m": [
+        0.012898045794754658,
+        0.01420348894255469,
+        0.009084221583034948
+      ],
+      "pad_positions": [
+        [
+          0.34690381549876154,
+          -0.23434281375226174,
+          0.7769748993986269
+        ],
+        [
+          0.3821872732019285,
+          -0.13565008545994756,
+          0.7636515633452989
+        ],
+        [
+          0.3186613447299336,
+          -0.1284515407921831,
+          0.7707308585250554
+        ]
+      ],
+      "targets": [
+        [
+          0.35,
+          -0.238,
+          0.765
+        ],
+        [
+          0.3785,
+          -0.122,
+          0.765
+        ],
+        [
+          0.32149999999999995,
+          -0.122,
+          0.765
+        ]
+      ],
+      "min_bone_cube_gap_m": -0.02802394303302108,
+      "min_bone_table_gap_m": 0.022424161335524495,
+      "q": [
+        -1.0196548652033164,
+        -0.410951245689565,
+        -0.910054723304205,
+        1.4735663861929884,
+        -0.9977253285097534,
+        0.7322327335242057,
+        0.7114012393631368,
+        0.037603090649626685,
+        -1.0441999999987377,
+        -1.5318236116367074,
+        0.6490978503695324,
+        0.683337571215709,
+        1.2630747127895308,
+        0.025729771029448265
+      ],
+      "nfev": 40
+    }
+  ],
+  "open_hand": [
+    0.046500645895690404,
+    0.5249186435020863,
+    -2.0547546869838014,
+    -0.12384313027013691,
+    0.6064411833551715,
+    -0.12032197042179599,
+    0.5885404540201977
+  ],
+  "closed_hand": [
+    0.046500645895690404,
+    0.5249186435020863,
+    -1.7547546869838013,
+    0.22615686972986307,
+    0.9564411833551715,
+    0.229678029578204,
+    0.9385404540201977
+  ],
+  "arm": [
+    -0.23075290819238972,
+    -0.6109237439507824,
+    0.705536673735581,
+    0.1141002079241929,
+    -0.7439839291297176,
+    0.5491661303516442,
+    -0.15167675859191698
+  ],
+  "wrist_pos": [
+    0.21212676423431193,
+    -0.1776989424737827,
+    0.8704173482946344
+  ],
+  "wrist_R": [
+    [
+      0.9813047074615856,
+      -0.19210479887738027,
+      0.01169689540065838
+    ],
+    [
+      -0.011496940946769174,
+      0.002155557191024511,
+      0.9999315846206996
+    ],
+    [
+      -0.19211686928169314,
+      -0.9813720496434969,
+      -9.335910952918552e-05
+    ]
+  ],
+  "cube_pos": [
+    0.35,
+    -0.18,
+    0.765
+  ],
+  "edge_m": 0.08,
+  "pad_gap_m": 0.008,
+  "mass_kg": 0.12,
+  "hand_geoms": [
+    {
+      "body": "left_hand_thumb_0_link",
+      "geom": "left_hand_thumb_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_thumb_1_link",
+      "geom": "left_hand_thumb_1_link_collision_1",
+      "type": "box"
+    },
+    {
+      "body": "left_hand_thumb_2_link",
+      "geom": "left_hand_thumb_2_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_middle_0_link",
+      "geom": "left_hand_middle_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_middle_1_link",
+      "geom": "left_hand_middle_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_index_0_link",
+      "geom": "left_hand_index_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "left_hand_index_1_link",
+      "geom": "left_hand_index_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_0_link",
+      "geom": "right_hand_thumb_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_1_link",
+      "geom": "right_hand_thumb_1_link_collision_1",
+      "type": "box"
+    },
+    {
+      "body": "right_hand_thumb_2_link",
+      "geom": "right_hand_thumb_2_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_thumb_2_link",
+      "geom": "right_thumb_fingertip",
+      "type": "sphere"
+    },
+    {
+      "body": "right_hand_index_0_link",
+      "geom": "right_hand_index_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_index_1_link",
+      "geom": "right_hand_index_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_index_1_link",
+      "geom": "right_index_fingertip",
+      "type": "sphere"
+    },
+    {
+      "body": "right_hand_middle_0_link",
+      "geom": "right_hand_middle_0_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_middle_1_link",
+      "geom": "right_hand_middle_1_link_collision_1",
+      "type": "mesh"
+    },
+    {
+      "body": "right_hand_middle_1_link",
+      "geom": "right_middle_fingertip",
+      "type": "sphere"
+    }
+  ],
+  "ardy_source": {
+    "source_npz": "/data/group4/20261009-003148-codex-363f6327/lib/src/original_motions/near_s42.npz",
+    "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+    "source_fps": 25.0,
+    "native_frames": 100,
+    "native_clip_duration_s": 4.0,
+    "last_sample_time_s": 3.96,
+    "expected50Hz_frames": 199,
+    "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+    "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+    "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+    "text": "A person reaches forward with their right hand to grab a small object on a table.",
+    "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+  },
+  "ardy_frame": 99,
+  "scope": "ARDY seven-arm prior + bounded geometry correction, NOT native fullbody ARDY",
+  "geometry_pass": true,
+  "geometry_metric": "full convex hull/OBB SAT support gap to cube; conservative transformed-vertex/table-top halfspace; mj_geomDistance excluded after contradictory no-contact result",
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "robot": "7f2ceaf5c6b90347c1877fecaac8b2b25abe42b8a783e612b890ebd51a931391",
+      "scene": "d60ab572821733d3f217d60b6e155ce5631911b7aee8c31a64486903789cabbe"
+    },
+    "scene_generator_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+    "library_sha": {
+      "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+    },
+    "dt": 0.002
+  },
+  "hand_self_collision": "all original nonvisual finger geometry masks2/3; hand-world and nonadjacent inter-finger collisions enabled; MuJoCo parent-body exclusions remain",
+  "synthetic_pads": "three inherited 10mm spherical pads retained and disclosed; finger bones NOT ghosts"
+}

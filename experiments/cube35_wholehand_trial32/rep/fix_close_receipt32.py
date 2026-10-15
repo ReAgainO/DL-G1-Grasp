@@ -1,0 +1,6 @@
+from pathlib import Path
+import json,subprocess
+b=Path('/home/group4/group4_dasc7606c');t='20261008-202654-codex-182c4568';a=Path('/data/group4')/t/'archive';rows=(b/'claims/journal.log').read_text().splitlines();own=[(i+1,json.loads(l)) for i,l in enumerate(rows) if json.loads(l).get('task')==t];n,event=own[-1];assert event['event']=='done'
+paths=['claims/'+t+'/done.txt','logs/'+t+'/steps.md','work/'+t+'/task-journal-final.jsonl','work/'+t+'/closure-view-snapshot.json'];status=subprocess.check_output(['git','-C',str(b),'status','--porcelain','--',*paths],text=True);assert not status
+x={'last_shared_commit':subprocess.check_output(['git','-C',str(b),'rev-parse','HEAD'],text=True).strip(),'source_commit':json.loads((a/'freeze32-receipt.json').read_text())['source_commit'],'journal_cutoff':json.loads((b/'work'/t/'closure-view-snapshot.json').read_text())['journal_cutoff_rows'],'done_line':n,'own_view_done':True,'other_staged_blobs_unchanged':True,'report_archive':'local-only explicitly chosen; no report documents uploaded','metadata_correction':'journal objects do not contain seq; use proven physical journal row number, no duplicate closure/commit/event'}
+(a/'final-close32-receipt.json').write_text(json.dumps(x,indent=2));print(json.dumps(x))

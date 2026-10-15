@@ -1,0 +1,183 @@
+{
+ "runtime_stamp": {
+  "generated_at": "2026-10-06T06:18:39+08:00",
+  "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+  "python_version": "3.10.22",
+  "platform": "Linux-5.15.0-105-generic-x86_64-with-glibc2.35",
+  "mujoco_version": "3.2.7",
+  "manifest": "/data/group4/20261006-055934-qoder-x05eval/gen/x01_M1_armU.csv",
+  "manifest_sha256": "cc8714e84ef71b9f81a84115db34d74190d4367a5b59fcd586a5e731523d04ff",
+  "inputs": {
+   "x01:m1_p0_s0_u": "876bcce2c1f92be5564af1c9c91a69ad593349fe98eb5d33d8ac932062f17d6c",
+   "x01:m1_p2_s0_u": "06c92092c20163686e863be7f50790be30bc60f06a55fcf66efd07dcbe29a266",
+   "x01:m1_p3_s0_u": "f432f6fac7671911848ee01bc9b6a8ec78a24aac5fdf87d4b8ae09a8180a1f0a",
+   "x01:m1_p5_s0_u": "7bf9f3ec1843fb7d183e25dd7dce8e6cf61f71f9a6a236ffa20fc4fb464987f2"
+  },
+  "limits": {
+   "RLIMIT_AS_BYTES": 4294967296,
+   "MAX_FILE_BYTES": 8388608,
+   "MAX_FRAMES": 2000,
+   "MAX_RUNS": 200,
+   "threads": "forced 1"
+  },
+  "n_runs": 4,
+  "n_frames": {
+   "x01:m1_p0_s0_u": 100,
+   "x01:m1_p2_s0_u": 100,
+   "x01:m1_p3_s0_u": 100,
+   "x01:m1_p5_s0_u": 100
+  }
+ },
+ "meta": {
+  "x01:m1_p0_s0_u": {
+   "path": "/data/group4/20261006-042504-qoder-x01gen/gen/m1_p0_s0_u.csv",
+   "sha256": "876bcce2c1f92be5564af1c9c91a69ad593349fe98eb5d33d8ac932062f17d6c",
+   "frames": 100,
+   "prompt_id": "P0",
+   "seed": "0",
+   "cfg_text": "2.0",
+   "baseline": true
+  },
+  "x01:m1_p2_s0_u": {
+   "path": "/data/group4/20261006-042504-qoder-x01gen/gen/m1_p2_s0_u.csv",
+   "sha256": "06c92092c20163686e863be7f50790be30bc60f06a55fcf66efd07dcbe29a266",
+   "frames": 100,
+   "prompt_id": "P2",
+   "seed": "0",
+   "cfg_text": "2.0",
+   "baseline": false
+  },
+  "x01:m1_p3_s0_u": {
+   "path": "/data/group4/20261006-042504-qoder-x01gen/gen/m1_p3_s0_u.csv",
+   "sha256": "f432f6fac7671911848ee01bc9b6a8ec78a24aac5fdf87d4b8ae09a8180a1f0a",
+   "frames": 100,
+   "prompt_id": "P3",
+   "seed": "0",
+   "cfg_text": "2.0",
+   "baseline": false
+  },
+  "x01:m1_p5_s0_u": {
+   "path": "/data/group4/20261006-042504-qoder-x01gen/gen/m1_p5_s0_u.csv",
+   "sha256": "7bf9f3ec1843fb7d183e25dd7dce8e6cf61f71f9a6a236ffa20fc4fb464987f2",
+   "frames": 100,
+   "prompt_id": "P5",
+   "seed": "0",
+   "cfg_text": "2.0",
+   "baseline": false
+  }
+ },
+ "controls_negative_self": [
+  {
+   "run_id": "x01:m1_p0_s0_u",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x01:m1_p2_s0_u",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x01:m1_p3_s0_u",
+   "nonzero_fields": {},
+   "ok": true
+  },
+  {
+   "run_id": "x01:m1_p5_s0_u",
+   "nonzero_fields": {},
+   "ok": true
+  }
+ ],
+ "baselines_per_seed": {
+  "0": [
+   "P0"
+  ]
+ },
+ "ambiguous_baseline": {},
+ "prompt_effects_same_seed": [
+  {
+   "frames_used": 100,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 0.222346,
+   "dof_l2_max_rad": 0.733722,
+   "root_trans_l2_mean_m": 0.00426,
+   "root_trans_l2_max_m": 0.006683,
+   "root_quat_angle_mean_rad": 0.04343,
+   "root_quat_angle_max_rad": 0.066711,
+   "run_id": "x01:m1_p2_s0_u",
+   "seed": "0",
+   "prompt_id": "P2",
+   "cfg_text": "2.0",
+   "vs": "x01:m1_p0_s0_u"
+  },
+  {
+   "frames_used": 100,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 2.7584,
+   "dof_l2_max_rad": 3.777679,
+   "root_trans_l2_mean_m": 0.005709,
+   "root_trans_l2_max_m": 0.009787,
+   "root_quat_angle_mean_rad": 0.051235,
+   "root_quat_angle_max_rad": 0.081549,
+   "run_id": "x01:m1_p3_s0_u",
+   "seed": "0",
+   "prompt_id": "P3",
+   "cfg_text": "2.0",
+   "vs": "x01:m1_p0_s0_u"
+  },
+  {
+   "frames_used": 100,
+   "frames_dropped": 0,
+   "length_mismatch": false,
+   "dof_l2_mean_rad": 3.702035,
+   "dof_l2_max_rad": 3.780384,
+   "root_trans_l2_mean_m": 0.333981,
+   "root_trans_l2_max_m": 0.336225,
+   "root_quat_angle_mean_rad": 0.098602,
+   "root_quat_angle_max_rad": 0.143001,
+   "run_id": "x01:m1_p5_s0_u",
+   "seed": "0",
+   "prompt_id": "P5",
+   "cfg_text": "2.0",
+   "vs": "x01:m1_p0_s0_u"
+  }
+ ],
+ "seed_effects_same_prompt": [],
+ "excluded_length_mismatch": [],
+ "tool_version": "v2 (quat 先归一化 / dof 列区间修正 / 帧数不同者不进主效应)",
+ "prompt_over_seed_ratio": {
+  "dof_l2_mean_rad": {
+   "prompt_median": 2.7584,
+   "seed_median": null,
+   "prompt_over_seed": null
+  },
+  "dof_l2_max_rad": {
+   "prompt_median": 3.777679,
+   "seed_median": null,
+   "prompt_over_seed": null
+  },
+  "root_trans_l2_mean_m": {
+   "prompt_median": 0.005709,
+   "seed_median": null,
+   "prompt_over_seed": null
+  },
+  "root_trans_l2_max_m": {
+   "prompt_median": 0.009787,
+   "seed_median": null,
+   "prompt_over_seed": null
+  },
+  "root_quat_angle_mean_rad": {
+   "prompt_median": 0.051235,
+   "seed_median": null,
+   "prompt_over_seed": null
+  },
+  "root_quat_angle_max_rad": {
+   "prompt_median": 0.081549,
+   "seed_median": null,
+   "prompt_over_seed": null
+  }
+ },
+ "suspicious_identical_pairs": []
+}

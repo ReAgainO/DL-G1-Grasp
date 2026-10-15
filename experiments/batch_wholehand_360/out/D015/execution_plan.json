@@ -1,0 +1,189 @@
+{
+  "geometry_metric": "convex hull SAT independently checked at terminal + mj_forward actual contact pairs along 20ms references",
+  "open_terminal_gaps": [
+    [
+      0.028528332469494377,
+      0.11245788156225667
+    ],
+    [
+      0.03160229626281305,
+      0.08973032553382831
+    ],
+    [
+      0.020358445724963647,
+      0.029683994635788302
+    ],
+    [
+      0.0009372985104242337,
+      0.08461054155040026
+    ],
+    [
+      0.0099760617887229,
+      0.029221652217334193
+    ],
+    [
+      0.0009722554267925787,
+      0.08459130439583229
+    ],
+    [
+      0.010076386632555057,
+      0.0291918769737588
+    ]
+  ],
+  "closed_pad_error_m": 1.3489749243202903e-05,
+  "max_ik_position_error_m": 3.530887340429685e-08,
+  "max_reference_joint_speed_rad_s": 0.7552847173979527,
+  "path_contact_frames": 0,
+  "path_first_contacts": [],
+  "times_s": [
+    0.0,
+    2.0,
+    10.0,
+    18.0,
+    26.0,
+    36.0,
+    42.0
+  ],
+  "global_time_scale": 2.0,
+  "joint_limits": [
+    [
+      -3.0892,
+      2.6704
+    ],
+    [
+      -2.2515,
+      1.5882
+    ],
+    [
+      -2.618,
+      2.618
+    ],
+    [
+      -1.0472,
+      2.0944
+    ],
+    [
+      -1.97222,
+      1.97222
+    ],
+    [
+      -1.61443,
+      1.61443
+    ],
+    [
+      -1.61443,
+      1.61443
+    ],
+    [
+      -1.0472,
+      1.0472
+    ],
+    [
+      -1.0472,
+      0.724312
+    ],
+    [
+      -2.0944,
+      0.0
+    ],
+    [
+      -0.191986,
+      1.8326
+    ],
+    [
+      0.0,
+      2.0944
+    ],
+    [
+      -0.191986,
+      1.8326
+    ],
+    [
+      0.0,
+      2.0944
+    ]
+  ],
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+      "scene": "afcfc5d57690e513256b0b985d7504d99015e94202561c3793217d7eac9f2ab7"
+    },
+    "scene_generator_sha": "f39f8073365f045070485075d3b5c8144349f93c62d163a42d69c060a17f595f",
+    "library_sha": {
+      "ardy_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "sonic_module": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "sonic_models": {
+        "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+        "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+        "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+      },
+      "plan": "a5b5dfc7658cb87c53dad73abdb55c8e59a339fb784059e070e6ba1a26d2fe75"
+    },
+    "source_sha": "0405d121a967af871e1711d9b132ce7cd49bea6acb70e20faffbf5b8bf009caf",
+    "planner_sha": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+    "model_xml_sha": {
+      "robot": "81d141121907c409db28bb09734007fd314193b687cf551feb2f47d2b12e0473",
+      "scene": "afcfc5d57690e513256b0b985d7504d99015e94202561c3793217d7eac9f2ab7"
+    },
+    "model_asset_manifest_sha": "6041bfe011442ff31cbfa7c5182c917ab3fdb13f8d3397935cc86c5ee6f95612",
+    "dt": 0.001,
+    "impratio": 10,
+    "margin_m": 0.001,
+    "solref": [
+      0.02,
+      1
+    ],
+    "plan": "/data/group4/20261009-021611-codex-415484ce/out/plan_D015",
+    "in_memory_geometry_sha": "99e5c1f54eed8b45ffe847a400d1fd1aad0a884cc91366006e4a825525d1f4c5",
+    "ardy_source": {
+      "source_npz": "/data/group4/20261009-021611-codex-415484ce/lib/src/original_motions/near_s42.npz",
+      "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "source_fps": 25.0,
+      "native_frames": 100,
+      "native_clip_duration_s": 4.0,
+      "last_sample_time_s": 3.96,
+      "expected50Hz_frames": 199,
+      "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+      "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+      "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+      "joint_names": [
+        "left_hip_pitch_joint",
+        "left_hip_roll_joint",
+        "left_hip_yaw_joint",
+        "left_knee_joint",
+        "left_ankle_pitch_joint",
+        "left_ankle_roll_joint",
+        "right_hip_pitch_joint",
+        "right_hip_roll_joint",
+        "right_hip_yaw_joint",
+        "right_knee_joint",
+        "right_ankle_pitch_joint",
+        "right_ankle_roll_joint",
+        "waist_yaw_joint",
+        "waist_roll_joint",
+        "waist_pitch_joint",
+        "left_shoulder_pitch_joint",
+        "left_shoulder_roll_joint",
+        "left_shoulder_yaw_joint",
+        "left_elbow_joint",
+        "left_wrist_roll_joint",
+        "left_wrist_pitch_joint",
+        "left_wrist_yaw_joint",
+        "right_shoulder_pitch_joint",
+        "right_shoulder_roll_joint",
+        "right_shoulder_yaw_joint",
+        "right_elbow_joint",
+        "right_wrist_roll_joint",
+        "right_wrist_pitch_joint",
+        "right_wrist_yaw_joint"
+      ],
+      "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+      "text": "A person reaches forward with their right hand to grab a small object on a table.",
+      "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints"
+    },
+    "root_x_initial_m": -0.02
+  }
+}

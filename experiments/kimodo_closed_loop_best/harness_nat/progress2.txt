@@ -1,0 +1,11 @@
+wb_nat2_p6_off stem=p6_conv orient=off rc=0 wall=117
+wb_nat2_p6_on stem=p6_conv orient=on rc=1 wall=57
+wb_nat2_n4_off stem=n4_conv orient=off rc=0 wall=119
+wb_nat2_n4_on stem=n4_conv orient=on rc=1 wall=57
+wb_nat3_p6_b00 stem=p6_conv orient=on blend=0.0 rc=0 wall=114
+wb_nat3_p6_b01 stem=p6_conv orient=on blend=0.1 rc=0 wall=117
+wb_nat3_p6_b02 stem=p6_conv orient=on blend=0.2 rc=0 wall=117
+wb_nat3_p6_b035 stem=p6_conv orient=on blend=0.35 rc=0 wall=117
+wb_nat3_p6_b05 stem=p6_conv orient=on blend=0.5 rc=0 wall=116
+wb_nat3_p6_b075 stem=p6_conv orient=on blend=0.75 rc=0 wall=114
+wb_nat3_p6_b10 stem=p6_conv orient=on blend=1.0 rc=0 wall=117

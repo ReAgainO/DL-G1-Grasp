@@ -1,0 +1,135 @@
+{
+ "O7": [
+  -1.0472,
+  0.72431,
+  -0.87266,
+  0.0,
+  0.0,
+  1.5708,
+  0.0
+ ],
+ "T7": [
+  0.41888,
+  -1.0472,
+  -1.74533,
+  1.5708,
+  1.74533,
+  1.5708,
+  1.74533
+ ],
+ "arm_sag_rad_shoulder_pitch": 0.01328,
+ "audit_pose": "settled (650 steps, fingers open)",
+ "base0": 0.79,
+ "chosen_lam_place": 0.4464,
+ "chosen_pair_place": "tm",
+ "contact_any_lift": false,
+ "contact_frac_lift": 0.0,
+ "cube_end_z": 0.819948,
+ "cube_spawn_xyz": [
+  0.416536,
+  -0.034865,
+  0.859324
+ ],
+ "desk_contacts_end": 4,
+ "desk_top": 0.8,
+ "edge_mm": 40,
+ "elapsed_s": 0.85,
+ "fail_reason": "no_lift(0.0000 m)",
+ "fi_max_N": 0.0,
+ "hand_kp_override": null,
+ "lam_extra": 0.06,
+ "lam_g": 0.0,
+ "lam_touch": 0.45,
+ "lift_final_m": 0.0,
+ "lift_max_m": 0.03897,
+ "mode": "negctl",
+ "n_eq": 1,
+ "perturb_tries": 1,
+ "perturb_xy_m": [
+  0.00092,
+  0.000774
+ ],
+ "placement_file": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/pads_variant/out/probe/placement_pads_tm.json",
+ "q_g": [
+  -1.0472,
+  0.72431,
+  -0.87266,
+  0.0,
+  0.0,
+  1.5708,
+  0.0
+ ],
+ "release_drop_m": 0.03901,
+ "release_slip_m": 0.0334,
+ "runtime_stamp": {
+  "dt": 0.002,
+  "generated": "2026-10-08T23:04:13+0800",
+  "ghosted_geoms": "right-hand phalanges + palm (contype=0 conaffinity=0)",
+  "hostname": "worker00039",
+  "model_sha": "2d41a3c6783fbf9e17349608d9c2222d970163b1db315ce9f30c4a97631fc078",
+  "model_xml": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/pads_variant/model/unitree_g1/g1_with_hands.xml",
+  "mujoco_version": "3.2.7",
+  "numpy_version": "2.2.6",
+  "omp_num_threads": "1",
+  "pad_inset_frac": null,
+  "pad_mu_override": 2.0,
+  "pad_r": 0.005,
+  "pads": {
+   "index": {
+    "geom_id": 103,
+    "pos": [
+     0.048449,
+     -0.003549,
+     0.00202
+    ],
+    "r": 0.005
+   },
+   "middle": {
+    "geom_id": 98,
+    "pos": [
+     0.048449,
+     -0.003549,
+     0.00202
+    ],
+    "r": 0.005
+   },
+   "thumb": {
+    "geom_id": 93,
+    "pos": [
+     -0.003549,
+     0.048449,
+     -0.00202
+    ],
+    "r": 0.005
+   }
+  },
+  "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+  "scene_generator_sha": "be5afbcb0838ebb50aadf080d11956cf4a7b931649f4d484baccd3cfca4eb867",
+  "scene_sha256": "d0e0cc3bb12a730e8c49f8e32df28b84e68a28b1711ebdb50b34a454cdb593e9",
+  "scene_xml": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/pads_variant/model/unitree_g1/ws1b_scene_40mm_tm.xml",
+  "sys_executable": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/env/bin/python",
+  "taskid": "20261008-221515-qoder-03c4673f",
+  "variant": "pads-only",
+  "variant_generator_sha": "7707214a8f792a51f0cd01dbbf4316f7ea27f074158e9949548e64ba20dbcf66",
+  "variant_model_sha": "9b577945d9de55536ec17f6cfa4323e09aded4dd41f71277a7d202899e6cccfd",
+  "variant_model_xml": "/data/group4/20261008-221515-qoder-03c4673f/ws1_menagerie/pads_variant/model/unitree_g1/ws1b_scene_model.xml",
+  "worker": "ws1b"
+ },
+ "seed": 0,
+ "settle_steps_for_audit": 650,
+ "sim_ok": true,
+ "sim_steps": 2050,
+ "slip_m": 0.19095,
+ "spawn_clearance_m": 0.008884,
+ "spawn_clearance_ok": true,
+ "success": false,
+ "tag": "e40_negctl_tm2_000",
+ "variant": "pads-only",
+ "weld_fixture": {
+  "active_at_end": false,
+  "name": "cube_holder",
+  "released_at_step": 650
+ },
+ "weld_free": true,
+ "z_grasp": 0.819948
+}

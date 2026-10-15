@@ -1,0 +1,351 @@
+{
+  "definition": "Kimodo trial = distinct Kimodo approach clip (p*_conv). Judged by the best outcome of any cell that staged it; a harness approach-clock abort counts as a failure.",
+  "kimodo_clip_level": {
+    "trials": 6,
+    "success": 3,
+    "rate_pct": 50.0,
+    "clips": [
+      {
+        "clip": "p1_conv",
+        "verdict": "FAIL",
+        "success": false,
+        "gates": "19/20",
+        "lift_m": 0.14366161550247714,
+        "failed_gates": [
+          "no_robot_table_contact_full_task"
+        ],
+        "cells": [
+          "wb_kimo_p1"
+        ]
+      },
+      {
+        "clip": "p2_conv",
+        "verdict": "PASS",
+        "success": true,
+        "gates": "20/20",
+        "lift_m": 0.14478007297336903,
+        "failed_gates": [],
+        "cells": [
+          "wb_kimo_p2"
+        ]
+      },
+      {
+        "clip": "p3_conv",
+        "verdict": "PASS",
+        "success": true,
+        "gates": "20/20",
+        "lift_m": 0.14248192918700564,
+        "failed_gates": [],
+        "cells": [
+          "wb_kimo_p3"
+        ]
+      },
+      {
+        "clip": "p4_conv",
+        "verdict": "FAIL(approach timeout)",
+        "success": false,
+        "gates": "aborted",
+        "lift_m": null,
+        "failed_gates": [
+          "APPROACH_TIMEOUT"
+        ],
+        "cells": [
+          "wb_dbg2_p4",
+          "wb_dbg_p4",
+          "wb_kimo_p4",
+          "wb_kimo_v1"
+        ]
+      },
+      {
+        "clip": "p5_conv",
+        "verdict": "FAIL(approach timeout)",
+        "success": false,
+        "gates": "aborted",
+        "lift_m": null,
+        "failed_gates": [
+          "APPROACH_TIMEOUT"
+        ],
+        "cells": [
+          "wb_kimo_p5"
+        ]
+      },
+      {
+        "clip": "p6_conv",
+        "verdict": "PASS",
+        "success": true,
+        "gates": "20/20",
+        "lift_m": 0.1409575724419494,
+        "failed_gates": [],
+        "cells": [
+          "wb_kimo_p6",
+          "wb_kimo_p6l1",
+          "wb_kimo_p6l2",
+          "wb_kimo_p6l3",
+          "wb_kimo_p6l4",
+          "wb_kimo_p6l5"
+        ]
+      }
+    ]
+  },
+  "accepted_p6_plus_kimodo_lift": {
+    "trials": 1,
+    "success": 1,
+    "rate_pct": 100.0
+  },
+  "approach_candidate_sweep": {
+    "trials": 5,
+    "success": 2,
+    "rate_pct": 40.0
+  },
+  "lift_configs": {
+    "trials": 6,
+    "success": 5,
+    "rate_pct": 83.33333333333333
+  },
+  "cells": [
+    {
+      "cell": "wb_base_tpl",
+      "reach_stem": "near_s42",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14332502505609868
+    },
+    {
+      "cell": "wb_dbg2_base",
+      "reach_stem": "near_s42",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.1440140069619268
+    },
+    {
+      "cell": "wb_dbg2_p4",
+      "reach_stem": "p4_conv",
+      "approach_crash": true,
+      "status": "approach_crash",
+      "success": false,
+      "gates_pass": 0,
+      "gates_total": 20,
+      "failed_gates": [
+        "APPROACH_TIMEOUT"
+      ],
+      "max_lift_m": null
+    },
+    {
+      "cell": "wb_dbg_base",
+      "reach_stem": "near_s42",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.1440140069619268
+    },
+    {
+      "cell": "wb_dbg_p4",
+      "reach_stem": "p4_conv",
+      "approach_crash": true,
+      "status": "approach_crash",
+      "success": false,
+      "gates_pass": 0,
+      "gates_total": 20,
+      "failed_gates": [
+        "APPROACH_TIMEOUT"
+      ],
+      "max_lift_m": null
+    },
+    {
+      "cell": "wb_iso_lift",
+      "reach_stem": "near_s42",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": false,
+      "gates_pass": 15,
+      "gates_total": 20,
+      "failed_gates": [
+        "hold_7cm",
+        "two_fingers",
+        "clearance_4cm",
+        "slip_1cm",
+        "release_drop_6cm"
+      ],
+      "max_lift_m": 0.1460603123954084
+    },
+    {
+      "cell": "wb_iso_reach",
+      "reach_stem": "reach_s43_v2",
+      "approach_crash": true,
+      "status": "approach_crash",
+      "success": false,
+      "gates_pass": 0,
+      "gates_total": 20,
+      "failed_gates": [
+        "APPROACH_TIMEOUT"
+      ],
+      "max_lift_m": null
+    },
+    {
+      "cell": "wb_kimo_p1",
+      "reach_stem": "p1_conv",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": false,
+      "gates_pass": 19,
+      "gates_total": 20,
+      "failed_gates": [
+        "no_robot_table_contact_full_task"
+      ],
+      "max_lift_m": 0.14366161550247714
+    },
+    {
+      "cell": "wb_kimo_p2",
+      "reach_stem": "p2_conv",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14478007297336903
+    },
+    {
+      "cell": "wb_kimo_p3",
+      "reach_stem": "p3_conv",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14248192918700564
+    },
+    {
+      "cell": "wb_kimo_p4",
+      "reach_stem": "p4_conv",
+      "approach_crash": true,
+      "status": "approach_crash",
+      "success": false,
+      "gates_pass": 0,
+      "gates_total": 20,
+      "failed_gates": [
+        "APPROACH_TIMEOUT"
+      ],
+      "max_lift_m": null
+    },
+    {
+      "cell": "wb_kimo_p5",
+      "reach_stem": "p5_conv",
+      "approach_crash": true,
+      "status": "approach_crash",
+      "success": false,
+      "gates_pass": 0,
+      "gates_total": 20,
+      "failed_gates": [
+        "APPROACH_TIMEOUT"
+      ],
+      "max_lift_m": null
+    },
+    {
+      "cell": "wb_kimo_p6",
+      "reach_stem": "p6_conv",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.1409575724419494
+    },
+    {
+      "cell": "wb_kimo_p6l1",
+      "reach_stem": "p6_conv",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.1439862432245319
+    },
+    {
+      "cell": "wb_kimo_p6l2",
+      "reach_stem": "p6_conv",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14230698876343106
+    },
+    {
+      "cell": "wb_kimo_p6l3",
+      "reach_stem": "p6_conv",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": false,
+      "gates_pass": 19,
+      "gates_total": 20,
+      "failed_gates": [
+        "hold_7cm"
+      ],
+      "max_lift_m": 0.10190990350673612
+    },
+    {
+      "cell": "wb_kimo_p6l4",
+      "reach_stem": "p6_conv",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14671726392889461
+    },
+    {
+      "cell": "wb_kimo_p6l5",
+      "reach_stem": "p6_conv",
+      "approach_crash": false,
+      "status": "verdict",
+      "success": true,
+      "gates_pass": 20,
+      "gates_total": 20,
+      "failed_gates": [],
+      "max_lift_m": 0.14036829592971367
+    },
+    {
+      "cell": "wb_kimo_r1",
+      "reach_stem": "reach_s43_v2",
+      "approach_crash": true,
+      "status": "approach_crash",
+      "success": false,
+      "gates_pass": 0,
+      "gates_total": 20,
+      "failed_gates": [
+        "APPROACH_TIMEOUT"
+      ],
+      "max_lift_m": null
+    },
+    {
+      "cell": "wb_kimo_v1",
+      "reach_stem": "p4_conv",
+      "approach_crash": true,
+      "status": "approach_crash",
+      "success": false,
+      "gates_pass": 0,
+      "gates_total": 20,
+      "failed_gates": [
+        "APPROACH_TIMEOUT"
+      ],
+      "max_lift_m": null
+    }
+  ]
+}

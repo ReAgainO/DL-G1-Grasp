@@ -1,0 +1,5 @@
+run_id,prompt_id,seed,cfg_text,csv_path,prompt_text,constraints_sha,baseline
+x01:m1_p0_s0_u,P0,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m1_p0_s0_u.csv,A person reaches forward with their right hand to grab a small object on a table.,,1
+x01:m1_p2_s0_u,P2,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m1_p2_s0_u.csv,A person extends their right arm toward a small object resting on a table and takes it.,,0
+x01:m1_p3_s0_u,P3,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m1_p3_s0_u.csv,A person waters the plants on the balcony with their right hand.,,0
+x01:m1_p5_s0_u,P5,0,2.0,/data/group4/20261006-042504-qoder-x01gen/gen/m1_p5_s0_u.csv,A person leans forward over a table and grabs a cup.,,0

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "generation_summary": "out/w7-source-binding/merged-source-summary.json",
+  "generation_summary_sha256": "613e6e7ce10e24874bf0b25351c1c7414d6aa5e0ec056d58b4de97af834bce33",
+  "roles": {
+    "reach": {
+      "npz": "out/w7-generated-text/w7_control_s43.npz",
+      "csv": "out/w7-generated-text/w7_control_s43.csv",
+      "npz_sha256": "62607734726d37cba47ef2b0c1c1fc53d0c2cc9200e6181a1b281376b01dc5b3",
+      "csv_sha256": "1cd7616beb275c020720a94728c333d7145f41ae5e1e6ad1a9c916244bc0873c",
+      "generation_job": "w7_control_s43"
+    },
+    "lift": {
+      "npz": "out/generated_phases2/lift_s42.npz",
+      "csv": "out/generated_phases2/lift_s42.csv",
+      "npz_sha256": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+      "csv_sha256": "a9effe3eeb78e272fe39464fb943c28dcaff6b0434bb10fc847c4d144e23d406",
+      "generation_job": "lift_s42"
+    },
+    "hold": {
+      "npz": "out/generated_phases2/hold_s42.npz",
+      "csv": "out/generated_phases2/hold_s42.csv",
+      "npz_sha256": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+      "csv_sha256": "9e0e8c2ffffa1b4d26f7e53dd6eb7765ac5f4e48104e8b2cca58e1d595b8d41e",
+      "generation_job": "hold_s42"
+    },
+    "release": {
+      "npz": "out/generated_phases2/release_s42.npz",
+      "csv": "out/generated_phases2/release_s42.csv",
+      "npz_sha256": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+      "csv_sha256": "5e7fc6df16490d56b648da0a57f7652201c94f2c5e9b88792705b1ca4ba88a31",
+      "generation_job": "release_s42"
+    }
+  },
+  "interpretation": "Two fresh reaches; three phases reused from original verified generation. No aggregate cold/warm timing is claimed for this index."
+}

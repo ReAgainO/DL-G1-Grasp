@@ -1,0 +1,48 @@
+{
+  "kind": "frozen relocation import/model/NN-loading preflight only; no physics execution",
+  "physical_model_fields_equal": [
+    "body_mass",
+    "body_inertia",
+    "body_pos",
+    "body_quat",
+    "geom_type",
+    "geom_size",
+    "geom_friction",
+    "geom_contype",
+    "geom_conaffinity",
+    "geom_pos",
+    "geom_quat",
+    "jnt_range",
+    "dof_armature",
+    "dof_damping",
+    "dof_frictionloss",
+    "actuator_ctrlrange"
+  ],
+  "right_collision_geoms": [
+    "physical_right_hand_thumb_0_link",
+    "physical_right_hand_thumb_1_link",
+    "physical_right_hand_thumb_2_link",
+    "physical_right_hand_index_0_link",
+    "physical_right_hand_index_1_link",
+    "physical_right_hand_middle_0_link",
+    "physical_right_hand_middle_1_link"
+  ],
+  "sonic": {
+    "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+    "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+    "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+  },
+  "native_profile": {
+    "active_reference_reader": true,
+    "sampled_rows": 3,
+    "profile_sha256": "3edf8c547891f939f14da22e3ee503e3e5b6204cd337382ca1645117e7a4e3ad",
+    "source_native_sha256": "6d3cae6bc899b2274299e3264f3edcb55050422851bb2ae334ab0aaa36971120",
+    "source_hybrid_trace_sha256": "19252b1acd931989f53acfa93e013311217dc12249484e0012257717af9a5236",
+    "kind": "native ARDY wrist backbone with sparse geometry/safety repair; task stationary stance projected allframes; neargrasp60..110 residual-limited corridor5mm/.05rad; actual native paths retained beforehover and inlift",
+    "derived_not_native_generated": true,
+    "fallback_count": 46,
+    "raw_to_final_mean_abs_rad": 0.3841893155693424,
+    "raw_to_final_max_rad": 1.8829020867028667
+  },
+  "passed": true
+}

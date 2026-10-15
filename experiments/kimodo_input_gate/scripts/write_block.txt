@@ -1,0 +1,21 @@
+
+    if args.trace_csv:
+        trace_header = [
+            'time_s', 'phase', 'cube_x', 'cube_y', 'cube_z', 'cube_z_rel_initial',
+            'gap_grasp_center_to_cube_m', 'gap_wrist_to_cube_m',
+            'dist_thumb_fingertip_m', 'dist_index_fingertip_m',
+            'dist_middle_fingertip_m', 'n_contact_bodies_now',
+            'force_normal_sum_N', 'root_z_m', 'up_z', 'track_rms_rad',
+        ]
+        trace_path = Path(args.trace_csv)
+        trace_path.parent.mkdir(parents=True, exist_ok=True)
+        lines_out = [','.join(trace_header)]
+        for trace_row in trace_rows:
+            lines_out.append(
+                ','.join(
+                    ('%.10f' % trace_v) if not isinstance(trace_v, str) else trace_v
+                    for trace_v in trace_row
+                )
+            )
+        trace_path.write_text(chr(10).join(lines_out) + chr(10))
+        print(f'[TRACE] rows={len(trace_rows)} csv={trace_path.resolve()}')

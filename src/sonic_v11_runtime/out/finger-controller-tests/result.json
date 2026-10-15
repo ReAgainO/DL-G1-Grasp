@@ -1,0 +1,47 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "dt": 0.002,
+    "model_sha": {
+      "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+      "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+    },
+    "scene_generator_sha": "bfc6c1a7d24088800db2aba1cdf901715f7c87df147644c1989174bb1e544e0f",
+    "library_sha": {
+      "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39",
+      "episode": "15b5557b9e26533aaa4f0d259bb1880a8d3c7cba8539ccc7b83b28931d5cc36c",
+      "trajectory": "941df062beaff30b589dfa8a0217579510f27211f216e537602b6959e47caa94"
+    }
+  },
+  "physical_steps": 0,
+  "passed": true,
+  "checks": [
+    "default_output_bitwise_matches_prior_PD",
+    "finite_and_factory_limits_1_1.0",
+    "inactive_finger_unchanged_1_1.0",
+    "finite_and_factory_limits_1_2.0",
+    "inactive_finger_unchanged_1_2.0",
+    "gain_changes_selected_torque_1_2.0",
+    "finite_and_factory_limits_1_3.0",
+    "inactive_finger_unchanged_1_3.0",
+    "gain_changes_selected_torque_1_3.0",
+    "finite_and_factory_limits_2_1.0",
+    "inactive_finger_unchanged_2_1.0",
+    "finite_and_factory_limits_2_2.0",
+    "inactive_finger_unchanged_2_2.0",
+    "gain_changes_selected_torque_2_2.0",
+    "finite_and_factory_limits_2_3.0",
+    "inactive_finger_unchanged_2_3.0",
+    "gain_changes_selected_torque_2_3.0",
+    "invalid_gain_rejected_0.0",
+    "invalid_gain_rejected_3.01",
+    "invalid_gain_rejected_nan",
+    "invalid_gain_rejected_inf",
+    "large_error_still_exact_factory_limits",
+    "input_arrays_unmodified"
+  ],
+  "limitations": "Actuator-interface checks only; not force regulation, grasp success, or real robot safety evidence."
+}

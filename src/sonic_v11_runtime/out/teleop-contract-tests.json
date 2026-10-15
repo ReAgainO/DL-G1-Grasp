@@ -1,0 +1,29 @@
+{
+  "pass_count": 16,
+  "tests": [
+    "mode_id1_padding_not_onehot",
+    "g1_slots_zero",
+    "lowerbody_MuJoCo_leg_order",
+    "left_right_head_position_order",
+    "wxyz_orientation_order",
+    "unused_wrist_SMPL_slots_zero",
+    "cold_repeat_bitwise",
+    "right_target_consumed_by_encoder",
+    "right_target_changes_token",
+    "right_target_changes_body_actions",
+    "reject_shape",
+    "reject_nan",
+    "reject_nonunit",
+    "G1_encoder_unchanged_bitwise",
+    "G1_decoder_unchanged_bitwise",
+    "G1_actions_unchanged_bitwise"
+  ],
+  "action_change_max": 0.5544480085372925,
+  "source_sha": "756c5b7c9ad4b2dc4460739360e54c3f611a2be675742a35269cf634db8380a4",
+  "wave1_source_sha": "7d3f63cb866499ee82ccfcca4251d95df6eb95f479937dfcd3a4f6b93c589bed",
+  "models": {
+    "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+    "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+    "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "A001",
+  "group": "A",
+  "xy_m": [
+    0.35,
+    -0.18
+  ],
+  "edge_m": 0.08,
+  "mass_kg": 0.12,
+  "root_x_m": 0.0,
+  "sampling_seed": null,
+  "source_baseline_trial": null,
+  "no_grip": false,
+  "wrist_servo": true,
+  "gravity_arm_scale": 1.0,
+  "native_mesh": true,
+  "time_scale": 2.0,
+  "retract_raise": true
+}

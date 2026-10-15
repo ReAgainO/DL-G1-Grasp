@@ -1,0 +1,132 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "dt": 0.002,
+    "model_sha": {
+      "scene": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4",
+      "robot": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e"
+    },
+    "scene_generator_sha": "830e85bafe845c9b2131c15ee18c1f01ae8def1e395c57ac747418e0b8632faf",
+    "library_sha": {
+      "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    }
+  },
+  "physical_steps": 0,
+  "pass_count": 6,
+  "tests": [
+    "scale1 bitwise factory parity",
+    "scale3 changes KD only",
+    "non-right-arm torques unchanged",
+    "robot state/policy targets/actions unchanged",
+    "original torque limits respected",
+    "scale>4 rejected"
+  ],
+  "source_sha": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+  "audit": {
+    "ort_version": "1.23.2",
+    "models": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    },
+    "encoder_slots": [
+      {
+        "name": "encoder_mode_4",
+        "width": 4
+      },
+      {
+        "name": "motion_joint_positions_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_joint_velocities_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_anchor_orientation_heading_10frame_step5",
+        "width": 60
+      },
+      {
+        "name": "motion_anchor_orientation_heading",
+        "width": 6
+      },
+      {
+        "name": "motion_joint_positions_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "motion_joint_velocities_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "vr_3point_local_target",
+        "width": 9
+      },
+      {
+        "name": "vr_3point_local_orn_target",
+        "width": 12
+      },
+      {
+        "name": "smpl_joints_10frame_step1",
+        "width": 720
+      },
+      {
+        "name": "smpl_anchor_orientation_heading_10frame_step1",
+        "width": 60
+      },
+      {
+        "name": "motion_joint_positions_wrists_10frame_step1",
+        "width": 60
+      }
+    ],
+    "decoder_slots": [
+      {
+        "name": "token_state",
+        "width": 64
+      },
+      {
+        "name": "his_base_angular_velocity_10frame_step1",
+        "width": 30
+      },
+      {
+        "name": "his_body_joint_positions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_body_joint_velocities_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_last_actions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_gravity_dir_10frame_step1",
+        "width": 30
+      }
+    ],
+    "policy_calls": 0,
+    "unique_encoder_inputs": 0,
+    "unique_actions": 0,
+    "body_action_source": "official SONIC v1.1 ONNX; no manual/IK arm motor targets; optional causal decoded-target adapter separately labelled",
+    "mode_ids": [],
+    "decoded_target_adapter_used": false,
+    "right_arm_pd_kp_scale": 1.0,
+    "right_arm_pd_kd_scale": 3.0,
+    "independent_arm_damping_scales_observed": [
+      1.0,
+      3.0
+    ],
+    "right_arm_gravity_feedforward_scale": 0.0,
+    "max_added_gravity_torque_Nm": 0.0,
+    "actuator_adapter": "SONIC decoded motor targets + PD; optional explicitly labelled decoded-target filter and MODEL GRAVITY ONLY on right-arm actuator torques; no manual target/generalized-force override",
+    "torque_clipped_cells": 0,
+    "torque_steps": 2,
+    "original_effort_limits_preserved": true
+  }
+}

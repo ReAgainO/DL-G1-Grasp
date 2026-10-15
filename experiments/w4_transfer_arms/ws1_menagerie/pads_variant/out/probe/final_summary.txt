@@ -1,0 +1,71 @@
+== counts ==
+runs(total excl video) 192 = grasp 128 + ideal 28 + negctl 36
+
+== table A: grasp by edge x arm (n / success) ==
+arm       | e20m | e25m | e35m | e40m | e50m
+ti        |  0/10 |  0/10 |  0/10 |  0/ 8 |  0/ 8
+ti2       |  0/10 |   --   |   --   |   --   |   --  
+tm        |   --   |  0/10 |  0/10 |  0/ 8 |  0/ 8
+tm2       |   --   |  0/10 |  0/10 |  0/ 8 |  0/ 8
+
+== table B: grasp detail (mean over runs) ==
+e20 ti   n=10 lift_final_avg=+0.0000 lift_max_avg=0.0786 realslip_avg=0.0792 reldrop_avg=0.0770 frac_avg=0.00 fi_avg=0.00 | close_fi_max_avg=3.56 post_release_contact_steps_avg=40(max 43)
+e20 ti2  n=10 lift_final_avg=-0.0659 lift_max_avg=0.0095 realslip_avg=0.0049 reldrop_avg=0.0074 frac_avg=0.04 fi_avg=0.41 | close_fi_max_avg=0.95 post_release_contact_steps_avg=438(max 441)
+e25 ti   n=10 lift_final_avg=-0.0002 lift_max_avg=0.0740 realslip_avg=0.0745 reldrop_avg=0.0726 frac_avg=0.00 fi_avg=0.00 | close_fi_max_avg=5.21 post_release_contact_steps_avg=68(max 261)
+e25 tm   n=10 lift_final_avg=+0.0000 lift_max_avg=0.0432 realslip_avg=0.0357 reldrop_avg=0.0432 frac_avg=0.00 fi_avg=0.00 | close_fi_max_avg=0.47 post_release_contact_steps_avg=23(max 27)
+e25 tm2  n=10 lift_final_avg=+0.0000 lift_max_avg=0.0432 realslip_avg=0.0358 reldrop_avg=0.0432 frac_avg=0.04 fi_avg=0.65 | close_fi_max_avg=0.18 post_release_contact_steps_avg=67(max 117)
+e35 ti   n=10 lift_final_avg=+0.0000 lift_max_avg=0.0644 realslip_avg=0.0634 reldrop_avg=0.0628 frac_avg=0.00 fi_avg=0.00 | close_fi_max_avg=9.67 post_release_contact_steps_avg=128(max 210)
+e35 tm   n=10 lift_final_avg=+0.0000 lift_max_avg=0.0417 realslip_avg=0.0431 reldrop_avg=0.0417 frac_avg=0.15 fi_avg=7.97 | close_fi_max_avg=21.06 post_release_contact_steps_avg=259(max 323)
+e35 tm2  n=10 lift_final_avg=+0.0000 lift_max_avg=0.0415 realslip_avg=0.0403 reldrop_avg=0.0415 frac_avg=0.38 fi_avg=4.14 | close_fi_max_avg=3.07 post_release_contact_steps_avg=496(max 530)
+e40 ti   n= 8 lift_final_avg=+0.0000 lift_max_avg=0.0595 realslip_avg=0.0622 reldrop_avg=0.0576 frac_avg=0.00 fi_avg=0.00 | close_fi_max_avg=11.40 post_release_contact_steps_avg=134(max 165)
+e40 tm   n= 8 lift_final_avg=-0.0232 lift_max_avg=0.0162 realslip_avg=0.0100 reldrop_avg=0.0164 frac_avg=0.24 fi_avg=4.45 | close_fi_max_avg=18.88 post_release_contact_steps_avg=641(max 642)
+e40 tm2  n= 8 lift_final_avg=-0.0222 lift_max_avg=0.0170 realslip_avg=0.0109 reldrop_avg=0.0173 frac_avg=0.41 fi_avg=4.87 | close_fi_max_avg=6.67 post_release_contact_steps_avg=808(max 823)
+e50 ti   n= 8 lift_final_avg=+0.0000 lift_max_avg=0.0593 realslip_avg=0.0540 reldrop_avg=0.0594 frac_avg=0.01 fi_avg=2.45 | close_fi_max_avg=2.23 post_release_contact_steps_avg=15(max 44)
+e50 tm   n= 8 lift_final_avg=-0.0189 lift_max_avg=0.0150 realslip_avg=0.0075 reldrop_avg=0.0154 frac_avg=0.26 fi_avg=13.71 | close_fi_max_avg=32.16 post_release_contact_steps_avg=656(max 682)
+e50 tm2  n= 8 lift_final_avg=-0.0183 lift_max_avg=0.0158 realslip_avg=0.0088 reldrop_avg=0.0163 frac_avg=0.38 fi_avg=7.14 | close_fi_max_avg=12.42 post_release_contact_steps_avg=777(max 815)
+
+== table C: controls ==
+ideal e20: 4/4 success | lift_final_avg=0.2007 frac_avg=1.00
+negctl e20: 0/6 success | lift_final_avg=0.0000 frac_avg=0.00
+ideal e25: 6/6 success | lift_final_avg=0.2206 frac_avg=0.95
+negctl e25: 0/9 success | lift_final_avg=0.0000 frac_avg=0.00
+ideal e35: 6/6 success | lift_final_avg=0.2811 frac_avg=0.92
+negctl e35: 0/9 success | lift_final_avg=0.0000 frac_avg=0.00
+ideal e40: 6/6 success | lift_final_avg=0.3210 frac_avg=0.95
+negctl e40: 0/6 success | lift_final_avg=0.0000 frac_avg=0.00
+ideal e50: 6/6 success | lift_final_avg=0.3758 frac_avg=0.90
+negctl e50: 0/6 success | lift_final_avg=0.0000 frac_avg=0.00
+
+== closest-to-gate runs (smallest release_slip) ==
+  e20_grasp_ti2_001    realslip=0.00461 reldrop=0.00759 lift_max=0.0094 frac=0.04 fail=no_lift(-0.0656 m)
+  e20_grasp_ti2_004    realslip=0.00461 reldrop=0.00759 lift_max=0.0094 frac=0.04 fail=no_lift(-0.0656 m)
+  e20_grasp_ti2_006    realslip=0.00461 reldrop=0.00759 lift_max=0.0094 frac=0.04 fail=no_lift(-0.0656 m)
+  e20_grasp_ti2_007    realslip=0.00461 reldrop=0.00759 lift_max=0.0094 frac=0.04 fail=no_lift(-0.0656 m)
+  e20_grasp_ti2_009    realslip=0.00461 reldrop=0.00759 lift_max=0.0094 frac=0.04 fail=no_lift(-0.0656 m)
+  e20_grasp_ti2_000    realslip=0.00512 reldrop=0.00719 lift_max=0.0095 frac=0.04 fail=no_lift(-0.0662 m)
+
+== failure reasons histogram (grasp) ==
+  no_lift              128
+  (release_slip < 5 mm: 5 runs; of these lift_max>=0.10 m: 0)
+
+== variant record ==
+official model sha256: 2d41a3c6783fbf9e17349608d9c2222d970163b1db315ce9f30c4a97631fc078
+variant xml sha256   : 9b577945d9de55536ec17f6cfa4323e09aded4dd41f71277a7d202899e6cccfd
+ghosted right-hand collision geoms (8): <geom pos="0.0415 -0.003 0" quat="1 0 0 0" class="collision" mes; <geom class="collision" mesh="right_hand_thumb_0_link"/>; <geom size="0.01 0.015 0.01" pos="-0.001 0.032 0" type="box" cla; <geom class="collision" mesh="right_hand_thumb_2_link"/>; <geom class="collision" mesh="right_hand_middle_0_link"/>; <geom class="collision" mesh="right_hand_middle_1_link"/>; <geom class="collision" mesh="right_hand_index_0_link"/>; <geom class="collision" mesh="right_hand_index_1_link"/>
+pad index  ws1b_pad_index r=0.0050 center_body=[0.048449, -0.003549, 0.00202] protrude=0.0015 condim=4 friction=1 0.005 0.0001
+pad middle ws1b_pad_middle r=0.0050 center_body=[0.048449, -0.003549, 0.00202] protrude=0.0015 condim=4 friction=1 0.005 0.0001
+pad thumb  ws1b_pad_thumb r=0.0050 center_body=[-0.003549, 0.048449, -0.00202] protrude=0.0015 condim=4 friction=1 0.005 0.0001
+kept collision inventory: thumb ['ws1b_pad_thumb'] index ['ws1b_pad_index'] middle ['ws1b_pad_middle'] palm []
+
+placement arm ti:
+  e20 ti lam0=0.2175 lam_g=0.2700 P=[0.366121, -0.034411, 0.882045] da_g=-0.0076 db_g=-0.0021 dthird=+0.1027 squeeze=0.0098
+  e25 ti lam0=0.1899 lam_g=0.2500 P=[0.365035, -0.034073, 0.880431] da_g=-0.0091 db_g=-0.0031 dthird=+0.1039 squeeze=0.0123
+  e35 ti lam0=0.1373 lam_g=0.2000 P=[0.363526, -0.033909, 0.876922] da_g=-0.0081 db_g=-0.0043 dthird=+0.1079 squeeze=0.0123
+  e40 ti lam0=0.1093 lam_g=0.1700 P=[0.363048, -0.034065, 0.874854] da_g=-0.0069 db_g=-0.0043 dthird=+0.1104 squeeze=0.0112
+  e50 ti lam0=0.6765 lam_g=0.3400 P=[0.394014, -0.065744, 0.884485] da_g=-0.0007 db_g=-0.0040 dthird=+0.0452 squeeze=0.0046
+
+placement arm tm:
+  e25 tm lam0=0.6333 lam_g=0.6500 P=[0.410847, -0.050695, 0.855953] da_g=-0.0011 db_g=-0.0002 dthird=+0.0403 squeeze=0.0013
+  e35 tm lam0=0.4687 lam_g=0.5300 P=[0.415101, -0.036569, 0.859176] da_g=-0.0026 db_g=-0.0010 dthird=+0.0323 squeeze=0.0036
+  e40 tm lam0=0.4464 lam_g=0.5100 P=[0.415616, -0.035639, 0.859324] da_g=-0.0045 db_g=-0.0033 dthird=+0.0287 squeeze=0.0078
+  e50 tm lam0=0.4197 lam_g=0.4800 P=[0.416216, -0.034849, 0.859386] da_g=-0.0088 db_g=-0.0082 dthird=+0.0214 squeeze=0.0170

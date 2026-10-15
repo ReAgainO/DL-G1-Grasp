@@ -1,0 +1,439 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "model_sha": {
+      "scene": "5ba7e7ae0643d91e957e9ba7d592ab123363cdc1424287a9e49dba4104bfa72c",
+      "robot": "dfc99ab6ad82ec4caae55d3215ed85447dc0950e7f4fc3af86a2202065eaf490"
+    },
+    "scene_generator_sha": "9c509ff729ae0b55d7a36adf6c8e1a20255acd46d9acac8fc8dfebae78b77e30",
+    "library_sha": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+      "sonic_v11": "0e68abf8c74c94889cd0da6ae4e1c6ad35ad0fde234f1c1ad1a8d5287648169f",
+      "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+      "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+      "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+      "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+      "reference_filter": "40b9f70f5ba42ea31aa1d50b0a6acbc2441782371f80c2e6cde630677e2cd425",
+      "policy_reference": "e31d7da911588dd6ff0bc411033cfe7e7566c3c8aaef8fc3489badb9c740a9e3",
+      "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+      "motion_input": "db8dd701e40159c25d4fe9cd61bb7770eb8763d05bf554b7f342c03c60f81237",
+      "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+      "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    "dt": 0.002
+  },
+  "success": false,
+  "gates": {
+    "completed": false,
+    "hold_7cm": false,
+    "two_fingers": false,
+    "no_support": false,
+    "clearance_4cm": false,
+    "slip_1cm": false,
+    "release_drop_6cm": false,
+    "final_supported": true,
+    "final_fingers_off": true,
+    "no_external": true,
+    "no_warnings": true,
+    "upright": true
+  },
+  "kind": "ARDY original reach shape/posture -> geometric pinch retargeting -> official SONIC free-base body control + separate contact-gated fingers; no human grasp endpoint joints",
+  "ardy_arm_prior_consumed_by_sonic": true,
+  "native_geometry": false,
+  "pinch_geometry": true,
+  "native_orientation_frame": 31,
+  "native_path_consumed_by_sonic": true,
+  "native_ardy_grasp_established": false,
+  "human_calibration_used": false,
+  "ardy_nullspace_weight": 0.03,
+  "source": {
+    "source_npz": "/data/group4/20261006-093203-codex-6385a841/src/original_motions/near_s42.npz",
+    "source_npz_sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+    "source_fps": 25.0,
+    "native_frames": 100,
+    "native_clip_duration_s": 4.0,
+    "last_sample_time_s": 3.96,
+    "expected50Hz_frames": 199,
+    "converter_sha": "db8dd701e40159c25d4fe9cd61bb7770eb8763d05bf554b7f342c03c60f81237",
+    "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+    "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+    "text": "A person reaches forward with their right hand to grab a small object on a table.",
+    "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+    "paired_csv_sha256": "c46d058430befe1460a9bb22fec4ff0b761d4c9d4726031b75d75acd541fbb3e",
+    "parity_joint_max_rad": 1.1920928955078125e-07,
+    "parity_root_translation_max_m": 0.0,
+    "parity_rotation_matrix_max": 1.2970137341916654e-07
+  },
+  "position_error_metric": "closed-hand FK thumb/index midpoint",
+  "flat_pinch": true,
+  "orientation_error_metric": "closed-hand FK pad vertical spread in METRES",
+  "c2_reference": true,
+  "reference_filter": {
+    "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+    "calls": 2001,
+    "velocity_max_rad_s": 0.598971129735924,
+    "acceleration_max_rad_s2": 1.3082461503890965,
+    "jerk_max_rad_s3": 11.199531266257555,
+    "max_replan_C2_boundary_jump": 0.0,
+    "max_plan_horizon_s": 5.572562780159998,
+    "velocity_limit": 0.6,
+    "acceleration_limit": 1.5,
+    "jerk_limit": 12
+  },
+  "correction_clipped_cells": 0,
+  "policy_aware_reference": true,
+  "policy_reference": {
+    "calls": 140,
+    "frozen_observation_probes": 980,
+    "max_reference_update_rad": 0.060000000000000005,
+    "min_effective_jacobian_singular_value": 0.0,
+    "arm_output_override": false,
+    "policy_history_mutation_by_probes": false,
+    "reference_update_hz": 5,
+    "last_diagnostic": {
+      "singular_values": [
+        3.4376721036512943,
+        2.2482922038655824,
+        0.10336415540322,
+        0.0446280580541707,
+        0.0045137016922349804
+      ],
+      "jacobian": [
+        [
+          -0.14692115669223682,
+          -1.1368448467636147,
+          -0.557239880662247,
+          0.24012798816541542,
+          -0.45162252715317636,
+          0.04958251421928369,
+          -0.2180890648088722
+        ],
+        [
+          -0.41105896520959284,
+          1.7097314262206145,
+          0.14930080549351624,
+          -0.9379297003149393,
+          0.23655210577231367,
+          -0.33942338665423394,
+          0.12852930088774775
+        ],
+        [
+          -1.7297120496363116,
+          -1.0402039844547537,
+          -2.042623332766643,
+          -0.9423666424162036,
+          -0.9534147154523758,
+          -0.6288381223686986,
+          -0.5543993832501778
+        ],
+        [
+          -0.07275098648086657,
+          -0.02699420798709477,
+          -0.07455285962825742,
+          -0.04499249271933496,
+          -0.03405981758705101,
+          -0.023329531806326465,
+          -0.013485799463101394
+        ],
+        [
+          -0.05617221119709933,
+          0.008151615340479257,
+          -0.004192392508783893,
+          -0.03504623937287492,
+          -0.013866176661954851,
+          -0.01706141013857465,
+          0.023896295442112546
+        ]
+      ],
+      "actual_features": [
+        0.28041404962269234,
+        -0.08574999944203533,
+        0.7629896169037114,
+        0.005576241297775564,
+        0.0020053484681354927
+      ],
+      "predicted_features": [
+        0.42679854784311255,
+        -0.040351822725949685,
+        1.029390142196915,
+        0.040813664138614314,
+        0.019747924511630766
+      ],
+      "desired_features": [
+        0.33504781178184334,
+        -0.11204805089535351,
+        0.7424078785418239,
+        0.0,
+        0.0
+      ],
+      "delta_rad": [
+        0.025525610060740427,
+        0.0025816519840815744,
+        0.015022787632612099,
+        -0.017046114548673188,
+        -0.060000000000000005,
+        0.005485224138410413,
+        -0.007202066697405756
+      ],
+      "reference_anchor_rad": [
+        -1.0029383343022018,
+        -0.5881703279531704,
+        1.2184343755535836,
+        0.2257821049903207,
+        -0.5881877560312649,
+        0.2924367333872268,
+        0.9673060854152494
+      ],
+      "decoded_motor_target_rad": [
+        -1.3898153668565627,
+        -0.7282435618579401,
+        0.6243792451305433,
+        -0.050801090255841896,
+        -0.7444718109722781,
+        0.21172021267644955,
+        1.0774870683976885
+      ]
+    }
+  },
+  "endpoint_branch_seed": true,
+  "endpoint_seed_selection": "minimum native-seed deviation among feasible branches",
+  "inverse_reference_anchor": "current executed SONIC input reference",
+  "base_fixture": true,
+  "fixture_constraint": "pelvis-to-world only; cube is NEVER welded",
+  "whole_body_balance_validated": false,
+  "right_arm_pd_kp_scale": 1.0,
+  "right_arm_pd_kd_scale": 1.0,
+  "decoder_targets_unchanged_by_PD_tuning": true,
+  "joint_reference_error_definition": "actual arm minus virtual SONIC input reference; not necessarily decoder motor setpoint",
+  "object_localization": "simulator-state coordinates during DESCEND/ALIGN/CLOSE; not vision",
+  "cartesian_compensation": false,
+  "final_cart_bias_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "phase_clips_loaded": true,
+  "preclosure_capture_radius_m": 0.022,
+  "final_success_gates_unchanged": true,
+  "phase_clips_consumed": [],
+  "generated_lift_timewarp": "positive vertical excursion normalized to10cm, monotone accumulated; explicit retargeting",
+  "body_action_override": false,
+  "no_grip": false,
+  "pad_off": false,
+  "compensation": true,
+  "teleop_mode": false,
+  "fail_reason": "alignment timeout",
+  "events": [
+    {
+      "phase": "SETTLE",
+      "time_s": 0.0
+    },
+    {
+      "phase": "APPROACH",
+      "time_s": 2.002000000000001
+    },
+    {
+      "phase": "PREGRASP",
+      "time_s": 12.004000000000678
+    },
+    {
+      "phase": "DESCEND",
+      "time_s": 24.007999999997573
+    },
+    {
+      "phase": "ALIGN",
+      "time_s": 32.009999999993155
+    }
+  ],
+  "duration_s": 40.012000000002935,
+  "model_load_s": 1.5886006540386006,
+  "wall_s": 65.66622500901576,
+  "max_lift_m": 0.006450458508999057,
+  "hold_min_lift_m": -1.0,
+  "hold_slip_m": 1000000000.0,
+  "hold_min_contact_bodies": 0,
+  "max_drift_m": 0.0030072031771269333,
+  "min_up_z": 0.9999928090952286,
+  "final_wrist_position_error_m": 0.06119692931978985,
+  "final_pad_vertical_spread_m": 0.005949001773343898,
+  "right_arm_tracking_rms_rad": 0.28856233728893604,
+  "max_ik_position_error_m": 0.29664817696234536,
+  "actual_to_decoded_motor_target_rms_rad": 0.2379130804194112,
+  "final_actual_arm_rad": [
+    -0.8413471494827932,
+    -0.5371861969288132,
+    0.8920453301896785,
+    0.17796590168904095,
+    -0.7268461719009689,
+    0.23303236823623993,
+    1.1540601188419057
+  ],
+  "final_decoded_motor_target_rad": [
+    -1.3898153668565627,
+    -0.7282435618579401,
+    0.6243792451305433,
+    -0.050801090255841896,
+    -0.7444718109722781,
+    0.21172021267644955,
+    1.0774870683976885
+  ],
+  "final_virtual_reference_rad": [
+    -1.0029383343022018,
+    -0.5881703279531704,
+    1.2184343755535836,
+    0.2257821049903207,
+    -0.5881877560312649,
+    0.2924367333872268,
+    0.9673060854152494
+  ],
+  "max_reference_bias_rad": 0.0,
+  "policy_median_ms": 13.301386963576078,
+  "policy_p95_ms": 15.258566942065954,
+  "user_corrections": 0,
+  "correction_definition": "no interactive user text corrections; manually calibrated geometry is a preconfigured constraint, NOT counted as zero human setup",
+  "peak_external_force": 0.0,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sonic": {
+    "ort_version": "1.23.2",
+    "models": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    },
+    "encoder_slots": [
+      {
+        "name": "encoder_mode_4",
+        "width": 4
+      },
+      {
+        "name": "motion_joint_positions_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_joint_velocities_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_anchor_orientation_heading_10frame_step5",
+        "width": 60
+      },
+      {
+        "name": "motion_anchor_orientation_heading",
+        "width": 6
+      },
+      {
+        "name": "motion_joint_positions_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "motion_joint_velocities_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "vr_3point_local_target",
+        "width": 9
+      },
+      {
+        "name": "vr_3point_local_orn_target",
+        "width": 12
+      },
+      {
+        "name": "smpl_joints_10frame_step1",
+        "width": 720
+      },
+      {
+        "name": "smpl_anchor_orientation_heading_10frame_step1",
+        "width": 60
+      },
+      {
+        "name": "motion_joint_positions_wrists_10frame_step1",
+        "width": 60
+      }
+    ],
+    "decoder_slots": [
+      {
+        "name": "token_state",
+        "width": 64
+      },
+      {
+        "name": "his_base_angular_velocity_10frame_step1",
+        "width": 30
+      },
+      {
+        "name": "his_body_joint_positions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_body_joint_velocities_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_last_actions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_gravity_dir_10frame_step1",
+        "width": 30
+      }
+    ],
+    "policy_calls": 2001,
+    "unique_encoder_inputs": 2001,
+    "unique_actions": 2001,
+    "body_action_source": "official SONIC v1.1 ONNX; zero arm target overrides",
+    "mode_ids": [
+      0
+    ],
+    "right_arm_pd_kp_scale": 1.0,
+    "right_arm_pd_kd_scale": 1.0,
+    "torque_clipped_cells": 769,
+    "torque_steps": 20006,
+    "original_effort_limits_preserved": true
+  },
+  "scene": "/data/group4/20261006-093203-codex-6385a841/out/native_anchor_fixture2/scene.xml"
+}

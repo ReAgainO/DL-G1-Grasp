@@ -1,0 +1,56 @@
+[
+  {
+    "source": "/data/group4/20261005-222503-codex-a8d69b27/out/control_s42.npz",
+    "path": "/data/group4/20261006-093203-codex-6385a841/src/original_motions/control_s42.npz",
+    "sha256": "b0a67824fd414ae57953acc24107e7b03d98a9a260256f17943d332749867ae4",
+    "bytes": 291860
+  },
+  {
+    "source": "/data/group4/20261005-222503-codex-a8d69b27/out/control_s42.csv",
+    "path": "/data/group4/20261006-093203-codex-6385a841/src/original_motions/control_s42.csv",
+    "sha256": "fe066e892f8ec6d4122ea207720b7c43be90b4dfad640e45edba746f3964e65d",
+    "bytes": 91700
+  },
+  {
+    "source": "/data/group4/20261005-222503-codex-a8d69b27/out/near_s42.npz",
+    "path": "/data/group4/20261006-093203-codex-6385a841/src/original_motions/near_s42.npz",
+    "sha256": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+    "bytes": 291860
+  },
+  {
+    "source": "/data/group4/20261005-222503-codex-a8d69b27/out/near_s42.csv",
+    "path": "/data/group4/20261006-093203-codex-6385a841/src/original_motions/near_s42.csv",
+    "sha256": "c46d058430befe1460a9bb22fec4ff0b761d4c9d4726031b75d75acd541fbb3e",
+    "bytes": 91655
+  },
+  {
+    "source": "/data/group4/20261005-222503-codex-a8d69b27/out/far_s42.npz",
+    "path": "/data/group4/20261006-093203-codex-6385a841/src/original_motions/far_s42.npz",
+    "sha256": "62e420b504dcceb4eaab9d7341120967a5b08c0401f484f9e0bbb1896235392d",
+    "bytes": 291860
+  },
+  {
+    "source": "/data/group4/20261005-222503-codex-a8d69b27/out/far_s42.csv",
+    "path": "/data/group4/20261006-093203-codex-6385a841/src/original_motions/far_s42.csv",
+    "sha256": "7d7387f98e17f3c8243a88f72965f6b6bd33766e2794fb4a6eb42d94e0e4a31c",
+    "bytes": 91605
+  },
+  {
+    "source": "/data/group4/20261005-222503-codex-a8d69b27/out/summary.json",
+    "path": "/data/group4/20261006-093203-codex-6385a841/src/original_motions/summary.json",
+    "sha256": "1f7513aaa82263697bd061e8618da9a75c2379e5e0867a4a210999485e548c5a",
+    "bytes": 4117
+  },
+  {
+    "source": "/home/group4/group4_dasc7606c/repos/ardy/ardy/assets/skeletons/g1skel34/xml/g1.xml",
+    "path": "/data/group4/20261006-093203-codex-6385a841/src/ardy_converter_g1.xml",
+    "sha256": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+    "bytes": 31881
+  },
+  {
+    "source": "/home/group4/group4_dasc7606c/repos/ardy/ardy/exports/mujoco.py",
+    "path": "/data/group4/20261006-093203-codex-6385a841/official_refs/ardy_mujoco_converter.py",
+    "sha256": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+    "bytes": 11822
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "ng314",
+    "exit": 0,
+    "wall_s": 55.27721952798311,
+    "log": "/data/group4/20261006-093203-codex-6385a841/out/batch-ng314.log",
+    "version": "3.14.0",
+    "success": false,
+    "hold_min_lift_m": -4.606072908674985e-05,
+    "max_lift_m": 0.0,
+    "tracking_rms": 0.0021324937976355375
+  },
+  {
+    "name": "po314",
+    "exit": 0,
+    "wall_s": 54.97660011204425,
+    "log": "/data/group4/20261006-093203-codex-6385a841/out/batch-po314.log",
+    "version": "3.14.0",
+    "success": false,
+    "hold_min_lift_m": -4.606072908674985e-05,
+    "max_lift_m": 0.0,
+    "tracking_rms": 0.0021324890289838904
+  }
+]

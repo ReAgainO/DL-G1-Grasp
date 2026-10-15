@@ -1,0 +1,2857 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.2.7",
+    "python": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+    "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+    "scene_generator_sha": "bfb9c45a8d771387d417e667c902b0bf06cc39b6862f28f253ddf557e92af970",
+    "dt": 0.002,
+    "library_sha": {
+      "sonic_grasp": "e94188ff6219759c57210740d2a1776792aaf36ec0faffd6b8431b4da7cfdf10",
+      "adaptive_hand": "19d2094fc343a7010040f3b1400e50f8617a86797d5c4007d7bb4acfdd741f31",
+      "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    "endpoint_inventory_sha": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5"
+  },
+  "physical_steps": 0,
+  "records": [
+    {
+      "episode": "w5_fingergain3_free327",
+      "result_sha256": "37282518dd3996460f604da849b8bc6d319c7fa32c00c50701e4a4411bf80db2",
+      "trajectory_sha256": "cd497ae885974e49125749bcf998dd43de97b80fca4edb742d8597ba92690a69",
+      "source_runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+          "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+        },
+        "scene_generator_sha": "15ae544c24710a1efb912699048e6eb402d258cdab1900bddf39b166e0fda0a3",
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "c1da7a33db344f9685a545b1f3fa25fe63b2bef96ab3a2b788499df69ce15c37",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4",
+          "table_placement": "e1b5e88d4bdd0f0cce8a3dbd78e940c51976d2539caf4f99a4217a8cb9391477",
+          "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "observations": [
+        {
+          "phase": "CLOSE",
+          "saved_time_s": 33.28199999999471,
+          "body_arm_rad": [
+            -0.8436569451474766,
+            -0.5763689275707699,
+            0.9717485961916318,
+            0.2057953730271511,
+            -0.6202989863617252,
+            -0.24130198762631858,
+            1.2781112959674636
+          ],
+          "body_reference_arm_rad": [
+            -0.7647922941577746,
+            -0.383280990217201,
+            0.9574073343519521,
+            0.46565958658685963,
+            -0.6599537897827882,
+            -0.2733141472559911,
+            1.0935622503020945
+          ],
+          "wrist_position_m": [
+            0.2835869167446741,
+            -0.06292345141767505,
+            0.9541340531688458
+          ],
+          "wrist_rotation": [
+            [
+              0.13520985576568256,
+              -0.42646135142038055,
+              -0.8943427814034877
+            ],
+            [
+              0.15734314328326682,
+              -0.8819361192708292,
+              0.4443330021360686
+            ],
+            [
+              -0.9782440545004938,
+              -0.20079690552947488,
+              -0.052145685959842036
+            ]
+          ],
+          "cube_position_m": [
+            0.2675220949162462,
+            -0.11755078227177827,
+            0.7745019260691014
+          ],
+          "actual_finger_q_rad": [
+            -0.00017783912245517334,
+            -0.7067464354964229,
+            -1.9933888045693744,
+            1.389362441785109,
+            0.07596292931323623,
+            1.3898711428732564,
+            0.0760738543881914
+          ],
+          "hand_reference_rad": [
+            -0.017981996877519692,
+            -0.6887676837538143,
+            -1.9754126126720963,
+            1.4,
+            0.08,
+            1.4076356163756538,
+            0.05808147168756694
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.29730400140573526,
+              -0.0505540286358351,
+              0.8240642852644384
+            ],
+            [
+              0.23363838736498294,
+              -0.1193440944467862,
+              0.7834881628457543
+            ],
+            [
+              0.28460539826924136,
+              -0.14468548622887598,
+              0.7865182317059679
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.279431145441007,
+            -0.11555474306020562,
+            0.7869754705553097
+          ],
+          "hypothetical_closed_capture_error_m": 0.017360845860293187,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.0014770824009263986,
+              "target_points_m": [
+                [
+                  0.2825976151014581,
+                  -0.09026305467165426,
+                  0.788889942748608
+                ],
+                [
+                  0.2830491503740264,
+                  -0.14426475861373464,
+                  0.7888527244916941
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.2825976151014581,
+                  -0.09026305467165423,
+                  0.7888899427486081
+                ],
+                [
+                  0.28425664826133357,
+                  -0.14511532949756883,
+                  0.7888368991054833
+                ]
+              ],
+              "command_rad": [
+                0.030161149812832386,
+                -0.5902824522438753,
+                -1.0674735036343297,
+                1.4,
+                0.08,
+                1.449469183974845,
+                0.002
+              ],
+              "normal": [
+                0.16589524693935037,
+                -0.9861433805704584,
+                0.0
+              ],
+              "opposing_cube_axis": 1
+            }
+          }
+        },
+        {
+          "phase": "CLOSE",
+          "saved_time_s": 33.72199999999525,
+          "body_arm_rad": [
+            -0.788973912890002,
+            -0.5575538923502295,
+            0.9433015186843624,
+            0.20626584880078072,
+            -0.6505435104626281,
+            -0.22511076213720466,
+            1.2766889835633317
+          ],
+          "body_reference_arm_rad": [
+            -0.7409546404498778,
+            -0.3823656776619297,
+            0.9580316778092366,
+            0.4750575792648106,
+            -0.6504043334702484,
+            -0.2758689942867351,
+            1.0697996429872063
+          ],
+          "wrist_position_m": [
+            0.2792206501436222,
+            -0.06778613721786153,
+            0.9487531601044523
+          ],
+          "wrist_rotation": [
+            [
+              0.1320430152001662,
+              -0.45613149966084676,
+              -0.8800617575795434
+            ],
+            [
+              0.16820338407660776,
+              -0.8646494525880659,
+              0.4733803393935309
+            ],
+            [
+              -0.9768686010523756,
+              -0.21053593317128633,
+              -0.037448058984008936
+            ]
+          ],
+          "cube_position_m": [
+            0.2667828152089487,
+            -0.1166807953666208,
+            0.7743202779072673
+          ],
+          "actual_finger_q_rad": [
+            -0.03761526195823248,
+            -0.6106159207383914,
+            -1.3881454882609734,
+            1.3893848172258565,
+            0.0759664505108126,
+            1.1721318873173303,
+            0.4067297052482907
+          ],
+          "hand_reference_rad": [
+            -0.04959899590527988,
+            -0.6293195010234639,
+            -1.3154126126721202,
+            1.4,
+            0.08,
+            1.1638500169587098,
+            0.4400597620230866
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.278769160785033,
+              -0.07447391037312732,
+              0.7905587032677601
+            ],
+            [
+              0.22607450148321,
+              -0.11991566070347026,
+              0.7777109567125599
+            ],
+            [
+              0.2777598127911593,
+              -0.14443989401058943,
+              0.7751592677972342
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.27209202686776157,
+            -0.11837288187608923,
+            0.7808572671412141
+          ],
+          "hypothetical_closed_capture_error_m": 0.008589709741215663,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.0001350419853880401,
+              "target_points_m": [
+                [
+                  0.27723742378110017,
+                  -0.0895127621728848,
+                  0.7889302269046642
+                ],
+                [
+                  0.2781632167016094,
+                  -0.14347483053619134,
+                  0.7761118746516431
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.2772373866326289,
+                  -0.08951079661780101,
+                  0.7889302315398081
+                ],
+                [
+                  0.27816576849661345,
+                  -0.14360984803425575,
+                  0.7761115562553056
+                ]
+              ],
+              "command_rad": [
+                0.03086403165827456,
+                -0.4990233285508527,
+                -1.2957069660054694,
+                1.4,
+                0.08,
+                1.1154818681678575,
+                0.5298980379847735
+              ],
+              "normal": [
+                0.13441182705769514,
+                -0.9909255576212637,
+                0.0
+              ],
+              "opposing_cube_axis": 1
+            }
+          }
+        },
+        {
+          "phase": "LIFT",
+          "saved_time_s": 34.161999999995786,
+          "body_arm_rad": [
+            -0.7723867757608797,
+            -0.5468607961165161,
+            0.9292651374125094,
+            0.23176461871602314,
+            -0.6092404792586482,
+            -0.18469840931325676,
+            1.2875027265671672
+          ],
+          "body_reference_arm_rad": [
+            -0.734692055396616,
+            -0.3752865938303071,
+            0.9658753525595221,
+            0.4963557474414337,
+            -0.6354178745618451,
+            -0.2820662598472241,
+            1.068274884538117
+          ],
+          "wrist_position_m": [
+            0.2782508928893811,
+            -0.07156124103247996,
+            0.9435867494360232
+          ],
+          "wrist_rotation": [
+            [
+              0.09363428261896511,
+              -0.5219174289487,
+              -0.847841269624219
+            ],
+            [
+              0.179710878735169,
+              -0.828734660504583,
+              0.5300027005049919
+            ],
+            [
+              -0.9792530935272363,
+              -0.20199272224000916,
+              0.016196264365752833
+            ]
+          ],
+          "cube_position_m": [
+            0.26209719231292283,
+            -0.11526654681489094,
+            0.775048338302524
+          ],
+          "actual_finger_q_rad": [
+            -0.05403094918212878,
+            -0.6422290999997231,
+            -0.9888619089322552,
+            1.3894156513812552,
+            0.07597086751356597,
+            1.0620073983635654,
+            0.8119726391956499
+          ],
+          "hand_reference_rad": [
+            -0.053937130713416395,
+            -0.6329573742382975,
+            -0.9921887422603922,
+            1.4,
+            0.08,
+            1.0602964735172022,
+            0.8009346403115988
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.25912663988464746,
+              -0.08787195832693384,
+              0.776088712582221
+            ],
+            [
+              0.21328232911309386,
+              -0.11655409127421192,
+              0.7746158432805482
+            ],
+            [
+              0.26442790988077497,
+              -0.14244386436733808,
+              0.7798629661132039
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.25938702096211397,
+            -0.11783997775665106,
+            0.7754181642163904
+          ],
+          "hypothetical_closed_capture_error_m": 0.003755575424528268,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.0003465697612448509,
+              "target_points_m": [
+                [
+                  0.25878296056434374,
+                  -0.0881427881539554,
+                  0.7762810114291115
+                ],
+                [
+                  0.26441571585289003,
+                  -0.14219036898950213,
+                  0.7790942892437456
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.25877660662976126,
+                  -0.0884890946355486,
+                  0.7762929298069866
+                ],
+                [
+                  0.2644109943269238,
+                  -0.14244770482195462,
+                  0.7791031456349914
+                ]
+              ],
+              "command_rad": [
+                -0.053937130713416395,
+                -0.6329573742382975,
+                -0.9921887422603922,
+                1.4,
+                0.08,
+                1.0602964735172022,
+                0.8009346403115988
+              ],
+              "normal": [
+                0.06936320473453798,
+                -0.9975914724119059,
+                0.0
+              ],
+              "opposing_cube_axis": 1
+            }
+          }
+        },
+        {
+          "phase": "LIFT",
+          "saved_time_s": 38.162000000000674,
+          "body_arm_rad": [
+            -0.8514293605512561,
+            -0.6238634097487695,
+            0.9461863196999065,
+            0.12308875325371814,
+            -0.4640920198115524,
+            -0.11832293604350386,
+            1.313095408513565
+          ],
+          "body_reference_arm_rad": [
+            -0.8368651577919681,
+            -0.5034075186903616,
+            1.03124472328317,
+            0.31778995559545015,
+            -0.4949002545963161,
+            -0.11822313657262,
+            1.11932447768145
+          ],
+          "wrist_position_m": [
+            0.283938913965031,
+            -0.0692513834374417,
+            0.9712282711087775
+          ],
+          "wrist_rotation": [
+            [
+              0.08695188048048264,
+              -0.5308000283404073,
+              -0.8430247329673852
+            ],
+            [
+              0.24791583907424175,
+              -0.8080778349110334,
+              0.5343668678554201
+            ],
+            [
+              -0.9648715495945681,
+              -0.25546338806044216,
+              0.061329847086532
+            ]
+          ],
+          "cube_position_m": [
+            0.26451827567611513,
+            -0.1000801021804409,
+            0.7993464709172169
+          ],
+          "actual_finger_q_rad": [
+            -0.0588173580453012,
+            -0.6442613347479115,
+            -0.9950876131088131,
+            1.3895135299596735,
+            0.07599459069270356,
+            1.0363213753356681,
+            0.8320086191848981
+          ],
+          "hand_reference_rad": [
+            -0.05827310062560458,
+            -0.6367699925118906,
+            -0.9936100506394472,
+            1.4,
+            0.08,
+            1.038952856856644,
+            0.8384761245195679
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.26317686339542923,
+              -0.07283495081886052,
+              0.803308637117227
+            ],
+            [
+              0.21715942949669448,
+              -0.10162877760799484,
+              0.8000987012833047
+            ],
+            [
+              0.2685009121488273,
+              -0.1274793994235985,
+              0.8016616517753835
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.2633363546607068,
+            -0.10462677163976339,
+            0.8002699891041555
+          ],
+          "hypothetical_closed_capture_error_m": 0.004787695301562745,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.0004666845617918017,
+              "target_points_m": [
+                [
+                  0.26278522118587283,
+                  -0.07332808987032893,
+                  0.8033769769204548
+                ],
+                [
+                  0.26844444362711434,
+                  -0.12709341215753636,
+                  0.8022927790560161
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.26280891267988776,
+                  -0.07354149934464994,
+                  0.803361536988992
+                ],
+                [
+                  0.2684958033284003,
+                  -0.12755605275106766,
+                  0.8022593075380399
+                ]
+              ],
+              "command_rad": [
+                -0.05827310062560458,
+                -0.6367699925118906,
+                -0.9936100506394472,
+                1.4,
+                0.08,
+                1.038952856856644,
+                0.8384761245195679
+              ],
+              "normal": [
+                0.060760332320575164,
+                -0.9981523841660116,
+                0.0
+              ],
+              "opposing_cube_axis": 1
+            }
+          }
+        },
+        {
+          "phase": "HOLD",
+          "saved_time_s": 42.16200000000556,
+          "body_arm_rad": [
+            -1.2481884078971877,
+            -0.9541269731675839,
+            1.0599221873944853,
+            -0.1617562823656933,
+            -0.06499810584672426,
+            0.1373065415303202,
+            1.438616457778622
+          ],
+          "body_reference_arm_rad": [
+            -1.1336234937642276,
+            -0.7152391957062195,
+            1.0198071130920996,
+            -0.013519581525809728,
+            -0.18152073201324548,
+            0.0533205287041806,
+            1.4017413192916635
+          ],
+          "wrist_position_m": [
+            0.28540865602072113,
+            -0.07888383715137859,
+            1.079097382492875
+          ],
+          "wrist_rotation": [
+            [
+              0.13619629821778684,
+              -0.5485041017594794,
+              -0.8249811020288893
+            ],
+            [
+              0.20221360215838227,
+              -0.7998171100589113,
+              0.5651568362491469
+            ],
+            [
+              -0.9698248436980286,
+              -0.24379466936346306,
+              0.0019828605741603056
+            ]
+          ],
+          "cube_position_m": [
+            0.27293406075864285,
+            -0.1157978051859372,
+            0.9003780461598867
+          ],
+          "actual_finger_q_rad": [
+            -0.0651826192348379,
+            -0.6491757465075115,
+            -0.9978083355627099,
+            1.3897019718539487,
+            0.07605588585893262,
+            1.003643307441773,
+            0.8895886410581023
+          ],
+          "hand_reference_rad": [
+            -0.0643289280596901,
+            -0.6426502929317395,
+            -0.9962225960877887,
+            1.4,
+            0.08,
+            1.004783146268938,
+            0.898549421481275
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.27144211955000547,
+              -0.08829130696130524,
+              0.9107609883669632
+            ],
+            [
+              0.22472422749157503,
+              -0.11643416043057486,
+              0.906778247291105
+            ],
+            [
+              0.27566622265677554,
+              -0.14294622100190008,
+              0.9116477706449007
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.27069863135991484,
+            -0.12026582724131386,
+            0.9090885501454865
+          ],
+          "hypothetical_closed_capture_error_m": 0.010041575840831948,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.00041526237651863914,
+              "target_points_m": [
+                [
+                  0.27110296472328754,
+                  -0.08873256097687726,
+                  0.9108044796851311
+                ],
+                [
+                  0.27563613467437104,
+                  -0.14252902735733797,
+                  0.9122324442452135
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.2711186580514999,
+                  -0.08892476462520242,
+                  0.9108067476306638
+                ],
+                [
+                  0.2756699258379075,
+                  -0.1429428837952459,
+                  0.9122373276273331
+                ]
+              ],
+              "command_rad": [
+                -0.0643289280596901,
+                -0.6426502929317395,
+                -0.9962225960877887,
+                1.4,
+                0.08,
+                1.004783146268938,
+                0.898549421481275
+              ],
+              "normal": [
+                0.02810956805952681,
+                -0.9996048480192095,
+                0.0
+              ],
+              "opposing_cube_axis": 1
+            }
+          }
+        },
+        {
+          "phase": "HOLD",
+          "saved_time_s": 43.162000000006785,
+          "body_arm_rad": [
+            -1.2947867943943498,
+            -0.9885535288975595,
+            1.040736913659922,
+            -0.22447691930216526,
+            -0.026147367883800152,
+            0.1588388567699164,
+            1.5060834455166405
+          ],
+          "body_reference_arm_rad": [
+            -1.1285875787416395,
+            -0.7326965582066804,
+            0.9931149105346674,
+            -0.0805986134730032,
+            -0.14530389750607026,
+            0.08211082421738437,
+            1.4556084181051576
+          ],
+          "wrist_position_m": [
+            0.2870783588971894,
+            -0.07402885352440793,
+            1.0939451250401708
+          ],
+          "wrist_rotation": [
+            [
+              0.11079678497770146,
+              -0.5296906678143916,
+              -0.8409232241227188
+            ],
+            [
+              0.17359792002898303,
+              -0.8228099736636543,
+              0.541153868508049
+            ],
+            [
+              -0.9785641698939397,
+              -0.20594063142070804,
+              0.0007884984618213298
+            ]
+          ],
+          "cube_position_m": [
+            0.27226087636597074,
+            -0.11708779725162337,
+            0.9149320918772305
+          ],
+          "actual_finger_q_rad": [
+            -0.06619978001177644,
+            -0.6502346758268143,
+            -0.9982454930117807,
+            1.389688489447644,
+            0.07605773428370036,
+            0.9965099551362132,
+            0.9020282413603012
+          ],
+          "hand_reference_rad": [
+            -0.06645610843218173,
+            -0.6448454848196654,
+            -0.996886829976751,
+            1.4,
+            0.08,
+            0.9941639856513713,
+            0.916950286435835
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.270013324677351,
+              -0.08927919706538735,
+              0.9263330415210729
+            ],
+            [
+              0.22407944181150147,
+              -0.11901319936428814,
+              0.9242558930886284
+            ],
+            [
+              0.27600688680927377,
+              -0.1436580867218921,
+              0.9289110708373106
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.2701822051766997,
+            -0.12144081117101324,
+            0.925727222555844
+          ],
+          "hypothetical_closed_capture_error_m": 0.011823893202488419,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.00028089087540769355,
+              "target_points_m": [
+                [
+                  0.2696806977735901,
+                  -0.0897017116507318,
+                  0.9263945700820702
+                ],
+                [
+                  0.2760642127167276,
+                  -0.143241607516495,
+                  0.9294761137147133
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.269687881643612,
+                  -0.08976472598008571,
+                  0.926397218035367
+                ],
+                [
+                  0.2760960015464832,
+                  -0.1435204477212725,
+                  0.9294878309835806
+                ]
+              ],
+              "command_rad": [
+                -0.06645610843218173,
+                -0.6448454848196654,
+                -0.996886829976751,
+                1.4,
+                0.08,
+                0.9941639856513713,
+                0.916950286435835
+              ],
+              "normal": [
+                0.05640678955059184,
+                -0.9984078696067029,
+                0.0
+              ],
+              "opposing_cube_axis": 1
+            }
+          }
+        }
+      ],
+      "branch_candidates": [
+        {
+          "seed_label": "actual_arm_at_approach_end",
+          "body_q": [
+            -1.248289990170036,
+            -0.9580915998331998,
+            1.2189987803746287,
+            -0.18176092138020938,
+            -0.08885153378663606,
+            0.21722899561035253,
+            1.3215447363093074
+          ],
+          "target_m": [
+            0.267,
+            -0.118,
+            0.8744078785418263
+          ],
+          "closed_surface_error_m": 1.5950039475155177e-13,
+          "open_hand_robot_table_min_distance_m": 0.011692641323338693,
+          "zero_step_finger_replan_error_m": 9.835934886126552e-05,
+          "source_legacy_seed": null
+        },
+        {
+          "seed_label": "legacy_selected_endpoint",
+          "body_q": [
+            -1.0639930040361505,
+            -0.876868643275143,
+            0.9626596048482003,
+            -0.17398163263307662,
+            -0.2601451193110441,
+            0.151010756919699,
+            1.494234054042668
+          ],
+          "target_m": [
+            0.267,
+            -0.118,
+            0.8744078785418263
+          ],
+          "closed_surface_error_m": 3.657218400099874e-14,
+          "open_hand_robot_table_min_distance_m": 0.011692641323338693,
+          "zero_step_finger_replan_error_m": 0.00040008692839785254,
+          "source_legacy_seed": 1
+        }
+      ]
+    },
+    {
+      "episode": "w6_profile_default_free327",
+      "result_sha256": "e895f2bf9b9112bfe7eea7a3e14b2baff038a4a832789779843aec354b62059f",
+      "trajectory_sha256": "254fbbca28097bbb0afd985ed1defcdd733a6b6832c30b351668570964e6607e",
+      "source_runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+          "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+        },
+        "scene_generator_sha": "e94188ff6219759c57210740d2a1776792aaf36ec0faffd6b8431b4da7cfdf10",
+        "library_versions": {
+          "numpy": "1.26.4",
+          "onnxruntime": "1.23.2"
+        },
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "19d2094fc343a7010040f3b1400e50f8617a86797d5c4007d7bb4acfdd741f31",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4",
+          "table_placement": "e1b5e88d4bdd0f0cce8a3dbd78e940c51976d2539caf4f99a4217a8cb9391477",
+          "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+          "setdown_plan": "5dd156238a40b06909e2c760dfbfc516c76e9af7793edf7c6fd07020d34dd521",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "neutral_pose": "76e534e278960796a08b1459345fd48f2898b1b18977e2f00fe3c1af47ab04b2",
+          "execution_monitor": "dd9d078527e2551a15202322c7bd53eb98eb0dc22a013633dfa74a062a00cf0d",
+          "clearance_approach": "94356a8088bd16da207caec9d220980cd4be335fb421ed7a4109274dfb449020",
+          "motion_profile": "ec830274ba547e49bfab4f9dc25da310711e6fde885e5b118654d04b31288b01",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "observations": [
+        {
+          "phase": "CLOSE",
+          "saved_time_s": 43.882000000007665,
+          "body_arm_rad": [
+            -0.8977543286775445,
+            -0.678553030382514,
+            0.9029759918040983,
+            0.46979292621581387,
+            0.6196427402923984,
+            1.4694983618517232,
+            0.3498583908390753
+          ],
+          "body_reference_arm_rad": [
+            -0.7682565753575612,
+            -0.4342449485924,
+            0.8129864561883942,
+            0.6702935216582623,
+            0.20776026168319386,
+            1.5703256613621226,
+            0.5684556034518436
+          ],
+          "wrist_position_m": [
+            0.3009941532638654,
+            -0.15239635968491066,
+            0.9424939820669695
+          ],
+          "wrist_rotation": [
+            [
+              0.09567944992481622,
+              -0.5699368311676235,
+              0.816098922521462
+            ],
+            [
+              -0.13536617306616847,
+              0.8047940558981559,
+              0.5779122137318219
+            ],
+            [
+              -0.9861650176575437,
+              -0.1657665106998475,
+              -0.00014791515352283527
+            ]
+          ],
+          "cube_position_m": [
+            0.26742267348121895,
+            -0.11908064456383344,
+            0.7744078785418239
+          ],
+          "actual_finger_q_rad": [
+            0.00027145802119303813,
+            -0.7063300530167236,
+            -1.9937862344792237,
+            1.3896312418000338,
+            0.07613142612834331,
+            1.3994209373471724,
+            0.07760676987033018
+          ],
+          "hand_reference_rad": [
+            -0.02038136832863651,
+            -0.6853609263267005,
+            -1.9728205012087006,
+            1.4,
+            0.08,
+            1.4202794674169619,
+            0.05667909418825355
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.30817379696658503,
+              -0.16259746600770653,
+              0.811726044340506
+            ],
+            [
+              0.27869486227589646,
+              -0.07163361022721343,
+              0.7758577617699299
+            ],
+            [
+              0.23201386124592704,
+              -0.10434363462366031,
+              0.7769580347458881
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.2625584627614973,
+            -0.1146459558356962,
+            0.776344559940106
+          ],
+          "hypothetical_closed_capture_error_m": 0.006861322385646537,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.019437504452833952,
+              "target_points_m": [
+                [
+                  0.294660012147736,
+                  -0.13364523801389083,
+                  0.7894078785418239
+                ],
+                [
+                  0.24018533481470186,
+                  -0.10451605111377606,
+                  0.7894078785418239
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.3017131916600333,
+                  -0.14761828082778636,
+                  0.8009327782221809
+                ],
+                [
+                  0.23035980217324287,
+                  -0.1020030626626689,
+                  0.7956802299018012
+                ]
+              ],
+              "command_rad": [
+                -0.04842051209544802,
+                -0.5202848362435184,
+                -1.8253259135065694,
+                1.4,
+                0.08,
+                1.614767822774245,
+                0.002
+              ],
+              "normal": [
+                -0.9472716508278219,
+                0.3204316144482831,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        },
+        {
+          "phase": "CLOSE",
+          "saved_time_s": 45.12200000000918,
+          "body_arm_rad": [
+            -0.8857066080010378,
+            -0.6308409210607191,
+            0.8411332287898228,
+            0.5075137550939149,
+            0.4987749110085819,
+            1.4867942886067262,
+            0.4049647235664002
+          ],
+          "body_reference_arm_rad": [
+            -0.7518413767674471,
+            -0.4298021296526558,
+            0.7803885637694971,
+            0.6629615350550112,
+            0.17001929152617404,
+            1.5936841280172143,
+            0.5952057406764554
+          ],
+          "wrist_position_m": [
+            0.30342072077928334,
+            -0.14990051802792706,
+            0.9393605181413371
+          ],
+          "wrist_rotation": [
+            [
+              0.09823086261091758,
+              -0.5431440554847171,
+              0.8338736310870687
+            ],
+            [
+              -0.13044576844241876,
+              0.8236688137044545,
+              0.5518637393652229
+            ],
+            [
+              -0.9865772139706983,
+              -0.1629853377525549,
+              0.01005885438326408
+            ]
+          ],
+          "cube_position_m": [
+            0.2619098716238398,
+            -0.11153971734424721,
+            0.7751251526362194
+          ],
+          "actual_finger_q_rad": [
+            -0.06141451983839873,
+            -0.6105455453821756,
+            -0.9324527051463384,
+            1.3895814391662673,
+            0.07610167178444166,
+            1.5695322134158511,
+            0.000336957315850693
+          ],
+          "hand_reference_rad": [
+            -0.05824114607898321,
+            -0.597092879386827,
+            -0.9490992154088839,
+            1.4,
+            0.08,
+            1.5750163409836397,
+            0.002
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.28916112642805114,
+              -0.11545335939624607,
+              0.7731460804425034
+            ],
+            [
+              0.2848370455554767,
+              -0.0671492427846885,
+              0.773239070162525
+            ],
+            [
+              0.23572075593407604,
+              -0.09648176462020158,
+              0.787588016054383
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.26646891631108227,
+            -0.10930305878951509,
+            0.7732917326995347
+          ],
+          "hypothetical_closed_capture_error_m": 0.005398977552737507,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.000527791953068685,
+              "target_points_m": [
+                [
+                  0.28867818562991876,
+                  -0.1153162755876822,
+                  0.7736087030005133
+                ],
+                [
+                  0.2361966318012914,
+                  -0.09647317823791039,
+                  0.7882638562872845
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.288690949977882,
+                  -0.11531757587648651,
+                  0.7736088073607957
+                ],
+                [
+                  0.23567157460069024,
+                  -0.09641969129117935,
+                  0.7882595634618385
+                ]
+              ],
+              "command_rad": [
+                -0.05824114607898321,
+                -0.597092879386827,
+                -0.9490992154088839,
+                1.4,
+                0.08,
+                1.5750163409836397,
+                0.002
+              ],
+              "normal": [
+                -0.9367810073513285,
+                0.3499161960610427,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        },
+        {
+          "phase": "LIFT",
+          "saved_time_s": 46.362000000010696,
+          "body_arm_rad": [
+            -0.8715896990396141,
+            -0.6549916723482163,
+            0.8627539772368251,
+            0.41456508824446053,
+            0.48868252869978407,
+            1.4547100106531694,
+            0.3881687403951162
+          ],
+          "body_reference_arm_rad": [
+            -0.7399011669835782,
+            -0.43595167658326034,
+            0.8062297242671936,
+            0.5689980311892248,
+            0.12502706780768136,
+            1.612307053949057,
+            0.5891193981032754
+          ],
+          "wrist_position_m": [
+            0.2945778852668819,
+            -0.14756941858998315,
+            0.949849845493669
+          ],
+          "wrist_rotation": [
+            [
+              0.18167383954331218,
+              -0.5992810211405258,
+              0.7796517643963616
+            ],
+            [
+              -0.14285093960747544,
+              0.7683518023336109,
+              0.6238822941099977
+            ],
+            [
+              -0.9729276566522573,
+              -0.22471707890469944,
+              0.05398156509111962
+            ]
+          ],
+          "cube_position_m": [
+            0.2617661268126353,
+            -0.11451965434428778,
+            0.7748303540504542
+          ],
+          "actual_finger_q_rad": [
+            -0.047494448845430505,
+            -0.6027902394711984,
+            -0.9398366748184529,
+            1.389565639940996,
+            0.07608091259295152,
+            1.5401749539477945,
+            0.0030329322115192907
+          ],
+          "hand_reference_rad": [
+            -0.05050994553051368,
+            -0.5883471779550019,
+            -0.9535896761840228,
+            1.4,
+            0.08,
+            1.533790501704522,
+            0.005077347913807639
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.2884751752671155,
+              -0.1187097774243109,
+              0.7822367315550387
+            ],
+            [
+              0.2811592813562132,
+              -0.0704692377908617,
+              0.7805402035235762
+            ],
+            [
+              0.23433231237810667,
+              -0.10406618411979039,
+              0.789233336727566
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.2656612071505123,
+            -0.11382442373071963,
+            0.7804256085627432
+          ],
+          "hypothetical_closed_capture_error_m": 0.006852873083740074,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.0003017386477928328,
+              "target_points_m": [
+                [
+                  0.28826022498757814,
+                  -0.11807025404313579,
+                  0.7827153711575819
+                ],
+                [
+                  0.23469489455219522,
+                  -0.10415233380409909,
+                  0.7885363762248008
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.28823259871391627,
+                  -0.11806853169317516,
+                  0.782714088919951
+                ],
+                [
+                  0.23442627072029432,
+                  -0.10413509446352164,
+                  0.7886727223052108
+                ]
+              ],
+              "command_rad": [
+                -0.05050994553051368,
+                -0.5883471779550019,
+                -0.9535896761840228,
+                1.4,
+                0.08,
+                1.533790501704522,
+                0.005077347913807639
+              ],
+              "normal": [
+                -0.9639718298290663,
+                0.266004344505878,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        },
+        {
+          "phase": "LIFT",
+          "saved_time_s": 50.362000000015584,
+          "body_arm_rad": [
+            -0.967526512918626,
+            -0.749866082558971,
+            0.8543270015252907,
+            0.29926692819852624,
+            0.5850277357157962,
+            1.4950583458673732,
+            0.37909822417504546
+          ],
+          "body_reference_arm_rad": [
+            -0.8408106240425778,
+            -0.5232118678701447,
+            0.7851569722843089,
+            0.4660817794986289,
+            0.22635197131150464,
+            1.6124277116793193,
+            0.5886484472925323
+          ],
+          "wrist_position_m": [
+            0.3111492376185643,
+            -0.14492020189377125,
+            0.9792157170081001
+          ],
+          "wrist_rotation": [
+            [
+              0.23821514773078492,
+              -0.6163859481308149,
+              0.7505477375480382
+            ],
+            [
+              -0.07876035769848883,
+              0.7579890393123143,
+              0.6474947276523593
+            ],
+            [
+              -0.9680136101557707,
+              -0.21335646048168588,
+              0.13201769322299348
+            ]
+          ],
+          "cube_position_m": [
+            0.28535214558541816,
+            -0.10497488568484564,
+            0.7970343678867474
+          ],
+          "actual_finger_q_rad": [
+            -0.04759294932125023,
+            -0.5943010883572983,
+            -0.9514791787901875,
+            1.3896186353120517,
+            0.07606325761382333,
+            1.4883389804018718,
+            0.015395386206921265
+          ],
+          "hand_reference_rad": [
+            -0.048209346216402375,
+            -0.5863837937313537,
+            -0.9531976959434546,
+            1.4,
+            0.08,
+            1.4959047664626919,
+            0.002
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.3126019316604016,
+              -0.1063895385264328,
+              0.8137291589610728
+            ],
+            [
+              0.30365140942077934,
+              -0.05854260860392472,
+              0.814074532369473
+            ],
+            [
+              0.25893576034664073,
+              -0.09463097465243692,
+              0.8135310899970013
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.2886298766981101,
+            -0.10204372271004344,
+            0.8105228729250722
+          ],
+          "hypothetical_closed_capture_error_m": 0.014187142270410649,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.0007386537989048766,
+              "target_points_m": [
+                [
+                  0.31223496135422335,
+                  -0.10588443943248042,
+                  0.8139016986255565
+                ],
+                [
+                  0.2594035567587888,
+                  -0.09459997094441684,
+                  0.8130539006240263
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.3121789266684353,
+                  -0.10588100533496392,
+                  0.813929410966423
+                ],
+                [
+                  0.25893470591718115,
+                  -0.09464841442339761,
+                  0.8136226198449997
+                ]
+              ],
+              "command_rad": [
+                -0.048209346216402375,
+                -0.5863837937313537,
+                -0.9531976959434546,
+                1.4,
+                0.08,
+                1.4959047664626919,
+                0.002
+              ],
+              "normal": [
+                -0.9721481323669653,
+                0.23436725184082607,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        },
+        {
+          "phase": "HOLD",
+          "saved_time_s": 54.36200000002047,
+          "body_arm_rad": [
+            -1.2951123337800625,
+            -0.9430674946802514,
+            1.0084441090657212,
+            0.2142688076968551,
+            0.8831763514223397,
+            1.4036837486456486,
+            0.3938695659018146
+          ],
+          "body_reference_arm_rad": [
+            -1.1465066786407023,
+            -0.7128389932924681,
+            0.9473685234336242,
+            0.33917879061938916,
+            0.5098891370430925,
+            1.6124300000493503,
+            0.5498692561974011
+          ],
+          "wrist_position_m": [
+            0.3273819735837855,
+            -0.1335618882587173,
+            1.0609897684224883
+          ],
+          "wrist_rotation": [
+            [
+              0.3815133134994839,
+              -0.6859882583266632,
+              0.6195705779494337
+            ],
+            [
+              0.06832904083076813,
+              0.6893625134263126,
+              0.7211868462899914
+            ],
+            [
+              -0.9218344394747852,
+              -0.23280772006208816,
+              0.3098738964122352
+            ]
+          ],
+          "cube_position_m": [
+            0.315329574757444,
+            -0.09008717725317499,
+            0.7744078785418238
+          ],
+          "actual_finger_q_rad": [
+            0.21402078795920465,
+            -1.0065908323058153,
+            -0.15154052028479492,
+            1.3898189597921755,
+            0.07609744699120716,
+            0.8033363398651866,
+            0.10547461002928248
+          ],
+          "hand_reference_rad": [
+            0.22152823308245778,
+            -0.998365233394579,
+            -0.16250700241346266,
+            1.4,
+            0.08,
+            0.8116250213397644,
+            0.10378902275663068
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.3314472535745723,
+              -0.0911167033337877,
+              0.8875747117927458
+            ],
+            [
+              0.33048651636815385,
+              -0.03006235335302896,
+              0.9058751005049611
+            ],
+            [
+              0.33183444741263995,
+              -0.08265078734733408,
+              0.8416262180302002
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.3259852853370838,
+            -0.07481817393555829,
+            0.8965352329648266
+          ],
+          "hypothetical_closed_capture_error_m": 0.12353856615904275,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.09884234256350097,
+              "target_points_m": [
+                [
+                  0.34234253925572133,
+                  -0.09171022143047029,
+                  0.7894078785418238
+                ],
+                [
+                  0.288273280755637,
+                  -0.0827004624632339,
+                  0.7894078785418238
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.33039723832733986,
+                  -0.09180002253006882,
+                  0.8875257179235254
+                ],
+                [
+                  0.33129794888796865,
+                  -0.08237701623686342,
+                  0.8420617454456958
+                ]
+              ],
+              "command_rad": [
+                0.22658765181458435,
+                -0.9983040811356425,
+                -0.16250700241346266,
+                1.4,
+                0.08,
+                0.8111273927004033,
+                0.10378889824792056
+              ],
+              "normal": [
+                -0.9933505526691401,
+                0.11512896903869937,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        },
+        {
+          "phase": "HOLD",
+          "saved_time_s": 55.362000000021695,
+          "body_arm_rad": [
+            -1.3397476291159198,
+            -0.9734298481920888,
+            0.9770948649641646,
+            0.17327245062667104,
+            1.0459093959881458,
+            1.4339910005651746,
+            0.31062999188736723
+          ],
+          "body_reference_arm_rad": [
+            -1.1872185094393048,
+            -0.7590401701265617,
+            0.9245262922934212,
+            0.2914895230147743,
+            0.5961395935753167,
+            1.6124299999974196,
+            0.49746865672318047
+          ],
+          "wrist_position_m": [
+            0.32381427043030003,
+            -0.12265073129507026,
+            1.0754232753668087
+          ],
+          "wrist_rotation": [
+            [
+              0.372316599925266,
+              -0.6997753838557279,
+              0.6096677468668121
+            ],
+            [
+              0.1313199867613879,
+              0.6900056622218198,
+              0.7117915756587838
+            ],
+            [
+              -0.9187684204940196,
+              -0.18495025885733135,
+              0.3487950562314892
+            ]
+          ],
+          "cube_position_m": [
+            0.315329574757444,
+            -0.09008717725317499,
+            0.7744078785418238
+          ],
+          "actual_finger_q_rad": [
+            0.2354071103792836,
+            -1.0042106419588233,
+            -0.15514157200012124,
+            1.3899246639796359,
+            0.07612492643185052,
+            0.6976840589207488,
+            0.1042828666809083
+          ],
+          "hand_reference_rad": [
+            0.24274184125773307,
+            -0.9996426869384588,
+            -0.16250700241346266,
+            1.4,
+            0.08,
+            0.6927463327339446,
+            0.10369210540347944
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.3242020761389637,
+              -0.07108183298520572,
+              0.904647546132136
+            ],
+            [
+              0.3237878262865635,
+              -0.009824915020789263,
+              0.9269339476827728
+            ],
+            [
+              0.33391378925003107,
+              -0.06237808746498468,
+              0.8530608604800362
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.31973317780917454,
+            -0.05397003042333797,
+            0.9148386325739754
+          ],
+          "hypothetical_closed_capture_error_m": 0.14506769693148044,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.1167059283744112,
+              "target_points_m": [
+                [
+                  0.34221604962618946,
+                  -0.07488462914003571,
+                  0.7894078785418238
+                ],
+                [
+                  0.28821757548544136,
+                  -0.07529057306589863,
+                  0.7894078785418238
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.3230948117821975,
+                  -0.07212149799297513,
+                  0.9045035651999729
+                ],
+                [
+                  0.335057217557012,
+                  -0.0629674997618914,
+                  0.8522650560466478
+                ]
+              ],
+              "command_rad": [
+                0.25110798331589507,
+                -0.9995818805870753,
+                -0.16250700241346266,
+                1.4,
+                0.08,
+                0.6838412247496135,
+                0.10372169868842267
+              ],
+              "normal": [
+                -0.9938512846474231,
+                0.11072318639140985,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        }
+      ],
+      "branch_candidates": [
+        {
+          "seed_label": "actual_arm_at_approach_end",
+          "body_q": [
+            -1.4033041479352177,
+            -0.8522549619295929,
+            1.1946711106215744,
+            0.15147766816659003,
+            0.9920257878676128,
+            1.61243,
+            0.40770999758963383
+          ],
+          "target_m": [
+            0.267,
+            -0.118,
+            0.8744078785418263
+          ],
+          "closed_surface_error_m": 0.00013166503955480279,
+          "open_hand_robot_table_min_distance_m": 0.06991211493754626,
+          "zero_step_finger_replan_error_m": 0.002053152462654001,
+          "source_legacy_seed": null
+        },
+        {
+          "seed_label": "legacy_selected_endpoint",
+          "body_q": [
+            -1.1084519069313143,
+            -0.7468249519201271,
+            0.9841723061795475,
+            -0.12231989334279943,
+            -0.2515493829624388,
+            0.15105322809240895,
+            1.4940093630116231
+          ],
+          "target_m": [
+            0.267,
+            -0.118,
+            0.8744078785418263
+          ],
+          "closed_surface_error_m": 1.2318254668840217e-14,
+          "open_hand_robot_table_min_distance_m": 0.06991211493754626,
+          "zero_step_finger_replan_error_m": 0.0009301682571128678,
+          "source_legacy_seed": 1
+        }
+      ]
+    },
+    {
+      "episode": "w6_profile_reach43_free327",
+      "result_sha256": "d11a268b5e63e8a47fe3c7782f5f53b27f46dfe3f62bb644dc4350d2f173e216",
+      "trajectory_sha256": "95e1a0ecaa2beaa7d5222563ecfd140272e5b5ccd80059551ea9d28598991871",
+      "source_runtime_stamp": {
+        "mujoco_version": "3.2.7",
+        "sys_executable": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python",
+        "python_version": "3.10.22 (main, Oct  1 2026, 20:58:00) [Clang 22.1.3 ]",
+        "model_sha": {
+          "scene": "c6d188a8c98b2354794ba8fb2c45a37daf97ab9e6963176cc53bc76e55c7a0a9",
+          "robot": "2b6e38ee931867e388a34712f0f334c1e499dcf04c2a0d1995749b876a41f8a1"
+        },
+        "scene_generator_sha": "e94188ff6219759c57210740d2a1776792aaf36ec0faffd6b8431b4da7cfdf10",
+        "library_versions": {
+          "numpy": "1.26.4",
+          "onnxruntime": "1.23.2"
+        },
+        "library_sha": {
+          "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+          "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+          "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0",
+          "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+          "native_npz": "62607734726d37cba47ef2b0c1c1fc53d0c2cc9200e6181a1b281376b01dc5b3",
+          "lift_s42": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+          "hold_s42": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+          "release_s42": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+          "reference_filter": "0719b1bee491fc68b371234ba296cc0c707e64c48267d0dc0f55ac4ea683c590",
+          "policy_reference": "4e73ffb7d9ff730ade097f8d4da9b4c5227e9509f43266076be14edc6ecf3a93",
+          "grasp_geometry": "1b46e2ceb2fa3ed6a085a051def45cc51d92e161f72c257ede23d96e80df71b3",
+          "discrete_reference": "1db183d8583656480e360654dda1f4b08f793d824ee9e844468bf3314c07275d",
+          "adaptive_hand": "19d2094fc343a7010040f3b1400e50f8617a86797d5c4007d7bb4acfdd741f31",
+          "contact_audit": "438f7140e908d4027f6a51d4289f084ae660c45a3cf655d5d9e6757b81ea2b0e",
+          "decoded_arm_filter": "dbca6775bdaa0a5d522d275e669372040c97f54da9f7f83a498fe5f3c94442c0",
+          "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4",
+          "table_placement": "e1b5e88d4bdd0f0cce8a3dbd78e940c51976d2539caf4f99a4217a8cb9391477",
+          "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+          "setdown_plan": "5dd156238a40b06909e2c760dfbfc516c76e9af7793edf7c6fd07020d34dd521",
+          "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+          "task_plan": "183cb552edd3e53bda86a1556906bd2617e8ed4530c84443f09653bd3949549b",
+          "neutral_pose": "76e534e278960796a08b1459345fd48f2898b1b18977e2f00fe3c1af47ab04b2",
+          "execution_monitor": "dd9d078527e2551a15202322c7bd53eb98eb0dc22a013633dfa74a062a00cf0d",
+          "clearance_approach": "94356a8088bd16da207caec9d220980cd4be335fb421ed7a4109274dfb449020",
+          "motion_profile": "ec830274ba547e49bfab4f9dc25da310711e6fde885e5b118654d04b31288b01",
+          "input_profile": "1b19b0e215117ab922563b3dd23768b50b640ec49ff1175e30d3d6c4e11d31f7",
+          "generation_summary": "a1555c9380666c58b9d3084b6bf34dc52a0fcf5fabe55604befceb21fd98b003",
+          "endpoint_seed": "3fea896a1c332ec1adac351652b3113702ae8bc641c5ac820c5941b12afe9dc5",
+          "calibration": "ce1854787c61c2bfc4611df3b4de2a31d79d6c86bf8c9f571839c3fcd9db492f",
+          "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+        },
+        "dt": 0.002
+      },
+      "observations": [
+        {
+          "phase": "CLOSE",
+          "saved_time_s": 44.4020000000083,
+          "body_arm_rad": [
+            -0.9032600912635883,
+            -0.607191513956312,
+            0.9168848178030016,
+            0.553428161419639,
+            0.40443873792758583,
+            1.408136606194159,
+            0.5548538904708568
+          ],
+          "body_reference_arm_rad": [
+            -0.7634024257307793,
+            -0.4047780217518743,
+            0.8076817339809828,
+            0.6676331539161887,
+            0.10580718925943589,
+            1.4821676577276817,
+            0.6561500623129527
+          ],
+          "wrist_position_m": [
+            0.31047019986784197,
+            -0.1490579331822222,
+            0.94215476216287
+          ],
+          "wrist_rotation": [
+            [
+              0.09235524776794415,
+              -0.6112834502584946,
+              0.7860044857695117
+            ],
+            [
+              -0.12360308559687075,
+              0.7762346835308684,
+              0.6182086972169409
+            ],
+            [
+              -0.9880246886797195,
+              -0.15424739713786176,
+              -0.0038671741026861314
+            ]
+          ],
+          "cube_position_m": [
+            0.2670474203598929,
+            -0.11749657477603585,
+            0.7744078785418239
+          ],
+          "actual_finger_q_rad": [
+            -0.006856540069869642,
+            -0.7050188598414243,
+            -1.993057960136003,
+            1.3950699746319544,
+            0.07698303488038058,
+            1.395620905466899,
+            0.07370945916620476
+          ],
+          "hand_reference_rad": [
+            -0.05073395845656102,
+            -0.655468250540398,
+            -1.9427712784590814,
+            1.4,
+            0.08,
+            1.4407417915051777,
+            0.02522854886791138
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.3171171348267337,
+              -0.15764531498029205,
+              0.8111850111233038
+            ],
+            [
+              0.28236329224697665,
+              -0.06825464384056715,
+              0.7769542256994074
+            ],
+            [
+              0.23757955440162976,
+              -0.10351679526476329,
+              0.7770608852398997
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.2677427239442729,
+            -0.11193151244115156,
+            0.7767007886996794
+          ],
+          "hypothetical_closed_capture_error_m": 0.006058944038163453,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.008404417730555202,
+              "target_points_m": [
+                [
+                  0.2937555686359209,
+                  -0.13301027245472288,
+                  0.7894078785418239
+                ],
+                [
+                  0.24033927208386485,
+                  -0.10198287709734882,
+                  0.7894078785418239
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.29885326645448523,
+                  -0.13734297552555222,
+                  0.794494665193562
+                ],
+                [
+                  0.235921162499714,
+                  -0.10128930038031507,
+                  0.7960807779443514
+                ]
+              ],
+              "command_rad": [
+                0.01783524337306548,
+                -0.44447999427778706,
+                -1.6699993336758676,
+                1.4,
+                0.08,
+                1.6116440602200033,
+                0.002
+              ],
+              "normal": [
+                -0.9622100019238983,
+                0.27230848719349815,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        },
+        {
+          "phase": "CLOSE",
+          "saved_time_s": 44.88200000000889,
+          "body_arm_rad": [
+            -0.8761032330835171,
+            -0.6312702324760808,
+            0.9152078720595148,
+            0.4495446067078159,
+            0.3353180410581292,
+            1.3997868699620626,
+            0.5637594609053137
+          ],
+          "body_reference_arm_rad": [
+            -0.7568576532451666,
+            -0.414017712186034,
+            0.8110957415613572,
+            0.6316223471223513,
+            0.08496998723553591,
+            1.478679438112141,
+            0.6533308013427275
+          ],
+          "wrist_position_m": [
+            0.30394049165784737,
+            -0.1457767386505851,
+            0.9459688253684736
+          ],
+          "wrist_rotation": [
+            [
+              0.15699333253948147,
+              -0.6615679759504651,
+              0.7332672819204158
+            ],
+            [
+              -0.13103000651190477,
+              0.7219575151226285,
+              0.6794177534856238
+            ],
+            [
+              -0.9788688527742826,
+              -0.2027440740311946,
+              0.026657260054167374
+            ]
+          ],
+          "cube_position_m": [
+            0.26717105558818355,
+            -0.11815112351268074,
+            0.7744011553995225
+          ],
+          "actual_finger_q_rad": [
+            -0.06287074057753761,
+            -0.6018839241824098,
+            -1.2915006056577436,
+            1.3940899683944346,
+            0.07689161570555571,
+            1.4557571413079455,
+            2.7259649193823232e-05
+          ],
+          "hand_reference_rad": [
+            -0.0626197157228105,
+            -0.5923921248006748,
+            -1.2227712784591074,
+            1.4,
+            0.08,
+            1.4629651966142312,
+            0.002
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.3025194323643535,
+              -0.13001973449526924,
+              0.7853122058469864
+            ],
+            [
+              0.2787917967623429,
+              -0.07008899322861924,
+              0.7778013992338222
+            ],
+            [
+              0.23657735995324936,
+              -0.1084583233799784,
+              0.7786743108137228
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.26667094877773556,
+            -0.1145740578579942,
+            0.777703696199539
+          ],
+          "hypothetical_closed_capture_error_m": 0.004894106788329067,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.004693321919107675,
+              "target_points_m": [
+                [
+                  0.2941676248159911,
+                  -0.126936887861165,
+                  0.7836602081466638
+                ],
+                [
+                  0.24017694522218466,
+                  -0.10751054675918893,
+                  0.7845464582495462
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.298113050289125,
+                  -0.12693876747371277,
+                  0.7836598878614931
+                ],
+                [
+                  0.23548362385113916,
+                  -0.10750831084678866,
+                  0.7845468392480587
+                ]
+              ],
+              "command_rad": [
+                -0.04878992276151444,
+                -0.5800502288464988,
+                -1.2221915631606177,
+                1.4,
+                0.08,
+                1.5113281055310128,
+                0.002
+              ],
+              "normal": [
+                -0.9809398339671686,
+                0.19431171384263934,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        },
+        {
+          "phase": "LIFT",
+          "saved_time_s": 45.36200000000947,
+          "body_arm_rad": [
+            -0.8737862218425237,
+            -0.6205309160983742,
+            0.9009042484439004,
+            0.509967754733653,
+            0.32219319307212635,
+            1.4013183355121137,
+            0.5637586172642066
+          ],
+          "body_reference_arm_rad": [
+            -0.7520654051004405,
+            -0.40374962272193693,
+            0.8054269664544839,
+            0.6685565768663727,
+            0.0703778046519108,
+            1.481698283903956,
+            0.6610634858585493
+          ],
+          "wrist_position_m": [
+            0.30711771560897494,
+            -0.15156803967394217,
+            0.9427745267355413
+          ],
+          "wrist_rotation": [
+            [
+              0.13251209386643678,
+              -0.6252354730768742,
+              0.769104120510007
+            ],
+            [
+              -0.16001104720750348,
+              0.7522750440283557,
+              0.6391234019371337
+            ],
+            [
+              -0.9781804586837196,
+              -0.20775673596414188,
+              -0.000359041550646224
+            ]
+          ],
+          "cube_position_m": [
+            0.2660971192879962,
+            -0.11964851372592188,
+            0.7740199415674328
+          ],
+          "actual_finger_q_rad": [
+            -0.06412978759909775,
+            -0.6007149180691742,
+            -0.9614051858437255,
+            1.3932800416184308,
+            0.07680818065002867,
+            1.4584826113230798,
+            0.0007773665218341454
+          ],
+          "hand_reference_rad": [
+            -0.0626197157228105,
+            -0.5923921248006748,
+            -0.9700713359390589,
+            1.4,
+            0.08,
+            1.4629651966142312,
+            0.002
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.2932833682687511,
+              -0.1261521802794636,
+              0.7755275497855655
+            ],
+            [
+              0.2831454646984281,
+              -0.07822333416840864,
+              0.7733254579074726
+            ],
+            [
+              0.23887514840552498,
+              -0.11413268391536674,
+              0.7761428232485903
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.2688850325105923,
+            -0.12202253289757027,
+            0.77449771382526
+          ],
+          "hypothetical_closed_capture_error_m": 0.003692789392103185,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.0004474724981510248,
+              "target_points_m": [
+                [
+                  0.2929505848352839,
+                  -0.12599787912161092,
+                  0.7757936854613078
+                ],
+                [
+                  0.23922854224453047,
+                  -0.11403031625391538,
+                  0.7766676289398806
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.292954700954475,
+                  -0.12599798012434274,
+                  0.7757936828265867
+                ],
+                [
+                  0.23878120449549503,
+                  -0.11401933932817351,
+                  0.7766679152800365
+                ]
+              ],
+              "command_rad": [
+                -0.0626197157228105,
+                -0.5923921248006748,
+                -0.9700713359390589,
+                1.4,
+                0.08,
+                1.4629651966142312,
+                0.002
+              ],
+              "normal": [
+                -0.9691163675828471,
+                0.24660386469605022,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        },
+        {
+          "phase": "LIFT",
+          "saved_time_s": 49.36200000001436,
+          "body_arm_rad": [
+            -0.9885835296304962,
+            -0.7190429941502632,
+            0.9570142858358054,
+            0.38098326121499104,
+            0.5201948437962708,
+            1.4576658661287025,
+            0.5680605835346505
+          ],
+          "body_reference_arm_rad": [
+            -0.8758617887215362,
+            -0.5108130466545411,
+            0.9044967768288414,
+            0.5648213607481368,
+            0.1988222839135865,
+            1.6041523876019494,
+            0.6854053118478494
+          ],
+          "wrist_position_m": [
+            0.3121191554986916,
+            -0.149270112854822,
+            0.9703677543666531
+          ],
+          "wrist_rotation": [
+            [
+              0.11895243787912417,
+              -0.6579684826211443,
+              0.743591146665857
+            ],
+            [
+              -0.06201973144055212,
+              0.7425222474150688,
+              0.6669439744129331
+            ],
+            [
+              -0.9909610842180719,
+              -0.12545193490299905,
+              0.04751780292099762
+            ]
+          ],
+          "cube_position_m": [
+            0.2677198728584119,
+            -0.11117642431560067,
+            0.7741234191057268
+          ],
+          "actual_finger_q_rad": [
+            -0.07751735447528536,
+            -1.0332020376045432,
+            -0.2744271085665034,
+            1.3902368902568507,
+            0.07634920533120787,
+            1.259986660428053,
+            0.1187549027478129
+          ],
+          "hand_reference_rad": [
+            -0.09116297618065272,
+            -0.9996059350306109,
+            -0.1931932746818688,
+            1.4,
+            0.08,
+            1.2272667877046137,
+            0.10362481939450809
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.299922404133939,
+              -0.11156505815089529,
+              0.7954895662894271
+            ],
+            [
+              0.28198770671985013,
+              -0.06142425954898204,
+              0.8086855317246812
+            ],
+            [
+              0.2420779833951655,
+              -0.10140038792766509,
+              0.7947613793715026
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.26766087697080304,
+            -0.10526829044307615,
+            0.8063381175259833
+          ],
+          "hypothetical_closed_capture_error_m": 0.032752043000071035,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.00769081128586205,
+              "target_points_m": [
+                [
+                  0.295425463330356,
+                  -0.10732020915569476,
+                  0.7890672468165771
+                ],
+                [
+                  0.24162607298314379,
+                  -0.1023726147769004,
+                  0.7891538000081006
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.2952699931621461,
+                  -0.10728531393680645,
+                  0.7967564073419686
+                ],
+                [
+                  0.24347298772151865,
+                  -0.10259971740619606,
+                  0.7897647826645916
+                ]
+              ],
+              "command_rad": [
+                -0.07362039921163258,
+                -1.0139792782815766,
+                -0.1931932746818688,
+                1.4,
+                0.08,
+                1.2178040568146298,
+                0.10379232528694313
+              ],
+              "normal": [
+                -0.9783249497945633,
+                0.207075572218128,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        },
+        {
+          "phase": "HOLD",
+          "saved_time_s": 53.36200000001925,
+          "body_arm_rad": [
+            -1.2767130346044098,
+            -0.9431066994612093,
+            1.107156633015608,
+            0.2378906256274544,
+            0.8059199605407431,
+            1.3535909436455216,
+            0.5413026670252422
+          ],
+          "body_reference_arm_rad": [
+            -1.1912984654579482,
+            -0.7097137599307355,
+            1.108208918071676,
+            0.42934797748904663,
+            0.45928818085093764,
+            1.6124296501995925,
+            0.6799006309586638
+          ],
+          "wrist_position_m": [
+            0.335188914242937,
+            -0.13246991172585715,
+            1.048505448776191
+          ],
+          "wrist_rotation": [
+            [
+              0.29000678901244836,
+              -0.7339548838566947,
+              0.6141712226973794
+            ],
+            [
+              0.046055354716475816,
+              0.6517103346866043,
+              0.7570683879046942
+            ],
+            [
+              -0.9559157738151556,
+              -0.19126909872109166,
+              0.22280297405060012
+            ]
+          ],
+          "cube_position_m": [
+            0.26977912094180223,
+            -0.1146875713813751,
+            0.7744078785418239
+          ],
+          "actual_finger_q_rad": [
+            0.32564187744887757,
+            -1.0011765967963322,
+            -0.13042976473297102,
+            1.389679875693282,
+            0.07615184253398775,
+            0.9189502746678503,
+            0.10450722106710464
+          ],
+          "hand_reference_rad": [
+            0.3317979158643144,
+            -0.9959525900334513,
+            -0.1361932746818689,
+            1.4,
+            0.08,
+            0.9282283166390065,
+            0.10383358870627395
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.312676935786528,
+              -0.10381130996449625,
+              0.8749000554878116
+            ],
+            [
+              0.3192513897994439,
+              -0.03528264308604045,
+              0.8901186944245073
+            ],
+            [
+              0.30874671896819894,
+              -0.08622794425995572,
+              0.8363525519772121
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.31309832344475125,
+            -0.08034333809190057,
+            0.8825392553628255
+          ],
+          "hypothetical_closed_capture_error_m": 0.12144329672295132,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.08690345956008838,
+              "target_points_m": [
+                [
+                  0.2971976575880667,
+                  -0.10380116375101436,
+                  0.7894078785418239
+                ],
+                [
+                  0.24334852860167658,
+                  -0.09870558813303917,
+                  0.7894078785418239
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.3118588612284401,
+                  -0.10434025270215558,
+                  0.8750639920097497
+                ],
+                [
+                  0.3076429138656351,
+                  -0.08570719907901328,
+                  0.8376258097334196
+                ]
+              ],
+              "command_rad": [
+                0.3355666906391797,
+                -0.9959184607840492,
+                -0.13619327468186893,
+                1.4,
+                0.08,
+                0.9357626264342307,
+                0.10382923298770812
+              ],
+              "normal": [
+                -0.9978579453293638,
+                0.06541804753323395,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        },
+        {
+          "phase": "HOLD",
+          "saved_time_s": 54.36200000002047,
+          "body_arm_rad": [
+            -1.3387267632731756,
+            -0.9819481255554219,
+            1.1445639390618245,
+            0.21068492944064368,
+            0.8154012853143965,
+            1.3592011485649174,
+            0.5110471888655767
+          ],
+          "body_reference_arm_rad": [
+            -1.2414434663481984,
+            -0.7557873477097968,
+            1.1311927930902417,
+            0.3769900527529624,
+            0.4922476493612359,
+            1.6124300009972676,
+            0.6941914326000969
+          ],
+          "wrist_position_m": [
+            0.3324010474177695,
+            -0.139760798895633,
+            1.058252134801926
+          ],
+          "wrist_rotation": [
+            [
+              0.3420789884639939,
+              -0.7214399717633172,
+              0.6020849880154769
+            ],
+            [
+              0.01646543304235193,
+              0.6452437068525513,
+              0.763799350799612
+            ],
+            [
+              -0.9395269315810914,
+              -0.2513661192550122,
+              0.23260313610202352
+            ]
+          ],
+          "cube_position_m": [
+            0.26977912094180223,
+            -0.1146875713813751,
+            0.7744078785418239
+          ],
+          "actual_finger_q_rad": [
+            0.37506047918185903,
+            -0.9995184003542773,
+            -0.13239944100178094,
+            1.3897819645340141,
+            0.07615793803073428,
+            0.9870351196122322,
+            0.10372938164794153
+          ],
+          "hand_reference_rad": [
+            0.38133616407616217,
+            -0.9952395235519246,
+            -0.1361932746818686,
+            1.4,
+            0.08,
+            0.9958971797032399,
+            0.10379207496012602
+          ],
+          "actual_pad_centres_m": [
+            [
+              0.3161890306270975,
+              -0.11989965089699052,
+              0.8833783580750059
+            ],
+            [
+              0.32530903792974986,
+              -0.04753807101663033,
+              0.8963039002827278
+            ],
+            [
+              0.31297391569544003,
+              -0.0979357178459602,
+              0.848671188475883
+            ]
+          ],
+          "hypothetical_closed_surface_point_m": [
+            0.32026050044468035,
+            -0.0928600355379641,
+            0.8899291301130128
+          ],
+          "hypothetical_closed_capture_error_m": 0.12794518577141895,
+          "zero_step_hand_replan": {
+            "calls": 1,
+            "body_target_override": false,
+            "object_state_writes": false,
+            "object_localization": "simulator state, not vision",
+            "geometric_pad_preload_m": 0.0005,
+            "tangential_face_half_region_m": 0.015,
+            "face_region_definition": "target centres remain inside the selected cube face region; actual contact margin still requires physics validation",
+            "preload_definition": "finger IK target penetration only; not a physical object weld/force injection or a measured-force guarantee",
+            "last": {
+              "max_pad_target_error_m": 0.09599913566207575,
+              "target_points_m": [
+                [
+                  0.29662197070679935,
+                  -0.11945769423913666,
+                  0.7894078785418239
+                ],
+                [
+                  0.24334852860167658,
+                  -0.09870558813303917,
+                  0.7894078785418239
+                ]
+              ],
+              "achievable_points_m": [
+                [
+                  0.31560077969418204,
+                  -0.12015554050618826,
+                  0.8835096950379662
+                ],
+                [
+                  0.31236970624486254,
+                  -0.09766831363613389,
+                  0.8493570875596914
+                ]
+              ],
+              "command_rad": [
+                0.38133616407616217,
+                -0.9952395235519246,
+                -0.1361932746818686,
+                1.4,
+                0.08,
+                0.9958971797032399,
+                0.10379207496012602
+              ],
+              "normal": [
+                -0.9981045817648411,
+                0.06154058709527819,
+                0.0
+              ],
+              "opposing_cube_axis": 0
+            }
+          }
+        }
+      ],
+      "branch_candidates": [
+        {
+          "seed_label": "actual_arm_at_approach_end",
+          "body_q": [
+            -1.387177692468409,
+            -0.8406106328183041,
+            1.1863751853381757,
+            0.16512286935487816,
+            0.9221896559216555,
+            1.61243,
+            0.46417331405433365
+          ],
+          "target_m": [
+            0.267,
+            -0.118,
+            0.8744078785418263
+          ],
+          "closed_surface_error_m": 0.00010569313309368851,
+          "open_hand_robot_table_min_distance_m": 0.06979701608302169,
+          "zero_step_finger_replan_error_m": 0.002149155026999111,
+          "source_legacy_seed": null
+        },
+        {
+          "seed_label": "legacy_selected_endpoint",
+          "body_q": [
+            -1.1067037156738304,
+            -0.7426814371558957,
+            0.9853538214783285,
+            -0.09223526579821135,
+            -0.2530712133643622,
+            0.14812255722885392,
+            1.4864534888823204
+          ],
+          "target_m": [
+            0.267,
+            -0.118,
+            0.8744078785418263
+          ],
+          "closed_surface_error_m": 1.1046716305514868e-13,
+          "open_hand_robot_table_min_distance_m": 0.06979701608302169,
+          "zero_step_finger_replan_error_m": 0.0012279042675395757,
+          "source_legacy_seed": 1
+        }
+      ]
+    }
+  ],
+  "limits": "Saved-state FK/hand-IK feasibility only. Forward recomputation does not supply original solver force. Legacy branch uses a different root/frame and per-own-seed metric; candidates have no SONIC tracking, dynamic collision-free path or physical grasp certificate."
+}

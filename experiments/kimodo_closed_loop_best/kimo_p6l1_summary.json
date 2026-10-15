@@ -1,0 +1,526 @@
+{
+  "success": true,
+  "gates": {
+    "completed": true,
+    "hold_7cm": true,
+    "two_fingers": true,
+    "no_support": true,
+    "clearance_4cm": true,
+    "slip_1cm": true,
+    "release_drop_6cm": true,
+    "final_supported": true,
+    "final_fingers_off": true,
+    "no_external": true,
+    "no_warnings": true,
+    "upright": true,
+    "no_table_rest_in_hold": true,
+    "no_nonfoot_floor_support_in_hold": true,
+    "feet_supported_in_hold": true,
+    "fingertip_only_robot_contacts_in_hold": true,
+    "final_table_supported": true,
+    "actual_arm_speed_within_limit": true,
+    "actual_body_limits_within_2mrad": true,
+    "no_robot_table_contact_full_task": true
+  },
+  "gates_passed": 20,
+  "gates_total": 20,
+  "events": [
+    [
+      "SETTLE",
+      0.0
+    ],
+    [
+      "APPROACH",
+      2.002
+    ],
+    [
+      "PREGRASP",
+      24.408
+    ],
+    [
+      "DESCEND",
+      36.41
+    ],
+    [
+      "ALIGN",
+      44.412
+    ],
+    [
+      "CLOSE",
+      44.612
+    ],
+    [
+      "LIFT",
+      45.554
+    ],
+    [
+      "HOLD",
+      53.558
+    ],
+    [
+      "RELEASE",
+      55.562
+    ],
+    [
+      "SETTLE_RELEASE",
+      56.566
+    ]
+  ],
+  "fail": null,
+  "source": {
+    "source_npz": "/data/group4/20261008-232029-workbuddy-34e89f61/harness_s1000/rep/src/original_motions/p6_conv.npz",
+    "source_npz_sha256": "ef46c0c22135d34de3a6cdd03e9f8b878e2d5e9353572b88fbc1c6b3f77b0ed1",
+    "native_frames": 75,
+    "native_clip_duration_s": 3.0,
+    "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5"
+  },
+  "prior_consumed": {
+    "ardy_arm_prior_consumed_by_sonic": true,
+    "native_path_consumed_by_sonic": true,
+    "native_ardy_grasp_established": false,
+    "ardy_off": false,
+    "hold_support_contact_gates_passed": true,
+    "com_cop_stability_validated": false
+  },
+  "clearance_approach": {
+    "kind": "real-wrist full pose raise, then closed-pad task transition",
+    "actual_wrist_clearance_z_m": 0.9,
+    "hover_wrist_position_m": [
+      0.05423944612546007,
+      -0.22182271272211787,
+      0.925
+    ],
+    "clearance_passed_time_s": 15.598,
+    "approach_time_limit_s": 26.0,
+    "post_clearance_transition_s": 6.0,
+    "rotation_frozen_until_actual_clearance": true,
+    "body_motor_target_override": false,
+    "geometry_constraint_certified": false,
+    "limits": "Task scaffold into SONIC reference only; clearance checks wrist height, not every link. Original solver contacts and actual velocity/limits remain the acceptance evidence."
+  },
+  "native_branch": {
+    "attempt_used": null,
+    "candidate_count": 7,
+    "evaluated_count": 7,
+    "selected": {
+      "seed_label": "arm_nullspace_basis01_step-010",
+      "capture_error_m": 1.970450397214979e-15,
+      "finger_replan_error_m": 0.0007359049047765409,
+      "minimum_arm_limit_margin_rad": 0.05412521487266009
+    }
+  },
+  "contact_audit_summary": {
+    "raw_contact_rows": 109946,
+    "all_steps": {
+      "pad": {
+        "max_normal_N": 4.619001719956858,
+        "loaded_steps": 5440,
+        "max_upward_force_N": 0.5049489426901396,
+        "min_vertical_force_N": -1.7712051393780333
+      },
+      "wrist": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "other_robot": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "support": {
+        "max_normal_N": 3.7856523434188727,
+        "loaded_steps": 24963,
+        "max_upward_force_N": 3.7856523434188727,
+        "min_vertical_force_N": 0.0
+      },
+      "other": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      }
+    },
+    "hold_steps": {
+      "pad": {
+        "max_normal_N": 1.9236428733098796,
+        "loaded_steps": 993,
+        "max_upward_force_N": 0.21393615323550857,
+        "min_vertical_force_N": 0.18253005897719732
+      },
+      "wrist": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "other_robot": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "support": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "other": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      }
+    },
+    "hold_sample_count": 993,
+    "fingertip_only_robot_contacts_in_hold": true
+  },
+  "balance_audit_summary": {
+    "physics_steps": 29785,
+    "hold_samples": 993,
+    "foot_body_whitelist": [
+      "left_ankle_roll_link",
+      "right_ankle_roll_link"
+    ],
+    "robot_table_hold_max_normal_N": 0.0,
+    "nonfoot_floor_hold_max_normal_N": 0.0,
+    "foot_floor_hold_min_normal_N": 350.38515407011573,
+    "robot_table_all_max_normal_N": 0.0,
+    "nonfoot_floor_all_max_normal_N": 0.0,
+    "no_table_rest_in_hold": true,
+    "no_nonfoot_floor_support_in_hold": true,
+    "feet_supported_in_hold": true,
+    "state_mutations": false,
+    "scope": "support contacts only; not a COM/COP stability-margin certificate",
+    "raw_robot_support_contact_rows": 0,
+    "raw_robot_support_contact_limit": 1440000,
+    "raw_force_frame": "MuJoCo contact frame; f0 is normal, wrench on geom2; not signed world support force",
+    "raw_contact_columns": [
+      "time_s",
+      "solver_time_s",
+      "phase",
+      "contact_index",
+      "robot_geom_id",
+      "robot_geom_name",
+      "support_geom_id",
+      "support_geom_name",
+      "robot_body",
+      "category",
+      "distance_m",
+      "normal_force_N",
+      "tangent1_force_N",
+      "tangent2_force_N",
+      "contact_torque0_Nm",
+      "contact_torque1_Nm",
+      "contact_torque2_Nm"
+    ]
+  },
+  "execution_audit": {
+    "physics_samples": 29785,
+    "sample_hz": 500.0,
+    "actual_arm_speed_limit_rad_s": 2.0,
+    "actual_arm_speed_within_limit": true,
+    "actual_body_limits_within_2mrad": true,
+    "maximum_actual_arm_speed_rad_s": 1.3476816481548466,
+    "maximum_body_joint_limit_overshoot_rad": 0.0,
+    "state_mutations": false,
+    "control_mutations": false,
+    "definition": "Actual post-step qvel at500Hz; finite differences include solver transients. 2rad/s default and2mrad soft-limit tolerance are explicit engineering gates, not PDF/factory safety certification."
+  },
+  "action_csv": {
+    "path": "/data/group4/20261008-232029-workbuddy-34e89f61/wb_kimo_p6l1.action.csv",
+    "rows": 1788,
+    "cols": 51,
+    "t_first": 0.0,
+    "t_last": 59.5666667,
+    "root_xyz_unique": [
+      [
+        0.0,
+        0.0,
+        0.7887
+      ]
+    ],
+    "quat_unique": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "columns": [
+      "t_s",
+      "root_x",
+      "root_y",
+      "root_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "left_hand_thumb_0_joint",
+      "left_hand_thumb_1_joint",
+      "left_hand_thumb_2_joint",
+      "left_hand_middle_0_joint",
+      "left_hand_middle_1_joint",
+      "left_hand_index_0_joint",
+      "left_hand_index_1_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint",
+      "right_hand_thumb_0_joint",
+      "right_hand_thumb_1_joint",
+      "right_hand_thumb_2_joint",
+      "right_hand_index_0_joint",
+      "right_hand_index_1_joint",
+      "right_hand_middle_0_joint",
+      "right_hand_middle_1_joint"
+    ]
+  },
+  "action_json": {
+    "source": "/data/group4/20261008-232029-workbuddy-34e89f61/harness_s1000/rep/out/wb_kimo_p6l1/trajectory.npz",
+    "fps_out": 30.0,
+    "fps_source": 25.0,
+    "frames": 1788,
+    "duration_s": 59.6,
+    "root_fixed": [
+      0.0,
+      0.0,
+      0.7887
+    ],
+    "quat_fixed": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "columns": [
+      "t_s",
+      "root_x",
+      "root_y",
+      "root_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "left_hand_thumb_0_joint",
+      "left_hand_thumb_1_joint",
+      "left_hand_thumb_2_joint",
+      "left_hand_middle_0_joint",
+      "left_hand_middle_1_joint",
+      "left_hand_index_0_joint",
+      "left_hand_index_1_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint",
+      "right_hand_thumb_0_joint",
+      "right_hand_thumb_1_joint",
+      "right_hand_thumb_2_joint",
+      "right_hand_index_0_joint",
+      "right_hand_index_1_joint",
+      "right_hand_middle_0_joint",
+      "right_hand_middle_1_joint"
+    ],
+    "phases": [
+      {
+        "phase": "SETTLE",
+        "start_s": 0.0,
+        "end_s": 2.0
+      },
+      {
+        "phase": "APPROACH",
+        "start_s": 2.04,
+        "end_s": 24.4
+      },
+      {
+        "phase": "PREGRASP",
+        "start_s": 24.44,
+        "end_s": 36.4
+      },
+      {
+        "phase": "DESCEND",
+        "start_s": 36.44,
+        "end_s": 44.4
+      },
+      {
+        "phase": "ALIGN",
+        "start_s": 44.44,
+        "end_s": 44.6
+      },
+      {
+        "phase": "CLOSE",
+        "start_s": 44.64,
+        "end_s": 45.52
+      },
+      {
+        "phase": "LIFT",
+        "start_s": 45.56,
+        "end_s": 53.52
+      },
+      {
+        "phase": "HOLD",
+        "start_s": 53.56,
+        "end_s": 55.56
+      },
+      {
+        "phase": "RELEASE",
+        "start_s": 55.6,
+        "end_s": 56.56
+      },
+      {
+        "phase": "SETTLE_RELEASE",
+        "start_s": 56.6,
+        "end_s": 59.56
+      }
+    ]
+  },
+  "telemetry": {
+    "rows": 29785,
+    "available_columns": [
+      "time_s",
+      "cube_x_m",
+      "cube_y_m",
+      "cube_z_m",
+      "cube_wrist_x_m",
+      "cube_wrist_y_m",
+      "cube_wrist_z_m",
+      "thumb_force_N",
+      "index_force_N",
+      "middle_force_N",
+      "support_force_N",
+      "cube_bottom_m",
+      "base_xy_drift_m",
+      "base_up_z",
+      "surface_capture_error_m",
+      "pad_vertical_spread_m",
+      "actual_minus_virtual_ref_right_shoulder_pitch_joint_rad",
+      "actual_minus_virtual_ref_right_shoulder_roll_joint_rad",
+      "actual_minus_virtual_ref_right_shoulder_yaw_joint_rad",
+      "actual_minus_virtual_ref_right_elbow_joint_rad",
+      "actual_minus_virtual_ref_right_wrist_roll_joint_rad",
+      "actual_minus_virtual_ref_right_wrist_pitch_joint_rad",
+      "actual_minus_virtual_ref_right_wrist_yaw_joint_rad"
+    ],
+    "max_thumb_force_N": 2.50397679,
+    "max_index_force_N": 0.0,
+    "max_middle_force_N": 2.50288833,
+    "max_surface_capture_error_m": 0.223750231,
+    "max_pad_vertical_spread_m": 0.0532702541,
+    "max_base_xy_drift_m": 0.0390601886
+  },
+  "trajectory_keys": [
+    "actuator_ctrl",
+    "applied_motor_target",
+    "body_reference",
+    "decoded_motor_target",
+    "fps",
+    "hand_reference",
+    "phase",
+    "qpos",
+    "qvel",
+    "raw_decoded_motor_target",
+    "runtime_stamp",
+    "scene",
+    "time",
+    "wrist_target"
+  ],
+  "fingers": {
+    "frames": 1490,
+    "phases_present": [
+      "ALIGN",
+      "APPROACH",
+      "CLOSE",
+      "DESCEND",
+      "HOLD",
+      "LIFT",
+      "PREGRASP",
+      "RELEASE",
+      "SETTLE",
+      "SETTLE_RELEASE"
+    ],
+    "right_hand_qpos_index": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "hand_reference_first": [
+      0.0,
+      -0.7,
+      -2.0,
+      1.4,
+      0.08,
+      1.4,
+      0.08
+    ],
+    "hand_reference_last": [
+      0.0,
+      -0.7,
+      -2.0,
+      1.4,
+      0.08,
+      1.4,
+      0.08
+    ],
+    "SETTLE_ALIGN_drift_rad": 0.010567806350830544,
+    "LIFT_HOLD_drift_rad": 0.0049960366109732535,
+    "HOLD_HOLD_drift_rad": 9.243079472909255e-05
+  }
+}

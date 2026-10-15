@@ -1,0 +1,23 @@
+{
+  "physical_steps": 0,
+  "pass_count": 17,
+  "tests": [
+    "reject_fps_argument_20",
+    "reject_fps20",
+    "reject_nan",
+    "reject_nonrotation",
+    "reject_reflection",
+    "reject_wrong_shape",
+    "reject_one_frame",
+    "reject_missing_text",
+    "reject_csv_nan",
+    "reject_csv_swapped_joints",
+    "reject_csv_bad_quaternion",
+    "reject_nan_clock",
+    "reject_matrix_clock",
+    "reject_empty_clock",
+    "reject_clock_bound",
+    "held_endpoints_have_zero_velocity",
+    "slerp_unit_quaternions"
+  ]
+}

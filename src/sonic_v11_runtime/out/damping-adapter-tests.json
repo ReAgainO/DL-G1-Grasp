@@ -1,0 +1,114 @@
+{
+  "physical_steps": 0,
+  "pass_count": 6,
+  "tests": [
+    "scale1 bitwise factory parity",
+    "scale3 changes KD only",
+    "non-right-arm torques unchanged",
+    "robot state/policy targets/actions unchanged",
+    "original torque limits respected",
+    "scale>4 rejected"
+  ],
+  "source_sha": "4de357d8abe1042e057e2d4e9a5e6d477e83fbb5a65a81d32473c4498b9c471c",
+  "audit": {
+    "ort_version": "1.23.2",
+    "models": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    },
+    "encoder_slots": [
+      {
+        "name": "encoder_mode_4",
+        "width": 4
+      },
+      {
+        "name": "motion_joint_positions_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_joint_velocities_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_anchor_orientation_heading_10frame_step5",
+        "width": 60
+      },
+      {
+        "name": "motion_anchor_orientation_heading",
+        "width": 6
+      },
+      {
+        "name": "motion_joint_positions_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "motion_joint_velocities_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "vr_3point_local_target",
+        "width": 9
+      },
+      {
+        "name": "vr_3point_local_orn_target",
+        "width": 12
+      },
+      {
+        "name": "smpl_joints_10frame_step1",
+        "width": 720
+      },
+      {
+        "name": "smpl_anchor_orientation_heading_10frame_step1",
+        "width": 60
+      },
+      {
+        "name": "motion_joint_positions_wrists_10frame_step1",
+        "width": 60
+      }
+    ],
+    "decoder_slots": [
+      {
+        "name": "token_state",
+        "width": 64
+      },
+      {
+        "name": "his_base_angular_velocity_10frame_step1",
+        "width": 30
+      },
+      {
+        "name": "his_body_joint_positions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_body_joint_velocities_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_last_actions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_gravity_dir_10frame_step1",
+        "width": 30
+      }
+    ],
+    "policy_calls": 0,
+    "unique_encoder_inputs": 0,
+    "unique_actions": 0,
+    "body_action_source": "official SONIC v1.1 ONNX; zero arm target overrides",
+    "mode_ids": [],
+    "right_arm_pd_kp_scale": 1.0,
+    "right_arm_pd_kd_scale": 3.0,
+    "independent_arm_damping_scales_observed": [
+      1.0,
+      3.0
+    ],
+    "right_arm_gravity_feedforward_scale": 0.0,
+    "max_added_gravity_torque_Nm": 0.0,
+    "actuator_adapter": "SONIC decoded motor targets + PD; optional MODEL GRAVITY ONLY on right-arm actuator torques, no target or generalized-force override",
+    "torque_clipped_cells": 0,
+    "torque_steps": 2,
+    "original_effort_limits_preserved": true
+  }
+}

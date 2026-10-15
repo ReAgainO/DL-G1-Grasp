@@ -1,0 +1,121 @@
+{
+  "status": "FAIL",
+  "model": "ARDY/G1 full-body reference + Dex3 three-finger hand; prescribed kinematic robot, dynamic free cube",
+  "source_scene": "/data/group4/20261009-020500-codex-ardyside3/source/baseline_d50_12_19/scene.xml",
+  "source_scene_sha256": "d8b8589905e9abaf89ab5918d23d59b6a102cf65c060cad4f75315c51a3cd350",
+  "source_trajectory": "/data/group4/20261009-020500-codex-ardyside3/source/baseline_d50_12_19/trajectory.npz",
+  "source_trajectory_sha256": "0ec6241914b15b6c2482669450b669450e7df1755b005dc356c09de8392244ab",
+  "user_reference_video_sha256": "66ffe387baff75715892d7590040a0263a6c0cfcd850e5d90f3123170032af4e",
+  "mujoco_version": "3.14.0",
+  "nq": 57,
+  "nv": 55,
+  "nu": 43,
+  "neq": 0,
+  "timestep_s": 0.002,
+  "source_fps": 25,
+  "frames": 1518,
+  "sim_duration_s": 60.680000000028194,
+  "cube_edge_m": 0.05,
+  "cube_mass_kg": 0.02,
+  "cube_initial_center_m": [
+    0.2912,
+    -0.0834,
+    0.782
+  ],
+  "table_top_z_m": 0.757,
+  "table_size_half_m": [
+    0.315,
+    0.45,
+    0.025
+  ],
+  "cube_yaw_deg": 38.4,
+  "handpad_radius_m": 0.01,
+  "tripod_face_normal_xy": [
+    0.7836934573258398,
+    0.6211477802783103
+  ],
+  "tripod_targets_world_m": [
+    [
+      0.3186292710064044,
+      -0.06165982769025914,
+      0.782
+    ],
+    [
+      0.2687399112358221,
+      -0.11140971996834759,
+      0.794
+    ],
+    [
+      0.2588015467513691,
+      -0.09887062465113414,
+      0.77
+    ]
+  ],
+  "tripod_actual_pad_centers_world_m": [
+    [
+      0.3186289800443801,
+      -0.061662083242513474,
+      0.7819995388369863
+    ],
+    [
+      0.2735953952671266,
+      -0.11752255793147146,
+      0.8057154040975366
+    ],
+    [
+      0.2539456378839115,
+      -0.09275529612063937,
+      0.7582868272034523
+    ]
+  ],
+  "tripod_pad_distances_to_cube_m": [
+    -1.6290563108461303e-06,
+    -8.235335488054538e-06,
+    7.0212664076366865e-06
+  ],
+  "tripod_pad_center_signed_face_projection_m": [
+    0.03499837094368915,
+    -0.03499176466451194,
+    -0.03500702126640763
+  ],
+  "ik_success_flag": false,
+  "ik_nfev": 700,
+  "ik_joint_delta_rad": {
+    "right_shoulder_pitch_joint": 0.6177066743760293,
+    "right_shoulder_roll_joint": 0.4719535047439828,
+    "right_shoulder_yaw_joint": -1.0807681914904932,
+    "right_elbow_joint": 0.9484719655855743,
+    "right_wrist_roll_joint": 1.1354894108852998,
+    "right_wrist_pitch_joint": -0.28726429269183495,
+    "right_wrist_yaw_joint": -0.4621784864819978,
+    "right_hand_thumb_0_joint": -0.0003873805932363588,
+    "right_hand_thumb_1_joint": 0.37555939141774997,
+    "right_hand_thumb_2_joint": 1.1350280713090601,
+    "right_hand_index_0_joint": 0.40952242860692034,
+    "right_hand_index_1_joint": 0.855362842512165,
+    "right_hand_middle_0_joint": 0.3591991064830804,
+    "right_hand_middle_1_joint": 0.8333266615474199
+  },
+  "hold_window_s": [
+    54.676000000020856,
+    55.676000000020856
+  ],
+  "hold_frames": 25,
+  "hold_contact_rate_each": {
+    "thumb": 0.0,
+    "index": 0.0,
+    "middle": 0.0
+  },
+  "hold_min_cube_bottom_clearance_m": -0.7570460607316171,
+  "hold_max_xy_slip_from_start_m": 6.607250774034444e-11,
+  "hold_table_support_frames": 0,
+  "gates": {
+    "three_finger_contact_rate_each_ge_90pct": false,
+    "hold_bottom_clearance_ge_70mm": false,
+    "hold_xy_slip_le_10mm": true,
+    "no_table_support_during_hold": true,
+    "static_2v1_pose_contact_and_face_sides": true
+  },
+  "physics_scope": "MuJoCo gravity/table/cube/finger contact; no weld; actuators disabled and robot qpos replayed kinematically",
+  "not_a_real_robot_test": true
+}

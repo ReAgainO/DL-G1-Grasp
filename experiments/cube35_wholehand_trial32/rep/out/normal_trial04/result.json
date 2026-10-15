@@ -1,0 +1,1455 @@
+{
+  "success": false,
+  "gates": {
+    "test_lift_load_transfer": false,
+    "completed": false,
+    "hold_7cm": false,
+    "two_real_fingers": false,
+    "no_support": false,
+    "clearance_4cm": false,
+    "slip_1cm": false,
+    "release_drop_6cm": false,
+    "final_supported": true,
+    "final_fingers_off": true,
+    "no_external": true,
+    "no_warnings": true,
+    "upright": true,
+    "allowed_finger_contacts_in_hold": false,
+    "actual_hand_limits_5mrad": true,
+    "actual_arm_speed_within_limit": true,
+    "actual_body_limits_within_2mrad": true,
+    "no_robot_table_contact_full_task": false,
+    "no_table_rest_in_hold": false,
+    "no_nonfoot_floor_support_in_hold": false,
+    "feet_supported_in_hold": false
+  },
+  "fail_reason": "approach_pose_timeout",
+  "events": [
+    {
+      "phase": "SETTLE",
+      "time": 0.0
+    },
+    {
+      "phase": "RAISE",
+      "time": 2.002000000000001
+    },
+    {
+      "phase": "APPROACH",
+      "time": 18.96200000000037
+    }
+  ],
+  "runtime": {
+    "mujoco": "3.2.7",
+    "model_sha": {
+      "scene": "e9392bfc068b8ebe791c5279a6e9f853b36a5b2754ac82b3d22f1b5332606844",
+      "robot": "752efe58b7fe0315e2fd5834556782618103e445d7f6fedccf09f7685c802c10"
+    },
+    "source_sha": {
+      "normal_runner4": "d40de7a05783e3c477062a7cbd5030fc33ea0403b6dbdf351155d46d7b305c52",
+      "goal_pose_policy": "8f36bf627a4dc9c7893a622d8f26617cf9e91f8bf695ac9bd805ae93d66e96e3",
+      "real_hand": "c1531f7b4a3e9a29461745db8dce71c68cd99f48755dcd16c8bb3bc2914c79f7",
+      "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+      "adaptive_hand": "d5fd93f1a13f7e50d116f2071d4e403fb8595df3e73f433d0c9ebded498c8b35",
+      "grasp_geometry": "f0f71714c7729569c485db32bf5c717c88303339f0684165e3134fc0c6acb926",
+      "reference_filter": "5c840b96db2d0f89abc1b8396b8c10c8c44ae3a3f609a8e2a1e3900d51aed234",
+      "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+      "stable_hand": "76781aeaaa91c92b2cfce76915854f29394763e2eed2211f407799431910ecbe",
+      "pose_policy": "57327c151a36d6a5a494ca02f94605a0ee56bde37da5934794c4a015325efac0",
+      "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39",
+      "sonic_grasp": "e90cdb1cbd6d3d7b82bfaa32745cdb6b27d0a3706b5509a3675aea84c41b6792",
+      "contact_audit": "9de6a6503141b7d8971398abf0d238579f156cce7994b237ae86dda18a1ced60",
+      "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4",
+      "execution_monitor": "dd9d078527e2551a15202322c7bd53eb98eb0dc22a013633dfa74a062a00cf0d",
+      "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5"
+    },
+    "sonic_weights": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    },
+    "ardy": {
+      "source_npz": "/data/group4/20261008-202654-codex-182c4568/rep/src/original_motions/new_motion_cube_a_s42.npz",
+      "source_npz_sha256": "a6ed5cb65d7fec5224253206d2854283d784dda11c27d8d6a8cc60333602cbed",
+      "source_fps": 25.0,
+      "native_frames": 100,
+      "native_clip_duration_s": 4.0,
+      "last_sample_time_s": 3.96,
+      "expected50Hz_frames": 199,
+      "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+      "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+      "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+      "joint_names": [
+        "left_hip_pitch_joint",
+        "left_hip_roll_joint",
+        "left_hip_yaw_joint",
+        "left_knee_joint",
+        "left_ankle_pitch_joint",
+        "left_ankle_roll_joint",
+        "right_hip_pitch_joint",
+        "right_hip_roll_joint",
+        "right_hip_yaw_joint",
+        "right_knee_joint",
+        "right_ankle_pitch_joint",
+        "right_ankle_roll_joint",
+        "waist_yaw_joint",
+        "waist_roll_joint",
+        "waist_pitch_joint",
+        "left_shoulder_pitch_joint",
+        "left_shoulder_roll_joint",
+        "left_shoulder_yaw_joint",
+        "left_elbow_joint",
+        "left_wrist_roll_joint",
+        "left_wrist_pitch_joint",
+        "left_wrist_yaw_joint",
+        "right_shoulder_pitch_joint",
+        "right_shoulder_roll_joint",
+        "right_shoulder_yaw_joint",
+        "right_elbow_joint",
+        "right_wrist_roll_joint",
+        "right_wrist_pitch_joint",
+        "right_wrist_yaw_joint"
+      ],
+      "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+      "text": "A person reaches forward with their right hand to grab a small object on a table.",
+      "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+      "paired_csv_sha256": "cb5f54314c7a30a2b6a101fe109c2c53f0361540d4b3e28db294b435577b7aaa",
+      "parity_joint_max_rad": 1.1920928955078125e-07,
+      "parity_root_translation_max_m": 0.0,
+      "parity_rotation_matrix_max": 1.603860459997719e-07
+    },
+    "gate_definition": "v6 real physical digit surfaces, no sphere contacts",
+    "selected_plan": {
+      "axis": 1,
+      "roll_deg": 60,
+      "seed": 2,
+      "score": 8.373933175632549e-10,
+      "arm_q": [
+        -0.19800077514859993,
+        0.4195608947371809,
+        0.2756098911715724,
+        -0.005905654181222277,
+        -0.6518736163538921,
+        1.3687414720871722,
+        -1.099033956896661
+      ],
+      "hand_q": [
+        0.32098967744134155,
+        -0.2535568312867861,
+        -0.08000000000000002,
+        0.1,
+        0.1,
+        1.3018682217960067,
+        0.08000000000000002
+      ],
+      "wrist_target": [
+        0.19770285855091574,
+        -0.028241299304024872,
+        0.9075877752486425
+      ],
+      "wrist_R": [
+        [
+          0.434019771463418,
+          0.37876649465027873,
+          0.8174122463660444
+        ],
+        [
+          -0.891834253321467,
+          0.30905561303448087,
+          0.3303275535804161
+        ],
+        [
+          -0.1275088333464936,
+          -0.8723649297067264,
+          0.47193318047833266
+        ]
+      ],
+      "grasp_center": [
+        0.28,
+        -0.118,
+        0.7825
+      ],
+      "position_error_mm": 8.373933175632549e-10,
+      "angle_error_deg": 1.4565329844408178e-07,
+      "table_min_mm": 9.93491357048104,
+      "cube_dist_mm": {
+        "physical_right_hand_thumb_0_link": 20.0,
+        "physical_right_hand_thumb_1_link": 20.0,
+        "physical_right_hand_thumb_2_link": 20.0,
+        "physical_right_hand_index_0_link": 20.0,
+        "physical_right_hand_index_1_link": 20.0,
+        "physical_right_hand_middle_0_link": 20.0,
+        "physical_right_hand_middle_1_link": 20.0,
+        "wrist87": 20.0,
+        "wrist89": 20.0
+      },
+      "marker_points": [
+        [
+          0.2799999999955238,
+          -0.09654297197607539,
+          0.7825000000987825
+        ],
+        [
+          0.33834709644131344,
+          -0.22770022591106903,
+          0.8639851120638569
+        ],
+        [
+          0.2799999998991285,
+          -0.13945702839713972,
+          0.7825000000996145
+        ]
+      ]
+    },
+    "plan_file_sha": "ac2eeb02d6825e54feb2628e465a383f4625f29d9765b14e0a2045de5a75c810",
+    "joint_plan_sha": "4dd0c1aeacdd61465599da453539aa30985106f4e33109bff92a37f7e3ac13cc",
+    "joint_plan": {
+      "waypoints": [
+        {
+          "name": "INITIAL",
+          "arm_q": [
+            0.445,
+            -0.249,
+            0.061,
+            0.494,
+            0.113,
+            -0.242,
+            -0.028
+          ],
+          "wrist_p": [
+            0.03780177780397599,
+            -0.21897797495572993,
+            0.7694780061709567
+          ],
+          "wrist_R": [
+            [
+              0.7641876532293611,
+              0.07038929124160037,
+              0.641141621118382
+            ],
+            [
+              -0.16628801901861223,
+              0.9819248450555681,
+              0.0903985253943003
+            ],
+            [
+              -0.6231897988435524,
+              -0.17569560706262252,
+              0.7620797387913084
+            ]
+          ],
+          "center": [
+            0.13265356578907883,
+            -0.1322980295675279,
+            0.6512996632247869
+          ]
+        },
+        {
+          "name": "SAFE",
+          "arm_q": [
+            0.6039213170775395,
+            -0.5888920293157536,
+            -0.9082998759235027,
+            -0.47954424726426853,
+            0.10311278910004931,
+            -0.49560866520771035,
+            0.04289838435305901
+          ],
+          "wrist_p": [
+            0.05024567565968685,
+            -0.3219065392219471,
+            1.0357154389691507
+          ],
+          "wrist_R": [
+            [
+              0.8045657286172654,
+              0.524394810094228,
+              -0.27871862420873084
+            ],
+            [
+              -0.00785340599858475,
+              0.478685164114403,
+              0.8779515007510318
+            ],
+            [
+              0.5938116808793765,
+              -0.7041807983770972,
+              0.3892519631912006
+            ]
+          ],
+          "center": [
+            0.22121193626743196,
+            -0.28786228074625386,
+            1.0263387894278742
+          ]
+        },
+        {
+          "name": "PRE",
+          "arm_q": [
+            0.3006765021250901,
+            0.32934696771149935,
+            0.8024144134318703,
+            -0.5677628799862324,
+            -0.7590622084638842,
+            1.5939058486548678,
+            -1.1405245872571301
+          ],
+          "wrist_p": [
+            0.09968104306106773,
+            -0.025570916619191295,
+            0.9316445080399617
+          ],
+          "wrist_R": [
+            [
+              0.4608237409338613,
+              0.37276616454383915,
+              0.805410992203978
+            ],
+            [
+              -0.87472921436227,
+              0.3441236996040277,
+              0.3412150068681069
+            ],
+            [
+              -0.14996760094395978,
+              -0.8617565003770565,
+              0.4846498248477976
+            ]
+          ],
+          "center": [
+            0.1850903734889735,
+            -0.10936267116085377,
+            0.8045202243461618
+          ]
+        },
+        {
+          "name": "GRASP",
+          "arm_q": [
+            -0.19800077514859993,
+            0.4195608947371809,
+            0.2756098911715724,
+            -0.005905654181222277,
+            -0.6518736163538921,
+            1.3687414720871722,
+            -1.099033956896661
+          ],
+          "wrist_p": [
+            0.19770285855098876,
+            -0.028241299303347858,
+            0.9075877752481551
+          ],
+          "wrist_R": [
+            [
+              0.4340197696118978,
+              0.3787664963827343,
+              0.8174122465463707
+            ],
+            [
+              -0.8918342542988528,
+              0.3090556121667666,
+              0.3303275517534615
+            ],
+            [
+              -0.1275088328126554,
+              -0.8723649292619314,
+              0.4719331814447687
+            ]
+          ],
+          "center": [
+            0.27999999994732616,
+            -0.11800000018660756,
+            0.7825000000991985
+          ]
+        },
+        {
+          "name": "LIFT",
+          "arm_q": [
+            -0.3325707860119142,
+            0.7537563870438371,
+            0.19893457362989658,
+            -0.06091699067975397,
+            -1.9322199999998564,
+            1.4287243279308144,
+            -0.16677574198661957
+          ],
+          "wrist_p": [
+            0.19409329147473112,
+            -0.021684602091306494,
+            1.0000530986914211
+          ],
+          "wrist_R": [
+            [
+              0.40453036346240007,
+              0.4421545036258274,
+              0.8005339342965903
+            ],
+            [
+              -0.9111635046449402,
+              0.2698427761311593,
+              0.3113935515918399
+            ],
+            [
+              -0.07833423798141753,
+              -0.8553854517661778,
+              0.5120346434242935
+            ]
+          ],
+          "center": [
+            0.28000206078333373,
+            -0.11799742915031064,
+            0.8824949511313358
+          ]
+        }
+      ],
+      "table_penetrations": [],
+      "lift_position_error_mm": 0.0060288614896620765
+    }
+  },
+  "no_grip": false,
+  "selected_plan": {
+    "axis": 1,
+    "roll_deg": 60,
+    "seed": 2,
+    "score": 8.373933175632549e-10,
+    "arm_q": [
+      -0.19800077514859993,
+      0.4195608947371809,
+      0.2756098911715724,
+      -0.005905654181222277,
+      -0.6518736163538921,
+      1.3687414720871722,
+      -1.099033956896661
+    ],
+    "hand_q": [
+      0.32098967744134155,
+      -0.2535568312867861,
+      -0.08000000000000002,
+      0.1,
+      0.1,
+      1.3018682217960067,
+      0.08000000000000002
+    ],
+    "wrist_target": [
+      0.19770285855091574,
+      -0.028241299304024872,
+      0.9075877752486425
+    ],
+    "wrist_R": [
+      [
+        0.434019771463418,
+        0.37876649465027873,
+        0.8174122463660444
+      ],
+      [
+        -0.891834253321467,
+        0.30905561303448087,
+        0.3303275535804161
+      ],
+      [
+        -0.1275088333464936,
+        -0.8723649297067264,
+        0.47193318047833266
+      ]
+    ],
+    "grasp_center": [
+      0.28,
+      -0.118,
+      0.7825
+    ],
+    "position_error_mm": 8.373933175632549e-10,
+    "angle_error_deg": 1.4565329844408178e-07,
+    "table_min_mm": 9.93491357048104,
+    "cube_dist_mm": {
+      "physical_right_hand_thumb_0_link": 20.0,
+      "physical_right_hand_thumb_1_link": 20.0,
+      "physical_right_hand_thumb_2_link": 20.0,
+      "physical_right_hand_index_0_link": 20.0,
+      "physical_right_hand_index_1_link": 20.0,
+      "physical_right_hand_middle_0_link": 20.0,
+      "physical_right_hand_middle_1_link": 20.0,
+      "wrist87": 20.0,
+      "wrist89": 20.0
+    },
+    "marker_points": [
+      [
+        0.2799999999955238,
+        -0.09654297197607539,
+        0.7825000000987825
+      ],
+      [
+        0.33834709644131344,
+        -0.22770022591106903,
+        0.8639851120638569
+      ],
+      [
+        0.2799999998991285,
+        -0.13945702839713972,
+        0.7825000000996145
+      ]
+    ]
+  },
+  "pose_reference_inverse": {
+    "calls": 212,
+    "probes": 2256,
+    "min_singular": 0.0,
+    "last": {
+      "error": [
+        0.14492915729999445,
+        0.09013099665084207,
+        0.18434326937992518,
+        -0.2225606266874812,
+        0.2545480810642159,
+        -0.2278239489648885
+      ],
+      "singular_values": [
+        4.961676611465151,
+        3.3052404603307393,
+        0.8388078597897071,
+        0.5977318368967244,
+        0.1051140810054425,
+        0.08897092824070146
+      ],
+      "delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "accepted": false
+    },
+    "body_target_override": false,
+    "history_mutation": false,
+    "kind": "candidate-goal frozen SONIC pose inverse with backtracking"
+  },
+  "bootstrap_pd_ramp_s": 1.5,
+  "hand_controller": "implicit mass-matrix PD",
+  "execution_audit": {
+    "physics_samples": 21482,
+    "sample_hz": 500.0,
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "phases": {
+      "SETTLE": {
+        "samples": 1001,
+        "actual_velocity_max_rad_s": [
+          1.1074533071672625,
+          1.8562825008901753,
+          1.9748780020196675,
+          2.6170086100451564,
+          4.902995251223299,
+          2.0200630723698314,
+          1.7249420551539816,
+          1.345833225858923,
+          0.9973220231534091,
+          3.8092110302601228,
+          5.047310029084867,
+          1.4566279979909902,
+          0.5909323921472964,
+          1.5341748855020019,
+          1.5021175343724844,
+          0.8071180593370647,
+          0.9181066420289462,
+          0.26039020339089763,
+          1.4435435745902756,
+          0.11911712038813389,
+          0.5795954732193965,
+          0.13444628116232127,
+          0.2512133275797021,
+          0.6505616756528455,
+          0.7581604256401271,
+          1.3284104888948491,
+          0.22274459419251527,
+          0.9524508741313384,
+          0.20228432210297245
+        ],
+        "actual_velocity_difference_acceleration_max_rad_s2": [
+          156.4627973841596,
+          137.08184587812084,
+          162.19736906397074,
+          221.4124595816267,
+          681.447264614539,
+          332.9033415549788,
+          183.4115881291789,
+          164.23829050661752,
+          162.96342500718,
+          378.9745427054658,
+          701.147743090719,
+          729.656488876836,
+          68.09301061216557,
+          155.7201142260408,
+          182.3224527013716,
+          56.15999393060572,
+          43.39782439294912,
+          21.224730408406195,
+          59.30846725892139,
+          8.612107603203606,
+          20.586209851586407,
+          4.260603345950894,
+          35.095780252655274,
+          55.20321147183585,
+          32.22677482770398,
+          84.71940359921729,
+          18.730496136282877,
+          35.979250981784254,
+          13.289636183436135
+        ],
+        "actual_joint_limit_overshoot_max_rad": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "peak_arm_time_s": 0.12600000000000008,
+        "peak_arm_joint": "right_elbow_joint"
+      },
+      "RAISE": {
+        "samples": 8480,
+        "actual_velocity_max_rad_s": [
+          0.3199121028743629,
+          0.1320866436763834,
+          0.2214827110071237,
+          0.32874905491359424,
+          0.18278051163966214,
+          0.07169573170327882,
+          0.3521906495469365,
+          0.13088748896438018,
+          0.23171063547173623,
+          0.34843752845617354,
+          0.20281952206583137,
+          0.0729637978758859,
+          0.19632234838446072,
+          0.14945871848006248,
+          0.33886090252174106,
+          0.20011965892584135,
+          0.32074601153436116,
+          0.3128647982366368,
+          0.4320095407198817,
+          0.3550500766201038,
+          0.249996706232165,
+          0.2248373163221471,
+          0.3819262042456841,
+          0.6316648814995758,
+          0.777823146338301,
+          0.7639228892818055,
+          0.746956228805782,
+          0.9430541830425592,
+          0.5254251716387728
+        ],
+        "actual_velocity_difference_acceleration_max_rad_s2": [
+          68.15652186278585,
+          10.07214890425588,
+          22.93233293745543,
+          17.90491051803667,
+          7.14717455111763,
+          2.123820320576536,
+          69.58138962125601,
+          9.83964624242854,
+          21.943369520598193,
+          16.330811503956873,
+          7.692168103243191,
+          2.1987477807706957,
+          24.487037780248457,
+          12.235645861432863,
+          78.09288193457569,
+          19.435610066859404,
+          9.260226161661624,
+          12.518215350774048,
+          15.594847989342506,
+          27.635459144658338,
+          11.641673878178015,
+          10.564426066041902,
+          20.23589791865435,
+          11.620354573917885,
+          15.957706089011703,
+          20.266447038568668,
+          66.91325776355811,
+          32.04240350281548,
+          16.314715175845738
+        ],
+        "actual_joint_limit_overshoot_max_rad": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "peak_arm_time_s": 7.327999999999415,
+        "peak_arm_joint": "right_wrist_pitch_joint"
+      },
+      "APPROACH": {
+        "samples": 12001,
+        "actual_velocity_max_rad_s": [
+          0.47274427151272935,
+          0.12446686323961775,
+          0.22298245267340144,
+          0.22088775067035096,
+          0.12705547850141613,
+          0.05118646833308249,
+          0.4815241095725055,
+          0.13100662033225877,
+          0.23121412238737418,
+          0.3469420315447973,
+          0.15677841424037187,
+          0.057417211071877215,
+          0.14677533248931968,
+          0.12965545326022726,
+          0.25784096794741307,
+          0.2784589057899311,
+          0.27783412162619153,
+          0.27051378310268903,
+          0.48749136267395654,
+          0.4444167283362751,
+          0.3303660242077881,
+          0.36983564464345087,
+          0.5115936159571257,
+          0.5030723554631127,
+          0.7298494405618006,
+          0.4113744460326092,
+          1.1089367584294016,
+          0.8107656370148494,
+          0.8378523671222141
+        ],
+        "actual_velocity_difference_acceleration_max_rad_s2": [
+          60.637230147424226,
+          9.80253763092477,
+          26.650068394913625,
+          18.988755657033245,
+          8.859507694626158,
+          1.9709903019630193,
+          63.15382858528079,
+          10.186214572289371,
+          26.8862621857839,
+          27.35863447909633,
+          8.053998802649689,
+          1.9707018684900317,
+          21.774572329673486,
+          13.471751890505828,
+          63.51443880514267,
+          15.744288467365505,
+          8.4939743742714,
+          11.50267606861749,
+          19.404575061942595,
+          32.002980938143395,
+          14.50508412406327,
+          13.2070644677542,
+          19.308745850344323,
+          25.596730382951133,
+          25.237082527807956,
+          25.49174494212992,
+          58.23091260203917,
+          23.7416002964827,
+          25.953778854456544
+        ],
+        "actual_joint_limit_overshoot_max_rad": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "peak_arm_time_s": 24.855999999997103,
+        "peak_arm_joint": "right_wrist_roll_joint"
+      }
+    },
+    "actual_arm_speed_limit_rad_s": 1.4,
+    "actual_arm_speed_within_limit": true,
+    "actual_body_limits_within_2mrad": true,
+    "maximum_actual_arm_speed_rad_s": 1.3284104888948491,
+    "maximum_body_joint_limit_overshoot_rad": 0.0,
+    "state_mutations": false,
+    "control_mutations": false,
+    "definition": "Actual post-step qvel at500Hz; finite differences include solver transients. 2rad/s default and2mrad soft-limit tolerance are explicit engineering gates, not PDF/factory safety certification."
+  },
+  "body_target_override": false,
+  "object_state_writes": false,
+  "fixture": false,
+  "contact_model": "actual seven finger link collision geoms; markers collision0; no active fingertip spheres",
+  "force_groups": {
+    "physical_right_hand_thumb_0_link": 0,
+    "physical_right_hand_thumb_1_link": 0,
+    "physical_right_hand_thumb_2_link": 0,
+    "physical_right_hand_index_0_link": 1,
+    "physical_right_hand_index_1_link": 1,
+    "physical_right_hand_middle_0_link": 2,
+    "physical_right_hand_middle_1_link": 2
+  },
+  "sonic": {
+    "ort_version": "1.23.2",
+    "models": {
+      "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+      "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+      "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+    },
+    "encoder_slots": [
+      {
+        "name": "encoder_mode_4",
+        "width": 4
+      },
+      {
+        "name": "motion_joint_positions_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_joint_velocities_10frame_step5",
+        "width": 290
+      },
+      {
+        "name": "motion_anchor_orientation_heading_10frame_step5",
+        "width": 60
+      },
+      {
+        "name": "motion_anchor_orientation_heading",
+        "width": 6
+      },
+      {
+        "name": "motion_joint_positions_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "motion_joint_velocities_lowerbody_10frame_step5",
+        "width": 120
+      },
+      {
+        "name": "vr_3point_local_target",
+        "width": 9
+      },
+      {
+        "name": "vr_3point_local_orn_target",
+        "width": 12
+      },
+      {
+        "name": "smpl_joints_10frame_step1",
+        "width": 720
+      },
+      {
+        "name": "smpl_anchor_orientation_heading_10frame_step1",
+        "width": 60
+      },
+      {
+        "name": "motion_joint_positions_wrists_10frame_step1",
+        "width": 60
+      }
+    ],
+    "decoder_slots": [
+      {
+        "name": "token_state",
+        "width": 64
+      },
+      {
+        "name": "his_base_angular_velocity_10frame_step1",
+        "width": 30
+      },
+      {
+        "name": "his_body_joint_positions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_body_joint_velocities_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_last_actions_10frame_step1",
+        "width": 290
+      },
+      {
+        "name": "his_gravity_dir_10frame_step1",
+        "width": 30
+      }
+    ],
+    "policy_calls": 2149,
+    "unique_encoder_inputs": 2149,
+    "unique_actions": 2149,
+    "body_action_source": "official SONIC v1.1 ONNX; no manual/IK arm motor targets; optional causal decoded-target adapter separately labelled",
+    "mode_ids": [
+      0
+    ],
+    "decoded_target_adapter_used": false,
+    "right_arm_pd_kp_scale": 1.0,
+    "right_arm_pd_kd_scale": 1.0,
+    "independent_arm_damping_scales_observed": [
+      1.0
+    ],
+    "right_arm_gravity_feedforward_scale": 1.0,
+    "max_added_gravity_torque_Nm": 4.61228072481579,
+    "actuator_adapter": "SONIC decoded motor targets + PD; optional explicitly labelled decoded-target filter and MODEL GRAVITY ONLY on right-arm actuator torques; no manual target/generalized-force override",
+    "torque_clipped_cells": 2,
+    "torque_steps": 21482,
+    "original_effort_limits_preserved": true
+  },
+  "max_lift_m": 0.0,
+  "hold_min_lift_m": null,
+  "hold_slip_m": 1000000000.0,
+  "max_hand_limit_overshoot_rad": 0.0,
+  "contact_audit_summary": {
+    "all_steps": {
+      "pad": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "wrist": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "other_robot": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      },
+      "support": {
+        "max_normal_N": 0.19663232579521375,
+        "loaded_steps": 21482,
+        "max_upward_force_N": 0.19663232579521375,
+        "min_vertical_force_N": 0.19089729729729615
+      },
+      "other": {
+        "max_normal_N": 0.0,
+        "loaded_steps": 0,
+        "max_upward_force_N": 0.0,
+        "min_vertical_force_N": 0.0
+      }
+    },
+    "hold_steps": {},
+    "hold_sample_count": 0,
+    "fingertip_only_robot_contacts_in_hold": false
+  },
+  "balance": {
+    "runtime_stamp": {
+      "mujoco": "3.2.7",
+      "model_sha": {
+        "scene": "e9392bfc068b8ebe791c5279a6e9f853b36a5b2754ac82b3d22f1b5332606844",
+        "robot": "752efe58b7fe0315e2fd5834556782618103e445d7f6fedccf09f7685c802c10"
+      },
+      "source_sha": {
+        "normal_runner4": "d40de7a05783e3c477062a7cbd5030fc33ea0403b6dbdf351155d46d7b305c52",
+        "goal_pose_policy": "8f36bf627a4dc9c7893a622d8f26617cf9e91f8bf695ac9bd805ae93d66e96e3",
+        "real_hand": "c1531f7b4a3e9a29461745db8dce71c68cd99f48755dcd16c8bb3bc2914c79f7",
+        "sonic_v11": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2",
+        "adaptive_hand": "d5fd93f1a13f7e50d116f2071d4e403fb8595df3e73f433d0c9ebded498c8b35",
+        "grasp_geometry": "f0f71714c7729569c485db32bf5c717c88303339f0684165e3134fc0c6acb926",
+        "reference_filter": "5c840b96db2d0f89abc1b8396b8c10c8c44ae3a3f609a8e2a1e3900d51aed234",
+        "finger_control": "47313b2dabff6848c48d6adab30415cdbbb4a9004aab1a95b71ab5b2c71b1a78",
+        "stable_hand": "76781aeaaa91c92b2cfce76915854f29394763e2eed2211f407799431910ecbe",
+        "pose_policy": "57327c151a36d6a5a494ca02f94605a0ee56bde37da5934794c4a015325efac0",
+        "source_physics_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39",
+        "sonic_grasp": "e90cdb1cbd6d3d7b82bfaa32745cdb6b27d0a3706b5509a3675aea84c41b6792",
+        "contact_audit": "9de6a6503141b7d8971398abf0d238579f156cce7994b237ae86dda18a1ced60",
+        "balance_audit": "105a8a8426cdf2281c7668923715223cf1997745a76bfc32defced0fb5693fc4",
+        "execution_monitor": "dd9d078527e2551a15202322c7bd53eb98eb0dc22a013633dfa74a062a00cf0d",
+        "motion_input": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5"
+      },
+      "sonic_weights": {
+        "model_encoder.onnx": "fb97de22819b2057b41459802128d91723d91a25f0ad73e7bfc41a9cf8365bae",
+        "model_decoder.onnx": "34bae8570d4a4421a5391a5c2befd745d4a02d182ec539e5f9da44c091c67509",
+        "observation_config.yaml": "4a67713b310932e50aca81f19188c8d76013148e98b15c8b5bbea995f12e59f0"
+      },
+      "ardy": {
+        "source_npz": "/data/group4/20261008-202654-codex-182c4568/rep/src/original_motions/new_motion_cube_a_s42.npz",
+        "source_npz_sha256": "a6ed5cb65d7fec5224253206d2854283d784dda11c27d8d6a8cc60333602cbed",
+        "source_fps": 25.0,
+        "native_frames": 100,
+        "native_clip_duration_s": 4.0,
+        "last_sample_time_s": 3.96,
+        "expected50Hz_frames": 199,
+        "converter_sha": "4685f6875271eacb2bbae958740265ff88d71eb86848e3211ba3ac361ddfd1d5",
+        "vendor_converter_sha": "3d3d16b80c24e6a68f329504edd72b400f2df998ca7bdfddbf548674a9e79fa5",
+        "converter_asset_sha": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1",
+        "joint_names": [
+          "left_hip_pitch_joint",
+          "left_hip_roll_joint",
+          "left_hip_yaw_joint",
+          "left_knee_joint",
+          "left_ankle_pitch_joint",
+          "left_ankle_roll_joint",
+          "right_hip_pitch_joint",
+          "right_hip_roll_joint",
+          "right_hip_yaw_joint",
+          "right_knee_joint",
+          "right_ankle_pitch_joint",
+          "right_ankle_roll_joint",
+          "waist_yaw_joint",
+          "waist_roll_joint",
+          "waist_pitch_joint",
+          "left_shoulder_pitch_joint",
+          "left_shoulder_roll_joint",
+          "left_shoulder_yaw_joint",
+          "left_elbow_joint",
+          "left_wrist_roll_joint",
+          "left_wrist_pitch_joint",
+          "left_wrist_yaw_joint",
+          "right_shoulder_pitch_joint",
+          "right_shoulder_roll_joint",
+          "right_shoulder_yaw_joint",
+          "right_elbow_joint",
+          "right_wrist_roll_joint",
+          "right_wrist_pitch_joint",
+          "right_wrist_yaw_joint"
+        ],
+        "body_order": "MuJoCo XML hinge order; SONIC remaps to IsaacLab explicitly",
+        "text": "A person reaches forward with their right hand to grab a small object on a table.",
+        "conversion": "native local_rot_mats + root_positions; no angles inferred from posed_joints",
+        "paired_csv_sha256": "cb5f54314c7a30a2b6a101fe109c2c53f0361540d4b3e28db294b435577b7aaa",
+        "parity_joint_max_rad": 1.1920928955078125e-07,
+        "parity_root_translation_max_m": 0.0,
+        "parity_rotation_matrix_max": 1.603860459997719e-07
+      },
+      "gate_definition": "v6 real physical digit surfaces, no sphere contacts",
+      "selected_plan": {
+        "axis": 1,
+        "roll_deg": 60,
+        "seed": 2,
+        "score": 8.373933175632549e-10,
+        "arm_q": [
+          -0.19800077514859993,
+          0.4195608947371809,
+          0.2756098911715724,
+          -0.005905654181222277,
+          -0.6518736163538921,
+          1.3687414720871722,
+          -1.099033956896661
+        ],
+        "hand_q": [
+          0.32098967744134155,
+          -0.2535568312867861,
+          -0.08000000000000002,
+          0.1,
+          0.1,
+          1.3018682217960067,
+          0.08000000000000002
+        ],
+        "wrist_target": [
+          0.19770285855091574,
+          -0.028241299304024872,
+          0.9075877752486425
+        ],
+        "wrist_R": [
+          [
+            0.434019771463418,
+            0.37876649465027873,
+            0.8174122463660444
+          ],
+          [
+            -0.891834253321467,
+            0.30905561303448087,
+            0.3303275535804161
+          ],
+          [
+            -0.1275088333464936,
+            -0.8723649297067264,
+            0.47193318047833266
+          ]
+        ],
+        "grasp_center": [
+          0.28,
+          -0.118,
+          0.7825
+        ],
+        "position_error_mm": 8.373933175632549e-10,
+        "angle_error_deg": 1.4565329844408178e-07,
+        "table_min_mm": 9.93491357048104,
+        "cube_dist_mm": {
+          "physical_right_hand_thumb_0_link": 20.0,
+          "physical_right_hand_thumb_1_link": 20.0,
+          "physical_right_hand_thumb_2_link": 20.0,
+          "physical_right_hand_index_0_link": 20.0,
+          "physical_right_hand_index_1_link": 20.0,
+          "physical_right_hand_middle_0_link": 20.0,
+          "physical_right_hand_middle_1_link": 20.0,
+          "wrist87": 20.0,
+          "wrist89": 20.0
+        },
+        "marker_points": [
+          [
+            0.2799999999955238,
+            -0.09654297197607539,
+            0.7825000000987825
+          ],
+          [
+            0.33834709644131344,
+            -0.22770022591106903,
+            0.8639851120638569
+          ],
+          [
+            0.2799999998991285,
+            -0.13945702839713972,
+            0.7825000000996145
+          ]
+        ]
+      },
+      "plan_file_sha": "ac2eeb02d6825e54feb2628e465a383f4625f29d9765b14e0a2045de5a75c810",
+      "joint_plan_sha": "4dd0c1aeacdd61465599da453539aa30985106f4e33109bff92a37f7e3ac13cc",
+      "joint_plan": {
+        "waypoints": [
+          {
+            "name": "INITIAL",
+            "arm_q": [
+              0.445,
+              -0.249,
+              0.061,
+              0.494,
+              0.113,
+              -0.242,
+              -0.028
+            ],
+            "wrist_p": [
+              0.03780177780397599,
+              -0.21897797495572993,
+              0.7694780061709567
+            ],
+            "wrist_R": [
+              [
+                0.7641876532293611,
+                0.07038929124160037,
+                0.641141621118382
+              ],
+              [
+                -0.16628801901861223,
+                0.9819248450555681,
+                0.0903985253943003
+              ],
+              [
+                -0.6231897988435524,
+                -0.17569560706262252,
+                0.7620797387913084
+              ]
+            ],
+            "center": [
+              0.13265356578907883,
+              -0.1322980295675279,
+              0.6512996632247869
+            ]
+          },
+          {
+            "name": "SAFE",
+            "arm_q": [
+              0.6039213170775395,
+              -0.5888920293157536,
+              -0.9082998759235027,
+              -0.47954424726426853,
+              0.10311278910004931,
+              -0.49560866520771035,
+              0.04289838435305901
+            ],
+            "wrist_p": [
+              0.05024567565968685,
+              -0.3219065392219471,
+              1.0357154389691507
+            ],
+            "wrist_R": [
+              [
+                0.8045657286172654,
+                0.524394810094228,
+                -0.27871862420873084
+              ],
+              [
+                -0.00785340599858475,
+                0.478685164114403,
+                0.8779515007510318
+              ],
+              [
+                0.5938116808793765,
+                -0.7041807983770972,
+                0.3892519631912006
+              ]
+            ],
+            "center": [
+              0.22121193626743196,
+              -0.28786228074625386,
+              1.0263387894278742
+            ]
+          },
+          {
+            "name": "PRE",
+            "arm_q": [
+              0.3006765021250901,
+              0.32934696771149935,
+              0.8024144134318703,
+              -0.5677628799862324,
+              -0.7590622084638842,
+              1.5939058486548678,
+              -1.1405245872571301
+            ],
+            "wrist_p": [
+              0.09968104306106773,
+              -0.025570916619191295,
+              0.9316445080399617
+            ],
+            "wrist_R": [
+              [
+                0.4608237409338613,
+                0.37276616454383915,
+                0.805410992203978
+              ],
+              [
+                -0.87472921436227,
+                0.3441236996040277,
+                0.3412150068681069
+              ],
+              [
+                -0.14996760094395978,
+                -0.8617565003770565,
+                0.4846498248477976
+              ]
+            ],
+            "center": [
+              0.1850903734889735,
+              -0.10936267116085377,
+              0.8045202243461618
+            ]
+          },
+          {
+            "name": "GRASP",
+            "arm_q": [
+              -0.19800077514859993,
+              0.4195608947371809,
+              0.2756098911715724,
+              -0.005905654181222277,
+              -0.6518736163538921,
+              1.3687414720871722,
+              -1.099033956896661
+            ],
+            "wrist_p": [
+              0.19770285855098876,
+              -0.028241299303347858,
+              0.9075877752481551
+            ],
+            "wrist_R": [
+              [
+                0.4340197696118978,
+                0.3787664963827343,
+                0.8174122465463707
+              ],
+              [
+                -0.8918342542988528,
+                0.3090556121667666,
+                0.3303275517534615
+              ],
+              [
+                -0.1275088328126554,
+                -0.8723649292619314,
+                0.4719331814447687
+              ]
+            ],
+            "center": [
+              0.27999999994732616,
+              -0.11800000018660756,
+              0.7825000000991985
+            ]
+          },
+          {
+            "name": "LIFT",
+            "arm_q": [
+              -0.3325707860119142,
+              0.7537563870438371,
+              0.19893457362989658,
+              -0.06091699067975397,
+              -1.9322199999998564,
+              1.4287243279308144,
+              -0.16677574198661957
+            ],
+            "wrist_p": [
+              0.19409329147473112,
+              -0.021684602091306494,
+              1.0000530986914211
+            ],
+            "wrist_R": [
+              [
+                0.40453036346240007,
+                0.4421545036258274,
+                0.8005339342965903
+              ],
+              [
+                -0.9111635046449402,
+                0.2698427761311593,
+                0.3113935515918399
+              ],
+              [
+                -0.07833423798141753,
+                -0.8553854517661778,
+                0.5120346434242935
+              ]
+            ],
+            "center": [
+              0.28000206078333373,
+              -0.11799742915031064,
+              0.8824949511313358
+            ]
+          }
+        ],
+        "table_penetrations": [],
+        "lift_position_error_mm": 0.0060288614896620765
+      }
+    },
+    "physics_steps": 21482,
+    "hold_samples": 0,
+    "foot_body_whitelist": [
+      "left_ankle_roll_link",
+      "right_ankle_roll_link"
+    ],
+    "robot_table_hold_max_normal_N": null,
+    "nonfoot_floor_hold_max_normal_N": null,
+    "foot_floor_hold_min_normal_N": null,
+    "robot_table_all_max_normal_N": 4.1512966825846025,
+    "nonfoot_floor_all_max_normal_N": 0.0,
+    "no_table_rest_in_hold": false,
+    "no_nonfoot_floor_support_in_hold": false,
+    "feet_supported_in_hold": false,
+    "state_mutations": false,
+    "columns": [
+      "time_s",
+      "solver_time_s",
+      "robot_table_or_riser_force_N",
+      "left_foot_floor_force_N",
+      "right_foot_floor_force_N",
+      "nonfoot_floor_force_N"
+    ],
+    "scope": "support contacts only; not a COM/COP stability-margin certificate",
+    "raw_robot_support_contact_rows": 15,
+    "raw_robot_support_contact_limit": 1440000,
+    "raw_force_frame": "MuJoCo contact frame; f0 is normal, wrench on geom2; not signed world support force",
+    "raw_contact_columns": [
+      "time_s",
+      "solver_time_s",
+      "phase",
+      "contact_index",
+      "robot_geom_id",
+      "robot_geom_name",
+      "support_geom_id",
+      "support_geom_name",
+      "robot_body",
+      "category",
+      "distance_m",
+      "normal_force_N",
+      "tangent1_force_N",
+      "tangent2_force_N",
+      "contact_torque0_Nm",
+      "contact_torque1_Nm",
+      "contact_torque2_Nm"
+    ]
+  },
+  "filter": {
+    "kind": "receding C2 quintic; analytic full-segment extrema; consistent q/dq future samples",
+    "calls": 2149,
+    "velocity_max_rad_s": 0.5999618756306756,
+    "acceleration_max_rad_s2": 1.4987112417722237,
+    "jerk_max_rad_s3": 11.993610187213523,
+    "max_replan_C2_boundary_jump": 0.0,
+    "max_plan_horizon_s": 8.024490403430397,
+    "velocity_limit": 0.6,
+    "acceleration_limit": 1.5,
+    "jerk_limit": 12,
+    "continue_certified_enabled": true,
+    "certified_continuation_steps": 7,
+    "continuation_rule": "reject infeasible replacement; continue the remaining previously certified C2 segment; clamp future sampling time at its zero-velocity/acceleration endpoint; stop if no certified segment exists"
+  },
+  "simulation_steps": 21482,
+  "wall_s": 109.70118527603336
+}

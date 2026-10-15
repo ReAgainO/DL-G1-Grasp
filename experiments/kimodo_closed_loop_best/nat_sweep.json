@@ -1,0 +1,79 @@
+[
+ {
+  "cell": "wb_nat_r00",
+  "relax": "0.0",
+  "success": false,
+  "gates_pass": 9,
+  "gates_total": 20,
+  "failed": [
+   "completed",
+   "hold_7cm",
+   "two_fingers",
+   "no_support",
+   "clearance_4cm",
+   "slip_1cm",
+   "release_drop_6cm",
+   "no_table_rest_in_hold",
+   "no_nonfoot_floor_support_in_hold",
+   "feet_supported_in_hold",
+   "fingertip_only_robot_contacts_in_hold"
+  ],
+  "max_lift_m": null,
+  "table_N": null,
+  "total_roll_deg": 99.19,
+  "hand_down_deg": 48.26,
+  "elbow_bend_deg": 101.58
+ },
+ {
+  "cell": "wb_nat_r02",
+  "relax": "0.2",
+  "success": true,
+  "gates_pass": 20,
+  "gates_total": 20,
+  "failed": [],
+  "max_lift_m": 0.13952713798289462,
+  "table_N": null,
+  "total_roll_deg": 346.5,
+  "hand_down_deg": 27.28,
+  "elbow_bend_deg": 84.45
+ },
+ {
+  "cell": "wb_nat_r04",
+  "relax": "0.4",
+  "success": true,
+  "gates_pass": 20,
+  "gates_total": 20,
+  "failed": [],
+  "max_lift_m": 0.14008139575604972,
+  "table_N": null,
+  "total_roll_deg": 332.13,
+  "hand_down_deg": 26.86,
+  "elbow_bend_deg": 84.51
+ },
+ {
+  "cell": "wb_nat_r06",
+  "relax": "0.6",
+  "success": true,
+  "gates_pass": 20,
+  "gates_total": 20,
+  "failed": [],
+  "max_lift_m": 0.1387554160663066,
+  "table_N": null,
+  "total_roll_deg": 343.07,
+  "hand_down_deg": 27.22,
+  "elbow_bend_deg": 84.52
+ },
+ {
+  "cell": "wb_nat_r10",
+  "relax": "1.0",
+  "success": true,
+  "gates_pass": 20,
+  "gates_total": 20,
+  "failed": [],
+  "max_lift_m": 0.1439862432245319,
+  "table_N": null,
+  "total_roll_deg": 344.7,
+  "hand_down_deg": 27.24,
+  "elbow_bend_deg": 84.44
+ }
+]

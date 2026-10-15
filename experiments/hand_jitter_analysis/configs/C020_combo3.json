@@ -1,0 +1,16 @@
+{
+  "id": "C020_combo3",
+  "source_episode": "C020",
+  "tau": 0,
+  "damping": 3,
+  "servo_gain": 0.03,
+  "start": 42,
+  "source_hashes": {
+    "execute_jitter.py": "08ba229afed99d4108e68461510ca7a1ec3346a2d0a9bff78f2a1b78f7cce422",
+    "jitter_control.py": "c991332de3336a1c442f0c9d4ff840e4ae8419a36e298939e7ce49614bffc267",
+    "run_wave.py": "673c0d517cb1102cbebb46871b22e48e79d30084e71b3432b85a163bca705604",
+    "wholehand_side.py": "bae1eb9db7d7d8b20c11feee038a71b1434f878d9232b308eabb9932c1722d40",
+    "lib/sonic_v11.py": "75815b28521b43d96c9abf6a1ac546763ac9c384eda6b8dd6389d7c15300fef2"
+  },
+  "frozen_source_reference_sha": "d34a9cd83f62a8b998cdfd04f43b11682c045510c51a4a11375083a2d89f12e1"
+}

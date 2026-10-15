@@ -1,0 +1,167 @@
+{
+  "acceptance_metrics": {
+    "contact_bodies": [
+      "right_hand_index_1_link",
+      "right_hand_thumb_2_link"
+    ],
+    "final_clearance_metres": 0.12736102813845235,
+    "final_cube_position_xyz": [
+      0.2791528721120032,
+      -0.09539990606519955,
+      0.8698610281384523
+    ],
+    "lift_contact_time_seconds": 4.0,
+    "lifted_height_metres": 0.09536102813845238,
+    "max_contact_bodies": 2,
+    "max_contacts": 2,
+    "max_normal_force_newtons": 4.21103750893518,
+    "success": true
+  },
+  "artifact_type": "scene-conditioned-physical-grasp-keyframe-baseline",
+  "coordinate_contract": {
+    "handedness": "right-handed",
+    "joint_unit": "radian",
+    "position_unit": "metre",
+    "quaternion_order": "wxyz",
+    "world_up": "+Z"
+  },
+  "csv": {
+    "columns": {
+      "0:3": "root position xyz, world frame, metres",
+      "3:7": "root quaternion wxyz",
+      "7:36": "29 body joints, MuJoCo actuator order, radians"
+    },
+    "duration_seconds": 18.0,
+    "header": false,
+    "joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "waist_yaw_joint",
+      "waist_roll_joint",
+      "waist_pitch_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "left_wrist_roll_joint",
+      "left_wrist_pitch_joint",
+      "left_wrist_yaw_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint",
+      "right_wrist_roll_joint",
+      "right_wrist_pitch_joint",
+      "right_wrist_yaw_joint"
+    ],
+    "path": "/data/group4/20261006-055934-qoder-x05eval/runs/c4_c1_327/r02/baseline.csv",
+    "sha256": "b63c27970a6ee4ca4611143eeb5cbcfc7ee1776b4d6425f3ec2e83895c6876e0",
+    "shape": [
+      900,
+      36
+    ],
+    "source_fps": 50.0
+  },
+  "generated_utc": "2026-10-05T22:08:04.823618+00:00",
+  "hand_control": {
+    "close_duration_seconds": 2.0,
+    "close_start_seconds": 12.0,
+    "closed_target_radians": [
+      0.0,
+      -0.6,
+      -0.425,
+      1.4,
+      0.08,
+      1.4,
+      0.08
+    ],
+    "joint_names": [
+      "right_hand_thumb_0_joint",
+      "right_hand_thumb_1_joint",
+      "right_hand_thumb_2_joint",
+      "right_hand_index_0_joint",
+      "right_hand_index_1_joint",
+      "right_hand_middle_0_joint",
+      "right_hand_middle_1_joint"
+    ],
+    "lift_duration_seconds": 3.0,
+    "lift_start_seconds": 14.0,
+    "open_target_radians": [
+      0.0,
+      -0.7,
+      -2.0,
+      1.4,
+      0.08,
+      1.4,
+      0.08
+    ],
+    "representation": "independent PD; not stored in CSV",
+    "thumb_delay_seconds": 0.0
+  },
+  "provenance": {
+    "physical_contact_only": true,
+    "producer": "runners/run_grasp.py keyframe mode",
+    "reproduction_command": "/data/group4/20261004-205550-qoder-1280b420/env/bin/python runners/run_grasp.py --headless --quiet --export-baseline-csv /data/group4/20261006-055934-qoder-x05eval/runs/c4_c1_327/r02/baseline.csv --export-baseline-manifest /data/group4/20261006-055934-qoder-x05eval/runs/c4_c1_327/r02/manifest.json",
+    "scene_conditioned": true,
+    "uses_weld_or_adhesion": false
+  },
+  "scene": {
+    "model_path": "/data/group4/20261006-055934-qoder-x05eval/bridge/g1/g1_29dof_with_hand.xml",
+    "model_sha256": "afae2a871d5f138a3bc49d673789b6d10a99316a073637032ee692991f3abf2e",
+    "objects": {
+      "cube": {
+        "body": "red_cube",
+        "geom": "red_cube_geom",
+        "half_size_xyz": [
+          0.0175,
+          0.0175,
+          0.0175
+        ],
+        "initial_centre_xyz": [
+          0.267,
+          -0.118,
+          0.7745
+        ],
+        "joint": "red_cube_free"
+      },
+      "robot": {
+        "name": "Unitree G1 29-DoF with hands",
+        "nq": 57,
+        "nu": 43,
+        "nv": 55
+      },
+      "table": {
+        "centre_xyz": [
+          0.55,
+          0.0,
+          0.7
+        ],
+        "geom": "table_top",
+        "half_size_xyz": [
+          0.35,
+          0.45,
+          0.025
+        ]
+      }
+    },
+    "path": "/data/group4/20261006-055934-qoder-x05eval/bridge/g1/scene_grasp_hand.xml",
+    "sha256": "d2a2bb51721bcc8a7baf859003d93946b663cf861faba837017d794bcfb140f4"
+  },
+  "schema_version": 1,
+  "scope": {
+    "csv_contains_body_and_root_ground_truth": true,
+    "csv_contains_hand_joints": false,
+    "note": "This is recorded keyframe-controller ground truth for the pinned scene. It is not a claim that SONIC replay of the CSV reproduces the grasp.",
+    "sonic_closed_loop_replay_validated": false
+  }
+}

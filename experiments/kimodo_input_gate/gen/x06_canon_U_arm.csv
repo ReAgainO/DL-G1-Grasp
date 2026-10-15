@@ -1,0 +1,8 @@
+run_id,prompt_id,seed,cfg_text,csv_path,prompt_text,constraints_sha,baseline
+x06:c2u_p0_s0_u,P0,0,2.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2u_p0_s0_u.csv,A person reaches forward with their right hand to grab a small object on a table.,,1
+x06:c2u_p1_s0_u,P1,0,2.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2u_p1_s0_u.csv,A person standing in front of a table picks up a small box with their right hand.,,0
+x06:c2u_p2_s0_u,P2,0,2.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2u_p2_s0_u.csv,A person extends their right arm toward a small object resting on a table and takes it.,,0
+x06:c2u_p3_s0_u,P3,0,2.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2u_p3_s0_u.csv,A person waters the plants on the balcony with their right hand.,,0
+x06:c2u_p4_s0_u,P4,0,2.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2u_p4_s0_u.csv,"A person reaches forward with their right hand to grab a small object on a table at x=0.267, y=-0.118, z=0.7745.",,0
+x06:c2u_p5_s0_u,P5,0,2.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2u_p5_s0_u.csv,A person leans forward over a table and grabs a cup.,,0
+x06:c2u_p6_s0_u,P6,0,2.0,/data/group4/20261006-055932-qoder-x06canon/gen/c2u_p6_s0_u.csv,a person reaches forward with their right hand to grab a small object on a table,,0

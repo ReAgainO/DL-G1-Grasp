@@ -1,0 +1,19 @@
+name=a35_00_06__comb
+utc_start=2026-10-08T16:18:15Z
+host=worker00039 uid=1004
+runner_sha256=2b2cc5ab24845b23764b7c56b96593731107e8aec2fae4011d1fb56253917746
+sonic_grasp_sha256=574bc600d7122f2b59d616c3b0ec49587cbec300bc11b138c224633c7a7c18c3
+native_branch_sha256=64090ff6d47802755a23b99fe11ae27b4ce130dfc899c5d953d081c51b9164e8
+adaptive_hand_sha256=f35a826835f57cff66ca5411c46b72b63c770e832259e6b88ba4c0d048232c34
+grasp_geometry_sha256=bbbfbde344d8e5359498287ece86fa509c34882a01aa21754c9c123d3b577358
+motion_stem=near_s42
+motion_npz_sha256=78eac68c405ceae93cb737b58022e83b5251d9d71def1eedb417caae0b73daff
+cpus=99,98 nice=19 ulimit_v_KiB=16777216
+sonic_grasp_args=a35_00_06__comb --cube-edge-mm=35 --cube-x=0.266000 --cube-y=-0.127600 --substep 4 --contact-margin 0.001 --solref 0.02 1 --impratio 10 --finger-pd=100,10 --finger-armature=0.1
+w4c_phys_args=--substep 4 --contact-margin 0.001 --solref 0.02 1 --impratio 10
+pressure_cpu: some avg10=0.05 avg60=0.26 avg300=0.20 total=4058443113 full avg10=0.00 avg60=0.00 avg300=0.00 total=0 
+df_data_avail_kb=11110465332
+
+utc_end=2026-10-08T16:21:05Z
+rc=0 wall_s=170
+result_json=/data/group4/20261008-221515-qoder-03c4673f/ws4_migrate/rep_ext_comb/rep/out/a35_00_06__comb/result.json

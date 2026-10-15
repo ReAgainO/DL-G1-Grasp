@@ -1,0 +1,48 @@
+{
+  "command": [
+    "/data/group4/20261004-205543-qoder-f5a4a02a/env-gen/bin/python",
+    "-B",
+    "/data/group4/20261006-093203-codex-6385a841/phase_generate_entry.py",
+    "--checkpoints_dir",
+    "/home/group4/group4_dasc7606c/weights/ardy_ckpt",
+    "--out_dir",
+    "/data/group4/20261006-093203-codex-6385a841/out/generated_phases2",
+    "--enc_mode",
+    "stacked",
+    "--duration",
+    "4",
+    "--diffusion_steps",
+    "10",
+    "--jobs",
+    "[{\"stem\": \"reach_s43\", \"seed\": 43, \"prompt\": \"A person reaches forward with their right hand to grab a small object on a table.\"}, {\"stem\": \"lift_s42\", \"seed\": 42, \"prompt\": \"A standing person slowly lifts a small object upward with their right hand and keeps the left arm relaxed.\"}, {\"stem\": \"hold_s42\", \"seed\": 42, \"prompt\": \"A standing person holds a small object steadily in their right hand in front of the chest.\"}, {\"stem\": \"release_s42\", \"seed\": 42, \"prompt\": \"A standing person slowly lowers their right hand to place a small object back on a table.\"}]",
+    "--summary",
+    "/data/group4/20261006-093203-codex-6385a841/out/generated_phases2/summary.json"
+  ],
+  "exit_code": 0,
+  "wall_s": 85.62159732892178,
+  "peak_rss_MiB": 14894.72265625,
+  "stop_reason": null,
+  "scope": {
+    "time": "2026-10-06T10:17:04.712936+08:00",
+    "cpu4": true,
+    "AS_GiB": 40,
+    "RSS_GiB": 24,
+    "timeout_s": 285,
+    "purpose": "read-only existing 8B text encoder CPU inference, <=4 jobs x4s x25fps; no training/GPU/shared installation",
+    "previous_physics_AS16_unchanged": true,
+    "source_copy_peak_MiB": 132,
+    "data_total_GiB_limit": 1
+  },
+  "source_manifest_sha": "3dd0be7bc82d7cdbc090afc24b25bcf59cd16e25ce89c36a8a1943aab65bd201",
+  "summary_sha": "a1555c9380666c58b9d3084b6bf34dc52a0fcf5fabe55604befceb21fd98b003",
+  "generated_files": {
+    "release_s42.npz": "961dbba514c4ce6e3c31c30a44f7d9e98451477fe03df37fd616f1a0a2b2bc57",
+    "reach_s43.npz": "62607734726d37cba47ef2b0c1c1fc53d0c2cc9200e6181a1b281376b01dc5b3",
+    "release_s42.csv": "5e7fc6df16490d56b648da0a57f7652201c94f2c5e9b88792705b1ca4ba88a31",
+    "hold_s42.csv": "9e0e8c2ffffa1b4d26f7e53dd6eb7765ac5f4e48104e8b2cca58e1d595b8d41e",
+    "lift_s42.csv": "a9effe3eeb78e272fe39464fb943c28dcaff6b0434bb10fc847c4d144e23d406",
+    "lift_s42.npz": "d9c93e72977af4853041063bccd87665f1ebb727b9c8a4c1f3003b01cb2fcdf5",
+    "hold_s42.npz": "4fc6a571e6661b9c345f5b1e669fbcd6d7713029e99d4b4c066dc5e0ad731096",
+    "reach_s43.csv": "1cd7616beb275c020720a94728c333d7145f41ae5e1e6ad1a9c916244bc0873c"
+  }
+}

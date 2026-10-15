@@ -1,0 +1,12 @@
+[
+  {
+    "stem": "w7_control_s43",
+    "seed": 43,
+    "prompt": "A person reaches forward with their right hand to grab a small object on a table."
+  },
+  {
+    "stem": "w7_upright_reach_s43",
+    "seed": 43,
+    "prompt": "A standing person slowly reaches down and forward with their right hand to grasp a small object on a table, keeping their torso upright and their left arm relaxed."
+  }
+]

@@ -1,0 +1,18 @@
+name=e35n_00_09_covoff
+utc_start=2026-10-08T10:45:55Z
+host=worker00039 uid=1004
+runner_sha256=563f72eed253ccd0a4c850b54a86edc8fb1e23a496ef12acf5474e3aeac8d82d
+sonic_grasp_sha256=1e2a8edd9667bc62ec7f50898a775c87af54e638bdb1ba43723cbf2334c09c74
+native_branch_sha256=64090ff6d47802755a23b99fe11ae27b4ce130dfc899c5d953d081c51b9164e8
+adaptive_hand_sha256=f35a826835f57cff66ca5411c46b72b63c770e832259e6b88ba4c0d048232c34
+grasp_geometry_sha256=bbbfbde344d8e5359498287ece86fa509c34882a01aa21754c9c123d3b577358
+motion_stem=new_motion_cube_a_s42
+motion_npz_sha256=a6ed5cb65d7fec5224253206d2854283d784dda11c27d8d6a8cc60333602cbed
+cpus=22,23 nice=19 ulimit_v_KiB=16777216
+sonic_grasp_args=e35n_00_09_covoff --cube-edge-mm=35 --cube-x=0.266000 --cube-y=-0.117400
+pressure_cpu: some avg10=6.40 avg60=1.26 avg300=0.47 total=3860033481 full avg10=0.00 avg60=0.00 avg300=0.00 total=0 
+df_data_avail_kb=11343618168
+
+utc_end=2026-10-08T10:45:56Z
+rc=2 wall_s=1
+result_json=/data/group4/20261008-182000-qoder-7d11d1ae/rep_fixE/rep/out/e35n_00_09_covoff/result.json

@@ -1,0 +1,417 @@
+{
+  "status": "FAIL",
+  "model": "ARDY/G1 full-body reference + Dex3 three-finger hand; prescribed kinematic robot, dynamic free cube",
+  "source_scene": "/data/group4/20261009-020500-codex-ardyside3/source/baseline_d50_12_19/scene.xml",
+  "source_scene_sha256": "d8b8589905e9abaf89ab5918d23d59b6a102cf65c060cad4f75315c51a3cd350",
+  "source_trajectory": "/data/group4/20261009-020500-codex-ardyside3/source/baseline_d50_12_19/trajectory.npz",
+  "source_trajectory_sha256": "0ec6241914b15b6c2482669450b669450e7df1755b005dc356c09de8392244ab",
+  "user_reference_video_sha256": "66ffe387baff75715892d7590040a0263a6c0cfcd850e5d90f3123170032af4e",
+  "mujoco_version": "3.15.0",
+  "nq": 57,
+  "nv": 55,
+  "nu": 43,
+  "neq": 0,
+  "timestep_s": 0.002,
+  "source_fps": 25,
+  "frames": 1518,
+  "sim_duration_s": 60.680000000028194,
+  "cube_edge_m": 0.05,
+  "cube_mass_kg": 0.02,
+  "cube_initial_center_m": [
+    0.4,
+    -0.08,
+    0.782
+  ],
+  "table_top_z_m": 0.757,
+  "table_size_half_m": [
+    0.315,
+    0.45,
+    0.025
+  ],
+  "cube_yaw_deg": 38.4,
+  "handpad_radius_m": 0.01,
+  "tripod_face_normal_xy": [
+    0.7836934573258398,
+    0.6211477802783103
+  ],
+  "tripod_targets_world_m": [
+    [
+      0.4267239468948112,
+      -0.05881886069250962,
+      0.782
+    ],
+    [
+      0.37948753090797194,
+      -0.10901807388074879,
+      0.782
+    ],
+    [
+      0.36706457530240577,
+      -0.09334420473423198,
+      0.782
+    ]
+  ],
+  "tripod_actual_pad_centers_world_m": [
+    [
+      0.426714214454966,
+      -0.058826814841777,
+      0.7820050140520118
+    ],
+    [
+      0.3909362569293882,
+      -0.12354990250538539,
+      0.7818222962120944
+    ],
+    [
+      0.3556227228656534,
+      -0.07880768028579022,
+      0.7821822093530035
+    ]
+  ],
+  "tripod_pad_distances_to_cube_m": [
+    -0.0009125679515919107,
+    -0.00019964861249969004,
+    -0.0003086334888501487
+  ],
+  "protected_wrist_distances_to_cube_m": [
+    0.07457589618068754,
+    0.07457589618068754,
+    0.05961063910517073,
+    0.05961063910517073,
+    0.03977003052378007,
+    0.03977003052378007
+  ],
+  "tripod_pad_center_signed_face_projection_m": [
+    0.034087432048408084,
+    -0.03415412141587785,
+    -0.03403757500025958
+  ],
+  "ik_success_flag": true,
+  "ik_nfev": 366,
+  "lift_ik_success_flag": true,
+  "lift_ik_nfev": 13,
+  "lift_actual_pad_centers_world_m": [
+    [
+      0.4192554989261837,
+      -0.0525808946396981,
+      0.9148853330939365
+    ],
+    [
+      0.4072815535080958,
+      -0.12061720465961626,
+      0.888487248746385
+    ],
+    [
+      0.3592650767984553,
+      -0.09048546524849253,
+      0.8944486176445394
+    ]
+  ],
+  "lift_pad_target_error_m": [
+    0.01614145517392414,
+    0.02129772118826832,
+    0.014472243935207105
+  ],
+  "hover_ik_success_flag": true,
+  "hover_ik_nfev": 13,
+  "open_ik_success_flag": true,
+  "open_ik_nfev": 68,
+  "open_finger_joint_delta_rad": {
+    "right_hand_thumb_0_joint": 0.1565937631902227,
+    "right_hand_thumb_1_joint": -0.02473629478547104,
+    "right_hand_thumb_2_joint": 0.16129900763457866,
+    "right_hand_index_0_joint": 0.22589407196867728,
+    "right_hand_index_1_joint": 0.07261376015105236,
+    "right_hand_middle_0_joint": 0.17938272423700408,
+    "right_hand_middle_1_joint": 0.1568742516157462
+  },
+  "open_targets_world_m": [
+    [
+      0.4329837621135727,
+      -0.053857632599550516,
+      0.7820050140520118
+    ],
+    [
+      0.3846667092707815,
+      -0.12851908474761187,
+      0.7818222962120944
+    ],
+    [
+      0.3493531752070467,
+      -0.0837768625280167,
+      0.7821822093530035
+    ]
+  ],
+  "open_actual_pad_centers_world_m": [
+    [
+      0.4329808568554865,
+      -0.053860676459306346,
+      0.7820061522488445
+    ],
+    [
+      0.38470461166921566,
+      -0.12857178836682723,
+      0.7818183673877339
+    ],
+    [
+      0.34931586407473064,
+      -0.08372118052578538,
+      0.7821873954981914
+    ]
+  ],
+  "open_pad_target_error_m": [
+    4.359024981643957e-06,
+    6.503613569635554e-05,
+    6.7227242016179e-05
+  ],
+  "close_waypoint_max_center_error_m": [
+    6.7227242016179e-05,
+    5.290647314679497e-05,
+    4.301794294647197e-05,
+    3.4818558133434765e-05,
+    2.77406013606667e-05,
+    2.1604077128875923e-05,
+    1.634422883340013e-05,
+    1.217519128179929e-05,
+    9.142196648197588e-06,
+    6.916245133511956e-06,
+    5.857800514522267e-06,
+    5.141525077647232e-06,
+    5.036782976268942e-06,
+    5.273124132490401e-06,
+    5.8742252977120635e-06,
+    6.5082321326302525e-06,
+    7.123132770976925e-06,
+    7.601130253866499e-06,
+    7.923582055419515e-06,
+    8.10386050174123e-06,
+    0.0
+  ],
+  "phase_schedule_s": {
+    "HOVER": 0.0,
+    "DESCEND": 37.37199999999971,
+    "ALIGN": 45.37400000000949,
+    "CLOSE": 45.37400000000949,
+    "CONTACT_CONFIRM": 49.36200000001436,
+    "PRELIFT": 49.61200000001436,
+    "LIFT": 49.61200000001436,
+    "HOLD": 54.61200000001436,
+    "RELEASE": 56.680000000023306
+  },
+  "three_finger_contact_latched_at_s": 49.36200000001436,
+  "first_contact_descent_pause_at_s": null,
+  "first_close_contact_dwell_at_s": 48.562000000013384,
+  "per_finger_contact_latched_at_s": {
+    "thumb": null,
+    "index": null,
+    "middle": null
+  },
+  "latched_hand_joint_values_rad": [
+    0.006178383101855032,
+    -0.04569229185836328,
+    -0.3950100450178308,
+    1.0621054489272344,
+    1.9348360131277755,
+    1.0577302566845712,
+    1.9377667242512842
+  ],
+  "squeeze_mm": 0.9,
+  "per_finger_squeeze_mm": {
+    "thumb": 0.9,
+    "index": 0.9,
+    "middle": 0.9
+  },
+  "grip_height_offset_mm": 0.0,
+  "open_gap_mm": 8.0,
+  "close_duration_s": 4.0,
+  "confirm_duration_s": 0.25,
+  "lift_duration_s": 5.0,
+  "prelift_nudge_mm": 0.0,
+  "prelift_duration_s": 0.0,
+  "pad_friction_coefficient": 2.0,
+  "pad_adhesion_per_contact_N": 0.0,
+  "cube_friction_coefficient": 2.0,
+  "finger_geom_friction": [
+    [
+      2.0,
+      0.02,
+      0.002
+    ],
+    [
+      2.0,
+      0.02,
+      0.002
+    ],
+    [
+      2.0,
+      0.02,
+      0.002
+    ]
+  ],
+  "cube_geom_friction": [
+    2.0,
+    0.02,
+    0.002
+  ],
+  "finger_geom_priority": [
+    0,
+    0,
+    0
+  ],
+  "cube_geom_priority": 0,
+  "hover_targets_world_m": [
+    [
+      0.4329837621135727,
+      -0.053857632599550516,
+      0.8570050140520118
+    ],
+    [
+      0.3846667092707815,
+      -0.12851908474761187,
+      0.8568222962120944
+    ],
+    [
+      0.3493531752070467,
+      -0.0837768625280167,
+      0.8571822093530035
+    ]
+  ],
+  "descent_waypoint_heights_m": [
+    0.075,
+    0.071,
+    0.06705555555555555,
+    0.0631111111111111,
+    0.05916666666666666,
+    0.055222222222222214,
+    0.05127777777777777,
+    0.04733333333333333,
+    0.04338888888888889,
+    0.03944444444444444,
+    0.0355,
+    0.03155555555555555,
+    0.027611111111111107,
+    0.02366666666666667,
+    0.019722222222222224,
+    0.01577777777777778,
+    0.011833333333333335,
+    0.00788888888888889,
+    0.003944444444444445,
+    0.0
+  ],
+  "lift_waypoint_heights_m": [
+    0.0,
+    0.006,
+    0.012,
+    0.018,
+    0.024,
+    0.03,
+    0.036,
+    0.041999999999999996,
+    0.047999999999999994,
+    0.05399999999999999,
+    0.05999999999999999,
+    0.06599999999999999,
+    0.072,
+    0.078,
+    0.08399999999999999,
+    0.09,
+    0.09599999999999999,
+    0.102,
+    0.108,
+    0.11399999999999999,
+    0.12
+  ],
+  "lift_targets_world_m": [
+    [
+      0.426714214454966,
+      -0.058826814841777,
+      0.9020050140520118
+    ],
+    [
+      0.3909362569293882,
+      -0.12354990250538539,
+      0.9018222962120944
+    ],
+    [
+      0.3556227228656534,
+      -0.07880768028579022,
+      0.9021822093530035
+    ]
+  ],
+  "lift_joint_delta_from_grasp_rad": {
+    "right_shoulder_pitch_joint": -0.2174006907538032,
+    "right_shoulder_roll_joint": -0.16655512735592132,
+    "right_shoulder_yaw_joint": -0.6067119933969467,
+    "right_elbow_joint": 0.00032572693232957306,
+    "right_wrist_roll_joint": 0.0,
+    "right_wrist_pitch_joint": 0.7118914996429734,
+    "right_wrist_yaw_joint": -0.22970210628544785,
+    "right_hand_thumb_0_joint": 0.0,
+    "right_hand_thumb_1_joint": 0.0,
+    "right_hand_thumb_2_joint": 0.0,
+    "right_hand_index_0_joint": 0.0,
+    "right_hand_index_1_joint": 0.0,
+    "right_hand_middle_0_joint": 0.0,
+    "right_hand_middle_1_joint": 0.0
+  },
+  "ik_joint_delta_rad": {
+    "right_shoulder_pitch_joint": 0.025061927813313734,
+    "right_shoulder_roll_joint": 0.4620693402284256,
+    "right_shoulder_yaw_joint": 1.6462446745713302,
+    "right_elbow_joint": 1.895959565337097,
+    "right_wrist_roll_joint": -1.4795429095987418,
+    "right_wrist_pitch_joint": 0.8916067922021411,
+    "right_wrist_yaw_joint": -2.65318948754941,
+    "right_hand_thumb_0_joint": 0.007060070928605,
+    "right_hand_thumb_1_joint": 0.6641132265200501,
+    "right_hand_thumb_2_joint": 1.5930361571358669,
+    "right_hand_index_0_joint": -0.32790059225046453,
+    "right_hand_index_1_joint": 1.85839695711874,
+    "right_hand_middle_0_joint": -0.3819252188291644,
+    "right_hand_middle_1_joint": 1.8391028901298152
+  },
+  "hold_window_s": [
+    54.61200000001436,
+    56.61200000001436
+  ],
+  "hold_frames": 50,
+  "hold_contact_rate_each": {
+    "thumb": 0.0,
+    "index": 0.0,
+    "middle": 0.0
+  },
+  "hold_min_cube_bottom_clearance_m": -4.606073121926624e-05,
+  "max_cube_bottom_clearance_overall_m": 0.052383903188883085,
+  "max_xy_slip_from_initial_overall_m": 0.03288709541790086,
+  "max_right_arm_tracking_error_rad": 0.0,
+  "max_right_hand_tracking_error_rad": 0.0,
+  "hold_max_xy_slip_from_start_m": 1.3531909034545935e-10,
+  "hold_table_support_frames": 50,
+  "gates": {
+    "three_finger_contact_rate_each_ge_90pct": false,
+    "hold_bottom_clearance_ge_70mm": false,
+    "hold_xy_slip_le_10mm": true,
+    "no_table_support_during_hold": false,
+    "static_2v1_pose_contact_and_face_sides": true
+  },
+  "physics_scope": "MuJoCo gravity/table/cube/finger contact; no weld; robot qpos prescribed kinematically",
+  "cube_xy_tracking_feedback_enabled": false,
+  "cube_xy_tracking_gain": 0.15,
+  "cube_xy_tracking_max_joint_delta_rad": 0.02,
+  "lift_extra_close_fraction": 0.0,
+  "contact_preload_fraction": 0.25,
+  "lock_arm_after_first_touch": false,
+  "staged_touch_latch": false,
+  "control_mode": "kinematic",
+  "arm_kp_Nm_per_rad": 60.0,
+  "arm_kd_Nm_s_per_rad": 8.0,
+  "hand_kp_Nm_per_rad": 8.0,
+  "hand_kd_Nm_s_per_rad": 1.5,
+  "cube_xy_tracking_feedback_mode": "after_synchronized_three_finger_latch_only",
+  "not_a_real_robot_test": true,
+  "video": "/data/group4/20261009-025512-codex-f4a8c746/iterations/iter76_x040_preload09/ardy_table_tripod_2v1.mp4",
+  "video_sha256": "66fdb21ae8a628ea2ffd9e9d75a665c0884eb0071925b22971974f58cc114db6",
+  "video_bytes": 158536,
+  "video_frames": 210,
+  "video_fps": 30
+}

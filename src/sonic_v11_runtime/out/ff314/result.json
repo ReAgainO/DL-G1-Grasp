@@ -1,0 +1,49 @@
+{
+  "runtime_stamp": {
+    "mujoco_version": "3.14.0",
+    "sys_executable": "/home/group4/group4_dasc7606c/envs/render/bin/python",
+    "python_version": "3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]",
+    "model_sha": {
+      "scene": "af19865910e94862ac5c70246811c18f0ca22a179c7a12c1990ed632697189b5",
+      "robot": "d8d7c55b87dea038f1553adf9182b0d78f3adcac7b026a1699cf8e58afad6e7d"
+    },
+    "scene_generator_sha": "6b76e5dc117022bda97d0cb6b2897e1862a3ab999ffd1074e2c8da1214082b8e",
+    "library_sha": {
+      "trajectory_py": "560bba85890893bf6e7ffaeca37f530fb5563a2101a7095dcb52de0f09eedaf9",
+      "reference_npz": "f15ae1569e33e126bb6a02a1bbdfdcfcc1133ca190d730a10bab2fe293cea9de",
+      "control_py": "6b76e5dc117022bda97d0cb6b2897e1862a3ab999ffd1074e2c8da1214082b8e",
+      "source_core": "3b37e319d360054090307cb3680017a9fdb2c1b90e8dea847a096d2baffc5d39"
+    },
+    "dt": 0.002,
+    "timestep": 0.002,
+    "diagnostic_collision_override": "all robot geoms disabled after XML load; not a grasp scene"
+  },
+  "success": true,
+  "gates": {
+    "rms_under_005rad": true,
+    "max_under_015rad": true,
+    "wrist_error_under_01m": true,
+    "torque_saturation_under_1pct": true,
+    "no_warnings": true,
+    "fixed_base": true
+  },
+  "controller": "feedforward",
+  "diagnostic": "contact-free tracking only; NO physical grasp claim",
+  "duration_s": 54.01400000002005,
+  "steps": 27007,
+  "tracking_rms_rad": 0.0027163583112949268,
+  "tracking_max_rad": 0.00575303107413172,
+  "wrist_tracking_max_m": 0.001643715510143714,
+  "torque_saturation_fraction": 0.0,
+  "actual_speed_max_rad_s": 0.5940177794480844,
+  "warning_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "wall_s": 3.280128665966913
+}
