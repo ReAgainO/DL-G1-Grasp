@@ -12,6 +12,18 @@ its sha256 in [`ASSETS-MANIFEST.tsv`](ASSETS-MANIFEST.tsv) - see §5.
 
 ---
 
+## Demo videos
+
+| Experiment | Video | Caliber |
+|---|---|---|
+| 35 mm whole hand (trial32, 22 gates green) | [normal_trial32.mp4](experiments/replay_videos_non_physical/videos/normal_trial32.mp4) | replay render of the recorded trajectory (sha in the manifest alongside) |
+| 80 mm sideways (108.574 mm / 2.5 s) | [grasp.mp4](experiments/cube80_sideways_wholehand/out/side80_native3/replay_clean/grasp.mp4) | same (`replay.json`: `replay_only=true, physical_steps=0`) |
+| KIMODO closed loop (wb_kimo_p6l1, 20/20 gates), close-up full | [g1-rightcube-sim-grasp-closeup.mp4](experiments/kimodo_closed_loop_best/wb_deliverable/g1-rightcube-sim-grasp-closeup.mp4) | render reads recorded artefacts only, no dynamics |
+| same, decisive segment | [g1-rightcube-sim-grasp-decisive.mp4](experiments/kimodo_closed_loop_best/wb_deliverable/g1-rightcube-sim-grasp-decisive.mp4) (t=43.2-56.8 s) | same |
+
+All four are visualisations of recorded runs (`mj_step = 0` renders), not recordings of a re-run;
+the physics numbers live in the §4 result table with per-number sources.
+
 ## 1. What is being measured
 
 ```
